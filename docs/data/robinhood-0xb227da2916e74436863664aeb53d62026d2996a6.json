@@ -1,0 +1,371 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.1.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xb227da2916e74436863664aeb53d62026d2996a6",
+ "scanned_at_utc": "2026-10-15T02:50:25Z",
+ "block": 88879634,
+ "site": "https://www.outpostrh.fun/",
+ "post": "https://x.com/Outpostrh/status/2110468752449974608",
+ "token": {
+  "name": "The Outpost",
+  "symbol": "OUTPOST",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "The Outpost",
+  "token_symbol": "OUTPOST",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x091f869a6e03d076eee56a240e2812be47c3918faf271d7e5ff5b86a6ff1ad76",
+  "block": 88654937,
+  "deployer": "0xded2468048747c0bad1220606923a992c2d4916b",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "tx_from": "0xded2468048747c0bad1220606923a992c2d4916b",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792009890
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 4249.8249
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0xf71b30141fd0be37136c4ab2610426107e4cf058",
+   "liq_usd": 4249.8249,
+   "created": "2026-10-14T20:31:30Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0xf71b30141fd0be37136c4ab2610426107e4cf058",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.193",
+  "216.150.16.193"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xb227da2916e74436863664aeb53d62026d2996a6?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xb227da2916e74436863664aeb53d62026d2996a6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb227da2916e74436863664aeb53d62026d2996a6",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb227da2916e74436863664aeb53d62026d2996a6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb227da2916e74436863664aeb53d62026d2996a6/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb227da2916e74436863664aeb53d62026d2996a6",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb227da2916e74436863664aeb53d62026d2996a6/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xded2468048747c0bad1220606923a992c2d4916b/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.outpostrh.fun&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/outpostrh.fun",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 88879634",
+    "https://robinhoodchain.blockscout.com/address/0xb227da2916e74436863664aeb53d62026d2996a6"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xb227da2916e74436863664aeb53d62026d2996a6",
+    "https://robinhoodchain.blockscout.com/address/0xb227da2916e74436863664aeb53d62026d2996a6?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88879634"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb227da2916e74436863664aeb53d62026d2996a6 owner() @ 88879634 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 88879634",
+    "https://repo.sourcify.dev/4663/0xb227da2916e74436863664aeb53d62026d2996a6"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb227da2916e74436863664aeb53d62026d2996a6"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xded2468048747c0bad1220606923a992c2d4916b holds 3.35% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xded2468048747c0bad1220606923a992c2d4916b) @ 88879634",
+    "https://robinhoodchain.blockscout.com/address/0xded2468048747c0bad1220606923a992c2d4916b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.35% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb227da2916e74436863664aeb53d62026d2996a6/holders",
+    "https://robinhoodchain.blockscout.com/token/0xb227da2916e74436863664aeb53d62026d2996a6?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,250 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xf71b30141fd0be37136c4ab2610426107e4cf058",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb227da2916e74436863664aeb53d62026d2996a6/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0xf71b30141fd0be37136c4ab2610426107e4cf058 (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf71b30141fd0be37136c4ab2610426107e4cf058"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xded2468048747c0bad1220606923a992c2d4916b (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xded2468048747c0bad1220606923a992c2d4916b",
+    "https://robinhoodchain.blockscout.com/tx/0x091f869a6e03d076eee56a240e2812be47c3918faf271d7e5ff5b86a6ff1ad76"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xded2468048747c0bad1220606923a992c2d4916b on Blockscout: block 88643437 (2026-10-14 20:12 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xded2468048747c0bad1220606923a992c2d4916b",
+    "https://robinhoodchain.blockscout.com/tx/0x091f869a6e03d076eee56a240e2812be47c3918faf271d7e5ff5b86a6ff1ad76",
+    "https://robinhoodchain.blockscout.com/tx/0xf1656393e96d2802dcde7776341d143ff0eb542fb1ebaf30c949fe6f1e2aaaf1",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xded2468048747c0bad1220606923a992c2d4916b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.outpostrh.fun -> 216.150.1.193, 216.150.16.193 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.outpostrh.fun&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "outpostrh.fun registered 2026-10-14 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/outpostrh.fun"
+   ]
+  },
+  {
+   "id": "social.x_age",
+   "group": "social",
+   "title": "Launch X account age",
+   "status": "flag",
+   "points": 4,
+   "detail": "X account created 2026-10-14 (0.3 days before scan).",
+   "evidence": [
+    "https://x.com/Outpostrh/status/2110468752449974608"
+   ]
+  }
+ ],
+ "score": 36,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,250 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xf71b30141fd0be37136c4ab2610426107e4cf058",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb227da2916e74436863664aeb53d62026d2996a6/pools"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xded2468048747c0bad1220606923a992c2d4916b on Blockscout: block 88643437 (2026-10-14 20:12 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xded2468048747c0bad1220606923a992c2d4916b",
+    "https://robinhoodchain.blockscout.com/tx/0x091f869a6e03d076eee56a240e2812be47c3918faf271d7e5ff5b86a6ff1ad76",
+    "https://robinhoodchain.blockscout.com/tx/0xf1656393e96d2802dcde7776341d143ff0eb542fb1ebaf30c949fe6f1e2aaaf1",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xded2468048747c0bad1220606923a992c2d4916b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "outpostrh.fun registered 2026-10-14 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/outpostrh.fun"
+   ]
+  }
+ ],
+ "label": "Outpost",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xb227da2916e74436863664aeb53d62026d2996a6",
+  "label": "Outpost",
+  "post": "https://x.com/Outpostrh/status/2110468752449974608",
+  "site": "https://www.outpostrh.fun/",
+  "x_created": "2026-10-14T20:09:15Z"
+ }
+}

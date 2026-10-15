@@ -1,0 +1,462 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.1.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x82735c14a6b9a59f2a678517e407325bda1266d8",
+ "scanned_at_utc": "2026-10-15T14:08:41Z",
+ "block": 89284062,
+ "site": "https://www.puffernoodle.bond",
+ "post": null,
+ "token": {
+  "name": "Puffernoodle",
+  "symbol": "PFNDL",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xC0768Ec61D22723288BC8Eff6463B74537d733a8",
+  "creator_balance": "0.000000000000098451",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "208596.52693230161138486048",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.003",
+    "pair": "0xde6f9aec6deea3a4486cce8a232267017c443f365a287e8c051c59fb2943fea1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "29.7883490",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0xce860c072a439e61f7c56726c300af4be4361d2f677274cb07d1fc4d579db37c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "9.7843750",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x4ec3f789c56480650795758a2915ac1e816092654b1a03ce66478219781738f9"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.0000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x42f8495c867a3670ef3790d81e918b1a21172864a8d916cfd34e3199298aebb7"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0009990",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.55",
+    "pair": "0x76712816d6704317ce9bce8026d6fda0d30cda60bb9ae7de15f508c931acf294"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xc0768ec61d22723288bc8eff6463b74537d733a8",
+    "tag": "",
+    "value": "236971.07477374375402227016",
+    "is_contract": 0,
+    "balance": "952659.746133451702769412",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "236971.07477374375402227016",
+      "NFT_id": "3827543",
+      "amount": "952659.746133451702769412",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "952659.7461334515",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Puffernoodle",
+  "token_symbol": "PFNDL",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x7776d160cd492794adb17b26df605a12d0a08ce0f77f2d654c8f6a53e5a9fd7e",
+  "block": 89195597,
+  "deployer": "0xc0768ec61d22723288bc8eff6463b74537d733a8",
+  "source": "Blockscout address creator",
+  "tx_from": "0xc0768ec61d22723288bc8eff6463b74537d733a8",
+  "tx_to": null,
+  "ts": 1792064386
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 495392.74,
+  "geckoterminal_top_usd": 238181.4304
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xde6f9aec6deea3a4486cce8a232267017c443f365a287e8c051c59fb2943fea1",
+   "liq_usd": 495392.74,
+   "created": 1792064677000,
+   "url": "https://dexscreener.com/robinhood/0xde6f9aec6deea3a4486cce8a232267017c443f365a287e8c051c59fb2943fea1",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xce860c072a439e61f7c56726c300af4be4361d2f677274cb07d1fc4d579db37c",
+   "liq_usd": 795.42,
+   "created": 1792067653000,
+   "url": "https://dexscreener.com/robinhood/0xce860c072a439e61f7c56726c300af4be4361d2f677274cb07d1fc4d579db37c",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x4ec3f789c56480650795758a2915ac1e816092654b1a03ce66478219781738f9",
+   "liq_usd": 191.43,
+   "created": 1792069408000,
+   "url": "https://dexscreener.com/robinhood/0x4ec3f789c56480650795758a2915ac1e816092654b1a03ce66478219781738f9",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x42f8495c867a3670ef3790d81e918b1a21172864a8d916cfd34e3199298aebb7",
+   "liq_usd": 50.14,
+   "created": 1792066969000,
+   "url": "https://dexscreener.com/robinhood/0x42f8495c867a3670ef3790d81e918b1a21172864a8d916cfd34e3199298aebb7",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x2a8da7128eff39d5b1309bd8824db3fe7512e6cc0e3d710d06ce85fdd12b3d45",
+   "liq_usd": null,
+   "created": 1792064672000,
+   "url": "https://dexscreener.com/robinhood/0x2a8da7128eff39d5b1309bd8824db3fe7512e6cc0e3d710d06ce85fdd12b3d45",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 12,
+ "deployer_contracts": [
+  "0x620a7dcdf89eea0471c8e69e98239e4317e62d4b",
+  "0x82735c14a6b9a59f2a678517e407325bda1266d8"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x620a7dcdf89eea0471c8e69e98239e4317e62d4b",
+  "0x82735c14a6b9a59f2a678517e407325bda1266d8"
+ ],
+ "site_ips": [
+  "104.21.18.39",
+  "172.67.180.68"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x82735c14a6b9a59f2a678517e407325bda1266d8?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x82735c14a6b9a59f2a678517e407325bda1266d8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x82735c14a6b9a59f2a678517e407325bda1266d8",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x82735c14a6b9a59f2a678517e407325bda1266d8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x82735c14a6b9a59f2a678517e407325bda1266d8/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x82735c14a6b9a59f2a678517e407325bda1266d8",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x82735c14a6b9a59f2a678517e407325bda1266d8/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc0768ec61d22723288bc8eff6463b74537d733a8/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.puffernoodle.bond&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/puffernoodle.bond",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1764 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89284062",
+    "https://robinhoodchain.blockscout.com/address/0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x82735c14a6b9a59f2a678517e407325bda1266d8?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89284062"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x82735c14a6b9a59f2a678517e407325bda1266d8 owner() @ 89284062 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 89284062",
+    "https://robinhoodchain.blockscout.com/address/0x82735c14a6b9a59f2a678517e407325bda1266d8?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xc0768ec61d22723288bc8eff6463b74537d733a8 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc0768ec61d22723288bc8eff6463b74537d733a8) @ 89284062",
+    "https://robinhoodchain.blockscout.com/address/0xc0768ec61d22723288bc8eff6463b74537d733a8"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.26% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x82735c14a6b9a59f2a678517e407325bda1266d8/holders",
+    "https://robinhoodchain.blockscout.com/token/0x82735c14a6b9a59f2a678517e407325bda1266d8?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $495,393 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xde6f9aec6deea3a4486cce8a232267017c443f365a287e8c051c59fb2943fea1",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0xc0768ec61d22723288bc8eff6463b74537d733a8 (CREATE nonce scan 0..11); tokens launched via factories are not counted. Wallet nonce = 12.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xc0768ec61d22723288bc8eff6463b74537d733a8",
+    "https://robinhoodchain.blockscout.com/tx/0x7776d160cd492794adb17b26df605a12d0a08ce0f77f2d654c8f6a53e5a9fd7e",
+    "https://robinhoodchain.blockscout.com/address/0x620a7dcdf89eea0471c8e69e98239e4317e62d4b",
+    "https://robinhoodchain.blockscout.com/address/0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xc0768ec61d22723288bc8eff6463b74537d733a8 on Blockscout: block 89195320 (2026-10-15 11:39 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xc0768ec61d22723288bc8eff6463b74537d733a8",
+    "https://robinhoodchain.blockscout.com/tx/0x7776d160cd492794adb17b26df605a12d0a08ce0f77f2d654c8f6a53e5a9fd7e",
+    "https://robinhoodchain.blockscout.com/tx/0x541fbcf6f29d8b220c6118129a6ba89489ed8a2bb3b6fc02b7a0c15d009d5dac",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc0768ec61d22723288bc8eff6463b74537d733a8/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.puffernoodle.bond -> 104.21.18.39, 172.67.180.68 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.puffernoodle.bond&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "puffernoodle.bond registered 2026-10-15 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/puffernoodle.bond"
+   ]
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x82735c14a6b9a59f2a678517e407325bda1266d8"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xc0768ec61d22723288bc8eff6463b74537d733a8 on Blockscout: block 89195320 (2026-10-15 11:39 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xc0768ec61d22723288bc8eff6463b74537d733a8",
+    "https://robinhoodchain.blockscout.com/tx/0x7776d160cd492794adb17b26df605a12d0a08ce0f77f2d654c8f6a53e5a9fd7e",
+    "https://robinhoodchain.blockscout.com/tx/0x541fbcf6f29d8b220c6118129a6ba89489ed8a2bb3b6fc02b7a0c15d009d5dac",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc0768ec61d22723288bc8eff6463b74537d733a8/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "puffernoodle.bond registered 2026-10-15 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/puffernoodle.bond"
+   ]
+  }
+ ],
+ "label": "Puffernoodle",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x82735c14a6b9a59f2a678517e407325bda1266d8",
+  "site": "https://www.puffernoodle.bond",
+  "x_profile": "https://x.com/Puffernoodle",
+  "pool_url": "https://dexscreener.com/robinhood/0x82735c14a6b9a59f2a678517e407325bda1266d8",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

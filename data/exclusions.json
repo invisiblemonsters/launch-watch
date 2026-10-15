@@ -1,0 +1,23 @@
+{
+  "_note": "Manual exclusions: entries whose evidence is incomplete or broken in a way the automatic rules in build_site.py cannot detect. Each needs a reason. Remove an entry (or re-scan with corrected inputs) to publish it. Reasons are kept out of the public site; only counts are shown.",
+  "exclude": [
+    {
+      "key": "robinhood:0x9faf478c3f9b407523a3d12307c0d34739062182",
+      "label": "IGNITION (0x9faf…)",
+      "reason": "Attribution conflict: the only launch post is a third-party promo (@calx_cellar) that names a different contract (0x01E6…) as the 'Official CA'. The 'Launch X account age' check was run on the promoter's account, not the project's.",
+      "added": "2026-10-15"
+    },
+    {
+      "key": "robinhood:0x19dcb63c4d2f29a6f077f094a4f858fc790145e1",
+      "label": "CrawlScan",
+      "reason": "Launch post is a third-party holder post (@Broseph_offical, 'I've been watching this project'), not the project. The 'Launch X account age' check (pass) was run on that third-party account, so the social evidence is misattributed.",
+      "added": "2026-10-15"
+    },
+    {
+      "key": "robinhood:0x39dbed3a2bd333467115de45665cc57f813c4571",
+      "label": "Pons (token)",
+      "reason": "Launch post is from an unaffiliated personal account (@BunSpaSociaal) and the 'Launch X account age' check (pass) was run on it, so the social evidence is misattributed. Not related to the 187.127.98.242 hosting-cluster entries, which are kept.",
+      "added": "2026-10-15"
+    }
+  ]
+}

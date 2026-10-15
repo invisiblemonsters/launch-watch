@@ -1,0 +1,404 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.1.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+ "scanned_at_utc": "2026-10-15T16:58:35Z",
+ "block": 89385411,
+ "site": "https://aethronllm.xyz/",
+ "post": null,
+ "token": {
+  "name": "AETHRONAI",
+  "symbol": "AETHRON",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.09746919999999756327",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.79",
+    "pair": "0xd7b56db69c96a7ada3d50c945acc021b3c404ac149fb7fe33942cc4290434f86"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xfd2a475d7ce02ec077867d72177063b5c2ab01b6",
+    "tag": "",
+    "value": "0.09746919999999756327",
+    "is_contract": 0,
+    "balance": "0.748209080447327478",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.09746919999999756327",
+      "NFT_id": "3833976",
+      "amount": "0.748209080447327478",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.7482090804473275",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "AETHRONAI",
+  "token_symbol": "AETHRON",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x4eedd29b86847060b597740196d1aa47c7ff7af6f13fa288c323f355942a0eac",
+  "block": 89320680,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xbd36b1714c6c140d096d91e8c7a172bac8208046",
+  "tx_to": "0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e",
+  "ts": 1792077010
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 16521.4838
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x80e62a8116036bf64b6eb0bde2473e79165d8f9d",
+   "liq_usd": 16521.4838,
+   "created": "2026-10-15T15:10:10Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x80e62a8116036bf64b6eb0bde2473e79165d8f9d",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xa694c90d513c17df0823d221eb7b1c94f8925fcf?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xa694c90d513c17df0823d221eb7b1c94f8925fcf/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xa694c90d513c17df0823d221eb7b1c94f8925fcf/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xbd36b1714c6c140d096d91e8c7a172bac8208046/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=aethronllm.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/aethronllm.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89385411",
+    "https://robinhoodchain.blockscout.com/address/0xa694c90d513c17df0823d221eb7b1c94f8925fcf"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself, but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xa694c90d513c17df0823d221eb7b1c94f8925fcf?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89385411"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xa694c90d513c17df0823d221eb7b1c94f8925fcf owner() @ 89385411 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 89385411"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa694c90d513c17df0823d221eb7b1c94f8925fcf"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xbd36b1714c6c140d096d91e8c7a172bac8208046 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xbd36b1714c6c140d096d91e8c7a172bac8208046) @ 89385411",
+    "https://robinhoodchain.blockscout.com/address/0xbd36b1714c6c140d096d91e8c7a172bac8208046"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.78% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xa694c90d513c17df0823d221eb7b1c94f8925fcf/holders",
+    "https://robinhoodchain.blockscout.com/token/0xa694c90d513c17df0823d221eb7b1c94f8925fcf?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $16,521 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x80e62a8116036bf64b6eb0bde2473e79165d8f9d",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xa694c90d513c17df0823d221eb7b1c94f8925fcf/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa694c90d513c17df0823d221eb7b1c94f8925fcf"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xbd36b1714c6c140d096d91e8c7a172bac8208046 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xbd36b1714c6c140d096d91e8c7a172bac8208046",
+    "https://robinhoodchain.blockscout.com/tx/0x4eedd29b86847060b597740196d1aa47c7ff7af6f13fa288c323f355942a0eac",
+    "eth_getTransactionCount(0xbd36b1714c6c140d096d91e8c7a172bac8208046) @ 89385411 = 1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xbd36b1714c6c140d096d91e8c7a172bac8208046 (CREATE nonce scan 0..0); tokens launched via factories are not counted. Wallet nonce = 1.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xbd36b1714c6c140d096d91e8c7a172bac8208046",
+    "https://robinhoodchain.blockscout.com/tx/0x4eedd29b86847060b597740196d1aa47c7ff7af6f13fa288c323f355942a0eac"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xbd36b1714c6c140d096d91e8c7a172bac8208046 on Blockscout: block 89277251 (2026-10-15 13:57 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xbd36b1714c6c140d096d91e8c7a172bac8208046",
+    "https://robinhoodchain.blockscout.com/tx/0x4eedd29b86847060b597740196d1aa47c7ff7af6f13fa288c323f355942a0eac",
+    "https://robinhoodchain.blockscout.com/tx/0x15a72ca43db6f337bafb8f194c04dc318892ee1d339c0e3fe4d1fb545d9614da",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xbd36b1714c6c140d096d91e8c7a172bac8208046/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "aethronllm.xyz -> 216.198.79.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=aethronllm.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "aethronllm.xyz registered 2026-10-13 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/aethronllm.xyz"
+   ]
+  }
+ ],
+ "score": 48,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa694c90d513c17df0823d221eb7b1c94f8925fcf"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $16,521 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x80e62a8116036bf64b6eb0bde2473e79165d8f9d",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xa694c90d513c17df0823d221eb7b1c94f8925fcf/pools"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xbd36b1714c6c140d096d91e8c7a172bac8208046 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xbd36b1714c6c140d096d91e8c7a172bac8208046",
+    "https://robinhoodchain.blockscout.com/tx/0x4eedd29b86847060b597740196d1aa47c7ff7af6f13fa288c323f355942a0eac",
+    "eth_getTransactionCount(0xbd36b1714c6c140d096d91e8c7a172bac8208046) @ 89385411 = 1"
+   ]
+  }
+ ],
+ "label": "AETHRONAI",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+  "site": "https://aethronllm.xyz/",
+  "x_profile": "https://x.com/aethronairh",
+  "pool_url": "https://dexscreener.com/robinhood/0xa694c90d513c17df0823d221eb7b1c94f8925fcf",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

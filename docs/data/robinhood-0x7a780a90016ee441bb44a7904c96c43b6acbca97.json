@@ -1,0 +1,453 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.1.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+ "scanned_at_utc": "2026-10-15T02:49:45Z",
+ "block": 88879215,
+ "site": "https://pyrobotai.xyz",
+ "post": "https://x.com/py_robot/status/2110298263211712812",
+ "token": {
+  "name": "PYROBOT",
+  "symbol": "PYROBOT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "48",
+  "holders": [
+   {
+    "address": "0xf27380Bf60BB3BCC78A9e1B958c27e5d3a371412",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "902433101.897818663159740997",
+    "percent": "0.902433",
+    "is_locked": 0
+   },
+   {
+    "address": "0xaA984233BA74C1f2836cEe2c8b7919b1E46D7e21",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "28078088.942963188661575089",
+    "percent": "0.028078",
+    "is_locked": 0
+   },
+   {
+    "address": "0xA923Fb8473b0f2E6d86f5457fd812f6A524e1880",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "18806658.675514114641937395",
+    "percent": "0.018807",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb37C2f201bb9652DA474aa72D3C7188d305bc732",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10770864.84462316878402642",
+    "percent": "0.010771",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "8586350.358502257236434451",
+    "percent": "0.008586",
+    "is_locked": 1
+   },
+   {
+    "address": "0x3dD53630cDDAAADCEB74C923A0FAa0065d04e923",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6122431.813256886173418744",
+    "percent": "0.006122",
+    "is_locked": 0
+   },
+   {
+    "address": "0x63cbb4cF0D375A9206Dd7cA2238B772db8E1F08E",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "5707947.95403211918123962",
+    "percent": "0.005708",
+    "is_locked": 0
+   },
+   {
+    "address": "0xbbA584C608b9af24C94F950455E21894ebA8c850",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "3398742.0725066900497821",
+    "percent": "0.003399",
+    "is_locked": 0
+   },
+   {
+    "address": "0x00000000Cf1cD5867BE5D90B99A6EBd683BC031c",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3152445.638053893834755443",
+    "percent": "0.003152",
+    "is_locked": 0
+   },
+   {
+    "address": "0x01eF1c88E274f2adf05c59bEC55ce2b943CDCdD2",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2662446.263612666906364039",
+    "percent": "0.002662",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "PYROBOT",
+  "token_symbol": "PYROBOT",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xd3b40bdb04e5d68519e86320ffdfd0c5324a417fac305d412661d862c018fdb0",
+  "block": 88200088,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xafc5dafe177261a979d9b2e6614f08c3587c76db",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1791964150
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 4919.0578
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412",
+   "liq_usd": 4919.0578,
+   "created": "2026-10-14T07:49:10Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 7,
+ "deployer_contracts": [],
+ "site_ips": [
+  "104.21.61.227",
+  "172.67.216.8"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x7a780a90016ee441bb44a7904c96c43b6acbca97?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x7a780a90016ee441bb44a7904c96c43b6acbca97/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7a780a90016ee441bb44a7904c96c43b6acbca97/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xafc5dafe177261a979d9b2e6614f08c3587c76db/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=pyrobotai.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/pyrobotai.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 88879215",
+    "https://robinhoodchain.blockscout.com/address/0x7a780a90016ee441bb44a7904c96c43b6acbca97"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x7a780a90016ee441bb44a7904c96c43b6acbca97?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88879215"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x7a780a90016ee441bb44a7904c96c43b6acbca97 owner() @ 88879215 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 88879215",
+    "https://robinhoodchain.blockscout.com/address/0x7a780a90016ee441bb44a7904c96c43b6acbca97?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7a780a90016ee441bb44a7904c96c43b6acbca97"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xafc5dafe177261a979d9b2e6614f08c3587c76db holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xafc5dafe177261a979d9b2e6614f08c3587c76db) @ 88879215",
+    "https://robinhoodchain.blockscout.com/address/0xafc5dafe177261a979d9b2e6614f08c3587c76db"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.81% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x7a780a90016ee441bb44a7904c96c43b6acbca97/holders",
+    "https://robinhoodchain.blockscout.com/token/0x7a780a90016ee441bb44a7904c96c43b6acbca97?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,919 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7a780a90016ee441bb44a7904c96c43b6acbca97/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412 (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xafc5dafe177261a979d9b2e6614f08c3587c76db (CREATE nonce scan 0..6); tokens launched via factories are not counted. Wallet nonce = 7.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xafc5dafe177261a979d9b2e6614f08c3587c76db",
+    "https://robinhoodchain.blockscout.com/tx/0xd3b40bdb04e5d68519e86320ffdfd0c5324a417fac305d412661d862c018fdb0"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xafc5dafe177261a979d9b2e6614f08c3587c76db on Blockscout: block 88155032 (2026-10-14 06:33 UTC), 0.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xafc5dafe177261a979d9b2e6614f08c3587c76db",
+    "https://robinhoodchain.blockscout.com/tx/0xd3b40bdb04e5d68519e86320ffdfd0c5324a417fac305d412661d862c018fdb0",
+    "https://robinhoodchain.blockscout.com/tx/0xb77bfd769c0bcc21d6507261a72ed8cac686a4ae7f16aba57f9f1e5116054645",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xafc5dafe177261a979d9b2e6614f08c3587c76db/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "pyrobotai.xyz -> 104.21.61.227, 172.67.216.8 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=pyrobotai.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "pyrobotai.xyz registered 2026-10-12 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/pyrobotai.xyz"
+   ]
+  },
+  {
+   "id": "social.x_age",
+   "group": "social",
+   "title": "Launch X account age",
+   "status": "pass",
+   "points": 0,
+   "detail": "X account created 2026-05-02 (165.8 days before scan).",
+   "evidence": [
+    "https://x.com/py_robot/status/2110298263211712812"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,919 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xf27380bf60bb3bcc78a9e1b958c27e5d3a371412",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7a780a90016ee441bb44a7904c96c43b6acbca97/pools"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xafc5dafe177261a979d9b2e6614f08c3587c76db on Blockscout: block 88155032 (2026-10-14 06:33 UTC), 0.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xafc5dafe177261a979d9b2e6614f08c3587c76db",
+    "https://robinhoodchain.blockscout.com/tx/0xd3b40bdb04e5d68519e86320ffdfd0c5324a417fac305d412661d862c018fdb0",
+    "https://robinhoodchain.blockscout.com/tx/0xb77bfd769c0bcc21d6507261a72ed8cac686a4ae7f16aba57f9f1e5116054645",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xafc5dafe177261a979d9b2e6614f08c3587c76db/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "pyrobotai.xyz registered 2026-10-12 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/pyrobotai.xyz"
+   ]
+  }
+ ],
+ "label": "PYROBOT AI",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x7a780a90016ee441bb44a7904c96c43b6acbca97",
+  "label": "PYROBOT AI",
+  "post": "https://x.com/py_robot/status/2110298263211712812",
+  "site": "https://pyrobotai.xyz",
+  "x_created": "2026-05-02T07:28:34Z"
+ }
+}

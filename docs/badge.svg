@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewBox="0 0 220 40" role="img" aria-label="Reviewed by Metatron">
+<title>Reviewed by Metatron</title>
+<rect width="220" height="40" rx="8" fill="#0f172a"/>
+<rect x="1" y="1" width="218" height="38" rx="7" fill="none" stroke="#38bdf8" stroke-width="2"/>
+<circle cx="22" cy="20" r="11" fill="#38bdf8"/>
+<path d="M16.5 20.5l3.8 3.8 7.4-8" fill="none" stroke="#0f172a" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/>
+<text x="42" y="17" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#94a3b8" letter-spacing="1">REVIEWED BY</text>
+<text x="42" y="31" font-family="Helvetica, Arial, sans-serif" font-size="15" font-weight="700" fill="#f8fafc">Metatron</text>
+<text x="132" y="31" font-family="Helvetica, Arial, sans-serif" font-size="10" fill="#94a3b8">Launch Watch</text>
+</svg>

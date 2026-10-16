@@ -5,534 +5,806 @@
 <link href="https://invisiblemonsters.github.io/launch-watch/feed.xml" rel="self"/>
 <link href="https://invisiblemonsters.github.io/launch-watch/"/>
 <id>https://invisiblemonsters.github.io/launch-watch/</id>
-<updated>2026-10-15T18:30:22Z</updated>
+<updated>2026-10-15T21:18:59Z</updated>
 <author><name>Metatron Launch Watch</name><email>metatron@mail.grokbot.com</email></author>
 <entry>
-<title>KumioOS (Robinhood Chain): 32/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x47e13a8e5bf31e98275d12784127958bcf5b0009.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x47e13a8e5bf31e98275d12784127958bcf5b0009/2026-10-15T17:02:33Z</id>
-<updated>2026-10-15T17:02:33Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>KumioOS on Robinhood Chain (0x47e13a8e5bf31e98275d12784127958bcf5b0009) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>Justice For Tesla (Robinhood Chain): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xa11392cd36aede32e72f28a885eb20563d3160bc.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xa11392cd36aede32e72f28a885eb20563d3160bc/2026-10-15T21:00:17Z</id>
+<updated>2026-10-15T21:00:17Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Justice For Tesla on Robinhood Chain (0xa11392cd36aede32e72f28a885eb20563d3160bc) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>HaggleHog (Robinhood Chain): 26/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56/2026-10-15T17:02:16Z</id>
-<updated>2026-10-15T17:02:16Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>HaggleHog on Robinhood Chain (0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>United States Dividend Program (Base): 53/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x54a3e7cb2ac424e98b199726591796c1ceb7b3ae.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x54a3e7cb2ac424e98b199726591796c1ceb7b3ae/2026-10-15T21:00:09Z</id>
+<updated>2026-10-15T21:00:09Z</updated>
+<category term="ELEVATED"/><category term="base"/>
+<summary>United States Dividend Program on Base (0x54a3e7cb2ac424e98b199726591796c1ceb7b3ae) scored 53/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Privacy Pools (Robinhood Chain): 41/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb38f11af2162fd0dbed97ec6a1aaf523489334b8.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb38f11af2162fd0dbed97ec6a1aaf523489334b8/2026-10-15T17:01:52Z</id>
-<updated>2026-10-15T17:01:52Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Privacy Pools on Robinhood Chain (0xb38f11af2162fd0dbed97ec6a1aaf523489334b8) scored 41/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Teddy Holdings LLC (Robinhood Chain): 41/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x3aec72f6f4f80863c482aca61b7506ac21563e59.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x3aec72f6f4f80863c482aca61b7506ac21563e59/2026-10-15T17:01:32Z</id>
-<updated>2026-10-15T17:01:32Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Teddy Holdings LLC on Robinhood Chain (0x3aec72f6f4f80863c482aca61b7506ac21563e59) scored 41/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>CLAUDIA (Base): 35/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xcd3ca14397c717f1646fdf418004ebcda0c18b94.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xcd3ca14397c717f1646fdf418004ebcda0c18b94/2026-10-15T17:01:26Z</id>
-<updated>2026-10-15T17:01:26Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>CLAUDIA on Base (0xcd3ca14397c717f1646fdf418004ebcda0c18b94) scored 35/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Emotional Bull (Base): 29/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x8faeee213e8e4bb796433e9df670736fca451d15.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x8faeee213e8e4bb796433e9df670736fca451d15/2026-10-15T17:01:17Z</id>
-<updated>2026-10-15T17:01:17Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>Emotional Bull on Base (0x8faeee213e8e4bb796433e9df670736fca451d15) scored 29/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>smoking Inu (Robinhood Chain): 35/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6e96550a4b06d5de2b09060782c0f06c4a7f3567.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6e96550a4b06d5de2b09060782c0f06c4a7f3567/2026-10-15T17:00:59Z</id>
-<updated>2026-10-15T17:00:59Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>smoking Inu on Robinhood Chain (0x6e96550a4b06d5de2b09060782c0f06c4a7f3567) scored 35/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>National Fund Oil Dividend (Base): 33/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xf6de9546e59a13642d6b3cefa7e71edc52625dda.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xf6de9546e59a13642d6b3cefa7e71edc52625dda/2026-10-15T17:00:32Z</id>
-<updated>2026-10-15T17:00:32Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>National Fund Oil Dividend on Base (0xf6de9546e59a13642d6b3cefa7e71edc52625dda) scored 33/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>NEAR (Base): 30/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xebf789255e82ef79b0ec53423368b2c241f56940.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xebf789255e82ef79b0ec53423368b2c241f56940/2026-10-15T17:00:19Z</id>
-<updated>2026-10-15T17:00:19Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>NEAR on Base (0xebf789255e82ef79b0ec53423368b2c241f56940) scored 30/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>LOL (Robinhood Chain): 52/100 ELEVATED</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xc7fbd49b98d98e83227a88c412788f71b4e91aac.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xc7fbd49b98d98e83227a88c412788f71b4e91aac/2026-10-15T17:00:00Z</id>
-<updated>2026-10-15T17:00:00Z</updated>
+<title>Quantum Cat (Robinhood Chain): 58/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x26a72330ee5ea4b1471199a5e2605abdc114af5d.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x26a72330ee5ea4b1471199a5e2605abdc114af5d/2026-10-15T20:59:43Z</id>
+<updated>2026-10-15T20:59:43Z</updated>
 <category term="ELEVATED"/><category term="robinhood"/>
-<summary>LOL on Robinhood Chain (0xc7fbd49b98d98e83227a88c412788f71b4e91aac) scored 52/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Quantum Cat on Robinhood Chain (0x26a72330ee5ea4b1471199a5e2605abdc114af5d) scored 58/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Lighthouse (Robinhood Chain): 54/100 ELEVATED</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff/2026-10-15T16:59:28Z</id>
-<updated>2026-10-15T16:59:28Z</updated>
+<title>Sword Inu (Robinhood Chain): 32/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xdd4378acc57756efe6c2c15451ddd24a389593f6.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xdd4378acc57756efe6c2c15451ddd24a389593f6/2026-10-15T20:59:22Z</id>
+<updated>2026-10-15T20:59:22Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Sword Inu on Robinhood Chain (0xdd4378acc57756efe6c2c15451ddd24a389593f6) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Claudia (Robinhood Chain): 32/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb141610e4595c2848d6dbf0e7a7b35676279ad90.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb141610e4595c2848d6dbf0e7a7b35676279ad90/2026-10-15T20:59:03Z</id>
+<updated>2026-10-15T20:59:03Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Claudia on Robinhood Chain (0xb141610e4595c2848d6dbf0e7a7b35676279ad90) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>gsim2 token (Robinhood Chain): 61/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xc718ab94433ba5ca6a82c0adffb73924f83a04d2.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xc718ab94433ba5ca6a82c0adffb73924f83a04d2/2026-10-15T20:58:42Z</id>
+<updated>2026-10-15T20:58:42Z</updated>
 <category term="ELEVATED"/><category term="robinhood"/>
-<summary>Lighthouse on Robinhood Chain (0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff) scored 54/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>gsim2 token on Robinhood Chain (0xc718ab94433ba5ca6a82c0adffb73924f83a04d2) scored 61/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Emotional Bull (Base): 45/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x0a3441c803fc23669bcc2c83030926f54b0cfee1.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x0a3441c803fc23669bcc2c83030926f54b0cfee1/2026-10-15T16:59:20Z</id>
-<updated>2026-10-15T16:59:20Z</updated>
+<title>DOTF (Base): 44/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x7be06ca0ede56f82f40f41a0a9e0e510fa0a484a.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x7be06ca0ede56f82f40f41a0a9e0e510fa0a484a/2026-10-15T20:58:34Z</id>
+<updated>2026-10-15T20:58:34Z</updated>
 <category term="MODERATE"/><category term="base"/>
-<summary>Emotional Bull on Base (0x0a3441c803fc23669bcc2c83030926f54b0cfee1) scored 45/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>DOTF on Base (0x7be06ca0ede56f82f40f41a0a9e0e510fa0a484a) scored 44/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>the robin of torch (Robinhood Chain): 31/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x481ff4a578d977bae5f38d54d81769d108b71111.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x481ff4a578d977bae5f38d54d81769d108b71111/2026-10-15T16:58:59Z</id>
-<updated>2026-10-15T16:58:59Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>the robin of torch on Robinhood Chain (0x481ff4a578d977bae5f38d54d81769d108b71111) scored 31/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>Digital Oil Trust Fund (Base): 44/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xaf70cefd0156e1aa9479bad1523cf3e6104f3f04.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xaf70cefd0156e1aa9479bad1523cf3e6104f3f04/2026-10-15T20:58:25Z</id>
+<updated>2026-10-15T20:58:25Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>Digital Oil Trust Fund on Base (0xaf70cefd0156e1aa9479bad1523cf3e6104f3f04) scored 44/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>AETHRONAI (Robinhood Chain): 48/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xa694c90d513c17df0823d221eb7b1c94f8925fcf.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xa694c90d513c17df0823d221eb7b1c94f8925fcf/2026-10-15T16:58:35Z</id>
-<updated>2026-10-15T16:58:35Z</updated>
+<title>DOTF (Base): 29/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x732b0c8373d7fce849b29594d389a4c7756c3a0d.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x732b0c8373d7fce849b29594d389a4c7756c3a0d/2026-10-15T20:58:16Z</id>
+<updated>2026-10-15T20:58:16Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>DOTF on Base (0x732b0c8373d7fce849b29594d389a4c7756c3a0d) scored 29/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Digital Oil Trust Fund (Base): 44/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xf513d9a724de05518282f0a5fd1d6346afbc5a09.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xf513d9a724de05518282f0a5fd1d6346afbc5a09/2026-10-15T20:58:05Z</id>
+<updated>2026-10-15T20:58:05Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>Digital Oil Trust Fund on Base (0xf513d9a724de05518282f0a5fd1d6346afbc5a09) scored 44/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Doge Pepe (Robinhood Chain): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb1ff6a6bf5b6502e281b9b10683be93322e46693.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb1ff6a6bf5b6502e281b9b10683be93322e46693/2026-10-15T20:57:33Z</id>
+<updated>2026-10-15T20:57:33Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
-<summary>AETHRONAI on Robinhood Chain (0xa694c90d513c17df0823d221eb7b1c94f8925fcf) scored 48/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Doge Pepe on Robinhood Chain (0xb1ff6a6bf5b6502e281b9b10683be93322e46693) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>AMDOG (Robinhood Chain): 45/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x1339646699bc1c32f746d65db6992b8e63e71e18.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x1339646699bc1c32f746d65db6992b8e63e71e18/2026-10-15T20:56:58Z</id>
+<updated>2026-10-15T20:56:58Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>AMDOG on Robinhood Chain (0x1339646699bc1c32f746d65db6992b8e63e71e18) scored 45/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>GlitchFerret (Robinhood Chain): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6ff4b3065c59dee75404c59af4ded1a74a88f50e.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6ff4b3065c59dee75404c59af4ded1a74a88f50e/2026-10-15T20:56:35Z</id>
+<updated>2026-10-15T20:56:35Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>GlitchFerret on Robinhood Chain (0x6ff4b3065c59dee75404c59af4ded1a74a88f50e) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Uniwall (Robinhood Chain): 52/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x255979302fd6a5e2ff6dce0d8b018f51e06e243a.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x255979302fd6a5e2ff6dce0d8b018f51e06e243a/2026-10-15T20:56:14Z</id>
+<updated>2026-10-15T20:56:14Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Uniwall on Robinhood Chain (0x255979302fd6a5e2ff6dce0d8b018f51e06e243a) scored 52/100 (ELEVATED risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>VRAX CAT (Robinhood Chain): 56/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xebf79caa17bea7a5ea9297fa37c21c9cd1dec22d.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xebf79caa17bea7a5ea9297fa37c21c9cd1dec22d/2026-10-15T19:26:30Z</id>
+<updated>2026-10-15T19:26:30Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>VRAX CAT on Robinhood Chain (0xebf79caa17bea7a5ea9297fa37c21c9cd1dec22d) scored 56/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>gsim token (Robinhood Chain): 55/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xe3e5d90792877ef3ecc169c66e30681b733dc653.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xe3e5d90792877ef3ecc169c66e30681b733dc653/2026-10-15T19:26:06Z</id>
+<updated>2026-10-15T19:26:06Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>gsim token on Robinhood Chain (0xe3e5d90792877ef3ecc169c66e30681b733dc653) scored 55/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
 <title>QUIVER (Robinhood Chain): 39/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xd8d5c24e6d1493b522a12efd695cb344024bee1b.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xd8d5c24e6d1493b522a12efd695cb344024bee1b/2026-10-15T16:58:11Z</id>
-<updated>2026-10-15T16:58:11Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xd8d5c24e6d1493b522a12efd695cb344024bee1b/2026-10-15T19:25:59Z</id>
+<updated>2026-10-15T19:25:59Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
 <summary>QUIVER on Robinhood Chain (0xd8d5c24e6d1493b522a12efd695cb344024bee1b) scored 39/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Kept (Robinhood Chain): 36/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x50d26490f7915983bedba927361fb0142efa1214.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x50d26490f7915983bedba927361fb0142efa1214/2026-10-15T16:57:55Z</id>
-<updated>2026-10-15T16:57:55Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Kept on Robinhood Chain (0x50d26490f7915983bedba927361fb0142efa1214) scored 36/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>ROBINHEADBALL (Robinhood Chain): 21/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb6813be7be026622b9b1c886d9d11eb0df39ba11.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb6813be7be026622b9b1c886d9d11eb0df39ba11/2026-10-15T19:25:57Z</id>
+<updated>2026-10-15T19:25:57Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>ROBINHEADBALL on Robinhood Chain (0xb6813be7be026622b9b1c886d9d11eb0df39ba11) scored 21/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Axis Robotics (Robinhood Chain): 32/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x4f522a78d1d0f0843b3c148ff70561468aea67c9.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x4f522a78d1d0f0843b3c148ff70561468aea67c9/2026-10-15T14:12:06Z</id>
-<updated>2026-10-15T14:12:06Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Axis Robotics on Robinhood Chain (0x4f522a78d1d0f0843b3c148ff70561468aea67c9) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Insitutional Oil Fund (Base): 24/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x221d3d48361454a852eb293f766a49f1118671f1.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x221d3d48361454a852eb293f766a49f1118671f1/2026-10-15T14:11:58Z</id>
-<updated>2026-10-15T14:11:58Z</updated>
-<category term="LOW"/><category term="base"/>
-<summary>Insitutional Oil Fund on Base (0x221d3d48361454a852eb293f766a49f1118671f1) scored 24/100 (LOW risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Cash Dog (Robinhood Chain): 49/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb11be0a96e156e5d37177ebd21dffc83fa45fc80.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb11be0a96e156e5d37177ebd21dffc83fa45fc80/2026-10-15T14:11:45Z</id>
-<updated>2026-10-15T14:11:45Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Cash Dog on Robinhood Chain (0xb11be0a96e156e5d37177ebd21dffc83fa45fc80) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Sword Inu (Robinhood Chain): 49/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x71afda7628ba800ca2b74595b2bf0959c94ff7f7.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x71afda7628ba800ca2b74595b2bf0959c94ff7f7/2026-10-15T14:11:31Z</id>
-<updated>2026-10-15T14:11:31Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Sword Inu on Robinhood Chain (0x71afda7628ba800ca2b74595b2bf0959c94ff7f7) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Coinbase Wrapped BTC (Robinhood Chain): 69/100 ELEVATED</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xcec185eb182c47d1ba1efc84e6959e18cd620be4.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xcec185eb182c47d1ba1efc84e6959e18cd620be4/2026-10-15T14:11:10Z</id>
-<updated>2026-10-15T14:11:10Z</updated>
+<title>Privacy Pools (Robinhood Chain): 64/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb38f11af2162fd0dbed97ec6a1aaf523489334b8.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb38f11af2162fd0dbed97ec6a1aaf523489334b8/2026-10-15T19:25:33Z</id>
+<updated>2026-10-15T19:25:33Z</updated>
 <category term="ELEVATED"/><category term="robinhood"/>
-<summary>Coinbase Wrapped BTC on Robinhood Chain (0xcec185eb182c47d1ba1efc84e6959e18cd620be4) scored 69/100 (ELEVATED risk signals). Top signal: Upgradeable proxy (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Privacy Pools on Robinhood Chain (0xb38f11af2162fd0dbed97ec6a1aaf523489334b8) scored 64/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>UNICORN (Base): 33/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3688b2bfc5dd9a98c17694f54713306ac70f26ed.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3688b2bfc5dd9a98c17694f54713306ac70f26ed/2026-10-15T14:11:04Z</id>
-<updated>2026-10-15T14:11:04Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>UNICORN on Base (0x3688b2bfc5dd9a98c17694f54713306ac70f26ed) scored 33/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>AETHRONAI (Robinhood Chain): 48/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xa694c90d513c17df0823d221eb7b1c94f8925fcf.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xa694c90d513c17df0823d221eb7b1c94f8925fcf/2026-10-15T19:25:31Z</id>
+<updated>2026-10-15T19:25:31Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>AETHRONAI on Robinhood Chain (0xa694c90d513c17df0823d221eb7b1c94f8925fcf) scored 48/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Banger (Base): 33/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3a42c848151baaa1b1ab326ade8a282e65745c17.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3a42c848151baaa1b1ab326ade8a282e65745c17/2026-10-15T14:10:58Z</id>
-<updated>2026-10-15T14:10:58Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>Banger on Base (0x3a42c848151baaa1b1ab326ade8a282e65745c17) scored 33/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>Hashborn (Robinhood Chain): 40/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x84ca497aac4d25df60b924d1d00696df9ca11c0a.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x84ca497aac4d25df60b924d1d00696df9ca11c0a/2026-10-15T19:25:29Z</id>
+<updated>2026-10-15T19:25:29Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Hashborn on Robinhood Chain (0x84ca497aac4d25df60b924d1d00696df9ca11c0a) scored 40/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>USDP (Base): 44/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702/2026-10-15T14:10:50Z</id>
-<updated>2026-10-15T14:10:50Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>USDP on Base (0xc6edc36f47b526f6ddca85e971e7cc89b22fd702) scored 44/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>Magic State Cat (Robinhood Chain): 47/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x763e412dfe7ac8898f1263f3d56c204fc9ff8783.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x763e412dfe7ac8898f1263f3d56c204fc9ff8783/2026-10-15T19:25:12Z</id>
+<updated>2026-10-15T19:25:12Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Magic State Cat on Robinhood Chain (0x763e412dfe7ac8898f1263f3d56c204fc9ff8783) scored 47/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>DOPE (Base): 44/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xe2a93692086b330542e382ecc6490f99d21700aa.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xe2a93692086b330542e382ecc6490f99d21700aa/2026-10-15T14:10:44Z</id>
-<updated>2026-10-15T14:10:44Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>DOPE on Base (0xe2a93692086b330542e382ecc6490f99d21700aa) scored 44/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<title>Lyq (Robinhood Chain): 53/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/2026-10-15T19:25:10Z</id>
+<updated>2026-10-15T19:25:10Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Lyq on Robinhood Chain (0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d) scored 53/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Aerodrome (Base): 24/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x03999b6102e53c9fe1770d0bd40bc2d218fc9854.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x03999b6102e53c9fe1770d0bd40bc2d218fc9854/2026-10-15T14:10:36Z</id>
-<updated>2026-10-15T14:10:36Z</updated>
+<title>Teddy Holdings LLC (Robinhood Chain): 68/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x3aec72f6f4f80863c482aca61b7506ac21563e59.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x3aec72f6f4f80863c482aca61b7506ac21563e59/2026-10-15T19:25:09Z</id>
+<updated>2026-10-15T19:25:09Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Teddy Holdings LLC on Robinhood Chain (0x3aec72f6f4f80863c482aca61b7506ac21563e59) scored 68/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>LADY (Base): 20/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x50769867b2c0ac856572b1ff25d9c0d7e46d1a79.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x50769867b2c0ac856572b1ff25d9c0d7e46d1a79/2026-10-15T19:24:56Z</id>
+<updated>2026-10-15T19:24:56Z</updated>
 <category term="LOW"/><category term="base"/>
-<summary>Aerodrome on Base (0x03999b6102e53c9fe1770d0bd40bc2d218fc9854) scored 24/100 (LOW risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>LADY on Base (0x50769867b2c0ac856572b1ff25d9c0d7e46d1a79) scored 20/100 (LOW risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>CatDog (Robinhood Chain): 36/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265/2026-10-15T14:10:19Z</id>
-<updated>2026-10-15T14:10:19Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>CatDog on Robinhood Chain (0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265) scored 36/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Veilora (Robinhood Chain): 31/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe/2026-10-15T14:10:00Z</id>
-<updated>2026-10-15T14:10:00Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Veilora on Robinhood Chain (0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe) scored 31/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Girl with balloon (Robinhood Chain): 31/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x403cb172fc842115392e6b4389793e1712b0d294.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x403cb172fc842115392e6b4389793e1712b0d294/2026-10-15T14:09:40Z</id>
-<updated>2026-10-15T14:09:40Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Girl with balloon on Robinhood Chain (0x403cb172fc842115392e6b4389793e1712b0d294) scored 31/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>SWARM ENGINE (Robinhood Chain): 30/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x72bfcf23b089403a1056fd9719c577966b941f57.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x72bfcf23b089403a1056fd9719c577966b941f57/2026-10-15T14:09:25Z</id>
-<updated>2026-10-15T14:09:25Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>SWARM ENGINE on Robinhood Chain (0x72bfcf23b089403a1056fd9719c577966b941f57) scored 30/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Callout (Robinhood Chain): 15/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb9f53611316fa2428eb93c4cc4dccae0d3977f79.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb9f53611316fa2428eb93c4cc4dccae0d3977f79/2026-10-15T14:09:12Z</id>
-<updated>2026-10-15T14:09:12Z</updated>
-<category term="LOW"/><category term="robinhood"/>
-<summary>Callout on Robinhood Chain (0xb9f53611316fa2428eb93c4cc4dccae0d3977f79) scored 15/100 (LOW risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Busted (Robinhood Chain): 20/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172/2026-10-15T14:08:55Z</id>
-<updated>2026-10-15T14:08:55Z</updated>
-<category term="LOW"/><category term="robinhood"/>
-<summary>Busted on Robinhood Chain (0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172) scored 20/100 (LOW risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Puffernoodle (Robinhood Chain): 26/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x82735c14a6b9a59f2a678517e407325bda1266d8.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x82735c14a6b9a59f2a678517e407325bda1266d8/2026-10-15T14:08:41Z</id>
-<updated>2026-10-15T14:08:41Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Puffernoodle on Robinhood Chain (0x82735c14a6b9a59f2a678517e407325bda1266d8) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Larp the cat (Robinhood Chain): 24/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x892b68f22c0c3ed26d02e459fd4763d2a8a78715.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x892b68f22c0c3ed26d02e459fd4763d2a8a78715/2026-10-15T14:08:24Z</id>
-<updated>2026-10-15T14:08:24Z</updated>
-<category term="LOW"/><category term="robinhood"/>
-<summary>Larp the cat on Robinhood Chain (0x892b68f22c0c3ed26d02e459fd4763d2a8a78715) scored 24/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>wojakveil (Robinhood Chain): 47/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x2009fb40940be99ea652d0e4ee2b00b3369f7777.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x2009fb40940be99ea652d0e4ee2b00b3369f7777/2026-10-15T03:47:51Z</id>
-<updated>2026-10-15T03:47:51Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>wojakveil on Robinhood Chain (0x2009fb40940be99ea652d0e4ee2b00b3369f7777) scored 47/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>wolfpack airdrop (Robinhood Chain): 15/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8/2026-10-15T03:47:35Z</id>
-<updated>2026-10-15T03:47:35Z</updated>
-<category term="LOW"/><category term="robinhood"/>
-<summary>wolfpack airdrop on Robinhood Chain (0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Super Inu (Base): 32/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x2090f69194f9c5db06b671a09ca261a1f46908fd.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x2090f69194f9c5db06b671a09ca261a1f46908fd/2026-10-15T03:47:29Z</id>
-<updated>2026-10-15T03:47:29Z</updated>
+<title>World Oil Supply Exchange (Base): 46/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x1300075316ac18185f103c9afaa39af7889d4a47.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x1300075316ac18185f103c9afaa39af7889d4a47/2026-10-15T19:24:51Z</id>
+<updated>2026-10-15T19:24:51Z</updated>
 <category term="MODERATE"/><category term="base"/>
-<summary>Super Inu on Base (0x2090f69194f9c5db06b671a09ca261a1f46908fd) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>World Oil Supply Exchange on Base (0x1300075316ac18185f103c9afaa39af7889d4a47) scored 46/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>NTDA (Base): 45/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x37ae35f0ee85ac34c6fa70d841ef82dca08ed13e.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x37ae35f0ee85ac34c6fa70d841ef82dca08ed13e/2026-10-15T03:47:23Z</id>
-<updated>2026-10-15T03:47:23Z</updated>
+<title>Emotional Bull (Base): 39/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x0a3441c803fc23669bcc2c83030926f54b0cfee1.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x0a3441c803fc23669bcc2c83030926f54b0cfee1/2026-10-15T19:24:48Z</id>
+<updated>2026-10-15T19:24:48Z</updated>
 <category term="MODERATE"/><category term="base"/>
-<summary>NTDA on Base (0x37ae35f0ee85ac34c6fa70d841ef82dca08ed13e) scored 45/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Emotional Bull on Base (0x0a3441c803fc23669bcc2c83030926f54b0cfee1) scored 39/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>POST BOT (Base): 29/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x21adf7341144ddb944f3579ce26898b1c803cde9.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x21adf7341144ddb944f3579ce26898b1c803cde9/2026-10-15T03:47:17Z</id>
-<updated>2026-10-15T03:47:17Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>POST BOT on Base (0x21adf7341144ddb944f3579ce26898b1c803cde9) scored 29/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>STRATEGIC PROTOCOL AMERICAN (Base): 33/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xa408a5af3fcb2463def9f88f075e0758c11eace9.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xa408a5af3fcb2463def9f88f075e0758c11eace9/2026-10-15T03:47:11Z</id>
-<updated>2026-10-15T03:47:11Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>STRATEGIC PROTOCOL AMERICAN on Base (0xa408a5af3fcb2463def9f88f075e0758c11eace9) scored 33/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>UKFLMS-UK FINANCIAL MOONSHOT TOKEN (Base): 41/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xf2034fcb75de8709a1b9464512740ac0e26d6e53.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xf2034fcb75de8709a1b9464512740ac0e26d6e53/2026-10-15T03:47:05Z</id>
-<updated>2026-10-15T03:47:05Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>UKFLMS-UK FINANCIAL MOONSHOT TOKEN on Base (0xf2034fcb75de8709a1b9464512740ac0e26d6e53) scored 41/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Claudia (Robinhood Chain): 32/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3/2026-10-15T03:46:46Z</id>
-<updated>2026-10-15T03:46:46Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Claudia on Robinhood Chain (0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3) scored 32/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>WETH (Base): 27/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xb9902541fe2551af26abc4318222ce4943e9ec76.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xb9902541fe2551af26abc4318222ce4943e9ec76/2026-10-15T03:46:39Z</id>
-<updated>2026-10-15T03:46:39Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>WETH on Base (0xb9902541fe2551af26abc4318222ce4943e9ec76) scored 27/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Chop (Robinhood Chain): 49/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37/2026-10-15T03:46:18Z</id>
-<updated>2026-10-15T03:46:18Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Chop on Robinhood Chain (0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>NASDANQ (Robinhood Chain): 47/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x693a9bb5b955ec0433d181553a9b896d2781b37b.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x693a9bb5b955ec0433d181553a9b896d2781b37b/2026-10-15T03:45:57Z</id>
-<updated>2026-10-15T03:45:57Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>NASDANQ on Robinhood Chain (0x693a9bb5b955ec0433d181553a9b896d2781b37b) scored 47/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Anansi (Base): 44/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383/2026-10-15T03:45:31Z</id>
-<updated>2026-10-15T03:45:31Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>Anansi on Base (0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383) scored 44/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>ANTIMATTER (Robinhood Chain): 29/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x72d5bf142874d24d1565f8633621307fd2871111.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x72d5bf142874d24d1565f8633621307fd2871111/2026-10-15T03:45:11Z</id>
-<updated>2026-10-15T03:45:11Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>ANTIMATTER on Robinhood Chain (0x72d5bf142874d24d1565f8633621307fd2871111) scored 29/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>RobinSeed (Robinhood Chain): 33/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69/2026-10-15T03:44:49Z</id>
-<updated>2026-10-15T03:44:49Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>RobinSeed on Robinhood Chain (0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69) scored 33/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Magic Internet Cat (Robinhood Chain): 34/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xf14e56c6d95f09e008847873e223ecd39931d034.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xf14e56c6d95f09e008847873e223ecd39931d034/2026-10-15T03:44:32Z</id>
-<updated>2026-10-15T03:44:32Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Magic Internet Cat on Robinhood Chain (0xf14e56c6d95f09e008847873e223ecd39931d034) scored 34/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Spaceballs (Robinhood Chain): 29/100 MODERATE</title>
+<title>Spaceballs (Robinhood Chain): 41/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x947ac56bb8e722ddef0d58303b1113847781e240.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x947ac56bb8e722ddef0d58303b1113847781e240/2026-10-15T03:43:42Z</id>
-<updated>2026-10-15T03:43:42Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x947ac56bb8e722ddef0d58303b1113847781e240/2026-10-15T19:24:28Z</id>
+<updated>2026-10-15T19:24:28Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
-<summary>Spaceballs on Robinhood Chain (0x947ac56bb8e722ddef0d58303b1113847781e240) scored 29/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>BLL pre-launch sale (Base): 29/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0/2026-10-15T02:52:18Z</id>
-<updated>2026-10-15T02:52:18Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>BLL pre-launch sale on Base (0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0) scored 29/100 (MODERATE risk signals). Top signal: Holder concentration (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Formion (FOM) (Base): 10/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1/2026-10-15T02:52:12Z</id>
-<updated>2026-10-15T02:52:12Z</updated>
-<category term="LOW"/><category term="base"/>
-<summary>Formion (FOM) on Base (0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1) scored 10/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Embeddinggemma 2 (EMB2) (Base): 37/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x57b7bd6723a311d629b7380ee9a502bd88d3eba3.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x57b7bd6723a311d629b7380ee9a502bd88d3eba3/2026-10-15T02:52:07Z</id>
-<updated>2026-10-15T02:52:07Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>Embeddinggemma 2 (EMB2) on Base (0x57b7bD6723a311d629B7380ee9A502bD88D3eba3) scored 37/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>DIE HARD DEGEN (DHD) (Base): 38/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x2d3200df9c99a84e329f0f3e6213df3b252629d4.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x2d3200df9c99a84e329f0f3e6213df3b252629d4/2026-10-15T02:52:01Z</id>
-<updated>2026-10-15T02:52:01Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>DIE HARD DEGEN (DHD) on Base (0x2d3200df9c99a84e329f0f3e6213df3b252629d4) scored 38/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>BlueYard (YARD) (Base): 40/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xa41df39bec38f5f0a17bb47dea1c813c4250ae01.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xa41df39bec38f5f0a17bb47dea1c813c4250ae01/2026-10-15T02:51:55Z</id>
-<updated>2026-10-15T02:51:55Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>BlueYard (YARD) on Base (0xa41df39bec38f5f0a17bb47dea1c813c4250ae01) scored 40/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>PokePaired (POKE) (Robinhood Chain): 49/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x020825806766641ab34842059608e199b07a31e4.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x020825806766641ab34842059608e199b07a31e4/2026-10-15T02:51:35Z</id>
-<updated>2026-10-15T02:51:35Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>PokePaired (POKE) on Robinhood Chain (0x020825806766641ab34842059608e199b07a31e4) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Spaceballs on Robinhood Chain (0x947ac56bb8e722ddef0d58303b1113847781e240) scored 41/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
 <title>MogPad (MOG, Pons) (Robinhood Chain): 42/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x8a8ef538e957c652693158f186e970d46fb1d396.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x8a8ef538e957c652693158f186e970d46fb1d396/2026-10-15T02:51:10Z</id>
-<updated>2026-10-15T02:51:10Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x8a8ef538e957c652693158f186e970d46fb1d396/2026-10-15T19:24:24Z</id>
+<updated>2026-10-15T19:24:24Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
 <summary>MogPad (MOG, Pons) on Robinhood Chain (0x8a8ef538e957c652693158f186e970d46fb1d396) scored 42/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>IGNITION (Robinhood Chain): 26/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111/2026-10-15T02:50:46Z</id>
-<updated>2026-10-15T02:50:46Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>IGNITION on Robinhood Chain (0x01E6301bc1118be90Cc6Bc2d1B5C0c44Bb883111) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Outpost (Robinhood Chain): 36/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb227da2916e74436863664aeb53d62026d2996a6.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb227da2916e74436863664aeb53d62026d2996a6/2026-10-15T02:50:25Z</id>
-<updated>2026-10-15T02:50:25Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>Outpost on Robinhood Chain (0xb227da2916e74436863664aeb53d62026d2996a6) scored 36/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Sealslab SlabVault (vault) (Robinhood Chain): 53/100 ELEVATED</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b/2026-10-15T02:50:18Z</id>
-<updated>2026-10-15T02:50:18Z</updated>
-<category term="ELEVATED"/><category term="robinhood"/>
-<summary>Sealslab SlabVault (vault) on Robinhood Chain (0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b) scored 53/100 (ELEVATED risk signals). Top signal: Shared hosting overlap (+25). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Swardbow Sheriff&#x27;s chest (vault) (Robinhood Chain): 61/100 ELEVATED</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xcdb4ee224ca4db25767ffad5b922f014a4905300.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xcdb4ee224ca4db25767ffad5b922f014a4905300/2026-10-15T02:50:04Z</id>
-<updated>2026-10-15T02:50:04Z</updated>
-<category term="ELEVATED"/><category term="robinhood"/>
-<summary>Swardbow Sheriff&#x27;s chest (vault) on Robinhood Chain (0xcDb4Ee224cA4Db25767fFad5B922f014A4905300) scored 61/100 (ELEVATED risk signals). Top signal: Shared hosting overlap (+25). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>PYROBOT AI (Robinhood Chain): 32/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x7a780a90016ee441bb44a7904c96c43b6acbca97.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x7a780a90016ee441bb44a7904c96c43b6acbca97/2026-10-15T02:49:45Z</id>
-<updated>2026-10-15T02:49:45Z</updated>
-<category term="MODERATE"/><category term="robinhood"/>
-<summary>PYROBOT AI on Robinhood Chain (0x7a780a90016ee441bb44a7904c96c43b6acbca97) scored 32/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
 <title>PACT (Robinhood Chain): 38/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x7775c5ae0899f5bd3b87070bf3c416ec1247ac0b.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x7775c5ae0899f5bd3b87070bf3c416ec1247ac0b/2026-10-15T02:49:22Z</id>
-<updated>2026-10-15T02:49:22Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x7775c5ae0899f5bd3b87070bf3c416ec1247ac0b/2026-10-15T19:24:23Z</id>
+<updated>2026-10-15T19:24:23Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
 <summary>PACT on Robinhood Chain (0x7775C5ae0899f5Bd3b87070bF3c416Ec1247AC0B) scored 38/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
-<title>Doin Trade (Robinhood Chain): 50/100 ELEVATED</title>
+<title>Doin Trade (Robinhood Chain): 42/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6ebe4571b0c4befde8e2b7af647d2255745b00da.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6ebe4571b0c4befde8e2b7af647d2255745b00da/2026-10-15T02:49:00Z</id>
-<updated>2026-10-15T02:49:00Z</updated>
-<category term="ELEVATED"/><category term="robinhood"/>
-<summary>Doin Trade on Robinhood Chain (0x6ebe4571b0c4befde8e2b7af647d2255745b00da) scored 50/100 (ELEVATED risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>BunkiSwap (Robinhood Chain): 31/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481/2026-10-15T02:48:42Z</id>
-<updated>2026-10-15T02:48:42Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6ebe4571b0c4befde8e2b7af647d2255745b00da/2026-10-15T19:23:58Z</id>
+<updated>2026-10-15T19:23:58Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
-<summary>BunkiSwap on Robinhood Chain (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481) scored 31/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+<summary>Doin Trade on Robinhood Chain (0x6ebe4571b0c4befde8e2b7af647d2255745b00da) scored 42/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
 <title>HIGHSENSE (Robinhood Chain): 48/100 MODERATE</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41/2026-10-15T02:48:20Z</id>
-<updated>2026-10-15T02:48:20Z</updated>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41/2026-10-15T19:23:50Z</id>
+<updated>2026-10-15T19:23:50Z</updated>
 <category term="MODERATE"/><category term="robinhood"/>
 <summary>HIGHSENSE on Robinhood Chain (0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41) scored 48/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Embeddinggemma 2 (EMB2) (Base): 30/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x57b7bd6723a311d629b7380ee9a502bd88d3eba3.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x57b7bd6723a311d629b7380ee9a502bd88d3eba3/2026-10-15T19:23:50Z</id>
+<updated>2026-10-15T19:23:50Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>Embeddinggemma 2 (EMB2) on Base (0x57b7bD6723a311d629B7380ee9A502bD88D3eba3) scored 30/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>NASDANQ (Robinhood Chain): 47/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x693a9bb5b955ec0433d181553a9b896d2781b37b.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x693a9bb5b955ec0433d181553a9b896d2781b37b/2026-10-15T19:23:50Z</id>
+<updated>2026-10-15T19:23:50Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>NASDANQ on Robinhood Chain (0x693a9bb5b955ec0433d181553a9b896d2781b37b) scored 47/100 (MODERATE risk signals). Top signal: Source not verified (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Lighthouse (Robinhood Chain): 56/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff/2026-10-15T19:20:52Z</id>
+<updated>2026-10-15T19:20:52Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Lighthouse on Robinhood Chain (0xfc5a5c521c80d8e1d6b5aee6454b8c9483c91bff) scored 56/100 (ELEVATED risk signals). Top signal: blacklist/bot-block function present (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>National Fund Oil Dividend (Base): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xf6de9546e59a13642d6b3cefa7e71edc52625dda.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xf6de9546e59a13642d6b3cefa7e71edc52625dda/2026-10-15T19:19:22Z</id>
+<updated>2026-10-15T19:19:22Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>National Fund Oil Dividend on Base (0xf6de9546e59a13642d6b3cefa7e71edc52625dda) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>NEAR (Base): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xebf789255e82ef79b0ec53423368b2c241f56940.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xebf789255e82ef79b0ec53423368b2c241f56940/2026-10-15T19:19:19Z</id>
+<updated>2026-10-15T19:19:19Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>NEAR on Base (0xebf789255e82ef79b0ec53423368b2c241f56940) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>DOPE (Base): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xe2a93692086b330542e382ecc6490f99d21700aa.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xe2a93692086b330542e382ecc6490f99d21700aa/2026-10-15T19:19:16Z</id>
+<updated>2026-10-15T19:19:16Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>DOPE on Base (0xe2a93692086b330542e382ecc6490f99d21700aa) scored 26/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>USDP (Base): 29/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702/2026-10-15T19:19:12Z</id>
+<updated>2026-10-15T19:19:12Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>USDP on Base (0xc6edc36f47b526f6ddca85e971e7cc89b22fd702) scored 29/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Golden Fund Dome (Base): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666/2026-10-15T19:19:09Z</id>
+<updated>2026-10-15T19:19:09Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Golden Fund Dome on Base (0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>United States Dividend Program (Base): 29/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x8c04ba70d8df5bc4e9a8ae264e73d9a5c4cc7122.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x8c04ba70d8df5bc4e9a8ae264e73d9a5c4cc7122/2026-10-15T19:19:06Z</id>
+<updated>2026-10-15T19:19:06Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>United States Dividend Program on Base (0x8c04ba70d8df5bc4e9a8ae264e73d9a5c4cc7122) scored 29/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>CHAINLINK (Base): 23/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x524c6c5e0232aa97bb01cb97b599e06e51dfff67.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x524c6c5e0232aa97bb01cb97b599e06e51dfff67/2026-10-15T19:18:55Z</id>
+<updated>2026-10-15T19:18:55Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>CHAINLINK on Base (0x524c6c5e0232aa97bb01cb97b599e06e51dfff67) scored 23/100 (LOW risk signals). Top signal: Fresh deployer wallet (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Banger (Base): 18/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3a42c848151baaa1b1ab326ade8a282e65745c17.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3a42c848151baaa1b1ab326ade8a282e65745c17/2026-10-15T19:18:32Z</id>
+<updated>2026-10-15T19:18:32Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Banger on Base (0x3a42c848151baaa1b1ab326ade8a282e65745c17) scored 18/100 (LOW risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>UNICORN (Base): 18/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3688b2bfc5dd9a98c17694f54713306ac70f26ed.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3688b2bfc5dd9a98c17694f54713306ac70f26ed/2026-10-15T19:18:25Z</id>
+<updated>2026-10-15T19:18:25Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>UNICORN on Base (0x3688b2bfc5dd9a98c17694f54713306ac70f26ed) scored 18/100 (LOW risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Insitutional Oil Fund (Base): 9/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x221d3d48361454a852eb293f766a49f1118671f1.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x221d3d48361454a852eb293f766a49f1118671f1/2026-10-15T19:18:24Z</id>
+<updated>2026-10-15T19:18:24Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Insitutional Oil Fund on Base (0x221d3d48361454a852eb293f766a49f1118671f1) scored 9/100 (LOW risk signals). Top signal: No project website known (+3). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Golden Dome Fund (Base): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x05801818d90c51761579904af895a8150afe0e11.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x05801818d90c51761579904af895a8150afe0e11/2026-10-15T19:18:01Z</id>
+<updated>2026-10-15T19:18:01Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Golden Dome Fund on Base (0x05801818d90c51761579904af895a8150afe0e11) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Aerodrome (Base): 9/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x03999b6102e53c9fe1770d0bd40bc2d218fc9854.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x03999b6102e53c9fe1770d0bd40bc2d218fc9854/2026-10-15T19:17:54Z</id>
+<updated>2026-10-15T19:17:54Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Aerodrome on Base (0x03999b6102e53c9fe1770d0bd40bc2d218fc9854) scored 9/100 (LOW risk signals). Top signal: No project website known (+3). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>UKFLMS-UK FINANCIAL MOONSHOT TOKEN (Base): 23/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xf2034fcb75de8709a1b9464512740ac0e26d6e53.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xf2034fcb75de8709a1b9464512740ac0e26d6e53/2026-10-15T19:16:51Z</id>
+<updated>2026-10-15T19:16:51Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>UKFLMS-UK FINANCIAL MOONSHOT TOKEN on Base (0xf2034fcb75de8709a1b9464512740ac0e26d6e53) scored 23/100 (LOW risk signals). Top signal: Fresh deployer wallet (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>WETH (Base): 9/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xb9902541fe2551af26abc4318222ce4943e9ec76.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xb9902541fe2551af26abc4318222ce4943e9ec76/2026-10-15T19:16:44Z</id>
+<updated>2026-10-15T19:16:44Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>WETH on Base (0xb9902541fe2551af26abc4318222ce4943e9ec76) scored 9/100 (LOW risk signals). Top signal: No project website known (+3). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>STRATEGIC PROTOCOL AMERICAN (Base): 15/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xa408a5af3fcb2463def9f88f075e0758c11eace9.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xa408a5af3fcb2463def9f88f075e0758c11eace9/2026-10-15T19:16:44Z</id>
+<updated>2026-10-15T19:16:44Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>STRATEGIC PROTOCOL AMERICAN on Base (0xa408a5af3fcb2463def9f88f075e0758c11eace9) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>NASDANQ (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xe72a73908575c54e489b08d3744c30187b312935.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xe72a73908575c54e489b08d3744c30187b312935/2026-10-15T19:12:06Z</id>
+<updated>2026-10-15T19:12:06Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>NASDANQ on Robinhood Chain (0xe72a73908575c54e489b08d3744c30187b312935) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>HaggleHog (Robinhood Chain): 17/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56/2026-10-15T19:11:53Z</id>
+<updated>2026-10-15T19:11:53Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>HaggleHog on Robinhood Chain (0xe63bcb6f02889bb32a3ed2cd9a8a48bd2b5d2e56) scored 17/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>CatDog (Robinhood Chain): 34/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265/2026-10-15T19:11:25Z</id>
+<updated>2026-10-15T19:11:25Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>CatDog on Robinhood Chain (0xdf062b333e6ecc732ee814a1fb6f8b2b610a4265) scored 34/100 (MODERATE risk signals). Top signal: Holder concentration (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Streamoors (Robinhood Chain): 24/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xd842f1536d81e5677df89364d5570662cf63b82c.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xd842f1536d81e5677df89364d5570662cf63b82c/2026-10-15T19:11:10Z</id>
+<updated>2026-10-15T19:11:10Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Streamoors on Robinhood Chain (0xd842f1536d81e5677df89364d5570662cf63b82c) scored 24/100 (LOW risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>openhuman (Base): 34/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xeab44724fae3e805e78d031274ba32971e86649e.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xeab44724fae3e805e78d031274ba32971e86649e/2026-10-15T19:11:02Z</id>
+<updated>2026-10-15T19:11:02Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>openhuman on Base (0xeab44724fae3e805e78d031274ba32971e86649e) scored 34/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Busted (Robinhood Chain): 8/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172/2026-10-15T19:10:57Z</id>
+<updated>2026-10-15T19:10:57Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Busted on Robinhood Chain (0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172) scored 8/100 (LOW risk signals). Top signal: Young domain (+5). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Coinbase Wrapped BTC (Robinhood Chain): 69/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xcec185eb182c47d1ba1efc84e6959e18cd620be4.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xcec185eb182c47d1ba1efc84e6959e18cd620be4/2026-10-15T19:10:49Z</id>
+<updated>2026-10-15T19:10:49Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Coinbase Wrapped BTC on Robinhood Chain (0xcec185eb182c47d1ba1efc84e6959e18cd620be4) scored 69/100 (ELEVATED risk signals). Top signal: Upgradeable proxy (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>XMR (Base): 38/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x7e5a8626b3ca4e5937a1a940e900df5e37cc5a51.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x7e5a8626b3ca4e5937a1a940e900df5e37cc5a51/2026-10-15T19:10:45Z</id>
+<updated>2026-10-15T19:10:45Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>XMR on Base (0x7e5a8626b3ca4e5937a1a940e900df5e37cc5a51) scored 38/100 (MODERATE risk signals). Top signal: Launch wallet holds 5%+ (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>LOL (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xc7fbd49b98d98e83227a88c412788f71b4e91aac.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xc7fbd49b98d98e83227a88c412788f71b4e91aac/2026-10-15T19:10:44Z</id>
+<updated>2026-10-15T19:10:44Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>LOL on Robinhood Chain (0xc7fbd49b98d98e83227a88c412788f71b4e91aac) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Veilora (Robinhood Chain): 19/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe/2026-10-15T19:10:36Z</id>
+<updated>2026-10-15T19:10:36Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Veilora on Robinhood Chain (0xbfe3e08e96ffa81563bd26be1d5ad31dd1dad1fe) scored 19/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Dickbuttifier (Robinhood Chain): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb606bca572dca673a1f0f34fd8f5c7ce522c9d2a.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb606bca572dca673a1f0f34fd8f5c7ce522c9d2a/2026-10-15T19:10:26Z</id>
+<updated>2026-10-15T19:10:26Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Dickbuttifier on Robinhood Chain (0xb606bca572dca673a1f0f34fd8f5c7ce522c9d2a) scored 26/100 (MODERATE risk signals). Top signal: Serial deployer (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Callout (Robinhood Chain): 13/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb9f53611316fa2428eb93c4cc4dccae0d3977f79.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb9f53611316fa2428eb93c4cc4dccae0d3977f79/2026-10-15T19:10:24Z</id>
+<updated>2026-10-15T19:10:24Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Callout on Robinhood Chain (0xb9f53611316fa2428eb93c4cc4dccae0d3977f79) scored 13/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Cash Dog (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb11be0a96e156e5d37177ebd21dffc83fa45fc80.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb11be0a96e156e5d37177ebd21dffc83fa45fc80/2026-10-15T19:10:03Z</id>
+<updated>2026-10-15T19:10:03Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Cash Dog on Robinhood Chain (0xb11be0a96e156e5d37177ebd21dffc83fa45fc80) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>LOL (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x4568831ed978f228519ac56eb8e0adad582dffd7.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x4568831ed978f228519ac56eb8e0adad582dffd7/2026-10-15T19:09:52Z</id>
+<updated>2026-10-15T19:09:52Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>LOL on Robinhood Chain (0x4568831ed978f228519ac56eb8e0adad582dffd7) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Larp the cat (Robinhood Chain): 35/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x892b68f22c0c3ed26d02e459fd4763d2a8a78715.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x892b68f22c0c3ed26d02e459fd4763d2a8a78715/2026-10-15T19:09:46Z</id>
+<updated>2026-10-15T19:09:46Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Larp the cat on Robinhood Chain (0x892b68f22c0c3ed26d02e459fd4763d2a8a78715) scored 35/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Lighthouse (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x1529f1842b2517de202a3c327cca8d2278645010.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x1529f1842b2517de202a3c327cca8d2278645010/2026-10-15T19:09:26Z</id>
+<updated>2026-10-15T19:09:26Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Lighthouse on Robinhood Chain (0x1529f1842b2517de202a3c327cca8d2278645010) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Puffernoodle (Robinhood Chain): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x82735c14a6b9a59f2a678517e407325bda1266d8.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x82735c14a6b9a59f2a678517e407325bda1266d8/2026-10-15T19:09:13Z</id>
+<updated>2026-10-15T19:09:13Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Puffernoodle on Robinhood Chain (0x82735c14a6b9a59f2a678517e407325bda1266d8) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>SWARM ENGINE (Robinhood Chain): 18/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x72bfcf23b089403a1056fd9719c577966b941f57.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x72bfcf23b089403a1056fd9719c577966b941f57/2026-10-15T19:09:05Z</id>
+<updated>2026-10-15T19:09:05Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>SWARM ENGINE on Robinhood Chain (0x72bfcf23b089403a1056fd9719c577966b941f57) scored 18/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Sword Inu (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x71afda7628ba800ca2b74595b2bf0959c94ff7f7.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x71afda7628ba800ca2b74595b2bf0959c94ff7f7/2026-10-15T19:08:55Z</id>
+<updated>2026-10-15T19:08:55Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Sword Inu on Robinhood Chain (0x71afda7628ba800ca2b74595b2bf0959c94ff7f7) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Alvey Chain (Robinhood Chain): 13/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x302dacc52492095fb054937112a5aac4617ecfb3.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x302dacc52492095fb054937112a5aac4617ecfb3/2026-10-15T19:08:51Z</id>
+<updated>2026-10-15T19:08:51Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Alvey Chain on Robinhood Chain (0x302dacc52492095fb054937112a5aac4617ecfb3) scored 13/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>smoking Inu (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6e96550a4b06d5de2b09060782c0f06c4a7f3567.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6e96550a4b06d5de2b09060782c0f06c4a7f3567/2026-10-15T19:08:43Z</id>
+<updated>2026-10-15T19:08:43Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>smoking Inu on Robinhood Chain (0x6e96550a4b06d5de2b09060782c0f06c4a7f3567) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Kept (Robinhood Chain): 24/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x50d26490f7915983bedba927361fb0142efa1214.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x50d26490f7915983bedba927361fb0142efa1214/2026-10-15T19:08:28Z</id>
+<updated>2026-10-15T19:08:28Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>Kept on Robinhood Chain (0x50d26490f7915983bedba927361fb0142efa1214) scored 24/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Tax Hook (Robinhood Chain): 30/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x2e01032094e8ba8958489562abb4ab00bb844c66.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x2e01032094e8ba8958489562abb4ab00bb844c66/2026-10-15T19:08:26Z</id>
+<updated>2026-10-15T19:08:26Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Tax Hook on Robinhood Chain (0x2e01032094e8ba8958489562abb4ab00bb844c66) scored 30/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Axis Robotics (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x4f522a78d1d0f0843b3c148ff70561468aea67c9.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x4f522a78d1d0f0843b3c148ff70561468aea67c9/2026-10-15T19:08:10Z</id>
+<updated>2026-10-15T19:08:10Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Axis Robotics on Robinhood Chain (0x4f522a78d1d0f0843b3c148ff70561468aea67c9) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>the robin of torch (Robinhood Chain): 31/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x481ff4a578d977bae5f38d54d81769d108b71111.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x481ff4a578d977bae5f38d54d81769d108b71111/2026-10-15T19:08:07Z</id>
+<updated>2026-10-15T19:08:07Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>the robin of torch on Robinhood Chain (0x481ff4a578d977bae5f38d54d81769d108b71111) scored 31/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>KumioOS (Robinhood Chain): 46/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x47e13a8e5bf31e98275d12784127958bcf5b0009.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x47e13a8e5bf31e98275d12784127958bcf5b0009/2026-10-15T19:08:06Z</id>
+<updated>2026-10-15T19:08:06Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>KumioOS on Robinhood Chain (0x47e13a8e5bf31e98275d12784127958bcf5b0009) scored 46/100 (MODERATE risk signals). Top signal: Holder concentration (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Girl with balloon (Robinhood Chain): 31/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x403cb172fc842115392e6b4389793e1712b0d294.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x403cb172fc842115392e6b4389793e1712b0d294/2026-10-15T19:07:44Z</id>
+<updated>2026-10-15T19:07:44Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Girl with balloon on Robinhood Chain (0x403cb172fc842115392e6b4389793e1712b0d294) scored 31/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>zerotrace (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x1ee16940dce41e01a089a3040cf3de864cf4ebcd.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x1ee16940dce41e01a089a3040cf3de864cf4ebcd/2026-10-15T19:07:41Z</id>
+<updated>2026-10-15T19:07:41Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>zerotrace on Robinhood Chain (0x1ee16940dce41e01a089a3040cf3de864cf4ebcd) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>CLAUDIA (Base): 36/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xcd3ca14397c717f1646fdf418004ebcda0c18b94.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xcd3ca14397c717f1646fdf418004ebcda0c18b94/2026-10-15T19:07:29Z</id>
+<updated>2026-10-15T19:07:29Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>CLAUDIA on Base (0xcd3ca14397c717f1646fdf418004ebcda0c18b94) scored 36/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Emotional Bull (Base): 46/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x8faeee213e8e4bb796433e9df670736fca451d15.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x8faeee213e8e4bb796433e9df670736fca451d15/2026-10-15T19:07:21Z</id>
+<updated>2026-10-15T19:07:21Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>Emotional Bull on Base (0x8faeee213e8e4bb796433e9df670736fca451d15) scored 46/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>streamoors (Base): 52/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x672f1e68b804905e306e6e8105bef964ec184ea9.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x672f1e68b804905e306e6e8105bef964ec184ea9/2026-10-15T19:07:19Z</id>
+<updated>2026-10-15T19:07:19Z</updated>
+<category term="ELEVATED"/><category term="base"/>
+<summary>streamoors on Base (0x672f1e68b804905e306e6e8105bef964ec184ea9) scored 52/100 (ELEVATED risk signals). Top signal: mint function present (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>World Oil Supply Exchange (Base): 31/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x07cbc2ca1ff6fec11794ddea9db4c9e18fdc3449.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x07cbc2ca1ff6fec11794ddea9db4c9e18fdc3449/2026-10-15T19:07:03Z</id>
+<updated>2026-10-15T19:07:03Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>World Oil Supply Exchange on Base (0x07cbc2ca1ff6fec11794ddea9db4c9e18fdc3449) scored 31/100 (MODERATE risk signals). Top signal: Serial deployer (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Magic Internet Cat (Robinhood Chain): 52/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xf14e56c6d95f09e008847873e223ecd39931d034.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xf14e56c6d95f09e008847873e223ecd39931d034/2026-10-15T19:06:48Z</id>
+<updated>2026-10-15T19:06:48Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Magic Internet Cat on Robinhood Chain (0xf14e56c6d95f09e008847873e223ecd39931d034) scored 52/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Swardbow Sheriff&#x27;s chest (vault) (Robinhood Chain): 61/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xcdb4ee224ca4db25767ffad5b922f014a4905300.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xcdb4ee224ca4db25767ffad5b922f014a4905300/2026-10-15T19:06:34Z</id>
+<updated>2026-10-15T19:06:34Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Swardbow Sheriff&#x27;s chest (vault) on Robinhood Chain (0xcDb4Ee224cA4Db25767fFad5B922f014A4905300) scored 61/100 (ELEVATED risk signals). Top signal: Shared hosting overlap (+25). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>BunkiSwap (Robinhood Chain): 31/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481/2026-10-15T19:06:24Z</id>
+<updated>2026-10-15T19:06:24Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>BunkiSwap on Robinhood Chain (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481) scored 31/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Outpost (Robinhood Chain): 36/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xb227da2916e74436863664aeb53d62026d2996a6.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0xb227da2916e74436863664aeb53d62026d2996a6/2026-10-15T19:06:06Z</id>
+<updated>2026-10-15T19:06:06Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Outpost on Robinhood Chain (0xb227da2916e74436863664aeb53d62026d2996a6) scored 36/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Claudia (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3/2026-10-15T19:05:38Z</id>
+<updated>2026-10-15T19:05:38Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Claudia on Robinhood Chain (0x8bd8df4c7a198e65dd524dd955c38893d5fec1a3) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>PYROBOT AI (Robinhood Chain): 32/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x7a780a90016ee441bb44a7904c96c43b6acbca97.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x7a780a90016ee441bb44a7904c96c43b6acbca97/2026-10-15T19:05:21Z</id>
+<updated>2026-10-15T19:05:21Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>PYROBOT AI on Robinhood Chain (0x7a780a90016ee441bb44a7904c96c43b6acbca97) scored 32/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Sealslab SlabVault (vault) (Robinhood Chain): 53/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b/2026-10-15T19:05:18Z</id>
+<updated>2026-10-15T19:05:18Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>Sealslab SlabVault (vault) on Robinhood Chain (0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b) scored 53/100 (ELEVATED risk signals). Top signal: Shared hosting overlap (+25). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>ANTIMATTER (Robinhood Chain): 29/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x72d5bf142874d24d1565f8633621307fd2871111.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x72d5bf142874d24d1565f8633621307fd2871111/2026-10-15T19:05:05Z</id>
+<updated>2026-10-15T19:05:05Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>ANTIMATTER on Robinhood Chain (0x72d5bf142874d24d1565f8633621307fd2871111) scored 29/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>RobinSeed (Robinhood Chain): 11/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69/2026-10-15T19:04:41Z</id>
+<updated>2026-10-15T19:04:41Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>RobinSeed on Robinhood Chain (0x6adb9cd443f4653572101e2f91b35ea1ed5f6b69) scored 11/100 (LOW risk signals). Top signal: Serial deployer (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Chop (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37/2026-10-15T19:04:04Z</id>
+<updated>2026-10-15T19:04:04Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>Chop on Robinhood Chain (0x338ad8101fa906fd7a798baf56c0a5bdbbd2ee37) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>wojakveil (Robinhood Chain): 32/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x2009fb40940be99ea652d0e4ee2b00b3369f7777.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x2009fb40940be99ea652d0e4ee2b00b3369f7777/2026-10-15T19:03:53Z</id>
+<updated>2026-10-15T19:03:53Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>wojakveil on Robinhood Chain (0x2009fb40940be99ea652d0e4ee2b00b3369f7777) scored 32/100 (MODERATE risk signals). Top signal: Holder concentration (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>wolfpack airdrop (Robinhood Chain): 27/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8/2026-10-15T19:03:08Z</id>
+<updated>2026-10-15T19:03:08Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>wolfpack airdrop on Robinhood Chain (0x0ee72c4cc45960b36811d89d344f01dcd29ab2e8) scored 27/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>PokePaired (POKE) (Robinhood Chain): 49/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x020825806766641ab34842059608e199b07a31e4.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x020825806766641ab34842059608e199b07a31e4/2026-10-15T19:03:05Z</id>
+<updated>2026-10-15T19:03:05Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>PokePaired (POKE) on Robinhood Chain (0x020825806766641ab34842059608e199b07a31e4) scored 49/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>IGNITION (Robinhood Chain): 14/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x01e6301bc1118be90cc6bc2d1b5c0c44bb883111/2026-10-15T19:03:03Z</id>
+<updated>2026-10-15T19:03:03Z</updated>
+<category term="LOW"/><category term="robinhood"/>
+<summary>IGNITION on Robinhood Chain (0x01E6301bc1118be90Cc6Bc2d1B5C0c44Bb883111) scored 14/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Formion (FOM) (Base): 10/100 LOW</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1/2026-10-15T19:02:55Z</id>
+<updated>2026-10-15T19:02:55Z</updated>
+<category term="LOW"/><category term="base"/>
+<summary>Formion (FOM) on Base (0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1) scored 10/100 (LOW risk signals). Top signal: Low DEX liquidity (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>BlueYard (YARD) (Base): 40/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xa41df39bec38f5f0a17bb47dea1c813c4250ae01.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xa41df39bec38f5f0a17bb47dea1c813c4250ae01/2026-10-15T19:02:46Z</id>
+<updated>2026-10-15T19:02:46Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>BlueYard (YARD) on Base (0xa41df39bec38f5f0a17bb47dea1c813c4250ae01) scored 40/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>BLL pre-launch sale (Base): 32/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0/2026-10-15T19:02:39Z</id>
+<updated>2026-10-15T19:02:39Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>BLL pre-launch sale on Base (0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0) scored 32/100 (MODERATE risk signals). Top signal: Holder concentration (+10). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>Anansi (Base): 41/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383/2026-10-15T19:02:28Z</id>
+<updated>2026-10-15T19:02:28Z</updated>
+<category term="MODERATE"/><category term="base"/>
+<summary>Anansi on Base (0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383) scored 41/100 (MODERATE risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 </feed>

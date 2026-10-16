@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xd8d5c24e6d1493b522a12efd695cb344024bee1b",
- "scanned_at_utc": "2026-10-15T16:58:11Z",
- "block": 89385172,
+ "scanned_at_utc": "2026-10-15T19:25:59Z",
+ "block": 89473313,
  "site": "https://qiuver.com/",
  "post": null,
  "token": {
@@ -22,6 +22,7 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "not_verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -66,13 +67,13 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": null,
-  "geckoterminal_top_usd": 7345.6506
+  "geckoterminal_top_usd": 5598.6547
  },
  "pairs": [
   {
    "dex": "pons-v2",
    "pair": "0xfb68e84127caa0f73795e3bc982a5ca19e73c202",
-   "liq_usd": 7345.6506,
+   "liq_usd": 5598.6547,
    "created": "2026-10-15T16:22:13Z",
    "url": "https://www.geckoterminal.com/robinhood/pools/0xfb68e84127caa0f73795e3bc982a5ca19e73c202",
    "quote": "WETH"
@@ -136,7 +137,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 89385172",
+    "eth_getCode @ block 89473313",
     "https://robinhoodchain.blockscout.com/address/0xd8d5c24e6d1493b522a12efd695cb344024bee1b"
    ]
   },
@@ -146,7 +147,7 @@
    "title": "Source verified",
    "status": "flag",
    "points": 4,
-   "detail": "Not verified itself, but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
     "https://robinhoodchain.blockscout.com/address/0xd8d5c24e6d1493b522a12efd695cb344024bee1b?tab=contract"
@@ -160,7 +161,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89385172"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89473313"
    ]
   },
   {
@@ -171,7 +172,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xd8d5c24e6d1493b522a12efd695cb344024bee1b owner() @ 89385172 -> revert/empty"
+    "eth_call 0xd8d5c24e6d1493b522a12efd695cb344024bee1b owner() @ 89473313 -> revert/empty"
    ]
   },
   {
@@ -182,7 +183,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
    "evidence": [
-    "selector scan @ 89385172"
+    "selector scan @ 89473313"
    ]
   },
   {
@@ -213,7 +214,7 @@
    "points": 0,
    "detail": "Launch wallet 0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89385172",
+    "eth_call balanceOf(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89473313",
     "https://robinhoodchain.blockscout.com/address/0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb"
    ]
   },
@@ -235,7 +236,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $7,346 (pons-v2) - under $25k.",
+   "detail": "Top pool liquidity $5,599 (pons-v2) - under $25k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0xfb68e84127caa0f73795e3bc982a5ca19e73c202",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd8d5c24e6d1493b522a12efd695cb344024bee1b/pools"
@@ -262,7 +263,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb",
     "https://robinhoodchain.blockscout.com/tx/0x5a338f15d95b242e0e301fac244d14a3ae231a0e84e8947e3375b0b6446f0751",
-    "eth_getTransactionCount(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89385172 = 3"
+    "eth_getTransactionCount(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89473313 = 3"
    ]
   },
   {
@@ -283,7 +284,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb on Blockscout: block 89361966 (2026-10-15 16:19 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb on Blockscout: block 89361966 (2026-10-15 16:19 UTC), 0.1 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb",
     "https://robinhoodchain.blockscout.com/tx/0x5a338f15d95b242e0e301fac244d14a3ae231a0e84e8947e3375b0b6446f0751",
@@ -327,7 +328,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $7,346 (pons-v2) - under $25k.",
+   "detail": "Top pool liquidity $5,599 (pons-v2) - under $25k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0xfb68e84127caa0f73795e3bc982a5ca19e73c202",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd8d5c24e6d1493b522a12efd695cb344024bee1b/pools"
@@ -343,7 +344,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb",
     "https://robinhoodchain.blockscout.com/tx/0x5a338f15d95b242e0e301fac244d14a3ae231a0e84e8947e3375b0b6446f0751",
-    "eth_getTransactionCount(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89385172 = 3"
+    "eth_getTransactionCount(0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb) @ 89473313 = 3"
    ]
   },
   {
@@ -352,7 +353,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb on Blockscout: block 89361966 (2026-10-15 16:19 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb on Blockscout: block 89361966 (2026-10-15 16:19 UTC), 0.1 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xc0f59ad036f0f9d6a0e0c49a080f826c925146bb",
     "https://robinhoodchain.blockscout.com/tx/0x5a338f15d95b242e0e301fac244d14a3ae231a0e84e8947e3375b0b6446f0751",
@@ -378,5 +379,10 @@
   "site": "https://qiuver.com/",
   "x_profile": "https://x.com/quivervncm?s=11",
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T16:58:11Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

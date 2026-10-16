@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x57b7bD6723a311d629B7380ee9A502bD88D3eba3",
- "scanned_at_utc": "2026-10-15T02:52:07Z",
- "block": 52621690,
+ "scanned_at_utc": "2026-10-15T19:23:50Z",
+ "block": 52651441,
  "site": null,
  "post": "https://x.com/AlinaKimik/status/2110448647213023400",
  "token": {
@@ -21,6 +21,16 @@
  "blockscout": {
   "status": "not verified",
   "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xdb7b520bb5c3a2c5d4871198081911359f93be87",
+  "state": "verified",
+  "name": "DopplerERC20V1",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
  },
  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
  "goplus": {
@@ -89,7 +99,7 @@
   "token_symbol": "EMB2",
   "total_supply": "100000000000",
   "trading_cooldown": "0",
-  "transfer_pausable": "0",
+  "transfer_pausable": "1",
   "transfer_tax": ""
  },
  "creation": {
@@ -103,16 +113,16 @@
   "note": "creation tx went through an ERC-4337 EntryPoint; tx.from is a bundler, so the creator/smart account is used"
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 8646.55,
-  "geckoterminal_top_usd": 8393.4585
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 8769.4998
  },
  "pairs": [
   {
-   "dex": "uniswap",
+   "dex": "bankr",
    "pair": "0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
-   "liq_usd": 8646.55,
-   "created": 1792004275000,
-   "url": "https://dexscreener.com/base/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
+   "liq_usd": 8769.4998,
+   "created": "2026-10-14T18:57:55Z",
+   "url": "https://www.geckoterminal.com/base/pools/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
    "quote": "WETH"
   }
  ],
@@ -123,6 +133,14 @@
   },
   {
    "url": "https://base.blockscout.com/api/v2/smart-contracts/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xdb7b520bb5c3a2c5d4871198081911359f93be87?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xdb7b520bb5c3a2c5d4871198081911359f93be87",
    "status": 200
   },
   {
@@ -160,7 +178,7 @@
    "points": 0,
    "detail": "44 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52621690",
+    "eth_getCode @ block 52651441",
     "https://base.blockscout.com/address/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3"
    ]
   },
@@ -168,23 +186,25 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DopplerERC20V1 0xdb7b520bb5c3a2c5d4871198081911359f93be87, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3",
-    "https://base.blockscout.com/address/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3?tab=contract"
+    "https://base.blockscout.com/address/0xdb7b520bb5c3a2c5d4871198081911359f93be87?tab=contract",
+    "https://base.blockscout.com/address/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3"
    ]
   },
   {
    "id": "proxy.type",
    "group": "proxy",
    "title": "Proxy / upgradeability",
-   "status": "pass",
+   "status": "info",
    "points": 0,
-   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xdb7b520bb5c3a2c5d4871198081911359f93be87; clones are NOT upgradeable.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52621690"
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xdb7b520bb5c3a2c5d4871198081911359f93be87",
+    "https://base.blockscout.com/address/0xdb7b520bb5c3a2c5d4871198081911359f93be87"
    ]
   },
   {
@@ -195,7 +215,7 @@
    "points": 3,
    "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0x57b7bd6723a311d629b7380ee9a502bd88d3eba3 owner() @ 52621690",
+    "eth_call 0x57b7bd6723a311d629b7380ee9a502bd88d3eba3 owner() @ 52651441",
     "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
    ]
   },
@@ -205,18 +225,18 @@
    "title": "Privileged functions",
    "status": "pass",
    "points": 0,
-   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52621690"
+    "selector scan @ 52651441"
    ]
   },
   {
    "id": "trade.goplus",
    "group": "trade",
    "title": "GoPlus token security",
-   "status": "pass",
-   "points": 0,
-   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x57b7bd6723a311d629b7380ee9a502bd88d3eba3"
    ]
@@ -240,7 +260,7 @@
    "points": 0,
    "detail": "Launch wallet 0x89c261c05b5f9b6bcba07c199b8dee7cfad45292 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x89c261c05b5f9b6bcba07c199b8dee7cfad45292) @ 52621690",
+    "eth_call balanceOf(0x89c261c05b5f9b6bcba07c199b8dee7cfad45292) @ 52651441",
     "https://base.blockscout.com/address/0x89c261c05b5f9b6bcba07c199b8dee7cfad45292"
    ]
   },
@@ -262,10 +282,10 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $8,647 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $8,769 (bankr) - under $25k.",
    "evidence": [
-    "https://dexscreener.com/base/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
-    "https://api.dexscreener.com/token-pairs/v1/base/0x57b7bd6723a311d629b7380ee9a502bd88d3eba3"
+    "https://www.geckoterminal.com/base/pools/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
+    "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x57b7bd6723a311d629b7380ee9a502bd88d3eba3/pools"
    ]
   },
   {
@@ -274,9 +294,9 @@
    "title": "LP lock / burn",
    "status": "unknown",
    "points": 3,
-   "detail": "Pool is uniswap (v4 pool id 0x59a8291eff\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "detail": "Pool is bankr (v4 pool id 0x59a8291eff\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
    "evidence": [
-    "https://dexscreener.com/base/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76"
+    "https://www.geckoterminal.com/base/pools/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76"
    ]
   },
   {
@@ -306,13 +326,13 @@
    "title": "Launch X account age",
    "status": "pass",
    "points": 0,
-   "detail": "X account created 2017-03-27 (3488.9 days before scan).",
+   "detail": "X account created 2017-03-27 (3489.6 days before scan).",
    "evidence": [
     "https://x.com/AlinaKimik/status/2110448647213023400"
    ]
   }
  ],
- "score": 37,
+ "score": 30,
  "band": "MODERATE",
  "coverage": {
   "run": 11,
@@ -320,27 +340,26 @@
  },
  "top_reasons": [
   {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3",
-    "https://base.blockscout.com/address/0x57b7bD6723a311d629B7380ee9A502bD88D3eba3?tab=contract"
-   ]
-  },
-  {
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $8,647 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $8,769 (bankr) - under $25k.",
    "evidence": [
-    "https://dexscreener.com/base/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
-    "https://api.dexscreener.com/token-pairs/v1/base/0x57b7bd6723a311d629b7380ee9a502bd88d3eba3"
+    "https://www.geckoterminal.com/base/pools/0x59a8291eff30b536404bf7a1968203275150cc1adff0755145d59934e08a5a76",
+    "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x57b7bd6723a311d629b7380ee9a502bd88d3eba3/pools"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x57b7bd6723a311d629b7380ee9a502bd88d3eba3"
    ]
   },
   {
@@ -360,5 +379,10 @@
   "label": "Embeddinggemma 2 (EMB2)",
   "post": "https://x.com/AlinaKimik/status/2110448647213023400",
   "x_created": "2017-03-27T04:34:09Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:52:07Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

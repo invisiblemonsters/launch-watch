@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0xe2a93692086b330542e382ecc6490f99d21700aa",
- "scanned_at_utc": "2026-10-15T14:10:44Z",
- "block": 52642048,
+ "scanned_at_utc": "2026-10-15T19:19:16Z",
+ "block": 52651304,
  "site": null,
  "post": null,
  "token": {
@@ -15,13 +15,16 @@
   "totalSupply": 9990000000000000000000000000
  },
  "sourcify": {
-  "match": null,
-  "err": "HTTP 404"
- },
- "blockscout": {
-  "status": "not verified",
+  "match": "match",
   "err": null
  },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "DERC20"
+ },
+ "verification": "verified",
  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -33,7 +36,25 @@
   "creator_percent": "0.000000",
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "0",
+  "holder_count": "2",
+  "holders": [
+   {
+    "address": "0x000000000000000000000000000000000000dead",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "8370000000.000000000000000055",
+    "percent": "0.837837837837837837",
+    "is_locked": 1
+   },
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1619999999.999999999999999945",
+    "percent": "0.162162162162162162",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
@@ -69,7 +90,7 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": 686970868.01,
-  "geckoterminal_top_usd": 691273452.6875
+  "geckoterminal_top_usd": 721609773.7133
  },
  "pairs": [
   {
@@ -86,7 +107,7 @@
  "http_log": [
   {
    "url": "https://sourcify.dev/server/v2/contract/8453/0xe2a93692086b330542e382ecc6490f99d21700aa?fields=abi,deployment,proxyResolution,compilation",
-   "status": 404
+   "status": 200
   },
   {
    "url": "https://base.blockscout.com/api/v2/smart-contracts/0xe2a93692086b330542e382ecc6490f99d21700aa",
@@ -106,7 +127,7 @@
   },
   {
    "url": "https://base.blockscout.com/api/v2/tokens/0xe2a93692086b330542e382ecc6490f99d21700aa/holders",
-   "status": 404
+   "status": 200
   },
   {
    "url": "https://api.dexscreener.com/token-pairs/v1/base/0xe2a93692086b330542e382ecc6490f99d21700aa",
@@ -131,7 +152,7 @@
    "points": 0,
    "detail": "10143 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52642048",
+    "eth_getCode @ block 52651304",
     "https://base.blockscout.com/address/0xe2a93692086b330542e382ecc6490f99d21700aa"
    ]
   },
@@ -139,11 +160,11 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as DERC20. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xe2a93692086b330542e382ecc6490f99d21700aa",
+    "https://repo.sourcify.dev/8453/0xe2a93692086b330542e382ecc6490f99d21700aa",
     "https://base.blockscout.com/address/0xe2a93692086b330542e382ecc6490f99d21700aa?tab=contract"
    ]
   },
@@ -153,9 +174,9 @@
    "title": "Proxy / upgradeability",
    "status": "pass",
    "points": 0,
-   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52642048"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52651304"
    ]
   },
   {
@@ -166,7 +187,7 @@
    "points": 3,
    "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0xe2a93692086b330542e382ecc6490f99d21700aa owner() @ 52642048",
+    "eth_call 0xe2a93692086b330542e382ecc6490f99d21700aa owner() @ 52651304",
     "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
    ]
   },
@@ -176,9 +197,10 @@
    "title": "Privileged functions",
    "status": "pass",
    "points": 0,
-   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52642048"
+    "selector scan @ 52651304",
+    "https://repo.sourcify.dev/8453/0xe2a93692086b330542e382ecc6490f99d21700aa"
    ]
   },
   {
@@ -211,7 +233,7 @@
    "points": 0,
    "detail": "Launch wallet 0x9d5b7a58902bf6f06a405fec8831fad46e0619a7 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x9d5b7a58902bf6f06a405fec8831fad46e0619a7) @ 52642048",
+    "eth_call balanceOf(0x9d5b7a58902bf6f06a405fec8831fad46e0619a7) @ 52651304",
     "https://base.blockscout.com/address/0x9d5b7a58902bf6f06a405fec8831fad46e0619a7"
    ]
   },
@@ -219,11 +241,12 @@
    "id": "holders.concentration",
    "group": "holders",
    "title": "Holder concentration",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
    "evidence": [
-    "https://base.blockscout.com/api/v2/tokens/0xe2a93692086b330542e382ecc6490f99d21700aa/holders"
+    "https://base.blockscout.com/api/v2/tokens/0xe2a93692086b330542e382ecc6490f99d21700aa/holders",
+    "https://base.blockscout.com/token/0xe2a93692086b330542e382ecc6490f99d21700aa?tab=holders"
    ]
   },
   {
@@ -267,7 +290,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x9d5b7a58902bf6f06a405fec8831fad46e0619a7 on Blockscout: block 52640550 (2026-10-15 13:20 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x9d5b7a58902bf6f06a405fec8831fad46e0619a7 on Blockscout: block 52640550 (2026-10-15 13:20 UTC), 0.2 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x9d5b7a58902bf6f06a405fec8831fad46e0619a7",
     "https://base.blockscout.com/tx/0x10c75c983d92e0feedd859954af00cf10923cecf5ecb772794004d111d25e0d6",
@@ -285,25 +308,13 @@
    "evidence": []
   }
  ],
- "score": 44,
+ "score": 26,
  "band": "MODERATE",
  "coverage": {
-  "run": 10,
-  "unknown": 4
+  "run": 11,
+  "unknown": 3
  },
  "top_reasons": [
-  {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xe2a93692086b330542e382ecc6490f99d21700aa",
-    "https://base.blockscout.com/address/0xe2a93692086b330542e382ecc6490f99d21700aa?tab=contract"
-   ]
-  },
   {
    "id": "trade.goplus",
    "group": "trade",
@@ -321,13 +332,22 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x9d5b7a58902bf6f06a405fec8831fad46e0619a7 on Blockscout: block 52640550 (2026-10-15 13:20 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x9d5b7a58902bf6f06a405fec8831fad46e0619a7 on Blockscout: block 52640550 (2026-10-15 13:20 UTC), 0.2 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x9d5b7a58902bf6f06a405fec8831fad46e0619a7",
     "https://base.blockscout.com/tx/0x10c75c983d92e0feedd859954af00cf10923cecf5ecb772794004d111d25e0d6",
     "https://base.blockscout.com/tx/0xcd27d63df5b9871e80d674b43ff37d0c5ea94a24d64568bcfea0987151394125",
     "https://base.blockscout.com/api/v2/addresses/0x9d5b7a58902bf6f06a405fec8831fad46e0619a7/transactions?sort=block_number&order=asc"
    ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
   }
  ],
  "label": "DOPE",
@@ -344,5 +364,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T14:10:44Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

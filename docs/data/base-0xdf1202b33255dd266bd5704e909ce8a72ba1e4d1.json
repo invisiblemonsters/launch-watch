@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
- "scanned_at_utc": "2026-10-15T02:52:12Z",
- "block": 52621692,
+ "scanned_at_utc": "2026-10-15T19:02:55Z",
+ "block": 52650814,
  "site": "https://formion.ai/",
  "post": "https://x.com/formionai/status/2110388952259518692",
  "token": {
@@ -20,8 +20,11 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "partial": true,
+  "name": "FOM"
  },
+ "verification": "verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -36,14 +39,14 @@
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "8543.11416272646755911498",
+    "liquidity": "9678.97681968540496764129",
     "pool_fee": "0.01",
     "pair": "0xe8d56e701214e7139a83f2b5a67b332bc636d879"
    }
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "19",
+  "holder_count": "33",
   "holders": [
    {
     "address": "0x92a62946236e9df3991612cce46b9d92368adf0b",
@@ -105,24 +108,24 @@
     "address": "0xe8d56e701214e7139a83f2b5a67b332bc636d879",
     "tag": "UniswapV3",
     "is_contract": 1,
-    "balance": "33783786.050173736253986213",
-    "percent": "0.033783786050173736",
+    "balance": "30206615.974516979113993685",
+    "percent": "0.030206615974516979",
     "is_locked": 0
    },
    {
     "address": "0x588cf3afdfad557168d15d377757c83856e6ff12",
     "tag": "",
     "is_contract": 1,
-    "balance": "5941808.795962701660264081",
-    "percent": "0.005941808795962701",
+    "balance": "7781037.206661129258808196",
+    "percent": "0.007781037206661129",
     "is_locked": 0
    },
    {
-    "address": "0xb9966c3620194267d5795d1e5d64bf334e425660",
+    "address": "0xa8864206c8ec8f4375d3ba111f7ffd57d697cf84",
     "tag": "",
-    "is_contract": 1,
-    "balance": "544000",
-    "percent": "0.000544000000000000",
+    "is_contract": 0,
+    "balance": "842265.318536140814826426",
+    "percent": "0.000842265318536140",
     "is_locked": 0
    }
   ],
@@ -140,13 +143,13 @@
    {
     "address": "0x231278edd38b00b07fbd52120cef685b9baebcc1",
     "tag": "UNCX Locker",
-    "value": "8501.70550840047884134526",
+    "value": "9642.56078462719210934310",
     "is_contract": 1,
     "balance": "10899.678894352805657794",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "8501.70550840047884134526",
+      "value": "9642.56078462719210934310",
       "NFT_id": "6264975",
       "amount": "10899.678894352805657794",
       "in_effect": "1",
@@ -156,7 +159,7 @@
     "is_locked": 1,
     "locked_detail": [
      {
-      "value": "8501.70550840047884134526",
+      "value": "9642.56078462719210934310",
       "NFT_id": "6264975",
       "amount": "10899.678894352805657794",
       "end_time": "",
@@ -193,14 +196,14 @@
   "ts": 1791986355
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 17160.6,
-  "geckoterminal_top_usd": 16714.4565
+  "dexscreener_top_usd": 19367.15,
+  "geckoterminal_top_usd": 19357.733
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xe8D56e701214E7139A83f2b5A67B332bc636D879",
-   "liq_usd": 17160.6,
+   "liq_usd": 19367.15,
    "created": 1791989663000,
    "url": "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
    "quote": "WETH"
@@ -288,7 +291,7 @@
    "points": 0,
    "detail": "3784 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52621692",
+    "eth_getCode @ block 52650814",
     "https://base.blockscout.com/address/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1"
    ]
   },
@@ -298,7 +301,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as FOM. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
     "https://repo.sourcify.dev/8453/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
     "https://base.blockscout.com/address/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1?tab=contract"
@@ -312,7 +315,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52621692"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650814"
    ]
   },
   {
@@ -323,7 +326,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1 owner() @ 52621692 -> revert/empty"
+    "eth_call 0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1 owner() @ 52650814 -> revert/empty"
    ]
   },
   {
@@ -334,7 +337,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52621692",
+    "selector scan @ 52650814",
     "https://repo.sourcify.dev/8453/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1"
    ]
   },
@@ -368,7 +371,7 @@
    "points": 0,
    "detail": "Launch wallet 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b) @ 52621692",
+    "eth_call balanceOf(0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b) @ 52650814",
     "https://base.blockscout.com/address/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b"
    ]
   },
@@ -378,7 +381,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 0.00% of supply.",
+   "detail": "Largest non-contract holder has 0.78% of supply.",
    "evidence": [
     "https://base.blockscout.com/api/v2/tokens/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1/holders",
     "https://base.blockscout.com/token/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1?tab=holders"
@@ -390,7 +393,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $17,161 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $19,367 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
     "https://api.dexscreener.com/token-pairs/v1/base/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
@@ -428,7 +431,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b on Blockscout: block 52037168 (2026-10-01 14:08 UTC), 13.5 days before scan.",
+   "detail": "Oldest transaction of 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b on Blockscout: block 52037168 (2026-10-01 14:08 UTC), 14.2 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
     "https://base.blockscout.com/tx/0xc7df791e9a90023e02049d20b030f0a18fe65f9bc03de973a00da46afeb03dfa",
@@ -464,7 +467,7 @@
    "title": "Launch X account age",
    "status": "pass",
    "points": 0,
-   "detail": "X account created 2024-05-08 (889.5 days before scan).",
+   "detail": "X account created 2024-05-08 (890.1 days before scan).",
    "evidence": [
     "https://x.com/formionai/status/2110388952259518692"
    ]
@@ -483,7 +486,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $17,161 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $19,367 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
     "https://api.dexscreener.com/token-pairs/v1/base/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
@@ -499,5 +502,10 @@
   "site": "https://formion.ai/",
   "x_created": "2024-05-08T15:37:10Z",
   "note": "The post's 'CA: 0xDF1202B3\u2026' was resolved on Base by bytecode presence."
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:52:12Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

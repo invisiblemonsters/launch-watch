@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
- "scanned_at_utc": "2026-10-15T14:10:50Z",
- "block": 52642051,
+ "scanned_at_utc": "2026-10-15T19:19:12Z",
+ "block": 52651302,
  "site": null,
  "post": null,
  "token": {
@@ -15,22 +15,63 @@
   "totalSupply": 10000000000000000000000000000
  },
  "sourcify": {
-  "match": null,
-  "err": "HTTP 404"
- },
- "blockscout": {
-  "status": "not verified",
+  "match": "match",
   "err": null
  },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "DERC20"
+ },
+ "verification": "verified",
  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
  "goplus": {
   "anti_whale_modifiable": "0",
   "buy_tax": "",
   "cannot_buy": "0",
   "can_take_back_ownership": "0",
+  "creator_address": "0xaf89638544313ea7c6b770152e31341c7b35ba08",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "0",
+  "holder_count": "4",
+  "holders": [
+   {
+    "address": "0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "8000000000",
+    "percent": "0.800000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1621656079.840070044890701949",
+    "percent": "0.162165607984007004",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dead",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "378100000.000000000000224036",
+    "percent": "0.037810000000000000",
+    "is_locked": 1
+   },
+   {
+    "address": "0xbdf938149ac6a781f94faa0ed45e6a0e984c6544",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "243920.159929955109074015",
+    "percent": "0.000024392015992995",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
   "is_honeypot": "0",
@@ -64,14 +105,14 @@
   "ts": 1792070565
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 42.38,
-  "geckoterminal_top_usd": 97535411.0648
+  "dexscreener_top_usd": 37.3,
+  "geckoterminal_top_usd": 155194945.3795
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xb87b4429c6ff43040e8e54368ff01ccfc7a89c2813c889e2531f189787eedeb2",
-   "liq_usd": 42.38,
+   "liq_usd": 37.3,
    "created": 1792070565000,
    "url": "https://dexscreener.com/base/0xb87b4429c6ff43040e8e54368ff01ccfc7a89c2813c889e2531f189787eedeb2",
    "quote": "WETH"
@@ -82,7 +123,7 @@
  "http_log": [
   {
    "url": "https://sourcify.dev/server/v2/contract/8453/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702?fields=abi,deployment,proxyResolution,compilation",
-   "status": 404
+   "status": 200
   },
   {
    "url": "https://base.blockscout.com/api/v2/smart-contracts/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
@@ -127,7 +168,7 @@
    "points": 0,
    "detail": "10143 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52642051",
+    "eth_getCode @ block 52651302",
     "https://base.blockscout.com/address/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702"
    ]
   },
@@ -135,11 +176,11 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as DERC20. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
+    "https://repo.sourcify.dev/8453/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
     "https://base.blockscout.com/address/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702?tab=contract"
    ]
   },
@@ -149,9 +190,9 @@
    "title": "Proxy / upgradeability",
    "status": "pass",
    "points": 0,
-   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52642051"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52651302"
    ]
   },
   {
@@ -162,7 +203,7 @@
    "points": 3,
    "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0xc6edc36f47b526f6ddca85e971e7cc89b22fd702 owner() @ 52642051",
+    "eth_call 0xc6edc36f47b526f6ddca85e971e7cc89b22fd702 owner() @ 52651302",
     "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
    ]
   },
@@ -172,9 +213,10 @@
    "title": "Privileged functions",
    "status": "pass",
    "points": 0,
-   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52642051"
+    "selector scan @ 52651302",
+    "https://repo.sourcify.dev/8453/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702"
    ]
   },
   {
@@ -207,7 +249,7 @@
    "points": 0,
    "detail": "Launch wallet 0xaf89638544313ea7c6b770152e31341c7b35ba08 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xaf89638544313ea7c6b770152e31341c7b35ba08) @ 52642051",
+    "eth_call balanceOf(0xaf89638544313ea7c6b770152e31341c7b35ba08) @ 52651302",
     "https://base.blockscout.com/address/0xaf89638544313ea7c6b770152e31341c7b35ba08"
    ]
   },
@@ -229,7 +271,7 @@
    "title": "DEX liquidity",
    "status": "unknown",
    "points": 3,
-   "detail": "Sources disagree: DexScreener top pool $42, GeckoTerminal top pool $97,535,411. Not scored until they agree.",
+   "detail": "Sources disagree: DexScreener top pool $37, GeckoTerminal top pool $155,194,945. Not scored until they agree.",
    "evidence": [
     "https://dexscreener.com/base/0xb87b4429c6ff43040e8e54368ff01ccfc7a89c2813c889e2531f189787eedeb2",
     "https://api.dexscreener.com/token-pairs/v1/base/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
@@ -265,7 +307,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xaf89638544313ea7c6b770152e31341c7b35ba08 on Blockscout: block 52618234 (2026-10-15 00:56 UTC), 0.6 days before scan.",
+   "detail": "Oldest transaction of 0xaf89638544313ea7c6b770152e31341c7b35ba08 on Blockscout: block 52618234 (2026-10-15 00:56 UTC), 0.8 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0xaf89638544313ea7c6b770152e31341c7b35ba08",
     "https://base.blockscout.com/tx/0x433edb55379d81d8244d54435f44c6f5302af869fd7e7d7380d0bf15bb4fd5c7",
@@ -283,25 +325,13 @@
    "evidence": []
   }
  ],
- "score": 44,
+ "score": 29,
  "band": "MODERATE",
  "coverage": {
   "run": 10,
   "unknown": 4
  },
  "top_reasons": [
-  {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702",
-    "https://base.blockscout.com/address/0xc6edc36f47b526f6ddca85e971e7cc89b22fd702?tab=contract"
-   ]
-  },
   {
    "id": "trade.goplus",
    "group": "trade",
@@ -319,13 +349,22 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xaf89638544313ea7c6b770152e31341c7b35ba08 on Blockscout: block 52618234 (2026-10-15 00:56 UTC), 0.6 days before scan.",
+   "detail": "Oldest transaction of 0xaf89638544313ea7c6b770152e31341c7b35ba08 on Blockscout: block 52618234 (2026-10-15 00:56 UTC), 0.8 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0xaf89638544313ea7c6b770152e31341c7b35ba08",
     "https://base.blockscout.com/tx/0x433edb55379d81d8244d54435f44c6f5302af869fd7e7d7380d0bf15bb4fd5c7",
     "https://base.blockscout.com/tx/0x4897207a1340482737b77425b3a62b25fd5cebd52a2b83fe2ff7a1e5dfa50428",
     "https://base.blockscout.com/api/v2/addresses/0xaf89638544313ea7c6b770152e31341c7b35ba08/transactions?sort=block_number&order=asc"
    ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
   }
  ],
  "label": "USDP",
@@ -342,5 +381,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T14:10:50Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x892b68f22c0c3ed26d02e459fd4763d2a8a78715",
- "scanned_at_utc": "2026-10-15T14:08:24Z",
- "block": 89283894,
+ "scanned_at_utc": "2026-10-15T19:09:46Z",
+ "block": 89463640,
  "site": "https://larpthecat.site",
  "post": null,
  "token": {
@@ -20,10 +20,193 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "name": "PonsV2LauncherToken"
  },
+ "verification": "verified",
  "owner": null,
- "goplus": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.34747390763912990179",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.89369",
+    "pair": "0x5b172d2e081f44b0cdc2433ac1c7fc66cef880ee7cb17f1abb31eda1d396434f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.97469199999999756327",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.836798",
+    "pair": "0x6fd0a96a3ac1b52a64f02e1d1228ef930315026d79c312f6aa506bda39131267"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.121032795366",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.989999",
+    "pair": "0xd59ddc79ff67b83063a9c84f71c5bae29cb9d35482ac542ef5a07ca9568edc8a"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "23",
+  "holders": [
+   {
+    "address": "0x646ea160A9578fdA35B9cBb8a9e84C1bf547220f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "932318396.397068755964396394",
+    "percent": "0.932318",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "21410984.483721315738606888",
+    "percent": "0.021411",
+    "is_locked": 1
+   },
+   {
+    "address": "0xd3F36EdEC54ac749a446268c4F2452F8F6521DfC",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "17589011.981926792173969504",
+    "percent": "0.017589",
+    "is_locked": 0
+   },
+   {
+    "address": "0xEc8FC3d2C068043210EE4A6CBf77709C1cB43e29",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4258302.659370865603424766",
+    "percent": "0.004258",
+    "is_locked": 0
+   },
+   {
+    "address": "0x41e48CD40fE2449c5795009Fe43a217Ad731030e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3504700.913504929456677534",
+    "percent": "0.003505",
+    "is_locked": 0
+   },
+   {
+    "address": "0xFdE184E650c6ece7137eBeF152835B3e6d535598",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "3379578.574457752423846913",
+    "percent": "0.003380",
+    "is_locked": 0
+   },
+   {
+    "address": "0x58937B93dD4da466980035462a1297e1b3a29754",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2955037.848583684003063588",
+    "percent": "0.002955",
+    "is_locked": 0
+   },
+   {
+    "address": "0xaB24983C59650E366D3fEd2a2FA82dDCc87AAfe0",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2727900.01866977135098945",
+    "percent": "0.002728",
+    "is_locked": 0
+   },
+   {
+    "address": "0x07DBf7f498eabB6F89eA04fc6c4a54979FDD38D0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1707253.904529983217186432",
+    "percent": "0.001707",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC0559d26a655d774fdCC9A4Ad82f505383EDF0ae",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "1360068.348334606616567909",
+    "percent": "0.001360",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x852faed52d0ae80bc786dfc630a677f0a60b4ec1",
+    "tag": "",
+    "value": "2.96688951899999756353",
+    "is_contract": 0,
+    "balance": "17.151672663228787659",
+    "percent": "0.886401568128331289",
+    "NFT_list": [
+     {
+      "value": "2.96688951899999756353",
+      "NFT_id": "3830069",
+      "amount": "17.151672663228787659",
+      "in_effect": "1",
+      "NFT_percentage": "0.886401568128331289"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x0ff786e026c2fbd585e8b6adc2ec01e3559a1137",
+    "tag": "",
+    "value": "0.38022721192444249828",
+    "is_contract": 0,
+    "balance": "2.198104322663929334",
+    "percent": "0.113598431871668711",
+    "NFT_list": [
+     {
+      "value": "0.38022721192444249828",
+      "NFT_id": "3830647",
+      "amount": "2.198104322663929334",
+      "in_effect": "1",
+      "NFT_percentage": "0.113598431871668711"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "19.349776985892717",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Larp the cat",
+  "token_symbol": "LARP",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
  "creation": {
   "tx": "0x279edc5dc6ce78b319f9fa223532833978f96164f277a111abbaf5f48e08a91a",
   "block": 89273731,
@@ -35,19 +218,19 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": null,
-  "geckoterminal_top_usd": 11855.5468
+  "geckoterminal_top_usd": 4343.4858
  },
  "pairs": [
   {
    "dex": "pons-v2",
    "pair": "0x646ea160a9578fda35b9cbb8a9e84c1bf547220f",
-   "liq_usd": 11855.5468,
+   "liq_usd": 4343.4858,
    "created": "2026-10-15T13:51:21Z",
    "url": "https://www.geckoterminal.com/robinhood/pools/0x646ea160a9578fda35b9cbb8a9e84c1bf547220f",
    "quote": "WETH"
   }
  ],
- "launcher_nonce": 56,
+ "launcher_nonce": 63,
  "deployer_contracts": [],
  "site_ips": [
   "18.208.88.157",
@@ -105,7 +288,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 89283894",
+    "eth_getCode @ block 89463640",
     "https://robinhoodchain.blockscout.com/address/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715"
    ]
   },
@@ -115,7 +298,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: no match; Blockscout: verified.",
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715?tab=contract"
    ]
@@ -128,7 +311,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89283894"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89463640"
    ]
   },
   {
@@ -139,7 +322,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x892b68f22c0c3ed26d02e459fd4763d2a8a78715 owner() @ 89283894 -> revert/empty"
+    "eth_call 0x892b68f22c0c3ed26d02e459fd4763d2a8a78715 owner() @ 89463640 -> revert/empty"
    ]
   },
   {
@@ -150,7 +333,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 89283894",
+    "selector scan @ 89463640",
     "https://robinhoodchain.blockscout.com/address/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715?tab=contract"
    ]
   },
@@ -158,9 +341,9 @@
    "id": "trade.goplus",
    "group": "trade",
    "title": "GoPlus token security",
-   "status": "unknown",
-   "points": 3,
-   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x892b68f22c0c3ed26d02e459fd4763d2a8a78715"
    ]
@@ -182,7 +365,7 @@
    "points": 0,
    "detail": "Launch wallet 0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8) @ 89283894",
+    "eth_call balanceOf(0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8) @ 89463640",
     "https://robinhoodchain.blockscout.com/address/0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8"
    ]
   },
@@ -192,7 +375,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 3.65% of supply.",
+   "detail": "Largest non-contract holder has 1.76% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715/holders",
     "https://robinhoodchain.blockscout.com/token/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715?tab=holders"
@@ -203,8 +386,8 @@
    "group": "liq",
    "title": "DEX liquidity",
    "status": "flag",
-   "points": 10,
-   "detail": "Top pool liquidity $11,856 (pons-v2) - under $25k.",
+   "points": 15,
+   "detail": "Top pool liquidity $4,343 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x646ea160a9578fda35b9cbb8a9e84c1bf547220f",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715/pools"
@@ -214,11 +397,11 @@
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Pool 0x646ea160a9578fda35b9cbb8a9e84c1bf547220f (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x646ea160a9578fda35b9cbb8a9e84c1bf547220f"
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x892b68f22c0c3ed26d02e459fd4763d2a8a78715"
    ]
   },
   {
@@ -227,7 +410,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8 (CREATE nonce scan 0..55); tokens launched via factories are not counted. Wallet nonce = 56.",
+   "detail": "0 live contract(s) created directly by 0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8 (CREATE nonce scan 0..62); tokens launched via factories are not counted. Wallet nonce = 63.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8",
     "https://robinhoodchain.blockscout.com/tx/0x279edc5dc6ce78b319f9fa223532833978f96164f277a111abbaf5f48e08a91a"
@@ -239,7 +422,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8 on Blockscout: block 77329032 (2026-10-01 11:12 UTC), 14.1 days before scan.",
+   "detail": "Oldest transaction of 0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8 on Blockscout: block 77329032 (2026-10-01 11:12 UTC), 14.3 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x3bfc9d3d8c428ce260f6d94daf1dac99f144f9f8",
     "https://robinhoodchain.blockscout.com/tx/0x279edc5dc6ce78b319f9fa223532833978f96164f277a111abbaf5f48e08a91a",
@@ -270,11 +453,11 @@
    ]
   }
  ],
- "score": 24,
- "band": "LOW",
+ "score": 35,
+ "band": "MODERATE",
  "coverage": {
-  "run": 12,
-  "unknown": 3
+  "run": 14,
+  "unknown": 1
  },
  "top_reasons": [
   {
@@ -282,11 +465,22 @@
    "group": "liq",
    "title": "DEX liquidity",
    "status": "flag",
-   "points": 10,
-   "detail": "Top pool liquidity $11,856 (pons-v2) - under $25k.",
+   "points": 15,
+   "detail": "Top pool liquidity $4,343 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x646ea160a9578fda35b9cbb8a9e84c1bf547220f",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x892b68f22c0c3ed26d02e459fd4763d2a8a78715/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x892b68f22c0c3ed26d02e459fd4763d2a8a78715"
    ]
   },
   {
@@ -298,17 +492,6 @@
    "detail": "larpthecat.site registered 2026-10-15 (0 days ago).",
    "evidence": [
     "https://rdap.org/domain/larpthecat.site"
-   ]
-  },
-  {
-   "id": "liq.lock",
-   "group": "liq",
-   "title": "LP lock / burn",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Pool 0x646ea160a9578fda35b9cbb8a9e84c1bf547220f (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x646ea160a9578fda35b9cbb8a9e84c1bf547220f"
    ]
   }
  ],
@@ -329,5 +512,10 @@
   "site": "https://larpthecat.site",
   "x_profile": "https://x.com/LarpTheCatRH",
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T14:08:24Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

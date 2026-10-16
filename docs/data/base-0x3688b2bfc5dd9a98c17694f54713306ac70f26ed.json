@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x3688b2bfc5dd9a98c17694f54713306ac70f26ed",
- "scanned_at_utc": "2026-10-15T14:11:04Z",
- "block": 52642058,
+ "scanned_at_utc": "2026-10-15T19:18:25Z",
+ "block": 52651279,
  "site": null,
  "post": null,
  "token": {
@@ -22,6 +22,16 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -35,7 +45,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.000018993084",
+    "liquidity": "0.000018992400",
     "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
     "pool_fee": "0.05",
     "pair": "0x9094cb2f56993c807b915c71dc6e328ab36600c8fd1ec1d04a274dd6b48ff818"
@@ -108,13 +118,13 @@
    {
     "address": "0x7a3e312ec6e20a9f62fe2405938eb9060312e334",
     "tag": "",
-    "value": "0.00001899278",
+    "value": "0.000018992533",
     "is_contract": 1,
     "balance": "0.033448792884741161",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "0.00001899278",
+      "value": "0.000018992533",
       "NFT_id": "3138905",
       "amount": "0.033448792884741161",
       "in_effect": "1",
@@ -151,7 +161,7 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": 824684817.08,
-  "geckoterminal_top_usd": 870757006.4215
+  "geckoterminal_top_usd": 908702762.7102
  },
  "pairs": [
   {
@@ -181,11 +191,15 @@
    "status": 200
   },
   {
-   "url": "https://base.blockscout.com/api/v2/addresses/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed",
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
    "status": 200
   },
   {
-   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi",
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed",
    "status": 200
   },
   {
@@ -219,7 +233,7 @@
    "points": 0,
    "detail": "45 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52642058",
+    "eth_getCode @ block 52651279",
     "https://base.blockscout.com/address/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed"
    ]
   },
@@ -227,12 +241,13 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed",
-    "https://base.blockscout.com/address/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed?tab=contract"
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed"
    ]
   },
   {
@@ -255,7 +270,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x3688b2bfc5dd9a98c17694f54713306ac70f26ed owner() @ 52642058 -> revert/empty"
+    "eth_call 0x3688b2bfc5dd9a98c17694f54713306ac70f26ed owner() @ 52651279 -> revert/empty"
    ]
   },
   {
@@ -266,7 +281,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52642058"
+    "selector scan @ 52651279"
    ]
   },
   {
@@ -299,7 +314,7 @@
    "points": 0,
    "detail": "Launch wallet 0x777777751622c0d3258f214f9df38e35bf45baf3 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x777777751622c0d3258f214f9df38e35bf45baf3) @ 52642058",
+    "eth_call balanceOf(0x777777751622c0d3258f214f9df38e35bf45baf3) @ 52651279",
     "https://base.blockscout.com/address/0x777777751622c0d3258f214f9df38e35bf45baf3"
    ]
   },
@@ -333,7 +348,7 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x3688b2bfc5dd9a98c17694f54713306ac70f26ed"
    ]
@@ -360,32 +375,20 @@
    "evidence": []
   }
  ],
- "score": 33,
- "band": "MODERATE",
+ "score": 18,
+ "band": "LOW",
  "coverage": {
   "run": 11,
   "unknown": 2
  },
  "top_reasons": [
   {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed",
-    "https://base.blockscout.com/address/0x3688b2bfc5dd9a98c17694f54713306ac70f26ed?tab=contract"
-   ]
-  },
-  {
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x3688b2bfc5dd9a98c17694f54713306ac70f26ed"
    ]
@@ -398,6 +401,17 @@
    "points": 3,
    "detail": "No project website known (none passed, none on DexScreener).",
    "evidence": []
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x3688b2bfc5dd9a98c17694f54713306ac70f26ed&chainID=8453"
+   ]
   }
  ],
  "label": "UNICORN",
@@ -414,5 +428,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T14:11:04Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

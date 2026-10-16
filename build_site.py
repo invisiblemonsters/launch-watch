@@ -46,14 +46,14 @@ def load_scorer(data_dir):
 CHECK_DOCS = [
     ("Contract", [
         ("not_contract", "No contract code", "eth_getCode returns empty: the address is a wallet or the contract is not deployed on this chain."),
-        ("unverified", "Source not verified", "Neither Sourcify nor Blockscout has verified source code, so the logic can only be read from bytecode."),
+        ("unverified", "Source not verified", "Neither Sourcify nor Blockscout has verified source code, so the logic can only be read from bytecode. Verified on either one counts as verified. If one of them could not be checked (for example Blockscout's Cloudflare blocked the request after retries) and the other has no match, the check is marked unknown, not unverified."),
         ("unverified_template_match", "Unverified, but matches a verified template", "Not verified itself, but the runtime bytecode is the same length and at least 97% byte-identical to a verified reference contract (for example the Pons launchpad token). Differences are constructor values such as name and symbol."),
         ("upgradeable_proxy", "Upgradeable proxy", "An EIP-1967 implementation or beacon slot is set (or Sourcify reports a proxy), so the logic can be replaced after launch. EIP-1167 clones are not upgradeable and are not flagged."),
         ("proxy_admin_eoa", "Proxy admin is a single wallet", "The EIP-1967 admin slot points at an address with no code: one key controls upgrades."),
     ]),
     ("Owner and privileged functions", [
-        ("owner_eoa", "Owner is a single wallet", "owner()/getOwner() returns an address with no code, so one key controls every owner-only function."),
-        ("owner_contract", "Owner is a contract", "owner() is a contract (multisig, timelock or factory). Not classified further, so it carries a small weight."),
+        ("owner_eoa", "Owner is a single wallet", "owner()/getOwner() returns an address with no code, or a wallet with an EIP-7702 delegation (code starting 0xef0100), so one key controls every owner-only function."),
+        ("owner_contract", "Owner is a contract", "owner() is a contract (multisig, timelock or factory). Not classified further, so it carries a small weight. EIP-7702 delegated wallets are not counted here; they are single wallets."),
         ("fn_mint", "Mint function", "A mint function exists (exact selector in bytecode, or a name match in the verified ABI). New supply can be created."),
         ("fn_blacklist", "Blacklist / bot-block function", "A function that can block specific addresses from transferring."),
         ("fn_pause", "Pause function", "Transfers can be paused."),
@@ -72,7 +72,7 @@ CHECK_DOCS = [
         ("very_low_liquidity", "Top pool under $5k", "Largest DexScreener/GeckoTerminal pool holds less than $5,000. If the two sources disagree by more than 5x the check is marked unknown instead."),
         ("low_liquidity", "Top pool under $25k", "Largest pool holds $5,000-$25,000."),
         ("no_pool", "No pool listed", "Neither DexScreener nor GeckoTerminal lists a pool at scan time."),
-        ("lp_unlocked", "LP not locked or burned", "Less than 90% of LP tokens are locked or burned (GoPlus LP holders, or the burned share of a V2 pair). Concentrated-liquidity and bonding-curve pools cannot be read from free sources and are marked unknown."),
+        ("lp_unlocked", "LP not locked or burned", "Less than 90% of LP tokens are locked or burned (GoPlus LP holders, or the burned share of a V2 pair). LP held by a verified locker contract (source verified on Sourcify or Blockscout; name or functions identify it as a locker) counts as locked even when GoPlus reports 0%, because GoPlus may not recognise custom lockers. The locker's unlock terms are not analysed. Concentrated-liquidity and bonding-curve pools cannot be read from free sources and are marked unknown."),
     ]),
     ("Holders", [
         ("launcher_holds_supply", "Launch wallet holds 5%+", "The wallet that sent the launch transaction (or deployed the contract) still holds 5% or more of supply."),
@@ -225,7 +225,8 @@ def reason_label(ch):
     if st == "unknown":
         return {"trade.sim": "Sell simulation unavailable", "trade.goplus": "No GoPlus data yet", "liq.lock": "LP lock status unknown",
                 "liq.pool": "Liquidity figure unknown", "host.ip": "No project website known", "holders.concentration": "Holder data unavailable",
-                "deployer.age": "Deployer age unknown", "deployer.fresh": "Deployer not identified", "host.domain_age": "Domain age unknown"
+                "deployer.age": "Deployer age unknown", "deployer.fresh": "Deployer not identified", "host.domain_age": "Domain age unknown",
+                "verify.source": "Verification status unknown", "owner.owner": "Owner type unknown"
                 }.get(i, ch["title"] + " (unknown)")
     if i == "verify.source": return "Unverified, matches verified template" if "template" in d else "Source not verified"
     if i == "liq.pool": return "No DEX pool listed" if d.startswith("Neither") else "Low DEX liquidity"
@@ -381,7 +382,7 @@ def render_methodology(ctx, stats):
 <ul>
 <li>Every check returns <strong>risk signal</strong> (adds its fixed weight), <strong>pass</strong> or <strong>info</strong> (adds 0), or <strong>unknown</strong> (adds {UP}).</li>
 <li><strong>Unknown is honest:</strong> when a check cannot run with free public data (for example there is no free sell simulator for Robinhood Chain), it is shown as unknown and adds a small, fixed uncertainty weight so missing data never looks safe. It is never guessed.</li>
-<li>Privileged-function points are multiplied by {RF} when owner() is provably 0x0 or dead (renounced), because other roles may still call them.</li>
+<li>Privileged-function points are multiplied by {RF} when owner() is provably 0x0 or dead (renounced), because other roles may still call them. When there is no owner (or it is renounced), the contract uses OpenZeppelin AccessControl, no account holds a role (RoleGranted/RoleRevoked logs since deployment, hasRole on the deployer) and no initializer is still open, the functions are shown as informational with 0 points.</li>
 <li>The total is capped at 100. Bands: 0-24 LOW, 25-49 MODERATE, 50-74 ELEVATED, 75-100 HIGH.</li>
 <li>On-chain reads are pinned to one block per scan. DexScreener, GeckoTerminal and GoPlus are live APIs; their responses are saved in each launch's raw JSON so any score can be re-derived.</li>
 </ul>
@@ -393,7 +394,7 @@ def render_methodology(ctx, stats):
 <ul>
 <li>No free sell simulation exists for Robinhood Chain, so that check is always unknown there.</li>
 <li>LP lock status cannot be read for bonding-curve (Pons) pools or Uniswap v3/v4 positions; it is computed for V2 pairs and taken from GoPlus where available.</li>
-<li>The bytecode-only function scan matches {64} exact common signatures; renamed functions can be missed. Access control on those functions is not analysed.</li>
+<li>The bytecode-only function scan matches {64} exact common signatures; renamed functions can be missed. Beyond the role-holder check above, access control on those functions is not analysed.</li>
 <li>Deployer contract counts include direct deployments only, not factory launches (Pons, Clanker, ape.store).</li>
 <li>Hosting overlap is only as good as the watchlist. Shared CDN and PaaS ranges are excluded on purpose.</li>
 <li>Scores are a snapshot. Owners can change settings, add or remove liquidity at any time after a scan.</li>

@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x0a3441c803fc23669bcc2c83030926f54b0cfee1",
- "scanned_at_utc": "2026-10-15T16:59:20Z",
- "block": 52647106,
+ "scanned_at_utc": "2026-10-15T19:24:48Z",
+ "block": 52651470,
  "site": "https://www.emoo.living/",
  "post": null,
  "token": {
@@ -22,41 +22,165 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+  "state": "verified",
+  "name": "DopplerERC20V1",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
  "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
  "goplus": {
-  "anti_whale_modifiable": "0",
-  "buy_tax": "",
-  "cannot_buy": "0",
+  "anti_whale_modifiable": "1",
+  "buy_tax": "0",
   "can_take_back_ownership": "0",
+  "cannot_buy": "0",
   "creator_address": "0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b",
   "creator_balance": "0",
   "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.77918720040",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.72",
+    "pair": "0x64123e1990da77d876496e977abeb94714719781d4f8876f70389fb72a3100cc"
+   }
+  ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "0",
+  "holder_count": "87",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "562537263.535940867329643586",
+    "percent": "0.562537263535940867",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6cfac4e8241ebd9332da5e986e8d55c6cb0095e6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "27651412.65905621156833671",
+    "percent": "0.027651412659056211",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9ac1dd76baff845d274c18650427ec05a6966702",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "26190730.057712859357750444",
+    "percent": "0.026190730057712859",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6f0d3fa4ec7a9efb785ce5ffd0e7ae7ff4b934ea",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "22538883.949812468524351847",
+    "percent": "0.022538883949812468",
+    "is_locked": 0
+   },
+   {
+    "address": "0x97d7179635981aab78bb5a94037edb53e6a11c2d",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "21589370.182632979746610536",
+    "percent": "0.021589370182632979",
+    "is_locked": 0
+   },
+   {
+    "address": "0x33bb9a0cced0f20a4d9b6ad433cf82accf5efb29",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "20338103.39385912133006113",
+    "percent": "0.020338103393859121",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd57cb790cd27f3c3a0c738a9a559711ac0559501",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14455513.287577913092574352",
+    "percent": "0.014455513287577913",
+    "is_locked": 0
+   },
+   {
+    "address": "0x402d6cb9eebb625b57ba00c3e2486a984f16f2f3",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "13543036.523069329285916792",
+    "percent": "0.013543036523069329",
+    "is_locked": 0
+   },
+   {
+    "address": "0x89fffb88caa6a87aaa1ce61da5000c9099913027",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12914219.474144357836234557",
+    "percent": "0.012914219474144357",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb344550f0128a6237eb234138cf35f50ba73a02a",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12480800.666761245871263058",
+    "percent": "0.012480800666761245",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "1",
   "is_blacklisted": "0",
   "is_honeypot": "0",
-  "is_in_dex": "0",
+  "is_in_dex": "1",
   "is_mintable": "0",
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x6fb98deadf2d83cecd9e9ce608c7983af23143bf",
+    "tag": "",
+    "value": "0.779192656893",
+    "is_contract": 1,
+    "balance": "0.000105109313173694",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.779192656893",
+      "NFT_id": "3139616",
+      "amount": "0.000105109313173694",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000105109313173694",
   "owner_address": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0.0",
   "personal_slippage_modifiable": "0",
   "selfdestruct": "0",
-  "sell_tax": "",
+  "sell_tax": "0",
   "slippage_modifiable": "0",
   "token_name": "Emotional Bull",
   "token_symbol": "EMOO",
   "total_supply": "1000000000",
   "trading_cooldown": "0",
   "transfer_pausable": "1",
-  "transfer_tax": ""
+  "transfer_tax": "0"
  },
  "creation": {
   "tx": "0x05ebae6603e5f860b61d73a9c0102f00083e23f55610b73ca79ab1fc248e6a7c",
@@ -68,23 +192,23 @@
   "ts": 1792080105
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 44867.92,
+  "dexscreener_top_usd": 50584.34,
   "geckoterminal_top_usd": null
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x0c23b727b1a3b0b3748f97ecfabbf086b86a09c4dc7a3fd17f4efd904759ad13",
-   "liq_usd": 44867.92,
+   "liq_usd": 50584.34,
    "created": 1792080105000,
    "url": "https://dexscreener.com/base/0x0c23b727b1a3b0b3748f97ecfabbf086b86a09c4dc7a3fd17f4efd904759ad13",
    "quote": "METAc"
   }
  ],
- "launcher_nonce": 10920,
+ "launcher_nonce": 10928,
  "site_ips": [
-  "216.150.1.193",
-  "216.150.16.193"
+  "216.150.1.1",
+  "216.150.16.1"
  ],
  "http_log": [
   {
@@ -93,6 +217,14 @@
   },
   {
    "url": "https://base.blockscout.com/api/v2/smart-contracts/0x0a3441c803fc23669bcc2c83030926f54b0cfee1",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xedf3f3981e98077591c1b909bccff0e572bd50f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xedf3f3981e98077591c1b909bccff0e572bd50f8",
    "status": 200
   },
   {
@@ -142,7 +274,7 @@
    "points": 0,
    "detail": "44 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52647106",
+    "eth_getCode @ block 52651470",
     "https://base.blockscout.com/address/0x0a3441c803fc23669bcc2c83030926f54b0cfee1"
    ]
   },
@@ -150,23 +282,25 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DopplerERC20V1 0xedf3f3981e98077591c1b909bccff0e572bd50f8, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x0a3441c803fc23669bcc2c83030926f54b0cfee1",
-    "https://base.blockscout.com/address/0x0a3441c803fc23669bcc2c83030926f54b0cfee1?tab=contract"
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8?tab=contract",
+    "https://base.blockscout.com/address/0x0a3441c803fc23669bcc2c83030926f54b0cfee1?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x0a3441c803fc23669bcc2c83030926f54b0cfee1"
    ]
   },
   {
    "id": "proxy.type",
    "group": "proxy",
    "title": "Proxy / upgradeability",
-   "status": "pass",
+   "status": "info",
    "points": 0,
-   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xedf3f3981e98077591c1b909bccff0e572bd50f8; clones are NOT upgradeable.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52647106"
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8"
    ]
   },
   {
@@ -177,7 +311,7 @@
    "points": 3,
    "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0x0a3441c803fc23669bcc2c83030926f54b0cfee1 owner() @ 52647106",
+    "eth_call 0x0a3441c803fc23669bcc2c83030926f54b0cfee1 owner() @ 52651470",
     "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
    ]
   },
@@ -187,9 +321,9 @@
    "title": "Privileged functions",
    "status": "pass",
    "points": 0,
-   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52647106"
+    "selector scan @ 52651470"
    ]
   },
   {
@@ -222,7 +356,7 @@
    "points": 0,
    "detail": "Launch wallet 0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b) @ 52647106",
+    "eth_call balanceOf(0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b) @ 52651470",
     "https://base.blockscout.com/address/0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b"
    ]
   },
@@ -244,7 +378,7 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $44,868 (uniswap).",
+   "detail": "Top pool liquidity $50,584 (uniswap).",
    "evidence": [
     "https://dexscreener.com/base/0x0c23b727b1a3b0b3748f97ecfabbf086b86a09c4dc7a3fd17f4efd904759ad13",
     "https://api.dexscreener.com/token-pairs/v1/base/0x0a3441c803fc23669bcc2c83030926f54b0cfee1"
@@ -254,11 +388,11 @@
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Pool is uniswap (v4 pool id 0x0c23b727b1\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "https://dexscreener.com/base/0x0c23b727b1a3b0b3748f97ecfabbf086b86a09c4dc7a3fd17f4efd904759ad13"
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x0a3441c803fc23669bcc2c83030926f54b0cfee1"
    ]
   },
   {
@@ -267,11 +401,11 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b has sent 10920 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b has sent 10928 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://base.blockscout.com/address/0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b",
     "https://base.blockscout.com/tx/0x05ebae6603e5f860b61d73a9c0102f00083e23f55610b73ca79ab1fc248e6a7c",
-    "eth_getTransactionCount = 10920"
+    "eth_getTransactionCount = 10928"
    ]
   },
   {
@@ -280,7 +414,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b on Blockscout: block 49493945 (2026-08-03 17:13 UTC), 73.0 days before scan.",
+   "detail": "Oldest transaction of 0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b on Blockscout: block 49493945 (2026-08-03 17:13 UTC), 73.1 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b",
     "https://base.blockscout.com/tx/0x05ebae6603e5f860b61d73a9c0102f00083e23f55610b73ca79ab1fc248e6a7c",
@@ -294,7 +428,7 @@
    "title": "Site hosting overlap",
    "status": "info",
    "points": 0,
-   "detail": "www.emoo.living -> 216.150.1.193, 216.150.16.193 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "detail": "www.emoo.living -> 216.150.1.1, 216.150.16.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
    "evidence": [
     "https://dns.google/resolve?name=www.emoo.living&type=A"
    ]
@@ -311,23 +445,22 @@
    ]
   }
  ],
- "score": 45,
+ "score": 39,
  "band": "MODERATE",
  "coverage": {
-  "run": 13,
-  "unknown": 2
+  "run": 14,
+  "unknown": 1
  },
  "top_reasons": [
   {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
    "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0x0a3441c803fc23669bcc2c83030926f54b0cfee1",
-    "https://base.blockscout.com/address/0x0a3441c803fc23669bcc2c83030926f54b0cfee1?tab=contract"
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x0a3441c803fc23669bcc2c83030926f54b0cfee1"
    ]
   },
   {
@@ -336,11 +469,11 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b has sent 10920 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b has sent 10928 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://base.blockscout.com/address/0x8c4b5bb3aee821ff68e3d31a9890c7410c75ac0b",
     "https://base.blockscout.com/tx/0x05ebae6603e5f860b61d73a9c0102f00083e23f55610b73ca79ab1fc248e6a7c",
-    "eth_getTransactionCount = 10920"
+    "eth_getTransactionCount = 10928"
    ]
   },
   {
@@ -366,5 +499,10 @@
    "dexscreener:token-profiles"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T16:59:20Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

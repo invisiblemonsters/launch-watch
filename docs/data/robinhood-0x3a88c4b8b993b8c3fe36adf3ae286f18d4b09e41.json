@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41",
- "scanned_at_utc": "2026-10-15T02:48:20Z",
- "block": 88878362,
+ "scanned_at_utc": "2026-10-15T19:23:50Z",
+ "block": 89472038,
  "site": "http://tryhighsense.xyz",
  "post": "https://x.com/highsensexyz/status/2110554125620412811",
  "token": {
@@ -22,14 +22,30 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "not_verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
   "buy_tax": "",
   "cannot_buy": "0",
   "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
   "external_call": "0",
   "hidden_owner": "0",
+  "holder_count": "1",
+  "holders": [
+   {
+    "address": "0x6eB388733817Aef35a31Ba4C5B4655ccA29Ff247",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1000000000",
+    "percent": "1.000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
   "is_honeypot": "0",
@@ -47,6 +63,7 @@
   "slippage_modifiable": "0",
   "token_name": "highsense",
   "token_symbol": "SENSE",
+  "total_supply": "1000000000",
   "trading_cooldown": "0",
   "transfer_pausable": "0",
   "transfer_tax": ""
@@ -62,13 +79,13 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": null,
-  "geckoterminal_top_usd": 3858.4141
+  "geckoterminal_top_usd": 4000.3632
  },
  "pairs": [
   {
    "dex": "pons-v2",
    "pair": "0x6eb388733817aef35a31ba4c5b4655cca29ff247",
-   "liq_usd": 3858.4141,
+   "liq_usd": 4000.3632,
    "created": "2026-10-15T02:09:01Z",
    "url": "https://www.geckoterminal.com/robinhood/pools/0x6eb388733817aef35a31ba4c5b4655cca29ff247",
    "quote": "WETH"
@@ -132,7 +149,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 88878362",
+    "eth_getCode @ block 89472038",
     "https://robinhoodchain.blockscout.com/address/0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41"
    ]
   },
@@ -142,7 +159,7 @@
    "title": "Source verified",
    "status": "flag",
    "points": 4,
-   "detail": "Not verified itself, but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
     "https://robinhoodchain.blockscout.com/address/0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41?tab=contract"
@@ -156,7 +173,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88878362"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89472038"
    ]
   },
   {
@@ -167,7 +184,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41 owner() @ 88878362 -> revert/empty"
+    "eth_call 0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41 owner() @ 89472038 -> revert/empty"
    ]
   },
   {
@@ -178,7 +195,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
    "evidence": [
-    "selector scan @ 88878362"
+    "selector scan @ 89472038"
    ]
   },
   {
@@ -209,7 +226,7 @@
    "points": 0,
    "detail": "Launch wallet 0x0661995f9794787d63ba0f24070c5e5090d0ea5b holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 88878362",
+    "eth_call balanceOf(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 89472038",
     "https://robinhoodchain.blockscout.com/address/0x0661995f9794787d63ba0f24070c5e5090d0ea5b"
    ]
   },
@@ -231,7 +248,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $3,858 (pons-v2) - under $5k.",
+   "detail": "Top pool liquidity $4,000 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x6eb388733817aef35a31ba4c5b4655cca29ff247",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41/pools"
@@ -258,7 +275,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x0661995f9794787d63ba0f24070c5e5090d0ea5b",
     "https://robinhoodchain.blockscout.com/tx/0x7a80d6dc6b27fd84f1070a0b2e51755a4cbdd7ffc9fe0910c41b40d0f7562513",
-    "eth_getTransactionCount(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 88878362 = 3"
+    "eth_getTransactionCount(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 89472038 = 3"
    ]
   },
   {
@@ -279,7 +296,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x0661995f9794787d63ba0f24070c5e5090d0ea5b on Blockscout: block 88850598 (2026-10-15 02:00 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x0661995f9794787d63ba0f24070c5e5090d0ea5b on Blockscout: block 88850598 (2026-10-15 02:00 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x0661995f9794787d63ba0f24070c5e5090d0ea5b",
     "https://robinhoodchain.blockscout.com/tx/0x7a80d6dc6b27fd84f1070a0b2e51755a4cbdd7ffc9fe0910c41b40d0f7562513",
@@ -304,7 +321,7 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "tryhighsense.xyz registered 2026-10-12 (2 days ago).",
+   "detail": "tryhighsense.xyz registered 2026-10-12 (3 days ago).",
    "evidence": [
     "https://rdap.org/domain/tryhighsense.xyz"
    ]
@@ -315,7 +332,7 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-15 (0.0 days before scan).",
+   "detail": "X account created 2026-10-15 (0.7 days before scan).",
    "evidence": [
     "https://x.com/highsensexyz/status/2110554125620412811"
    ]
@@ -334,7 +351,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $3,858 (pons-v2) - under $5k.",
+   "detail": "Top pool liquidity $4,000 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x6eb388733817aef35a31ba4c5b4655cca29ff247",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x3a88c4b8b993b8c3fe36adf3ae286f18d4b09e41/pools"
@@ -350,7 +367,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x0661995f9794787d63ba0f24070c5e5090d0ea5b",
     "https://robinhoodchain.blockscout.com/tx/0x7a80d6dc6b27fd84f1070a0b2e51755a4cbdd7ffc9fe0910c41b40d0f7562513",
-    "eth_getTransactionCount(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 88878362 = 3"
+    "eth_getTransactionCount(0x0661995f9794787d63ba0f24070c5e5090d0ea5b) @ 89472038 = 3"
    ]
   },
   {
@@ -359,7 +376,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x0661995f9794787d63ba0f24070c5e5090d0ea5b on Blockscout: block 88850598 (2026-10-15 02:00 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x0661995f9794787d63ba0f24070c5e5090d0ea5b on Blockscout: block 88850598 (2026-10-15 02:00 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x0661995f9794787d63ba0f24070c5e5090d0ea5b",
     "https://robinhoodchain.blockscout.com/tx/0x7a80d6dc6b27fd84f1070a0b2e51755a4cbdd7ffc9fe0910c41b40d0f7562513",
@@ -376,5 +393,10 @@
   "post": "https://x.com/highsensexyz/status/2110554125620412811",
   "site": "http://tryhighsense.xyz",
   "x_created": "2026-10-15T01:41:50Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:48:20Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

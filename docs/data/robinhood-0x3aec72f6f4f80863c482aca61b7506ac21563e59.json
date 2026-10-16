@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x3aec72f6f4f80863c482aca61b7506ac21563e59",
- "scanned_at_utc": "2026-10-15T17:01:32Z",
- "block": 89387165,
+ "scanned_at_utc": "2026-10-15T19:25:09Z",
+ "block": 89472812,
  "site": null,
  "post": null,
  "token": {
@@ -22,20 +22,31 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "not_verified",
  "owner": null,
  "goplus": {
   "buy_tax": "",
   "cannot_buy": "0",
   "creator_address": "0xDC5c04fDDd874037bD4dAf448Cef3dECFCb5333F",
-  "creator_balance": "1000000000",
-  "creator_percent": "1.000000",
+  "creator_balance": "376355134.706672279180139543",
+  "creator_percent": "0.376355",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "23092.31303328397034166267",
+    "pool_fee": "0.0001",
+    "pair": "0xf6b0fb43b04cd5638566371f64d8daae8755cdb3"
+   }
+  ],
   "honeypot_with_same_creator": "0",
-  "is_in_dex": "0",
+  "is_in_dex": "1",
   "is_open_source": "0",
   "owner_address": "",
   "sell_tax": "",
   "token_name": "Teddy Holdings LLC",
-  "token_symbol": "Teddy"
+  "token_symbol": "Teddy",
+  "transfer_tax": ""
  },
  "creation": {
   "tx": "0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
@@ -47,20 +58,20 @@
   "ts": 1792082102
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 72826.68,
-  "geckoterminal_top_usd": 74608.8286
+  "dexscreener_top_usd": 7.62,
+  "geckoterminal_top_usd": 7.6076
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xF6B0Fb43b04CD5638566371F64d8DAAe8755cDb3",
-   "liq_usd": 72826.68,
+   "liq_usd": 7.62,
    "created": 1792082139000,
    "url": "https://dexscreener.com/robinhood/0xf6b0fb43b04cd5638566371f64d8daae8755cdb3",
    "quote": "WETH"
   }
  ],
- "launcher_nonce": 4,
+ "launcher_nonce": 6,
  "deployer_contracts": [
   "0x3aec72f6f4f80863c482aca61b7506ac21563e59"
  ],
@@ -111,7 +122,7 @@
    "points": 0,
    "detail": "5048 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 89387165",
+    "eth_getCode @ block 89472812",
     "https://robinhoodchain.blockscout.com/address/0x3aec72f6f4f80863c482aca61b7506ac21563e59"
    ]
   },
@@ -121,10 +132,11 @@
    "title": "Source verified",
    "status": "flag",
    "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
    "evidence": [
     "https://sourcify.dev/server/v2/contract/4663/0x3aec72f6f4f80863c482aca61b7506ac21563e59",
-    "https://robinhoodchain.blockscout.com/address/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=contract"
+    "https://robinhoodchain.blockscout.com/address/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x3aec72f6f4f80863c482aca61b7506ac21563e59"
    ]
   },
   {
@@ -135,7 +147,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89387165"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89472812"
    ]
   },
   {
@@ -146,7 +158,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x3aec72f6f4f80863c482aca61b7506ac21563e59 owner() @ 89387165 -> revert/empty"
+    "eth_call 0x3aec72f6f4f80863c482aca61b7506ac21563e59 owner() @ 89472812 -> revert/empty"
    ]
   },
   {
@@ -157,7 +169,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
    "evidence": [
-    "selector scan @ 89387165"
+    "selector scan @ 89472812"
    ]
   },
   {
@@ -184,11 +196,11 @@
    "id": "holders.launcher",
    "group": "holders",
    "title": "Launcher wallet supply share",
-   "status": "pass",
-   "points": 0,
-   "detail": "Launch wallet 0xdc5c04fddd874037bd4daf448cef3decfcb5333f holds 0.00% of supply.",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xdc5c04fddd874037bd4daf448cef3decfcb5333f holds 37.64% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xdc5c04fddd874037bd4daf448cef3decfcb5333f) @ 89387165",
+    "eth_call balanceOf(0xdc5c04fddd874037bd4daf448cef3decfcb5333f) @ 89472812",
     "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f"
    ]
   },
@@ -196,9 +208,9 @@
    "id": "holders.concentration",
    "group": "holders",
    "title": "Holder concentration",
-   "status": "pass",
-   "points": 0,
-   "detail": "Largest non-contract holder has 3.77% of supply.",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0xdc5c04fddd874037bd4daf448cef3decfcb5333f has 37.6% of supply (contracts such as pools/vaults excluded).",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0x3aec72f6f4f80863c482aca61b7506ac21563e59/holders",
     "https://robinhoodchain.blockscout.com/token/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=holders"
@@ -208,9 +220,9 @@
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
-   "status": "pass",
-   "points": 0,
-   "detail": "Top pool liquidity $72,827 (uniswap).",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $8 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0xf6b0fb43b04cd5638566371f64d8daae8755cdb3",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0x3aec72f6f4f80863c482aca61b7506ac21563e59"
@@ -228,25 +240,12 @@
    ]
   },
   {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0xdc5c04fddd874037bd4daf448cef3decfcb5333f has sent only 4 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f",
-    "https://robinhoodchain.blockscout.com/tx/0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
-    "eth_getTransactionCount(0xdc5c04fddd874037bd4daf448cef3decfcb5333f) @ 89387165 = 4"
-   ]
-  },
-  {
    "id": "deployer.contracts",
    "group": "deployer",
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "1 live contract(s) created directly by 0xdc5c04fddd874037bd4daf448cef3decfcb5333f (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "detail": "1 live contract(s) created directly by 0xdc5c04fddd874037bd4daf448cef3decfcb5333f (CREATE nonce scan 0..5); tokens launched via factories are not counted. Wallet nonce = 6.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f",
     "https://robinhoodchain.blockscout.com/tx/0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
@@ -259,7 +258,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xdc5c04fddd874037bd4daf448cef3decfcb5333f on Blockscout: block 89370613 (2026-10-15 16:33 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0xdc5c04fddd874037bd4daf448cef3decfcb5333f on Blockscout: block 89370613 (2026-10-15 16:33 UTC), 0.1 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f",
     "https://robinhoodchain.blockscout.com/tx/0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
@@ -277,50 +276,48 @@
    "evidence": []
   }
  ],
- "score": 41,
- "band": "MODERATE",
+ "score": 68,
+ "band": "ELEVATED",
  "coverage": {
-  "run": 11,
+  "run": 10,
   "unknown": 4
  },
  "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $8 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xf6b0fb43b04cd5638566371f64d8daae8755cdb3",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x3aec72f6f4f80863c482aca61b7506ac21563e59"
+   ]
+  },
   {
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
    "status": "flag",
    "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
    "evidence": [
     "https://sourcify.dev/server/v2/contract/4663/0x3aec72f6f4f80863c482aca61b7506ac21563e59",
-    "https://robinhoodchain.blockscout.com/address/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=contract"
+    "https://robinhoodchain.blockscout.com/address/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x3aec72f6f4f80863c482aca61b7506ac21563e59"
    ]
   },
   {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
    "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0xdc5c04fddd874037bd4daf448cef3decfcb5333f has sent only 4 transaction(s) in total (fresh wallet).",
+   "points": 10,
+   "detail": "Largest non-contract holder 0xdc5c04fddd874037bd4daf448cef3decfcb5333f has 37.6% of supply (contracts such as pools/vaults excluded).",
    "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f",
-    "https://robinhoodchain.blockscout.com/tx/0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
-    "eth_getTransactionCount(0xdc5c04fddd874037bd4daf448cef3decfcb5333f) @ 89387165 = 4"
-   ]
-  },
-  {
-   "id": "deployer.age",
-   "group": "deployer",
-   "title": "Deployer wallet age",
-   "status": "flag",
-   "points": 6,
-   "detail": "Oldest transaction of 0xdc5c04fddd874037bd4daf448cef3decfcb5333f on Blockscout: block 89370613 (2026-10-15 16:33 UTC), 0.0 days before scan.",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0xdc5c04fddd874037bd4daf448cef3decfcb5333f",
-    "https://robinhoodchain.blockscout.com/tx/0x49e30924047a1ec65209e03421a4b8343f8fa5931b9921d8131514086696d125",
-    "https://robinhoodchain.blockscout.com/tx/0x385a3b67cc797e919eadf5e1d341a04aec960600f58fa374cf9575e493d75838",
-    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xdc5c04fddd874037bd4daf448cef3decfcb5333f/transactions?sort=block_number&order=asc"
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x3aec72f6f4f80863c482aca61b7506ac21563e59/holders",
+    "https://robinhoodchain.blockscout.com/token/0x3aec72f6f4f80863c482aca61b7506ac21563e59?tab=holders"
    ]
   }
  ],
@@ -338,5 +335,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T17:01:32Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

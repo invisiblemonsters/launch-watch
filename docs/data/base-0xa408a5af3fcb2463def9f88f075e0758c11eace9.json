@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0xa408a5af3fcb2463def9f88f075e0758c11eace9",
- "scanned_at_utc": "2026-10-15T03:47:11Z",
- "block": 52623342,
+ "scanned_at_utc": "2026-10-15T19:16:44Z",
+ "block": 52651228,
  "site": null,
  "post": null,
  "token": {
@@ -22,6 +22,16 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -33,7 +43,49 @@
   "creator_percent": "0.010000",
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "0",
+  "holder_count": "5",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989662830.758731458887946391",
+    "percent": "0.989662830758731458",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe580ebd529991ecd59e21b3468212617797ab5da",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1635d0679d3786e558906615f05958800861ea99",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "337169.241268541112053607",
+    "percent": "0.000337169241268541",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0469a4bd3724dc86c9542f4694c976da13c450c0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
@@ -67,14 +119,14 @@
   "ts": 1792030567
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 84122.68,
-  "geckoterminal_top_usd": 80915.5301
+  "dexscreener_top_usd": 84717.1,
+  "geckoterminal_top_usd": 84137.7555
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
-   "liq_usd": 84122.68,
+   "liq_usd": 84717.1,
    "created": 1792030567000,
    "url": "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
    "quote": "ZORA"
@@ -92,11 +144,15 @@
    "status": 200
   },
   {
-   "url": "https://base.blockscout.com/api/v2/addresses/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
    "status": 200
   },
   {
-   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi",
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
    "status": 200
   },
   {
@@ -109,7 +165,7 @@
   },
   {
    "url": "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders",
-   "status": 404
+   "status": 200
   },
   {
    "url": "https://api.dexscreener.com/token-pairs/v1/base/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
@@ -134,7 +190,7 @@
    "points": 0,
    "detail": "45 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52623342",
+    "eth_getCode @ block 52651228",
     "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
    ]
   },
@@ -142,12 +198,13 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
-    "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=contract"
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
    ]
   },
   {
@@ -170,7 +227,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xa408a5af3fcb2463def9f88f075e0758c11eace9 owner() @ 52623342 -> revert/empty"
+    "eth_call 0xa408a5af3fcb2463def9f88f075e0758c11eace9 owner() @ 52651228 -> revert/empty"
    ]
   },
   {
@@ -181,7 +238,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52623342"
+    "selector scan @ 52651228"
    ]
   },
   {
@@ -214,7 +271,7 @@
    "points": 0,
    "detail": "Launch wallet 0xe580ebd529991ecd59e21b3468212617797ab5da holds 1.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xe580ebd529991ecd59e21b3468212617797ab5da) @ 52623342",
+    "eth_call balanceOf(0xe580ebd529991ecd59e21b3468212617797ab5da) @ 52651228",
     "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da"
    ]
   },
@@ -222,11 +279,12 @@
    "id": "holders.concentration",
    "group": "holders",
    "title": "Holder concentration",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
    "evidence": [
-    "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders"
+    "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders",
+    "https://base.blockscout.com/token/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=holders"
    ]
   },
   {
@@ -235,7 +293,7 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $84,123 (uniswap).",
+   "detail": "Top pool liquidity $84,717 (uniswap).",
    "evidence": [
     "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
     "https://api.dexscreener.com/token-pairs/v1/base/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
@@ -270,7 +328,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.1 days before scan.",
+   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.8 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da",
     "https://base.blockscout.com/tx/0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367",
@@ -288,32 +346,20 @@
    "evidence": []
   }
  ],
- "score": 33,
- "band": "MODERATE",
+ "score": 15,
+ "band": "LOW",
  "coverage": {
-  "run": 10,
-  "unknown": 4
+  "run": 11,
+  "unknown": 3
  },
  "top_reasons": [
-  {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
-    "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=contract"
-   ]
-  },
   {
    "id": "deployer.age",
    "group": "deployer",
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.1 days before scan.",
+   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.8 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da",
     "https://base.blockscout.com/tx/0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367",
@@ -322,14 +368,23 @@
    ]
   },
   {
-   "id": "holders.concentration",
-   "group": "holders",
-   "title": "Holder concentration",
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
    "status": "unknown",
    "points": 3,
-   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xcea33ca73c\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
    "evidence": [
-    "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders"
+    "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c"
    ]
   }
  ],
@@ -347,5 +402,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T03:47:11Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

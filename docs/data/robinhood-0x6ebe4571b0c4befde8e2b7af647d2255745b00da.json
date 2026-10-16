@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x6ebe4571b0c4befde8e2b7af647d2255745b00da",
- "scanned_at_utc": "2026-10-15T02:49:00Z",
- "block": 88878770,
+ "scanned_at_utc": "2026-10-15T19:23:58Z",
+ "block": 89472107,
  "site": "https://dointrade.xyz/",
  "post": "https://x.com/dointrade/status/2110556328582365555",
  "token": {
@@ -22,6 +22,7 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "not_verified",
  "owner": null,
  "goplus": {
   "buy_tax": "",
@@ -51,11 +52,11 @@
   "geckoterminal_top_usd": null
  },
  "pairs": [],
- "launcher_nonce": 3,
+ "launcher_nonce": 11,
  "deployer_contracts": [],
  "site_ips": [
-  "147.79.120.223",
-  "148.135.128.132"
+  "148.135.128.63",
+  "92.112.198.6"
  ],
  "http_log": [
   {
@@ -109,7 +110,7 @@
    "points": 0,
    "detail": "2352 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 88878770",
+    "eth_getCode @ block 89472107",
     "https://robinhoodchain.blockscout.com/address/0x6ebe4571b0c4befde8e2b7af647d2255745b00da"
    ]
   },
@@ -119,10 +120,11 @@
    "title": "Source verified",
    "status": "flag",
    "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
    "evidence": [
     "https://sourcify.dev/server/v2/contract/4663/0x6ebe4571b0c4befde8e2b7af647d2255745b00da",
-    "https://robinhoodchain.blockscout.com/address/0x6ebe4571b0c4befde8e2b7af647d2255745b00da?tab=contract"
+    "https://robinhoodchain.blockscout.com/address/0x6ebe4571b0c4befde8e2b7af647d2255745b00da?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x6ebe4571b0c4befde8e2b7af647d2255745b00da"
    ]
   },
   {
@@ -133,7 +135,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88878770"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89472107"
    ]
   },
   {
@@ -144,7 +146,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x6ebe4571b0c4befde8e2b7af647d2255745b00da owner() @ 88878770 -> revert/empty"
+    "eth_call 0x6ebe4571b0c4befde8e2b7af647d2255745b00da owner() @ 89472107 -> revert/empty"
    ]
   },
   {
@@ -155,7 +157,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
    "evidence": [
-    "selector scan @ 88878770"
+    "selector scan @ 89472107"
    ]
   },
   {
@@ -184,9 +186,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c holds 2.47% of supply.",
+   "detail": "Launch wallet 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x54b32a542e120379c9a89d7b8b500abd26bc5b5c) @ 88878770",
+    "eth_call balanceOf(0x54b32a542e120379c9a89d7b8b500abd26bc5b5c) @ 89472107",
     "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c"
    ]
   },
@@ -196,7 +198,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 2.47% of supply.",
+   "detail": "Largest non-contract holder has 0.02% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0x6ebe4571b0c4befde8e2b7af647d2255745b00da/holders",
     "https://robinhoodchain.blockscout.com/token/0x6ebe4571b0c4befde8e2b7af647d2255745b00da?tab=holders"
@@ -214,25 +216,12 @@
    ]
   },
   {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c has sent only 3 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c",
-    "https://robinhoodchain.blockscout.com/tx/0x1af91367de9b46488e47131d186f5f17234e12f42dc58916b5782e907010f8ec",
-    "eth_getTransactionCount(0x54b32a542e120379c9a89d7b8b500abd26bc5b5c) @ 88878770 = 3"
-   ]
-  },
-  {
    "id": "deployer.contracts",
    "group": "deployer",
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c (CREATE nonce scan 0..2); tokens launched via factories are not counted. Wallet nonce = 3.",
+   "detail": "0 live contract(s) created directly by 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c (CREATE nonce scan 0..10); tokens launched via factories are not counted. Wallet nonce = 11.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c",
     "https://robinhoodchain.blockscout.com/tx/0x1af91367de9b46488e47131d186f5f17234e12f42dc58916b5782e907010f8ec"
@@ -244,7 +233,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c on Blockscout: block 88859071 (2026-10-15 02:15 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c on Blockscout: block 88859071 (2026-10-15 02:15 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c",
     "https://robinhoodchain.blockscout.com/tx/0x1af91367de9b46488e47131d186f5f17234e12f42dc58916b5782e907010f8ec",
@@ -258,7 +247,7 @@
    "title": "Site hosting overlap",
    "status": "pass",
    "points": 0,
-   "detail": "dointrade.xyz -> 147.79.120.223, 148.135.128.132; no watchlist match.",
+   "detail": "dointrade.xyz -> 148.135.128.63, 92.112.198.6; no watchlist match.",
    "evidence": [
     "https://dns.google/resolve?name=dointrade.xyz&type=A"
    ]
@@ -269,7 +258,7 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "dointrade.xyz registered 2026-10-14 (0 days ago).",
+   "detail": "dointrade.xyz registered 2026-10-14 (1 days ago).",
    "evidence": [
     "https://rdap.org/domain/dointrade.xyz"
    ]
@@ -280,16 +269,16 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-15 (0.1 days before scan).",
+   "detail": "X account created 2026-10-15 (0.8 days before scan).",
    "evidence": [
     "https://x.com/dointrade/status/2110556328582365555"
    ]
   }
  ],
- "score": 50,
- "band": "ELEVATED",
+ "score": 42,
+ "band": "MODERATE",
  "coverage": {
-  "run": 14,
+  "run": 13,
   "unknown": 2
  },
  "top_reasons": [
@@ -299,23 +288,11 @@
    "title": "Source verified",
    "status": "flag",
    "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
    "evidence": [
     "https://sourcify.dev/server/v2/contract/4663/0x6ebe4571b0c4befde8e2b7af647d2255745b00da",
-    "https://robinhoodchain.blockscout.com/address/0x6ebe4571b0c4befde8e2b7af647d2255745b00da?tab=contract"
-   ]
-  },
-  {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c has sent only 3 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c",
-    "https://robinhoodchain.blockscout.com/tx/0x1af91367de9b46488e47131d186f5f17234e12f42dc58916b5782e907010f8ec",
-    "eth_getTransactionCount(0x54b32a542e120379c9a89d7b8b500abd26bc5b5c) @ 88878770 = 3"
+    "https://robinhoodchain.blockscout.com/address/0x6ebe4571b0c4befde8e2b7af647d2255745b00da?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x6ebe4571b0c4befde8e2b7af647d2255745b00da"
    ]
   },
   {
@@ -324,12 +301,23 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c on Blockscout: block 88859071 (2026-10-15 02:15 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x54b32a542e120379c9a89d7b8b500abd26bc5b5c on Blockscout: block 88859071 (2026-10-15 02:15 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c",
     "https://robinhoodchain.blockscout.com/tx/0x1af91367de9b46488e47131d186f5f17234e12f42dc58916b5782e907010f8ec",
     "https://robinhoodchain.blockscout.com/tx/0x11885113baca373725735d4980d19864f165840599546317233386266dd5ef70",
     "https://robinhoodchain.blockscout.com/api/v2/addresses/0x54b32a542e120379c9a89d7b8b500abd26bc5b5c/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 6,
+   "detail": "Neither DexScreener nor GeckoTerminal lists a pool for this token.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6ebe4571b0c4befde8e2b7af647d2255745b00da"
    ]
   }
  ],
@@ -342,5 +330,10 @@
   "site": "https://dointrade.xyz/",
   "x_created": "2026-10-15T01:08:10Z",
   "note": "Another token named 'Doin Trade' (symbol Doin, 0x54d36d0a2b578ca5dcebb8b0225b03121e51ca9e) got a Uniswap pool at 7:10 PM PT. The address in @dointrade's post (0x6ebe\u2026) had no indexed pool at scan time. Check which address the project means before acting on either one."
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:49:00Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

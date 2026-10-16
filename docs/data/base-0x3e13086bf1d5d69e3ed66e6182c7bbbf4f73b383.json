@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383",
- "scanned_at_utc": "2026-10-15T03:45:31Z",
- "block": 52623292,
+ "scanned_at_utc": "2026-10-15T19:02:28Z",
+ "block": 52650800,
  "site": "https://anansionbase.com/",
  "post": null,
  "token": {
@@ -20,8 +20,11 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "partial": true,
+  "name": "Token"
  },
+ "verification": "verified",
  "owner": "0x402a795fc6ab0063726709500b4597e0873736c8",
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -30,20 +33,20 @@
   "cannot_buy": "0",
   "cannot_sell_all": "0",
   "creator_address": "0x6864454cdb12351c0f885debf1b49a1432bb505d",
-  "creator_balance": "45394418.259228971799289958",
-  "creator_percent": "0.045394",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
   "dex": [
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "1790.58962909253645956860",
+    "liquidity": "366.33027227494397834208",
     "pool_fee": "0.01",
     "pair": "0xb60eabeec00049d7244c6ba8b949e68d653962a8"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "4.22621667608152308292",
+    "liquidity": "4.25883117379270399456",
     "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
     "pool_fee": "0.874299",
     "pair": "0xb16350f0409ac987797cd50b1bb4ebfcaee9092401bc4a26ab5b3ff0981b95d7"
@@ -51,15 +54,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "2.94437424599999758202",
-    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
-    "pool_fee": "0.883131",
-    "pair": "0x5a87be55639331a9ed59cec32a934297c0256cc59ff7fa93e2089918320cb792"
-   },
-   {
-    "liquidity_type": "UniV4",
-    "name": "UniswapV4",
-    "liquidity": "0.193268129364",
+    "liquidity": "0.193250536880",
     "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
     "pool_fee": "0.81",
     "pair": "0xee6fcfc2510feb58d1be275f8a9fa34ccdf892c314acccaf8e05aad6d33ff1d3"
@@ -67,7 +62,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.00092973123",
+    "liquidity": "0.00092964660",
     "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
     "pool_fee": "0.901",
     "pair": "0xfade7d1323666d41c64710535c3a7dce4a3d7e6c8afcdac0ea9fb812a2e804b7"
@@ -75,86 +70,86 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "50",
+  "holder_count": "38",
   "holders": [
    {
     "address": "0xb60eabeec00049d7244c6ba8b949e68d653962a8",
     "tag": "UniswapV3",
     "is_contract": 1,
-    "balance": "568676265.185027129057086166",
-    "percent": "0.568676265185027129",
+    "balance": "910323934.41060453044161548",
+    "percent": "0.910323934410604530",
     "is_locked": 0
    },
    {
-    "address": "0x6864454cdb12351c0f885debf1b49a1432bb505d",
+    "address": "0xc25a0f171da0b4a49978d493beb8966b7085d2c4",
     "tag": "",
     "is_contract": 0,
-    "balance": "45394418.259228971799289958",
-    "percent": "0.045394418259228971",
+    "balance": "15761665.388126545187811719",
+    "percent": "0.015761665388126545",
     "is_locked": 0
    },
    {
-    "address": "0x37e216a3bc858c5241a98ae3b7943d59dcf379d5",
+    "address": "0xb16c5e1a9fdf6f1b89a99eeb43c3627329f75ac8",
     "tag": "",
     "is_contract": 0,
-    "balance": "31324958.893740905876630623",
-    "percent": "0.031324958893740905",
+    "balance": "10370141.628289972477355476",
+    "percent": "0.010370141628289972",
     "is_locked": 0
    },
    {
-    "address": "0x785d82423633f88875c5f5338f67324dc3ef8b0e",
+    "address": "0xa9a4652631569c00181dcea93b63966066922c8b",
     "tag": "",
-    "is_contract": 0,
-    "balance": "29398816.068717877022617644",
-    "percent": "0.029398816068717877",
+    "is_contract": 1,
+    "balance": "10106003.27420249539001026",
+    "percent": "0.010106003274202495",
     "is_locked": 0
    },
    {
-    "address": "0x9003d68e146181357e53e7b7d68fc1bba27ae463",
+    "address": "0xe4977d646636691439cfb198467d63fab5afeace",
     "tag": "",
-    "is_contract": 0,
-    "balance": "28677490.560439965621074707",
-    "percent": "0.028677490560439965",
+    "is_contract": 1,
+    "balance": "10060601.089941391786307301",
+    "percent": "0.010060601089941391",
     "is_locked": 0
    },
    {
-    "address": "0xd0c6f77fc8719c299e4fb78654b7d64f681ff21c",
+    "address": "0x4d4caee56e9fb6e922d5e34567043304d827962a",
     "tag": "",
-    "is_contract": 0,
-    "balance": "28601302.794964325832458788",
-    "percent": "0.028601302794964325",
+    "is_contract": 1,
+    "balance": "9875647.635782648841391944",
+    "percent": "0.009875647635782648",
     "is_locked": 0
    },
    {
-    "address": "0x400e2ce7930090b7e3674faf8c79cde9e31c2281",
+    "address": "0x5b5d906893becebc3de71215f8e9b5934f018055",
     "tag": "",
     "is_contract": 0,
-    "balance": "28507707.596257051649981956",
-    "percent": "0.028507707596257051",
+    "balance": "9541478.023711745669769805",
+    "percent": "0.009541478023711745",
     "is_locked": 0
    },
    {
-    "address": "0x841b20c3789800b9a52793806ffb57440da11f27",
+    "address": "0x8353c256894671d3e465f9edad658767604cfb35",
     "tag": "",
     "is_contract": 0,
-    "balance": "28437153.797637385849842966",
-    "percent": "0.028437153797637385",
+    "balance": "6461202.144394458746938704",
+    "percent": "0.006461202144394458",
     "is_locked": 0
    },
    {
-    "address": "0x522d3df3e827e3cc08550a16b213e71e9e202d24",
+    "address": "0x8f71e851ef20bace2a3f83c72dcc12af6cb57f75",
     "tag": "",
-    "is_contract": 0,
-    "balance": "24533991.863464753637574864",
-    "percent": "0.024533991863464753",
+    "is_contract": 1,
+    "balance": "5502685.80207523081886185",
+    "percent": "0.005502685802075230",
     "is_locked": 0
    },
    {
-    "address": "0x4c987d9d25e61ee79e15dfd57e574bceaaa46220",
+    "address": "0x530962cb6bc1d300b5f64d43c88962d287ed4f9b",
     "tag": "",
-    "is_contract": 0,
-    "balance": "23661073.16654212894566946",
-    "percent": "0.023661073166542128",
+    "is_contract": 1,
+    "balance": "3713343.601095198372931582",
+    "percent": "0.003713343601095198",
     "is_locked": 0
    }
   ],
@@ -172,13 +167,13 @@
    {
     "address": "0x402a795fc6ab0063726709500b4597e0873736c8",
     "tag": "",
-    "value": "1652.5306512293823604654",
+    "value": "197.19107893907973310644",
     "is_contract": 1,
     "balance": "30145.360274860300597197",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "1652.5306512293823604654",
+      "value": "197.19107893907973310644",
       "NFT_id": "6266659",
       "amount": "30145.360274860300597197",
       "in_effect": "1",
@@ -215,20 +210,20 @@
   "ts": 1792000405
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 5413.65,
-  "geckoterminal_top_usd": 5362.7795
+  "dexscreener_top_usd": 2632.88,
+  "geckoterminal_top_usd": 2695.8158
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xB60EABeEC00049D7244C6BA8B949E68d653962A8",
-   "liq_usd": 5413.65,
+   "liq_usd": 2632.88,
    "created": 1792000405000,
    "url": "https://dexscreener.com/base/0xb60eabeec00049d7244c6ba8b949e68d653962a8",
    "quote": "WETH"
   }
  ],
- "launcher_nonce": 3,
+ "launcher_nonce": 7,
  "deployer_contracts": [],
  "site_ips": [
   "34.111.179.208"
@@ -267,6 +262,14 @@
    "status": 200
   },
   {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x402a795fc6ab0063726709500b4597e0873736c8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x402a795fc6ab0063726709500b4597e0873736c8",
+   "status": 200
+  },
+  {
    "url": "https://base.blockscout.com/api/v2/addresses/0x6864454cdb12351c0f885debf1b49a1432bb505d/transactions?sort=block_number&order=asc",
    "status": 200
   },
@@ -289,7 +292,7 @@
    "points": 0,
    "detail": "4297 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52623292",
+    "eth_getCode @ block 52650800",
     "https://base.blockscout.com/address/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
    ]
   },
@@ -299,7 +302,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as Token. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
     "https://repo.sourcify.dev/8453/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383",
     "https://base.blockscout.com/address/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383?tab=contract"
@@ -313,7 +316,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52623292"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650800"
    ]
   },
   {
@@ -324,7 +327,7 @@
    "points": 3,
    "detail": "owner() = 0x402a795fc6ab0063726709500b4597e0873736c8, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383 owner() @ 52623292",
+    "eth_call 0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383 owner() @ 52650800",
     "https://base.blockscout.com/address/0x402a795fc6ab0063726709500b4597e0873736c8"
    ]
   },
@@ -336,7 +339,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52623292",
+    "selector scan @ 52650800",
     "https://repo.sourcify.dev/8453/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
    ]
   },
@@ -368,9 +371,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x6864454cdb12351c0f885debf1b49a1432bb505d holds 4.54% of supply.",
+   "detail": "Launch wallet 0x6864454cdb12351c0f885debf1b49a1432bb505d holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x6864454cdb12351c0f885debf1b49a1432bb505d) @ 52623292",
+    "eth_call balanceOf(0x6864454cdb12351c0f885debf1b49a1432bb505d) @ 52650800",
     "https://base.blockscout.com/address/0x6864454cdb12351c0f885debf1b49a1432bb505d"
    ]
   },
@@ -391,8 +394,8 @@
    "group": "liq",
    "title": "DEX liquidity",
    "status": "flag",
-   "points": 10,
-   "detail": "Top pool liquidity $5,414 (uniswap) - under $25k.",
+   "points": 15,
+   "detail": "Top pool liquidity $2,633 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/base/0xb60eabeec00049d7244c6ba8b949e68d653962a8",
     "https://api.dexscreener.com/token-pairs/v1/base/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
@@ -404,22 +407,9 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
-   ]
-  },
-  {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x6864454cdb12351c0f885debf1b49a1432bb505d has sent only 3 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://base.blockscout.com/address/0x6864454cdb12351c0f885debf1b49a1432bb505d",
-    "https://base.blockscout.com/tx/0x71393b2ab0571f0a4ba6c079a9ae318f777871d36d93c1c99b881d37a11a72ca",
-    "eth_getTransactionCount(0x6864454cdb12351c0f885debf1b49a1432bb505d) @ 52623292 = 3"
    ]
   },
   {
@@ -428,7 +418,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0x6864454cdb12351c0f885debf1b49a1432bb505d (CREATE nonce scan 0..2); tokens launched via factories are not counted. Wallet nonce = 3.",
+   "detail": "0 live contract(s) created directly by 0x6864454cdb12351c0f885debf1b49a1432bb505d (CREATE nonce scan 0..6); tokens launched via factories are not counted. Wallet nonce = 7.",
    "evidence": [
     "https://base.blockscout.com/address/0x6864454cdb12351c0f885debf1b49a1432bb505d",
     "https://base.blockscout.com/tx/0x71393b2ab0571f0a4ba6c079a9ae318f777871d36d93c1c99b881d37a11a72ca"
@@ -440,7 +430,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x6864454cdb12351c0f885debf1b49a1432bb505d on Blockscout: block 52605529 (2026-10-14 17:53 UTC), 0.4 days before scan.",
+   "detail": "Oldest transaction of 0x6864454cdb12351c0f885debf1b49a1432bb505d on Blockscout: block 52605529 (2026-10-14 17:53 UTC), 1.0 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x6864454cdb12351c0f885debf1b49a1432bb505d",
     "https://base.blockscout.com/tx/0x71393b2ab0571f0a4ba6c079a9ae318f777871d36d93c1c99b881d37a11a72ca",
@@ -464,53 +454,53 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "anansionbase.com registered 2026-10-14 (0 days ago).",
+   "detail": "anansionbase.com registered 2026-10-14 (1 days ago).",
    "evidence": [
     "https://rdap.org/domain/anansionbase.com"
    ]
   }
  ],
- "score": 44,
+ "score": 41,
  "band": "MODERATE",
  "coverage": {
-  "run": 16,
+  "run": 15,
   "unknown": 0
  },
  "top_reasons": [
-  {
-   "id": "liq.lock",
-   "group": "liq",
-   "title": "LP lock / burn",
-   "status": "flag",
-   "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
-   "evidence": [
-    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
-   ]
-  },
   {
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
    "status": "flag",
-   "points": 10,
-   "detail": "Top pool liquidity $5,414 (uniswap) - under $25k.",
+   "points": 15,
+   "detail": "Top pool liquidity $2,633 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/base/0xb60eabeec00049d7244c6ba8b949e68d653962a8",
     "https://api.dexscreener.com/token-pairs/v1/base/0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
    ]
   },
   {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
    "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x6864454cdb12351c0f885debf1b49a1432bb505d has sent only 3 transaction(s) in total (fresh wallet).",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x3e13086bf1d5d69e3ed66e6182c7bbbf4f73b383"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x6864454cdb12351c0f885debf1b49a1432bb505d on Blockscout: block 52605529 (2026-10-14 17:53 UTC), 1.0 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x6864454cdb12351c0f885debf1b49a1432bb505d",
     "https://base.blockscout.com/tx/0x71393b2ab0571f0a4ba6c079a9ae318f777871d36d93c1c99b881d37a11a72ca",
-    "eth_getTransactionCount(0x6864454cdb12351c0f885debf1b49a1432bb505d) @ 52623292 = 3"
+    "https://base.blockscout.com/api/v2/addresses/0x6864454cdb12351c0f885debf1b49a1432bb505d/transactions?sort=block_number&order=asc"
    ]
   }
  ],
@@ -525,5 +515,10 @@
    "dexscreener:token-boosts"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T03:45:31Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

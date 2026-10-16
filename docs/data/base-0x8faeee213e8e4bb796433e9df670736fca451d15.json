@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x8faeee213e8e4bb796433e9df670736fca451d15",
- "scanned_at_utc": "2026-10-15T17:01:17Z",
- "block": 52647165,
+ "scanned_at_utc": "2026-10-15T19:07:21Z",
+ "block": 52650947,
  "site": null,
  "post": null,
  "token": {
@@ -20,8 +20,11 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "partial": true,
+  "name": "$BaseMozz"
  },
+ "verification": "verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -30,13 +33,13 @@
   "cannot_buy": "0",
   "cannot_sell_all": "0",
   "creator_address": "0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
-  "creator_balance": "0",
-  "creator_percent": "0.000000",
+  "creator_balance": "3768579588.996093947679347183",
+  "creator_percent": "0.837462",
   "dex": [
    {
     "liquidity_type": "UniV2",
     "name": "UniswapV2",
-    "liquidity": "42690.71739598",
+    "liquidity": "1.95414461",
     "pool_fee": "0.0030",
     "pair": "0x868667f82a70df2e2746b0d5b54942eb6401ea94"
    }
@@ -56,27 +59,27 @@
   "lp_holder_count": "2",
   "lp_holders": [
    {
-    "address": "0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
+    "address": "0x9bd25e67bf390437c8faf480ac735a27bcf6168c",
     "tag": "",
-    "value": "40412.215331982052959844",
-    "is_contract": 0,
-    "balance": "259807.621135331594028116",
-    "percent": "0.999999999999999999",
+    "value": "1.945386288121540152",
+    "is_contract": 1,
+    "balance": "11.517729695832639297",
+    "percent": "0.999999999999999913",
     "NFT_list": null,
     "is_locked": 0
    },
    {
     "address": "0x0000000000000000000000000000000000000000",
     "tag": "Null Address",
-    "value": "0.000000000000000156",
+    "value": "0.000000000000000169",
     "is_contract": 0,
     "balance": "0.000000000000001",
-    "percent": "0.000000000000000000",
+    "percent": "0.000000000000000086",
     "NFT_list": null,
     "is_locked": 1
    }
   ],
-  "lp_total_supply": "259807.621135331594029116",
+  "lp_total_supply": "11.517729695832640297",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
@@ -102,20 +105,20 @@
   "ts": 1792081613
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 85730.51,
-  "geckoterminal_top_usd": 85964.6109
+  "dexscreener_top_usd": 3.88,
+  "geckoterminal_top_usd": 3.9201
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x868667F82a70df2E2746b0d5B54942EB6401Ea94",
-   "liq_usd": 85730.51,
+   "liq_usd": 3.88,
    "created": 1792081627000,
    "url": "https://dexscreener.com/base/0x868667f82a70df2e2746b0d5b54942eb6401ea94",
    "quote": "WETH"
   }
  ],
- "launcher_nonce": 4,
+ "launcher_nonce": 6,
  "deployer_contracts": [
   "0x8faeee213e8e4bb796433e9df670736fca451d15"
  ],
@@ -156,6 +159,14 @@
    "status": 200
   },
   {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x9bd25e67bf390437c8faf480ac735a27bcf6168c?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x9bd25e67bf390437c8faf480ac735a27bcf6168c",
+   "status": 200
+  },
+  {
    "url": "https://base.blockscout.com/api/v2/addresses/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5/transactions?sort=block_number&order=asc",
    "status": 200
   }
@@ -170,7 +181,7 @@
    "points": 0,
    "detail": "3553 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52647165",
+    "eth_getCode @ block 52650947",
     "https://base.blockscout.com/address/0x8faeee213e8e4bb796433e9df670736fca451d15"
    ]
   },
@@ -180,7 +191,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as $BaseMozz. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
     "https://repo.sourcify.dev/8453/0x8faeee213e8e4bb796433e9df670736fca451d15",
     "https://base.blockscout.com/address/0x8faeee213e8e4bb796433e9df670736fca451d15?tab=contract"
@@ -194,7 +205,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52647165"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650947"
    ]
   },
   {
@@ -205,7 +216,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x8faeee213e8e4bb796433e9df670736fca451d15 owner() @ 52647165 -> revert/empty"
+    "eth_call 0x8faeee213e8e4bb796433e9df670736fca451d15 owner() @ 52650947 -> revert/empty"
    ]
   },
   {
@@ -216,7 +227,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52647165",
+    "selector scan @ 52650947",
     "https://repo.sourcify.dev/8453/0x8faeee213e8e4bb796433e9df670736fca451d15"
    ]
   },
@@ -246,11 +257,11 @@
    "id": "holders.launcher",
    "group": "holders",
    "title": "Launcher wallet supply share",
-   "status": "pass",
-   "points": 0,
-   "detail": "Launch wallet 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 holds 0.00% of supply.",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 holds 83.75% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5) @ 52647165",
+    "eth_call balanceOf(0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5) @ 52650947",
     "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5"
    ]
   },
@@ -258,9 +269,9 @@
    "id": "holders.concentration",
    "group": "holders",
    "title": "Holder concentration",
-   "status": "info",
+   "status": "pass",
    "points": 0,
-   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "detail": "Largest non-contract holder has 1.76% of supply.",
    "evidence": [
     "https://base.blockscout.com/api/v2/tokens/0x8faeee213e8e4bb796433e9df670736fca451d15/holders",
     "https://base.blockscout.com/token/0x8faeee213e8e4bb796433e9df670736fca451d15?tab=holders"
@@ -270,9 +281,9 @@
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
-   "status": "pass",
-   "points": 0,
-   "detail": "Top pool liquidity $85,731 (uniswap).",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/base/0x868667f82a70df2e2746b0d5b54942eb6401ea94",
     "https://api.dexscreener.com/token-pairs/v1/base/0x8faeee213e8e4bb796433e9df670736fca451d15"
@@ -284,22 +295,9 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x8faeee213e8e4bb796433e9df670736fca451d15"
-   ]
-  },
-  {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 has sent only 4 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
-    "https://base.blockscout.com/tx/0x78e7eaf879fdfd450ca843df66341fb7d83bf71cdaee48e5ab40a9c2aa2b6e89",
-    "eth_getTransactionCount(0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5) @ 52647165 = 4"
    ]
   },
   {
@@ -308,7 +306,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "1 live contract(s) created directly by 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "detail": "1 live contract(s) created directly by 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 (CREATE nonce scan 0..5); tokens launched via factories are not counted. Wallet nonce = 6.",
    "evidence": [
     "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
     "https://base.blockscout.com/tx/0x78e7eaf879fdfd450ca843df66341fb7d83bf71cdaee48e5ab40a9c2aa2b6e89",
@@ -321,7 +319,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 on Blockscout: block 52646126 (2026-10-15 16:26 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 on Blockscout: block 52646126 (2026-10-15 16:26 UTC), 0.1 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
     "https://base.blockscout.com/tx/0x78e7eaf879fdfd450ca843df66341fb7d83bf71cdaee48e5ab40a9c2aa2b6e89",
@@ -339,49 +337,46 @@
    "evidence": []
   }
  ],
- "score": 29,
+ "score": 46,
  "band": "MODERATE",
  "coverage": {
-  "run": 14,
+  "run": 13,
   "unknown": 1
  },
  "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/base/0x868667f82a70df2e2746b0d5b54942eb6401ea94",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x8faeee213e8e4bb796433e9df670736fca451d15"
+   ]
+  },
   {
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x8faeee213e8e4bb796433e9df670736fca451d15"
    ]
   },
   {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
    "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 has sent only 4 transaction(s) in total (fresh wallet).",
+   "points": 10,
+   "detail": "Launch wallet 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 holds 83.75% of supply.",
    "evidence": [
-    "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
-    "https://base.blockscout.com/tx/0x78e7eaf879fdfd450ca843df66341fb7d83bf71cdaee48e5ab40a9c2aa2b6e89",
-    "eth_getTransactionCount(0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5) @ 52647165 = 4"
-   ]
-  },
-  {
-   "id": "deployer.age",
-   "group": "deployer",
-   "title": "Deployer wallet age",
-   "status": "flag",
-   "points": 6,
-   "detail": "Oldest transaction of 0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5 on Blockscout: block 52646126 (2026-10-15 16:26 UTC), 0.0 days before scan.",
-   "evidence": [
-    "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5",
-    "https://base.blockscout.com/tx/0x78e7eaf879fdfd450ca843df66341fb7d83bf71cdaee48e5ab40a9c2aa2b6e89",
-    "https://base.blockscout.com/tx/0x6d4daed7d6d302abbb958b97ab44c34eb3a04ff431d6291f1386b25c9b247a0d",
-    "https://base.blockscout.com/api/v2/addresses/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5/transactions?sort=block_number&order=asc"
+    "eth_call balanceOf(0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5) @ 52650947",
+    "https://base.blockscout.com/address/0x19bfb2ed9207f0aef9bad1b3959863ebc4de9da5"
    ]
   }
  ],
@@ -399,5 +394,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T17:01:17Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

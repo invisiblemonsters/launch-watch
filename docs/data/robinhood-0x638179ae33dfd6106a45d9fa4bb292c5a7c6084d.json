@@ -1,0 +1,416 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+ "scanned_at_utc": "2026-10-15T19:25:10Z",
+ "block": 89472821,
+ "site": "https://lyq.finance",
+ "post": null,
+ "token": {
+  "name": "Lyq",
+  "symbol": "LYQ",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.145060083272",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.989999",
+    "pair": "0x852b1845bbe3c21dc48647f9da8f607d3bcb36c1a3043b36174dc1a24d599908"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x326ffb8d657262027bbe5da3d2ef49bc3e40067b",
+    "tag": "",
+    "value": "0.145060083272",
+    "is_contract": 0,
+    "balance": "0.000043736801333936",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.145060083272",
+      "NFT_id": "3838781",
+      "amount": "0.000043736801333936",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000043736801333936",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Lyq",
+  "token_symbol": "LYQ",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x42b47381a3a9bece28b06071e96011ba7c76861350784c2e4b17cf9b2974f98e",
+  "block": 89435815,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x0b74e9482edd2a193170b7977708fe5a246dad3b",
+  "tx_to": "0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e",
+  "ts": 1792088588
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 4635.9439
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x12a61dd1fd2341d46e6b1273a8442740fbd5d937",
+   "liq_usd": 4635.9439,
+   "created": "2026-10-15T18:23:08Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x12a61dd1fd2341d46e6b1273a8442740fbd5d937",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [],
+ "site_ips": [
+  "168.100.8.23"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0b74e9482edd2a193170b7977708fe5a246dad3b/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=lyq.finance&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/lyq.finance",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89472821",
+    "https://robinhoodchain.blockscout.com/address/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89472821"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d owner() @ 89472821 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 89472821"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x0b74e9482edd2a193170b7977708fe5a246dad3b holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x0b74e9482edd2a193170b7977708fe5a246dad3b) @ 89472821",
+    "https://robinhoodchain.blockscout.com/address/0x0b74e9482edd2a193170b7977708fe5a246dad3b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.12% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/holders",
+    "https://robinhoodchain.blockscout.com/token/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,636 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x12a61dd1fd2341d46e6b1273a8442740fbd5d937",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x0b74e9482edd2a193170b7977708fe5a246dad3b has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0b74e9482edd2a193170b7977708fe5a246dad3b",
+    "https://robinhoodchain.blockscout.com/tx/0x42b47381a3a9bece28b06071e96011ba7c76861350784c2e4b17cf9b2974f98e",
+    "eth_getTransactionCount(0x0b74e9482edd2a193170b7977708fe5a246dad3b) @ 89472821 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x0b74e9482edd2a193170b7977708fe5a246dad3b (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0b74e9482edd2a193170b7977708fe5a246dad3b",
+    "https://robinhoodchain.blockscout.com/tx/0x42b47381a3a9bece28b06071e96011ba7c76861350784c2e4b17cf9b2974f98e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x0b74e9482edd2a193170b7977708fe5a246dad3b on Blockscout: block 89393048 (2026-10-15 17:11 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0b74e9482edd2a193170b7977708fe5a246dad3b",
+    "https://robinhoodchain.blockscout.com/tx/0x42b47381a3a9bece28b06071e96011ba7c76861350784c2e4b17cf9b2974f98e",
+    "https://robinhoodchain.blockscout.com/tx/0x19caab7fd4588ef33081b9b1e72a6695ae83e6cee6f33f0c6690b8e5e009d2c0",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0b74e9482edd2a193170b7977708fe5a246dad3b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "lyq.finance -> 168.100.8.23; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=lyq.finance&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "lyq.finance registered 2026-10-07 (8 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/lyq.finance"
+   ]
+  }
+ ],
+ "score": 53,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,636 (pons-v2) - under $5k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x12a61dd1fd2341d46e6b1273a8442740fbd5d937",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x0b74e9482edd2a193170b7977708fe5a246dad3b has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0b74e9482edd2a193170b7977708fe5a246dad3b",
+    "https://robinhoodchain.blockscout.com/tx/0x42b47381a3a9bece28b06071e96011ba7c76861350784c2e4b17cf9b2974f98e",
+    "eth_getTransactionCount(0x0b74e9482edd2a193170b7977708fe5a246dad3b) @ 89472821 = 4"
+   ]
+  }
+ ],
+ "label": "Lyq",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x638179ae33dfd6106a45d9fa4bb292c5a7c6084d",
+  "name": "Lyq",
+  "symbol": "LYQ",
+  "created_at": "2026-10-15T18:23:08Z",
+  "dex": "pons-v2",
+  "liq_usd": 13990.8808,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x12a61dd1fd2341d46e6b1273a8442740fbd5d937",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://lyq.finance",
+  "x_profile": "https://x.com/LyqFinance",
+  "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T18:32:02Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
+ }
+}

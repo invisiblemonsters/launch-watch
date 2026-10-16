@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0",
- "scanned_at_utc": "2026-10-15T02:52:18Z",
- "block": 52621695,
+ "scanned_at_utc": "2026-10-15T19:02:39Z",
+ "block": 52650806,
  "site": null,
  "post": "https://x.com/0x41a6A/status/2110444980128862368",
  "token": {
@@ -20,8 +20,10 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "name": "BELLTOKEN"
  },
+ "verification": "verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -29,18 +31,18 @@
   "cannot_buy": "0",
   "can_take_back_ownership": "0",
   "creator_address": "0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf",
-  "creator_balance": "546593986.395920458100653892",
+  "creator_balance": "546594033.499111401395915236",
   "creator_percent": "0.546594",
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "142",
+  "holder_count": "144",
   "holders": [
    {
     "address": "0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf",
     "tag": "",
     "is_contract": 1,
-    "balance": "546593986.395920458100653892",
-    "percent": "0.546593986395920458",
+    "balance": "546594033.499111401395915236",
+    "percent": "0.546594033499111401",
     "is_locked": 0
    },
    {
@@ -55,8 +57,8 @@
     "address": "0x8e74685b5696f817add1864289ce5ca13137dded",
     "tag": "",
     "is_contract": 1,
-    "balance": "150000144.064217928814222274",
-    "percent": "0.150000144064217928",
+    "balance": "150000099.99999908140989962",
+    "percent": "0.150000099999999081",
     "is_locked": 0
    },
    {
@@ -149,20 +151,20 @@
   "ts": 1787477817
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 150075.7,
-  "geckoterminal_top_usd": 140317.296
+  "dexscreener_top_usd": 150075.61,
+  "geckoterminal_top_usd": 0.2439
  },
  "pairs": [
   {
    "dex": "aerodrome",
    "pair": "0x8e74685B5696F817AdD1864289ce5Ca13137ddED",
-   "liq_usd": 150075.7,
+   "liq_usd": 150075.61,
    "created": null,
    "url": "https://dexscreener.com/base/0x8e74685b5696f817add1864289ce5ca13137dded",
    "quote": "USDC"
   }
  ],
- "launcher_nonce": 50,
+ "launcher_nonce": 51,
  "deployer_contracts": [
   "0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0",
   "0x2bb6918a2cebe98ee531d92f32feb983b0fca2ca"
@@ -219,7 +221,7 @@
    "points": 0,
    "detail": "3554 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52621695",
+    "eth_getCode @ block 52650806",
     "https://base.blockscout.com/address/0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0"
    ]
   },
@@ -229,7 +231,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: no match; Blockscout: verified.",
+   "detail": "Verified on Blockscout as BELLTOKEN. Sourcify: not checked (HTTP 400); Blockscout: verified.",
    "evidence": [
     "https://base.blockscout.com/address/0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0?tab=contract"
    ]
@@ -242,7 +244,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52621695"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650806"
    ]
   },
   {
@@ -253,7 +255,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0 owner() @ 52621695 -> revert/empty"
+    "eth_call 0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0 owner() @ 52650806 -> revert/empty"
    ]
   },
   {
@@ -264,7 +266,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52621695",
+    "selector scan @ 52650806",
     "https://base.blockscout.com/address/0x8257c74A62fDAdC192ffB6eAfa2c1534f11c28f0?tab=contract"
    ]
   },
@@ -298,7 +300,7 @@
    "points": 10,
    "detail": "Launch wallet 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf holds 54.66% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf) @ 52621695",
+    "eth_call balanceOf(0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf) @ 52650806",
     "https://base.blockscout.com/address/0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf"
    ]
   },
@@ -318,12 +320,13 @@
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
-   "status": "pass",
-   "points": 0,
-   "detail": "Top pool liquidity $150,076 (aerodrome).",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $150,076, GeckoTerminal top pool $0. Not scored until they agree.",
    "evidence": [
     "https://dexscreener.com/base/0x8e74685b5696f817add1864289ce5ca13137dded",
-    "https://api.dexscreener.com/token-pairs/v1/base/0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0"
+    "https://api.dexscreener.com/token-pairs/v1/base/0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0",
+    "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x8257c74a62fdadc192ffb6eafa2c1534f11c28f0/pools"
    ]
   },
   {
@@ -343,7 +346,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "2 live contract(s) created directly by 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf (CREATE nonce scan 0..49); tokens launched via factories are not counted. Wallet nonce = 50.",
+   "detail": "2 live contract(s) created directly by 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf (CREATE nonce scan 0..50); tokens launched via factories are not counted. Wallet nonce = 51.",
    "evidence": [
     "https://base.blockscout.com/address/0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf",
     "https://base.blockscout.com/tx/0xbc943e5ce31d9b3d6b6771c193693bc95d97b746ccc9c33e95aa6444a17ad031",
@@ -357,7 +360,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf on Blockscout: block 50304818 (2026-08-22 11:43 UTC), 53.6 days before scan.",
+   "detail": "Oldest transaction of 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf on Blockscout: block 50304818 (2026-08-22 11:43 UTC), 54.3 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf",
     "https://base.blockscout.com/tx/0xbc943e5ce31d9b3d6b6771c193693bc95d97b746ccc9c33e95aa6444a17ad031",
@@ -380,17 +383,17 @@
    "title": "Launch X account age",
    "status": "pass",
    "points": 0,
-   "detail": "X account created 2025-04-07 (555.7 days before scan).",
+   "detail": "X account created 2025-04-07 (556.3 days before scan).",
    "evidence": [
     "https://x.com/0x41a6A/status/2110444980128862368"
    ]
   }
  ],
- "score": 29,
+ "score": 32,
  "band": "MODERATE",
  "coverage": {
-  "run": 12,
-  "unknown": 3
+  "run": 11,
+  "unknown": 4
  },
  "top_reasons": [
   {
@@ -413,7 +416,7 @@
    "points": 10,
    "detail": "Launch wallet 0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf holds 54.66% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf) @ 52621695",
+    "eth_call balanceOf(0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf) @ 52650806",
     "https://base.blockscout.com/address/0x79075bdd8039eba6b9320ac191fce5f7b6a8ccaf"
    ]
   },
@@ -435,5 +438,10 @@
   "post": "https://x.com/0x41a6A/status/2110444980128862368",
   "x_created": "2025-04-07T10:45:46Z",
   "note": "The token contract dates from Aug 23, 2026. The 'pre-launch sale' was announced in the window, but the contract is not new."
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:52:18Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

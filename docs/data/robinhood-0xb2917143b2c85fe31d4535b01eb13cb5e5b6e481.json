@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481",
- "scanned_at_utc": "2026-10-15T02:48:42Z",
- "block": 88878589,
+ "scanned_at_utc": "2026-10-15T19:06:24Z",
+ "block": 89461629,
  "site": "https://BunkiSwap.com/",
  "post": "https://x.com/Bunkiswap/status/2110553151443214385",
  "token": {
@@ -20,8 +20,10 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "name": "PonsV2LauncherToken"
  },
+ "verification": "verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -33,6 +35,25 @@
   "creator_percent": "0.000000",
   "external_call": "0",
   "hidden_owner": "0",
+  "holder_count": "2",
+  "holders": [
+   {
+    "address": "0x278bFBF716e8cAA42f7285D910871D29dA420D7C",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "999999999.999999997428175154",
+    "percent": "1.000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7b32E6a956EC764EB40608ffe14641A07b2785Af",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "0.000000002571824846",
+    "percent": "0.000000",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
@@ -51,6 +72,7 @@
   "slippage_modifiable": "0",
   "token_name": "Bunki Swap",
   "token_symbol": "BUNKI",
+  "total_supply": "1000000000",
   "trading_cooldown": "0",
   "transfer_pausable": "0",
   "transfer_tax": ""
@@ -66,13 +88,13 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": null,
-  "geckoterminal_top_usd": 3804.9204
+  "geckoterminal_top_usd": 3934.0508
  },
  "pairs": [
   {
    "dex": "pons-v2",
    "pair": "0x278bfbf716e8caa42f7285d910871d29da420d7c",
-   "liq_usd": 3804.9204,
+   "liq_usd": 3934.0508,
    "created": "2026-10-15T02:07:16Z",
    "url": "https://www.geckoterminal.com/robinhood/pools/0x278bfbf716e8caa42f7285d910871d29da420d7c",
    "quote": "WETH"
@@ -136,7 +158,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 88878589",
+    "eth_getCode @ block 89461629",
     "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481"
    ]
   },
@@ -146,7 +168,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: no match; Blockscout: verified.",
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract"
    ]
@@ -159,7 +181,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88878589"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89461629"
    ]
   },
   {
@@ -170,7 +192,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481 owner() @ 88878589 -> revert/empty"
+    "eth_call 0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481 owner() @ 89461629 -> revert/empty"
    ]
   },
   {
@@ -181,7 +203,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 88878589",
+    "selector scan @ 89461629",
     "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract"
    ]
   },
@@ -213,7 +235,7 @@
    "points": 0,
    "detail": "Launch wallet 0x7b32e6a956ec764eb40608ffe14641a07b2785af holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x7b32e6a956ec764eb40608ffe14641a07b2785af) @ 88878589",
+    "eth_call balanceOf(0x7b32e6a956ec764eb40608ffe14641a07b2785af) @ 89461629",
     "https://robinhoodchain.blockscout.com/address/0x7b32e6a956ec764eb40608ffe14641a07b2785af"
    ]
   },
@@ -235,7 +257,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $3,805 (pons-v2) - under $5k.",
+   "detail": "Top pool liquidity $3,934 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x278bfbf716e8caa42f7285d910871d29da420d7c",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481/pools"
@@ -270,7 +292,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x7b32e6a956ec764eb40608ffe14641a07b2785af on Blockscout: block 88835459 (2026-10-15 01:35 UTC), 0.1 days before scan.",
+   "detail": "Oldest transaction of 0x7b32e6a956ec764eb40608ffe14641a07b2785af on Blockscout: block 88835459 (2026-10-15 01:35 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x7b32e6a956ec764eb40608ffe14641a07b2785af",
     "https://robinhoodchain.blockscout.com/tx/0x4d5ed59ea76eff2c0d1aca05103637a8feb2dd2fbea44c0736bc082aa20cc27f",
@@ -295,7 +317,7 @@
    "title": "Domain age",
    "status": "pass",
    "points": 0,
-   "detail": "bunkiswap.com registered 2026-09-22 (23 days ago).",
+   "detail": "bunkiswap.com registered 2026-09-22 (24 days ago).",
    "evidence": [
     "https://rdap.org/domain/bunkiswap.com"
    ]
@@ -306,7 +328,7 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-14 (0.2 days before scan).",
+   "detail": "X account created 2026-10-14 (0.8 days before scan).",
    "evidence": [
     "https://x.com/Bunkiswap/status/2110553151443214385"
    ]
@@ -325,7 +347,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $3,805 (pons-v2) - under $5k.",
+   "detail": "Top pool liquidity $3,934 (pons-v2) - under $5k.",
    "evidence": [
     "https://www.geckoterminal.com/robinhood/pools/0x278bfbf716e8caa42f7285d910871d29da420d7c",
     "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481/pools"
@@ -337,7 +359,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x7b32e6a956ec764eb40608ffe14641a07b2785af on Blockscout: block 88835459 (2026-10-15 01:35 UTC), 0.1 days before scan.",
+   "detail": "Oldest transaction of 0x7b32e6a956ec764eb40608ffe14641a07b2785af on Blockscout: block 88835459 (2026-10-15 01:35 UTC), 0.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x7b32e6a956ec764eb40608ffe14641a07b2785af",
     "https://robinhoodchain.blockscout.com/tx/0x4d5ed59ea76eff2c0d1aca05103637a8feb2dd2fbea44c0736bc082aa20cc27f",
@@ -351,7 +373,7 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-14 (0.2 days before scan).",
+   "detail": "X account created 2026-10-14 (0.8 days before scan).",
    "evidence": [
     "https://x.com/Bunkiswap/status/2110553151443214385"
    ]
@@ -365,5 +387,10 @@
   "post": "https://x.com/Bunkiswap/status/2110553151443214385",
   "site": "https://BunkiSwap.com/",
   "x_created": "2026-10-14T22:45:02Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:48:42Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

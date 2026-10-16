@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0x2d3200df9c99a84e329f0f3e6213df3b252629d4",
- "scanned_at_utc": "2026-10-15T02:52:01Z",
- "block": 52621687,
+ "scanned_at_utc": "2026-10-15T19:02:16Z",
+ "block": 52650794,
  "site": "https://basedhd.lovable.app/",
  "post": "https://x.com/dieharddegen069/status/2110500194274230556",
  "token": {
@@ -20,8 +20,11 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "partial": true,
+  "name": "Token"
  },
+ "verification": "verified",
  "owner": "0x402a795fc6ab0063726709500b4597e0873736c8",
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -30,35 +33,27 @@
   "cannot_buy": "0",
   "cannot_sell_all": "0",
   "creator_address": "0x635d06dc9a78a28cae4531d2c947207e5e14c293",
-  "creator_balance": "553892.267008430118041635",
-  "creator_percent": "0.000554",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
   "dex": [
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "1.22539208858197317638",
+    "liquidity": "0.01708286927214649872",
     "pool_fee": "0.01",
     "pair": "0x11a8468e509e98e2f170ac19245e89ae283f94fa"
    }
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "4",
+  "holder_count": "3",
   "holders": [
    {
     "address": "0x11a8468e509e98e2f170ac19245e89ae283f94fa",
     "tag": "UniswapV3",
     "is_contract": 1,
-    "balance": "999443931.847337690942578691",
-    "percent": "0.999443931847337690",
-    "is_locked": 0
-   },
-   {
-    "address": "0x635d06dc9a78a28cae4531d2c947207e5e14c293",
-    "tag": "",
-    "is_contract": 1,
-    "balance": "553892.267008430118041635",
-    "percent": "0.000553892267008430",
+    "balance": "999997824.114346121060620326",
+    "percent": "0.999997824114346121",
     "is_locked": 0
    },
    {
@@ -92,16 +87,16 @@
    {
     "address": "0x402a795fc6ab0063726709500b4597e0873736c8",
     "tag": "",
-    "value": "1.21661480226737639374",
+    "value": "0.01715977807932172653",
     "is_contract": 1,
     "balance": "30145.360274860300597197",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "1.21661480226737639374",
+      "value": "0.01715977807932172653",
       "NFT_id": "6269630",
       "amount": "30145.360274860300597197",
-      "in_effect": "1",
+      "in_effect": "0",
       "NFT_percentage": "1.000000000000000000"
      }
     ],
@@ -135,20 +130,20 @@
   "ts": 1792014237
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 2205.77,
-  "geckoterminal_top_usd": 2133.481
+  "dexscreener_top_usd": 2140.82,
+  "geckoterminal_top_usd": 2240.2807
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x11A8468E509e98e2F170Ac19245E89aE283F94Fa",
-   "liq_usd": 2205.77,
+   "liq_usd": 2140.82,
    "created": 1792014237000,
    "url": "https://dexscreener.com/base/0x11a8468e509e98e2f170ac19245e89ae283f94fa",
    "quote": "WETH"
   }
  ],
- "launcher_nonce": 2008,
+ "launcher_nonce": 2010,
  "site_ips": [
   "185.41.148.1",
   "185.41.148.2"
@@ -187,6 +182,14 @@
    "status": 200
   },
   {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x402a795fc6ab0063726709500b4597e0873736c8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x402a795fc6ab0063726709500b4597e0873736c8",
+   "status": 200
+  },
+  {
    "url": "https://base.blockscout.com/api/v2/addresses/0x635d06dc9a78a28cae4531d2c947207e5e14c293/transactions?sort=block_number&order=asc",
    "status": 200
   },
@@ -205,7 +208,7 @@
    "points": 0,
    "detail": "4297 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52621687",
+    "eth_getCode @ block 52650794",
     "https://base.blockscout.com/address/0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
    ]
   },
@@ -215,7 +218,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as Token. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
     "https://repo.sourcify.dev/8453/0x2d3200df9c99a84e329f0f3e6213df3b252629d4",
     "https://base.blockscout.com/address/0x2d3200df9c99a84e329f0f3e6213df3b252629d4?tab=contract"
@@ -229,7 +232,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52621687"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650794"
    ]
   },
   {
@@ -240,7 +243,7 @@
    "points": 3,
    "detail": "owner() = 0x402a795fc6ab0063726709500b4597e0873736c8, a contract (multisig/timelock/factory - not further classified).",
    "evidence": [
-    "eth_call 0x2d3200df9c99a84e329f0f3e6213df3b252629d4 owner() @ 52621687",
+    "eth_call 0x2d3200df9c99a84e329f0f3e6213df3b252629d4 owner() @ 52650794",
     "https://base.blockscout.com/address/0x402a795fc6ab0063726709500b4597e0873736c8"
    ]
   },
@@ -252,7 +255,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52621687",
+    "selector scan @ 52650794",
     "https://repo.sourcify.dev/8453/0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
    ]
   },
@@ -284,9 +287,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x635d06dc9a78a28cae4531d2c947207e5e14c293 holds 0.06% of supply.",
+   "detail": "Launch wallet 0x635d06dc9a78a28cae4531d2c947207e5e14c293 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x635d06dc9a78a28cae4531d2c947207e5e14c293) @ 52621687",
+    "eth_call balanceOf(0x635d06dc9a78a28cae4531d2c947207e5e14c293) @ 52650794",
     "https://base.blockscout.com/address/0x635d06dc9a78a28cae4531d2c947207e5e14c293"
    ]
   },
@@ -308,7 +311,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $2,206 (uniswap) - under $5k.",
+   "detail": "Top pool liquidity $2,141 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/base/0x11a8468e509e98e2f170ac19245e89ae283f94fa",
     "https://api.dexscreener.com/token-pairs/v1/base/0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
@@ -320,7 +323,7 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
    ]
@@ -331,11 +334,11 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x635d06dc9a78a28cae4531d2c947207e5e14c293 has sent 2008 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x635d06dc9a78a28cae4531d2c947207e5e14c293 has sent 2010 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://base.blockscout.com/address/0x635d06dc9a78a28cae4531d2c947207e5e14c293",
     "https://base.blockscout.com/tx/0x2712ee0a6f2c20365beab20373bf7ddf0bb119d19d70b301ba00c53202c7be2d",
-    "eth_getTransactionCount = 2008"
+    "eth_getTransactionCount = 2010"
    ]
   },
   {
@@ -344,7 +347,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x635d06dc9a78a28cae4531d2c947207e5e14c293 on Blockscout: block 28433077 (2025-04-03 04:45 UTC), 559.9 days before scan.",
+   "detail": "Oldest transaction of 0x635d06dc9a78a28cae4531d2c947207e5e14c293 on Blockscout: block 28433077 (2025-04-03 04:45 UTC), 560.6 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x635d06dc9a78a28cae4531d2c947207e5e14c293",
     "https://base.blockscout.com/tx/0x2712ee0a6f2c20365beab20373bf7ddf0bb119d19d70b301ba00c53202c7be2d",
@@ -378,7 +381,7 @@
    "title": "Launch X account age",
    "status": "pass",
    "points": 0,
-   "detail": "X account created 2026-07-02 (104.2 days before scan).",
+   "detail": "X account created 2026-07-02 (104.9 days before scan).",
    "evidence": [
     "https://x.com/dieharddegen069/status/2110500194274230556"
    ]
@@ -397,7 +400,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 15,
-   "detail": "Top pool liquidity $2,206 (uniswap) - under $5k.",
+   "detail": "Top pool liquidity $2,141 (uniswap) - under $5k.",
    "evidence": [
     "https://dexscreener.com/base/0x11a8468e509e98e2f170ac19245e89ae283f94fa",
     "https://api.dexscreener.com/token-pairs/v1/base/0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
@@ -409,7 +412,7 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "GoPlus LP holders: 0.0% locked or burned.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x2d3200df9c99a84e329f0f3e6213df3b252629d4"
    ]
@@ -420,11 +423,11 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x635d06dc9a78a28cae4531d2c947207e5e14c293 has sent 2008 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x635d06dc9a78a28cae4531d2c947207e5e14c293 has sent 2010 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://base.blockscout.com/address/0x635d06dc9a78a28cae4531d2c947207e5e14c293",
     "https://base.blockscout.com/tx/0x2712ee0a6f2c20365beab20373bf7ddf0bb119d19d70b301ba00c53202c7be2d",
-    "eth_getTransactionCount = 2008"
+    "eth_getTransactionCount = 2010"
    ]
   }
  ],
@@ -437,5 +440,10 @@
   "site": "https://basedhd.lovable.app/",
   "x_created": "2026-07-02T22:27:33Z",
   "note": "The post says 'Liquidity Locked' and 'Ownership Renounced'. On-chain owner() returns contract 0x402a795f\u2026 (not 0x0). GoPlus shows 0% of its tracked LP as locked."
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:52:01Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

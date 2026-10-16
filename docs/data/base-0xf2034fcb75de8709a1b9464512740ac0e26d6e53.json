@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "base",
  "chain_id": 8453,
  "address": "0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
- "scanned_at_utc": "2026-10-15T03:47:05Z",
- "block": 52623339,
+ "scanned_at_utc": "2026-10-15T19:16:51Z",
+ "block": 52651232,
  "site": null,
  "post": null,
  "token": {
@@ -22,6 +22,16 @@
   "status": "not verified",
   "err": null
  },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -33,7 +43,81 @@
   "creator_percent": "0.000000",
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "0",
+  "holder_count": "9",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989843209.018313613131216589",
+    "percent": "0.989843209018313613",
+    "is_locked": 0
+   },
+   {
+    "address": "0x99ff4967d8cc94ef86920a0f92042741b1bbdf4d",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb65d262652e4b47e218fe7c31dbbe9ec2ba14763",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "139668.83146806042774955",
+    "percent": "0.000139668831468060",
+    "is_locked": 0
+   },
+   {
+    "address": "0x60c34e65808086978dfa6851201ce1215e883f69",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4921.520147283407648031",
+    "percent": "0.000004921520147283",
+    "is_locked": 0
+   },
+   {
+    "address": "0xad56c7d500bc2a0f578814fdb8287cbb72da780d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4262.097342541297557864",
+    "percent": "0.000004262097342541",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd9188e529a1d923d82a35678cd416923939d6b0d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4145.972337416597074654",
+    "percent": "0.000004145972337416",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9234893a3ce6f12e53ee3a5e5f4fb1cbde65c80e",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "3792.560391083825824988",
+    "percent": "0.000003792560391083",
+    "is_locked": 0
+   },
+   {
+    "address": "0x979097fc9636af60d0af639552ceb68300e31ee6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000001312928076",
+    "percent": "0.000000000000000001",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0469a4bd3724dc86c9542f4694c976da13c450c0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000248",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
@@ -68,7 +152,7 @@
  },
  "liquidity_sources": {
   "dexscreener_top_usd": 118282.64,
-  "geckoterminal_top_usd": 119598.2846
+  "geckoterminal_top_usd": 124128.6148
  },
  "pairs": [
   {
@@ -92,11 +176,15 @@
    "status": 200
   },
   {
-   "url": "https://base.blockscout.com/api/v2/addresses/0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
    "status": 200
   },
   {
-   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi",
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
    "status": 200
   },
   {
@@ -109,7 +197,7 @@
   },
   {
    "url": "https://base.blockscout.com/api/v2/tokens/0xf2034fcb75de8709a1b9464512740ac0e26d6e53/holders",
-   "status": 404
+   "status": 200
   },
   {
    "url": "https://api.dexscreener.com/token-pairs/v1/base/0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
@@ -134,7 +222,7 @@
    "points": 0,
    "detail": "45 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52623339",
+    "eth_getCode @ block 52651232",
     "https://base.blockscout.com/address/0xf2034fcb75de8709a1b9464512740ac0e26d6e53"
    ]
   },
@@ -142,12 +230,13 @@
    "id": "verify.source",
    "group": "verify",
    "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
    "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
-    "https://base.blockscout.com/address/0xf2034fcb75de8709a1b9464512740ac0e26d6e53?tab=contract"
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xf2034fcb75de8709a1b9464512740ac0e26d6e53?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xf2034fcb75de8709a1b9464512740ac0e26d6e53"
    ]
   },
   {
@@ -170,7 +259,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xf2034fcb75de8709a1b9464512740ac0e26d6e53 owner() @ 52623339 -> revert/empty"
+    "eth_call 0xf2034fcb75de8709a1b9464512740ac0e26d6e53 owner() @ 52651232 -> revert/empty"
    ]
   },
   {
@@ -181,7 +270,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 52623339"
+    "selector scan @ 52651232"
    ]
   },
   {
@@ -214,7 +303,7 @@
    "points": 0,
    "detail": "Launch wallet 0x3b646acea9276b9104898cb39f69f2377f190bab holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52623339",
+    "eth_call balanceOf(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52651232",
     "https://base.blockscout.com/address/0x3b646acea9276b9104898cb39f69f2377f190bab"
    ]
   },
@@ -222,11 +311,12 @@
    "id": "holders.concentration",
    "group": "holders",
    "title": "Holder concentration",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
    "evidence": [
-    "https://base.blockscout.com/api/v2/tokens/0xf2034fcb75de8709a1b9464512740ac0e26d6e53/holders"
+    "https://base.blockscout.com/api/v2/tokens/0xf2034fcb75de8709a1b9464512740ac0e26d6e53/holders",
+    "https://base.blockscout.com/token/0xf2034fcb75de8709a1b9464512740ac0e26d6e53?tab=holders"
    ]
   },
   {
@@ -262,7 +352,7 @@
    "evidence": [
     "https://base.blockscout.com/address/0x3b646acea9276b9104898cb39f69f2377f190bab",
     "https://base.blockscout.com/tx/0x2c437afee53bf8c417d4ba302ea92742616eecd648200e2e05285ae08ad9d017",
-    "eth_getTransactionCount(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52623339 = 3"
+    "eth_getTransactionCount(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52651232 = 3"
    ]
   },
   {
@@ -283,7 +373,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x3b646acea9276b9104898cb39f69f2377f190bab on Blockscout: block 52620202 (2026-10-15 02:02 UTC), 0.1 days before scan.",
+   "detail": "Oldest transaction of 0x3b646acea9276b9104898cb39f69f2377f190bab on Blockscout: block 52620202 (2026-10-15 02:02 UTC), 0.7 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x3b646acea9276b9104898cb39f69f2377f190bab",
     "https://base.blockscout.com/tx/0x2c437afee53bf8c417d4ba302ea92742616eecd648200e2e05285ae08ad9d017",
@@ -301,25 +391,13 @@
    "evidence": []
   }
  ],
- "score": 41,
- "band": "MODERATE",
+ "score": 23,
+ "band": "LOW",
  "coverage": {
-  "run": 11,
-  "unknown": 4
+  "run": 12,
+  "unknown": 3
  },
  "top_reasons": [
-  {
-   "id": "verify.source",
-   "group": "verify",
-   "title": "Source verified",
-   "status": "flag",
-   "points": 15,
-   "detail": "Not verified on Sourcify (HTTP 404 = no match). Blockscout: not verified.",
-   "evidence": [
-    "https://sourcify.dev/server/v2/contract/8453/0xf2034fcb75de8709a1b9464512740ac0e26d6e53",
-    "https://base.blockscout.com/address/0xf2034fcb75de8709a1b9464512740ac0e26d6e53?tab=contract"
-   ]
-  },
   {
    "id": "deployer.fresh",
    "group": "deployer",
@@ -330,7 +408,7 @@
    "evidence": [
     "https://base.blockscout.com/address/0x3b646acea9276b9104898cb39f69f2377f190bab",
     "https://base.blockscout.com/tx/0x2c437afee53bf8c417d4ba302ea92742616eecd648200e2e05285ae08ad9d017",
-    "eth_getTransactionCount(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52623339 = 3"
+    "eth_getTransactionCount(0x3b646acea9276b9104898cb39f69f2377f190bab) @ 52651232 = 3"
    ]
   },
   {
@@ -339,13 +417,22 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x3b646acea9276b9104898cb39f69f2377f190bab on Blockscout: block 52620202 (2026-10-15 02:02 UTC), 0.1 days before scan.",
+   "detail": "Oldest transaction of 0x3b646acea9276b9104898cb39f69f2377f190bab on Blockscout: block 52620202 (2026-10-15 02:02 UTC), 0.7 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0x3b646acea9276b9104898cb39f69f2377f190bab",
     "https://base.blockscout.com/tx/0x2c437afee53bf8c417d4ba302ea92742616eecd648200e2e05285ae08ad9d017",
     "https://base.blockscout.com/tx/0x6ab02a93b8105f6d1a1cb204cbc5d294fa59519e749c0be3cb659d17f9153966",
     "https://base.blockscout.com/api/v2/addresses/0x3b646acea9276b9104898cb39f69f2377f190bab/transactions?sort=block_number&order=asc"
    ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
   }
  ],
  "label": "UKFLMS-UK FINANCIAL MOONSHOT TOKEN",
@@ -362,5 +449,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T03:47:05Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

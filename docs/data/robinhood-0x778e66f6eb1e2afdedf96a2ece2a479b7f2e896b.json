@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
- "scanned_at_utc": "2026-10-15T02:50:18Z",
- "block": 88879544,
+ "scanned_at_utc": "2026-10-15T19:05:18Z",
+ "block": 89460973,
  "site": "https://sealslab.xyz",
  "post": "https://x.com/sealslab/status/2110425401541685338",
  "token": {},
@@ -15,8 +15,10 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "name": "SlabVault"
  },
+ "verification": "verified",
  "owner": "0x1ecef14ddd33ce14114af557d2b108438fe44efc",
  "creation": {
   "tx": "0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
@@ -78,7 +80,7 @@
    "points": 0,
    "detail": "23161 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 88879544",
+    "eth_getCode @ block 89460973",
     "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
    ]
   },
@@ -88,7 +90,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: exact_match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as SlabVault. Sourcify: exact_match; Blockscout: verified.",
    "evidence": [
     "https://repo.sourcify.dev/4663/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
     "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b?tab=contract"
@@ -102,7 +104,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88879544"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89460973"
    ]
   },
   {
@@ -113,7 +115,7 @@
    "points": 8,
    "detail": "owner() = 0x1ecef14ddd33ce14114af557d2b108438fe44efc, a plain wallet (no code): one key controls owner-only functions.",
    "evidence": [
-    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 88879544",
+    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 89460973",
     "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc"
    ]
   },
@@ -148,7 +150,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 0.8 days before scan.",
+   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 1.5 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc",
     "https://robinhoodchain.blockscout.com/tx/0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
@@ -174,7 +176,7 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "sealslab.xyz registered 2026-10-13 (1 days ago).",
+   "detail": "sealslab.xyz registered 2026-10-13 (2 days ago).",
    "evidence": [
     "https://rdap.org/domain/sealslab.xyz"
    ]
@@ -185,7 +187,7 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-14 (0.8 days before scan).",
+   "detail": "X account created 2026-10-14 (1.5 days before scan).",
    "evidence": [
     "https://x.com/sealslab/status/2110425401541685338"
    ]
@@ -218,7 +220,7 @@
    "points": 8,
    "detail": "owner() = 0x1ecef14ddd33ce14114af557d2b108438fe44efc, a plain wallet (no code): one key controls owner-only functions.",
    "evidence": [
-    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 88879544",
+    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 89460973",
     "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc"
    ]
   },
@@ -228,7 +230,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 0.8 days before scan.",
+   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 1.5 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc",
     "https://robinhoodchain.blockscout.com/tx/0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
@@ -245,5 +247,10 @@
   "post": "https://x.com/sealslab/status/2110425401541685338",
   "site": "https://sealslab.xyz",
   "x_created": "2026-10-14T07:30:10Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:50:18Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

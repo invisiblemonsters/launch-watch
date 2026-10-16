@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x71afda7628ba800ca2b74595b2bf0959c94ff7f7",
- "scanned_at_utc": "2026-10-15T14:11:31Z",
- "block": 89285729,
+ "scanned_at_utc": "2026-10-15T19:08:55Z",
+ "block": 89463130,
  "site": null,
  "post": null,
  "token": {
@@ -20,8 +20,11 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "partial": true,
+  "name": "virtualToken"
  },
+ "verification": "verified",
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
@@ -29,19 +32,51 @@
   "cannot_buy": "0",
   "can_take_back_ownership": "0",
   "creator_address": "0x3969c01AEFff8Cb4a0b931E7fe286bdc41792ccE",
-  "creator_balance": "8900000000",
-  "creator_percent": "1.000000",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "0.00360026",
+    "pair": "0xcb0cb73cb03fa13aba9cad1a01326796450725f0"
+   }
+  ],
   "external_call": "0",
   "hidden_owner": "0",
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
   "is_honeypot": "0",
-  "is_in_dex": "0",
+  "is_in_dex": "1",
   "is_mintable": "0",
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x2aC03e14Cfe755426DaAEe0a4994184Ce81482F8",
+    "tag": "",
+    "value": "0.003600258837630646",
+    "is_contract": 1,
+    "balance": "30.190472779931973281",
+    "percent": "1.000000",
+    "NFT_list": null,
+    "is_locked": 0
+   },
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "",
+    "value": "0.000000000000000000",
+    "is_contract": 0,
+    "balance": "0.000000000000001000",
+    "percent": "0.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   }
+  ],
+  "lp_total_supply": "30.190472779931973",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
@@ -116,6 +151,14 @@
    "status": 200
   },
   {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x2ac03e14cfe755426daaee0a4994184ce81482f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x2ac03e14cfe755426daaee0a4994184ce81482f8",
+   "status": 200
+  },
+  {
    "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3969c01aefff8cb4a0b931e7fe286bdc41792cce/transactions?sort=block_number&order=asc",
    "status": 200
   }
@@ -130,7 +173,7 @@
    "points": 0,
    "detail": "3553 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 89285729",
+    "eth_getCode @ block 89463130",
     "https://robinhoodchain.blockscout.com/address/0x71afda7628ba800ca2b74595b2bf0959c94ff7f7"
    ]
   },
@@ -140,7 +183,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as virtualToken. Sourcify: match; Blockscout: verified (partial match).",
    "evidence": [
     "https://repo.sourcify.dev/4663/0x71afda7628ba800ca2b74595b2bf0959c94ff7f7",
     "https://robinhoodchain.blockscout.com/address/0x71afda7628ba800ca2b74595b2bf0959c94ff7f7?tab=contract"
@@ -154,7 +197,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89285729"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89463130"
    ]
   },
   {
@@ -165,7 +208,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x71afda7628ba800ca2b74595b2bf0959c94ff7f7 owner() @ 89285729 -> revert/empty"
+    "eth_call 0x71afda7628ba800ca2b74595b2bf0959c94ff7f7 owner() @ 89463130 -> revert/empty"
    ]
   },
   {
@@ -176,7 +219,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 89285729",
+    "selector scan @ 89463130",
     "https://repo.sourcify.dev/4663/0x71afda7628ba800ca2b74595b2bf0959c94ff7f7"
    ]
   },
@@ -208,7 +251,7 @@
    "points": 0,
    "detail": "Launch wallet 0x3969c01aefff8cb4a0b931e7fe286bdc41792cce holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x3969c01aefff8cb4a0b931e7fe286bdc41792cce) @ 89285729",
+    "eth_call balanceOf(0x3969c01aefff8cb4a0b931e7fe286bdc41792cce) @ 89463130",
     "https://robinhoodchain.blockscout.com/address/0x3969c01aefff8cb4a0b931e7fe286bdc41792cce"
    ]
   },
@@ -242,10 +285,9 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "V2-style pair 0xcb0cb73cb03fa13aba9cad1a01326796450725f0: 0.0% of LP tokens burned (0x0/dead). Third-party lockers not checked.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "eth_call 0xcb0cb73cb03fa13aba9cad1a01326796450725f0 totalSupply()/balanceOf(dead) @ 89285729",
-    "https://robinhoodchain.blockscout.com/address/0xcb0cb73cb03fa13aba9cad1a01326796450725f0"
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x71afda7628ba800ca2b74595b2bf0959c94ff7f7"
    ]
   },
   {
@@ -267,7 +309,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x3969c01aefff8cb4a0b931e7fe286bdc41792cce on Blockscout: block 89275488 (2026-10-15 13:54 UTC), 0.0 days before scan.",
+   "detail": "Oldest transaction of 0x3969c01aefff8cb4a0b931e7fe286bdc41792cce on Blockscout: block 89275488 (2026-10-15 13:54 UTC), 0.2 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x3969c01aefff8cb4a0b931e7fe286bdc41792cce",
     "https://robinhoodchain.blockscout.com/tx/0xc8a7b4082e98d82baf306089e9b82bb2d80fa12979638e131fec3f06705c9647",
@@ -310,10 +352,9 @@
    "title": "LP lock / burn",
    "status": "flag",
    "points": 12,
-   "detail": "V2-style pair 0xcb0cb73cb03fa13aba9cad1a01326796450725f0: 0.0% of LP tokens burned (0x0/dead). Third-party lockers not checked.",
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "eth_call 0xcb0cb73cb03fa13aba9cad1a01326796450725f0 totalSupply()/balanceOf(dead) @ 89285729",
-    "https://robinhoodchain.blockscout.com/address/0xcb0cb73cb03fa13aba9cad1a01326796450725f0"
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x71afda7628ba800ca2b74595b2bf0959c94ff7f7"
    ]
   },
   {
@@ -343,5 +384,10 @@
    "geckoterminal:new_pools"
   ],
   "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T14:11:31Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

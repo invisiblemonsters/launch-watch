@@ -1,11 +1,11 @@
 {
  "tool": "Metatron Launch Watch",
- "version": "0.1.0",
+ "version": "0.2.0",
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xcDb4Ee224cA4Db25767fFad5B922f014A4905300",
- "scanned_at_utc": "2026-10-15T02:50:04Z",
- "block": 88879404,
+ "scanned_at_utc": "2026-10-15T19:06:34Z",
+ "block": 89461726,
  "site": "https://swardbow.world",
  "post": "https://x.com/swardbow/status/2110411560409780629",
  "token": {},
@@ -15,8 +15,10 @@
  },
  "blockscout": {
   "status": "verified",
-  "err": null
+  "err": null,
+  "name": "SheriffChest"
  },
+ "verification": "verified",
  "owner": "0xe78244b2da27b54835496076a7d907606f0e0244",
  "creation": {
   "tx": "0x4b80500ac34fe9cb0f5411fb4e8efa34986c61d18ac64a4dd640048f70342db1",
@@ -78,7 +80,7 @@
    "points": 0,
    "detail": "11645 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 88879404",
+    "eth_getCode @ block 89461726",
     "https://robinhoodchain.blockscout.com/address/0xcDb4Ee224cA4Db25767fFad5B922f014A4905300"
    ]
   },
@@ -88,7 +90,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Sourcify: exact_match; Blockscout: verified.",
+   "detail": "Verified on Sourcify and Blockscout as SheriffChest. Sourcify: exact_match; Blockscout: verified.",
    "evidence": [
     "https://repo.sourcify.dev/4663/0xcDb4Ee224cA4Db25767fFad5B922f014A4905300",
     "https://robinhoodchain.blockscout.com/address/0xcDb4Ee224cA4Db25767fFad5B922f014A4905300?tab=contract"
@@ -102,7 +104,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 88879404"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89461726"
    ]
   },
   {
@@ -113,7 +115,7 @@
    "points": 8,
    "detail": "owner() = 0xe78244b2da27b54835496076a7d907606f0e0244, a plain wallet (no code): one key controls owner-only functions.",
    "evidence": [
-    "eth_call 0xcdb4ee224ca4db25767ffad5b922f014a4905300 owner() @ 88879404",
+    "eth_call 0xcdb4ee224ca4db25767ffad5b922f014a4905300 owner() @ 89461726",
     "https://robinhoodchain.blockscout.com/address/0xe78244b2da27b54835496076a7d907606f0e0244"
    ]
   },
@@ -139,7 +141,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xe78244b2da27b54835496076a7d907606f0e0244",
     "https://robinhoodchain.blockscout.com/tx/0x4b80500ac34fe9cb0f5411fb4e8efa34986c61d18ac64a4dd640048f70342db1",
-    "eth_getTransactionCount(0xe78244b2da27b54835496076a7d907606f0e0244) @ 88879404 = 1"
+    "eth_getTransactionCount(0xe78244b2da27b54835496076a7d907606f0e0244) @ 89461726 = 1"
    ]
   },
   {
@@ -161,7 +163,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0xe78244b2da27b54835496076a7d907606f0e0244 on Blockscout: block 88293887 (2026-10-14 10:26 UTC), 0.7 days before scan.",
+   "detail": "Oldest transaction of 0xe78244b2da27b54835496076a7d907606f0e0244 on Blockscout: block 88293887 (2026-10-14 10:26 UTC), 1.4 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xe78244b2da27b54835496076a7d907606f0e0244",
     "https://robinhoodchain.blockscout.com/tx/0x4b80500ac34fe9cb0f5411fb4e8efa34986c61d18ac64a4dd640048f70342db1",
@@ -198,7 +200,7 @@
    "title": "Launch X account age",
    "status": "flag",
    "points": 4,
-   "detail": "X account created 2026-10-14 (0.8 days before scan).",
+   "detail": "X account created 2026-10-14 (1.4 days before scan).",
    "evidence": [
     "https://x.com/swardbow/status/2110411560409780629"
    ]
@@ -233,7 +235,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xe78244b2da27b54835496076a7d907606f0e0244",
     "https://robinhoodchain.blockscout.com/tx/0x4b80500ac34fe9cb0f5411fb4e8efa34986c61d18ac64a4dd640048f70342db1",
-    "eth_getTransactionCount(0xe78244b2da27b54835496076a7d907606f0e0244) @ 88879404 = 1"
+    "eth_getTransactionCount(0xe78244b2da27b54835496076a7d907606f0e0244) @ 89461726 = 1"
    ]
   },
   {
@@ -244,7 +246,7 @@
    "points": 8,
    "detail": "owner() = 0xe78244b2da27b54835496076a7d907606f0e0244, a plain wallet (no code): one key controls owner-only functions.",
    "evidence": [
-    "eth_call 0xcdb4ee224ca4db25767ffad5b922f014a4905300 owner() @ 88879404",
+    "eth_call 0xcdb4ee224ca4db25767ffad5b922f014a4905300 owner() @ 89461726",
     "https://robinhoodchain.blockscout.com/address/0xe78244b2da27b54835496076a7d907606f0e0244"
    ]
   }
@@ -257,5 +259,10 @@
   "post": "https://x.com/swardbow/status/2110411560409780629",
   "site": "https://swardbow.world",
   "x_created": "2026-10-14T08:34:34Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:50:04Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
  }
 }

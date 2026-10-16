@@ -1,0 +1,379 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+ "scanned_at_utc": "2026-10-16T04:51:32Z",
+ "block": 52668472,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Polar Bear Dog",
+  "symbol": "TOSHI",
+  "decimals": 18,
+  "totalSupply": 9400000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "SWELL"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+  "creator_balance": "9400000000",
+  "creator_percent": "1.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Polar Bear Dog",
+  "token_symbol": "TOSHI",
+  "total_supply": "9400000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+  "block": 52668342,
+  "deployer": "0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+  "tx_from": "0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+  "tx_to": null,
+  "ts": 1792126031
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 74198.27,
+  "geckoterminal_top_usd": 74636.5438
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x4083472E63FfdD1aD9A1f5085d4647B5e0B7538B",
+   "liq_usd": 74198.27,
+   "created": 1792126043000,
+   "url": "https://dexscreener.com/base/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [
+  "0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b/holders",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xfa975feaa45ea433f61d4cfaedcabe62290b998f/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3553 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52668472",
+    "https://base.blockscout.com/address/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as $BaseMozz. Sourcify: match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+    "https://base.blockscout.com/address/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52668472"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef owner() @ 52668472 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52668472",
+    "https://repo.sourcify.dev/8453/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xfa975feaa45ea433f61d4cfaedcabe62290b998f holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xfa975feaa45ea433f61d4cfaedcabe62290b998f) @ 52668472",
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef/holders",
+    "https://base.blockscout.com/token/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $74,198 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "V2-style pair 0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b: 0.0% of LP tokens burned (0x0/dead), no verified locker contract among the top LP holders.",
+   "evidence": [
+    "eth_call 0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b totalSupply()/balanceOf(dead) @ 52668472",
+    "https://base.blockscout.com/address/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b",
+    "https://base.blockscout.com/api/v2/tokens/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b/holders"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xfa975feaa45ea433f61d4cfaedcabe62290b998f has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+    "https://base.blockscout.com/tx/0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+    "eth_getTransactionCount(0xfa975feaa45ea433f61d4cfaedcabe62290b998f) @ 52668472 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0xfa975feaa45ea433f61d4cfaedcabe62290b998f (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+    "https://base.blockscout.com/tx/0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+    "https://base.blockscout.com/address/0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xfa975feaa45ea433f61d4cfaedcabe62290b998f on Blockscout: block 52668336 (2026-10-16 04:46 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+    "https://base.blockscout.com/tx/0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+    "https://base.blockscout.com/tx/0x5768aaff97b995b5fa274c36e0a112aee70effd7a6318f70977baa1224afb80f",
+    "https://base.blockscout.com/api/v2/addresses/0xfa975feaa45ea433f61d4cfaedcabe62290b998f/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "V2-style pair 0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b: 0.0% of LP tokens burned (0x0/dead), no verified locker contract among the top LP holders.",
+   "evidence": [
+    "eth_call 0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b totalSupply()/balanceOf(dead) @ 52668472",
+    "https://base.blockscout.com/address/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b",
+    "https://base.blockscout.com/api/v2/tokens/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b/holders"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xfa975feaa45ea433f61d4cfaedcabe62290b998f has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+    "https://base.blockscout.com/tx/0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+    "eth_getTransactionCount(0xfa975feaa45ea433f61d4cfaedcabe62290b998f) @ 52668472 = 4"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xfa975feaa45ea433f61d4cfaedcabe62290b998f on Blockscout: block 52668336 (2026-10-16 04:46 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xfa975feaa45ea433f61d4cfaedcabe62290b998f",
+    "https://base.blockscout.com/tx/0x204d2f7cea3f1eada89b4c7ff65869eb57198a445b258fa103f84effe493899d",
+    "https://base.blockscout.com/tx/0x5768aaff97b995b5fa274c36e0a112aee70effd7a6318f70977baa1224afb80f",
+    "https://base.blockscout.com/api/v2/addresses/0xfa975feaa45ea433f61d4cfaedcabe62290b998f/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Polar Bear Dog",
+ "target": {
+  "chain": "base",
+  "address": "0xe503db90bb6b6d44a4016e6b2c234d3cd00f55ef",
+  "name": "Polar Bear Dog",
+  "symbol": "TOSHI",
+  "created_at": "2026-10-16T04:47:23Z",
+  "dex": "uniswap-v2-base",
+  "liq_usd": 73756.6655,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x4083472e63ffdd1ad9a1f5085d4647b5e0b7538b",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

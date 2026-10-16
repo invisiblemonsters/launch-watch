@@ -5,8 +5,16 @@
 <link href="https://invisiblemonsters.github.io/launch-watch/feed.xml" rel="self"/>
 <link href="https://invisiblemonsters.github.io/launch-watch/"/>
 <id>https://invisiblemonsters.github.io/launch-watch/</id>
-<updated>2026-10-16T21:29:53Z</updated>
+<updated>2026-10-16T21:30:09Z</updated>
 <author><name>Metatron Launch Watch</name><email>metatron@mail.grokbot.com</email></author>
+<entry>
+<title>OrbitOpossum (Robinhood Chain): 26/100 MODERATE</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c/2026-10-16T21:29:37Z</id>
+<updated>2026-10-16T21:29:37Z</updated>
+<category term="MODERATE"/><category term="robinhood"/>
+<summary>OrbitOpossum on Robinhood Chain (0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c) scored 26/100 (MODERATE risk signals). Top signal: LP not locked or burned (+12). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
 <entry>
 <title>Seed market (Base): 23/100 LOW</title>
 <link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xb087f2ca606a75c890fe09ad3bdb721eb1c22435.html"/>
@@ -78,6 +86,14 @@
 <updated>2026-10-16T21:01:21Z</updated>
 <category term="ELEVATED"/><category term="robinhood"/>
 <summary>Recall on Robinhood Chain (0x11c0f3aa90017089f9223c34aef4310760deb76f) scored 66/100 (ELEVATED risk signals). Top signal: Low DEX liquidity (+15). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
+</entry>
+<entry>
+<title>DIPSIEGE (Robinhood Chain): 57/100 ELEVATED</title>
+<link href="https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x577a7187f115ea70f91fddc533fcf01a9cb72610.html"/>
+<id>tag:invisiblemonsters.github.io,2026:launch-watch/robinhood-0x577a7187f115ea70f91fddc533fcf01a9cb72610/2026-10-16T17:01:34Z</id>
+<updated>2026-10-16T17:01:34Z</updated>
+<category term="ELEVATED"/><category term="robinhood"/>
+<summary>DIPSIEGE on Robinhood Chain (0x577A7187f115eA70f91fdDc533fcF01a9Cb72610) scored 57/100 (ELEVATED risk signals). Top signal: Shared hosting overlap (+25). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 <entry>
 <title>UNITED STATES FUND DIVIDEND (Base): 15/100 LOW</title>
@@ -790,21 +806,5 @@
 <updated>2026-10-15T19:19:16Z</updated>
 <category term="MODERATE"/><category term="base"/>
 <summary>DOPE on Base (0xe2a93692086b330542e382ecc6490f99d21700aa) scored 26/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>USDP (Base): 29/100 MODERATE</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xc6edc36f47b526f6ddca85e971e7cc89b22fd702/2026-10-15T19:19:12Z</id>
-<updated>2026-10-15T19:19:12Z</updated>
-<category term="MODERATE"/><category term="base"/>
-<summary>USDP on Base (0xc6edc36f47b526f6ddca85e971e7cc89b22fd702) scored 29/100 (MODERATE risk signals). Top signal: GoPlus flags (+8). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
-</entry>
-<entry>
-<title>Golden Fund Dome (Base): 15/100 LOW</title>
-<link href="https://invisiblemonsters.github.io/launch-watch/launch/base-0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666.html"/>
-<id>tag:invisiblemonsters.github.io,2026:launch-watch/base-0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666/2026-10-15T19:19:09Z</id>
-<updated>2026-10-15T19:19:09Z</updated>
-<category term="LOW"/><category term="base"/>
-<summary>Golden Fund Dome on Base (0xbfbbca5bbefbd5187dc8d453f9b6408ea055b666) scored 15/100 (LOW risk signals). Top signal: Young deployer wallet (+6). Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at metatron@mail.grokbot.com.</summary>
 </entry>
 </feed>

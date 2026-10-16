@@ -1,0 +1,243 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+ "scanned_at_utc": "2026-10-16T17:01:34Z",
+ "block": 90240603,
+ "site": "https://dipsiege.fun",
+ "post": "https://x.com/playdipsiege/status/2111045739337884068",
+ "token": {},
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "owner": "0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+ "creation": {
+  "tx": "0x7c23a4c71abaf9ad21a0ade5cfaf5bc32cb9dd982452b57f60fafa0f010d7d40",
+  "block": 89111392,
+  "deployer": "0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+  "tx_from": "0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+  "tx_to": null,
+  "ts": 1792055907
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 1,
+ "deployer_contracts": [
+  "0x577a7187f115ea70f91fddc533fcf01a9cb72610"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x577a7187f115ea70f91fddc533fcf01a9cb72610"
+ ],
+ "site_ips": [
+  "187.127.98.242"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x11f28ceee4fbdc2a49943788becc65fb97d47952/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=dipsiege.fun&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/dipsiege.fun",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "15233 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 90240603",
+    "https://robinhoodchain.blockscout.com/address/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify as SiegeVault. Sourcify: exact_match; Blockscout: not verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+    "https://robinhoodchain.blockscout.com/address/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 90240603"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x11f28ceee4fbdc2a49943788becc65fb97d47952, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x577a7187f115ea70f91fddc533fcf01a9cb72610 owner() @ 90240603",
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdrawInfra(address) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+    "https://robinhoodchain.blockscout.com/address/0x577A7187f115eA70f91fdDc533fcF01a9Cb72610"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x11f28ceee4fbdc2a49943788becc65fb97d47952 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+    "https://robinhoodchain.blockscout.com/tx/0x7c23a4c71abaf9ad21a0ade5cfaf5bc32cb9dd982452b57f60fafa0f010d7d40",
+    "eth_getTransactionCount(0x11f28ceee4fbdc2a49943788becc65fb97d47952) @ 90240603 = 1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x11f28ceee4fbdc2a49943788becc65fb97d47952 (CREATE nonce scan 0..0); tokens launched via factories are not counted. Wallet nonce = 1.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+    "https://robinhoodchain.blockscout.com/tx/0x7c23a4c71abaf9ad21a0ade5cfaf5bc32cb9dd982452b57f60fafa0f010d7d40",
+    "https://robinhoodchain.blockscout.com/address/0x577a7187f115ea70f91fddc533fcf01a9cb72610"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x11f28ceee4fbdc2a49943788becc65fb97d47952 on Blockscout: block 89040519 (2026-10-15 07:19 UTC), 1.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+    "https://robinhoodchain.blockscout.com/tx/0x7c23a4c71abaf9ad21a0ade5cfaf5bc32cb9dd982452b57f60fafa0f010d7d40",
+    "https://robinhoodchain.blockscout.com/tx/0xa1c6f8414268bae4dec8eb4ddfcf473765592dcb5161e9603c7f9dd394982273",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x11f28ceee4fbdc2a49943788becc65fb97d47952/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "flag",
+   "points": 25,
+   "detail": "At scan time dipsiege.fun resolved to 187.127.98.242, a single server (Hostinger, AS47583). 7 other project sites on the Launch Watch hosting watchlist resolved to the same IP: Sluicebox, Dripyard, Pawnhood, Hoptrail, Sealslab, Swardbow, Markup Machine. Shared hosting is common; this is an infrastructure overlap, not evidence of common ownership or wrongdoing.",
+   "evidence": [
+    "https://dns.google/resolve?name=dipsiege.fun&type=A",
+    "https://ipinfo.io/187.127.98.242"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "dipsiege.fun registered 2026-10-15 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/dipsiege.fun"
+   ]
+  }
+ ],
+ "score": 57,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 10,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "flag",
+   "points": 25,
+   "detail": "At scan time dipsiege.fun resolved to 187.127.98.242, a single server (Hostinger, AS47583). 7 other project sites on the Launch Watch hosting watchlist resolved to the same IP: Sluicebox, Dripyard, Pawnhood, Hoptrail, Sealslab, Swardbow, Markup Machine. Shared hosting is common; this is an infrastructure overlap, not evidence of common ownership or wrongdoing.",
+   "evidence": [
+    "https://dns.google/resolve?name=dipsiege.fun&type=A",
+    "https://ipinfo.io/187.127.98.242"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x11f28ceee4fbdc2a49943788becc65fb97d47952 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952",
+    "https://robinhoodchain.blockscout.com/tx/0x7c23a4c71abaf9ad21a0ade5cfaf5bc32cb9dd982452b57f60fafa0f010d7d40",
+    "eth_getTransactionCount(0x11f28ceee4fbdc2a49943788becc65fb97d47952) @ 90240603 = 1"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x11f28ceee4fbdc2a49943788becc65fb97d47952, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x577a7187f115ea70f91fddc533fcf01a9cb72610 owner() @ 90240603",
+    "https://robinhoodchain.blockscout.com/address/0x11f28ceee4fbdc2a49943788becc65fb97d47952"
+   ]
+  }
+ ],
+ "label": "DIPSIEGE"
+}

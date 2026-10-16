@@ -1,6 +1,17 @@
 {
- "generated_utc": "2026-10-16T21:29:53+00:00",
+ "generated_utc": "2026-10-16T21:30:09+00:00",
  "launches": [
+  {
+   "chain": "robinhood",
+   "address": "0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+   "name": "OrbitOpossum",
+   "score": 26,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T21:29:37Z",
+   "created_ts": 1792152545,
+   "page": "launch/robinhood-0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c.html"
+  },
   {
    "chain": "base",
    "address": "0xb087f2ca606a75c890fe09ad3bdb721eb1c22435",
@@ -99,6 +110,17 @@
    "scanned_at_utc": "2026-10-16T21:01:21Z",
    "created_ts": 1791849755,
    "page": "launch/robinhood-0x11c0f3aa90017089f9223c34aef4310760deb76f.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x577A7187f115eA70f91fdDc533fcF01a9Cb72610",
+   "name": "DIPSIEGE",
+   "score": 57,
+   "band": "ELEVATED",
+   "top_reason": "Shared hosting overlap",
+   "scanned_at_utc": "2026-10-16T17:01:34Z",
+   "created_ts": 1792055907,
+   "page": "launch/robinhood-0x577a7187f115ea70f91fddc533fcf01a9cb72610.html"
   },
   {
    "chain": "base",

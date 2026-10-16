@@ -1,0 +1,533 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+ "scanned_at_utc": "2026-10-16T21:29:37Z",
+ "block": 90400124,
+ "site": "https://www.orbitopossum.cam/",
+ "post": null,
+ "token": {
+  "name": "OrbitOpossum",
+  "symbol": "OPOSS",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "Token"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0xfe8cC5fD6a8Ede4D9EcAb117A54E373A9c21f495",
+  "creator_balance": "0.000000000000027422",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "166378.94183622104177150370",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.003",
+    "pair": "0xcdc8430fc758ff94d153eb304797f8c373337992d6617ab2d02f1d0ef205b0da"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "41.6575750",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0x80f26d2a1cb9b08d2453463766a5cf10c84ff61f313f2fb52cbee79655eb8f47"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "34.5033980",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.501",
+    "pair": "0x57cbc3341d60dec594c1c48e40c4f9bca4d3a2bbbe35e17d68f93eee4d490f3f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "9.4324160",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.12",
+    "pair": "0x684682c27e8fcfc1484e88fb458cf789fa5d2a49684584a0a738d255b677127a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "4.2525560",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.801",
+    "pair": "0x0da22553e7b5a434855887c23cf9e4456fef43c328ccb541687a03bbe7216eba"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.4904650",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x07b42e1150d40213867e026be3f1450ff3dc9df65f408aa4ff7e6139ae2f3e1d"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.7574670",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.0999",
+    "pair": "0x22d2b115ad0735697d66cb9d1f00b28190846dfd7aebd68d04415bf752c2867e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.47445646184533824804",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x3dbf31d172ad3471375f2d233ca56b507a1045b45b45f88e1bdabb441c72fe5a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4638250",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0xe9b5848410e22ed100dbd08058d5dab11864cef911f0527bd38d48936279b365"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4185820",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.65",
+    "pair": "0x5ecf7c6ecdbf69ceb3f90f6dceb6a45f32ba8edbae9dda00faada29717f8c06e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.3960610",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.500001",
+    "pair": "0x564ea82f473d493c6b2053cfde15e46c2089e70ac2eaa096f3f41465473cbb78"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.17396689845209416312",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.85",
+    "pair": "0x20e4dc7ba3245b6d87237e0d6b111ef4e85b89e8c79fcbb73b37e2fb513b17e9"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0349365331907606496",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x8303073edc783ce6292e65946c40f88c77ea7169b471c3f909ca558418144e89"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+    "tag": "",
+    "value": "172013.06347196029394658924",
+    "is_contract": 0,
+    "balance": "1005514.978423698583474573",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "172013.06347196029394658924",
+      "NFT_id": "3853291",
+      "amount": "1005514.978423698583474573",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "1005514.9784236986",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "OrbitOpossum",
+  "token_symbol": "OPOSS",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x7b49046a17f5ed2bdb9ee5d7b2c529cc1f9d20da7b7b7c1fe39dd24b8385bc37",
+  "block": 90066690,
+  "deployer": "0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+  "source": "Blockscout address creator",
+  "tx_from": "0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+  "tx_to": null,
+  "ts": 1792152545
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 355371.74,
+  "geckoterminal_top_usd": 171379.6404
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xcdc8430fc758ff94d153eb304797f8c373337992d6617ab2d02f1d0ef205b0da",
+   "liq_usd": 355371.74,
+   "created": 1792154442000,
+   "url": "https://dexscreener.com/robinhood/0xcdc8430fc758ff94d153eb304797f8c373337992d6617ab2d02f1d0ef205b0da",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x80f26d2a1cb9b08d2453463766a5cf10c84ff61f313f2fb52cbee79655eb8f47",
+   "liq_usd": 997.71,
+   "created": 1792158319000,
+   "url": "https://dexscreener.com/robinhood/0x80f26d2a1cb9b08d2453463766a5cf10c84ff61f313f2fb52cbee79655eb8f47",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x57cbc3341d60dec594c1c48e40c4f9bca4d3a2bbbe35e17d68f93eee4d490f3f",
+   "liq_usd": 703.81,
+   "created": 1792156701000,
+   "url": "https://dexscreener.com/robinhood/0x57cbc3341d60dec594c1c48e40c4f9bca4d3a2bbbe35e17d68f93eee4d490f3f",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x07b42e1150d40213867e026be3f1450ff3dc9df65f408aa4ff7e6139ae2f3e1d",
+   "liq_usd": 349.39,
+   "created": 1792180286000,
+   "url": "https://dexscreener.com/robinhood/0x07b42e1150d40213867e026be3f1450ff3dc9df65f408aa4ff7e6139ae2f3e1d",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x684682c27e8fcfc1484e88fb458cf789fa5d2a49684584a0a738d255b677127a",
+   "liq_usd": 30.63,
+   "created": 1792159699000,
+   "url": "https://dexscreener.com/robinhood/0x684682c27e8fcfc1484e88fb458cf789fa5d2a49684584a0a738d255b677127a",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 12,
+ "deployer_contracts": [
+  "0x011782e5534fa001ee755621afdfe5411f724a3c",
+  "0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x011782e5534fa001ee755621afdfe5411f724a3c",
+  "0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+ ],
+ "site_ips": [
+  "104.21.36.75",
+  "172.67.190.97"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.orbitopossum.cam&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/orbitopossum.cam",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1764 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 90400124",
+    "https://robinhoodchain.blockscout.com/address/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as Token. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 90400124"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c owner() @ 90400124 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 90400124",
+    "https://robinhoodchain.blockscout.com/address/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495) @ 90400124",
+    "https://robinhoodchain.blockscout.com/address/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 4.47% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c/holders",
+    "https://robinhoodchain.blockscout.com/token/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $355,372 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xcdc8430fc758ff94d153eb304797f8c373337992d6617ab2d02f1d0ef205b0da",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495 (CREATE nonce scan 0..11); tokens launched via factories are not counted. Wallet nonce = 12.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+    "https://robinhoodchain.blockscout.com/tx/0x7b49046a17f5ed2bdb9ee5d7b2c529cc1f9d20da7b7b7c1fe39dd24b8385bc37",
+    "https://robinhoodchain.blockscout.com/address/0x011782e5534fa001ee755621afdfe5411f724a3c",
+    "https://robinhoodchain.blockscout.com/address/0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495 on Blockscout: block 90065990 (2026-10-16 12:07 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+    "https://robinhoodchain.blockscout.com/tx/0x7b49046a17f5ed2bdb9ee5d7b2c529cc1f9d20da7b7b7c1fe39dd24b8385bc37",
+    "https://robinhoodchain.blockscout.com/tx/0x7802cad86aa640d3bc98659e5657ac9dc1b51081892dabb22194e7d9fa138e3c",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.orbitopossum.cam -> 104.21.36.75, 172.67.190.97 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.orbitopossum.cam&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "orbitopossum.cam registered 2026-10-15 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/orbitopossum.cam"
+   ]
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495 on Blockscout: block 90065990 (2026-10-16 12:07 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495",
+    "https://robinhoodchain.blockscout.com/tx/0x7b49046a17f5ed2bdb9ee5d7b2c529cc1f9d20da7b7b7c1fe39dd24b8385bc37",
+    "https://robinhoodchain.blockscout.com/tx/0x7802cad86aa640d3bc98659e5657ac9dc1b51081892dabb22194e7d9fa138e3c",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfe8cc5fd6a8ede4d9ecab117a54e373a9c21f495/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "orbitopossum.cam registered 2026-10-15 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/orbitopossum.cam"
+   ]
+  }
+ ],
+ "label": "OrbitOpossum",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x1ceda8cd4ee1bb32d85c62ecb91ed4fb189c157c",
+  "name": "OrbitOpossum",
+  "symbol": "OPOSS",
+  "created_at": "2026-10-16T19:51:26Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 85147.4067,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x07b42e1150d40213867e026be3f1450ff3dc9df65f408aa4ff7e6139ae2f3e1d",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

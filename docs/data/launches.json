@@ -1,6 +1,171 @@
 {
- "generated_utc": "2026-10-16T00:58:30+00:00",
+ "generated_utc": "2026-10-16T01:30:03+00:00",
  "launches": [
+  {
+   "chain": "base",
+   "address": "0xa898e8757253b3cccd7c388a6ba992682028793d",
+   "name": "Ansem",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:05:09Z",
+   "created_ts": 1792110763,
+   "page": "launch/base-0xa898e8757253b3cccd7c388a6ba992682028793d.html"
+  },
+  {
+   "chain": "base",
+   "address": "0xb011b062541d9e8b021b8b322ee9258f1a58d40b",
+   "name": "OIl Institution Fund(IOF) ",
+   "score": 12,
+   "band": "LOW",
+   "top_reason": "Holder data unavailable",
+   "scanned_at_utc": "2026-10-16T01:05:02Z",
+   "created_ts": 1792110393,
+   "page": "launch/base-0xb011b062541d9e8b021b8b322ee9258f1a58d40b.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x819089cebaa95135b3b31cb65fbbe0aac4d19212",
+   "name": "Claudia",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:04:54Z",
+   "created_ts": 1792111977,
+   "page": "launch/robinhood-0x819089cebaa95135b3b31cb65fbbe0aac4d19212.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xd93628bcc837fad64cd5e75721ed11f51b409570",
+   "name": "Sword Inu",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:04:45Z",
+   "created_ts": 1792112266,
+   "page": "launch/robinhood-0xd93628bcc837fad64cd5e75721ed11f51b409570.html"
+  },
+  {
+   "chain": "base",
+   "address": "0xdc1744f289a2de5c0b3db40362d89840410b4ab1",
+   "name": "National Oil Dividend Fund (NODF)",
+   "score": 26,
+   "band": "MODERATE",
+   "top_reason": "Fresh deployer wallet",
+   "scanned_at_utc": "2026-10-16T01:04:09Z",
+   "created_ts": 1792110005,
+   "page": "launch/base-0xdc1744f289a2de5c0b3db40362d89840410b4ab1.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x6322aef5d77bd5aaea1cf50642b9a2980fc8c317",
+   "name": "Dacity Coin",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:03:58Z",
+   "created_ts": 1792112219,
+   "page": "launch/robinhood-0x6322aef5d77bd5aaea1cf50642b9a2980fc8c317.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x8403660bd8bfce88a5f246f5f2f826c3f5615859",
+   "name": "Poppin bottles in the clerb",
+   "score": 11,
+   "band": "LOW",
+   "top_reason": "withdraw/rescue function present",
+   "scanned_at_utc": "2026-10-16T01:03:50Z",
+   "created_ts": 1741616417,
+   "page": "launch/base-0x8403660bd8bfce88a5f246f5f2f826c3f5615859.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x9c1450eb79317fba40772e7db5911a3f4be2ff88",
+   "name": "Blockchain USD",
+   "score": 35,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:03:45Z",
+   "created_ts": 1792107927,
+   "page": "launch/base-0x9c1450eb79317fba40772e7db5911a3f4be2ff88.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x8335b9e615c30ea3f1f75064bd69cb35f9c32913",
+   "name": "Circle USD",
+   "score": 69,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-16T01:03:39Z",
+   "created_ts": 1792108499,
+   "page": "launch/base-0x8335b9e615c30ea3f1f75064bd69cb35f9c32913.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+   "name": "EVRITHNG",
+   "score": 48,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:03:32Z",
+   "created_ts": 1792094999,
+   "page": "launch/robinhood-0xeee3217f7741fa3898fb0174f0ffd06936fc7985.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x3d8aa76bbfe48fb6e665b547f18eb4aa546b068c",
+   "name": "Flying Tesla Roadster",
+   "score": 25,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:02:54Z",
+   "created_ts": 1788086840,
+   "page": "launch/robinhood-0x3d8aa76bbfe48fb6e665b547f18eb4aa546b068c.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x5af95dbbd35ec1882d11d1d639b48aebac477501",
+   "name": "SUPERMUSE",
+   "score": 37,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:02:48Z",
+   "created_ts": 1792106990,
+   "page": "launch/robinhood-0x5af95dbbd35ec1882d11d1d639b48aebac477501.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+   "name": "Shroud",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-16T01:02:42Z",
+   "created_ts": 1792108952,
+   "page": "launch/robinhood-0xc56b6cf328aedffced77ac224f9e633a03c0429f.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xca0c66ba9979c66477bb5c61aa0d91a5e8ca31be",
+   "name": "Jeetie",
+   "score": 36,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:02:36Z",
+   "created_ts": 1792104286,
+   "page": "launch/robinhood-0xca0c66ba9979c66477bb5c61aa0d91a5e8ca31be.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x9b7118b14195113953afd9a7ec1ffb91d813a67c",
+   "name": "Flying Tesla Roadster",
+   "score": 34,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-16T01:02:27Z",
+   "created_ts": 1792108173,
+   "page": "launch/robinhood-0x9b7118b14195113953afd9a7ec1ffb91d813a67c.html"
+  },
   {
    "chain": "robinhood",
    "address": "0xa11392cd36aede32e72f28a885eb20563d3160bc",

@@ -1,0 +1,442 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+ "scanned_at_utc": "2026-10-16T01:03:32Z",
+ "block": 89673325,
+ "site": "https://evrithng.app/",
+ "post": null,
+ "token": {
+  "name": "EVRITHNG",
+  "symbol": "EVRI",
+  "decimals": 18,
+  "totalSupply": 20994428330393118850314477
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "TaxToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x9B2BE4174c03f3019140d006c7194312A605d591",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "16426.65526732",
+    "pair": "0x6010fe829c317bee4b02d0c9b0b39d0715194ed1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "6.911263177446",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.55",
+    "pair": "0x39c59b69bcf64ae50732ff55b84d363c071db73df107fe510356e7ba52931ef8"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.778210443564",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.88",
+    "pair": "0x3e669e9309f4a977b00eaabb766b07ac7757f9409131ffd9776b88daadfc7fd3"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.839361321274",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.60711",
+    "pair": "0x797af276ab2f00ee310e340ecbc3a3d62042c946473de0b83e13d4f986b4fd13"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "",
+    "value": "0.000000000000002557",
+    "is_contract": 0,
+    "balance": "0.000000000000001000",
+    "percent": "0.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   }
+  ],
+  "lp_total_supply": "6424.721025200967",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "1",
+  "token_name": "EVRITHNG",
+  "token_symbol": "EVRI",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x9085857f311f47697501b68f8c1cca223889d8f60ad7e9a991634684ea9e40bd",
+  "block": 89499529,
+  "deployer": "0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x9b2be4174c03f3019140d006c7194312a605d591",
+  "tx_from": "0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b",
+  "tx_to": "0xba5ed099633d3b313e4d5f7bdc1305d3c28ba5ed",
+  "ts": 1792094999
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 32747.17,
+  "geckoterminal_top_usd": 32748.8359
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x6010fE829c317bee4b02d0C9B0B39D0715194eD1",
+   "liq_usd": 32747.17,
+   "created": 1792094999000,
+   "url": "https://dexscreener.com/robinhood/0x6010fe829c317bee4b02d0c9b0b39d0715194ed1",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x3e669e9309f4a977b00eaabb766b07ac7757f9409131ffd9776b88daadfc7fd3",
+   "liq_usd": 3.62,
+   "created": 1792100566000,
+   "url": "https://dexscreener.com/robinhood/0x3e669e9309f4a977b00eaabb766b07ac7757f9409131ffd9776b88daadfc7fd3",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 14,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.24.57.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xeee3217f7741fa3898fb0174f0ffd06936fc7985/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xeee3217f7741fa3898fb0174f0ffd06936fc7985/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=evrithng.app&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/evrithng.app",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "8671 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89673325",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as TaxToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89673325"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xeee3217f7741fa3898fb0174f0ffd06936fc7985 owner() @ 89673325 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.fee_setter",
+   "group": "fn",
+   "title": "fee/tax/limit setter function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found fee/tax/limit setter function(s): setTax(uint256) 0x2e5bb6ff [runtime bytecode], setTax(uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "fn.trading_switch",
+   "group": "fn",
+   "title": "trading on/off switch function present",
+   "status": "flag",
+   "points": 6.0,
+   "detail": "Found trading on/off switch function(s): openTrading() 0xc9567bf9 [runtime bytecode], openTrading() [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): sweep(address) 0x01681a62 [runtime bytecode], sweep(address) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: slippage_modifiable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b holds 1.85% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b) @ 89673325",
+    "https://robinhoodchain.blockscout.com/address/0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 8.15% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xeee3217f7741fa3898fb0174f0ffd06936fc7985/holders",
+    "https://robinhoodchain.blockscout.com/token/0xeee3217f7741fa3898fb0174f0ffd06936fc7985?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $32,747 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x6010fe829c317bee4b02d0c9b0b39d0715194ed1",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b (CREATE nonce scan 0..13); tokens launched via factories are not counted. Wallet nonce = 14.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b",
+    "https://robinhoodchain.blockscout.com/tx/0x9085857f311f47697501b68f8c1cca223889d8f60ad7e9a991634684ea9e40bd"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b on Blockscout: block 89499529 (2026-10-15 20:09 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b",
+    "https://robinhoodchain.blockscout.com/tx/0x9085857f311f47697501b68f8c1cca223889d8f60ad7e9a991634684ea9e40bd",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5da60098a1917cb4a0aaa547d2f8f1ad2c18d66b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "evrithng.app -> 216.24.57.1; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=evrithng.app&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "evrithng.app registered 2026-08-31 (45 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/evrithng.app"
+   ]
+  }
+ ],
+ "score": 48,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 16,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "fn.fee_setter",
+   "group": "fn",
+   "title": "fee/tax/limit setter function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found fee/tax/limit setter function(s): setTax(uint256) 0x2e5bb6ff [runtime bytecode], setTax(uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+    "https://robinhoodchain.blockscout.com/address/0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: slippage_modifiable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeee3217f7741fa3898fb0174f0ffd06936fc7985"
+   ]
+  }
+ ],
+ "label": "EVRITHNG",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+  "site": "https://evrithng.app/",
+  "x_profile": "https://x.com/EvrithngApp",
+  "pool_url": "https://dexscreener.com/robinhood/0xeee3217f7741fa3898fb0174f0ffd06936fc7985",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

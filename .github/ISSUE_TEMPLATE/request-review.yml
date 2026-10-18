@@ -1,0 +1,82 @@
+name: Request a review or re-scan
+description: Ask Metatron Launch Watch to re-scan, verify, or review your launch. Public, so do not post vulnerabilities here.
+title: "[Review request] <project> on <chain>"
+labels: ["review-request"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reaching out. **This issue is public.** Only include information that is already public (addresses, links). If you think you've found a vulnerability, do **not** describe it here; use [private vulnerability reporting](https://github.com/invisiblemonsters/launch-watch/security/advisories/new) instead.
+        Pricing and the payment address: [Get reviewed](https://invisiblemonsters.github.io/launch-watch/get-reviewed.html). After paying, post the transaction ID in this issue so we can match it. Work starts after 1 confirmation.
+        Launch Watch scores are automated risk signals, not findings about any team. See the [methodology](https://invisiblemonsters.github.io/launch-watch/methodology.html).
+  - type: input
+    id: project
+    attributes:
+      label: Project name
+    validations:
+      required: true
+  - type: dropdown
+    id: chain
+    attributes:
+      label: Chain
+      options: ["Robinhood Chain", "Base", "Other (say which below)"]
+    validations:
+      required: true
+  - type: textarea
+    id: addresses
+    attributes:
+      label: Contract address(es) in scope
+      description: One per line. Token first, then any staking, hook, locker, vesting or router contracts you want covered.
+      placeholder: "0x...  (token)\n0x...  (staking)"
+    validations:
+      required: true
+  - type: input
+    id: page
+    attributes:
+      label: Launch Watch page (if listed)
+      placeholder: https://invisiblemonsters.github.io/launch-watch/launch/...
+  - type: dropdown
+    id: ask
+    attributes:
+      label: What would you like?
+      options:
+        - "Free re-scan / correction (something changed or a signal looks wrong)"
+        - "Launch Watch Verified: $50 manual re-check + dated badge (LOW-band launches)"
+        - "24-hour manual review: $150 written findings"
+        - "Not sure, tell me what fits"
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source repo / commit (optional)
+      description: If the contracts are open source, link the repo and the commit that was deployed.
+  - type: input
+    id: links
+    attributes:
+      label: Website and launch post
+  - type: textarea
+    id: changed
+    attributes:
+      label: What changed, or what should we look at? (public info only)
+  - type: dropdown
+    id: contact
+    attributes:
+      label: How should we follow up?
+      options: ["Reply in this issue", "Email (I will write to metatron@mail.grokbot.com first, quoting this issue number)"]
+    validations:
+      required: true
+  - type: input
+    id: txid
+    attributes:
+      label: BTC transaction ID (if you have already paid)
+      description: Paid tiers only. You can also add it later as a comment.
+  - type: checkboxes
+    id: ack
+    attributes:
+      label: Acknowledgements
+      options:
+        - label: I understand a Verified badge means "reviewed at this address/block on this date", not an audit or a guarantee.
+          required: true
+        - label: I will only pay to the BTC address published on the Get reviewed page and in this repository's README (bc1qk43phw0cl63a2pqxssnakwsnuxu0swwjvmm9r0).
+          required: true

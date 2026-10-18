@@ -1,0 +1,586 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x652720b02272c37d9328f08ee8343554d1caa8e7",
+ "scanned_at_utc": "2026-10-16T22:42:30Z",
+ "block": 90443295,
+ "site": "https://www.klineo.xyz",
+ "post": null,
+ "token": {
+  "name": "KlineO by Virtuals",
+  "symbol": "KLO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x581f7b996e6d3e436c537989157c9cb36421419b",
+  "state": "verified",
+  "name": "AgentTokenV4",
+  "verified_on": [
+   "Blockscout"
+  ]
+ },
+ "owner": "0xe220329659d41b2a9f26e83816b424bdacf62567",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x43E4C17b15365596Caae8e7d00E42Bc8E988c2d4",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "17.407049000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9",
+    "pair": "0xe8b5016dc64695ebe5d09ef462c53716f3ec4d4a5508956fb924854621625f3a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "9.289746000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.3",
+    "pair": "0xfce85f9f126fef041e9ed3b47a1012d82baf3b142f4c742eca2183ef1a65900e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.976325000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0xefd0df4207f2f0f93f83bd0990b741168ad3f0b02877a2ecca22c8edabd3911e"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "179",
+  "holders": [
+   {
+    "address": "0x428aeeE2a67c5f7A8545b24FDBF568B9314a12BA",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "743040829.99147927952883189",
+    "percent": "0.743041",
+    "is_locked": 0
+   },
+   {
+    "address": "0x127e7DcBAbA4D6700c243739f02908A8b21D0411",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "186914241.875303217850314545",
+    "percent": "0.186914",
+    "is_locked": 0
+   },
+   {
+    "address": "0xAeA27856B6284Ae071E0685ed594C5B80aEA2aa9",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "23876469.493123945188568405",
+    "percent": "0.023876",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd34De7D22684cc084E8481B5Af2cF5F6BE53Cb31",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "8861758.01734226494191662",
+    "percent": "0.008862",
+    "is_locked": 0
+   },
+   {
+    "address": "0x34eD2a6804905649F5cA0E33b84Dc9bd56EE587F",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "4983389.718736686900011",
+    "percent": "0.004983",
+    "is_locked": 0
+   },
+   {
+    "address": "0x799B9b7080c611CefBA81B941213C0c4d7c80182",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "4291259.177469602673387124",
+    "percent": "0.004291",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0D82B1e3529845B0C8B37519df3Ef9F3cED21E9C",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3479933.943314421185436225",
+    "percent": "0.003480",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4b7d03a6E76772999155654263Df5feE941d1b1F",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2926279.434669575756166594",
+    "percent": "0.002926",
+    "is_locked": 0
+   },
+   {
+    "address": "0xBe96A396D0fC11624C46bA58c2FAf3EF5c595B12",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2711810.815102515926013532",
+    "percent": "0.002712",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7F6EdFc0E122Ee10808749925AB6C45DE2E081ee",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2698430.897447188957361428",
+    "percent": "0.002698",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "launchpad_token": {
+   "is_launchpad_token": "1",
+   "launchpad_name": "virtuals"
+  },
+  "lp_holder_count": "3",
+  "lp_holders": [
+   {
+    "address": "0x5cab2a675c2e52d3de0abe27faa50a50573ed62c",
+    "tag": "",
+    "value": "12.0277130",
+    "is_contract": 0,
+    "balance": "0.000751713608285559",
+    "percent": "0.690967952121005691",
+    "NFT_list": [
+     {
+      "value": "12.0277130",
+      "NFT_id": "3792745",
+      "amount": "0.000751713608285559",
+      "in_effect": "1",
+      "NFT_percentage": "0.690967952121005691"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x8790e40d0f1822f25574690f4231800e7b21c459",
+    "tag": "",
+    "value": "5.0456080",
+    "is_contract": 0,
+    "balance": "0.000315342794764498",
+    "percent": "0.289860044629046543",
+    "NFT_list": [
+     {
+      "value": "5.0456080",
+      "NFT_id": "3792810",
+      "amount": "0.000315342794764498",
+      "in_effect": "1",
+      "NFT_percentage": "0.289860044629046543"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x6029dd469233d902574f987e65072c22922a21ca",
+    "tag": "",
+    "value": "0.3337280",
+    "is_contract": 1,
+    "balance": "0.000020857548722852",
+    "percent": "0.019172003249947765",
+    "NFT_list": [
+     {
+      "value": "0.3337280",
+      "NFT_id": "3812278",
+      "amount": "0.000020857548722852",
+      "in_effect": "1",
+      "NFT_percentage": "0.019172003249947765"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.001087913951772909",
+  "owner_address": "0xe220329659d41b2a9f26e83816b424bdacf62567",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "KlineO by Virtuals",
+  "token_symbol": "KLO",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x54af8e373e16a6a8864678f73ba13facfad944f2ed7dc7759ba463f0859d0824",
+  "block": 88397604,
+  "deployer": "0x43e4c17b15365596caae8e7d00e42bc8e988c2d4",
+  "source": "Blockscout address creator",
+  "tx_from": "0xa371a630e8c53ab295eb01d72cd372eed5897175",
+  "tx_to": "0xd4ccbfa37e2f35611b3042e4096ad7a3459bd007",
+  "ts": 1791984013
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 42046.63,
+  "geckoterminal_top_usd": 42180.1468
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x127e7DcBAbA4D6700c243739f02908A8b21D0411",
+   "liq_usd": 42046.63,
+   "created": 1791984013000,
+   "url": "https://dexscreener.com/robinhood/0x127e7dcbaba4d6700c243739f02908a8b21d0411",
+   "quote": "VIRTUAL"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xfce85f9f126fef041e9ed3b47a1012d82baf3b142f4c742eca2183ef1a65900e",
+   "liq_usd": 18.57,
+   "created": 1792024122000,
+   "url": "https://dexscreener.com/robinhood/0xfce85f9f126fef041e9ed3b47a1012d82baf3b142f4c742eca2183ef1a65900e",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [],
+ "site_ips": [
+  "95.217.199.14"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x652720b02272c37d9328f08ee8343554d1caa8e7?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x652720b02272c37d9328f08ee8343554d1caa8e7",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x581f7b996e6d3e436c537989157c9cb36421419b?fields=abi,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x581f7b996e6d3e436c537989157c9cb36421419b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x652720b02272c37d9328f08ee8343554d1caa8e7",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x652720b02272c37d9328f08ee8343554d1caa8e7",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x652720b02272c37d9328f08ee8343554d1caa8e7/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x652720b02272c37d9328f08ee8343554d1caa8e7",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x652720b02272c37d9328f08ee8343554d1caa8e7/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xa371a630e8c53ab295eb01d72cd372eed5897175/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.klineo.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/klineo.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 90443295",
+    "https://robinhoodchain.blockscout.com/address/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation AgentTokenV4 0x581f7b996e6d3e436c537989157c9cb36421419b, which is verified on Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x581f7b996e6d3e436c537989157c9cb36421419b?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0x652720b02272c37d9328f08ee8343554d1caa8e7?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x581f7b996e6d3e436c537989157c9cb36421419b; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x581f7b996e6d3e436c537989157c9cb36421419b",
+    "https://robinhoodchain.blockscout.com/address/0x581f7b996e6d3e436c537989157c9cb36421419b"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xe220329659d41b2a9f26e83816b424bdacf62567, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x652720b02272c37d9328f08ee8343554d1caa8e7 owner() @ 90443295",
+    "https://robinhoodchain.blockscout.com/address/0xe220329659d41b2a9f26e83816b424bdacf62567"
+   ]
+  },
+  {
+   "id": "fn.blacklist",
+   "group": "fn",
+   "title": "blacklist/bot-block function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found blacklist/bot-block function(s): addBlacklistAddress(address) [implementation ABI], removeBlacklistAddress(address) [implementation ABI].",
+   "evidence": [
+    "selector scan of eth_getCode @ 90443295",
+    "https://robinhoodchain.blockscout.com/address/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdrawERC20(address,uint256) [implementation ABI], withdrawETH(uint256) [implementation ABI].",
+   "evidence": [
+    "selector scan of eth_getCode @ 90443295",
+    "https://robinhoodchain.blockscout.com/address/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xa371a630e8c53ab295eb01d72cd372eed5897175 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xa371a630e8c53ab295eb01d72cd372eed5897175) @ 90443295",
+    "https://robinhoodchain.blockscout.com/address/0xa371a630e8c53ab295eb01d72cd372eed5897175"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.39% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x652720b02272c37d9328f08ee8343554d1caa8e7/holders",
+    "https://robinhoodchain.blockscout.com/token/0x652720b02272c37d9328f08ee8343554d1caa8e7?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $42,047 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x127e7dcbaba4d6700c243739f02908a8b21d0411",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xa371a630e8c53ab295eb01d72cd372eed5897175 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xa371a630e8c53ab295eb01d72cd372eed5897175",
+    "https://robinhoodchain.blockscout.com/tx/0x54af8e373e16a6a8864678f73ba13facfad944f2ed7dc7759ba463f0859d0824",
+    "eth_getTransactionCount(0xa371a630e8c53ab295eb01d72cd372eed5897175) @ 90443295 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xa371a630e8c53ab295eb01d72cd372eed5897175 (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xa371a630e8c53ab295eb01d72cd372eed5897175",
+    "https://robinhoodchain.blockscout.com/tx/0x54af8e373e16a6a8864678f73ba13facfad944f2ed7dc7759ba463f0859d0824"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xa371a630e8c53ab295eb01d72cd372eed5897175 on Blockscout: block 88372567 (2026-10-14 12:38 UTC), 2.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xa371a630e8c53ab295eb01d72cd372eed5897175",
+    "https://robinhoodchain.blockscout.com/tx/0x54af8e373e16a6a8864678f73ba13facfad944f2ed7dc7759ba463f0859d0824",
+    "https://robinhoodchain.blockscout.com/tx/0x137cdcd7e0846dbb265464f69b6601acc1085886cbf06cfa2417dc9e4c8a4214",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xa371a630e8c53ab295eb01d72cd372eed5897175/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "www.klineo.xyz -> 95.217.199.14; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.klineo.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "klineo.xyz registered 2026-01-23 (266 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/klineo.xyz"
+   ]
+  }
+ ],
+ "score": 54,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 16,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "fn.blacklist",
+   "group": "fn",
+   "title": "blacklist/bot-block function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found blacklist/bot-block function(s): addBlacklistAddress(address) [implementation ABI], removeBlacklistAddress(address) [implementation ABI].",
+   "evidence": [
+    "selector scan of eth_getCode @ 90443295",
+    "https://robinhoodchain.blockscout.com/address/0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x652720b02272c37d9328f08ee8343554d1caa8e7"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xa371a630e8c53ab295eb01d72cd372eed5897175 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xa371a630e8c53ab295eb01d72cd372eed5897175",
+    "https://robinhoodchain.blockscout.com/tx/0x54af8e373e16a6a8864678f73ba13facfad944f2ed7dc7759ba463f0859d0824",
+    "eth_getTransactionCount(0xa371a630e8c53ab295eb01d72cd372eed5897175) @ 90443295 = 4"
+   ]
+  }
+ ],
+ "label": "KlineO by Virtuals",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x652720b02272c37d9328f08ee8343554d1caa8e7",
+  "site": "https://www.klineo.xyz",
+  "x_profile": "https://x.com/klineoxyz",
+  "pool_url": "https://dexscreener.com/robinhood/0x652720b02272c37d9328f08ee8343554d1caa8e7",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

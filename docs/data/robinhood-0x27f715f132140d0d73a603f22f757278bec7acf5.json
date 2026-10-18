@@ -1,0 +1,507 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x27f715f132140d0d73a603f22f757278bec7acf5",
+ "scanned_at_utc": "2026-10-16T23:15:31Z",
+ "block": 90462882,
+ "site": "https://tharsis.life/",
+ "post": null,
+ "token": {
+  "name": "Tharsis",
+  "symbol": "THRS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "12432.84651717227264686310",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0xff8a923237d5c93cce6d5d3161c3da9dfc6e37ffc5697ca07ebad3bf8669142f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "67.9093620",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.1",
+    "pair": "0x778ca6a0dca2072733b8bad5e5fb5e68aa00eed6e24c6b3fb519c478f8b6de20"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "8.9051120",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.2",
+    "pair": "0xecf011d071419248056d2d475fec739aa5dc11b6680985fa89dc3e39f1bccf19"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.94799081499999757905",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.89369",
+    "pair": "0x338076df868fc9103b869e44a73acc8027baca61ef3e77cbe644bdc8746d3182"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.995590",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.82",
+    "pair": "0x3f10370a9be3f7e17f9d1dadeb444ecc56b639d4886c1597830c4d233dfec5cb"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.99479848861733229295",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.81",
+    "pair": "0xeee4943d5b4d305363c30cd650ecab09aa6177be60c283f85afc9ffe7a74399c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4196360",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77999",
+    "pair": "0x83e89ecc366bff4953e4109979be91872e893eaeb734661c9341431d49a4b679"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.3631470",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x612076295e776c0a51192f463e2cb6bd44d1eda647a5583eaae16286f8f66d5c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0266120",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x4eea187d68a475a3fa9ed462394d566cd61ac40c03ebbcb242e55d224abe3f95"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+    "tag": "",
+    "value": "6452.25711509084506939740",
+    "is_contract": 1,
+    "balance": "29277.002188455995600209",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "6452.25711509084506939740",
+      "NFT_id": "3861931",
+      "amount": "29277.002188455995600209",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "29277.002188455994",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Tharsis",
+  "token_symbol": "THRS",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x1c06657f088ac40b285b1a44613c902cf306c23c38b046f48d43089c2c2146bd",
+  "block": 90447268,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xece28793463cfaa670e1949fd69e148806f170f5",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792190948
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 6145.89,
+  "geckoterminal_top_usd": 39171.8008
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xff8a923237d5c93cce6d5d3161c3da9dfc6e37ffc5697ca07ebad3bf8669142f",
+   "liq_usd": 6145.89,
+   "created": 1792191004000,
+   "url": "https://dexscreener.com/robinhood/0xff8a923237d5c93cce6d5d3161c3da9dfc6e37ffc5697ca07ebad3bf8669142f",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x778ca6a0dca2072733b8bad5e5fb5e68aa00eed6e24c6b3fb519c478f8b6de20",
+   "liq_usd": 66.73,
+   "created": 1792191105000,
+   "url": "https://dexscreener.com/robinhood/0x778ca6a0dca2072733b8bad5e5fb5e68aa00eed6e24c6b3fb519c478f8b6de20",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xecf011d071419248056d2d475fec739aa5dc11b6680985fa89dc3e39f1bccf19",
+   "liq_usd": 16.5,
+   "created": 1792191713000,
+   "url": "https://dexscreener.com/robinhood/0xecf011d071419248056d2d475fec739aa5dc11b6680985fa89dc3e39f1bccf19",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x338076df868fc9103b869e44a73acc8027baca61ef3e77cbe644bdc8746d3182",
+   "liq_usd": 4.47,
+   "created": 1792191044000,
+   "url": "https://dexscreener.com/robinhood/0x338076df868fc9103b869e44a73acc8027baca61ef3e77cbe644bdc8746d3182",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x3f10370a9be3f7e17f9d1dadeb444ecc56b639d4886c1597830c4d233dfec5cb",
+   "liq_usd": 2.93,
+   "created": 1792191022000,
+   "url": "https://dexscreener.com/robinhood/0x3f10370a9be3f7e17f9d1dadeb444ecc56b639d4886c1597830c4d233dfec5cb",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 13,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x27f715f132140d0d73a603f22f757278bec7acf5?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x27f715f132140d0d73a603f22f757278bec7acf5",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x27f715f132140d0d73a603f22f757278bec7acf5",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x27f715f132140d0d73a603f22f757278bec7acf5",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x27f715f132140d0d73a603f22f757278bec7acf5/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x27f715f132140d0d73a603f22f757278bec7acf5",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x27f715f132140d0d73a603f22f757278bec7acf5/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xece28793463cfaa670e1949fd69e148806f170f5/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=tharsis.life&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/tharsis.life",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 90462882",
+    "https://robinhoodchain.blockscout.com/address/0x27f715f132140d0d73a603f22f757278bec7acf5"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x27f715f132140d0d73a603f22f757278bec7acf5?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 90462882"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x27f715f132140d0d73a603f22f757278bec7acf5 owner() @ 90462882 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 90462882",
+    "https://robinhoodchain.blockscout.com/address/0x27f715f132140d0d73a603f22f757278bec7acf5?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x27f715f132140d0d73a603f22f757278bec7acf5"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xece28793463cfaa670e1949fd69e148806f170f5 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xece28793463cfaa670e1949fd69e148806f170f5) @ 90462882",
+    "https://robinhoodchain.blockscout.com/address/0xece28793463cfaa670e1949fd69e148806f170f5"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.93% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x27f715f132140d0d73a603f22f757278bec7acf5/holders",
+    "https://robinhoodchain.blockscout.com/token/0x27f715f132140d0d73a603f22f757278bec7acf5?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $6,146, GeckoTerminal top pool $39,172. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xff8a923237d5c93cce6d5d3161c3da9dfc6e37ffc5697ca07ebad3bf8669142f",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x27f715f132140d0d73a603f22f757278bec7acf5",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x27f715f132140d0d73a603f22f757278bec7acf5/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x27f715f132140d0d73a603f22f757278bec7acf5",
+    "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xece28793463cfaa670e1949fd69e148806f170f5 (CREATE nonce scan 0..12); tokens launched via factories are not counted. Wallet nonce = 13.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xece28793463cfaa670e1949fd69e148806f170f5",
+    "https://robinhoodchain.blockscout.com/tx/0x1c06657f088ac40b285b1a44613c902cf306c23c38b046f48d43089c2c2146bd"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xece28793463cfaa670e1949fd69e148806f170f5 on Blockscout: block 90424888 (2026-10-16 22:11 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xece28793463cfaa670e1949fd69e148806f170f5",
+    "https://robinhoodchain.blockscout.com/tx/0x1c06657f088ac40b285b1a44613c902cf306c23c38b046f48d43089c2c2146bd",
+    "https://robinhoodchain.blockscout.com/tx/0x7423574029e1ac32568f97168a93412493ebd4836a117ab0592b855c275cb9ca",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xece28793463cfaa670e1949fd69e148806f170f5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "tharsis.life -> 216.150.1.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=tharsis.life&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tharsis.life registered 2026-10-08 (8 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tharsis.life"
+   ]
+  }
+ ],
+ "score": 17,
+ "band": "LOW",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xece28793463cfaa670e1949fd69e148806f170f5 on Blockscout: block 90424888 (2026-10-16 22:11 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xece28793463cfaa670e1949fd69e148806f170f5",
+    "https://robinhoodchain.blockscout.com/tx/0x1c06657f088ac40b285b1a44613c902cf306c23c38b046f48d43089c2c2146bd",
+    "https://robinhoodchain.blockscout.com/tx/0x7423574029e1ac32568f97168a93412493ebd4836a117ab0592b855c275cb9ca",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xece28793463cfaa670e1949fd69e148806f170f5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tharsis.life registered 2026-10-08 (8 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tharsis.life"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $6,146, GeckoTerminal top pool $39,172. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xff8a923237d5c93cce6d5d3161c3da9dfc6e37ffc5697ca07ebad3bf8669142f",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x27f715f132140d0d73a603f22f757278bec7acf5",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x27f715f132140d0d73a603f22f757278bec7acf5/pools"
+   ]
+  }
+ ],
+ "label": "Tharsis",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x27f715f132140d0d73a603f22f757278bec7acf5",
+  "name": "Tharsis",
+  "symbol": "THRS",
+  "created_at": "2026-10-16T23:01:53Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 17.1835,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xecf011d071419248056d2d475fec739aa5dc11b6680985fa89dc3e39f1bccf19",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://tharsis.life/",
+  "x_profile": "https://x.com/Tharsislife",
+  "post": null
+ }
+}

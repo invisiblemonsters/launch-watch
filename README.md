@@ -1,15 +1,42 @@
 # Metatron Launch Watch
 
-A free public feed of automated risk scores for new token and contract launches on
-**Robinhood Chain** and **Base**: <https://invisiblemonsters.github.io/launch-watch/>
+**Free automated risk scores for new token and contract launches on Robinhood Chain and Base,
+plus paid manual smart-contract reviews for teams.** Live site:
+<https://invisiblemonsters.github.io/launch-watch/>
 
-Every score (0-100, higher = more risk signals) is the sum of fixed, documented rules.
-Every rule links to the public source it used (explorer, GoPlus, DexScreener/GeckoTerminal,
-DNS/RDAP, the launch post). Checks that cannot run with free public data are shown as
-`unknown` and add a small fixed uncertainty weight; they are never guessed.
+Every score (0-100, higher = more risk signals) is the sum of fixed, documented rules. Every rule
+links to the public source it used (explorer, GoPlus, DexScreener/GeckoTerminal, DNS/RDAP, the
+launch post). Checks that cannot run with free public data are shown as `unknown` and add a small
+fixed uncertainty weight; they are never guessed. See the
+[methodology](https://invisiblemonsters.github.io/launch-watch/methodology.html).
 
 > Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing.
-> Teams can request a re-scan or correction at metatron@mail.grokbot.com.
+
+## Pricing
+
+| Tier | Price | What you get |
+|---|---|---|
+| **Scored** | free | A public launch page with every check, weight and evidence link. Free re-scans and corrections. |
+| **Verified badge** | $50, BTC | Block-pinned re-scan plus a person reading your verified source and live owner/admin/role setup; a dated SVG badge linked to a public report; 30-day change cover. For LOW-band launches (or MODERATE with market/hosting-only signals). No badge if an unresolved high/medium item is found: full refund or a $50 credit toward the review. |
+| **24h Review** | $150, BTC | Manual review of source, owner/admin and roles, privileged functions, liquidity and lock setup, launch wallets; written findings with evidence within 24 hours. |
+
+A badge means: *reviewed at the listed address and block on the date shown.* **It is not an audit
+or a guarantee**, not a statement that a project is free of risk, and not investment advice. Full
+terms: [Get reviewed](https://invisiblemonsters.github.io/launch-watch/get-reviewed.html).
+
+## Ordering
+
+1. [Open a "Request a review or re-scan" issue](https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml)
+   (every launch page has a prefilled "Is this your project?" button), or email
+   **metatron@mail.grokbot.com**; the inbox replies to anyone who writes first.
+2. Pay the USD amount in BTC to **`bc1qk43phw0cl63a2pqxssnakwsnuxu0swwjvmm9r0`**. This is the only
+   payment address; it is identical on the Get reviewed page and in [SECURITY.md](SECURITY.md).
+3. Post the transaction ID in your issue (or email it with your issue number) so the payment can be matched.
+4. Work starts after **1 confirmation**; results arrive within 24 hours.
+
+Security problems (in this site or in a listed contract): **never in a public issue.** Use
+[private vulnerability reporting](https://github.com/invisiblemonsters/launch-watch/security/advisories/new);
+see [SECURITY.md](SECURITY.md).
 
 ## What's in this repo
 
@@ -19,7 +46,9 @@ DNS/RDAP, the launch post). Checks that cannot run with free public data are sho
 | `docs/index.html` | Latest launches, newest scan first |
 | `docs/launch/<chain>-<address>.html` | One page per launch: every check, its evidence links, unknowns, the weights |
 | `docs/methodology.html` | Each check and its weight, data sources, known limits, exclusion policy |
-| `docs/get-reviewed.html` | Free scan / paid manual review / badge |
+| `docs/get-reviewed.html` | Pricing and ordering: Scored (free), Verified badge ($50), 24h Review ($150) |
+| `docs/sitemap.xml`, `docs/robots.txt` | Generated on every build for search engines |
+| `.github/ISSUE_TEMPLATE/` | The "Request a review or re-scan" issue form (adds the `review-request` label) |
 | `docs/feed.xml` | Atom feed of new scores (newest 100) |
 | `docs/data/` | Published evidence JSON per launch + `launches.json` index |
 | `docs/evidence/` | Saved API responses referenced by scan notes |
@@ -66,21 +95,12 @@ each 30-minute run, add this one line right after the `LW_POST=0 ./run.sh ...` l
 `rebuild.sh` takes its own lock, so a slow build never overlaps the next one, and it only writes
 `docs/` locally. Publishing (commit + push) is a separate, manual step.
 
-## Publish on GitHub Pages (not done yet)
+## Publishing
 
-1. Create a public repo **`invisiblemonsters/launch-watch`**.
-2. From this folder:
-   ```bash
-   git init -b main && git add . && git commit -m "Launch Watch site"
-   git remote add origin git@github.com:invisiblemonsters/launch-watch.git
-   git push -u origin main
-   ```
-3. Repo **Settings → Pages → Build and deployment**: Source **Deploy from a branch**,
-   Branch **`main`**, folder **`/docs`**, Save.
-4. The site appears at <https://invisiblemonsters.github.io/launch-watch/> within a few minutes
-   (`docs/.nojekyll` disables Jekyll processing).
-5. To keep it current, commit and push `docs/` after rebuilds (manually or with a scheduled job
-   you approve separately).
+GitHub Pages serves `main` / `docs/`. `publish.sh` rebuilds `docs/` with `build_site.py` and
+commits and pushes `docs/` only; `publish-loop.sh` runs it every 6 hours. Every page, the pricing
+page, the per-launch "Is this your project?" links, `sitemap.xml` and `robots.txt` are generated by
+`build_site.py`, so the automatic rebuild keeps them. Edit the generator, not `docs/`.
 
 ## Wording rules
 

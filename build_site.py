@@ -11,7 +11,7 @@ Env: LW_DATA, LW_SITE_URL override the defaults.
 Only the Python standard library is needed (score.py is imported for CHAINS/WEIGHTS
 only, and needs pycryptodome; if that import fails, a bundled copy of the constants is used).
 """
-import argparse, datetime as dt, glob, html, json, os, re, shutil, sys
+import argparse, datetime as dt, glob, html, json, os, re, shutil, sys, urllib.parse
 from zoneinfo import ZoneInfo
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -21,6 +21,15 @@ SCAN_REPO = "https://github.com/invisiblemonsters/token-launch-scan"
 FOOTER = ("Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. "
           "Teams can request a re-scan or correction at metatron@mail.grokbot.com.")
 ADDR_RX = re.compile(r"^0x[0-9a-fA-F]{40}$")
+REPO = "invisiblemonsters/launch-watch"
+REPO_URL = f"https://github.com/{REPO}"
+ISSUE_NEW = f"{REPO_URL}/issues/new?template=request-review.yml"
+# Public BTC receive address for orders (BIP84 account 0, receive index 1). Address only; no keys live here.
+BTC_ADDR = "bc1qk43phw0cl63a2pqxssnakwsnuxu0swwjvmm9r0"
+INDEXNOW_KEY = "5f1c0d7e9a4b4e2c8a6d3b1f0e7c9a24"
+SITE_URL = "https://invisiblemonsters.github.io/launch-watch/"  # set from --site-url in main()
+DEFAULT_DESC = ("Free automated risk scores for new token and contract launches on Robinhood Chain and Base, "
+                "with a $50 Verified badge and a $150 24-hour manual review for teams.")
 
 # --------------------------------------------------------------------------- scorer constants
 def load_scorer(data_dir):
@@ -174,29 +183,51 @@ def repair(r, CHAINS, clusters):
     return edits
 
 # --------------------------------------------------------------------------- HTML
+def issue_url(name=None, chain=None, address=None, page_url=None):
+    """Prefilled 'Request a review' issue form (GitHub issue-form query parameters)."""
+    q = {}
+    if name: q["title"] = f"[Review request] {name} on {chain or '<chain>'}"; q["project"] = name
+    if chain: q["chain"] = chain
+    if address: q["addresses"] = address
+    if page_url: q["page"] = page_url
+    return ISSUE_NEW + ("&" + urllib.parse.urlencode(q, quote_via=urllib.parse.quote) if q else "")
+
 def page(title, body, depth=0, desc=None, canonical=None):
     up = "../" * depth
+    d = desc or DEFAULT_DESC
+    url = canonical or SITE_URL
     return f"""<!doctype html>
 <html lang="en">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{esc(title)}</title>
-<meta name="description" content="{esc(desc or 'Free public feed of automated risk scores for new token and contract launches on Robinhood Chain and Base.')}">
+<meta name="description" content="{esc(d)}">
 {f'<link rel="canonical" href="{esc(canonical)}">' if canonical else ''}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metatron Launch Watch">
+<meta property="og:title" content="{esc(title)}">
+<meta property="og:description" content="{esc(d)}">
+<meta property="og:url" content="{esc(url)}">
+<meta property="og:image" content="{esc(SITE_URL)}preview-index.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{esc(title)}">
+<meta name="twitter:description" content="{esc(d)}">
+<meta name="twitter:image" content="{esc(SITE_URL)}preview-index.png">
 <link rel="stylesheet" href="{up}style.css">
 <link rel="alternate" type="application/atom+xml" title="Metatron Launch Watch: new scores" href="{up}feed.xml">
 </head>
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="{up}index.html">Metatron <span>Launch Watch</span></a>
-<nav><a href="{up}index.html">Launches</a><a href="{up}methodology.html">Methodology</a><a href="{up}get-reviewed.html">Get reviewed</a><a href="{up}feed.xml">Feed</a></nav>
+<nav><a href="{up}index.html">Launches</a><a href="{up}methodology.html">Methodology</a><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a><a href="{up}feed.xml">Feed</a></nav>
 </div></header>
 <main class="wrap">
 {body}
 </main>
 <footer class="foot"><div class="wrap">
 <p>{esc(FOOTER).replace(esc(CONTACT), f'<a href="mailto:{CONTACT}">{CONTACT}</a>')}</p>
+<p><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="{ISSUE_NEW}">Request a review (GitHub issue)</a> · <a href="{REPO_URL}">Source on GitHub</a> · <a href="{REPO_URL}/security/advisories/new">Report a vulnerability privately</a></p>
 </div></footer>
 </body>
 </html>
@@ -329,7 +360,7 @@ def render_launch(r, ctx, history):
 <table class="weights"><tbody>{applied_rows}<tr class="total"><td>Total (capped at 100)</td><td class=num>{min(100, round(pts_sum))}</td></tr></tbody></table>
 <details><summary>All scoring weights (scorer v{esc(r.get('version'))})</summary>{weights_table(W, UP, RF)}<p class="small">See the <a href="../methodology.html">methodology</a> for what each rule means.</p></details>
 {hist}
-<div class="note"><strong>Is this your project?</strong> On-chain state changes after a scan. Ask for a re-scan or correction at <a href="mailto:{CONTACT}?subject=Re-scan%20{esc(al)}">{CONTACT}</a>, or see <a href="../get-reviewed.html">Get reviewed</a>.</div>
+<div class="note owner"><strong>Is this your project?</strong> On-chain state changes after a scan. <a class="btn" href="{esc(issue_url(name, c['name'], a, ctx['SITE'] + 'launch/' + slug(r) + '.html'))}">Claim this page: request a re-scan, badge or review</a><br><span class="small">Opens a prefilled GitHub issue (public; never post vulnerabilities there). Free re-scans and corrections; <a href="../get-reviewed.html">$50 Verified badge or $150 24-hour review</a>. Or email <a href="mailto:{CONTACT}?subject=Re-scan%20{esc(al)}">{CONTACT}</a>.</span></div>
 """
     return page(f"{name} ({c['name']}) - {r['score']}/100 {r['band']} | Metatron Launch Watch", body, depth=1,
                 desc=f"Automated risk signals for {name} on {c['name']}: {r['score']}/100 ({r['band']}).",
@@ -411,39 +442,84 @@ def render_methodology(ctx, stats):
     return page("Methodology | Metatron Launch Watch", body, 0, desc="How Metatron Launch Watch scores new token launches: every check and its weight.")
 
 def render_reviewed(ctx):
+    site = ctx["SITE"]
     body = f"""
-<h1>Get reviewed</h1>
-<p class="lead">Launching on Robinhood Chain or Base? Get your contract checked before (or right after) you go live, and show buyers what was checked.</p>
+<h1>Get reviewed: pricing</h1>
+<p class="lead">Launching on Robinhood Chain or Base? Every launch we see is scored for free. Teams who want more can order a dated Verified badge or a 24-hour manual review here, without waiting for anyone to contact them. Paid in BTC.</p>
 <div class="cards">
 <div class="card">
-<h2>Free: static scan + manual read</h2>
-<p class="price">$0</p>
+<h2>Scored</h2>
+<p class="price">Free</p>
 <ul>
-<li>Run the open-source scanner yourself: <a href="{SCAN_REPO}">github.com/invisiblemonsters/token-launch-scan</a> (MIT).</li>
-<li>Open an issue on that repo with your chain, contract address and launch link to ask for a quick manual read of the result.</li>
-<li>Best effort, public, no turnaround guarantee.</li>
+<li>Automatic: new launches on Robinhood Chain and Base get a public page with every check, its weight and its evidence link.</li>
+<li>Free re-scans and corrections when something changes or a signal looks wrong.</li>
+<li>Run the open-source scanner yourself: <a href="{SCAN_REPO}">token-launch-scan</a> (MIT).</li>
+<li>No badge. Link to your launch page.</li>
 </ul>
+<p><a class="btn" href="{ISSUE_NEW}">Request a re-scan</a></p>
+</div>
+<div class="card">
+<h2>Verified badge</h2>
+<p class="price">$50 <small>flat, paid in BTC</small></p>
+<ul>
+<li>A fresh scanner run pinned to a block, plus a person reading your verified source and live owner, admin and role setup.</li>
+<li>A dated SVG badge (chain, short address, review date) linked to a public report page listing what was checked, at which address, block and commit.</li>
+<li><strong>30-day change cover:</strong> if in-scope contracts change (upgrade, new implementation, owner or role change, a redeploy you tell us about), one free re-check; the badge is reissued or withdrawn.</li>
+<li><strong>Eligibility:</strong> a LOW score (0-24), or MODERATE (25-49) when every flagged signal is market or hosting data (thin liquidity, a young domain, a fresh deployer), not contract logic. Anything else is pointed to the review.</li>
+<li><strong>If the re-check finds an unresolved high- or medium-severity item</strong>, no badge is issued; you get the written findings and choose a full refund or a $50 credit toward the review.</li>
+<li>Delivered within 24 hours of 1 confirmation.</li>
+</ul>
+<p><a class="btn" href="{ISSUE_NEW}">Order the Verified badge</a></p>
 </div>
 <div class="card featured">
-<h2>24-hour manual review</h2>
+<h2>24h Review</h2>
 <p class="price">$150 <small>flat, paid in BTC</small></p>
 <ul>
-<li>A person reads your verified source, owner/admin setup, privileged functions, liquidity and lock setup, and launch wallets.</li>
-<li>Written findings within 24 hours of payment confirmation, with evidence links for every point.</li>
-<li>Teams that pass may display the <strong>Reviewed by Metatron</strong> badge, linked to their public review page.</li>
+<li>A person reads your verified source, owner/admin and roles, privileged functions, liquidity and lock setup, and launch wallets.</li>
+<li>Written findings within 24 hours of 1 confirmation, with evidence links for every point. Sensitive findings are shared privately, never in a public issue.</li>
+<li>Teams with no unresolved high-severity items may display the <strong>Reviewed by Metatron</strong> badge, linked to their review page.</li>
 </ul>
-<p><a class="btn" href="mailto:{CONTACT}?subject=Manual%20review%20request">Email {CONTACT}</a></p>
-<p class="small">Include the chain, contract address(es), website and launch post. Payment details are sent by email after the scope is confirmed. Never send funds to an address you did not receive directly from {CONTACT}.</p>
+<p><a class="btn" href="{ISSUE_NEW}">Order the 24h review</a></p>
 </div>
 </div>
-<h2>The badge</h2>
+
+<h2 id="order">How to order</h2>
+<ol>
+<li><strong>Open a request:</strong> <a href="{ISSUE_NEW}">open a GitHub issue with the "Request a review or re-scan" form</a> (chain, addresses, which tier). If your launch already has a page here, use the <em>Is this your project?</em> button on it; the form comes prefilled. Issues are public: include public information only.<br>
+Prefer email? Write to <a href="mailto:{CONTACT}?subject=Review%20request">{CONTACT}</a> with the chain, addresses and tier. The inbox can reply to anyone who writes to it first.</li>
+<li><strong>Pay</strong> the USD amount in BTC (at the mempool.space price when you send) to the address below.</li>
+<li><strong>Match the payment:</strong> post the transaction ID in your issue, or email it with your issue number (for example <code>launch-watch #12</code>), so we can match it.</li>
+<li><strong>Work starts after 1 confirmation.</strong> Results arrive in your issue (or by email if you wrote in), within 24 hours.</li>
+</ol>
+
+<h2 id="payment">Payment address (BTC)</h2>
+<div class="note"><p><code class="btc">{BTC_ADDR}</code></p>
+<p class="small">Bitcoin mainnet, native SegWit. This is the only payment address. It is the same on this page, in the repository <a href="{REPO_URL}#ordering">README</a> and in <a href="{REPO_URL}/blob/main/SECURITY.md">SECURITY.md</a>; if an address you were given anywhere else differs, do not pay it. Check incoming payments yourself on <a href="https://mempool.space/address/{BTC_ADDR}" rel="nofollow noopener">mempool.space</a>. Under- or overpayments of more than 5% are settled in the issue thread; refunds go to a BTC address you give us there.</p></div>
+
+<h2>What the badge means</h2>
 <p><img src="badge.svg" alt="Reviewed by Metatron" width="220" height="40"></p>
-<p>The badge is granted only after a manual review finds no unresolved high-severity issues. It reflects the contract and setup at the review date; it is not an audit, a guarantee, or investment advice, and it is withdrawn if the contract or admin setup changes in a way that adds risk. Each badge links to its review page so anyone can verify it.</p>
-<pre><code>&lt;a href="{esc(ctx['SITE'])}"&gt;&lt;img src="{esc(ctx['SITE'])}badge.svg" alt="Reviewed by Metatron" width="220" height="40"&gt;&lt;/a&gt;</code></pre>
-<h2>Already listed and think a signal is wrong?</h2>
-<p>Re-scans and corrections are free. Email <a href="mailto:{CONTACT}?subject=Re-scan%20request">{CONTACT}</a> with the chain, the address and what changed.</p>
+<blockquote><p><strong>What this badge means:</strong> On the date shown, Metatron Launch Watch re-ran its automated checks and a person read the verified source code and live owner/admin setup of the contract address(es) listed on this page, pinned to the block (and source commit, if provided) listed here. The findings are on this page with links to public evidence.</p>
+<p><strong>What it does not mean:</strong> It is not an audit, not a guarantee, not a statement that the project or token is free of risk, and not investment advice. It says nothing about the team's intentions, future behaviour, off-chain systems, other contracts, or market conditions. On-chain state can change after the review; check the date and the current status on this page.</p></blockquote>
+<p class="small">Short form, used under every embedded badge: <em>Reviewed at the listed address and block on the date shown. Not an audit or a guarantee.</em></p>
+<p><strong>Badge states.</strong> <em>Current</em>: within 30 days of the review date with no in-scope change detected. <em>Expired</em>: more than 30 days after the review date; the report stays up, marked "Verified as of &lt;date&gt;; not re-checked since". <em>Withdrawn</em>: an in-scope contract changed in a way that adds risk, or the team declined the re-check; the report says so, with the date and reason.</p>
+<p><strong>Scope</strong> is limited to the addresses listed on the report: the token plus any directly related contracts you name (staking, hook, locker, vesting). Off-chain systems, websites, bridges and third-party protocols are out of scope.</p>
+<pre><code>&lt;a href="{esc(site)}get-reviewed.html" title="Reviewed at the listed address and block on the date shown. Not an audit or a guarantee."&gt;&lt;img src="{esc(site)}badge.svg" alt="Reviewed by Metatron" width="220" height="40"&gt;&lt;/a&gt;</code></pre>
+<p class="small">Paid badges link to the project's own report page instead of this page.</p>
+
+<h2>Found a vulnerability in a listed contract, or in this site?</h2>
+<p>Do not open a public issue. Use <a href="{REPO_URL}/security/advisories/new">GitHub private vulnerability reporting</a>, or email <a href="mailto:{CONTACT}">{CONTACT}</a>. See <a href="{REPO_URL}/blob/main/SECURITY.md">SECURITY.md</a>.</p>
 """
-    return page("Get reviewed | Metatron Launch Watch", body, 0, desc="Free static scan, or a flat $150 24-hour manual review paid in BTC.")
+    return page("Get reviewed: pricing | Metatron Launch Watch", body, 0,
+                desc="Scored (free), Launch Watch Verified badge ($50 BTC) or a 24-hour manual smart-contract review ($150 BTC) for Robinhood Chain and Base launches. Not an audit or a guarantee.",
+                canonical=f"{site}get-reviewed.html")
+
+def sitemap(latest, ctx, built):
+    site = ctx["SITE"]; day = built.strftime("%Y-%m-%d")
+    urls = [(site, day, "hourly", "1.0"), (f"{site}get-reviewed.html", day, "weekly", "0.9"), (f"{site}methodology.html", day, "weekly", "0.6")]
+    for r in latest:
+        urls.append((f"{site}launch/{slug(r)}.html", r["scanned_at_utc"][:10], "daily", "0.5"))
+    body = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{m}</lastmod><changefreq>{f}</changefreq><priority>{p}</priority></url>\n" for u, m, f, p in urls)
+    return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}</urlset>\n'
 
 BADGE = """<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewBox="0 0 220 40" role="img" aria-label="Reviewed by Metatron">
 <title>Reviewed by Metatron</title>
@@ -492,6 +568,8 @@ details{margin:14px 0}summary{cursor:pointer;color:var(--acc);font-weight:600}
 .cards{display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:18px}.card{border:1px solid var(--line);background:var(--panel);border-radius:12px;padding:6px 20px 14px}
 .card.featured{border-color:var(--acc)}.price{font-size:30px;font-weight:900;margin:.2em 0}.price small{font-size:14px;color:var(--mut);font-weight:600}
 .btn{display:inline-block;background:var(--acc);color:#04111d;font-weight:800;padding:9px 16px;border-radius:8px;text-decoration:none}
+blockquote{margin:12px 0;padding:6px 16px;border-left:4px solid var(--acc);background:var(--panel);border-radius:8px}
+.btc{font-size:16px;font-weight:700;color:#f8fafc}.owner .btn{margin:6px 0}
 pre{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:12px;overflow-x:auto}
 .foot{border-top:1px solid var(--line);color:var(--mut);font-size:13px}.foot p{margin:16px 0}
 @media (max-width:700px){nav a{margin:0 14px 0 0}.links span{display:block}h1{font-size:23px}}
@@ -534,6 +612,7 @@ def main():
     ap.add_argument("--report", action="store_true", help="print the exclusion list with reasons")
     a = ap.parse_args()
     site = a.site_url if a.site_url.endswith("/") else a.site_url + "/"
+    global SITE_URL; SITE_URL = site
     CHAINS, WEIGHTS, UP, RF, VERSION = load_scorer(a.data)
     ctx = dict(CHAINS=CHAINS, WEIGHTS=WEIGHTS, UNKNOWN=UP, RF=RF, VERSION=VERSION, SITE=site)
     try: clusters = json.load(open(os.path.join(a.data, "data", "clusters.json")))
@@ -577,6 +656,11 @@ def main():
     W("methodology.html", render_methodology(ctx, stats))
     W("get-reviewed.html", render_reviewed(ctx))
     W("feed.xml", atom(latest, ctx, built))
+    W("sitemap.xml", sitemap(latest, ctx, built))
+    W("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {site}sitemap.xml\n")
+    W(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
+    if os.path.exists(os.path.join(HERE, "preview-index.png")):
+        shutil.copy2(os.path.join(HERE, "preview-index.png"), os.path.join(out, "preview-index.png"))
     W("404.html", page("Not found | Metatron Launch Watch", '<h1>Not found</h1><p><a href="index.html">Back to the latest launches</a>.</p>'))
     index_json = []
     for r in latest:

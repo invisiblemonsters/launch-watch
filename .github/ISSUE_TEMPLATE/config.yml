@@ -1,0 +1,11 @@
+blank_issues_enabled: true
+contact_links:
+  - name: Methodology (how scores are built)
+    url: https://invisiblemonsters.github.io/launch-watch/methodology.html
+    about: Read this before disputing a signal.
+  - name: Get reviewed (offer details)
+    url: https://invisiblemonsters.github.io/launch-watch/get-reviewed.html
+    about: What the free scan, the $50 Verified badge and the $150 review include.
+  - name: Report a vulnerability privately
+    url: https://github.com/invisiblemonsters/launch-watch/security/advisories/new
+    about: Never post vulnerabilities in a public issue.

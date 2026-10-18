@@ -1,0 +1,340 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xd835277ea8875a535737d9a3670c2d77c7d00632",
+ "scanned_at_utc": "2026-10-16T23:17:01Z",
+ "block": 90463763,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Owo",
+  "symbol": "OWOWO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "CurvePumpERC1967Proxy"
+ },
+ "verification": "verified",
+ "owner_7702_delegate": "0x1c08930b2d330447e6c05b5be8c4caf172b4a174",
+ "owner": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0x7d2A0cB3b9FCd9bb2F23415968Ce5ec2767dD8BF",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "0",
+  "is_open_source": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Owo",
+  "token_symbol": "OWOWO"
+ },
+ "creation": {
+  "tx": "0x44fb5b7a879433d428e686c36612c80c9517b92a7747ab98ce5f85021f8c5c69",
+  "block": 90444922,
+  "deployer": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+  "tx_from": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+  "tx_to": null,
+  "ts": 1792190713
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 197843.19,
+  "geckoterminal_top_usd": 197613.2928
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xD792E7A76C50113e05Aefd1029bdBE3274A24F66",
+   "liq_usd": 197843.19,
+   "created": 1792190991000,
+   "url": "https://dexscreener.com/robinhood/0xd792e7a76c50113e05aefd1029bdbe3274a24f66",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 594,
+ "deployer_contracts_blockscout_page1": [
+  "0xf99bf56ca92f55185c56a05cffc75218229c8c76"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xd835277ea8875a535737d9a3670c2d77c7d00632?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xd835277ea8875a535737d9a3670c2d77c7d00632",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xd835277ea8875a535737d9a3670c2d77c7d00632",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xd835277ea8875a535737d9a3670c2d77c7d00632",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd835277ea8875a535737d9a3670c2d77c7d00632/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xd835277ea8875a535737d9a3670c2d77c7d00632",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd835277ea8875a535737d9a3670c2d77c7d00632/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "138 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 90463763",
+    "https://robinhoodchain.blockscout.com/address/0xd835277ea8875a535737d9a3670c2d77c7d00632"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as CurvePumpERC1967Proxy. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xd835277ea8875a535737d9a3670c2d77c7d00632",
+    "https://robinhoodchain.blockscout.com/address/0xd835277ea8875a535737d9a3670c2d77c7d00632?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "flag",
+   "points": 15,
+   "detail": "EIP-1967 proxy: implementation 0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917, beacon None, admin slot None. Logic can be swapped by whoever controls upgrades.",
+   "evidence": [
+    "eth_getStorageAt(0xd835277ea8875a535737d9a3670c2d77c7d00632, 0x360894a1..) @ 90463763",
+    "https://robinhoodchain.blockscout.com/address/0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf, a plain wallet with an EIP-7702 delegation to 0x1c08930b2d330447e6c05b5be8c4caf172b4a174 (code prefix 0xef0100), not a multisig or timelock: one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0xd835277ea8875a535737d9a3670c2d77c7d00632 owner() @ 90463763",
+    "eth_getCode(0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf) = 0xef01001c\u2026 (EIP-7702 delegation designator)",
+    "https://robinhoodchain.blockscout.com/address/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 90463763",
+    "https://repo.sourcify.dev/4663/0xd835277ea8875a535737d9a3670c2d77c7d00632"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xd835277ea8875a535737d9a3670c2d77c7d00632"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf holds 0.28% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf) @ 90463763",
+    "https://robinhoodchain.blockscout.com/address/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0xfd9ba10dc97b02b5bb903234dacd7040ead72f11 has 60.8% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd835277ea8875a535737d9a3670c2d77c7d00632/holders",
+    "https://robinhoodchain.blockscout.com/token/0xd835277ea8875a535737d9a3670c2d77c7d00632?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $197,843 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xd792e7a76c50113e05aefd1029bdbe3274a24f66",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xd835277ea8875a535737d9a3670c2d77c7d00632"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0xd792e7a76c50113e05aefd1029bdbe3274a24f66 (uniswap) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xd792e7a76c50113e05aefd1029bdbe3274a24f66"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf has sent 594 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+    "https://robinhoodchain.blockscout.com/tx/0x44fb5b7a879433d428e686c36612c80c9517b92a7747ab98ce5f85021f8c5c69",
+    "eth_getTransactionCount = 594"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf on Blockscout: block 76716038 (2026-09-30 18:04 UTC), 16.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+    "https://robinhoodchain.blockscout.com/tx/0x44fb5b7a879433d428e686c36612c80c9517b92a7747ab98ce5f85021f8c5c69",
+    "https://robinhoodchain.blockscout.com/tx/0x6efe2c5b5d9bfb4f3317e5c96b2246af6c2ad3ea5628630132accd9f73749c43",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 53,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "flag",
+   "points": 15,
+   "detail": "EIP-1967 proxy: implementation 0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917, beacon None, admin slot None. Logic can be swapped by whoever controls upgrades.",
+   "evidence": [
+    "eth_getStorageAt(0xd835277ea8875a535737d9a3670c2d77c7d00632, 0x360894a1..) @ 90463763",
+    "https://robinhoodchain.blockscout.com/address/0xf673b460c0fa0c6b8ef9a3d254b68e96569c8917"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0xfd9ba10dc97b02b5bb903234dacd7040ead72f11 has 60.8% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd835277ea8875a535737d9a3670c2d77c7d00632/holders",
+    "https://robinhoodchain.blockscout.com/token/0xd835277ea8875a535737d9a3670c2d77c7d00632?tab=holders"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf has sent 594 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x7d2a0cb3b9fcd9bb2f23415968ce5ec2767dd8bf",
+    "https://robinhoodchain.blockscout.com/tx/0x44fb5b7a879433d428e686c36612c80c9517b92a7747ab98ce5f85021f8c5c69",
+    "eth_getTransactionCount = 594"
+   ]
+  }
+ ],
+ "label": "Owo",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xd835277ea8875a535737d9a3670c2d77c7d00632",
+  "name": "Owo",
+  "symbol": "OWOWO",
+  "created_at": "2026-10-16T22:49:51Z",
+  "dex": "uniswap-v3-robinhood",
+  "liq_usd": 197613.2928,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xd792e7a76c50113e05aefd1029bdbe3274a24f66",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

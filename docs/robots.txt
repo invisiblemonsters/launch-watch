@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://invisiblemonsters.github.io/launch-watch/sitemap.xml

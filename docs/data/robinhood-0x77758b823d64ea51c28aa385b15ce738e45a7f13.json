@@ -1,0 +1,366 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+ "scanned_at_utc": "2026-10-19T17:09:24Z",
+ "block": 92779903,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Standard Notional",
+  "symbol": "SNP",
+  "decimals": 18,
+  "totalSupply": 4600000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "virtualToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x9D3da39AE2897F8Cc22aDb14a887341Fce20b3EE",
+  "creator_balance": "4600000000",
+  "creator_percent": "1.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Standard Notional",
+  "token_symbol": "SNP",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x8807162dc6ff6f808ce9b7bb7a6f6c42975a6161d8f243a7ee30bc00f1295893",
+  "block": 92768644,
+  "deployer": "0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+  "tx_from": "0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+  "tx_to": null,
+  "ts": 1792428612
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 0,
+  "geckoterminal_top_usd": 0.0008570978163
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xD5B9fe2bC4420a30B30748b1F971DEC8d0F2EF84",
+   "liq_usd": 0,
+   "created": 1792428649000,
+   "url": "https://dexscreener.com/robinhood/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [
+  "0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x77758b823d64ea51c28aa385b15ce738e45a7f13?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x77758b823d64ea51c28aa385b15ce738e45a7f13/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x77758b823d64ea51c28aa385b15ce738e45a7f13/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84/holders",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x2ac03e14cfe755426daaee0a4994184ce81482f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x2ac03e14cfe755426daaee0a4994184ce81482f8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3553 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92779903",
+    "https://robinhoodchain.blockscout.com/address/0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as virtualToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+    "https://robinhoodchain.blockscout.com/address/0x77758b823d64ea51c28aa385b15ce738e45a7f13?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92779903"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x77758b823d64ea51c28aa385b15ce738e45a7f13 owner() @ 92779903 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 92779903",
+    "https://repo.sourcify.dev/4663/0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x9d3da39ae2897f8cc22adb14a887341fce20b3ee holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x9d3da39ae2897f8cc22adb14a887341fce20b3ee) @ 92779903",
+    "https://robinhoodchain.blockscout.com/address/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.60% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x77758b823d64ea51c28aa385b15ce738e45a7f13/holders",
+    "https://robinhoodchain.blockscout.com/token/0x77758b823d64ea51c28aa385b15ce738e45a7f13?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $0 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "V2-style pair 0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84: 0.0% of LP tokens burned (0x0/dead), no verified locker contract among the top LP holders.",
+   "evidence": [
+    "eth_call 0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84 totalSupply()/balanceOf(dead) @ 92779903",
+    "https://robinhoodchain.blockscout.com/address/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84/holders"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x9d3da39ae2897f8cc22adb14a887341fce20b3ee (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+    "https://robinhoodchain.blockscout.com/tx/0x8807162dc6ff6f808ce9b7bb7a6f6c42975a6161d8f243a7ee30bc00f1295893",
+    "https://robinhoodchain.blockscout.com/address/0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9d3da39ae2897f8cc22adb14a887341fce20b3ee on Blockscout: block 92768536 (2026-10-19 16:50 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+    "https://robinhoodchain.blockscout.com/tx/0x8807162dc6ff6f808ce9b7bb7a6f6c42975a6161d8f243a7ee30bc00f1295893",
+    "https://robinhoodchain.blockscout.com/tx/0x6fb4d2f31073121626e0466cbc6ecbf39a8477c5453d202925c818adbce03321",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 12,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $0 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x77758b823d64ea51c28aa385b15ce738e45a7f13"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "V2-style pair 0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84: 0.0% of LP tokens burned (0x0/dead), no verified locker contract among the top LP holders.",
+   "evidence": [
+    "eth_call 0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84 totalSupply()/balanceOf(dead) @ 92779903",
+    "https://robinhoodchain.blockscout.com/address/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84/holders"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9d3da39ae2897f8cc22adb14a887341fce20b3ee on Blockscout: block 92768536 (2026-10-19 16:50 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee",
+    "https://robinhoodchain.blockscout.com/tx/0x8807162dc6ff6f808ce9b7bb7a6f6c42975a6161d8f243a7ee30bc00f1295893",
+    "https://robinhoodchain.blockscout.com/tx/0x6fb4d2f31073121626e0466cbc6ecbf39a8477c5453d202925c818adbce03321",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9d3da39ae2897f8cc22adb14a887341fce20b3ee/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Standard Notional",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+  "name": "Standard Notional",
+  "symbol": "SNP",
+  "created_at": "2026-10-19T16:50:49Z",
+  "dex": "uniswap-v2-robinhood",
+  "liq_usd": 238952.8711,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xd5b9fe2bc4420a30b30748b1f971dec8d0f2ef84",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

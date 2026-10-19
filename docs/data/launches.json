@@ -1,6 +1,226 @@
 {
- "generated_utc": "2026-10-19T17:03:21+00:00",
+ "generated_utc": "2026-10-19T19:25:10+00:00",
  "launches": [
+  {
+   "chain": "robinhood",
+   "address": "0x8192a554fe2e371af32978cc18e04add26c641dc",
+   "name": "Twins",
+   "score": 18,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-19T17:10:44Z",
+   "created_ts": 1792428981,
+   "page": "launch/robinhood-0x8192a554fe2e371af32978cc18e04add26c641dc.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xdecd66f11724f97cb8b6ab72649c7a49c3f13e5d",
+   "name": "Dacity Coin",
+   "score": 68,
+   "band": "ELEVATED",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-19T17:10:25Z",
+   "created_ts": 1792428260,
+   "page": "launch/robinhood-0xdecd66f11724f97cb8b6ab72649c7a49c3f13e5d.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x5a66bc318d132ac1fe155f63eeb0550df438fcf6",
+   "name": "Just 'T'",
+   "score": 37,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:10:19Z",
+   "created_ts": 1792427373,
+   "page": "launch/base-0x5a66bc318d132ac1fe155f63eeb0550df438fcf6.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x11c854d8fd5043b4fd9926ef313ffb8c18ad0923",
+   "name": "J.P.Morgan Coin",
+   "score": 23,
+   "band": "LOW",
+   "top_reason": "GoPlus flags",
+   "scanned_at_utc": "2026-10-19T17:10:13Z",
+   "created_ts": 1792427177,
+   "page": "launch/base-0x11c854d8fd5043b4fd9926ef313ffb8c18ad0923.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x9944d5a58b5f59d55b7527152a9299ff9308e331",
+   "name": "startupSI",
+   "score": 15,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-19T17:10:06Z",
+   "created_ts": 1792425871,
+   "page": "launch/base-0x9944d5a58b5f59d55b7527152a9299ff9308e331.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x51bc3154b137fddf5ac91e986c3a3ed18d0d9146",
+   "name": "Kryptons",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:09:49Z",
+   "created_ts": 1792427514,
+   "page": "launch/robinhood-0x51bc3154b137fddf5ac91e986c3a3ed18d0d9146.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x77758b823d64ea51c28aa385b15ce738e45a7f13",
+   "name": "Standard Notional",
+   "score": 39,
+   "band": "MODERATE",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-19T17:09:24Z",
+   "created_ts": 1792428612,
+   "page": "launch/robinhood-0x77758b823d64ea51c28aa385b15ce738e45a7f13.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xb479898112dd8185aedfc22249bad91d873a964b",
+   "name": "Standard Notional",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:09:06Z",
+   "created_ts": 1792428873,
+   "page": "launch/robinhood-0xb479898112dd8185aedfc22249bad91d873a964b.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x9d0d3005c9bf1c0dd06be519d7c9ee0c988df26c",
+   "name": "Kryptons",
+   "score": 23,
+   "band": "LOW",
+   "top_reason": "Serial deployer",
+   "scanned_at_utc": "2026-10-19T17:08:46Z",
+   "created_ts": 1792427049,
+   "page": "launch/robinhood-0x9d0d3005c9bf1c0dd06be519d7c9ee0c988df26c.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x16121de8b5b81edbec05d1fbb6a86954497110d2",
+   "name": "Trump Gold Card",
+   "score": 50,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-19T17:08:12Z",
+   "created_ts": 1792427917,
+   "page": "launch/robinhood-0x16121de8b5b81edbec05d1fbb6a86954497110d2.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x47c5ea4d85c4c1a81f26124580a80b0b7a581cc0",
+   "name": "Factor",
+   "score": 14,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-19T17:07:47Z",
+   "created_ts": 1791986499,
+   "page": "launch/robinhood-0x47c5ea4d85c4c1a81f26124580a80b0b7a581cc0.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x38bb87cf3e7344a82be7cd671c191f015b97eee6",
+   "name": "SANTAHOOD",
+   "score": 3,
+   "band": "LOW",
+   "top_reason": "Sell simulation unavailable",
+   "scanned_at_utc": "2026-10-19T17:07:22Z",
+   "created_ts": 1783026432,
+   "page": "launch/robinhood-0x38bb87cf3e7344a82be7cd671c191f015b97eee6.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x9a7c661be578e50927268fb770146d701b3368e7",
+   "name": "INVARA Core",
+   "score": 14,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-19T17:06:54Z",
+   "created_ts": 1792083344,
+   "page": "launch/robinhood-0x9a7c661be578e50927268fb770146d701b3368e7.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x5ba5108c56766aac0eae783793d43e08b488a626",
+   "name": "PIMP",
+   "score": 51,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-19T17:06:27Z",
+   "created_ts": 1792420016,
+   "page": "launch/robinhood-0x5ba5108c56766aac0eae783793d43e08b488a626.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xfafde84f08abe540fb20940a7741d7b44a478ccd",
+   "name": "Santa by Robinhood",
+   "score": 43,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:06:03Z",
+   "created_ts": 1788379315,
+   "page": "launch/robinhood-0xfafde84f08abe540fb20940a7741d7b44a478ccd.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+   "name": "Harvest Vale",
+   "score": 24,
+   "band": "LOW",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:05:47Z",
+   "created_ts": 1792162143,
+   "page": "launch/robinhood-0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+   "name": "Dacity Coin",
+   "score": 40,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-19T17:05:20Z",
+   "created_ts": 1792426410,
+   "page": "launch/robinhood-0x6d8933adb13d3e776085d0d483ea55ca82e7f376.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x9df72f508f7f44748a55831875d3d459e559d3c1",
+   "name": "Standard Notional",
+   "score": 35,
+   "band": "MODERATE",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-19T17:04:57Z",
+   "created_ts": 1792427770,
+   "page": "launch/robinhood-0x9df72f508f7f44748a55831875d3d459e559d3c1.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x876b4de9286510e342bb412b459998917317bc69",
+   "name": "HUGIN",
+   "score": 39,
+   "band": "MODERATE",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-19T17:04:35Z",
+   "created_ts": 1792427635,
+   "page": "launch/robinhood-0x876b4de9286510e342bb412b459998917317bc69.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x84e777bc0f3dff6add2dd49fa2e841845541678c",
+   "name": "OBELISK",
+   "score": 36,
+   "band": "MODERATE",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-19T17:03:38Z",
+   "created_ts": 1792427273,
+   "page": "launch/robinhood-0x84e777bc0f3dff6add2dd49fa2e841845541678c.html"
+  },
   {
    "chain": "robinhood",
    "address": "0x35319759F179dD2ab288Cee3222eddB4879a448B",
@@ -1188,17 +1408,6 @@
    "scanned_at_utc": "2026-10-16T15:05:09Z",
    "created_ts": 1792160467,
    "page": "launch/base-0xeb049387840a25887ca000cc40838c960b256853.html"
-  },
-  {
-   "chain": "robinhood",
-   "address": "0x9a7c661be578e50927268fb770146d701b3368e7",
-   "name": "INVARA Core",
-   "score": 24,
-   "band": "LOW",
-   "top_reason": "Low DEX liquidity",
-   "scanned_at_utc": "2026-10-16T15:04:52Z",
-   "created_ts": 1792083344,
-   "page": "launch/robinhood-0x9a7c661be578e50927268fb770146d701b3368e7.html"
   },
   {
    "chain": "robinhood",

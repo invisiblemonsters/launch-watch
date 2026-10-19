@@ -1,8 +1,44 @@
 {
- "generated_utc": "2026-10-19T17:03:21+00:00",
+ "generated_utc": "2026-10-19T19:25:10+00:00",
  "definition": "band ELEVATED or HIGH (score >= 50)",
- "count": 29,
+ "count": 32,
  "launches": [
+  {
+   "chain": "robinhood",
+   "address": "0xdecd66f11724f97cb8b6ab72649c7a49c3f13e5d",
+   "name": "Dacity Coin",
+   "score": 68,
+   "band": "ELEVATED",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-19T17:10:25Z",
+   "created_ts": 1792428260,
+   "page": "launch/robinhood-0xdecd66f11724f97cb8b6ab72649c7a49c3f13e5d.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0xdecd66f11724f97cb8b6ab72649c7a49c3f13e5d.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x16121de8b5b81edbec05d1fbb6a86954497110d2",
+   "name": "Trump Gold Card",
+   "score": 50,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-19T17:08:12Z",
+   "created_ts": 1792427917,
+   "page": "launch/robinhood-0x16121de8b5b81edbec05d1fbb6a86954497110d2.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x16121de8b5b81edbec05d1fbb6a86954497110d2.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x5ba5108c56766aac0eae783793d43e08b488a626",
+   "name": "PIMP",
+   "score": 51,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-19T17:06:27Z",
+   "created_ts": 1792420016,
+   "page": "launch/robinhood-0x5ba5108c56766aac0eae783793d43e08b488a626.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x5ba5108c56766aac0eae783793d43e08b488a626.html"
+  },
   {
    "chain": "base",
    "address": "0x5bf0954a427e8d27b4700fbf2df572eb287516da",

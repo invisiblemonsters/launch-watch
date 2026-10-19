@@ -26,10 +26,14 @@ REPO_URL = f"https://github.com/{REPO}"
 ISSUE_NEW = f"{REPO_URL}/issues/new?template=request-review.yml"
 # Public BTC receive address for orders (BIP84 account 0, receive index 1). Address only; no keys live here.
 BTC_ADDR = "bc1qk43phw0cl63a2pqxssnakwsnuxu0swwjvmm9r0"
+# Paid instant scan (GitHub Actions bot in invisiblemonsters/launch-watch-scan). Fixed rate, not live.
+SCAN_FORM = "https://github.com/invisiblemonsters/launch-watch-scan/issues/new?template=paid-scan.yml"
+SCAN_REPO_URL = "https://github.com/invisiblemonsters/launch-watch-scan"
+SCAN_SATS, SCAN_MIN_SATS, PACK_SATS, SCAN_RATE_USD = 6100, 5490, 24500, 81771
 INDEXNOW_KEY = "5f1c0d7e9a4b4e2c8a6d3b1f0e7c9a24"
 SITE_URL = "https://invisiblemonsters.github.io/launch-watch/"  # set from --site-url in main()
 DEFAULT_DESC = ("Free automated risk scores for new token and contract launches on Robinhood Chain and Base, "
-                "with a $50 Verified badge and a $150 24-hour manual review for teams.")
+                "with a $5 instant scan, a $50 Verified badge and a $150 24-hour manual review for teams.")
 
 # --------------------------------------------------------------------------- scorer constants
 def load_scorer(data_dir):
@@ -191,6 +195,13 @@ def issue_url(name=None, chain=None, address=None, page_url=None):
     if address: q["addresses"] = address
     if page_url: q["page"] = page_url
     return ISSUE_NEW + ("&" + urllib.parse.urlencode(q, quote_via=urllib.parse.quote) if q else "")
+
+def scan_url(chain_name=None, address=None):
+    """Prefilled 'Paid instant scan' issue form in the launch-watch-scan repo."""
+    q = {}
+    if chain_name: q["chain"] = f"{chain_name} (chain ID {4663 if chain_name.startswith('Robinhood') else 8453})"
+    if address: q["address"] = address; q["title"] = f"[Instant scan] {address}"
+    return SCAN_FORM + ("&" + urllib.parse.urlencode(q, quote_via=urllib.parse.quote) if q else "")
 
 def page(title, body, depth=0, desc=None, canonical=None):
     up = "../" * depth
@@ -366,7 +377,7 @@ def render_launch(r, ctx, history):
 <table class="weights"><tbody>{applied_rows}<tr class="total"><td>Total (capped at 100)</td><td class=num>{min(100, round(pts_sum))}</td></tr></tbody></table>
 <details><summary>All scoring weights (scorer v{esc(r.get('version'))})</summary>{weights_table(W, UP, RF)}<p class="small">See the <a href="../methodology.html">methodology</a> for what each rule means.</p></details>
 {hist}
-<div class="note owner"><strong>Is this your project?</strong> On-chain state changes after a scan. <a class="btn" href="{esc(issue_url(name, c['name'], a, ctx['SITE'] + 'launch/' + slug(r) + '.html'))}">Claim this page: request a re-scan, badge or review</a><br><span class="small">Opens a prefilled GitHub issue (public; never post vulnerabilities there). Free re-scans and corrections; <a href="../get-reviewed.html">$50 Verified badge or $150 24-hour review</a>. Or email <a href="mailto:{CONTACT}?subject=Re-scan%20{esc(al)}">{CONTACT}</a>.</span></div>
+<div class="note owner"><strong>Is this your project?</strong> On-chain state changes after a scan. <a class="btn" href="{esc(issue_url(name, c['name'], a, ctx['SITE'] + 'launch/' + slug(r) + '.html'))}">Claim this page: request a re-scan, badge or review</a><br><span class="small">Opens a prefilled GitHub issue (public; never post vulnerabilities there). Free re-scans and corrections; <a href="{esc(scan_url(c['name'], a))}">$5 instant scan</a>, <a href="../get-reviewed.html">$50 Verified badge or $150 24-hour review</a>. Or email <a href="mailto:{CONTACT}?subject=Re-scan%20{esc(al)}">{CONTACT}</a>.</span></div>
 """
     return page(f"{name} ({c['name']}) - {r['score']}/100 {r['band']} | Metatron Launch Watch", body, depth=1,
                 desc=f"Automated risk signals for {name} on {c['name']}: {r['score']}/100 ({r['band']}).",
@@ -452,7 +463,7 @@ def render_reviewed(ctx):
     site = ctx["SITE"]
     body = f"""
 <h1>Get reviewed: pricing</h1>
-<p class="lead">Launching on Robinhood Chain or Base? Every launch we see is scored for free. Teams who want more can order a dated Verified badge or a 24-hour manual review here, without waiting for anyone to contact them. Paid in BTC.</p>
+<p class="lead">Launching on Robinhood Chain or Base? Every launch we see is scored for free. Need a scan right now, of any contract? Order a $5 instant scan and get the report in a GitHub issue within minutes of 1 confirmation. Teams who want more can order a dated Verified badge or a 24-hour manual review here, without waiting for anyone to contact them. Paid in BTC.</p>
 <div class="cards">
 <div class="card">
 <h2>Scored</h2>
@@ -464,6 +475,18 @@ def render_reviewed(ctx):
 <li>No badge. Link to your launch page.</li>
 </ul>
 <p><a class="btn" href="{ISSUE_NEW}">Request a re-scan</a></p>
+</div>
+<div class="card" id="instant-scan">
+<h2>Instant scan</h2>
+<p class="price">$5 <small>{SCAN_SATS:,} sats, BTC</small></p>
+<ul>
+<li>Any Robinhood Chain or Base contract, on demand: the full Launch Watch scanner (score, band, every check and its evidence link) posted as a comment on your GitHub issue.</li>
+<li>Fully automatic: a bot checks your payment on mempool.space and runs the scan after <strong>1 confirmation</strong> (re-checked every 15 minutes), then closes the issue.</li>
+<li><strong>Scan pack:</strong> {PACK_SATS:,} sats ($20) for 5 scans; one transaction ID works for 5 requests from the same GitHub account.</li>
+<li>Fixed rate of ${SCAN_RATE_USD:,}/BTC; payments from {SCAN_MIN_SATS:,} sats are accepted. The report is public and automated: not an audit or a guarantee.</li>
+<li>Payments via mixers/CoinJoin and launches in excluded hosting clusters are declined and refunded manually.</li>
+</ul>
+<p><a class="btn" href="{SCAN_FORM}">Order an instant scan</a></p>
 </div>
 <div class="card">
 <h2>Verified badge</h2>
@@ -491,6 +514,7 @@ def render_reviewed(ctx):
 </div>
 
 <h2 id="order">How to order</h2>
+<p><strong>Instant scan ($5):</strong> pay {SCAN_SATS:,} sats to the address below, then <a href="{SCAN_FORM}">open a "Paid instant scan" issue</a> with the chain, contract address and transaction ID. Everything else is automatic (<a href="{SCAN_REPO_URL}">how it works</a>). The steps below are for the badge and the review.</p>
 <ol>
 <li><strong>Open a request:</strong> <a href="{ISSUE_NEW}">open a GitHub issue with the "Request a review or re-scan" form</a> (chain, addresses, which tier). If your launch already has a page here, use the <em>Is this your project?</em> button on it; the form comes prefilled. Issues are public: include public information only.<br>
 Prefer email? Write to <a href="mailto:{CONTACT}?subject=Review%20request">{CONTACT}</a> with the chain, addresses and tier. The inbox can reply to anyone who writes to it first.</li>
@@ -517,7 +541,7 @@ Prefer email? Write to <a href="mailto:{CONTACT}?subject=Review%20request">{CONT
 <p>Do not open a public issue. Use <a href="{REPO_URL}/security/advisories/new">GitHub private vulnerability reporting</a>, or email <a href="mailto:{CONTACT}">{CONTACT}</a>. See <a href="{REPO_URL}/blob/main/SECURITY.md">SECURITY.md</a>.</p>
 """
     return page("Get reviewed: pricing | Metatron Launch Watch", body, 0,
-                desc="Scored (free), Launch Watch Verified badge ($50 BTC) or a 24-hour manual smart-contract review ($150 BTC) for Robinhood Chain and Base launches. Not an audit or a guarantee.",
+                desc="Scored (free), $5 instant scan, Launch Watch Verified badge ($50 BTC) or a 24-hour manual smart-contract review ($150 BTC) for Robinhood Chain and Base launches. Not an audit or a guarantee.",
                 canonical=f"{site}get-reviewed.html")
 
 def load_featured():

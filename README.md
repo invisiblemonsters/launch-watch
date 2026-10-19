@@ -17,6 +17,7 @@ fixed uncertainty weight; they are never guessed. See the
 | Tier | Price | What you get |
 |---|---|---|
 | **Scored** | free | A public launch page with every check, weight and evidence link. Free re-scans and corrections. |
+| **Instant scan** | $5, BTC (6,100 sats) | Any Robinhood Chain or Base contract, on demand: the full automated scan (score, band, every check and evidence link) posted as a comment on your GitHub issue within minutes of 1 confirmation. Fully automatic. Pack of 5 for $20 (24,500 sats). Fixed rate $81,771/BTC; from 5,490 sats accepted. [Order](https://github.com/invisiblemonsters/launch-watch-scan/issues/new?template=paid-scan.yml) |
 | **Verified badge** | $50, BTC | Block-pinned re-scan plus a person reading your verified source and live owner/admin/role setup; a dated SVG badge linked to a public report; 30-day change cover. For LOW-band launches (or MODERATE with market/hosting-only signals). No badge if an unresolved high/medium item is found: full refund or a $50 credit toward the review. |
 | **24h Review** | $150, BTC | Manual review of source, owner/admin and roles, privileged functions, liquidity and lock setup, launch wallets; written findings with evidence within 24 hours. |
 
@@ -25,6 +26,11 @@ or a guarantee**, not a statement that a project is free of risk, and not invest
 terms: [Get reviewed](https://invisiblemonsters.github.io/launch-watch/get-reviewed.html).
 
 ## Ordering
+
+**Instant scan ($5):** pay 6,100 sats to the address below, then
+[open a "Paid instant scan" issue](https://github.com/invisiblemonsters/launch-watch-scan/issues/new?template=paid-scan.yml)
+in [launch-watch-scan](https://github.com/invisiblemonsters/launch-watch-scan) with the chain, address and transaction ID.
+A GitHub Actions bot verifies the payment on mempool.space and posts the report. The steps below are for the badge and review.
 
 1. [Open a "Request a review or re-scan" issue](https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml)
    (every launch page has a prefilled "Is this your project?" button), or email
@@ -46,7 +52,7 @@ see [SECURITY.md](SECURITY.md).
 | `docs/index.html` | Latest launches, newest scan first |
 | `docs/launch/<chain>-<address>.html` | One page per launch: every check, its evidence links, unknowns, the weights |
 | `docs/methodology.html` | Each check and its weight, data sources, known limits, exclusion policy |
-| `docs/get-reviewed.html` | Pricing and ordering: Scored (free), Verified badge ($50), 24h Review ($150) |
+| `docs/get-reviewed.html` | Pricing and ordering: Scored (free), Instant scan ($5), Verified badge ($50), 24h Review ($150) |
 | `docs/robinhood-chain-security.html` | Write-up: Launch Watch vs audit for Robinhood Chain; ordering links |
 | `docs/embed.html` | How to embed Atom/JSON feeds with required attribution |
 | `docs/sitemap.xml`, `docs/robots.txt` | Generated on every build for search engines |

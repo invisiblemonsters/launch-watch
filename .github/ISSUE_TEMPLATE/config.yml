@@ -1,5 +1,8 @@
 blank_issues_enabled: true
 contact_links:
+  - name: Paid instant scan ($5 in BTC, automatic)
+    url: https://github.com/invisiblemonsters/launch-watch-scan/issues/new?template=paid-scan.yml
+    about: Automated scan of any Robinhood Chain or Base contract, posted as an issue comment after 1 confirmation.
   - name: Methodology (how scores are built)
     url: https://invisiblemonsters.github.io/launch-watch/methodology.html
     about: Read this before disputing a signal.

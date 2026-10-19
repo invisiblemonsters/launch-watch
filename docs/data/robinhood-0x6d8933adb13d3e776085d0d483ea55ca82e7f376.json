@@ -1,0 +1,478 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+ "scanned_at_utc": "2026-10-19T17:05:20Z",
+ "block": 92777504,
+ "site": "https://www.thedacitycoin.com/",
+ "post": null,
+ "token": {
+  "name": "Dacity Coin",
+  "symbol": "DACITY",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.6564980",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0x57123d512c86aba2efb61d1804f5082f3327619415ca6eb35d7ee22221cc75ca"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.6684790",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.351",
+    "pair": "0x0928dec8f452a2d6613732bf9341d91f03963effc6f26fd02008f47162c33c74"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.1722860",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77",
+    "pair": "0xc41000f9c59347a55d7a2328638daafc06dc5705ff3b416d0c020e3133a1b13e"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "4",
+  "lp_holders": [
+   {
+    "address": "0x76f415ebd1bd85cf0ae098f9f00713d634a64c68",
+    "tag": "",
+    "value": "1.4786450",
+    "is_contract": 0,
+    "balance": "0.00018200512405085",
+    "percent": "0.379430640414061037",
+    "NFT_list": [
+     {
+      "value": "1.4786450",
+      "NFT_id": "3902741",
+      "amount": "0.00018200512405085",
+      "in_effect": "1",
+      "NFT_percentage": "0.379430640414061037"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x25aa5598a14c2ace4406309365601ca9bca1fe51",
+    "tag": "",
+    "value": "0.9467330",
+    "is_contract": 0,
+    "balance": "0.000116532583940413",
+    "percent": "0.242938303981770640",
+    "NFT_list": [
+     {
+      "value": "0.9467330",
+      "NFT_id": "3902643",
+      "amount": "0.000116532583940413",
+      "in_effect": "1",
+      "NFT_percentage": "0.242938303981770640"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x99498efe8e593cb2497f6deefad6d936bfdb7642",
+    "tag": "",
+    "value": "0.7358850",
+    "is_contract": 0,
+    "balance": "0.000090579504977718",
+    "percent": "0.188833233684286158",
+    "NFT_list": [
+     {
+      "value": "0.7358850",
+      "NFT_id": "3902720",
+      "amount": "0.000090579504977718",
+      "in_effect": "1",
+      "NFT_percentage": "0.188833233684286158"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x1afcfc1fec4c89e69238622d19ce53874a23a495",
+    "tag": "",
+    "value": "0.7357470",
+    "is_contract": 0,
+    "balance": "0.000090562518689507",
+    "percent": "0.188797821919882166",
+    "NFT_list": [
+     {
+      "value": "0.7357470",
+      "NFT_id": "3902728",
+      "amount": "0.000090562518689507",
+      "in_effect": "1",
+      "NFT_percentage": "0.188797821919882166"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000479679731658488",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Dacity Coin",
+  "token_symbol": "DACITY",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x3eee179f56a5ce8715e0640326565b96aef4df87e3e81f80941d52db1c8b78a1",
+  "block": 92747119,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xcac595230c724260029db27dd2920195fa82b82a",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792426410
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 18100.06,
+  "geckoterminal_top_usd": 20279.6373
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xb8a6207d90589acb57f49a953125a66e4d4a3f19adb9392144952b379e673200",
+   "liq_usd": 18100.06,
+   "created": 1792426468000,
+   "url": "https://dexscreener.com/robinhood/0xb8a6207d90589acb57f49a953125a66e4d4a3f19adb9392144952b379e673200",
+   "quote": "TTWO"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xc41000f9c59347a55d7a2328638daafc06dc5705ff3b416d0c020e3133a1b13e",
+   "liq_usd": 0.13,
+   "created": 1792427241000,
+   "url": "https://dexscreener.com/robinhood/0xc41000f9c59347a55d7a2328638daafc06dc5705ff3b416d0c020e3133a1b13e",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 16,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.193",
+  "216.150.16.193"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x6d8933adb13d3e776085d0d483ea55ca82e7f376?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x6d8933adb13d3e776085d0d483ea55ca82e7f376/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x6d8933adb13d3e776085d0d483ea55ca82e7f376/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcac595230c724260029db27dd2920195fa82b82a/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.thedacitycoin.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/thedacitycoin.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92777504",
+    "https://robinhoodchain.blockscout.com/address/0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0x6d8933adb13d3e776085d0d483ea55ca82e7f376?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92777504"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x6d8933adb13d3e776085d0d483ea55ca82e7f376 owner() @ 92777504 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 92777504"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xcac595230c724260029db27dd2920195fa82b82a holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xcac595230c724260029db27dd2920195fa82b82a) @ 92777504",
+    "https://robinhoodchain.blockscout.com/address/0xcac595230c724260029db27dd2920195fa82b82a"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.28% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x6d8933adb13d3e776085d0d483ea55ca82e7f376/holders",
+    "https://robinhoodchain.blockscout.com/token/0x6d8933adb13d3e776085d0d483ea55ca82e7f376?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $18,100 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xb8a6207d90589acb57f49a953125a66e4d4a3f19adb9392144952b379e673200",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xcac595230c724260029db27dd2920195fa82b82a (CREATE nonce scan 0..15); tokens launched via factories are not counted. Wallet nonce = 16.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcac595230c724260029db27dd2920195fa82b82a",
+    "https://robinhoodchain.blockscout.com/tx/0x3eee179f56a5ce8715e0640326565b96aef4df87e3e81f80941d52db1c8b78a1"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcac595230c724260029db27dd2920195fa82b82a on Blockscout: block 92708249 (2026-10-19 15:07 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcac595230c724260029db27dd2920195fa82b82a",
+    "https://robinhoodchain.blockscout.com/tx/0x3eee179f56a5ce8715e0640326565b96aef4df87e3e81f80941d52db1c8b78a1",
+    "https://robinhoodchain.blockscout.com/tx/0xaa9623af010453351f4573543d59692ed7b166d86e5c5329ec535793bee03518",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcac595230c724260029db27dd2920195fa82b82a/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.thedacitycoin.com -> 216.150.1.193, 216.150.16.193 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.thedacitycoin.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "thedacitycoin.com registered 2026-10-19 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/thedacitycoin.com"
+   ]
+  }
+ ],
+ "score": 40,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $18,100 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xb8a6207d90589acb57f49a953125a66e4d4a3f19adb9392144952b379e673200",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6d8933adb13d3e776085d0d483ea55ca82e7f376"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcac595230c724260029db27dd2920195fa82b82a on Blockscout: block 92708249 (2026-10-19 15:07 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcac595230c724260029db27dd2920195fa82b82a",
+    "https://robinhoodchain.blockscout.com/tx/0x3eee179f56a5ce8715e0640326565b96aef4df87e3e81f80941d52db1c8b78a1",
+    "https://robinhoodchain.blockscout.com/tx/0xaa9623af010453351f4573543d59692ed7b166d86e5c5329ec535793bee03518",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcac595230c724260029db27dd2920195fa82b82a/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Dacity Coin",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x6d8933adb13d3e776085d0d483ea55ca82e7f376",
+  "name": "Dacity Coin",
+  "symbol": "DACITY",
+  "created_at": "2026-10-19T16:27:21Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 0.2402,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xc41000f9c59347a55d7a2328638daafc06dc5705ff3b416d0c020e3133a1b13e",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.thedacitycoin.com/",
+  "x_profile": "https://x.com/dacitygtacoin",
+  "post": null
+ }
+}

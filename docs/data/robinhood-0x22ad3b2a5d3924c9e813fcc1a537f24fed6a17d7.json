@@ -1,0 +1,480 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+ "scanned_at_utc": "2026-10-19T17:05:47Z",
+ "block": 92777776,
+ "site": "https://harvestvale.online/",
+ "post": null,
+ "token": {
+  "name": "Harvest Vale",
+  "symbol": "VALE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "5.4786680",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.000075",
+    "pair": "0x8373256e7aa022b20233bbe3d7bb4f677906eea2c9e67fc0bc8d4e2878f7d1f2"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "102",
+  "holders": [
+   {
+    "address": "0x080C2889d6fD076E3c65DD7AF5fd01Cd4812F673",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "570653790.234593349274659103",
+    "percent": "0.570654",
+    "is_locked": 0
+   },
+   {
+    "address": "0xBE0b139ABc90723Af76a89D3051f60Ba1B64c8d9",
+    "tag": "PinkLock02",
+    "is_contract": 1,
+    "balance": "40000000",
+    "percent": "0.040000",
+    "is_locked": 1
+   },
+   {
+    "address": "0x588cF3AFDfAd557168D15d377757c83856E6Ff12",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "30928131.838401770277812678",
+    "percent": "0.030928",
+    "is_locked": 0
+   },
+   {
+    "address": "0x23B30939ffE4Ead8510F78f8B779912cD08003F4",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "28153892.375027823184017832",
+    "percent": "0.028154",
+    "is_locked": 0
+   },
+   {
+    "address": "0x87B9e3eC5cFD29D5401cC642Edb81104245518FD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "26305743.521643334224105879",
+    "percent": "0.026306",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6a32Abe96168AE4c8bcF53A6486098C0fB60f134",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "23865435.609157459902547829",
+    "percent": "0.023865",
+    "is_locked": 0
+   },
+   {
+    "address": "0x001fA656A5c52a577Cc6B950483C60c1A07E5677",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "17158371.513080453634382596",
+    "percent": "0.017158",
+    "is_locked": 0
+   },
+   {
+    "address": "0x74615908a9465F2763a2ba0f9523453E48e0d6c0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "15169687.792706691812250377",
+    "percent": "0.015170",
+    "is_locked": 0
+   },
+   {
+    "address": "0x534B09E019093c770cbbCeAE3a1298708C43AA9c",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12685739.794171354387437238",
+    "percent": "0.012686",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9408D30142dD776390C050a73608BdE688bb84cF",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "12626003.342939587316318835",
+    "percent": "0.012626",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x2164365b9a62d404dcb8eed996df549dcc926720",
+    "tag": "",
+    "value": "5.4786680",
+    "is_contract": 0,
+    "balance": "0.001507565164549546",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "5.4786680",
+      "NFT_id": "3902411",
+      "amount": "0.001507565164549546",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.001507565164549546",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Harvest Vale",
+  "token_symbol": "VALE",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x417f7e316a8eb113da4f36e93ba2b6260e873f1f7e007f9cf24ff41785acab40",
+  "block": 90161738,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x2164365b9a62d404dcb8eed996df549dcc926720",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792162143
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 10.95,
+  "geckoterminal_top_usd": 10720.8451
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x8373256e7aa022b20233bbe3d7bb4f677906eea2c9e67fc0bc8d4e2878f7d1f2",
+   "liq_usd": 10.95,
+   "created": 1792425841000,
+   "url": "https://dexscreener.com/robinhood/0x8373256e7aa022b20233bbe3d7bb4f677906eea2c9e67fc0bc8d4e2878f7d1f2",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 21,
+ "deployer_contracts": [],
+ "site_ips": [
+  "217.216.108.54"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2164365b9a62d404dcb8eed996df549dcc926720/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=harvestvale.online&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/harvestvale.online",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92777776",
+    "https://robinhoodchain.blockscout.com/address/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92777776"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7 owner() @ 92777776 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 92777776",
+    "https://robinhoodchain.blockscout.com/address/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x2164365b9a62d404dcb8eed996df549dcc926720 holds 0.33% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x2164365b9a62d404dcb8eed996df549dcc926720) @ 92777776",
+    "https://robinhoodchain.blockscout.com/address/0x2164365b9a62d404dcb8eed996df549dcc926720"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.88% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7/holders",
+    "https://robinhoodchain.blockscout.com/token/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $11, GeckoTerminal top pool $10,721. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x8373256e7aa022b20233bbe3d7bb4f677906eea2c9e67fc0bc8d4e2878f7d1f2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x2164365b9a62d404dcb8eed996df549dcc926720 (CREATE nonce scan 0..20); tokens launched via factories are not counted. Wallet nonce = 21.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2164365b9a62d404dcb8eed996df549dcc926720",
+    "https://robinhoodchain.blockscout.com/tx/0x417f7e316a8eb113da4f36e93ba2b6260e873f1f7e007f9cf24ff41785acab40"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2164365b9a62d404dcb8eed996df549dcc926720 on Blockscout: block 90109919 (2026-10-16 13:21 UTC), 3.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2164365b9a62d404dcb8eed996df549dcc926720",
+    "https://robinhoodchain.blockscout.com/tx/0x417f7e316a8eb113da4f36e93ba2b6260e873f1f7e007f9cf24ff41785acab40",
+    "https://robinhoodchain.blockscout.com/tx/0xf3cd3db4bf106fbe6e392b5126e2c7582c23bca19f3bfed639b9a280db18136f",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2164365b9a62d404dcb8eed996df549dcc926720/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "harvestvale.online -> 217.216.108.54; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=harvestvale.online&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "harvestvale.online registered 2026-08-23 (57 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/harvestvale.online"
+   ]
+  }
+ ],
+ "score": 24,
+ "band": "LOW",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2164365b9a62d404dcb8eed996df549dcc926720 on Blockscout: block 90109919 (2026-10-16 13:21 UTC), 3.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2164365b9a62d404dcb8eed996df549dcc926720",
+    "https://robinhoodchain.blockscout.com/tx/0x417f7e316a8eb113da4f36e93ba2b6260e873f1f7e007f9cf24ff41785acab40",
+    "https://robinhoodchain.blockscout.com/tx/0xf3cd3db4bf106fbe6e392b5126e2c7582c23bca19f3bfed639b9a280db18136f",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2164365b9a62d404dcb8eed996df549dcc926720/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $11, GeckoTerminal top pool $10,721. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x8373256e7aa022b20233bbe3d7bb4f677906eea2c9e67fc0bc8d4e2878f7d1f2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7/pools"
+   ]
+  }
+ ],
+ "label": "Harvest Vale",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+  "site": "https://harvestvale.online/",
+  "x_profile": "https://x.com/HarvestValeGame",
+  "pool_url": "https://dexscreener.com/robinhood/0x22ad3b2a5d3924c9e813fcc1a537f24fed6a17d7",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

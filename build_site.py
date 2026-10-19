@@ -220,14 +220,14 @@ def page(title, body, depth=0, desc=None, canonical=None):
 <body>
 <header class="top"><div class="wrap">
 <a class="brand" href="{up}index.html">Metatron <span>Launch Watch</span></a>
-<nav><a href="{up}index.html">Launches</a><a href="{up}methodology.html">Methodology</a><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a><a href="{up}feed.xml">Feed</a></nav>
+<nav><a href="{up}index.html">Launches</a><a href="{up}methodology.html">Methodology</a><a href="{up}robinhood-chain-security.html">RH Chain security</a><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a><a href="{up}embed.html">Embed</a><a href="{up}feed.xml">Feed</a></nav>
 </div></header>
 <main class="wrap">
 {body}
 </main>
 <footer class="foot"><div class="wrap">
 <p>{esc(FOOTER).replace(esc(CONTACT), f'<a href="mailto:{CONTACT}">{CONTACT}</a>')}</p>
-<p><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="{ISSUE_NEW}">Request a review (GitHub issue)</a> · <a href="{REPO_URL}">Source on GitHub</a> · <a href="{REPO_URL}/security/advisories/new">Report a vulnerability privately</a></p>
+<p><a href="{up}get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="{up}robinhood-chain-security.html">Robinhood Chain security</a> · <a href="{up}embed.html">Embed / feeds</a> · <a href="{ISSUE_NEW}">Request a review (GitHub issue)</a> · <a href="{REPO_URL}">Source on GitHub</a> · <a href="{REPO_URL}/security/advisories/new">Report a vulnerability privately</a></p>
 </div></footer>
 </body>
 </html>
@@ -384,7 +384,7 @@ def render_index(recs, ctx, stats, featured_html=""):
     body = f"""
 <section class="intro">
 <h1>New launches, scored automatically</h1>
-<p>Free public feed of automated risk scores for new token and contract launches on <strong>Robinhood Chain</strong> and <strong>Base</strong>. Every score is the sum of fixed rules, every rule links to its public source, and checks that could not run are shown as <em>unknown</em>. Higher score = more risk signals. <a href="methodology.html">How scoring works</a>.</p>
+<p>Free public feed of automated risk scores for new token and contract launches on <strong>Robinhood Chain</strong> and <strong>Base</strong>. Every score is the sum of fixed rules, every rule links to its public source, and checks that could not run are shown as <em>unknown</em>. Higher score = more risk signals. <a href="methodology.html">How scoring works</a>. Teams launching on Robinhood Chain: see <a href="robinhood-chain-security.html">what Launch Watch covers vs a real audit</a>, and how to order a Verified badge or 24h review. Machine-readable feeds: <a href="embed.html">Embed</a>.</p>
 <p class="legend"><span class="pill low">0-24 <small>LOW</small></span> <span class="pill mod">25-49 <small>MODERATE</small></span> <span class="pill elev">50-74 <small>ELEVATED</small></span> <span class="pill high">75-100 <small>HIGH</small></span></p>
 <p class="small">{stats['included']} launches listed · {stats['chains']} · last updated {fmt_pt(stats['built'])} · scans run about every 30 minutes · <a href="feed.xml">Atom feed</a></p>
 </section>
@@ -578,9 +578,162 @@ def render_featured_index(feat, by_key):
 """
 
 
+
+def render_rh_security(ctx):
+    """SEO write-up: Launch Watch vs audit for Robinhood Chain teams."""
+    site = ctx["SITE"]
+    body = f"""
+<h1>Robinhood Chain launch security: scores, reviews, and what &ldquo;not audited&rdquo; means</h1>
+<p class="lead">Many Robinhood Chain (chain ID 4663) projects ship while contracts are still marked <em>not audited</em>. That is common early on. This page explains what Metatron Launch Watch already publishes for free, how that differs from a full security audit, and how a team can order a Verified badge ($50 BTC) or a 24-hour manual review ($150 BTC) without waiting for outreach.</p>
+
+<div class="note"><p><strong>Short disclaimer:</strong> Reviewed at the listed address and block on the date shown. <strong>Not an audit or a guarantee.</strong> Automated on-chain checks and manual reads of verified source are risk signals, not evidence of wrongdoing, not investment advice, and not a statement that a project or token is free of risk.</p></div>
+
+<h2 id="search">If you searched for a Robinhood Chain audit</h2>
+<p>Search results for &ldquo;Robinhood Chain audit&rdquo;, &ldquo;RH Chain not audited&rdquo;, or &ldquo;Robinhood Chain launch security&rdquo; often mix three different things:</p>
+<ul>
+<li><strong>A third-party security audit</strong> &mdash; a firm reads design and code in depth, often over weeks, and publishes a report. Launch Watch does not sell that.</li>
+<li><strong>Automated launch scoring</strong> &mdash; what this site does for free: fixed on-chain and hosting checks with evidence links for new Robinhood Chain and Base launches.</li>
+<li><strong>A dated manual review of listed addresses</strong> &mdash; what you can order here ($50 Verified badge or $150 24h Review): a person reads verified source and live owner/admin/role setup at a pinned block, with written findings.</li>
+</ul>
+<p>If your site or docs already say the contracts are <strong>not audited</strong>, that statement can stay accurate while you still get a public Launch Watch score page, and optionally a dated badge or review report that links only to the addresses and block that were checked.</p>
+
+<h2 id="vs-audit">What Launch Watch scores vs a real audit</h2>
+<table class="weights">
+<thead><tr><th></th><th>Launch Watch (this site)</th><th>Typical third-party audit</th></tr></thead>
+<tbody>
+<tr><td>Coverage</td><td>Token/contract launches we discover on Robinhood Chain and Base; fixed rule set</td><td>Agreed scope, often the whole protocol and design</td></tr>
+<tr><td>Method</td><td>Automated checks + optional manual read of verified source and live roles</td><td>Deep manual review, often with tooling and formal process</td></tr>
+<tr><td>Output</td><td>Public score page; optional dated badge or written findings</td><td>Audit report; sometimes a fix review</td></tr>
+<tr><td>Speed / price</td><td>Scores are free and continuous; badge $50 / 24h review $150 (BTC)</td><td>Usually days to weeks; much higher cost</td></tr>
+<tr><td>Claim</td><td>Risk signals at an address and block. Not an audit or guarantee</td><td>Defined by the auditor&rsquo;s own terms</td></tr>
+</tbody>
+</table>
+<p class="small">Full rule weights and data sources: <a href="methodology.html">methodology</a>. Pricing and ordering: <a href="get-reviewed.html">Get reviewed</a>.</p>
+
+<h2 id="tiers">What teams can get</h2>
+<div class="cards">
+<div class="card">
+<h3>Scored (free)</h3>
+<p>Every launch we see gets a public page: score 0&ndash;100, band (LOW / MODERATE / ELEVATED / HIGH), each check with evidence. Free re-scans and corrections. No badge.</p>
+</div>
+<div class="card">
+<h3>Verified badge &mdash; $50 BTC</h3>
+<p>Block-pinned re-scan plus a person reading verified source and live owner/admin/roles. Dated SVG badge linked to a public report. 30-day change cover. For LOW scores, or MODERATE when flags are market/hosting-only. If an unresolved high/medium item is found: no badge; full refund or $50 credit toward the review.</p>
+</div>
+<div class="card featured">
+<h3>24h Review &mdash; $150 BTC</h3>
+<p>Manual review of source, owner/admin and roles, privileged functions, liquidity/lock setup, launch wallets. Written findings with evidence within 24 hours of 1 confirmation. Teams with no unresolved high-severity items may display the Reviewed by Metatron badge.</p>
+</div>
+</div>
+
+<h2 id="order">How to order (no cold outreach required)</h2>
+<ol>
+<li><strong>Open a request</strong> with the <a href="{ISSUE_NEW}">Request a review or re-scan</a> GitHub form (chain, addresses, tier). If you already have a launch page here, use <em>Is this your project?</em> so the form is prefilled. Issues are public: include public information only. Or email <a href="mailto:{CONTACT}?subject=Review%20request">{CONTACT}</a> first; the inbox can reply to anyone who writes in.</li>
+<li><strong>Pay</strong> the USD amount in BTC (mempool.space price when you send) to:<br>
+<code class="btc">{BTC_ADDR}</code><br>
+Same address on <a href="get-reviewed.html#payment">Get reviewed</a>, the README, and SECURITY.md. If you are given any other address, do not pay it. Confirm on <a href="https://mempool.space/address/{BTC_ADDR}" rel="nofollow noopener">mempool.space</a>.</li>
+<li><strong>Match the payment</strong> by posting the transaction ID in the issue (or emailing it with the issue number).</li>
+<li><strong>Work starts after 1 confirmation.</strong> Results within 24 hours.</li>
+</ol>
+<p><a class="btn" href="get-reviewed.html">Full pricing and badge meaning</a> &nbsp; <a class="btn" href="{ISSUE_NEW}">Open a review request</a></p>
+
+<h2 id="badge-means">What a badge does and does not mean</h2>
+<blockquote>
+<p><strong>What this badge means:</strong> On the date shown, Metatron Launch Watch re-ran its automated checks and a person read the verified source code and live owner/admin setup of the contract address(es) listed on this page, pinned to the block (and source commit, if provided) listed here. The findings are on this page with links to public evidence.</p>
+<p><strong>What it does not mean:</strong> It is not an audit, not a guarantee, not a statement that the project or token is free of risk, and not investment advice. It says nothing about the team&rsquo;s intentions, future behaviour, off-chain systems, other contracts, or market conditions. On-chain state can change after the review; check the date and the current status on this page.</p>
+</blockquote>
+<p class="small">We do not use the words safe, secure, audited, certified, approved, or trusted for Launch Watch badges. Scope is the addresses on the report only.</p>
+
+<h2 id="feeds">Feeds for builders and bots</h2>
+<p>Machine-readable indexes (attribution required): <a href="embed.html">Embed / feeds</a> &mdash; Atom <a href="feed.xml">feed.xml</a>, <a href="data/launches.json">data/launches.json</a>, <a href="data/high-risk.json">data/high-risk.json</a> (ELEVATED and HIGH bands).</p>
+
+<p class="small">Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Corrections: <a href="mailto:{CONTACT}">{CONTACT}</a>.</p>
+"""
+    return page(
+        "Robinhood Chain launch security & reviews | Metatron Launch Watch",
+        body, 0,
+        desc=("Robinhood Chain launch security: how Metatron Launch Watch scores unaudited RH Chain contracts, "
+              "what that is not (a full audit), and how to order a $50 Verified badge or $150 24h review in BTC."),
+        canonical=f"{site}robinhood-chain-security.html",
+    )
+
+
+def render_embed(ctx):
+    """Docs for Atom/JSON embeds with required attribution."""
+    site = ctx["SITE"]
+    body = f"""
+<h1>Embed Launch Watch feeds</h1>
+<p class="lead">Use these static feeds to show new scores or high-band launches in your own bots, dashboards, or docs. No API key. Files are regenerated when the site rebuilds.</p>
+
+<div class="note"><p><strong>Wording:</strong> These are <em>risk signals</em>, not accusations. Do not label a named project a scam or a rug based only on a Launch Watch score. Higher score = more risk signals under our fixed rules. Not financial advice. Not an audit or a guarantee.</p></div>
+
+<h2>Endpoints</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>URL</th><th>Format</th><th>Contents</th></tr></thead>
+<tbody>
+<tr><td><a href="feed.xml"><code>{esc(site)}feed.xml</code></a></td><td>Atom</td><td>Newest scores (up to 100 entries), with band and summary</td></tr>
+<tr><td><a href="data/launches.json"><code>{esc(site)}data/launches.json</code></a></td><td>JSON</td><td>All listed launches: chain, address, name, score, band, page path, scan time</td></tr>
+<tr><td><a href="data/high-risk.json"><code>{esc(site)}data/high-risk.json</code></a></td><td>JSON</td><td>Subset with band <code>ELEVATED</code> or <code>HIGH</code> (score &ge; 50)</td></tr>
+</tbody></table></div>
+
+<h2>high-risk.json shape</h2>
+<pre><code>{{
+  "generated_utc": "…",
+  "definition": "band ELEVATED or HIGH (score &gt;= 50)",
+  "count": 27,
+  "launches": [
+    {{
+      "chain": "robinhood",
+      "address": "0x…",
+      "name": "…",
+      "score": 59,
+      "band": "ELEVATED",
+      "top_reason": "…",
+      "scanned_at_utc": "…",
+      "page": "launch/robinhood-0x….html",
+      "url": "{esc(site)}launch/robinhood-0x….html"
+    }}
+  ]
+}}</code></pre>
+
+<h2>Required attribution</h2>
+<p>If you embed, republish, or derive a public view from these feeds, include visible credit and a link back:</p>
+<ul>
+<li>Credit text such as: <em>Scores by Metatron Launch Watch</em></li>
+<li>Link to <a href="index.html">{esc(site)}</a> (or the specific launch page you show)</li>
+<li>For team-facing CTAs, also link <a href="get-reviewed.html">Get reviewed &amp; pricing</a></li>
+</ul>
+<pre><code>&lt;p&gt;Scores by &lt;a href="{esc(site)}"&gt;Metatron Launch Watch&lt;/a&gt;
+ · &lt;a href="{esc(site)}get-reviewed.html"&gt;Get reviewed&lt;/a&gt;.
+ Risk signals are not evidence of wrongdoing. Not an audit or a guarantee.&lt;/p&gt;</code></pre>
+
+<h2>Suggested use</h2>
+<ul>
+<li>Bot digests of new ELEVATED/HIGH scores (poll <code>high-risk.json</code> or the Atom feed)</li>
+<li>Dashboards that deep-link to each launch page for evidence</li>
+<li>Internal watchlists for Robinhood Chain / Base launches</li>
+</ul>
+<p class="small">Do not strip evidence links or present a score as a safety certificate. Methodology: <a href="methodology.html">methodology.html</a>. Robinhood Chain context: <a href="robinhood-chain-security.html">robinhood-chain-security.html</a>.</p>
+"""
+    return page(
+        "Embed feeds | Metatron Launch Watch",
+        body, 0,
+        desc="Atom and JSON feeds for Metatron Launch Watch scores, including high-risk (ELEVATED/HIGH) launches. Attribution required. Risk signals are not evidence of wrongdoing.",
+        canonical=f"{site}embed.html",
+    )
+
+
+
 def sitemap(latest, ctx, built, feat=None):
     site = ctx["SITE"]; day = built.strftime("%Y-%m-%d")
-    urls = [(site, day, "hourly", "1.0"), (f"{site}get-reviewed.html", day, "weekly", "0.9"), (f"{site}methodology.html", day, "weekly", "0.6")]
+    urls = [(site, day, "hourly", "1.0"),
+            (f"{site}get-reviewed.html", day, "weekly", "0.9"),
+            (f"{site}robinhood-chain-security.html", day, "weekly", "0.9"),
+            (f"{site}embed.html", day, "weekly", "0.7"),
+            (f"{site}methodology.html", day, "weekly", "0.6"),
+            (f"{site}data/launches.json", day, "hourly", "0.5"),
+            (f"{site}data/high-risk.json", day, "hourly", "0.5"),
+            (f"{site}feed.xml", day, "hourly", "0.5")]
     for r in latest:
         urls.append((f"{site}launch/{slug(r)}.html", r["scanned_at_utc"][:10], "daily", "0.5"))
     for f in (feat or {}).get("featured", []):
@@ -728,6 +881,8 @@ def main():
         W(f"featured/{f['slug']}.html", render_featured(f, ctx, by_key_latest))
     W("methodology.html", render_methodology(ctx, stats))
     W("get-reviewed.html", render_reviewed(ctx))
+    W("robinhood-chain-security.html", render_rh_security(ctx))
+    W("embed.html", render_embed(ctx))
     W("feed.xml", atom(latest, ctx, built))
     W("sitemap.xml", sitemap(latest, ctx, built, feat))
     W("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {site}sitemap.xml\n")
@@ -745,6 +900,22 @@ def main():
                            "top_reason": reason_label(tr0) if tr0 else None, "scanned_at_utc": r["scanned_at_utc"],
                            "created_ts": (r.get("creation") or {}).get("ts"), "page": f"launch/{slug(r)}.html"})
     W("data/launches.json", json.dumps({"generated_utc": stats["built"], "launches": index_json}, indent=1))
+    high_risk = []
+    for row in index_json:
+        if row["band"] in ("ELEVATED", "HIGH") or (isinstance(row.get("score"), (int, float)) and row["score"] >= 50):
+            high_risk.append({**row, "url": site + row["page"]})
+    W("data/high-risk.json", json.dumps({
+        "generated_utc": stats["built"],
+        "definition": "band ELEVATED or HIGH (score >= 50)",
+        "count": len(high_risk),
+        "launches": high_risk,
+        "attribution": {
+            "name": "Metatron Launch Watch",
+            "site": site,
+            "get_reviewed": site + "get-reviewed.html",
+            "required": "Credit Metatron Launch Watch and link back. Risk signals are not evidence of wrongdoing. Not an audit or a guarantee.",
+        },
+    }, indent=1))
     # copy saved evidence files referenced by notes
     for ev in glob.glob(os.path.join(a.data, "runs", "*", "evidence", "*")):
         day = ev.split(os.sep)[-3]; os.makedirs(os.path.join(out, "evidence", day), exist_ok=True)

@@ -47,10 +47,12 @@ see [SECURITY.md](SECURITY.md).
 | `docs/launch/<chain>-<address>.html` | One page per launch: every check, its evidence links, unknowns, the weights |
 | `docs/methodology.html` | Each check and its weight, data sources, known limits, exclusion policy |
 | `docs/get-reviewed.html` | Pricing and ordering: Scored (free), Verified badge ($50), 24h Review ($150) |
+| `docs/robinhood-chain-security.html` | Write-up: Launch Watch vs audit for Robinhood Chain; ordering links |
+| `docs/embed.html` | How to embed Atom/JSON feeds with required attribution |
 | `docs/sitemap.xml`, `docs/robots.txt` | Generated on every build for search engines |
 | `.github/ISSUE_TEMPLATE/` | The "Request a review or re-scan" issue form (adds the `review-request` label) |
 | `docs/feed.xml` | Atom feed of new scores (newest 100) |
-| `docs/data/` | Published evidence JSON per launch + `launches.json` index |
+| `docs/data/` | Evidence JSON per launch + `launches.json` + `high-risk.json` (ELEVATED/HIGH) |
 | `docs/evidence/` | Saved API responses referenced by scan notes |
 | `build_site.py` | Generator: reads every `runs/<date>/raw/*.json` from the scorer and writes `docs/` |
 | `data/exclusions.json` | Manual exclusions (records with misattributed or conflicting evidence), each with a reason |
@@ -60,6 +62,23 @@ see [SECURITY.md](SECURITY.md).
 The scorer itself (`score.py`, `discover.py`, `batch.py`) lives in the separate Launch Watch
 workspace and is not published here. It reuses the GoPlus / honeypot.is pattern from
 [invisiblemonsters/token-launch-scan](https://github.com/invisiblemonsters/token-launch-scan) (MIT).
+
+
+
+## Feeds / embed
+
+Machine-readable indexes (no API key). **Attribution required:** credit Metatron Launch Watch and
+link back to the site (and [Get reviewed](https://invisiblemonsters.github.io/launch-watch/get-reviewed.html)
+for team CTAs). Risk signals are not evidence of wrongdoing. Not an audit or a guarantee.
+
+| URL | Contents |
+|---|---|
+| [feed.xml](https://invisiblemonsters.github.io/launch-watch/feed.xml) | Atom feed of newest scores |
+| [data/launches.json](https://invisiblemonsters.github.io/launch-watch/data/launches.json) | All listed launches (score, band, page) |
+| [data/high-risk.json](https://invisiblemonsters.github.io/launch-watch/data/high-risk.json) | ELEVATED and HIGH bands only (score ≥ 50) |
+
+Details and sample HTML: [embed.html](https://invisiblemonsters.github.io/launch-watch/embed.html).
+Robinhood Chain context for teams: [robinhood-chain-security.html](https://invisiblemonsters.github.io/launch-watch/robinhood-chain-security.html).
 
 ## Build
 

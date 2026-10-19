@@ -2,7 +2,12 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 <url><loc>https://invisiblemonsters.github.io/launch-watch/</loc><lastmod>2026-10-19</lastmod><changefreq>hourly</changefreq><priority>1.0</priority></url>
 <url><loc>https://invisiblemonsters.github.io/launch-watch/get-reviewed.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://invisiblemonsters.github.io/launch-watch/robinhood-chain-security.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.9</priority></url>
+<url><loc>https://invisiblemonsters.github.io/launch-watch/embed.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.7</priority></url>
 <url><loc>https://invisiblemonsters.github.io/launch-watch/methodology.html</loc><lastmod>2026-10-19</lastmod><changefreq>weekly</changefreq><priority>0.6</priority></url>
+<url><loc>https://invisiblemonsters.github.io/launch-watch/data/launches.json</loc><lastmod>2026-10-19</lastmod><changefreq>hourly</changefreq><priority>0.5</priority></url>
+<url><loc>https://invisiblemonsters.github.io/launch-watch/data/high-risk.json</loc><lastmod>2026-10-19</lastmod><changefreq>hourly</changefreq><priority>0.5</priority></url>
+<url><loc>https://invisiblemonsters.github.io/launch-watch/feed.xml</loc><lastmod>2026-10-19</lastmod><changefreq>hourly</changefreq><priority>0.5</priority></url>
 <url><loc>https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x35319759f179dd2ab288cee3222eddb4879a448b.html</loc><lastmod>2026-10-19</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x48d134b04238ab7fb9134e6fc47149c39f3d022c.html</loc><lastmod>2026-10-19</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>
 <url><loc>https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x2bd2aa678a88835801e5a0ac58099ece60223f1e.html</loc><lastmod>2026-10-19</lastmod><changefreq>daily</changefreq><priority>0.5</priority></url>

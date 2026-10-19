@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Embed feeds | Metatron Launch Watch</title>
+<meta name="description" content="Atom and JSON feeds for Metatron Launch Watch scores, including high-risk (ELEVATED/HIGH) launches. Attribution required. Risk signals are not evidence of wrongdoing.">
+<link rel="canonical" href="https://invisiblemonsters.github.io/launch-watch/embed.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metatron Launch Watch">
+<meta property="og:title" content="Embed feeds | Metatron Launch Watch">
+<meta property="og:description" content="Atom and JSON feeds for Metatron Launch Watch scores, including high-risk (ELEVATED/HIGH) launches. Attribution required. Risk signals are not evidence of wrongdoing.">
+<meta property="og:url" content="https://invisiblemonsters.github.io/launch-watch/embed.html">
+<meta property="og:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Embed feeds | Metatron Launch Watch">
+<meta name="twitter:description" content="Atom and JSON feeds for Metatron Launch Watch scores, including high-risk (ELEVATED/HIGH) launches. Attribution required. Risk signals are not evidence of wrongdoing.">
+<meta name="twitter:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<link rel="stylesheet" href="style.css">
+<link rel="alternate" type="application/atom+xml" title="Metatron Launch Watch: new scores" href="feed.xml">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="index.html">Metatron <span>Launch Watch</span></a>
+<nav><a href="index.html">Launches</a><a href="methodology.html">Methodology</a><a href="robinhood-chain-security.html">RH Chain security</a><a href="get-reviewed.html">Get reviewed &amp; pricing</a><a href="embed.html">Embed</a><a href="feed.xml">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<h1>Embed Launch Watch feeds</h1>
+<p class="lead">Use these static feeds to show new scores or high-band launches in your own bots, dashboards, or docs. No API key. Files are regenerated when the site rebuilds.</p>
+
+<div class="note"><p><strong>Wording:</strong> These are <em>risk signals</em>, not accusations. Do not label a named project a scam or a rug based only on a Launch Watch score. Higher score = more risk signals under our fixed rules. Not financial advice. Not an audit or a guarantee.</p></div>
+
+<h2>Endpoints</h2>
+<div class="tablewrap"><table>
+<thead><tr><th>URL</th><th>Format</th><th>Contents</th></tr></thead>
+<tbody>
+<tr><td><a href="feed.xml"><code>https://invisiblemonsters.github.io/launch-watch/feed.xml</code></a></td><td>Atom</td><td>Newest scores (up to 100 entries), with band and summary</td></tr>
+<tr><td><a href="data/launches.json"><code>https://invisiblemonsters.github.io/launch-watch/data/launches.json</code></a></td><td>JSON</td><td>All listed launches: chain, address, name, score, band, page path, scan time</td></tr>
+<tr><td><a href="data/high-risk.json"><code>https://invisiblemonsters.github.io/launch-watch/data/high-risk.json</code></a></td><td>JSON</td><td>Subset with band <code>ELEVATED</code> or <code>HIGH</code> (score &ge; 50)</td></tr>
+</tbody></table></div>
+
+<h2>high-risk.json shape</h2>
+<pre><code>{
+  "generated_utc": "…",
+  "definition": "band ELEVATED or HIGH (score &gt;= 50)",
+  "count": 27,
+  "launches": [
+    {
+      "chain": "robinhood",
+      "address": "0x…",
+      "name": "…",
+      "score": 59,
+      "band": "ELEVATED",
+      "top_reason": "…",
+      "scanned_at_utc": "…",
+      "page": "launch/robinhood-0x….html",
+      "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x….html"
+    }
+  ]
+}</code></pre>
+
+<h2>Required attribution</h2>
+<p>If you embed, republish, or derive a public view from these feeds, include visible credit and a link back:</p>
+<ul>
+<li>Credit text such as: <em>Scores by Metatron Launch Watch</em></li>
+<li>Link to <a href="index.html">https://invisiblemonsters.github.io/launch-watch/</a> (or the specific launch page you show)</li>
+<li>For team-facing CTAs, also link <a href="get-reviewed.html">Get reviewed &amp; pricing</a></li>
+</ul>
+<pre><code>&lt;p&gt;Scores by &lt;a href="https://invisiblemonsters.github.io/launch-watch/"&gt;Metatron Launch Watch&lt;/a&gt;
+ · &lt;a href="https://invisiblemonsters.github.io/launch-watch/get-reviewed.html"&gt;Get reviewed&lt;/a&gt;.
+ Risk signals are not evidence of wrongdoing. Not an audit or a guarantee.&lt;/p&gt;</code></pre>
+
+<h2>Suggested use</h2>
+<ul>
+<li>Bot digests of new ELEVATED/HIGH scores (poll <code>high-risk.json</code> or the Atom feed)</li>
+<li>Dashboards that deep-link to each launch page for evidence</li>
+<li>Internal watchlists for Robinhood Chain / Base launches</li>
+</ul>
+<p class="small">Do not strip evidence links or present a score as a safety certificate. Methodology: <a href="methodology.html">methodology.html</a>. Robinhood Chain context: <a href="robinhood-chain-security.html">robinhood-chain-security.html</a>.</p>
+
+</main>
+<footer class="foot"><div class="wrap">
+<p>Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a>.</p>
+<p><a href="get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="robinhood-chain-security.html">Robinhood Chain security</a> · <a href="embed.html">Embed / feeds</a> · <a href="https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml">Request a review (GitHub issue)</a> · <a href="https://github.com/invisiblemonsters/launch-watch">Source on GitHub</a> · <a href="https://github.com/invisiblemonsters/launch-watch/security/advisories/new">Report a vulnerability privately</a></p>
+</div></footer>
+</body>
+</html>

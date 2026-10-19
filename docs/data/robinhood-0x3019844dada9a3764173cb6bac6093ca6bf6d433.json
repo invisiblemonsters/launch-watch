@@ -1,0 +1,283 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+ "scanned_at_utc": "2026-10-19T04:07:38Z",
+ "block": 92322729,
+ "site": "https://app.rukus.fun",
+ "post": null,
+ "token": {},
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "owner": "0xb3ce4a85fcb7aeef6712f0e2d245e39798010e39",
+ "creation": {
+  "tx": "0x4ac3d9ebc3fd2ac5c62206633c332a4c8f5ddcd6d979313b5fa59d8da1b78f3f",
+  "block": 89225477,
+  "deployer": "0x1fd49f21917d624923fc48243411fec2c545ecf0",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x1fd49f21917d624923fc48243411fec2c545ecf0",
+  "tx_from": "0x1fd49f21917d624923fc48243411fec2c545ecf0",
+  "tx_to": null,
+  "ts": 1792067400
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 31,
+ "deployer_contracts": [
+  "0x2282fa1d59cdba910cb6207f60f42cce3d7adbec",
+  "0xc48dd7789c3a684be9987f56ed9fd19e83331b79",
+  "0x0c166a792ed0f646e2a0aa18134f0cc6961cbe96",
+  "0xec2b3cc85bb6a4f3ccc04871e61a4099f9137795",
+  "0x7aa8edcd119ab8fc5cafb749d65166268991c452",
+  "0xe790f70bd9e678bce620763034ec5a253e535ab3",
+  "0xd2d1874c13de00a878c678587f2fe95b90a6a308",
+  "0x1d0da138b1d35745079df253ad08d5fdcd0e0cff",
+  "0x62944b22b84641065340a52946392c77d23f2d5e",
+  "0x3185292658cd153d7096d2be1d3077fad6fea1ec",
+  "0xac679493b61eec092def52ced8645e60b48b54e7",
+  "0x3019844dada9a3764173cb6bac6093ca6bf6d433",
+  "0xba37f941c3e5074629a9123f1c51dffa3600595c",
+  "0x08454c61880dde75fae85baca4bc049fd134228c",
+  "0x1b293936bcf87e77f2310303101f14e72eba2b09",
+  "0x181467cb82d48e1f16735a4e85cbd0374e5d6fdf"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x08454c61880dde75fae85baca4bc049fd134228c",
+  "0x0c166a792ed0f646e2a0aa18134f0cc6961cbe96",
+  "0x181467cb82d48e1f16735a4e85cbd0374e5d6fdf",
+  "0x1b293936bcf87e77f2310303101f14e72eba2b09",
+  "0x1d0da138b1d35745079df253ad08d5fdcd0e0cff",
+  "0x2282fa1d59cdba910cb6207f60f42cce3d7adbec",
+  "0x3019844dada9a3764173cb6bac6093ca6bf6d433",
+  "0x3185292658cd153d7096d2be1d3077fad6fea1ec",
+  "0x62944b22b84641065340a52946392c77d23f2d5e",
+  "0x7aa8edcd119ab8fc5cafb749d65166268991c452",
+  "0xac679493b61eec092def52ced8645e60b48b54e7",
+  "0xba37f941c3e5074629a9123f1c51dffa3600595c",
+  "0xc48dd7789c3a684be9987f56ed9fd19e83331b79",
+  "0xd2d1874c13de00a878c678587f2fe95b90a6a308",
+  "0xe790f70bd9e678bce620763034ec5a253e535ab3",
+  "0xec2b3cc85bb6a4f3ccc04871e61a4099f9137795"
+ ],
+ "site_ips": [
+  "104.21.28.221",
+  "172.67.147.185"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+   "status": 200,
+   "attempt": 3
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1fd49f21917d624923fc48243411fec2c545ecf0/transactions?sort=block_number&order=asc",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1fd49f21917d624923fc48243411fec2c545ecf0/transactions?sort=block_number&order=asc",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1fd49f21917d624923fc48243411fec2c545ecf0/transactions?sort=block_number&order=asc",
+   "status": 200,
+   "attempt": 3
+  },
+  {
+   "url": "https://dns.google/resolve?name=app.rukus.fun&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/rukus.fun",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "12320 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92322729",
+    "https://robinhoodchain.blockscout.com/address/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify as RukusFactoryV3. Sourcify: exact_match; Blockscout: not verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+    "https://robinhoodchain.blockscout.com/address/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92322729"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xb3ce4a85fcb7aeef6712f0e2d245e39798010e39, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x3019844dada9a3764173cb6bac6093ca6bf6d433 owner() @ 92322729",
+    "https://robinhoodchain.blockscout.com/address/0xb3ce4a85fcb7aeef6712f0e2d245e39798010e39"
+   ]
+  },
+  {
+   "id": "fn.pause",
+   "group": "fn",
+   "title": "pause function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found pause function(s): setPaused(bool) 0x16c38b3c [runtime bytecode], setPaused(bool) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+    "https://robinhoodchain.blockscout.com/address/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "16 live contract(s) created directly by 0x1fd49f21917d624923fc48243411fec2c545ecf0 (CREATE nonce scan 0..30); tokens launched via factories are not counted. Wallet nonce = 31.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1fd49f21917d624923fc48243411fec2c545ecf0",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac3d9ebc3fd2ac5c62206633c332a4c8f5ddcd6d979313b5fa59d8da1b78f3f",
+    "https://robinhoodchain.blockscout.com/address/0x2282fa1d59cdba910cb6207f60f42cce3d7adbec",
+    "https://robinhoodchain.blockscout.com/address/0xc48dd7789c3a684be9987f56ed9fd19e83331b79",
+    "https://robinhoodchain.blockscout.com/address/0x0c166a792ed0f646e2a0aa18134f0cc6961cbe96"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x1fd49f21917d624923fc48243411fec2c545ecf0 on Blockscout: block 85908194 (2026-10-11 14:38 UTC), 7.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1fd49f21917d624923fc48243411fec2c545ecf0",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac3d9ebc3fd2ac5c62206633c332a4c8f5ddcd6d979313b5fa59d8da1b78f3f",
+    "https://robinhoodchain.blockscout.com/tx/0x1e40abb5b5616f7651efb5bd568657cb2e16856c301e4a0a1c22e246c1a619af",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1fd49f21917d624923fc48243411fec2c545ecf0/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "app.rukus.fun -> 104.21.28.221, 172.67.147.185 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=app.rukus.fun&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "rukus.fun registered 2026-10-11 (8 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/rukus.fun"
+   ]
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 9,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "16 live contract(s) created directly by 0x1fd49f21917d624923fc48243411fec2c545ecf0 (CREATE nonce scan 0..30); tokens launched via factories are not counted. Wallet nonce = 31.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1fd49f21917d624923fc48243411fec2c545ecf0",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac3d9ebc3fd2ac5c62206633c332a4c8f5ddcd6d979313b5fa59d8da1b78f3f",
+    "https://robinhoodchain.blockscout.com/address/0x2282fa1d59cdba910cb6207f60f42cce3d7adbec",
+    "https://robinhoodchain.blockscout.com/address/0xc48dd7789c3a684be9987f56ed9fd19e83331b79",
+    "https://robinhoodchain.blockscout.com/address/0x0c166a792ed0f646e2a0aa18134f0cc6961cbe96"
+   ]
+  },
+  {
+   "id": "fn.pause",
+   "group": "fn",
+   "title": "pause function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found pause function(s): setPaused(bool) 0x16c38b3c [runtime bytecode], setPaused(bool) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433",
+    "https://robinhoodchain.blockscout.com/address/0x3019844dADA9A3764173cB6BaC6093ca6BF6D433"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xb3ce4a85fcb7aeef6712f0e2d245e39798010e39, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x3019844dada9a3764173cb6bac6093ca6bf6d433 owner() @ 92322729",
+    "https://robinhoodchain.blockscout.com/address/0xb3ce4a85fcb7aeef6712f0e2d245e39798010e39"
+   ]
+  }
+ ]
+}

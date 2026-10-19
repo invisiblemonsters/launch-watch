@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
- "scanned_at_utc": "2026-10-16T04:01:49Z",
- "block": 89779287,
+ "scanned_at_utc": "2026-10-19T03:59:09Z",
+ "block": 92317722,
  "site": "https://heurix.xyz",
  "post": null,
  "token": {
@@ -27,9 +27,9 @@
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
-  "buy_tax": "",
-  "cannot_buy": "0",
+  "buy_tax": "0",
   "can_take_back_ownership": "0",
+  "cannot_buy": "0",
   "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
   "creator_balance": "0",
   "creator_percent": "0.000000",
@@ -37,7 +37,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "10417.515435602746003392",
+    "liquidity": "7876.40820706304227361552",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0",
     "pair": "0x45f0facb2ce64e344dba77b3c894f4ebfa352d161ffd785d2d4e915c754580f3"
@@ -45,15 +45,15 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "10.513811804574",
+    "liquidity": "2.54052524747202568856",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.17",
-    "pair": "0x2a1a509e5e4a236454494629d559cc658c8313164b5b7b017447a446ca7f2684"
+    "pool_fee": "0.849005",
+    "pair": "0x7e7797a83ec72cadeeefc476ff1b747380850a2a562ff589860f9c0f0ff1690c"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.0976479999999975588",
+    "liquidity": "0.18809546338206349852",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.79",
     "pair": "0x1e812ade8d768c3082b1c032bc7181aa0f03102ce46503ccb6f335cb2b7bc5e6"
@@ -61,70 +61,62 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "76",
+  "holder_count": "335",
   "holders": [
    {
-    "address": "0xFaF34685051445baB091Bd9ab5F9817A42130932",
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
     "tag": "",
     "is_contract": 1,
-    "balance": "478445577.223927933626037709",
-    "percent": "0.478446",
+    "balance": "263348017.60925573622058626",
+    "percent": "0.263348",
     "is_locked": 0
    },
    {
-    "address": "0x7f7C73aAd4D210Ec65bCCB341Df090Cd63D49aAa",
+    "address": "0x267444D099b10fB5Ed7c3Cc7B7c767AdcA574952",
     "tag": "",
-    "is_contract": 0,
-    "balance": "32336352.670482325551019151",
-    "percent": "0.032336",
+    "is_contract": 1,
+    "balance": "81632653.061224486158547171",
+    "percent": "0.081633",
     "is_locked": 0
    },
    {
-    "address": "0x4D356f15A97A2BC6978780f7A105D7806B413BE6",
+    "address": "0x8c1Ea685aabb9DD58Dc67E4b9A53A499144b587f",
     "tag": "",
     "is_contract": 1,
-    "balance": "30412506.589265352573024062",
-    "percent": "0.030413",
+    "balance": "34142565.379346441226929733",
+    "percent": "0.034143",
     "is_locked": 0
    },
    {
-    "address": "0xAAD49FF2a1ed42CeC10fCebB9717ca78A99EF43b",
+    "address": "0xd8706322c8FCe7388a344F3B87c0aDdFD316f4aE",
     "tag": "",
     "is_contract": 1,
-    "balance": "30125865.854343860406577394",
-    "percent": "0.030126",
+    "balance": "31684083.484799910056423854",
+    "percent": "0.031684",
     "is_locked": 0
    },
    {
-    "address": "0xebfaAd57777089b71624bB10D766D0D9D24a152b",
+    "address": "0x142e6EE40bd42643aA4D3F7A0ae066997F902788",
     "tag": "",
     "is_contract": 1,
-    "balance": "29267530.476481607537564836",
-    "percent": "0.029268",
+    "balance": "28098975.560974871888927315",
+    "percent": "0.028099",
     "is_locked": 0
    },
    {
     "address": "0xEC9C25BD1db76BD8DDcAaeBb101ea8e6B1B532Ab",
     "tag": "",
     "is_contract": 0,
-    "balance": "26180791.150302290648833873",
-    "percent": "0.026181",
+    "balance": "20944632.920241832519067099",
+    "percent": "0.020945",
     "is_locked": 0
    },
    {
-    "address": "0x38e0741c21AbCa18A5aa19495F296eD1fDf614F2",
+    "address": "0xF238d3743Fb599B80904f4f4082fc5b67e0D647A",
     "tag": "",
     "is_contract": 0,
-    "balance": "25900880.503308033671106969",
-    "percent": "0.025901",
-    "is_locked": 0
-   },
-   {
-    "address": "0x7632BD8E72767ED67a724C564c42Ceea98E81180",
-    "tag": "",
-    "is_contract": 1,
-    "balance": "20930892.445348729097904236",
-    "percent": "0.020931",
+    "balance": "20777051.625615633613202732",
+    "percent": "0.020777",
     "is_locked": 0
    },
    {
@@ -136,11 +128,19 @@
     "is_locked": 0
    },
    {
-    "address": "0x3c356390ba832099B8dB3e932A2Ae6197E56A320",
+    "address": "0x82475c8c4C898b377a6fe582e5C537F2Cc576e85",
     "tag": "",
     "is_contract": 0,
-    "balance": "18387505.934394190759864984",
-    "percent": "0.018388",
+    "balance": "17646230.532653938212748638",
+    "percent": "0.017646",
+    "is_locked": 0
+   },
+   {
+    "address": "0xD3A1A11e4BD37E3C6f936DDAcDF4016d96F7c111",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "16749046.816185535021098639",
+    "percent": "0.016749",
     "is_locked": 0
    }
   ],
@@ -158,13 +158,13 @@
    {
     "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
     "tag": "",
-    "value": "10178.4002789358851089656",
+    "value": "8009.2411224791325794168",
     "is_contract": 1,
     "balance": "29277.002188455996554699",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "10178.4002789358851089656",
+      "value": "8009.2411224791325794168",
       "NFT_id": "3847219",
       "amount": "29277.002188455996554699",
       "in_effect": "1",
@@ -180,14 +180,14 @@
   "owner_percent": "0",
   "personal_slippage_modifiable": "0",
   "selfdestruct": "0",
-  "sell_tax": "",
+  "sell_tax": "0",
   "slippage_modifiable": "0",
   "token_name": "Heurix",
   "token_symbol": "HRX",
   "total_supply": "1000000000",
   "trading_cooldown": "0",
   "transfer_pausable": "0",
-  "transfer_tax": ""
+  "transfer_tax": "0"
  },
  "creation": {
   "tx": "0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
@@ -199,36 +199,28 @@
   "ts": 1792011870
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 21273.4,
-  "geckoterminal_top_usd": 19505.69
+  "dexscreener_top_usd": 15814.89,
+  "geckoterminal_top_usd": 19659.1002
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x45f0facb2ce64e344dba77b3c894f4ebfa352d161ffd785d2d4e915c754580f3",
-   "liq_usd": 21273.4,
+   "liq_usd": 15814.89,
    "created": 1792121543000,
    "url": "https://dexscreener.com/robinhood/0x45f0facb2ce64e344dba77b3c894f4ebfa352d161ffd785d2d4e915c754580f3",
    "quote": "ETH"
   },
   {
    "dex": "uniswap",
-   "pair": "0x2a1a509e5e4a236454494629d559cc658c8313164b5b7b017447a446ca7f2684",
-   "liq_usd": 21.02,
-   "created": 1792121932000,
-   "url": "https://dexscreener.com/robinhood/0x2a1a509e5e4a236454494629d559cc658c8313164b5b7b017447a446ca7f2684",
-   "quote": "USDG"
-  },
-  {
-   "dex": "uniswap",
-   "pair": "0x1e812ade8d768c3082b1c032bc7181aa0f03102ce46503ccb6f335cb2b7bc5e6",
-   "liq_usd": 0.26,
-   "created": 1792120617000,
-   "url": "https://dexscreener.com/robinhood/0x1e812ade8d768c3082b1c032bc7181aa0f03102ce46503ccb6f335cb2b7bc5e6",
+   "pair": "0x0e8861716636a63da18b3285e2cac3770a673709989de6d20f3879f2ee28cbcb",
+   "liq_usd": 3.4,
+   "created": 1792332305000,
+   "url": "https://dexscreener.com/robinhood/0x0e8861716636a63da18b3285e2cac3770a673709989de6d20f3879f2ee28cbcb",
    "quote": "ETH"
   }
  ],
- "launcher_nonce": 4,
+ "launcher_nonce": 10,
  "deployer_contracts": [
   "0x57328a77966eb4c9089c9d77a75fc461ecf90f96"
  ],
@@ -237,7 +229,7 @@
  ],
  "site_ips": [
   "216.198.79.1",
-  "64.29.17.1"
+  "216.198.79.65"
  ],
  "http_log": [
   {
@@ -246,11 +238,36 @@
   },
   {
    "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
-   "status": 200
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
+   "status": 500,
+   "attempt": 3
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
+   "status": 200,
+   "attempt": 4
   },
   {
    "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
-   "status": 200
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
+   "status": 200,
+   "attempt": 3
   },
   {
    "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
@@ -274,11 +291,31 @@
   },
   {
    "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
-   "status": 200
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 500,
+   "attempt": 3
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 500,
+   "attempt": 4
   },
   {
    "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486/transactions?sort=block_number&order=asc",
-   "status": 200
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486/transactions?sort=block_number&order=asc",
+   "status": 200,
+   "attempt": 2
   },
   {
    "url": "https://dns.google/resolve?name=heurix.xyz&type=A",
@@ -299,7 +336,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 89779287",
+    "eth_getCode @ block 92317722",
     "https://robinhoodchain.blockscout.com/address/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9"
    ]
   },
@@ -322,7 +359,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89779287"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92317722"
    ]
   },
   {
@@ -333,7 +370,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xfcc86d9c23ffb9f27258534ea316c096f1af51b9 owner() @ 89779287 -> revert/empty"
+    "eth_call 0xfcc86d9c23ffb9f27258534ea316c096f1af51b9 owner() @ 92317722 -> revert/empty"
    ]
   },
   {
@@ -344,7 +381,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 89779287",
+    "selector scan @ 92317722",
     "https://robinhoodchain.blockscout.com/address/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9?tab=contract"
    ]
   },
@@ -376,7 +413,7 @@
    "points": 0,
    "detail": "Launch wallet 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x5ebb83576c245194c1b03a62b38cd5d45e5f9486) @ 89779287",
+    "eth_call balanceOf(0x5ebb83576c245194c1b03a62b38cd5d45e5f9486) @ 92317722",
     "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486"
    ]
   },
@@ -386,7 +423,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 3.23% of supply.",
+   "detail": "Largest non-contract holder has 3.41% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9/holders",
     "https://robinhoodchain.blockscout.com/token/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9?tab=holders"
@@ -398,7 +435,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $21,273 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $15,815 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x45f0facb2ce64e344dba77b3c894f4ebfa352d161ffd785d2d4e915c754580f3",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9"
@@ -410,23 +447,10 @@
    "title": "LP lock / burn",
    "status": "info",
    "points": 0,
-   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
    "evidence": [
     "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
     "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
-   ]
-  },
-  {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 has sent only 4 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486",
-    "https://robinhoodchain.blockscout.com/tx/0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
-    "eth_getTransactionCount(0x5ebb83576c245194c1b03a62b38cd5d45e5f9486) @ 89779287 = 4"
    ]
   },
   {
@@ -435,7 +459,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "1 live contract(s) created directly by 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "detail": "1 live contract(s) created directly by 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 (CREATE nonce scan 0..9); tokens launched via factories are not counted. Wallet nonce = 10.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486",
     "https://robinhoodchain.blockscout.com/tx/0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
@@ -448,7 +472,7 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 on Blockscout: block 88662746 (2026-10-14 20:44 UTC), 1.3 days before scan.",
+   "detail": "Oldest transaction of 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 on Blockscout: block 88662746 (2026-10-14 20:44 UTC), 4.3 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486",
     "https://robinhoodchain.blockscout.com/tx/0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
@@ -462,7 +486,7 @@
    "title": "Site hosting overlap",
    "status": "info",
    "points": 0,
-   "detail": "heurix.xyz -> 216.198.79.1, 64.29.17.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "detail": "heurix.xyz -> 216.198.79.1, 216.198.79.65 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
    "evidence": [
     "https://dns.google/resolve?name=heurix.xyz&type=A"
    ]
@@ -473,16 +497,16 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "heurix.xyz registered 2026-10-09 (7 days ago).",
+   "detail": "heurix.xyz registered 2026-10-09 (10 days ago).",
    "evidence": [
     "https://rdap.org/domain/heurix.xyz"
    ]
   }
  ],
- "score": 32,
- "band": "MODERATE",
+ "score": 24,
+ "band": "LOW",
  "coverage": {
-  "run": 15,
+  "run": 14,
   "unknown": 1
  },
  "top_reasons": [
@@ -492,23 +516,10 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $21,273 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $15,815 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x45f0facb2ce64e344dba77b3c894f4ebfa352d161ffd785d2d4e915c754580f3",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xfcc86d9c23ffb9f27258534ea316c096f1af51b9"
-   ]
-  },
-  {
-   "id": "deployer.fresh",
-   "group": "deployer",
-   "title": "Deployer wallet history",
-   "status": "flag",
-   "points": 8,
-   "detail": "launch-tx sender 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 has sent only 4 transaction(s) in total (fresh wallet).",
-   "evidence": [
-    "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486",
-    "https://robinhoodchain.blockscout.com/tx/0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
-    "eth_getTransactionCount(0x5ebb83576c245194c1b03a62b38cd5d45e5f9486) @ 89779287 = 4"
    ]
   },
   {
@@ -517,31 +528,24 @@
    "title": "Deployer wallet age",
    "status": "flag",
    "points": 6,
-   "detail": "Oldest transaction of 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 on Blockscout: block 88662746 (2026-10-14 20:44 UTC), 1.3 days before scan.",
+   "detail": "Oldest transaction of 0x5ebb83576c245194c1b03a62b38cd5d45e5f9486 on Blockscout: block 88662746 (2026-10-14 20:44 UTC), 4.3 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486",
     "https://robinhoodchain.blockscout.com/tx/0xe53a98230bc560692339d6cf528a0f91a2c01707d0f4b543820031c72ab89a16",
     "https://robinhoodchain.blockscout.com/tx/0xbce060683cbcaa52961bbc64b11ada9fa602836d3c9215241a08f5467d501e0c",
     "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5ebb83576c245194c1b03a62b38cd5d45e5f9486/transactions?sort=block_number&order=asc"
    ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "heurix.xyz registered 2026-10-09 (10 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/heurix.xyz"
+   ]
   }
- ],
- "label": "Heurix",
- "target": {
-  "chain": "robinhood",
-  "address": "0xfcc86d9c23ffb9f27258534ea316c096f1af51b9",
-  "name": "Heurix",
-  "symbol": "HRX",
-  "created_at": "2026-10-16T03:38:52Z",
-  "dex": "uniswap-v4-robinhood",
-  "liq_usd": 21.2063,
-  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x2a1a509e5e4a236454494629d559cc658c8313164b5b7b017447a446ca7f2684",
-  "sources": [
-   "dexscreener:token-profiles",
-   "geckoterminal:new_pools"
-  ],
-  "site": "https://heurix.xyz",
-  "x_profile": "https://x.com/HeurixRH",
-  "post": null
- }
+ ]
 }

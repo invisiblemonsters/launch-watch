@@ -1,0 +1,304 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+ "scanned_at_utc": "2026-10-19T03:56:55Z",
+ "block": 92316425,
+ "site": "https://permapad.fun",
+ "post": null,
+ "token": {},
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PermaFactory"
+ },
+ "verification": "verified",
+ "owner": null,
+ "creation": {
+  "tx": "0xb748251576e578dd32e0e3fe97184907b4ffb30f2271c4f3928ead494ed06741",
+  "block": 91968704,
+  "deployer": "0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+  "tx_from": "0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+  "tx_to": null,
+  "ts": 1792346731
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 85,
+ "deployer_contracts": [
+  "0xb185c3fcfa0c7bb42d1fee3ef1d40df36c7603d1",
+  "0xe4d79b5b8f2b9aa6c1df638ee5bf1a8e8c991cee",
+  "0xf028b83c86d7afeb85ce5b09691c87bd5c402ad4",
+  "0x1a58e233291fb144244b9218aeb0db8027ee94cb",
+  "0x1a0458678a5bd227256f41fbd44714c4ec841e9a",
+  "0xfbde0438589d6a51e55b44946b3c2ca95c69972e",
+  "0x52cc65e4931273e5e28c1b7554fc219ebbf58b7c",
+  "0xf3d07186cd2230292322f44eeb94a14c8351f857",
+  "0xa3df4197d0036209d81210a3b1a0ced910d4ffab",
+  "0x2cbcd172dbffec7afe84c851825a4a955bb4c255",
+  "0x91a847ff8edaba4eea1353931cae2cd80580de0b",
+  "0x8e8a9038749f464f5a11ef6fb9348e5262daa9e4",
+  "0xc28bab8613cc1b9f648c1964e5d00396f68ca274",
+  "0x9d9ebcea0d4e8824b06452c19a17a7da5939c1f6",
+  "0x4d5b5f2f5e653a452fa899eb1ed2ae4264c783db",
+  "0xf729b7bf15eb0c3e168eb34ddabf77c0b3ef5e89",
+  "0x7f323dd6b5f00a14780de350d4ebb2c33c389d57",
+  "0x5d2c6b2ed519d1fb68f8e9142218fbe87ed93ae0",
+  "0x19ddc1758eff5f64a001ae5f19062ebbf04c0243",
+  "0xebc4611a4fe52a93525a862d8210d14bdb5499b2",
+  "0xf6c6a554808dacb4dec504447fc4c36fc1c3a3b6",
+  "0x835cffa98960e991dcedf102f593c38e24d8cddd",
+  "0x9ba8ab0b3ed0109218d9d05342031bf589573f41",
+  "0x1e1cf2b602c1bb31b8ba8b50ac90decd2e58ae32",
+  "0x1a40da9d7ba66880afee0ed75d00e4bbeb3ca920",
+  "0x448051efa9266e3f24fca7fa11ff822a91f478dd",
+  "0xb2dba5f2e86ed3ec5cf339b6af1ca8e4a6798818",
+  "0xc0dfa71612822bc341a80370c955593c7e5dc204",
+  "0xf3da408fb6d5108264c28fd3559c73eab8c90fd4",
+  "0x4ddd38065bf0d6f1eeb70b09da62a3a17b720434",
+  "0xecdb5b75e43894bf254d6a95a65098c7f297a662",
+  "0xbb63e8f197463e44da6a187c1ea683e0c3a37482",
+  "0xe69546159d56f173abe7dd2f95a3cc5bf7e43fc2",
+  "0x9aab566e3b2ebddd67d471b9df212eb703cc5ffe",
+  "0xf5b61d4294f9c5372e39b3e5191630ace1337ab9",
+  "0xd9f92c522125d396175e0d4cdc558c0e5aa2d52b",
+  "0x015bfd01323277447151599ff63bacebbdec318e",
+  "0xaff91eee073ca0eadee0d33b20188251e33502eb",
+  "0x7cc8ee799c7a62db131471a5c2c490cb518599e3",
+  "0x3b8e8d8fb00008715c13defd8fc0eab7ee9d67e1",
+  "0x194092e807834c2f05043fb45b252da5ddfe2116"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x19ddc1758eff5f64a001ae5f19062ebbf04c0243",
+  "0x1a0458678a5bd227256f41fbd44714c4ec841e9a",
+  "0x1a40da9d7ba66880afee0ed75d00e4bbeb3ca920",
+  "0x1a58e233291fb144244b9218aeb0db8027ee94cb",
+  "0x1e1cf2b602c1bb31b8ba8b50ac90decd2e58ae32",
+  "0x2cbcd172dbffec7afe84c851825a4a955bb4c255",
+  "0x448051efa9266e3f24fca7fa11ff822a91f478dd",
+  "0x4d5b5f2f5e653a452fa899eb1ed2ae4264c783db",
+  "0x52cc65e4931273e5e28c1b7554fc219ebbf58b7c",
+  "0x5d2c6b2ed519d1fb68f8e9142218fbe87ed93ae0",
+  "0x7f323dd6b5f00a14780de350d4ebb2c33c389d57",
+  "0x835cffa98960e991dcedf102f593c38e24d8cddd",
+  "0x8e8a9038749f464f5a11ef6fb9348e5262daa9e4",
+  "0x91a847ff8edaba4eea1353931cae2cd80580de0b",
+  "0x9ba8ab0b3ed0109218d9d05342031bf589573f41",
+  "0x9d9ebcea0d4e8824b06452c19a17a7da5939c1f6",
+  "0xa3df4197d0036209d81210a3b1a0ced910d4ffab",
+  "0xb185c3fcfa0c7bb42d1fee3ef1d40df36c7603d1",
+  "0xc28bab8613cc1b9f648c1964e5d00396f68ca274",
+  "0xe4d79b5b8f2b9aa6c1df638ee5bf1a8e8c991cee",
+  "0xebc4611a4fe52a93525a862d8210d14bdb5499b2",
+  "0xf028b83c86d7afeb85ce5b09691c87bd5c402ad4",
+  "0xf3d07186cd2230292322f44eeb94a14c8351f857",
+  "0xf6c6a554808dacb4dec504447fc4c36fc1c3a3b6",
+  "0xf729b7bf15eb0c3e168eb34ddabf77c0b3ef5e89",
+  "0xfbde0438589d6a51e55b44946b3c2ca95c69972e"
+ ],
+ "site_ips": [
+  "148.135.128.241",
+  "92.112.198.195"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb4885df5d39ae0373423140c943bbc48f273d0ae/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=permapad.fun&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/permapad.fun",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "23102 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92316425",
+    "https://robinhoodchain.blockscout.com/address/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as PermaFactory. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+    "https://robinhoodchain.blockscout.com/address/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92316425"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x52cc65e4931273e5e28c1b7554fc219ebbf58b7c owner() @ 92316425 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdraw(uint256) 0x2e1a7d4d [runtime bytecode]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+    "https://robinhoodchain.blockscout.com/address/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "41 live contract(s) created directly by 0xb4885df5d39ae0373423140c943bbc48f273d0ae (CREATE nonce scan 0..84); tokens launched via factories are not counted. Wallet nonce = 85.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+    "https://robinhoodchain.blockscout.com/tx/0xb748251576e578dd32e0e3fe97184907b4ffb30f2271c4f3928ead494ed06741",
+    "https://robinhoodchain.blockscout.com/address/0xb185c3fcfa0c7bb42d1fee3ef1d40df36c7603d1",
+    "https://robinhoodchain.blockscout.com/address/0xe4d79b5b8f2b9aa6c1df638ee5bf1a8e8c991cee",
+    "https://robinhoodchain.blockscout.com/address/0xf028b83c86d7afeb85ce5b09691c87bd5c402ad4"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xb4885df5d39ae0373423140c943bbc48f273d0ae on Blockscout: block 91805207 (2026-10-18 13:29 UTC), 0.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+    "https://robinhoodchain.blockscout.com/tx/0xb748251576e578dd32e0e3fe97184907b4ffb30f2271c4f3928ead494ed06741",
+    "https://robinhoodchain.blockscout.com/tx/0x63d4648c517aad21bd662ee66097e5fe6e164001932f3a886bcadee01f7b36f3",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb4885df5d39ae0373423140c943bbc48f273d0ae/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "permapad.fun -> 148.135.128.241, 92.112.198.195; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=permapad.fun&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "permapad.fun registered 2026-10-04 (15 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/permapad.fun"
+   ]
+  }
+ ],
+ "score": 19,
+ "band": "LOW",
+ "coverage": {
+  "run": 9,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "41 live contract(s) created directly by 0xb4885df5d39ae0373423140c943bbc48f273d0ae (CREATE nonce scan 0..84); tokens launched via factories are not counted. Wallet nonce = 85.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+    "https://robinhoodchain.blockscout.com/tx/0xb748251576e578dd32e0e3fe97184907b4ffb30f2271c4f3928ead494ed06741",
+    "https://robinhoodchain.blockscout.com/address/0xb185c3fcfa0c7bb42d1fee3ef1d40df36c7603d1",
+    "https://robinhoodchain.blockscout.com/address/0xe4d79b5b8f2b9aa6c1df638ee5bf1a8e8c991cee",
+    "https://robinhoodchain.blockscout.com/address/0xf028b83c86d7afeb85ce5b09691c87bd5c402ad4"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xb4885df5d39ae0373423140c943bbc48f273d0ae on Blockscout: block 91805207 (2026-10-18 13:29 UTC), 0.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb4885df5d39ae0373423140c943bbc48f273d0ae",
+    "https://robinhoodchain.blockscout.com/tx/0xb748251576e578dd32e0e3fe97184907b4ffb30f2271c4f3928ead494ed06741",
+    "https://robinhoodchain.blockscout.com/tx/0x63d4648c517aad21bd662ee66097e5fe6e164001932f3a886bcadee01f7b36f3",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb4885df5d39ae0373423140c943bbc48f273d0ae/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdraw(uint256) 0x2e1a7d4d [runtime bytecode]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C",
+    "https://robinhoodchain.blockscout.com/address/0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C"
+   ]
+  }
+ ]
+}

@@ -148,7 +148,7 @@ def auto_problems(r, CHAINS):
         return "launch post is marked third-party, but the X account age check was run on it"
     try: iso_utc(r["scanned_at_utc"])
     except Exception: return "unreadable scan timestamp"
-    if not r.get("label") and not (r.get("token") or {}).get("name"): return "no name/label"
+    if launch_name(r) == "Unnamed contract": return "no name/label"
     return None
 
 def repair(r, CHAINS, clusters):
@@ -286,8 +286,14 @@ def ev_label(u):
 
 STATUS_TXT = {"flag": "risk signal", "pass": "pass", "info": "info", "unknown": "unknown"}
 
+try: LABELS = json.load(open(os.path.join(HERE, "data", "labels.json")))["labels"]
+except FileNotFoundError: LABELS = {}
+
 def launch_name(r):
-    return r.get("label") or (r.get("token") or {}).get("name") or "Unnamed contract"
+    lk = f"{r.get('chain')}:{str(r.get('address', '')).lower()}"
+    if not r.get("label") and lk in LABELS: return LABELS[lk]
+    # tokens: label or token name; non-token contracts (routers, factories): the verified contract name from Blockscout
+    return r.get("label") or (r.get("token") or {}).get("name") or (r.get("blockscout") or {}).get("name") or "Unnamed contract"
 
 def is_older(r):
     ts = (r.get("creation") or {}).get("ts")
@@ -366,7 +372,7 @@ def render_launch(r, ctx, history):
                 desc=f"Automated risk signals for {name} on {c['name']}: {r['score']}/100 ({r['band']}).",
                 canonical=f"{ctx['SITE']}launch/{slug(r)}.html")
 
-def render_index(recs, ctx, stats):
+def render_index(recs, ctx, stats, featured_html=""):
     CH = ctx["CHAINS"]
     rows = []
     for r in recs:
@@ -382,6 +388,7 @@ def render_index(recs, ctx, stats):
 <p class="legend"><span class="pill low">0-24 <small>LOW</small></span> <span class="pill mod">25-49 <small>MODERATE</small></span> <span class="pill elev">50-74 <small>ELEVATED</small></span> <span class="pill high">75-100 <small>HIGH</small></span></p>
 <p class="small">{stats['included']} launches listed · {stats['chains']} · last updated {fmt_pt(stats['built'])} · scans run about every 30 minutes · <a href="feed.xml">Atom feed</a></p>
 </section>
+{featured_html}
 <div class="tablewrap"><table class="launches">
 <thead><tr><th>Name</th><th>Chain</th><th>Address</th><th>Score</th><th>Top reason</th><th>Scanned (PT)</th></tr></thead>
 <tbody>
@@ -513,11 +520,71 @@ Prefer email? Write to <a href="mailto:{CONTACT}?subject=Review%20request">{CONT
                 desc="Scored (free), Launch Watch Verified badge ($50 BTC) or a 24-hour manual smart-contract review ($150 BTC) for Robinhood Chain and Base launches. Not an audit or a guarantee.",
                 canonical=f"{site}get-reviewed.html")
 
-def sitemap(latest, ctx, built):
+def load_featured():
+    try: return json.load(open(os.path.join(HERE, "data", "featured.json")))
+    except FileNotFoundError: return {"featured": [], "skipped": []}
+
+def render_featured(f, ctx, by_key):
+    """Hand-written featured read (data/featured.json). Public, non-exploitable facts + questions only."""
+    CH = ctx["CHAINS"]; c = CH.get(f["chain"], {}); exp = c.get("explorer", "")
+    url = f"{ctx['SITE']}featured/{f['slug']}.html"
+    first_addr = f["contracts"][0][1] if f.get("contracts") else None
+    rows = "".join(
+        f'<tr><td>{esc(lbl)}</td><td><a href="{esc(exp)}/address/{esc(a)}" rel="nofollow noopener"><code>{esc(short(a))}</code></a></td>'
+        f'<td>{esc(ver)}</td><td>{esc(px)}</td></tr>' for lbl, a, ver, px in f.get("contracts", []))
+    scored = []
+    for ch, a, lbl in f.get("scored", []):
+        r = by_key.get(f"{ch}:{a.lower()}")
+        if r: scored.append(f'<li><a href="../launch/{slug(r)}.html">{esc(lbl)}</a>: {band_pill(r["score"], r["band"])} <small>scanned {fmt_pt(r["scanned_at_utc"])}</small></li>')
+        else: scored.append(f'<li>{esc(lbl)}: <code>{esc(short(a))}</code> (score page pending the next scan)</li>')
+    facts = "".join(f"<li>{x}</li>" for x in f.get("facts", []))
+    qs = "".join(f"<li>{x}</li>" for x in f.get("questions", []))
+    priv = ('<p class="note"><strong>Private notes available on request.</strong> We do not publish anything that could put users at risk. '
+            f'The team can get them via <a href="{REPO_URL}/security/advisories/new">private vulnerability reporting</a> or by writing to '
+            f'<a href="mailto:{CONTACT}">{CONTACT}</a> first.</p>') if f.get("private_notes") else ""
+    claim = issue_url(f["name"], c.get("name", f["chain"]), first_addr, url)
+    body = f"""
+<p class="small"><a href="../index.html#featured">Featured reads</a> / {esc(f['name'])}</p>
+<h1>{esc(f['name'])} <small class="mut">on {esc(c.get('name', f['chain']))}</small></h1>
+<p>{esc(f['tagline'])}</p>
+<p class="small">Team: {esc(f.get('team',''))} · Site: <a href="{esc(f['site'])}" rel="nofollow noopener">{esc(f['site'])}</a> · Checked {esc(f['checked'])} · {esc(f.get('audit',''))}</p>
+<div class="owner"><strong>Is this your project?</strong> <a class="btn" href="{esc(claim)}">Claim this page: request a re-scan, badge or review</a>
+<span class="small">Free corrections · <a href="../get-reviewed.html">Verified badge $50 / 24h review $150</a> · or email <a href="mailto:{CONTACT}">{CONTACT}</a></span></div>
+<h2>Automated scores</h2>
+<ul>{''.join(scored)}</ul>
+<h2>Contracts checked</h2>
+<div class="tablewrap"><table><thead><tr><th>Contract</th><th>Address</th><th>Source</th><th>Upgradeable?</th></tr></thead><tbody>{rows}</tbody></table></div>
+<h2>What we read on-chain</h2>
+<ul>{facts}</ul>
+<h2>Open questions for the team</h2>
+<ul>{qs}</ul>
+{priv}
+<p class="small">A manual read of public source and on-chain state, plus our automated score. This is not an audit or a guarantee, and risk signals are not evidence of wrongdoing. Anything that looks like a vulnerability is never published here. It goes to the team privately. Corrections are welcome via the claim button above.</p>
+"""
+    return page(f"{f['name']}: featured read | Metatron Launch Watch", body, 1,
+                desc=f"{f['name']} on {c.get('name', f['chain'])}: verified contracts, admin roles, proxy status and open questions. {f['tagline']}"[:300],
+                canonical=url)
+
+def render_featured_index(feat, by_key):
+    if not feat.get("featured"): return ""
+    cards = []
+    for f in feat["featured"]:
+        sc = [by_key.get(f"{ch}:{a.lower()}") for ch, a, _ in f.get("scored", [])]
+        pills = " ".join(band_pill(r["score"], r["band"]) for r in sc if r)
+        cards.append(f'<li><a href="featured/{esc(f["slug"])}.html"><strong>{esc(f["name"])}</strong></a> {pills}<br><span class="small">{esc(f["tagline"])}</span></li>')
+    return f"""<section id="featured" class="featured"><h2>Featured reads</h2>
+<p class="small">Manual reads of active, unaudited projects: verified source, admin keys, proxy status and open questions. Not audits. <a href="get-reviewed.html">Want one for your project?</a></p>
+<ul class="feat">{''.join(cards)}</ul></section>
+"""
+
+
+def sitemap(latest, ctx, built, feat=None):
     site = ctx["SITE"]; day = built.strftime("%Y-%m-%d")
     urls = [(site, day, "hourly", "1.0"), (f"{site}get-reviewed.html", day, "weekly", "0.9"), (f"{site}methodology.html", day, "weekly", "0.6")]
     for r in latest:
         urls.append((f"{site}launch/{slug(r)}.html", r["scanned_at_utc"][:10], "daily", "0.5"))
+    for f in (feat or {}).get("featured", []):
+        urls.append((f"{site}featured/{f['slug']}.html", day, "daily", "0.8"))
     body = "".join(f"<url><loc>{esc(u)}</loc><lastmod>{m}</lastmod><changefreq>{f}</changefreq><priority>{p}</priority></url>\n" for u, m, f, p in urls)
     return f'<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n{body}</urlset>\n'
 
@@ -533,7 +600,8 @@ BADGE = """<svg xmlns="http://www.w3.org/2000/svg" width="220" height="40" viewB
 </svg>
 """
 
-CSS = """:root{--bg:#0b1020;--panel:#121a30;--line:#22304f;--txt:#e5ecf6;--mut:#93a4c0;--acc:#38bdf8;
+CSS = """.featured{margin:1.2em 0}.feat{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8em}.feat li{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.7em .9em}.mut{color:var(--mut);font-weight:400}
+:root{--bg:#0b1020;--panel:#121a30;--line:#22304f;--txt:#e5ecf6;--mut:#93a4c0;--acc:#38bdf8;
 --low:#16a34a;--mod:#ca8a04;--elev:#ea580c;--high:#dc2626}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}
 body{margin:0;background:var(--bg);color:var(--txt);font:15px/1.55 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif}
@@ -652,11 +720,16 @@ def main():
                  chains=" · ".join(f"{CHAINS[ch]['name']}: {sum(1 for r in latest if r['chain'] == ch)}" for ch in CHAINS))
     W = lambda p, s: open(os.path.join(out, p), "w", encoding="utf-8").write(s)
     W("style.css", CSS); W("badge.svg", BADGE); W(".nojekyll", "")
-    W("index.html", render_index(latest, ctx, stats))
+    feat = load_featured()
+    by_key_latest = {f"{r['chain']}:{r['address'].lower()}": r for r in latest}
+    W("index.html", render_index(latest, ctx, stats, render_featured_index(feat, by_key_latest)))
+    os.makedirs(os.path.join(out, "featured"), exist_ok=True)
+    for f in feat.get("featured", []):
+        W(f"featured/{f['slug']}.html", render_featured(f, ctx, by_key_latest))
     W("methodology.html", render_methodology(ctx, stats))
     W("get-reviewed.html", render_reviewed(ctx))
     W("feed.xml", atom(latest, ctx, built))
-    W("sitemap.xml", sitemap(latest, ctx, built))
+    W("sitemap.xml", sitemap(latest, ctx, built, feat))
     W("robots.txt", f"User-agent: *\nAllow: /\nSitemap: {site}sitemap.xml\n")
     W(f"{INDEXNOW_KEY}.txt", INDEXNOW_KEY)
     if os.path.exists(os.path.join(HERE, "preview-index.png")):

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>COWL: featured read | Metatron Launch Watch</title>
+<meta name="description" content="COWL on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Private receive links on Robinhood Chain: ERC-5564 stealth payments through a small router with no owner.">
+<link rel="canonical" href="https://invisiblemonsters.github.io/launch-watch/featured/cowl.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metatron Launch Watch">
+<meta property="og:title" content="COWL: featured read | Metatron Launch Watch">
+<meta property="og:description" content="COWL on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Private receive links on Robinhood Chain: ERC-5564 stealth payments through a small router with no owner.">
+<meta property="og:url" content="https://invisiblemonsters.github.io/launch-watch/featured/cowl.html">
+<meta property="og:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="COWL: featured read | Metatron Launch Watch">
+<meta name="twitter:description" content="COWL on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Private receive links on Robinhood Chain: ERC-5564 stealth payments through a small router with no owner.">
+<meta name="twitter:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/atom+xml" title="Metatron Launch Watch: new scores" href="../feed.xml">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="../index.html">Metatron <span>Launch Watch</span></a>
+<nav><a href="../index.html">Launches</a><a href="../methodology.html">Methodology</a><a href="../get-reviewed.html">Get reviewed &amp; pricing</a><a href="../feed.xml">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<p class="small"><a href="../index.html#featured">Featured reads</a> / COWL</p>
+<h1>COWL <small class="mut">on Robinhood Chain</small></h1>
+<p>Private receive links on Robinhood Chain: ERC-5564 stealth payments through a small router with no owner.</p>
+<p class="small">Team: @cowlhq · Site: <a href="https://cowl.pro" rel="nofollow noopener">https://cowl.pro</a> · Checked 2026-10-18 21:15 PDT · The site says &quot;Audit: Not yet&quot;.</p>
+<div class="owner"><strong>Is this your project?</strong> <a class="btn" href="https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml&amp;title=%5BReview%20request%5D%20COWL%20on%20Robinhood%20Chain&amp;project=COWL&amp;chain=Robinhood%20Chain&amp;addresses=0x5A254fE1f65e5cbBe978095ab4632E7446Bd8590&amp;page=https%3A%2F%2Finvisiblemonsters.github.io%2Flaunch-watch%2Ffeatured%2Fcowl.html">Claim this page: request a re-scan, badge or review</a>
+<span class="small">Free corrections · <a href="../get-reviewed.html">Verified badge $50 / 24h review $150</a> · or email <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a></span></div>
+<h2>Automated scores</h2>
+<ul><li><a href="../launch/robinhood-0x5a254fe1f65e5cbbe978095ab4632e7446bd8590.html">CowlRouter</a>: <span class="pill low">19 <small>LOW</small></span> <small>scanned Oct 18, 2026 8:56 PM PT</small></li></ul>
+<h2>Contracts checked</h2>
+<div class="tablewrap"><table><thead><tr><th>Contract</th><th>Address</th><th>Source</th><th>Upgradeable?</th></tr></thead><tbody><tr><td>CowlRouter</td><td><a href="https://robinhoodchain.blockscout.com/address/0x5A254fE1f65e5cbBe978095ab4632E7446Bd8590" rel="nofollow noopener"><code>0x5A25…8590</code></a></td><td>verified on Sourcify and Blockscout (solc 0.8.26)</td><td>not a proxy</td></tr><tr><td>ERC-5564 Announcer (standard, not COWL&#x27;s)</td><td><a href="https://robinhoodchain.blockscout.com/address/0x55649E01B5Df198D18D95b5cc5051630cfD45564" rel="nofollow noopener"><code>0x5564…5564</code></a></td><td>canonical singleton</td><td>n/a</td></tr><tr><td>ERC-6538 Registry (standard, not COWL&#x27;s)</td><td><a href="https://robinhoodchain.blockscout.com/address/0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538" rel="nofollow noopener"><code>0x6538…6538</code></a></td><td>canonical singleton</td><td>n/a</td></tr></tbody></table></div>
+<h2>What we read on-chain</h2>
+<ul><li><strong>Not a mixer.</strong> The router has no pool and holds no funds. <code>sendEth</code>/<code>sendToken</code> forward each payment straight from the sender to a one-time (stealth) address, then log one ERC-5564 announcement. Amounts and senders stay public, as the site says. So we scored it; mixer-style pools are excluded from Launch Watch.</li><li>No owner, admin, fee or upgrade path: the verified source has no state variables and no privileged functions, and the EIP-1967 slots are empty.</li><li><code>sendToken</code> only pulls tokens from <code>msg.sender</code>. An approval to the router cannot be spent by anyone else.</li><li>The router was deployed Oct 18, 2026, 1:44 PM PDT, from a new wallet. The domain was registered the same day, and those two facts make up most of the automated score.</li><li>$COWL has not launched yet (Pons, Oct 19, 2026, 6:00 AM PDT). There is no token contract to score yet.</li></ul>
+<h2>Open questions for the team</h2>
+<ul><li>The announcement records the <em>requested</em> amount. For fee-on-transfer or rebasing tokens, the stealth address receives less than announced. Does the Inbox show live balances rather than announced amounts?</li><li>Anyone can post an ERC-5564 announcement directly to the public announcer. Does the Inbox check that an announced payment actually arrived before showing it?</li><li>Will the $COWL token contract be verified at launch, and will its owner/fee settings be published next to the router on cowl.pro?</li></ul>
+
+<p class="small">A manual read of public source and on-chain state, plus our automated score. This is not an audit or a guarantee, and risk signals are not evidence of wrongdoing. Anything that looks like a vulnerability is never published here. It goes to the team privately. Corrections are welcome via the claim button above.</p>
+
+</main>
+<footer class="foot"><div class="wrap">
+<p>Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a>.</p>
+<p><a href="../get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml">Request a review (GitHub issue)</a> · <a href="https://github.com/invisiblemonsters/launch-watch">Source on GitHub</a> · <a href="https://github.com/invisiblemonsters/launch-watch/security/advisories/new">Report a vulnerability privately</a></p>
+</div></footer>
+</body>
+</html>

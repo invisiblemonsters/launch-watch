@@ -1,3 +1,4 @@
+.featured{margin:1.2em 0}.feat{list-style:none;padding:0;display:grid;grid-template-columns:repeat(auto-fill,minmax(260px,1fr));gap:.8em}.feat li{background:var(--panel);border:1px solid var(--line);border-radius:8px;padding:.7em .9em}.mut{color:var(--mut);font-weight:400}
 :root{--bg:#0b1020;--panel:#121a30;--line:#22304f;--txt:#e5ecf6;--mut:#93a4c0;--acc:#38bdf8;
 --low:#16a34a;--mod:#ca8a04;--elev:#ea580c;--high:#dc2626}
 *{box-sizing:border-box}html{-webkit-text-size-adjust:100%}

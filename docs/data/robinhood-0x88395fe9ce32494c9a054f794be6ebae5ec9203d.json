@@ -1,0 +1,230 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d",
+ "scanned_at_utc": "2026-10-19T04:07:16Z",
+ "block": 92322522,
+ "site": null,
+ "post": null,
+ "token": {},
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": "0xed2b5717c9b936ecc76d75401026a99143e278f5",
+ "creation": {
+  "tx": "0x88acfa7707a7961fccac5923a33b3ee064a2d3338a73fd317e53e30836a23970",
+  "block": 66184952,
+  "deployer": "0xed2b5717c9b936ecc76d75401026a99143e278f5",
+  "source": "Blockscout address creator",
+  "tx_from": "0xed2b5717c9b936ecc76d75401026a99143e278f5",
+  "tx_to": null,
+  "ts": 1789730492
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 127,
+ "deployer_contracts": [
+  "0x072a3a0c04cf8cdcaf5b4a73a4ed4ff5a841531f",
+  "0xcac5b9d2817325e78090e3ce4b9c299c819cf953",
+  "0xbdc53e50b1167ce1199bfad54a034f7ab1741051",
+  "0x15636ce4c0ede55335f84e6386f8f49c897c077d",
+  "0x914c40a644493b47336de847b0404e729e06c68d",
+  "0x72dab8b1b53b3cf028e9a0d1e21178981f264245",
+  "0xe8b3916ea16ad2f2c0910bb94005e30f5cc341d3",
+  "0x59df30e22bdac70764a5dbf8bba51bc5a595759c",
+  "0x6a7061d3f754bb594ed5092815ae9bd71dd185b7",
+  "0x556e1ca65a003b1ffce58edd14ce3c0c6f520137",
+  "0xd3256ec6193cfd55d8e2028b9cacfabc11ba4e26",
+  "0x88395fe9ce32494c9a054f794be6ebae5ec9203d",
+  "0x0118058c907797e37176ce1b8b5c088f4ea515d8",
+  "0x9d611090b815b62a7f0673c24195b768e0bb7524",
+  "0xe4cf9fe1e0fa9f868f12459ae6ccc9c65fb43001",
+  "0x82c090aa3bc3f831c464bcab27f979d18c3006a4",
+  "0x06897ce6a2492be99b59a7c023a64a6c0af37849"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x072a3a0c04cf8cdcaf5b4a73a4ed4ff5a841531f",
+  "0x15636ce4c0ede55335f84e6386f8f49c897c077d",
+  "0x72dab8b1b53b3cf028e9a0d1e21178981f264245",
+  "0x914c40a644493b47336de847b0404e729e06c68d",
+  "0xbdc53e50b1167ce1199bfad54a034f7ab1741051",
+  "0xcac5b9d2817325e78090e3ce4b9c299c819cf953"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xed2b5717c9b936ecc76d75401026a99143e278f5/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "13486 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92322522",
+    "https://robinhoodchain.blockscout.com/address/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d",
+    "https://robinhoodchain.blockscout.com/address/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92322522"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xed2b5717c9b936ecc76d75401026a99143e278f5, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x88395fe9ce32494c9a054f794be6ebae5ec9203d owner() @ 92322522",
+    "https://robinhoodchain.blockscout.com/address/0xed2b5717c9b936ecc76d75401026a99143e278f5"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdraw() 0x3ccfd60b [runtime bytecode]. Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan of eth_getCode @ 92322522",
+    "https://robinhoodchain.blockscout.com/address/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "17 live contract(s) created directly by 0xed2b5717c9b936ecc76d75401026a99143e278f5 (CREATE nonce scan 0..126); tokens launched via factories are not counted. Wallet nonce = 127.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xed2b5717c9b936ecc76d75401026a99143e278f5",
+    "https://robinhoodchain.blockscout.com/tx/0x88acfa7707a7961fccac5923a33b3ee064a2d3338a73fd317e53e30836a23970",
+    "https://robinhoodchain.blockscout.com/address/0x072a3a0c04cf8cdcaf5b4a73a4ed4ff5a841531f",
+    "https://robinhoodchain.blockscout.com/address/0xcac5b9d2817325e78090e3ce4b9c299c819cf953",
+    "https://robinhoodchain.blockscout.com/address/0xbdc53e50b1167ce1199bfad54a034f7ab1741051"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xed2b5717c9b936ecc76d75401026a99143e278f5 on Blockscout: block 1764128 (2026-07-03 07:15 UTC), 107.9 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xed2b5717c9b936ecc76d75401026a99143e278f5",
+    "https://robinhoodchain.blockscout.com/tx/0x88acfa7707a7961fccac5923a33b3ee064a2d3338a73fd317e53e30836a23970",
+    "https://robinhoodchain.blockscout.com/tx/0x14dba97394d16945ee2597f92cc82416bc3c7e2e43e6c67f2f5f3c3cfebf2840",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xed2b5717c9b936ecc76d75401026a99143e278f5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 7,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d",
+    "https://robinhoodchain.blockscout.com/address/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x88395FE9Ce32494C9a054F794bE6EbaE5Ec9203d"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "17 live contract(s) created directly by 0xed2b5717c9b936ecc76d75401026a99143e278f5 (CREATE nonce scan 0..126); tokens launched via factories are not counted. Wallet nonce = 127.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xed2b5717c9b936ecc76d75401026a99143e278f5",
+    "https://robinhoodchain.blockscout.com/tx/0x88acfa7707a7961fccac5923a33b3ee064a2d3338a73fd317e53e30836a23970",
+    "https://robinhoodchain.blockscout.com/address/0x072a3a0c04cf8cdcaf5b4a73a4ed4ff5a841531f",
+    "https://robinhoodchain.blockscout.com/address/0xcac5b9d2817325e78090e3ce4b9c299c819cf953",
+    "https://robinhoodchain.blockscout.com/address/0xbdc53e50b1167ce1199bfad54a034f7ab1741051"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xed2b5717c9b936ecc76d75401026a99143e278f5, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x88395fe9ce32494c9a054f794be6ebae5ec9203d owner() @ 92322522",
+    "https://robinhoodchain.blockscout.com/address/0xed2b5717c9b936ecc76d75401026a99143e278f5"
+   ]
+  }
+ ]
+}

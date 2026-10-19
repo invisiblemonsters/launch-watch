@@ -1,0 +1,344 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xb270e23bc9d097a5d9225224685c719be51299ad",
+ "scanned_at_utc": "2026-10-18T19:47:41Z",
+ "block": 52781757,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "What if the next Tesla didn't need roads?",
+  "symbol": "ROADSTER FLY CAR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+  "state": "verified",
+  "name": "DopplerERC20V1",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+ "goplus": {
+  "anti_whale_modifiable": "1",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x54e2acab04c89a3fe02852bf8dd69ee8f526bc75",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "5",
+  "is_anti_whale": "1",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "What if the next Tesla didn't need roads?",
+  "token_symbol": "ROADSTER FLY CAR",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "1",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x137621e699fb61d4eead7051a68a39ab0e308284b1fb89e1da9c3e461d9350b2",
+  "block": 52780570,
+  "deployer": "0xf1542dd2d46394c16372fb00f2c339b53cef2ce5",
+  "source": "Blockscout address creator",
+  "tx_from": null,
+  "tx_to": "0x5ff137d4b0fdcd49dca30c7cf57e578a026d2789",
+  "ts": 1792350487,
+  "note": "creation tx went through an ERC-4337 EntryPoint; tx.from is a bundler, so the creator/smart account is used"
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 100020.71,
+  "geckoterminal_top_usd": 99880.5664
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5",
+   "liq_usd": 100020.71,
+   "created": 1792350487000,
+   "url": "https://dexscreener.com/base/0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5",
+   "quote": "USDC"
+  }
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xb270e23bc9d097a5d9225224685c719be51299ad?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xb270e23bc9d097a5d9225224685c719be51299ad",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xedf3f3981e98077591c1b909bccff0e572bd50f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xb270e23bc9d097a5d9225224685c719be51299ad",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb270e23bc9d097a5d9225224685c719be51299ad",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xb270e23bc9d097a5d9225224685c719be51299ad&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xb270e23bc9d097a5d9225224685c719be51299ad/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xb270e23bc9d097a5d9225224685c719be51299ad",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xb270e23bc9d097a5d9225224685c719be51299ad/pools",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52781757",
+    "https://base.blockscout.com/address/0xb270e23bc9d097a5d9225224685c719be51299ad"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DopplerERC20V1 0xedf3f3981e98077591c1b909bccff0e572bd50f8, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8?tab=contract",
+    "https://base.blockscout.com/address/0xb270e23bc9d097a5d9225224685c719be51299ad?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xb270e23bc9d097a5d9225224685c719be51299ad"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xedf3f3981e98077591c1b909bccff0e572bd50f8; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0xb270e23bc9d097a5d9225224685c719be51299ad owner() @ 52781757",
+    "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52781757"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb270e23bc9d097a5d9225224685c719be51299ad"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xb270e23bc9d097a5d9225224685c719be51299ad&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xf1542dd2d46394c16372fb00f2c339b53cef2ce5 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xf1542dd2d46394c16372fb00f2c339b53cef2ce5) @ 52781757",
+    "https://base.blockscout.com/address/0xf1542dd2d46394c16372fb00f2c339b53cef2ce5"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xb270e23bc9d097a5d9225224685c719be51299ad/holders",
+    "https://base.blockscout.com/token/0xb270e23bc9d097a5d9225224685c719be51299ad?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $100,021 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xb270e23bc9d097a5d9225224685c719be51299ad"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x1a53f0f48f\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5"
+   ]
+  },
+  {
+   "id": "deployer.type",
+   "group": "deployer",
+   "title": "Deployer",
+   "status": "info",
+   "points": 0,
+   "detail": "deployer 0xf1542dd2d46394c16372fb00f2c339b53cef2ce5 is a contract (factory); wallet history not applicable.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xf1542dd2d46394c16372fb00f2c339b53cef2ce5",
+    "https://base.blockscout.com/tx/0x137621e699fb61d4eead7051a68a39ab0e308284b1fb89e1da9c3e461d9350b2"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 20,
+ "band": "LOW",
+ "coverage": {
+  "run": 10,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb270e23bc9d097a5d9225224685c719be51299ad"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x1a53f0f48f\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5"
+   ]
+  }
+ ],
+ "label": "What if the next Tesla didn't need roads?",
+ "target": {
+  "chain": "base",
+  "address": "0xb270e23bc9d097a5d9225224685c719be51299ad",
+  "name": "What if the next Tesla didn't need roads?",
+  "symbol": "ROADSTER FLY CAR",
+  "created_at": "2026-10-18T19:08:07Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 101411.1289,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x1a53f0f48fdf0dcdd531a5f70e1ff83f01c2e205de2469b80f2ae436978e66c5",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

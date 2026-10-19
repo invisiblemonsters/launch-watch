@@ -1,0 +1,518 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+ "scanned_at_utc": "2026-10-19T04:05:21Z",
+ "block": 92321391,
+ "site": "https://kyzen.network/",
+ "post": null,
+ "token": {
+  "name": "Kyzen Network",
+  "symbol": "KYZN",
+  "decimals": 18,
+  "totalSupply": 997870875943221417346156445
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "KyznToken"
+ },
+ "verification": "verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0.04",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x965200078d41c1B91CED2f842106662d8bDdd16e",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "12436.03327513",
+    "pair": "0x49449b585e5d05f3acff985c4978147fa0593665"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "77",
+  "holders": [
+   {
+    "address": "0x49449B585e5D05f3aCFF985c4978147FA0593665",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "354210757.499432603284547871",
+    "percent": "0.354967",
+    "is_locked": 0
+   },
+   {
+    "address": "0x548129a58bC230549DF7F9e33f27E77F6779ff0f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "100000000",
+    "percent": "0.100213",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9fDbBB89a86fEcCADC5EdC10D96b7C430092b204",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "19940262.382874623162845142",
+    "percent": "0.019983",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC1F404b8AA130F2989E0719a3DbE4dB17f3B26bC",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18867000",
+    "percent": "0.018907",
+    "is_locked": 0
+   },
+   {
+    "address": "0xB756038B348b920d739d81D4699a4D200494806A",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18848000",
+    "percent": "0.018888",
+    "is_locked": 0
+   },
+   {
+    "address": "0x19E04074Fb0e6b1eEd7C45fA277526A22466A154",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18791000",
+    "percent": "0.018831",
+    "is_locked": 0
+   },
+   {
+    "address": "0xCe2b7D4B6cbF87Ff2443152B357B32ef6727d8B9",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18772000",
+    "percent": "0.018812",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4CfAeD47Be2e2778521559426193aBBF3dF11AD8",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "17664190.192390510375972296",
+    "percent": "0.017702",
+    "is_locked": 0
+   },
+   {
+    "address": "0x645eE7458cc350409CBAfa20FC3AcDD30fF18fe3",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "16398394",
+    "percent": "0.016433",
+    "is_locked": 0
+   },
+   {
+    "address": "0x76E274064f6d047206D3d164332D143C52a08c0a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "16007824.751516606156321659",
+    "percent": "0.016042",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "3",
+  "lp_holders": [
+   {
+    "address": "0x82FfC9fA716880858059e09F48bD371dE022828a",
+    "tag": "",
+    "value": "12311.672942381391770362",
+    "is_contract": 1,
+    "balance": "42002.14280248092294842",
+    "percent": "0.990000",
+    "NFT_list": null,
+    "is_locked": 0
+   },
+   {
+    "address": "0xD45dD91DF475bFD944335160f538C1A14888DC1C",
+    "tag": "",
+    "value": "124.360332751327189599",
+    "is_contract": 0,
+    "balance": "424.26406871192851463",
+    "percent": "0.010000",
+    "NFT_list": null,
+    "is_locked": 0
+   },
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "",
+    "value": "0.000000000000000293",
+    "is_contract": 0,
+    "balance": "0.000000000000001000",
+    "percent": "0.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   }
+  ],
+  "lp_total_supply": "42426.40687119284",
+  "owner_address": "0x0000000000000000000000000000000000000000",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0.0404",
+  "slippage_modifiable": "0",
+  "token_name": "Kyzen Network",
+  "token_symbol": "KYZN",
+  "total_supply": "997870875.9432214",
+  "trading_cooldown": "0",
+  "transfer_pausable": "1",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x14ab02080747bf5bc2f6b29f4bb612b51400f99fa784072488a36760669a031b",
+  "block": 78265078,
+  "deployer": "0x965200078d41c1b91ced2f842106662d8bddd16e",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x965200078d41c1b91ced2f842106662d8bddd16e",
+  "tx_from": "0x965200078d41c1b91ced2f842106662d8bddd16e",
+  "tx_to": null,
+  "ts": 1790947534
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 23958.78,
+  "geckoterminal_top_usd": 24851.8071
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x49449B585e5D05f3aCFF985c4978147FA0593665",
+   "liq_usd": 23958.78,
+   "created": 1790947534000,
+   "url": "https://dexscreener.com/robinhood/0x49449b585e5d05f3acff985c4978147fa0593665",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 55,
+ "deployer_contracts": [
+  "0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+  "0x68bc166621540b482119985b5b969df85c897f03",
+  "0xe726f9018fa8b650bfd031001fcfa61f685f8569",
+  "0x614c7f1e9bc345c9e2d809d122999731665d0484"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x614c7f1e9bc345c9e2d809d122999731665d0484",
+  "0x68bc166621540b482119985b5b969df85c897f03",
+  "0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+  "0xe726f9018fa8b650bfd031001fcfa61f685f8569"
+ ],
+ "site_ips": [
+  "186.241.25.166"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x9b3A765a32F3ff0623a2dEa04136960C77205B09?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+   "status": 200,
+   "attempt": 3
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+   "status": 200,
+   "attempt": 2
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x9b3A765a32F3ff0623a2dEa04136960C77205B09/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x9b3a765a32f3ff0623a2dea04136960c77205b09/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x82ffc9fa716880858059e09f48bd371de022828a?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x82ffc9fa716880858059e09f48bd371de022828a",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x82ffc9fa716880858059e09f48bd371de022828a",
+   "status": 200,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x965200078d41c1b91ced2f842106662d8bddd16e/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=kyzen.network&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/kyzen.network",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "9245 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92321391",
+    "https://robinhoodchain.blockscout.com/address/0x9b3A765a32F3ff0623a2dEa04136960C77205B09"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as KyznToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x9b3A765a32F3ff0623a2dEa04136960C77205B09",
+    "https://robinhoodchain.blockscout.com/address/0x9b3A765a32F3ff0623a2dEa04136960C77205B09?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92321391"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0x9b3a765a32f3ff0623a2dea04136960c77205b09 owner() @ 92321391"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 92321391",
+    "https://repo.sourcify.dev/4663/0x9b3A765a32F3ff0623a2dEa04136960C77205B09"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x9b3a765a32f3ff0623a2dea04136960c77205b09"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x965200078d41c1b91ced2f842106662d8bddd16e holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x965200078d41c1b91ced2f842106662d8bddd16e) @ 92321391",
+    "https://robinhoodchain.blockscout.com/address/0x965200078d41c1b91ced2f842106662d8bddd16e"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.00% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x9b3A765a32F3ff0623a2dEa04136960C77205B09/holders",
+    "https://robinhoodchain.blockscout.com/token/0x9b3A765a32F3ff0623a2dEa04136960C77205B09?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $23,959 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x49449b585e5d05f3acff985c4978147fa0593665",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x9b3a765a32f3ff0623a2dea04136960c77205b09"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): UniswapV2LockerWithFees 0x82ffc9fa716880858059e09f48bd371de022828a (99.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+    "https://robinhoodchain.blockscout.com/address/0x82ffc9fa716880858059e09f48bd371de022828a?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "4 live contract(s) created directly by 0x965200078d41c1b91ced2f842106662d8bddd16e (CREATE nonce scan 0..54); tokens launched via factories are not counted. Wallet nonce = 55.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x965200078d41c1b91ced2f842106662d8bddd16e",
+    "https://robinhoodchain.blockscout.com/tx/0x14ab02080747bf5bc2f6b29f4bb612b51400f99fa784072488a36760669a031b",
+    "https://robinhoodchain.blockscout.com/address/0x9b3a765a32f3ff0623a2dea04136960c77205b09",
+    "https://robinhoodchain.blockscout.com/address/0x68bc166621540b482119985b5b969df85c897f03",
+    "https://robinhoodchain.blockscout.com/address/0xe726f9018fa8b650bfd031001fcfa61f685f8569"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x965200078d41c1b91ced2f842106662d8bddd16e on Blockscout: block 76650813 (2026-09-30 16:15 UTC), 18.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x965200078d41c1b91ced2f842106662d8bddd16e",
+    "https://robinhoodchain.blockscout.com/tx/0x14ab02080747bf5bc2f6b29f4bb612b51400f99fa784072488a36760669a031b",
+    "https://robinhoodchain.blockscout.com/tx/0x14caf84656b1ecd5bbcd2316127fa33c5ef8ed5a35e8cae1125a9a1b977e14fd",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x965200078d41c1b91ced2f842106662d8bddd16e/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "kyzen.network -> 186.241.25.166; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=kyzen.network&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "kyzen.network registered 2026-09-13 (36 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/kyzen.network"
+   ]
+  }
+ ],
+ "score": 21,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $23,959 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x49449b585e5d05f3acff985c4978147fa0593665",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x9b3a765a32f3ff0623a2dea04136960c77205b09"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x9b3a765a32f3ff0623a2dea04136960c77205b09"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ]
+}

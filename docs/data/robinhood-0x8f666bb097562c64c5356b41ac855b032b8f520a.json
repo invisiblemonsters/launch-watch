@@ -1,0 +1,351 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x8f666bb097562c64c5356b41ac855b032b8f520a",
+ "scanned_at_utc": "2026-10-18T19:44:41Z",
+ "block": 92027048,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Tidehold",
+  "symbol": "TIDE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "holder_count": "2",
+  "holders": [
+   {
+    "address": "0x2edBAAeDfBaF5AE46b45eA3a0A7852f57DD5c77F",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "999999940.47619401927416552",
+    "percent": "1.000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x78053Bf653771C72Bdde01697C7f9Cc440F9a6cb",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "59.52380598072583448",
+    "percent": "0.000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Tidehold",
+  "token_symbol": "TIDE",
+  "total_supply": "1000000000"
+ },
+ "creation": {
+  "tx": "0xa0db1e21ff17ed359522519b8b04ef95846d1391feaa2c94c897c840ca67ca7d",
+  "block": 92017526,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xfb9a37665136c278b736c0aae4a58b79ec77d9da",
+  "tx_to": "0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e",
+  "ts": 1792351706
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 393543.36
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f",
+   "liq_usd": 393543.36,
+   "created": "2026-10-18T19:28:26Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x8f666bb097562c64c5356b41ac855b032b8f520a?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x8f666bb097562c64c5356b41ac855b032b8f520a",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x8f666bb097562c64c5356b41ac855b032b8f520a",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x8f666bb097562c64c5356b41ac855b032b8f520a",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x8f666bb097562c64c5356b41ac855b032b8f520a/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x8f666bb097562c64c5356b41ac855b032b8f520a",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x8f666bb097562c64c5356b41ac855b032b8f520a/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfb9a37665136c278b736c0aae4a58b79ec77d9da/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92027048",
+    "https://robinhoodchain.blockscout.com/address/0x8f666bb097562c64c5356b41ac855b032b8f520a"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0x8f666bb097562c64c5356b41ac855b032b8f520a?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92027048"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x8f666bb097562c64c5356b41ac855b032b8f520a owner() @ 92027048 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 92027048"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x8f666bb097562c64c5356b41ac855b032b8f520a"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xfb9a37665136c278b736c0aae4a58b79ec77d9da holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xfb9a37665136c278b736c0aae4a58b79ec77d9da) @ 92027048",
+    "https://robinhoodchain.blockscout.com/address/0xfb9a37665136c278b736c0aae4a58b79ec77d9da"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.00% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x8f666bb097562c64c5356b41ac855b032b8f520a/holders",
+    "https://robinhoodchain.blockscout.com/token/0x8f666bb097562c64c5356b41ac855b032b8f520a?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $393,543 (pons-v2).",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x8f666bb097562c64c5356b41ac855b032b8f520a/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xfb9a37665136c278b736c0aae4a58b79ec77d9da has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfb9a37665136c278b736c0aae4a58b79ec77d9da",
+    "https://robinhoodchain.blockscout.com/tx/0xa0db1e21ff17ed359522519b8b04ef95846d1391feaa2c94c897c840ca67ca7d",
+    "eth_getTransactionCount(0xfb9a37665136c278b736c0aae4a58b79ec77d9da) @ 92027048 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xfb9a37665136c278b736c0aae4a58b79ec77d9da (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfb9a37665136c278b736c0aae4a58b79ec77d9da",
+    "https://robinhoodchain.blockscout.com/tx/0xa0db1e21ff17ed359522519b8b04ef95846d1391feaa2c94c897c840ca67ca7d"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xfb9a37665136c278b736c0aae4a58b79ec77d9da on Blockscout: block 81048308 (2026-10-05 19:54 UTC), 13.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfb9a37665136c278b736c0aae4a58b79ec77d9da",
+    "https://robinhoodchain.blockscout.com/tx/0xa0db1e21ff17ed359522519b8b04ef95846d1391feaa2c94c897c840ca67ca7d",
+    "https://robinhoodchain.blockscout.com/tx/0x9cf14f1359ac08a044ae856b2a36d7df11e8e4fcd7ebda2c42a05345e416a5f2",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xfb9a37665136c278b736c0aae4a58b79ec77d9da/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 24,
+ "band": "LOW",
+ "coverage": {
+  "run": 11,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xfb9a37665136c278b736c0aae4a58b79ec77d9da has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xfb9a37665136c278b736c0aae4a58b79ec77d9da",
+    "https://robinhoodchain.blockscout.com/tx/0xa0db1e21ff17ed359522519b8b04ef95846d1391feaa2c94c897c840ca67ca7d",
+    "eth_getTransactionCount(0xfb9a37665136c278b736c0aae4a58b79ec77d9da) @ 92027048 = 4"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0x8f666bb097562c64c5356b41ac855b032b8f520a?tab=contract"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "Tidehold",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x8f666bb097562c64c5356b41ac855b032b8f520a",
+  "name": "Tidehold",
+  "symbol": "TIDE",
+  "created_at": "2026-10-18T19:28:26Z",
+  "dex": "pons-v2",
+  "liq_usd": 393543.36,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x2edbaaedfbaf5ae46b45ea3a0a7852f57dd5c77f",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

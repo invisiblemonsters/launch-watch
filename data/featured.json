@@ -1,0 +1,141 @@
+{
+ "note": "Hand-written featured reads. Public, non-exploitable facts and questions only. Anything sensitive stays in /workspace/outreach/free-summaries/ (private).",
+ "featured": [
+  {
+   "slug": "permapad",
+   "name": "Perma (Permapad)",
+   "team": "EOTM Labs (@EOTMofficial)",
+   "site": "https://permapad.fun",
+   "chain": "robinhood",
+   "checked": "2026-10-18 21:30 PDT",
+   "tagline": "Bonding-curve token launchpad on Robinhood Chain; graduated liquidity goes to a locker with no withdraw path.",
+   "audit": "Permapad's Terms say the contracts have not had an outside audit.",
+   "contracts": [
+    ["PermaFactory", "0x52cC65e4931273E5E28C1b7554fC219eBBf58B7C", "Sourcify exact match", "not a proxy"],
+    ["PermaCurve", "0xF3d07186cD2230292322f44EEB94A14C8351F857", "Sourcify exact match", "not a proxy"],
+    ["PermaRouter", "0x2cBCd172dbFFEc7AFe84C851825A4a955bb4c255", "Sourcify exact match", "not a proxy"],
+    ["PermaLocker", "0xa3df4197D0036209D81210A3b1A0ced910D4ffaB", "Sourcify exact match", "not a proxy"],
+    ["PermaFeeManager", "0xf028B83C86D7AfEb85ce5B09691c87bd5c402ad4", "Sourcify exact match", "not a proxy"],
+    ["PermaTreasury", "0xb185c3fcfa0C7bB42d1feE3eF1d40dF36c7603D1", "Sourcify exact match", "not a proxy"],
+    ["PermaGovernor", "0xd9F92c522125D396175E0d4cdC558c0e5aA2d52B", "Sourcify exact match", "not a proxy"],
+    ["PermaVault", "0xFbDe0438589d6a51E55b44946b3c2cA95C69972e", "Sourcify exact match", "not a proxy"],
+    ["$PERMA token", "0x7C31FaFE4470B4e002A39d398da17B73D40E3141", "EIP-1167 clone of a verified implementation", "minimal clone (not upgradeable)"]
+   ],
+   "scored": [["robinhood", "0x52cc65e4931273e5e28c1b7554fc219ebbf58b7c", "PermaFactory"], ["robinhood", "0x7c31fafe4470b4e002a39d398da17b73d40e3141", "$PERMA"]],
+   "facts": [
+    "All eight core contracts listed in the app are verified (Sourcify exact match). None is a proxy: the EIP-1967 implementation, admin and beacon slots are empty, so the code cannot be swapped.",
+    "PermaLocker has no function that removes liquidity. Its state-changing functions are a one-time deployer <code>initialize</code> (already done), <code>graduate</code>, <code>zapLiquidity</code>, <code>buyBackAndBurn</code> and <code>releaseBurn</code>. That matches the site's claim that locked liquidity cannot be withdrawn.",
+    "Governance is in its owner-key phase. <code>PermaGovernor.ownerKey()</code> is <code>0xAD71…6533</code>, a plain wallet (no contract code). It can run the governor's whitelisted actions directly, but never the treasury sweeps switch.",
+    "Holder voting opens at <code>handoverAt()</code> = Dec 2, 2026, 10:42 AM PST (fee manager T0 + 45 days; T0 was Oct 18, 2026, 11:42 AM PDT). The owner key keeps its powers alongside voting until T0 + 365 days, unless it steps down or holders vote it out (possible from day 90).",
+    "The same wallet is the service-settings key (<code>PermaServiceSettings.key()</code>). That key can pause new launches on the factory, but the code comments say it can never change coins that are already launched.",
+    "Score note: our scanner flags a <code>withdraw(uint256)</code> selector in the factory bytecode. In the verified source this is the factory calling <code>WETH.withdraw</code> to unwrap refunds, not a privileged rescue function."
+   ],
+   "questions": [
+    "Is the owner key / service key (<code>0xAD71…6533</code>) a hardware wallet? Is a move to a multisig planned? <code>proposeOwnerKey</code>/<code>acceptOwnerKey</code> already support a two-step handover.",
+    "Can you publish the governor's whitelist (target, function, tier) in plain language, so holders can see exactly what the owner key can change before Dec 2?",
+    "Is an outside review planned before holder governance opens?"
+   ],
+   "private_notes": false
+  },
+  {
+   "slug": "cowl",
+   "name": "COWL",
+   "team": "@cowlhq",
+   "site": "https://cowl.pro",
+   "chain": "robinhood",
+   "checked": "2026-10-18 21:15 PDT",
+   "tagline": "Private receive links on Robinhood Chain: ERC-5564 stealth payments through a small router with no owner.",
+   "audit": "The site says \"Audit: Not yet\".",
+   "contracts": [
+    ["CowlRouter", "0x5A254fE1f65e5cbBe978095ab4632E7446Bd8590", "verified on Sourcify and Blockscout (solc 0.8.26)", "not a proxy"],
+    ["ERC-5564 Announcer (standard, not COWL's)", "0x55649E01B5Df198D18D95b5cc5051630cfD45564", "canonical singleton", "n/a"],
+    ["ERC-6538 Registry (standard, not COWL's)", "0x6538E6bf4B0eBd30A8Ea093027Ac2422ce5d6538", "canonical singleton", "n/a"]
+   ],
+   "scored": [["robinhood", "0x5a254fe1f65e5cbbe978095ab4632e7446bd8590", "CowlRouter"]],
+   "facts": [
+    "<strong>Not a mixer.</strong> The router has no pool and holds no funds. <code>sendEth</code>/<code>sendToken</code> forward each payment straight from the sender to a one-time (stealth) address, then log one ERC-5564 announcement. Amounts and senders stay public, as the site says. So we scored it; mixer-style pools are excluded from Launch Watch.",
+    "No owner, admin, fee or upgrade path: the verified source has no state variables and no privileged functions, and the EIP-1967 slots are empty.",
+    "<code>sendToken</code> only pulls tokens from <code>msg.sender</code>. An approval to the router cannot be spent by anyone else.",
+    "The router was deployed Oct 18, 2026, 1:44 PM PDT, from a new wallet. The domain was registered the same day, and those two facts make up most of the automated score.",
+    "$COWL has not launched yet (Pons, Oct 19, 2026, 6:00 AM PDT). There is no token contract to score yet."
+   ],
+   "questions": [
+    "The announcement records the <em>requested</em> amount. For fee-on-transfer or rebasing tokens, the stealth address receives less than announced. Does the Inbox show live balances rather than announced amounts?",
+    "Anyone can post an ERC-5564 announcement directly to the public announcer. Does the Inbox check that an announced payment actually arrived before showing it?",
+    "Will the $COWL token contract be verified at launch, and will its owner/fee settings be published next to the router on cowl.pro?"
+   ],
+   "private_notes": false
+  },
+  {
+   "slug": "winternitz",
+   "name": "Winternitz",
+   "team": "@winternitzk",
+   "site": "https://winternitz.app",
+   "chain": "robinhood",
+   "checked": "2026-10-18 21:20 PDT",
+   "tagline": "Post-quantum smart accounts (WOTS one-time signatures) on Robinhood Chain; the docs call mainnet experimental.",
+   "audit": "No audit is mentioned. No public source repository was found (GitHub search, Oct 18, 2026).",
+   "contracts": [
+    ["QuantumSafeAccountFactory", "0xBe3a0B5f698a4F83C7679aAe7E7743D5E3d2F468", "not verified on mainnet (verified build on testnet)", "not a proxy"],
+    ["QuantumSafeAccount (implementation)", "0xcCBA0b7B10f809e8f3B3C1e9835acDeEdC020c39", "not verified on mainnet (verified build on testnet)", "accounts are EIP-1167 clones"],
+    ["$WTZ token", "0x92bffc0ca8d18ed0971dc94957c15e05e6e6f223", "Pons V2 launcher token", "-"]
+   ],
+   "scored": [["robinhood", "0x92bffc0ca8d18ed0971dc94957c15e05e6e6f223", "$WTZ"]],
+   "facts": [
+    "The mainnet runtime bytecode of both contracts is byte-identical to the testnet build that is verified on the Robinhood testnet Blockscout. Verifying on mainnet would be a quick win.",
+    "There is no owner key and no upgrade path. Accounts are minimal clones of an implementation that disables initializers.",
+    "On Oct 17, 2026 the mainnet factory had not created any accounts yet."
+   ],
+   "questions": [
+    "Will you verify the factory and implementation on mainnet Sourcify/Blockscout and publish the source?",
+    "Is there a written threat model for restoring a device from an old backup, covering which one-time keys a restored device may assume are unused?"
+   ],
+   "private_notes": true
+  },
+  {
+   "slug": "heurix",
+   "name": "Heurix",
+   "team": "@HeurixRH",
+   "site": "https://heurix.xyz",
+   "chain": "robinhood",
+   "checked": "2026-10-18 21:05 PDT",
+   "tagline": "No-code AI trading agents; token on Robinhood Chain.",
+   "audit": "No audit mentioned on the site.",
+   "contracts": [["Heurix token", "0xfcc86d9c23ffb9f27258534ea316c096f1af51b9", "see score page", "see score page"]],
+   "scored": [["robinhood", "0xfcc86d9c23ffb9f27258534ea316c096f1af51b9", "Heurix"]],
+   "facts": [
+    "Re-scanned Oct 18, 2026: 24/100 LOW (previously 32 MODERATE on Oct 15). The remaining points come from pool liquidity under $25k, a deployer wallet with history starting Oct 14, and a domain registered Oct 9.",
+    "The token is the only on-chain contract the project lists. The agent platform itself runs off-chain."
+   ],
+   "questions": [
+    "Do the trading agents ever hold user funds or approvals on-chain? If so, which contracts do they use?"
+   ],
+   "private_notes": false
+  },
+  {
+   "slug": "minefi",
+   "name": "MineFi",
+   "team": "@MineFiquest",
+   "site": "https://minefi.quest",
+   "chain": "robinhood",
+   "checked": "2026-10-18 21:10 PDT",
+   "tagline": "Token-led project on Robinhood Chain planning ETH rewards and burns; the site says rewards are still in development.",
+   "audit": "No audit mentioned; the site says \"early development\".",
+   "contracts": [["$MINEFI token", "0x402ee97493e6654a90104b7cac73e271cfaec5b4", "not found on Sourcify; Blockscout lookup errored", "not a proxy (EIP-1967 slots empty)"]],
+   "scored": [["robinhood", "0x402ee97493e6654a90104b7cac73e271cfaec5b4", "MineFi"]],
+   "facts": [
+    "Scanned Oct 18, 2026: 43/100 MODERATE. Drivers: Pons V2 pool liquidity under $5k, a launch wallet with 5 transactions (first seen Oct 17), and a domain registered Oct 17.",
+    "The token exposes no <code>owner()</code>. Total supply is 1,000,000,000.",
+    "The site lists the reward pool as \"Not deployed\" and burns as \"Not active\". There are no reward or burn contracts to check yet."
+   ],
+   "questions": [
+    "Is the token source verified anywhere? Sourcify has no match, and the Blockscout check could not complete.",
+    "When the reward pool ships, will its address and admin roles be published before it is funded?"
+   ],
+   "private_notes": false
+  }
+ ],
+ "skipped": [
+  ["gol_network", "Building on Solana testnet. No Robinhood Chain or Base contract to score."]
+ ]
+}

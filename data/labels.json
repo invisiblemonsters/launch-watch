@@ -1,0 +1,10 @@
+{"note": "Display names for scored non-token contracts whose verified name is not available from Blockscout. Names come from the project's own public repo or deployment manifest.",
+ "labels": {
+  "robinhood:0xb6cdca31fc5edab747d69ec6d7e6d251de8de03a": "HOODX index factory",
+  "robinhood:0x88395fe9ce32494c9a054f794be6ebae5ec9203d": "GapwatchRegistryV2",
+  "robinhood:0x3019844dada9a3764173cb6bac6093ca6bf6d433": "RukusFactoryV3",
+  "robinhood:0x52cc65e4931273e5e28c1b7554fc219ebbf58b7c": "PermaFactory (Permapad)",
+  "robinhood:0x5a254fe1f65e5cbbe978095ab4632e7446bd8590": "CowlRouter (COWL)",
+  "robinhood:0x20a908d82885cf4e990a9f8f3f5a483687660822": "gage IntentFactory",
+  "robinhood:0xb87c0284f9a1f23bceafdfc4bd8398f4bf420897": "QuanthoodOracle"
+ }}

@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Winternitz: featured read | Metatron Launch Watch</title>
+<meta name="description" content="Winternitz on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Post-quantum smart accounts (WOTS one-time signatures) on Robinhood Chain; the docs call mainnet experimental.">
+<link rel="canonical" href="https://invisiblemonsters.github.io/launch-watch/featured/winternitz.html">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="Metatron Launch Watch">
+<meta property="og:title" content="Winternitz: featured read | Metatron Launch Watch">
+<meta property="og:description" content="Winternitz on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Post-quantum smart accounts (WOTS one-time signatures) on Robinhood Chain; the docs call mainnet experimental.">
+<meta property="og:url" content="https://invisiblemonsters.github.io/launch-watch/featured/winternitz.html">
+<meta property="og:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Winternitz: featured read | Metatron Launch Watch">
+<meta name="twitter:description" content="Winternitz on Robinhood Chain: verified contracts, admin roles, proxy status and open questions. Post-quantum smart accounts (WOTS one-time signatures) on Robinhood Chain; the docs call mainnet experimental.">
+<meta name="twitter:image" content="https://invisiblemonsters.github.io/launch-watch/preview-index.png">
+<link rel="stylesheet" href="../style.css">
+<link rel="alternate" type="application/atom+xml" title="Metatron Launch Watch: new scores" href="../feed.xml">
+</head>
+<body>
+<header class="top"><div class="wrap">
+<a class="brand" href="../index.html">Metatron <span>Launch Watch</span></a>
+<nav><a href="../index.html">Launches</a><a href="../methodology.html">Methodology</a><a href="../get-reviewed.html">Get reviewed &amp; pricing</a><a href="../feed.xml">Feed</a></nav>
+</div></header>
+<main class="wrap">
+
+<p class="small"><a href="../index.html#featured">Featured reads</a> / Winternitz</p>
+<h1>Winternitz <small class="mut">on Robinhood Chain</small></h1>
+<p>Post-quantum smart accounts (WOTS one-time signatures) on Robinhood Chain; the docs call mainnet experimental.</p>
+<p class="small">Team: @winternitzk · Site: <a href="https://winternitz.app" rel="nofollow noopener">https://winternitz.app</a> · Checked 2026-10-18 21:20 PDT · No audit is mentioned. No public source repository was found (GitHub search, Oct 18, 2026).</p>
+<div class="owner"><strong>Is this your project?</strong> <a class="btn" href="https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml&amp;title=%5BReview%20request%5D%20Winternitz%20on%20Robinhood%20Chain&amp;project=Winternitz&amp;chain=Robinhood%20Chain&amp;addresses=0xBe3a0B5f698a4F83C7679aAe7E7743D5E3d2F468&amp;page=https%3A%2F%2Finvisiblemonsters.github.io%2Flaunch-watch%2Ffeatured%2Fwinternitz.html">Claim this page: request a re-scan, badge or review</a>
+<span class="small">Free corrections · <a href="../get-reviewed.html">Verified badge $50 / 24h review $150</a> · or email <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a></span></div>
+<h2>Automated scores</h2>
+<ul><li><a href="../launch/robinhood-0x92bffc0ca8d18ed0971dc94957c15e05e6e6f223.html">$WTZ</a>: <span class="pill low">24 <small>LOW</small></span> <small>scanned Oct 18, 2026 8:57 PM PT</small></li></ul>
+<h2>Contracts checked</h2>
+<div class="tablewrap"><table><thead><tr><th>Contract</th><th>Address</th><th>Source</th><th>Upgradeable?</th></tr></thead><tbody><tr><td>QuantumSafeAccountFactory</td><td><a href="https://robinhoodchain.blockscout.com/address/0xBe3a0B5f698a4F83C7679aAe7E7743D5E3d2F468" rel="nofollow noopener"><code>0xBe3a…F468</code></a></td><td>not verified on mainnet (verified build on testnet)</td><td>not a proxy</td></tr><tr><td>QuantumSafeAccount (implementation)</td><td><a href="https://robinhoodchain.blockscout.com/address/0xcCBA0b7B10f809e8f3B3C1e9835acDeEdC020c39" rel="nofollow noopener"><code>0xcCBA…0c39</code></a></td><td>not verified on mainnet (verified build on testnet)</td><td>accounts are EIP-1167 clones</td></tr><tr><td>$WTZ token</td><td><a href="https://robinhoodchain.blockscout.com/address/0x92bffc0ca8d18ed0971dc94957c15e05e6e6f223" rel="nofollow noopener"><code>0x92bf…f223</code></a></td><td>Pons V2 launcher token</td><td>-</td></tr></tbody></table></div>
+<h2>What we read on-chain</h2>
+<ul><li>The mainnet runtime bytecode of both contracts is byte-identical to the testnet build that is verified on the Robinhood testnet Blockscout. Verifying on mainnet would be a quick win.</li><li>There is no owner key and no upgrade path. Accounts are minimal clones of an implementation that disables initializers.</li><li>On Oct 17, 2026 the mainnet factory had not created any accounts yet.</li></ul>
+<h2>Open questions for the team</h2>
+<ul><li>Will you verify the factory and implementation on mainnet Sourcify/Blockscout and publish the source?</li><li>Is there a written threat model for restoring a device from an old backup, covering which one-time keys a restored device may assume are unused?</li></ul>
+<p class="note"><strong>Private notes available on request.</strong> We do not publish anything that could put users at risk. The team can get them via <a href="https://github.com/invisiblemonsters/launch-watch/security/advisories/new">private vulnerability reporting</a> or by writing to <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a> first.</p>
+<p class="small">A manual read of public source and on-chain state, plus our automated score. This is not an audit or a guarantee, and risk signals are not evidence of wrongdoing. Anything that looks like a vulnerability is never published here. It goes to the team privately. Corrections are welcome via the claim button above.</p>
+
+</main>
+<footer class="foot"><div class="wrap">
+<p>Automated on-chain checks, not financial advice. Risk signals are not evidence of wrongdoing. Teams can request a re-scan or correction at <a href="mailto:metatron@mail.grokbot.com">metatron@mail.grokbot.com</a>.</p>
+<p><a href="../get-reviewed.html">Get reviewed &amp; pricing</a> · <a href="https://github.com/invisiblemonsters/launch-watch/issues/new?template=request-review.yml">Request a review (GitHub issue)</a> · <a href="https://github.com/invisiblemonsters/launch-watch">Source on GitHub</a> · <a href="https://github.com/invisiblemonsters/launch-watch/security/advisories/new">Report a vulnerability privately</a></p>
+</div></footer>
+</body>
+</html>

@@ -1,0 +1,436 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+ "scanned_at_utc": "2026-10-19T04:14:15Z",
+ "block": 92326596,
+ "site": "https://www.anthropic.com/news/public-benefit-fund",
+ "post": null,
+ "token": {
+  "name": "SpaceXSITeslaBoringaLink",
+  "symbol": "SXSITBL",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "BaseToken"
+ },
+ "verification": "verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x41731b1F742852D703C743eCD2226A0697ec39D2",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "5900.61945771536561447166",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.0001",
+    "pair": "0xd5745d8355056fa2b8bda672691e9d3c1050b57f974413f470ff2695356a3e60"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "11.0323150",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.99",
+    "pair": "0xd6ab92358b189c45a979a55507c172944c1251eafa725ad4dcb3b6f449201e7c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.3116140",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0xc4a52ce3b683d56c0f788cc34b78999025ec3c28b3dc4cb33aa54597dcf77a54"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.1547930",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.990099",
+    "pair": "0xeac7ed0f9b0c00f2e742ec75aca1ef4864441beea138cc56e01497e4f492f6ee"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x41731b1f742852d703c743ecd2226a0697ec39d2",
+    "tag": "",
+    "value": "16029.99716322649924847232",
+    "is_contract": 0,
+    "balance": "54745.799260941279145961",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "16029.99716322649924847232",
+      "NFT_id": "3893372",
+      "amount": "54745.799260941279145961",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "54745.79926094128",
+  "owner_address": "0x0000000000000000000000000000000000000000",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "SpaceXSITeslaBoringaLink",
+  "token_symbol": "SXSITBL",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x38c912938bf03c88876e32a1c0cad7de1909325643a23f155e98b12b70a6283c",
+  "block": 92300391,
+  "deployer": "0x41731b1f742852d703c743ecd2226a0697ec39d2",
+  "source": "Blockscout address creator",
+  "tx_from": "0x41731b1f742852d703c743ecd2226a0697ec39d2",
+  "tx_to": null,
+  "ts": 1792380562
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 34371.3,
+  "geckoterminal_top_usd": 16381.7226
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xd5745d8355056fa2b8bda672691e9d3c1050b57f974413f470ff2695356a3e60",
+   "liq_usd": 34371.3,
+   "created": 1792380608000,
+   "url": "https://dexscreener.com/robinhood/0xd5745d8355056fa2b8bda672691e9d3c1050b57f974413f470ff2695356a3e60",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xc4a52ce3b683d56c0f788cc34b78999025ec3c28b3dc4cb33aa54597dcf77a54",
+   "liq_usd": 2.49,
+   "created": 1792381422000,
+   "url": "https://dexscreener.com/robinhood/0xc4a52ce3b683d56c0f788cc34b78999025ec3c28b3dc4cb33aa54597dcf77a54",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 7,
+ "deployer_contracts": [
+  "0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+ ],
+ "site_ips": [
+  "160.79.104.10"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x41731b1f742852d703c743ecd2226a0697ec39d2/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.anthropic.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/anthropic.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "4509 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92326596",
+    "https://robinhoodchain.blockscout.com/address/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as BaseToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92326596"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015 owner() @ 92326596"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 92326596",
+    "https://robinhoodchain.blockscout.com/address/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x41731b1f742852d703c743ecd2226a0697ec39d2 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x41731b1f742852d703c743ecd2226a0697ec39d2) @ 92326596",
+    "https://robinhoodchain.blockscout.com/address/0x41731b1f742852d703c743ecd2226a0697ec39d2"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.87% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015/holders",
+    "https://robinhoodchain.blockscout.com/token/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $34,371 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xd5745d8355056fa2b8bda672691e9d3c1050b57f974413f470ff2695356a3e60",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x41731b1f742852d703c743ecd2226a0697ec39d2 (CREATE nonce scan 0..6); tokens launched via factories are not counted. Wallet nonce = 7.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x41731b1f742852d703c743ecd2226a0697ec39d2",
+    "https://robinhoodchain.blockscout.com/tx/0x38c912938bf03c88876e32a1c0cad7de1909325643a23f155e98b12b70a6283c",
+    "https://robinhoodchain.blockscout.com/address/0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x41731b1f742852d703c743ecd2226a0697ec39d2 on Blockscout: block 92300224 (2026-10-19 03:29 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x41731b1f742852d703c743ecd2226a0697ec39d2",
+    "https://robinhoodchain.blockscout.com/tx/0x38c912938bf03c88876e32a1c0cad7de1909325643a23f155e98b12b70a6283c",
+    "https://robinhoodchain.blockscout.com/tx/0x5f567beb9af38116bbb7c88235c23d4ff3af2b31ffa9864234b3a487087fdfd5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x41731b1f742852d703c743ecd2226a0697ec39d2/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "www.anthropic.com -> 160.79.104.10; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.anthropic.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "anthropic.com registered 2001-10-02 (9147 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/anthropic.com"
+   ]
+  }
+ ],
+ "score": 21,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x41731b1f742852d703c743ecd2226a0697ec39d2 on Blockscout: block 92300224 (2026-10-19 03:29 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x41731b1f742852d703c743ecd2226a0697ec39d2",
+    "https://robinhoodchain.blockscout.com/tx/0x38c912938bf03c88876e32a1c0cad7de1909325643a23f155e98b12b70a6283c",
+    "https://robinhoodchain.blockscout.com/tx/0x5f567beb9af38116bbb7c88235c23d4ff3af2b31ffa9864234b3a487087fdfd5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x41731b1f742852d703c743ecd2226a0697ec39d2/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ],
+ "label": "SpaceXSITeslaBoringaLink",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xcc0af0b0480e8caa5b610e59f4fbd4a455ecf015",
+  "name": "SpaceXSITeslaBoringaLink",
+  "symbol": "SXSITBL",
+  "created_at": "2026-10-19T03:43:42Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 21.0559,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xc4a52ce3b683d56c0f788cc34b78999025ec3c28b3dc4cb33aa54597dcf77a54",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.anthropic.com/news/public-benefit-fund",
+  "x_profile": "https://x.com/elonmusk/status/2111980598084698114",
+  "post": null
+ }
+}

@@ -1,0 +1,270 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x35319759F179dD2ab288Cee3222eddB4879a448B",
+ "scanned_at_utc": "2026-10-19T16:55:18Z",
+ "block": 92771653,
+ "site": "https://carbonized.app",
+ "post": null,
+ "token": {},
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "creation": {
+  "tx": "0x59a5b6fa2e46a2e6a057d1d6d34a8193ac560b4f2e5127498d799ec10ba601a0",
+  "block": 92589310,
+  "deployer": "0x648cb87b923decd39cd047d4600c5e31c0c5c0d5",
+  "source": "Blockscout address creator",
+  "tx_from": "0x648cb87b923decd39cd047d4600c5e31c0c5c0d5",
+  "tx_to": null,
+  "ts": 1792410274
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "5 role assignment(s) are live according to RoleGranted/RoleRevoked logs (e.g. 0x31fec676ca08ef86a780917d25470b23c0d9219c)."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 128,
+ "deployer_contracts": [
+  "0x26c9d720237f20529337ae86ed7c87dc0cc9b3d7",
+  "0xebf9d9fc1dc3ee11d22b726f7a5c8e29ce3475a4",
+  "0x1a6056e08146e5d2169e6a814e78941277f33a12",
+  "0x482051cf1aada6e260c47f736cec94d7526c7c5f",
+  "0x8bfabfdac9a6f8b22b0b237bbebc3cb789b377c1",
+  "0xfdd79e4c63cab5ea4f7da1354d68e34dea6cae3f",
+  "0xf0820c75fcdfa7c0ba98db7f511eb70a1f3ef387",
+  "0x996007b81b79949960f71c9b4288cffc764a7197",
+  "0x9cef21bb71346baeadbf961d8b7f8ccd78451248",
+  "0xa4300a54f4ff82cbcbde29adc8c0adf3d8707d9d",
+  "0x715b4f8e57b4b89025ccccf6b6a2eab095e3314b",
+  "0x63a79d8a40e2b156f8741557c46b73dec3f31980",
+  "0x14f8f3eaba7250f486a9b4a90a6145380f16f674",
+  "0x35319759f179dd2ab288cee3222eddb4879a448b",
+  "0xeb53a5d0a99e90d3fbccd1ead820b18b4fa5ef92",
+  "0x37b1999ae8047c92fd19c2c96c8aebe8f78b2dec",
+  "0xf96545bd43a8e4d69b1573bdf795dbc6aaaa5e18",
+  "0x644e918846494aa8073af96f9d9a5dc57980e99e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x1a6056e08146e5d2169e6a814e78941277f33a12",
+  "0x26c9d720237f20529337ae86ed7c87dc0cc9b3d7",
+  "0x482051cf1aada6e260c47f736cec94d7526c7c5f",
+  "0x8bfabfdac9a6f8b22b0b237bbebc3cb789b377c1",
+  "0x996007b81b79949960f71c9b4288cffc764a7197",
+  "0x9cef21bb71346baeadbf961d8b7f8ccd78451248",
+  "0xebf9d9fc1dc3ee11d22b726f7a5c8e29ce3475a4",
+  "0xf0820c75fcdfa7c0ba98db7f511eb70a1f3ef387",
+  "0xfdd79e4c63cab5ea4f7da1354d68e34dea6cae3f"
+ ],
+ "site_ips": [
+  "104.21.71.84",
+  "172.67.143.251"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x35319759F179dD2ab288Cee3222eddB4879a448B?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x35319759F179dD2ab288Cee3222eddB4879a448B",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x35319759F179dD2ab288Cee3222eddB4879a448B",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api?module=logs&action=getLogs&address=0x35319759f179dd2ab288cee3222eddb4879a448b&topic0=0x2f8788117e7eff1d82e926ec794901d17c78024a50270940304540a733656f0d&fromBlock=0&toBlock=latest",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api?module=logs&action=getLogs&address=0x35319759f179dd2ab288cee3222eddb4879a448b&topic0=0xf6391f5c32d9c69d2a47ea670b442974b53935d1edc7fd64eb21e047a839171b&fromBlock=0&toBlock=latest",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x648cb87b923decd39cd047d4600c5e31c0c5c0d5/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=carbonized.app&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/carbonized.app",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "19752 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92771653",
+    "https://robinhoodchain.blockscout.com/address/0x35319759F179dD2ab288Cee3222eddB4879a448B"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x35319759F179dD2ab288Cee3222eddB4879a448B",
+    "https://robinhoodchain.blockscout.com/address/0x35319759F179dD2ab288Cee3222eddB4879a448B?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x35319759F179dD2ab288Cee3222eddB4879a448B"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92771653"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x35319759f179dd2ab288cee3222eddb4879a448b owner() @ 92771653 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.pause",
+   "group": "fn",
+   "title": "pause function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found pause function(s): pause() 0x8456cb59 [runtime bytecode], unpause() 0x3f4ba83a [runtime bytecode]. Note: bytecode-only scan matches exact common signatures; renamed functions can be missed. Role check: 5 role assignment(s) are live according to RoleGranted/RoleRevoked logs (e.g. 0x31fec676ca08ef86a780917d25470b23c0d9219c).",
+   "evidence": [
+    "selector scan of eth_getCode @ 92771653",
+    "https://robinhoodchain.blockscout.com/address/0x35319759F179dD2ab288Cee3222eddB4879a448B"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "18 live contract(s) created directly by 0x648cb87b923decd39cd047d4600c5e31c0c5c0d5 (CREATE nonce scan 0..127); tokens launched via factories are not counted. Wallet nonce = 128.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x648cb87b923decd39cd047d4600c5e31c0c5c0d5",
+    "https://robinhoodchain.blockscout.com/tx/0x59a5b6fa2e46a2e6a057d1d6d34a8193ac560b4f2e5127498d799ec10ba601a0",
+    "https://robinhoodchain.blockscout.com/address/0x26c9d720237f20529337ae86ed7c87dc0cc9b3d7",
+    "https://robinhoodchain.blockscout.com/address/0xebf9d9fc1dc3ee11d22b726f7a5c8e29ce3475a4",
+    "https://robinhoodchain.blockscout.com/address/0x1a6056e08146e5d2169e6a814e78941277f33a12"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x648cb87b923decd39cd047d4600c5e31c0c5c0d5 on Blockscout: block 91675796 (2026-10-18 09:48 UTC), 1.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x648cb87b923decd39cd047d4600c5e31c0c5c0d5",
+    "https://robinhoodchain.blockscout.com/tx/0x59a5b6fa2e46a2e6a057d1d6d34a8193ac560b4f2e5127498d799ec10ba601a0",
+    "https://robinhoodchain.blockscout.com/tx/0x50146a527b5fc49e1c6ed453f603fdc9297a42d6c9006641b44ad72544bc3955",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x648cb87b923decd39cd047d4600c5e31c0c5c0d5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "carbonized.app -> 104.21.71.84, 172.67.143.251 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=carbonized.app&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "carbonized.app registered 2026-10-19 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/carbonized.app"
+   ]
+  }
+ ],
+ "score": 42,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 9,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x35319759F179dD2ab288Cee3222eddB4879a448B",
+    "https://robinhoodchain.blockscout.com/address/0x35319759F179dD2ab288Cee3222eddB4879a448B?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x35319759F179dD2ab288Cee3222eddB4879a448B"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "18 live contract(s) created directly by 0x648cb87b923decd39cd047d4600c5e31c0c5c0d5 (CREATE nonce scan 0..127); tokens launched via factories are not counted. Wallet nonce = 128.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x648cb87b923decd39cd047d4600c5e31c0c5c0d5",
+    "https://robinhoodchain.blockscout.com/tx/0x59a5b6fa2e46a2e6a057d1d6d34a8193ac560b4f2e5127498d799ec10ba601a0",
+    "https://robinhoodchain.blockscout.com/address/0x26c9d720237f20529337ae86ed7c87dc0cc9b3d7",
+    "https://robinhoodchain.blockscout.com/address/0xebf9d9fc1dc3ee11d22b726f7a5c8e29ce3475a4",
+    "https://robinhoodchain.blockscout.com/address/0x1a6056e08146e5d2169e6a814e78941277f33a12"
+   ]
+  },
+  {
+   "id": "fn.pause",
+   "group": "fn",
+   "title": "pause function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found pause function(s): pause() 0x8456cb59 [runtime bytecode], unpause() 0x3f4ba83a [runtime bytecode]. Note: bytecode-only scan matches exact common signatures; renamed functions can be missed. Role check: 5 role assignment(s) are live according to RoleGranted/RoleRevoked logs (e.g. 0x31fec676ca08ef86a780917d25470b23c0d9219c).",
+   "evidence": [
+    "selector scan of eth_getCode @ 92771653",
+    "https://robinhoodchain.blockscout.com/address/0x35319759F179dD2ab288Cee3222eddB4879a448B"
+   ]
+  }
+ ]
+}

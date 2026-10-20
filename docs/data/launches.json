@@ -1,6 +1,270 @@
 {
- "generated_utc": "2026-10-20T17:01:39+00:00",
+ "generated_utc": "2026-10-20T21:12:11+00:00",
  "launches": [
+  {
+   "chain": "base",
+   "address": "0x3728aece9c39e0b89870ef0cb29a4703e3914340",
+   "name": "National Oil Dividend Fund",
+   "score": 53,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:56:48Z",
+   "created_ts": 1792527851,
+   "page": "launch/base-0x3728aece9c39e0b89870ef0cb29a4703e3914340.html"
+  },
+  {
+   "chain": "base",
+   "address": "0xc5971f9d4982e7d5f9fc6c6d3e22ba6288e6c785",
+   "name": "National Oil Dividend Fund - NODF",
+   "score": 26,
+   "band": "MODERATE",
+   "top_reason": "Fresh deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:56:41Z",
+   "created_ts": 1792529525,
+   "page": "launch/base-0xc5971f9d4982e7d5f9fc6c6d3e22ba6288e6c785.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x6d20e88b3302606f8bb1e42a22df877bbdcae478",
+   "name": "DNA PROTOCOL",
+   "score": 15,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:56:34Z",
+   "created_ts": 1792527869,
+   "page": "launch/base-0x6d20e88b3302606f8bb1e42a22df877bbdcae478.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x54949e2bab92ee6fdbd2af7823783ce17a95bc92",
+   "name": "US DIVIDEND FUND (USDF)",
+   "score": 15,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:56:27Z",
+   "created_ts": 1792528227,
+   "page": "launch/base-0x54949e2bab92ee6fdbd2af7823783ce17a95bc92.html"
+  },
+  {
+   "chain": "base",
+   "address": "0xd0ce1c802539452a258c51eee7f3afbed5ea0f7f",
+   "name": "United States Fund Dividend",
+   "score": 18,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:56:20Z",
+   "created_ts": 1792529015,
+   "page": "launch/base-0xd0ce1c802539452a258c51eee7f3afbed5ea0f7f.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x1de60e4d1523af0c13f72ba2ccd8fac52994e213",
+   "name": "DOTF",
+   "score": 46,
+   "band": "MODERATE",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:56:13Z",
+   "created_ts": 1792528973,
+   "page": "launch/base-0x1de60e4d1523af0c13f72ba2ccd8fac52994e213.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x9a7c661be578e50927268fb770146d701b3368e7",
+   "name": "INVARA Core",
+   "score": 9,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:55:43Z",
+   "created_ts": 1792083344,
+   "page": "launch/robinhood-0x9a7c661be578e50927268fb770146d701b3368e7.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x3c8e2a03b8df7068fea08e2c24701ae619191111",
+   "name": "ngl",
+   "score": 69,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:55:10Z",
+   "created_ts": 1792527620,
+   "page": "launch/robinhood-0x3c8e2a03b8df7068fea08e2c24701ae619191111.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x8db306328c06eda0a025e755f0796e1d291056a4",
+   "name": "United Energy Reserve",
+   "score": 53,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:24:24Z",
+   "created_ts": 1792523061,
+   "page": "launch/base-0x8db306328c06eda0a025e755f0796e1d291056a4.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x37ee26d1d165fa9d67e12e8d724365f67c75e403",
+   "name": "XTO",
+   "score": 52,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:24:18Z",
+   "created_ts": 1792522593,
+   "page": "launch/base-0x37ee26d1d165fa9d67e12e8d724365f67c75e403.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x2fce61e322c0c37643e9b3a43f07e89f8c505cb6",
+   "name": "World Strategic Oil Supply",
+   "score": 48,
+   "band": "MODERATE",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:24:11Z",
+   "created_ts": 1792526787,
+   "page": "launch/base-0x2fce61e322c0c37643e9b3a43f07e89f8c505cb6.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x13d0bdc7eb7d9f530a20beaf5b1de28171534f03",
+   "name": "CEEcil",
+   "score": 29,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-20T20:24:05Z",
+   "created_ts": 1792527299,
+   "page": "launch/base-0x13d0bdc7eb7d9f530a20beaf5b1de28171534f03.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x7adde51d10e8a5ab90c6f230e6b165974707eb11",
+   "name": "UNITED DIVIDEND TRUST FUND",
+   "score": 23,
+   "band": "LOW",
+   "top_reason": "Fresh deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:23:58Z",
+   "created_ts": 1792524991,
+   "page": "launch/base-0x7adde51d10e8a5ab90c6f230e6b165974707eb11.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x72096a49cde75d8d7363c2d4e95c056db4bac64f",
+   "name": "National Oil Dividend Fund",
+   "score": 23,
+   "band": "LOW",
+   "top_reason": "Fresh deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:23:52Z",
+   "created_ts": 1792524179,
+   "page": "launch/base-0x72096a49cde75d8d7363c2d4e95c056db4bac64f.html"
+  },
+  {
+   "chain": "base",
+   "address": "0xab527af39ded70e44c44ca15fe96d6156e2d6f19",
+   "name": "American Overwatch protocol eth",
+   "score": 20,
+   "band": "LOW",
+   "top_reason": "GoPlus flags",
+   "scanned_at_utc": "2026-10-20T20:23:46Z",
+   "created_ts": 1792522151,
+   "page": "launch/base-0xab527af39ded70e44c44ca15fe96d6156e2d6f19.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x2b9118f5b06f32192ff1533ad41d8985aea848f5",
+   "name": "US Dividend Fund (USDF)",
+   "score": 33,
+   "band": "MODERATE",
+   "top_reason": "Launch wallet holds 5%+",
+   "scanned_at_utc": "2026-10-20T20:23:39Z",
+   "created_ts": 1792524753,
+   "page": "launch/base-0x2b9118f5b06f32192ff1533ad41d8985aea848f5.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x1514fca8b76237b95187494dcf13b2e279cf91f6",
+   "name": "US Oil Exchange (USOE)",
+   "score": 33,
+   "band": "MODERATE",
+   "top_reason": "Launch wallet holds 5%+",
+   "scanned_at_utc": "2026-10-20T20:23:31Z",
+   "created_ts": 1792526583,
+   "page": "launch/base-0x1514fca8b76237b95187494dcf13b2e279cf91f6.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x0f57165a14deaf43c16f9b5c1f06aa4d56fb0fdc",
+   "name": "US Oil Exchange (USOE)",
+   "score": 46,
+   "band": "MODERATE",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:23:13Z",
+   "created_ts": 1792523415,
+   "page": "launch/base-0x0f57165a14deaf43c16f9b5c1f06aa4d56fb0fdc.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x78d5e70ea8ebdca8da3abe485d50f234e06c71d2",
+   "name": "Musepad",
+   "score": 28,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-20T20:22:48Z",
+   "created_ts": 1792513251,
+   "page": "launch/robinhood-0x78d5e70ea8ebdca8da3abe485d50f234e06c71d2.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x62ed300a5916aed339a65e04754392763982a967",
+   "name": "MNTD",
+   "score": 32,
+   "band": "MODERATE",
+   "top_reason": "LP not locked or burned",
+   "scanned_at_utc": "2026-10-20T20:22:23Z",
+   "created_ts": 1792449113,
+   "page": "launch/robinhood-0x62ed300a5916aed339a65e04754392763982a967.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x95286bec1b0943d5a0fad60ac048f0c50ec8ccd0",
+   "name": "Embervale",
+   "score": 12,
+   "band": "LOW",
+   "top_reason": "Young deployer wallet",
+   "scanned_at_utc": "2026-10-20T20:21:55Z",
+   "created_ts": 1792511831,
+   "page": "launch/robinhood-0x95286bec1b0943d5a0fad60ac048f0c50ec8ccd0.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172",
+   "name": "Busted",
+   "score": 8,
+   "band": "LOW",
+   "top_reason": "Young domain",
+   "scanned_at_utc": "2026-10-20T20:21:26Z",
+   "created_ts": 1791243260,
+   "page": "launch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x643551c66228b1fa3a5e6ed01bedef5a94423533",
+   "name": "Torch Cat",
+   "score": 50,
+   "band": "ELEVATED",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-20T20:20:40Z",
+   "created_ts": 1792519756,
+   "page": "launch/robinhood-0x643551c66228b1fa3a5e6ed01bedef5a94423533.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559",
+   "name": "GH0ST",
+   "score": 21,
+   "band": "LOW",
+   "top_reason": "Serial deployer",
+   "scanned_at_utc": "2026-10-20T20:19:58Z",
+   "created_ts": 1792522495,
+   "page": "launch/robinhood-0x2eb2849cde7957b86d0dfd4b59e450a9f9d15559.html"
+  },
   {
    "chain": "robinhood",
    "address": "0x4cAa25fdd5a05e0c630761D2D1f20fbC0787b01B",
@@ -553,17 +817,6 @@
   },
   {
    "chain": "robinhood",
-   "address": "0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172",
-   "name": "Busted",
-   "score": 8,
-   "band": "LOW",
-   "top_reason": "Young domain",
-   "scanned_at_utc": "2026-10-19T22:23:54Z",
-   "created_ts": 1791243260,
-   "page": "launch/robinhood-0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172.html"
-  },
-  {
-   "chain": "robinhood",
    "address": "0xdcd885f5c60b3ad49f6d58718696417314e8724d",
    "name": "Gloam",
    "score": 15,
@@ -715,17 +968,6 @@
    "scanned_at_utc": "2026-10-19T17:07:22Z",
    "created_ts": 1783026432,
    "page": "launch/robinhood-0x38bb87cf3e7344a82be7cd671c191f015b97eee6.html"
-  },
-  {
-   "chain": "robinhood",
-   "address": "0x9a7c661be578e50927268fb770146d701b3368e7",
-   "name": "INVARA Core",
-   "score": 14,
-   "band": "LOW",
-   "top_reason": "Young deployer wallet",
-   "scanned_at_utc": "2026-10-19T17:06:54Z",
-   "created_ts": 1792083344,
-   "page": "launch/robinhood-0x9a7c661be578e50927268fb770146d701b3368e7.html"
   },
   {
    "chain": "robinhood",

@@ -1,8 +1,68 @@
 {
- "generated_utc": "2026-10-20T17:01:39+00:00",
+ "generated_utc": "2026-10-20T21:12:11+00:00",
  "definition": "band ELEVATED or HIGH (score >= 50)",
- "count": 42,
+ "count": 47,
  "launches": [
+  {
+   "chain": "base",
+   "address": "0x3728aece9c39e0b89870ef0cb29a4703e3914340",
+   "name": "National Oil Dividend Fund",
+   "score": 53,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:56:48Z",
+   "created_ts": 1792527851,
+   "page": "launch/base-0x3728aece9c39e0b89870ef0cb29a4703e3914340.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/base-0x3728aece9c39e0b89870ef0cb29a4703e3914340.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x3c8e2a03b8df7068fea08e2c24701ae619191111",
+   "name": "ngl",
+   "score": 69,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:55:10Z",
+   "created_ts": 1792527620,
+   "page": "launch/robinhood-0x3c8e2a03b8df7068fea08e2c24701ae619191111.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x3c8e2a03b8df7068fea08e2c24701ae619191111.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x8db306328c06eda0a025e755f0796e1d291056a4",
+   "name": "United Energy Reserve",
+   "score": 53,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:24:24Z",
+   "created_ts": 1792523061,
+   "page": "launch/base-0x8db306328c06eda0a025e755f0796e1d291056a4.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/base-0x8db306328c06eda0a025e755f0796e1d291056a4.html"
+  },
+  {
+   "chain": "base",
+   "address": "0x37ee26d1d165fa9d67e12e8d724365f67c75e403",
+   "name": "XTO",
+   "score": 52,
+   "band": "ELEVATED",
+   "top_reason": "Source not verified",
+   "scanned_at_utc": "2026-10-20T20:24:18Z",
+   "created_ts": 1792522593,
+   "page": "launch/base-0x37ee26d1d165fa9d67e12e8d724365f67c75e403.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/base-0x37ee26d1d165fa9d67e12e8d724365f67c75e403.html"
+  },
+  {
+   "chain": "robinhood",
+   "address": "0x643551c66228b1fa3a5e6ed01bedef5a94423533",
+   "name": "Torch Cat",
+   "score": 50,
+   "band": "ELEVATED",
+   "top_reason": "Low DEX liquidity",
+   "scanned_at_utc": "2026-10-20T20:20:40Z",
+   "created_ts": 1792519756,
+   "page": "launch/robinhood-0x643551c66228b1fa3a5e6ed01bedef5a94423533.html",
+   "url": "https://invisiblemonsters.github.io/launch-watch/launch/robinhood-0x643551c66228b1fa3a5e6ed01bedef5a94423533.html"
+  },
   {
    "chain": "robinhood",
    "address": "0x5a37c675c270eaf574dbf7161ad61ccff4ac1b59",

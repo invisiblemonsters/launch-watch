@@ -1,0 +1,431 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+ "scanned_at_utc": "2026-10-20T00:31:21Z",
+ "block": 93038419,
+ "site": "https://officialmascot.site/",
+ "post": null,
+ "token": {
+  "name": "The Official Robinhood\u2019s Mascot",
+  "symbol": "ROBIN",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "FixedCoinV4"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x26dF2f3605D7f378dBed7fFd181A4e035A12a221",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "5701.6280910325871651726",
+    "pool_fee": "0.0001",
+    "pair": "0xe5e95519c086f2a3126fe50da696271e64c1ca0f"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+    "tag": "",
+    "value": "10213.5606687335847709696",
+    "is_contract": 0,
+    "balance": "31603.197567251705973732",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "10213.5606687335847709696",
+      "NFT_id": "1472869",
+      "amount": "31603.197567251705973732",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "31603.197567251707",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "The Official Robinhood\u2019s Mascot",
+  "token_symbol": "ROBIN",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xf85b4509d3e3c7f7a7b84c79888bc4fb34416acaceedb9f75cbefe12f56102a8",
+  "block": 93007273,
+  "deployer": "0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+  "tx_from": "0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+  "tx_to": null,
+  "ts": 1792453053
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 31348.45,
+  "geckoterminal_top_usd": 31635.1509
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xE5E95519C086f2A3126fE50da696271E64c1cA0f",
+   "liq_usd": 31348.45,
+   "created": 1792453877000,
+   "url": "https://dexscreener.com/robinhood/0xe5e95519c086f2a3126fe50da696271e64c1ca0f",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 56,
+ "deployer_contracts": [
+  "0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+  "0x72b498a34c857337a0f672d90c8b3e3c57f23666",
+  "0x8d08afe61348a94e57e8929d13721b5fe5c37245"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x72b498a34c857337a0f672d90c8b3e3c57f23666",
+  "0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+  "0x8d08afe61348a94e57e8929d13721b5fe5c37245"
+ ],
+ "site_ips": [
+  "162.0.209.39"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+   "status": 200,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc",
+   "status": 500
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc",
+   "status": 500,
+   "attempt": 2
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc",
+   "err": "The read operation timed out",
+   "attempt": 3
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc",
+   "status": 200,
+   "attempt": 4
+  },
+  {
+   "url": "https://dns.google/resolve?name=officialmascot.site&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/officialmascot.site",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "2594 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93038419",
+    "https://robinhoodchain.blockscout.com/address/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as FixedCoinV4. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+    "https://robinhoodchain.blockscout.com/address/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93038419"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6 owner() @ 93038419 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 93038419",
+    "https://repo.sourcify.dev/4663/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x26df2f3605d7f378dbed7ffd181a4e035a12a221 holds 2.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x26df2f3605d7f378dbed7ffd181a4e035a12a221) @ 93038419",
+    "https://robinhoodchain.blockscout.com/address/0x26df2f3605d7f378dbed7ffd181a4e035a12a221"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.00% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6/holders",
+    "https://robinhoodchain.blockscout.com/token/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $31,348 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xe5e95519c086f2a3126fe50da696271e64c1ca0f",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "3 live contract(s) created directly by 0x26df2f3605d7f378dbed7ffd181a4e035a12a221 (CREATE nonce scan 0..55); tokens launched via factories are not counted. Wallet nonce = 56.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+    "https://robinhoodchain.blockscout.com/tx/0xf85b4509d3e3c7f7a7b84c79888bc4fb34416acaceedb9f75cbefe12f56102a8",
+    "https://robinhoodchain.blockscout.com/address/0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+    "https://robinhoodchain.blockscout.com/address/0x72b498a34c857337a0f672d90c8b3e3c57f23666",
+    "https://robinhoodchain.blockscout.com/address/0x8d08afe61348a94e57e8929d13721b5fe5c37245"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x26df2f3605d7f378dbed7ffd181a4e035a12a221 on Blockscout: block 91969316 (2026-10-18 18:06 UTC), 1.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+    "https://robinhoodchain.blockscout.com/tx/0xf85b4509d3e3c7f7a7b84c79888bc4fb34416acaceedb9f75cbefe12f56102a8",
+    "https://robinhoodchain.blockscout.com/tx/0x7647aadcbbcaf45fe7d443544334c8f9fe613e556d6c846b8494610fed2e8425",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "officialmascot.site -> 162.0.209.39; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=officialmascot.site&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "officialmascot.site registered 2026-09-25 (25 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/officialmascot.site"
+   ]
+  }
+ ],
+ "score": 21,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x26df2f3605d7f378dbed7ffd181a4e035a12a221 on Blockscout: block 91969316 (2026-10-18 18:06 UTC), 1.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x26df2f3605d7f378dbed7ffd181a4e035a12a221",
+    "https://robinhoodchain.blockscout.com/tx/0xf85b4509d3e3c7f7a7b84c79888bc4fb34416acaceedb9f75cbefe12f56102a8",
+    "https://robinhoodchain.blockscout.com/tx/0x7647aadcbbcaf45fe7d443544334c8f9fe613e556d6c846b8494610fed2e8425",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x26df2f3605d7f378dbed7ffd181a4e035a12a221/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ],
+ "label": "The Official Robinhood\u2019s Mascot",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x85087d9cb45dd9fa6bb0e2fd5481ed8243cfdde6",
+  "name": "The Official Robinhood\u2019s Mascot",
+  "symbol": "ROBIN",
+  "created_at": "2026-10-19T23:51:17Z",
+  "dex": "uniswap-v3-robinhood",
+  "liq_usd": 28085.3098,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xe5e95519c086f2a3126fe50da696271e64c1ca0f",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://officialmascot.site/",
+  "x_profile": "https://x.com/TheOfficialRH_",
+  "post": null
+ }
+}

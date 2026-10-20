@@ -2,6 +2,64 @@
  "note": "Hand-written featured reads. Public, non-exploitable facts and questions only. Anything sensitive stays in /workspace/outreach/free-summaries/ (private).",
  "featured": [
   {
+   "slug": "feeroute",
+   "name": "Feeroute",
+   "team": "@usefeeroute",
+   "site": "https://usefeeroute.com",
+   "chain": "robinhood",
+   "checked": "2026-10-20 10:20 PDT",
+   "tagline": "Public fee vaults for Pons v2 creators on Robinhood Chain. A vault receives a token's creator fees and splits them by fixed shares (up to 10 wallets, optional vesting), and any change waits out a per-vault timelock. Anyone can sweep, and a bot sweeps hourly.",
+   "audit": "Not audited by a third party. The docs say \"Beta, not audited\" and describe an internal line-by-line review.",
+   "contracts": [
+    [
+     "FeerouteFactory",
+     "0x4cAa25fdd5a05e0c630761D2D1f20fbC0787b01B",
+     "Sourcify: exact match; Blockscout: verified",
+     "not a proxy (no proxy slots; Sourcify isProxy=false)"
+    ],
+    [
+     "FeerouteVault (one per token, created by the factory)",
+     "none deployed yet",
+     "source included in the factory's verified bundle",
+     "not upgradeable (plain contract, no proxy)"
+    ],
+    [
+     "$FEEROUTE token",
+     "0xE1E6c55bf9a5441570d6D621d79080677dcd4C57",
+     "not verified itself; bytecode matches the verified PonsV2LauncherToken template",
+     "not a proxy (EIP-1967 slots empty)"
+    ]
+   ],
+   "scored": [
+    [
+     "robinhood",
+     "0x4caa25fdd5a05e0c630761d2d1f20fbc0787b01b",
+     "FeerouteFactory"
+    ],
+    [
+     "robinhood",
+     "0xe1e6c55bf9a5441570d6d621d79080677dcd4c57",
+     "$FEEROUTE"
+    ]
+   ],
+   "facts": [
+    "Scanned Oct 20, 2026. <b>FeerouteFactory: 19/100 LOW.</b> The only flags are a fresh deployer (2 transactions, first seen Oct 17) and a domain registered Oct 18. <b>$FEEROUTE: 36/100 MODERATE.</b> Drivers: Pons v2 curve liquidity around $4k, a launch wallet first seen Oct 19, and the new domain. No mint, pause or blacklist functions.",
+    "The factory has no <code>owner()</code> and no admin functions. <code>createVault</code> can only be called by a token's current Pons creator-fee recipient, and it checks that the curve is ETH-quoted. It is bound to the Pons v2 launch factory <code>0x7eD5\u2026EC7e</code>, matching the docs.",
+    "Vaults use Ownable2Step and ReentrancyGuard. Only ETH is split, and recipients that fail are credited, not dropped. The creator cap and timelock are fixed at creation.",
+    "The timelock is chosen per vault, from 0 to 30 days, so it is not one fixed value. The site's example shows 48 hours, and Explore lets you filter for vaults with the timelock off.",
+    "At block 93,604,758 the factory had created <b>0 vaults</b> (no VaultCreated events). The $FEEROUTE token's Pons creator-fee recipient is still its launch wallet, not a Feeroute vault.",
+    "The docs list these limits themselves: the creator cap covers only the owner's own address; ownership transfer and <code>rescueToken</code> (ERC-20s go to the owner) have no timelock; fee flow after graduation to Uniswap v4 is unverified; and the Pons admin can reroute fees through Pons' own 72-hour timelock."
+   ],
+   "questions": [
+    "Will $FEEROUTE's own creator fees be routed through a Feeroute vault, and with what split and timelock? That would be the clearest demo for holders.",
+    "Could the $FEEROUTE token be verified on Blockscout or Sourcify? Today it only matches the Pons template bytecode.",
+    "The hourly sweep bot: which wallet runs it? Is its status shown on /status, and what happens to sweeps if it stops? Anyone can still call <code>sweep()</code>.",
+    "Will the post-graduation (Uniswap v4) fee path be tested before the first routed token graduates?",
+    "Should <code>rescueToken</code> and ownership transfer go behind the same timelock as split changes in a later version, given the docs list both as known limits?"
+   ],
+   "private_notes": false
+  },
+  {
    "slug": "carbonized",
    "name": "Carbonized",
    "team": "@CarbonizedApp",

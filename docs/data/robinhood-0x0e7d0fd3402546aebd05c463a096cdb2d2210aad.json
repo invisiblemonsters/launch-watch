@@ -1,0 +1,400 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+ "scanned_at_utc": "2026-10-19T22:25:46Z",
+ "block": 92966010,
+ "site": "https://moneycat.meme/",
+ "post": null,
+ "token": {
+  "name": "Money Cat",
+  "symbol": "MONEYCAT",
+  "decimals": 18,
+  "totalSupply": 999999999999999999999987890
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x7149ea8E5360242d8994776A22499f0D4F256a11",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2968.62891290502124461940",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.003",
+    "pair": "0x6bb0c7c5499b8085d7e6cfa61c68a092e688e4eb28905c4161035eb292813edd"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.9040480",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.88",
+    "pair": "0xe965c5c078e4e2d4823a6ad4dc580b055007ee1a72358f3b3888d2966bf049bc"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0389330",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.990101",
+    "pair": "0x27a4daebd62ceea0c618557f5b8ce5cefa4c53f00ed78455cd662b19c03b23e5"
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x66bed25c60b880748f7bd29a5372b876eb8f4c56",
+    "tag": "",
+    "value": "2974.41609958229414205880",
+    "is_contract": 1,
+    "balance": "63243.602584040527797896",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "2974.41609958229414205880",
+      "NFT_id": "3887104",
+      "amount": "63243.602584040527797896",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "63243.60258404053",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Money Cat",
+  "token_symbol": "MONEYCAT",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x41bf2df2678ef486138cadad8757ec1158eda9d9cbfb28275312935706629774",
+  "block": 91969459,
+  "deployer": "0x7149ea8e5360242d8994776a22499f0d4f256a11",
+  "source": "Blockscout address creator",
+  "tx_from": "0xf5485435cd73555ed03c7914d15fc842dd74c72c",
+  "tx_to": "0x7149ea8e5360242d8994776a22499f0d4f256a11",
+  "ts": 1792346807
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 15540.93,
+  "geckoterminal_top_usd": 10934.352
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x6bb0c7c5499b8085d7e6cfa61c68a092e688e4eb28905c4161035eb292813edd",
+   "liq_usd": 15540.93,
+   "created": 1792346807000,
+   "url": "https://dexscreener.com/robinhood/0x6bb0c7c5499b8085d7e6cfa61c68a092e688e4eb28905c4161035eb292813edd",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 391,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.24.57.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x66bed25c60b880748f7bd29a5372b876eb8f4c56?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x66bed25c60b880748f7bd29a5372b876eb8f4c56",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xf5485435cd73555ed03c7914d15fc842dd74c72c/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=moneycat.meme&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/moneycat.meme",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1935 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92966010",
+    "https://robinhoodchain.blockscout.com/address/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+    "https://robinhoodchain.blockscout.com/address/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92966010"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x0e7d0fd3402546aebd05c463a096cdb2d2210aad owner() @ 92966010 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 92966010"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xf5485435cd73555ed03c7914d15fc842dd74c72c holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xf5485435cd73555ed03c7914d15fc842dd74c72c) @ 92966010",
+    "https://robinhoodchain.blockscout.com/address/0xf5485435cd73555ed03c7914d15fc842dd74c72c"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.41% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad/holders",
+    "https://robinhoodchain.blockscout.com/token/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $15,541 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x6bb0c7c5499b8085d7e6cfa61c68a092e688e4eb28905c4161035eb292813edd",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xf5485435cd73555ed03c7914d15fc842dd74c72c (CREATE nonce scan 0..390); tokens launched via factories are not counted. Wallet nonce = 391.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf5485435cd73555ed03c7914d15fc842dd74c72c",
+    "https://robinhoodchain.blockscout.com/tx/0x41bf2df2678ef486138cadad8757ec1158eda9d9cbfb28275312935706629774"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xf5485435cd73555ed03c7914d15fc842dd74c72c on Blockscout: block 22474507 (2026-07-29 13:03 UTC), 82.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf5485435cd73555ed03c7914d15fc842dd74c72c",
+    "https://robinhoodchain.blockscout.com/tx/0x41bf2df2678ef486138cadad8757ec1158eda9d9cbfb28275312935706629774",
+    "https://robinhoodchain.blockscout.com/tx/0x29b02afef3d4198d18c072ec701ea0dfc29554e02a6add16b66a3e2e5befcfe7",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xf5485435cd73555ed03c7914d15fc842dd74c72c/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "moneycat.meme -> 216.24.57.1; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=moneycat.meme&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "moneycat.meme registered 2026-10-09 (11 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/moneycat.meme"
+   ]
+  }
+ ],
+ "score": 48,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+    "https://robinhoodchain.blockscout.com/address/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $15,541 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x6bb0c7c5499b8085d7e6cfa61c68a092e688e4eb28905c4161035eb292813edd",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad"
+   ]
+  }
+ ],
+ "label": "Money Cat",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+  "site": "https://moneycat.meme/",
+  "x_profile": "https://x.com/MoneyCatRH",
+  "pool_url": "https://dexscreener.com/robinhood/0x0e7d0fd3402546aebd05c463a096cdb2d2210aad",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

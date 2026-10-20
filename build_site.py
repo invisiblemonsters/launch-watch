@@ -554,7 +554,7 @@ def render_featured(f, ctx, by_key):
     url = f"{ctx['SITE']}featured/{f['slug']}.html"
     first_addr = f["contracts"][0][1] if f.get("contracts") else None
     rows = "".join(
-        f'<tr><td>{esc(lbl)}</td><td><a href="{esc(exp)}/address/{esc(a)}" rel="nofollow noopener"><code>{esc(short(a))}</code></a></td>'
+        f'<tr><td>{esc(lbl)}</td><td>' + (f'<a href="{esc(exp)}/address/{esc(a)}" rel="nofollow noopener"><code>{esc(short(a))}</code></a>' if re.fullmatch(r"0x[0-9a-fA-F]{40}", a) else f'<span class="mut">{esc(a)}</span>') + '</td>'
         f'<td>{esc(ver)}</td><td>{esc(px)}</td></tr>' for lbl, a, ver, px in f.get("contracts", []))
     scored = []
     for ch, a, lbl in f.get("scored", []):
@@ -573,7 +573,7 @@ def render_featured(f, ctx, by_key):
 <p>{esc(f['tagline'])}</p>
 <p class="small">Team: {esc(f.get('team',''))} · Site: <a href="{esc(f['site'])}" rel="nofollow noopener">{esc(f['site'])}</a> · Checked {esc(f['checked'])} · {esc(f.get('audit',''))}</p>
 <div class="owner"><strong>Is this your project?</strong> <a class="btn" href="{esc(claim)}">Claim this page: request a re-scan, badge or review</a>
-<span class="small">Free corrections · <a href="../get-reviewed.html">Verified badge $50 / 24h review $150</a> · or email <a href="mailto:{CONTACT}">{CONTACT}</a></span></div>
+<span class="small">Free corrections · <a href="{esc(scan_url(c.get('name', f['chain']), first_addr))}">$5 instant scan</a> · <a href="../get-reviewed.html">Verified badge $50 / 24h review $150</a> · or email <a href="mailto:{CONTACT}">{CONTACT}</a></span></div>
 <h2>Automated scores</h2>
 <ul>{''.join(scored)}</ul>
 <h2>Contracts checked</h2>

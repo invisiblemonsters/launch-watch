@@ -1,0 +1,465 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+ "scanned_at_utc": "2026-10-20T14:54:01Z",
+ "block": 93534855,
+ "site": "https://rwaos.info/",
+ "post": null,
+ "token": {
+  "name": "RWAOS",
+  "symbol": "RWAOS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "Inc"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x1aaF4eA289910F82b0f46786557EbbcB067957E6",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "57161.18809037487861984105",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x3cf9a2b141d8efaa9c01077144a5cc5506082ce195b85452e8ad8e531bffb9f4"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "698.21202923058828359184",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.2",
+    "pair": "0xb3383f51cbb8c917e683d72803067de65897810b2439af6852e5eb6b886c980f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "299.2220650",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "29.0793370",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.35",
+    "pair": "0x58cdfe4abe98d1a1f6524fe3bd9efe97f679ae00db29f9f20b54512f143fdfc5"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "25.6702380",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.08",
+    "pair": "0x54ac3a90ae0bad94e5b84793d6f65739436039cdb4e8c71c18f01a0824e3e1f0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "7.5726120",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.45",
+    "pair": "0xc018019879f5e4964dcc4836a9fee1d3ff754ae1a08a6cdeb62cdbc45087df79"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0666030",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.6",
+    "pair": "0xefc4ba1c659a026ca6da76ce28fc85f8d389ec4e1d48becc0416a01e3c334dbb"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "RWAOS",
+  "token_symbol": "RWAOS",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x67a5ef8620feebac115802223a04a88e3c9a6f931c02c389c5e12e791e67164a",
+  "block": 93515348,
+  "deployer": "0x1aaf4ea289910f82b0f46786557ebbcb067957e6",
+  "source": "Blockscout address creator",
+  "tx_from": "0x1aaf4ea289910f82b0f46786557ebbcb067957e6",
+  "tx_to": null,
+  "ts": 1792506018
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 64.7,
+  "geckoterminal_top_usd": 953.7517
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27",
+   "liq_usd": 64.7,
+   "created": 1792506405000,
+   "url": "https://dexscreener.com/robinhood/0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x9a871721c7da028f1bd98ea2c5ffa7d4733055a56d3d86bbd06954338843db05",
+   "liq_usd": 40.9,
+   "created": 1792507757000,
+   "url": "https://dexscreener.com/robinhood/0x9a871721c7da028f1bd98ea2c5ffa7d4733055a56d3d86bbd06954338843db05",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x54ac3a90ae0bad94e5b84793d6f65739436039cdb4e8c71c18f01a0824e3e1f0",
+   "liq_usd": 18.1,
+   "created": 1792506883000,
+   "url": "https://dexscreener.com/robinhood/0x54ac3a90ae0bad94e5b84793d6f65739436039cdb4e8c71c18f01a0824e3e1f0",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x58cdfe4abe98d1a1f6524fe3bd9efe97f679ae00db29f9f20b54512f143fdfc5",
+   "liq_usd": 15.09,
+   "created": 1792507198000,
+   "url": "https://dexscreener.com/robinhood/0x58cdfe4abe98d1a1f6524fe3bd9efe97f679ae00db29f9f20b54512f143fdfc5",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xb3383f51cbb8c917e683d72803067de65897810b2439af6852e5eb6b886c980f",
+   "liq_usd": 13.44,
+   "created": 1792506412000,
+   "url": "https://dexscreener.com/robinhood/0xb3383f51cbb8c917e683d72803067de65897810b2439af6852e5eb6b886c980f",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 14,
+ "deployer_contracts": [
+  "0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+  "0xe5777b06cebef5b78994b1bd2e54d57b7d00972e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+  "0xe5777b06cebef5b78994b1bd2e54d57b7d00972e"
+ ],
+ "site_ips": [
+  "75.2.60.5"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x4991dd06012eee69aa509a279b0a4fd8261b1a58?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x4991dd06012eee69aa509a279b0a4fd8261b1a58/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x4991dd06012eee69aa509a279b0a4fd8261b1a58/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1aaf4ea289910f82b0f46786557ebbcb067957e6/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=rwaos.info&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/rwaos.info",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1556 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93534855",
+    "https://robinhoodchain.blockscout.com/address/0x4991dd06012eee69aa509a279b0a4fd8261b1a58"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as Inc. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x4991dd06012eee69aa509a279b0a4fd8261b1a58?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93534855"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x4991dd06012eee69aa509a279b0a4fd8261b1a58 owner() @ 93534855 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 93534855",
+    "https://robinhoodchain.blockscout.com/address/0x4991dd06012eee69aa509a279b0a4fd8261b1a58?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x4991dd06012eee69aa509a279b0a4fd8261b1a58"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 holds 77.35% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x1aaf4ea289910f82b0f46786557ebbcb067957e6) @ 93534855",
+    "https://robinhoodchain.blockscout.com/address/0x1aaf4ea289910f82b0f46786557ebbcb067957e6"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 has 77.4% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x4991dd06012eee69aa509a279b0a4fd8261b1a58/holders",
+    "https://robinhoodchain.blockscout.com/token/0x4991dd06012eee69aa509a279b0a4fd8261b1a58?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $65 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x4991dd06012eee69aa509a279b0a4fd8261b1a58"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x77a2331954\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 (CREATE nonce scan 0..13); tokens launched via factories are not counted. Wallet nonce = 14.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1aaf4ea289910f82b0f46786557ebbcb067957e6",
+    "https://robinhoodchain.blockscout.com/tx/0x67a5ef8620feebac115802223a04a88e3c9a6f931c02c389c5e12e791e67164a",
+    "https://robinhoodchain.blockscout.com/address/0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+    "https://robinhoodchain.blockscout.com/address/0xe5777b06cebef5b78994b1bd2e54d57b7d00972e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 on Blockscout: block 93508982 (2026-10-20 14:09 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1aaf4ea289910f82b0f46786557ebbcb067957e6",
+    "https://robinhoodchain.blockscout.com/tx/0x67a5ef8620feebac115802223a04a88e3c9a6f931c02c389c5e12e791e67164a",
+    "https://robinhoodchain.blockscout.com/tx/0x01b7ec3ea1ad3012f5ccd1afed14d7a21829bf9b23e55feb252fe79687ed46c2",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1aaf4ea289910f82b0f46786557ebbcb067957e6/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "rwaos.info -> 75.2.60.5 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=rwaos.info&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "rwaos.info registered 2026-10-12 (8 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/rwaos.info"
+   ]
+  }
+ ],
+ "score": 52,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $65 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x77a23319541b75def114609899cf2e547aed6f3932073c97239563920d916c27",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x4991dd06012eee69aa509a279b0a4fd8261b1a58"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 has 77.4% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x4991dd06012eee69aa509a279b0a4fd8261b1a58/holders",
+    "https://robinhoodchain.blockscout.com/token/0x4991dd06012eee69aa509a279b0a4fd8261b1a58?tab=holders"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x1aaf4ea289910f82b0f46786557ebbcb067957e6 holds 77.35% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x1aaf4ea289910f82b0f46786557ebbcb067957e6) @ 93534855",
+    "https://robinhoodchain.blockscout.com/address/0x1aaf4ea289910f82b0f46786557ebbcb067957e6"
+   ]
+  }
+ ],
+ "label": "RWAOS",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x4991dd06012eee69aa509a279b0a4fd8261b1a58",
+  "name": "RWAOS",
+  "symbol": "RWAOS",
+  "created_at": "2026-10-20T14:49:17Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 50.7065,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x9a871721c7da028f1bd98ea2c5ffa7d4733055a56d3d86bbd06954338843db05",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://rwaos.info/",
+  "x_profile": "https://x.com/RwaSystem",
+  "post": null
+ }
+}

@@ -8,6 +8,7 @@
   "robinhood:0x5a254fe1f65e5cbbe978095ab4632e7446bd8590": "CowlRouter (COWL)",
   "robinhood:0x20a908d82885cf4e990a9f8f3f5a483687660822": "gage IntentFactory",
   "robinhood:0xb87c0284f9a1f23bceafdfc4bd8398f4bf420897": "QuanthoodOracle",
-  "robinhood:0x35319759f179dd2ab288cee3222eddb4879a448b": "CarbonMarketplace (Carbonized)"
+  "robinhood:0x35319759f179dd2ab288cee3222eddb4879a448b": "CarbonMarketplace (Carbonized)",
+  "robinhood:0x4caa25fdd5a05e0c630761d2d1f20fbc0787b01b": "FeerouteFactory (Feeroute)"
  }
 }

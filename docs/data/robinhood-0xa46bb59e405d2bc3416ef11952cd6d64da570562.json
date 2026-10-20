@@ -1,0 +1,483 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+ "scanned_at_utc": "2026-10-20T14:54:47Z",
+ "block": 93535305,
+ "site": "https://mailmessenger.fun/",
+ "post": null,
+ "token": {
+  "name": "Messenger",
+  "symbol": "MAIL",
+  "decimals": 18,
+  "totalSupply": 4200000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "MailToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x56C825CcaE60CC01f5aE90dA360700744Dd07224",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "50.36298036595393962775",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.1",
+    "pair": "0x13e23af015a80de59aa07e9b0529bebaffa09ddfef1bd48c05b92b4fe9467197"
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "5",
+  "lp_holders": [
+   {
+    "address": "0x72215670c2266bc224949a12c514a77d7fd5d566",
+    "tag": "",
+    "value": "138.67090790895370217189",
+    "is_contract": 1,
+    "balance": "345.675866418476586065",
+    "percent": "0.730825016140564707",
+    "NFT_list": [
+     {
+      "value": "138.67090790895370217189",
+      "NFT_id": "3920285",
+      "amount": "345.675866418476586065",
+      "in_effect": "1",
+      "NFT_percentage": "0.730825016140564707"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x6e85dc9f094b7dd35a2a981abbd0ac9c496670ed",
+    "tag": "",
+    "value": "21.4515020367301712795",
+    "is_contract": 1,
+    "balance": "48.091928941828893",
+    "percent": "0.113053953122783533",
+    "NFT_list": [
+     {
+      "value": "21.4515020367301712795",
+      "NFT_id": "3920288",
+      "amount": "48.091928941828893",
+      "in_effect": "1",
+      "NFT_percentage": "0.113053953122783533"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x8f5a29c82e8285db3b2af8d0caf5404b0f9ce834",
+    "tag": "",
+    "value": "14.78398701912076828895",
+    "is_contract": 1,
+    "balance": "54.080890639411501652",
+    "percent": "0.077914738677305575",
+    "NFT_list": [
+     {
+      "value": "14.78398701912076828895",
+      "NFT_id": "3920273",
+      "amount": "54.080890639411501652",
+      "in_effect": "1",
+      "NFT_percentage": "0.077914738677305575"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x3c8a4d94b3219f6633f2cc94094f4765b30c691c",
+    "tag": "",
+    "value": "8.65978775760435237659",
+    "is_contract": 1,
+    "balance": "31.678128103995588391",
+    "percent": "0.045638913187763360",
+    "NFT_list": [
+     {
+      "value": "8.65978775760435237659",
+      "NFT_id": "3920265",
+      "amount": "31.678128103995588391",
+      "in_effect": "1",
+      "NFT_percentage": "0.045638913187763360"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x56c825ccae60cc01f5ae90da360700744dd07224",
+    "tag": "",
+    "value": "6.17952026353274699845",
+    "is_contract": 1,
+    "balance": "4.675425650010842146",
+    "percent": "0.032567378871582825",
+    "NFT_list": [
+     {
+      "value": "6.17952026353274699845",
+      "NFT_id": "3920237",
+      "amount": "4.675425650010842146",
+      "in_effect": "1",
+      "NFT_percentage": "0.032567378871582825"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "484.20223975372346",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Messenger",
+  "token_symbol": "MAIL",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xad1bc769605b40efb9892748212a25e9f3047f384fbb1fb7310f4ec797a7bbde",
+  "block": 93427355,
+  "deployer": "0x56c825ccae60cc01f5ae90da360700744dd07224",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x56c825ccae60cc01f5ae90da360700744dd07224",
+  "tx_from": "0x56c825ccae60cc01f5ae90da360700744dd07224",
+  "tx_to": null,
+  "ts": 1792496837
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 1999.03,
+  "geckoterminal_top_usd": 900.6188
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x5b879faaa975ccae72a10baff94708caf385ba9ca22586cc435e546f6e822649",
+   "liq_usd": 1999.03,
+   "created": 1792496897000,
+   "url": "https://dexscreener.com/robinhood/0x5b879faaa975ccae72a10baff94708caf385ba9ca22586cc435e546f6e822649",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x13e23af015a80de59aa07e9b0529bebaffa09ddfef1bd48c05b92b4fe9467197",
+   "liq_usd": 795.92,
+   "created": 1792501767000,
+   "url": "https://dexscreener.com/robinhood/0x13e23af015a80de59aa07e9b0529bebaffa09ddfef1bd48c05b92b4fe9467197",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 73,
+ "deployer_contracts": [
+  "0xad6a0aee45d3005fc8e38e3a7e6a4b51b33f9b7d",
+  "0x27bc3b39565a702f79f099c76547b1e9244ad90a",
+  "0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+  "0x4020c72d206211f3a071e90c35dc120ff3724dbd",
+  "0xb5a3f3dab96cc2c12d943dd2942984de75d80731",
+  "0xb73f57b18b1e2289d2bb5244dbf3f06ce047bd32"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x27bc3b39565a702f79f099c76547b1e9244ad90a",
+  "0xad6a0aee45d3005fc8e38e3a7e6a4b51b33f9b7d"
+ ],
+ "site_ips": [
+  "216.198.79.65",
+  "64.29.17.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xa46bb59e405d2bc3416ef11952cd6d64da570562?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xa46bb59e405d2bc3416ef11952cd6d64da570562/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xa46bb59e405d2bc3416ef11952cd6d64da570562/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x56c825ccae60cc01f5ae90da360700744dd07224/transactions?sort=block_number&order=asc",
+   "err": "The read operation timed out",
+   "attempt": 1
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x56c825ccae60cc01f5ae90da360700744dd07224/transactions?sort=block_number&order=asc",
+   "status": 200,
+   "attempt": 2
+  },
+  {
+   "url": "https://dns.google/resolve?name=mailmessenger.fun&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/mailmessenger.fun",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3964 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93535305",
+    "https://robinhoodchain.blockscout.com/address/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MailToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+    "https://robinhoodchain.blockscout.com/address/0xa46bb59e405d2bc3416ef11952cd6d64da570562?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93535305"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xa46bb59e405d2bc3416ef11952cd6d64da570562 owner() @ 93535305 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+    "https://robinhoodchain.blockscout.com/address/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x56c825ccae60cc01f5ae90da360700744dd07224 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x56c825ccae60cc01f5ae90da360700744dd07224) @ 93535305",
+    "https://robinhoodchain.blockscout.com/address/0x56c825ccae60cc01f5ae90da360700744dd07224"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 5.69% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xa46bb59e405d2bc3416ef11952cd6d64da570562/holders",
+    "https://robinhoodchain.blockscout.com/token/0xa46bb59e405d2bc3416ef11952cd6d64da570562?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $1,999 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5b879faaa975ccae72a10baff94708caf385ba9ca22586cc435e546f6e822649",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "6 live contract(s) created directly by 0x56c825ccae60cc01f5ae90da360700744dd07224 (CREATE nonce scan 0..72); tokens launched via factories are not counted. Wallet nonce = 73.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x56c825ccae60cc01f5ae90da360700744dd07224",
+    "https://robinhoodchain.blockscout.com/tx/0xad1bc769605b40efb9892748212a25e9f3047f384fbb1fb7310f4ec797a7bbde",
+    "https://robinhoodchain.blockscout.com/address/0xad6a0aee45d3005fc8e38e3a7e6a4b51b33f9b7d",
+    "https://robinhoodchain.blockscout.com/address/0x27bc3b39565a702f79f099c76547b1e9244ad90a",
+    "https://robinhoodchain.blockscout.com/address/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x56c825ccae60cc01f5ae90da360700744dd07224 on Blockscout: block 93089072 (2026-10-20 01:59 UTC), 0.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x56c825ccae60cc01f5ae90da360700744dd07224",
+    "https://robinhoodchain.blockscout.com/tx/0xad1bc769605b40efb9892748212a25e9f3047f384fbb1fb7310f4ec797a7bbde",
+    "https://robinhoodchain.blockscout.com/tx/0xf3dbd96944bb65e76e270d0c57c1fd9bb8d48b8b7960679cf30e787823142f9e",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x56c825ccae60cc01f5ae90da360700744dd07224/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "mailmessenger.fun -> 216.198.79.65, 64.29.17.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=mailmessenger.fun&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "mailmessenger.fun registered 2026-10-20 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/mailmessenger.fun"
+   ]
+  }
+ ],
+ "score": 56,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $1,999 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5b879faaa975ccae72a10baff94708caf385ba9ca22586cc435e546f6e822649",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+    "https://robinhoodchain.blockscout.com/address/0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xa46bb59e405d2bc3416ef11952cd6d64da570562"
+   ]
+  }
+ ],
+ "label": "Messenger",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+  "site": "https://mailmessenger.fun/",
+  "x_profile": "https://x.com/MailMessengerRH",
+  "pool_url": "https://dexscreener.com/robinhood/0xa46bb59e405d2bc3416ef11952cd6d64da570562",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

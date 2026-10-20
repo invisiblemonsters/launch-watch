@@ -1,0 +1,491 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+ "scanned_at_utc": "2026-10-19T22:25:11Z",
+ "block": 92965668,
+ "site": "https://www.wolfsmile.org/",
+ "post": null,
+ "token": {
+  "name": "WOLF SMILE",
+  "symbol": "WOLFSMILE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "26105.96566059038154595360",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0x79d895adae856f423689f25197c38843b986586d342636d24f1896f408cded58"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.556442000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0xa3de63c79f523a2cadf97d18c06022aa164a1cb190521c287a95f3177ccdae1f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4614265088760378144",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x3307818afe4fe4ff6fc0162c2cb0a1b729627359b5eaa20cf9d30c9732de7093"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4609660",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.66",
+    "pair": "0xf3961fba2d3798c92be47b6eee8eaf37d4fea18ca940e91c7f8f5469ebf0b913"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.309729000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.6",
+    "pair": "0xa0a640369e1f8dc44749013d654d859a79c974c63f34f1ce79c31fc38e83d4ee"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "157",
+  "holders": [
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "126324911.346351937737126815",
+    "percent": "0.126325",
+    "is_locked": 0
+   },
+   {
+    "address": "0x267444D099b10fB5Ed7c3Cc7B7c767AdcA574952",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "81632653.061224489754271069",
+    "percent": "0.081633",
+    "is_locked": 0
+   },
+   {
+    "address": "0x5657ecC29043fdC0172879e8C25227EC5F4c0bD7",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "11076062.241143076840555098",
+    "percent": "0.011076",
+    "is_locked": 0
+   },
+   {
+    "address": "0x38E9625CBD3EF7E8516F5Ef88835E4AA5eaEceD9",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10726170.317059963834472586",
+    "percent": "0.010726",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC3e20630633Ee6Cd432B27dF996d7702667A1b35",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10613523.534524734065125049",
+    "percent": "0.010614",
+    "is_locked": 0
+   },
+   {
+    "address": "0xA051833Ce8Bd4fE4312Fec5349fE77a01cf707e4",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10460393.753073796692690517",
+    "percent": "0.010460",
+    "is_locked": 0
+   },
+   {
+    "address": "0x393De7467126fAfffa1eC100B6e01B1bF43795ca",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9900606.119922202956446243",
+    "percent": "0.009901",
+    "is_locked": 0
+   },
+   {
+    "address": "0x56b924707e6A1F3bDb501C906576f62e3Aa1a578",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9738440.065431822719617306",
+    "percent": "0.009738",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7E47C6A41D0517DDebdcB2588e768b8b7915c214",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9650684.402253095425570343",
+    "percent": "0.009651",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8eCb5528beA10976d3CB962416113fFdBdf83A48",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "9515572.715007318045274885",
+    "percent": "0.009516",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+    "tag": "",
+    "value": "26265.09186712072790524456",
+    "is_contract": 1,
+    "balance": "29277.002188455995394075",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "26265.09186712072790524456",
+      "NFT_id": "3747275",
+      "amount": "29277.002188455995394075",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "29277.002188455994",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "WOLF SMILE",
+  "token_symbol": "WOLFSMILE",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xa20a892b31a4920f73d6fc14cbacdbe361b94873dfc2d820fad4789f95db102a",
+  "block": 86908366,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1791832085
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 52521.44,
+  "geckoterminal_top_usd": 34644.2114
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x79d895adae856f423689f25197c38843b986586d342636d24f1896f408cded58",
+   "liq_usd": 52521.44,
+   "created": 1791832085000,
+   "url": "https://dexscreener.com/robinhood/0x79d895adae856f423689f25197c38843b986586d342636d24f1896f408cded58",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 12,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xe4f00e3286c39c74d431904bca00b193f7e0b1da?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xe4f00e3286c39c74d431904bca00b193f7e0b1da/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xe4f00e3286c39c74d431904bca00b193f7e0b1da/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.wolfsmile.org&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/wolfsmile.org",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92965668",
+    "https://robinhoodchain.blockscout.com/address/0xe4f00e3286c39c74d431904bca00b193f7e0b1da"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe4f00e3286c39c74d431904bca00b193f7e0b1da?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92965668"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xe4f00e3286c39c74d431904bca00b193f7e0b1da owner() @ 92965668 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 92965668",
+    "https://robinhoodchain.blockscout.com/address/0xe4f00e3286c39c74d431904bca00b193f7e0b1da?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xe4f00e3286c39c74d431904bca00b193f7e0b1da"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6) @ 92965668",
+    "https://robinhoodchain.blockscout.com/address/0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.14% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xe4f00e3286c39c74d431904bca00b193f7e0b1da/holders",
+    "https://robinhoodchain.blockscout.com/token/0xe4f00e3286c39c74d431904bca00b193f7e0b1da?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $52,521 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x79d895adae856f423689f25197c38843b986586d342636d24f1896f408cded58",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xe4f00e3286c39c74d431904bca00b193f7e0b1da"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+    "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6 (CREATE nonce scan 0..11); tokens launched via factories are not counted. Wallet nonce = 12.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6",
+    "https://robinhoodchain.blockscout.com/tx/0xa20a892b31a4920f73d6fc14cbacdbe361b94873dfc2d820fad4789f95db102a"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6 on Blockscout: block 86903347 (2026-10-12 18:59 UTC), 7.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6",
+    "https://robinhoodchain.blockscout.com/tx/0xa20a892b31a4920f73d6fc14cbacdbe361b94873dfc2d820fad4789f95db102a",
+    "https://robinhoodchain.blockscout.com/tx/0xb9a7a535204b6b7c1004b213f7308a5af0af0d65f705c275fecfd795e9790d09",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x8e37fc0ef2b1bc0289896b8f51188ca7d3f5bbe6/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.wolfsmile.org -> 216.150.1.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.wolfsmile.org&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "wolfsmile.org registered 2025-06-13 (493 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/wolfsmile.org"
+   ]
+  }
+ ],
+ "score": 3,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ],
+ "label": "WOLF SMILE",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+  "site": "https://www.wolfsmile.org/",
+  "x_profile": "https://x.com/Wolf_Smile_RH",
+  "pool_url": "https://dexscreener.com/robinhood/0xe4f00e3286c39c74d431904bca00b193f7e0b1da",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

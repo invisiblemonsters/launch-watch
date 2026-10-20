@@ -1,0 +1,487 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+ "scanned_at_utc": "2026-10-20T15:07:45Z",
+ "block": 93542596,
+ "site": "https://www.paperly.digital/",
+ "post": null,
+ "token": {
+  "name": "PAPERLY",
+  "symbol": "PAPERLY",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.9999990",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77",
+    "pair": "0x5e087139fd989401891881f8609fe208d0e94532d4a739e6c0842c5e77933218"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.23928906716931534958",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0x5cf72fb30054e32770632890474dc22105d1f4bba8be7c5d94f47a21d452e4fc"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "115",
+  "holders": [
+   {
+    "address": "0xf83c04FB4dbf6CA56E4c2d3c7FD6F0344B08256B",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "431333518.347446439865614716",
+    "percent": "0.431334",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC2C6aCD377458010713e733e1b21dD6F670D091C",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "35411415.896333396047889968",
+    "percent": "0.035411",
+    "is_locked": 0
+   },
+   {
+    "address": "0xA697443f06C08D6baCE3EE26A6B7de1a5DD866Ca",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "24814262.473159869597105066",
+    "percent": "0.024814",
+    "is_locked": 0
+   },
+   {
+    "address": "0xE0B46FE515f3Ec4cd32aF3d71395fdA21D999991",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "17056851.861362470528416111",
+    "percent": "0.017057",
+    "is_locked": 0
+   },
+   {
+    "address": "0xFbf4b9c8337CF227DaCe695036061AF98a4FAA66",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "15876180.202133095224701905",
+    "percent": "0.015876",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2A716B891D0D550ccd3f417aCFf7A018eb8E82EC",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "15374613.603646826703697279",
+    "percent": "0.015375",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4246BcB160232c0391603616258Bc5E93227886E",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14320743.750580232792326792",
+    "percent": "0.014321",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0f1a4a379b45084522C29dB820Be0AF42C3aC519",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14218913.11639999946875549",
+    "percent": "0.014219",
+    "is_locked": 0
+   },
+   {
+    "address": "0xbcAD868e47696f190A2674E0905D017D39EDA78f",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14001352.775710910072533419",
+    "percent": "0.014001",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf48E9A3E169Fa18350236c2e5c780192116D629d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "13593263.001904381226083175",
+    "percent": "0.013593",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x8790e40d0f1822f25574690f4231800e7b21c459",
+    "tag": "",
+    "value": "0.9999990",
+    "is_contract": 0,
+    "balance": "0.000316242984783489",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.9999990",
+      "NFT_id": "3921493",
+      "amount": "0.000316242984783489",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000316242984783489",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "PAPERLY",
+  "token_symbol": "PAPERLY",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x314c09c32618d8e1428de930ea3911e119da7d1ab0e23cc4c32250a60e9a4fd7",
+  "block": 93494628,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xe6e719be74ea3c0b629ee2089547011004724091",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792503866
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 0.23,
+  "geckoterminal_top_usd": 8344.9522
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x5cf72fb30054e32770632890474dc22105d1f4bba8be7c5d94f47a21d452e4fc",
+   "liq_usd": 0.23,
+   "created": 1792504709000,
+   "url": "https://dexscreener.com/robinhood/0x5cf72fb30054e32770632890474dc22105d1f4bba8be7c5d94f47a21d452e4fc",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 7,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.65",
+  "64.29.17.65"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe6e719be74ea3c0b629ee2089547011004724091/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.paperly.digital&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/paperly.digital",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93542596",
+    "https://robinhoodchain.blockscout.com/address/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93542596"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c owner() @ 93542596 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 93542596",
+    "https://robinhoodchain.blockscout.com/address/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xe6e719be74ea3c0b629ee2089547011004724091 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xe6e719be74ea3c0b629ee2089547011004724091) @ 93542596",
+    "https://robinhoodchain.blockscout.com/address/0xe6e719be74ea3c0b629ee2089547011004724091"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.54% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c/holders",
+    "https://robinhoodchain.blockscout.com/token/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $0, GeckoTerminal top pool $8,345. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5cf72fb30054e32770632890474dc22105d1f4bba8be7c5d94f47a21d452e4fc",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xe6e719be74ea3c0b629ee2089547011004724091 (CREATE nonce scan 0..6); tokens launched via factories are not counted. Wallet nonce = 7.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe6e719be74ea3c0b629ee2089547011004724091",
+    "https://robinhoodchain.blockscout.com/tx/0x314c09c32618d8e1428de930ea3911e119da7d1ab0e23cc4c32250a60e9a4fd7"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xe6e719be74ea3c0b629ee2089547011004724091 on Blockscout: block 93207481 (2026-10-20 05:25 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe6e719be74ea3c0b629ee2089547011004724091",
+    "https://robinhoodchain.blockscout.com/tx/0x314c09c32618d8e1428de930ea3911e119da7d1ab0e23cc4c32250a60e9a4fd7",
+    "https://robinhoodchain.blockscout.com/tx/0x501730f88cf76642b3f20441ea72deaac62b6d24947f2daddc06727df28e59bb",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe6e719be74ea3c0b629ee2089547011004724091/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.paperly.digital -> 216.198.79.65, 64.29.17.65 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.paperly.digital&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "paperly.digital registered 2026-10-19 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/paperly.digital"
+   ]
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xe6e719be74ea3c0b629ee2089547011004724091 on Blockscout: block 93207481 (2026-10-20 05:25 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe6e719be74ea3c0b629ee2089547011004724091",
+    "https://robinhoodchain.blockscout.com/tx/0x314c09c32618d8e1428de930ea3911e119da7d1ab0e23cc4c32250a60e9a4fd7",
+    "https://robinhoodchain.blockscout.com/tx/0x501730f88cf76642b3f20441ea72deaac62b6d24947f2daddc06727df28e59bb",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe6e719be74ea3c0b629ee2089547011004724091/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "paperly.digital registered 2026-10-19 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/paperly.digital"
+   ]
+  }
+ ],
+ "label": "PAPERLY",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+  "site": "https://www.paperly.digital/",
+  "x_profile": "https://x.com/PaperlyDigital",
+  "pool_url": "https://dexscreener.com/robinhood/0x5fbc8cd4ab70c4cf12c6c6883c8e2f6979f3451c",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

@@ -1,0 +1,856 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+ "scanned_at_utc": "2026-10-19T22:24:40Z",
+ "block": 92965372,
+ "site": "https://www.getbullish.xyz/",
+ "post": null,
+ "token": {
+  "name": "BULLISH",
+  "symbol": "BULLISH",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "TaxedLaunchToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x5D4d8983e6389f75FEb928B78Cf4e1A69cA17B50",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "553.419334000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.15",
+    "pair": "0xc101ddd377f85cf8beeb01a811a52cbab643dbf8c44189758a29abcb8051287a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "13.385922000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.55",
+    "pair": "0x0c5bf07eddffc22869bd2be216c49fb9e2005a762e78ea8ca0ba8c742a2dd3b1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "12.374468000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.13",
+    "pair": "0x61bf4575147f29202230492a73677b636f620340a6a8e8ddf938b5437c97a86a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "11.799400000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.86",
+    "pair": "0x8bcb411c719d1c2ccaf3ef7a3576ba740d53d69059e3c3d278d80a469a90baba"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "8.782530000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.899999",
+    "pair": "0xd084889a03c587b0364c1d5f5ff528ed913fd0c1af9098e660e364d01867209f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "6.848162000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.78",
+    "pair": "0xdba7a37f213f5e9d3feba327a02136b4fb203c4bcbd55db5a56e49f80ebafed6"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "5.16374488694659342088",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.838974",
+    "pair": "0x2d7ba20f97fb4b79ba6fe4a04233d49ad8525c26e222820a5782644c1426832c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "4.810368000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.73",
+    "pair": "0x6aad84e0b81b65412a24e519e4be7c7fe836132aeac3170259a9d040be1fcab2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.322954000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.91",
+    "pair": "0x81154f21ddd44052914f0015e9dde9374e531f64a0b286dd20b05fa4c27d0606"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.085392000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.88",
+    "pair": "0xd6a724721cdfdab9b970220bfd7b0e26cf19922390dc0f5732d65c2d0784a7db"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.197917000000",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.65",
+    "pair": "0x0a87225d4414752d4337dbebfcdf90f9e898f74c06fb44c178917977eeef76b9"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.918268163460",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.81",
+    "pair": "0xb6052473280e5353285f8762046b6c85a85c4e8187c9aa791b9682077ccf811b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.78537228288374911209",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.1",
+    "pair": "0x7a52a72a01cc9ad8374a7d9583e94201a06a154dd641c585b1fa8743920794a2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.629070936558",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.05",
+    "pair": "0x8488abdca350df68f3966e1412bf56c0f38bfc218212da45ab07f986c5f9000f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.171471217162",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.74",
+    "pair": "0x4e83d27f9a660488e0fc32912eb60a9fd0941e9cea4547d83411a382dbc8c093"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.048245099964",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.98",
+    "pair": "0x80251dd7294a1badf876a577af264229ddea0e48f983aa1e3759000ee5644288"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.044955266364",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8001",
+    "pair": "0xa886f2796e2e612e2daabbd0b154aa71ded6e40e07fec7f7651eb1418f4992ab"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.013804798878",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.95",
+    "pair": "0x349252aba437d637a2ed880396abf999f71dd77ba235c00177b0202a80bbd210"
+   }
+  ],
+  "external_call": "1",
+  "hidden_owner": "0",
+  "holder_count": "1666",
+  "holders": [
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "85102727.935740755100297596",
+    "percent": "0.085103",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "72939896.934354625100561687",
+    "percent": "0.072940",
+    "is_locked": 1
+   },
+   {
+    "address": "0x2f17B50f55134dD2CAe9793d63Ea49bb14A3f345",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "23944093.701632614012800315",
+    "percent": "0.023944",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7632BD8E72767ED67a724C564c42Ceea98E81180",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "22886498.13865092463260543",
+    "percent": "0.022886",
+    "is_locked": 0
+   },
+   {
+    "address": "0x00A3Ee673494A58C9b63d6c8088ea5831CAD8E75",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "22428042.243171135987810469",
+    "percent": "0.022428",
+    "is_locked": 0
+   },
+   {
+    "address": "0x65c9d8973724959eECf97Db697eb26e615137e06",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "20877746.225462701374353184",
+    "percent": "0.020878",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3D04fa852E8D08B3E0BaB3c9757Ce85023157d85",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "19325288.246345209220065549",
+    "percent": "0.019325",
+    "is_locked": 0
+   },
+   {
+    "address": "0xF7b54909c0DCBDBDc8c9C5afB681040dC6d54ABc",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "17566412.418920621042228114",
+    "percent": "0.017566",
+    "is_locked": 0
+   },
+   {
+    "address": "0x06f977FFa95aED4a725901e9a2710bAaCF8Ae1F4",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "16950114.978326126219048196",
+    "percent": "0.016950",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1a4b15B276bE55758b51762aBF250c324E0F4708",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "16016252.811663802899854913",
+    "percent": "0.016016",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "9",
+  "lp_holders": [
+   {
+    "address": "0x44340c917f501df91c620ea18e60e399f8ab7594",
+    "tag": "",
+    "value": "199.5542690",
+    "is_contract": 0,
+    "balance": "0.132061090758427227",
+    "percent": "0.360105637557551518",
+    "NFT_list": [
+     {
+      "value": "54.5931450",
+      "NFT_id": "3879983",
+      "amount": "0.037410552630288181",
+      "in_effect": "0",
+      "NFT_percentage": "0.098516054730439547"
+     },
+     {
+      "value": "47.6998040",
+      "NFT_id": "3879982",
+      "amount": "0.028134013413635497",
+      "in_effect": "0",
+      "NFT_percentage": "0.086076676870241479"
+     },
+     {
+      "value": "39.3647160",
+      "NFT_id": "3879981",
+      "amount": "0.041524249377588649",
+      "in_effect": "0",
+      "NFT_percentage": "0.071035594595332607"
+     },
+     {
+      "value": "29.6444410",
+      "NFT_id": "3879980",
+      "amount": "0.013961979423165555",
+      "in_effect": "0",
+      "NFT_percentage": "0.053494873248450626"
+     },
+     {
+      "value": "18.9825650",
+      "NFT_id": "3879979",
+      "amount": "0.007695161109758675",
+      "in_effect": "0",
+      "NFT_percentage": "0.034254985904624586"
+     },
+     {
+      "value": "8.5896910",
+      "NFT_id": "3879978",
+      "amount": "0.002997087861038055",
+      "in_effect": "0",
+      "NFT_percentage": "0.015500526094870775"
+     },
+     {
+      "value": "0.6799070",
+      "NFT_id": "3879977",
+      "amount": "0.000338046942952615",
+      "in_effect": "1",
+      "NFT_percentage": "0.001226926113591898"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xfe0c2394553c107cba897b65357701876ed8d18f",
+    "tag": "",
+    "value": "167.516650",
+    "is_contract": 0,
+    "balance": "0.007416243298758643",
+    "percent": "0.302292155171860605",
+    "NFT_list": [
+     {
+      "value": "167.516650",
+      "NFT_id": "3724782",
+      "amount": "0.007416243298758643",
+      "in_effect": "1",
+      "NFT_percentage": "0.302292155171860605"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x441568fdd10b00ddc90b4a95aee03d8d06242283",
+    "tag": "",
+    "value": "141.6628250",
+    "is_contract": 0,
+    "balance": "0.006271651100898886",
+    "percent": "0.255637637673533549",
+    "NFT_list": [
+     {
+      "value": "93.372780",
+      "NFT_id": "3674770",
+      "amount": "0.00413376974350926",
+      "in_effect": "1",
+      "NFT_percentage": "0.168495841461657707"
+     },
+     {
+      "value": "48.2900450",
+      "NFT_id": "3725365",
+      "amount": "0.002137881357389626",
+      "in_effect": "1",
+      "NFT_percentage": "0.087141796211875843"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xad2616dd22e46bf17702d4b92fd56291895af7c1",
+    "tag": "",
+    "value": "19.551650",
+    "is_contract": 0,
+    "balance": "0.00086558437237749",
+    "percent": "0.035281928188427290",
+    "NFT_list": [
+     {
+      "value": "19.551650",
+      "NFT_id": "3663570",
+      "amount": "0.00086558437237749",
+      "in_effect": "1",
+      "NFT_percentage": "0.035281928188427290"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x4431ccdaa5efe25b2c9cc93c18abe8a45adc3e2a",
+    "tag": "",
+    "value": "9.1015070",
+    "is_contract": 0,
+    "balance": "0.001386533432013299",
+    "percent": "0.016424123610051750",
+    "NFT_list": [
+     {
+      "value": "9.1015070",
+      "NFT_id": "3658294",
+      "amount": "0.001386533432013299",
+      "in_effect": "0",
+      "NFT_percentage": "0.016424123610051750"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x65e990d1201c7edba6c794e902a8d76eeadf6167",
+    "tag": "",
+    "value": "7.2816070",
+    "is_contract": 0,
+    "balance": "0.000322368989165858",
+    "percent": "0.013140023234374054",
+    "NFT_list": [
+     {
+      "value": "7.2816070",
+      "NFT_id": "3849302",
+      "amount": "0.000322368989165858",
+      "in_effect": "1",
+      "NFT_percentage": "0.013140023234374054"
+     },
+     {
+      "value": "0.0",
+      "NFT_id": "3705562",
+      "amount": "0",
+      "in_effect": "1",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xe9dc7a46485f478109f381f334f87d5797a3b314",
+    "tag": "",
+    "value": "4.9883650",
+    "is_contract": 0,
+    "balance": "0.000220843315355021",
+    "percent": "0.009001753596635788",
+    "NFT_list": [
+     {
+      "value": "4.9883650",
+      "NFT_id": "3749570",
+      "amount": "0.000220843315355021",
+      "in_effect": "1",
+      "NFT_percentage": "0.009001753596635788"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xc5b6ccac003745673d67d955b7d7b0491ad40774",
+    "tag": "",
+    "value": "2.3760120",
+    "is_contract": 0,
+    "balance": "0.000105190069533574",
+    "percent": "0.004287632233537400",
+    "NFT_list": [
+     {
+      "value": "2.3760120",
+      "NFT_id": "3725433",
+      "amount": "0.000105190069533574",
+      "in_effect": "1",
+      "NFT_percentage": "0.004287632233537400"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xd38139050ef3494e4673036e7262a9c9f7db14ae",
+    "tag": "",
+    "value": "2.1219190",
+    "is_contract": 0,
+    "balance": "0.00009394095860505",
+    "percent": "0.003829108734028046",
+    "NFT_list": [
+     {
+      "value": "2.1219190",
+      "NFT_id": "3828534",
+      "amount": "0.00009394095860505",
+      "in_effect": "1",
+      "NFT_percentage": "0.003829108734028046"
+     },
+     {
+      "value": "0.0",
+      "NFT_id": "3758865",
+      "amount": "0",
+      "in_effect": "1",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.14874344629513503",
+  "owner_address": "0xf644a50c36e6c99250e30f24e81d4df7cba0be3f",
+  "owner_balance": "109148.25634607264",
+  "owner_change_balance": "0",
+  "owner_percent": "0.000109",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "BULLISH",
+  "token_symbol": "BULLISH",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xe36e18cb3ec56d5912b4232b96b673ef8c1277db481bae7c500bd6f33a56217a",
+  "block": 82739090,
+  "deployer": "0xf644a50c36e6c99250e30f24e81d4df7cba0be3f",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x5d4d8983e6389f75feb928b78cf4e1a69ca17b50",
+  "tx_from": "0xf644a50c36e6c99250e30f24e81d4df7cba0be3f",
+  "tx_to": "0x78a0b01b5739f59fc61fd38a0c6f3c0b20af8feb",
+  "ts": 1791403305
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 83364.59,
+  "geckoterminal_top_usd": 113254.193
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xd3d50aad859119bfe773db3e81066363d25e3514fc87785d190db7cb41a6f350",
+   "liq_usd": 83364.59,
+   "created": 1791403305000,
+   "url": "https://dexscreener.com/robinhood/0xd3d50aad859119bfe773db3e81066363d25e3514fc87785d190db7cb41a6f350",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xc101ddd377f85cf8beeb01a811a52cbab643dbf8c44189758a29abcb8051287a",
+   "liq_usd": 735.78,
+   "created": 1791410159000,
+   "url": "https://dexscreener.com/robinhood/0xc101ddd377f85cf8beeb01a811a52cbab643dbf8c44189758a29abcb8051287a",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x61bf4575147f29202230492a73677b636f620340a6a8e8ddf938b5437c97a86a",
+   "liq_usd": 24.74,
+   "created": 1791415285000,
+   "url": "https://dexscreener.com/robinhood/0x61bf4575147f29202230492a73677b636f620340a6a8e8ddf938b5437c97a86a",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x8488abdca350df68f3966e1412bf56c0f38bfc218212da45ab07f986c5f9000f",
+   "liq_usd": 2.35,
+   "created": 1791479613000,
+   "url": "https://dexscreener.com/robinhood/0x8488abdca350df68f3966e1412bf56c0f38bfc218212da45ab07f986c5f9000f",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x7a52a72a01cc9ad8374a7d9583e94201a06a154dd641c585b1fa8743920794a2",
+   "liq_usd": 1.64,
+   "created": 1791677088000,
+   "url": "https://dexscreener.com/robinhood/0x7a52a72a01cc9ad8374a7d9583e94201a06a154dd641c585b1fa8743920794a2",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 205,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.193",
+  "216.150.16.193"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xf644a50c36e6c99250e30f24e81d4df7cba0be3f/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.getbullish.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/getbullish.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3622 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 92965372",
+    "https://robinhoodchain.blockscout.com/address/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as TaxedLaunchToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+    "https://robinhoodchain.blockscout.com/address/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92965372"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67 owner() @ 92965372 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.fee_setter",
+   "group": "fn",
+   "title": "fee/tax/limit setter function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found fee/tax/limit setter function(s): setMaxWallet(uint16,uint64) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+    "https://robinhoodchain.blockscout.com/address/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xf644a50c36e6c99250e30f24e81d4df7cba0be3f holds 0.01% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xf644a50c36e6c99250e30f24e81d4df7cba0be3f) @ 92965372",
+    "https://robinhoodchain.blockscout.com/address/0xf644a50c36e6c99250e30f24e81d4df7cba0be3f"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.39% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67/holders",
+    "https://robinhoodchain.blockscout.com/token/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $83,365 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xd3d50aad859119bfe773db3e81066363d25e3514fc87785d190db7cb41a6f350",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xf644a50c36e6c99250e30f24e81d4df7cba0be3f (CREATE nonce scan 0..204); tokens launched via factories are not counted. Wallet nonce = 205.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf644a50c36e6c99250e30f24e81d4df7cba0be3f",
+    "https://robinhoodchain.blockscout.com/tx/0xe36e18cb3ec56d5912b4232b96b673ef8c1277db481bae7c500bd6f33a56217a"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xf644a50c36e6c99250e30f24e81d4df7cba0be3f on Blockscout: block 82717223 (2026-10-07 19:24 UTC), 12.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xf644a50c36e6c99250e30f24e81d4df7cba0be3f",
+    "https://robinhoodchain.blockscout.com/tx/0xe36e18cb3ec56d5912b4232b96b673ef8c1277db481bae7c500bd6f33a56217a",
+    "https://robinhoodchain.blockscout.com/tx/0xe462aa517e73d69ab7541da712ef34b016a557e2fdce36eb52c5ef69156999b6",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xf644a50c36e6c99250e30f24e81d4df7cba0be3f/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.getbullish.xyz -> 216.150.1.193, 216.150.16.193 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.getbullish.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "getbullish.xyz registered 2026-10-05 (14 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/getbullish.xyz"
+   ]
+  }
+ ],
+ "score": 23,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "fn.fee_setter",
+   "group": "fn",
+   "title": "fee/tax/limit setter function present",
+   "status": "flag",
+   "points": 8.0,
+   "detail": "Found fee/tax/limit setter function(s): setMaxWallet(uint16,uint64) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+    "https://robinhoodchain.blockscout.com/address/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ],
+ "label": "BULLISH",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+  "site": "https://www.getbullish.xyz/",
+  "x_profile": "https://www.x.com/bullish_rh",
+  "pool_url": "https://dexscreener.com/robinhood/0xeb5e4f655eee663a01419bec7dd74b5ee45b5f67",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

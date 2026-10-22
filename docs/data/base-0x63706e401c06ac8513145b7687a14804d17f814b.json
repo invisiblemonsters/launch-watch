@@ -1,0 +1,1350 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x63706e401c06ac8513145b7687a14804d17f814b",
+ "scanned_at_utc": "2026-10-22T03:18:20Z",
+ "block": 52924876,
+ "site": "https://uranus28.win/",
+ "post": null,
+ "token": {
+  "name": "Aave Token",
+  "symbol": "AAVE",
+  "decimals": 18,
+  "totalSupply": 30633821077979223338980
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "OptimismMintableERC20"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x4801eb5a2a6e2d04f019098364878c70a05158f1",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "186512.276963134868477702250000000000",
+    "pool_fee": "0.003",
+    "pair": "0x2e86514cfd61fb19c5cf2b879d536d273d6e693d"
+   },
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "29793.560445975784000000000000000000",
+    "pool_fee": "0.003",
+    "pair": "0xc562998555779318b85284b7af71bebb2ada3461"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "6061.077029721664810009600000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.003",
+    "pair": "0x2a9c80c760eecee7de0d88989d97ef74b35823141325b3f1496a9621cd6405e4"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "203.512441457078000000000000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.0025",
+    "pair": "0xb8f5e183abf6e6c0cdc876578e6a92bf11728cae7b84e6ee92bff3befc1370f2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "199.282411034646000000000000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.003",
+    "pair": "0xd417a8e24c0f1ab81e619a453f6f85f662d7e7c8af06a3f351e0c6ef7293790a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "60.138216963654000000000000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.88",
+    "pair": "0x1d1f25998e94fa69147c4143cf83180bf4dbaef5840f00fdfea4696f2b9d8981"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "30.391728356072",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.02",
+    "pair": "0x31a4b65be83072d700d6fceef6b1c05f390641636cf940fc1cd9e96ef986a5d3"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.999781000218",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0x25081e537253aaddadb096459584349ef50851f0aec74852e4e4d9f73c457b3f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.923358202633000000000000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.01",
+    "pair": "0x6e75314fc12958bf4b70a4f5e8811572a19071b323a827d0be9ec60a40fd0a51"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.594396952372494246180000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.01",
+    "pair": "0xa9fa43fc326e9815bb4231e4853be7379f62d7ecf2c184f4255c4f16458fefd0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.541284987388134525440000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.95",
+    "pair": "0x58eb58bcbd87b1f001de74c98c43ca56551600d2e9e548026f477053d88f4567"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.42353987798",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.005",
+    "pair": "0xa6702d55e50fe85ca6b529cb3cd70c2939e0f67768a08c5f0fb6d596625a16cd"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.35784395627474987520",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.9931",
+    "pair": "0x0a165cdcf800decb5fdc1b4e2e1ec5e7001be1357815208b837a2ba27a989b46"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.286974426050",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.972",
+    "pair": "0x46ed2f180dc8f36669d080fd9e7ce0717250d542746641a5f0b930ea66cea911"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.249076039110",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.5",
+    "pair": "0xef0926500b56d9d2e901d69e680678afdf180fa6d2fe653531632621b0309c2c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.20120806593",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.99001",
+    "pair": "0x99273eacc2980ea9e0e6be19857ecf687ac016c47e3f0e4c07a0fc024c187776"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.12067497595535215326",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0xfe9d7df9e8c11e1f5837d00c69b0cf2aeabe5a0f1e5fee8792e4d0203fe0511b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.014360302645",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.009",
+    "pair": "0xd3ba0fd11e723c9f62ea4d15cf5ba6dc7b4bdb510705af124bad0c0da0cac9e5"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.012385229850000000000000000000",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.01",
+    "pair": "0x94d6641cd82f0f4de3f7cbbef1d27445a31160ad8a50a327a3fc8c164e42206c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.00120657835584227475",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0x3ef39e9e3a27d9a7b6e976eaae9ba7173ab80a39623a37bdba9c142803f63845"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.000006997914",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.0053",
+    "pair": "0x7e186ffc28ed156a12dbd787860220c1be44a34d5fddd6170f7c4c775d3b2b1a"
+   },
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "0.00000650",
+    "pool_fee": "0.0030",
+    "pair": "0xb50f802539eee9ea176e807f95d7027a7d095769"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "1",
+  "holder_count": "136926",
+  "holders": [
+   {
+    "address": "0x67eaf2bee4384a2f84da9eb8105c661c123736ba",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "6936.023285906396537384",
+    "percent": "0.226417176892512394",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4a79b0168296c0ef7b8f314973b82ad406a29f1b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "6250.168405764701325476",
+    "percent": "0.204028364266237892",
+    "is_locked": 0
+   },
+   {
+    "address": "0x52c53a3232c84cb17b05349d68c9fd75df549e03",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1550.315014027142077433",
+    "percent": "0.050607954198099320",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2e86514cfd61fb19c5cf2b879d536d273d6e693d",
+    "tag": "UniswapV3",
+    "is_contract": 1,
+    "balance": "1049.256967068184082519",
+    "percent": "0.034251586323406145",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7d94baf661d5ed8ad30d7241d1a50f3883083ef7",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "501.798684893076663322",
+    "percent": "0.016380545006636112",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2192bc3b4028acc1113f2cd9ac2cba70c36520db",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "457.848708933264559435",
+    "percent": "0.014945856991453930",
+    "is_locked": 0
+   },
+   {
+    "address": "0x30ee902ec31b826ae92d22310eb9a138613002a9",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "436.870558065754324239",
+    "percent": "0.014261053394341125",
+    "is_locked": 0
+   },
+   {
+    "address": "0x187b6ab771482ccfee7cd2c35176080631082368",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "410.879848250487853",
+    "percent": "0.013412621533715367",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa20dfe337e9361ae0a7cb986a900a4a0410858a4",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "402.169066650910359516",
+    "percent": "0.013128269752153284",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcebf685d48005a1d34086fee14e34639341e84ab",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "380.678125774063837676",
+    "percent": "0.012426726812990039",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_cex": {
+   "listed": "1",
+   "cex_list": [
+    "Binance"
+   ]
+  },
+  "is_in_dex": "1",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "63",
+  "lp_holders": [
+   {
+    "address": "0xcff2994e064d5a69faae225062d4c231ab68c481",
+    "tag": "",
+    "value": "31420.5756721352083352576",
+    "is_contract": 0,
+    "balance": "194.06650959011111064",
+    "percent": "0.285525723391580753",
+    "NFT_list": [
+     {
+      "value": "31420.5756721352083352576",
+      "NFT_id": "6196902",
+      "amount": "194.06650959011111064",
+      "in_effect": "1",
+      "NFT_percentage": "0.285525723391580753"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x7d27cdfbfcc878f7e7349e216d44204bfd2afd55",
+    "tag": "",
+    "value": "12775.6985448737340213504",
+    "is_contract": 1,
+    "balance": "499.546249037533295873",
+    "percent": "0.116095599486193316",
+    "NFT_list": [
+     {
+      "value": "6405.9216750209550173056",
+      "NFT_id": "6232464",
+      "amount": "170.98997144219441718",
+      "in_effect": "1",
+      "NFT_percentage": "0.058212027664159918"
+     },
+     {
+      "value": "1003.9718814560604019968",
+      "NFT_id": "6232204",
+      "amount": "24.560646326846188502",
+      "in_effect": "1",
+      "NFT_percentage": "0.009123314630157056"
+     },
+     {
+      "value": "688.8817836392648225152",
+      "NFT_id": "6232462",
+      "amount": "14.988950536497051162",
+      "in_effect": "1",
+      "NFT_percentage": "0.006260021193033637"
+     },
+     {
+      "value": "511.7783354797171144704",
+      "NFT_id": "6232460",
+      "amount": "13.064550725200357759",
+      "in_effect": "1",
+      "NFT_percentage": "0.004650642972896723"
+     },
+     {
+      "value": "501.694986670194514432",
+      "NFT_id": "6232208",
+      "amount": "12.273205414565925915",
+      "in_effect": "1",
+      "NFT_percentage": "0.004559013351177162"
+     },
+     {
+      "value": "390.4069260890673171328",
+      "NFT_id": "6232209",
+      "amount": "15.398365286484060325",
+      "in_effect": "1",
+      "NFT_percentage": "0.003547714120576112"
+     },
+     {
+      "value": "345.1108450533994992128",
+      "NFT_id": "6232521",
+      "amount": "9.211866228426735812",
+      "in_effect": "1",
+      "NFT_percentage": "0.003136098609788947"
+     },
+     {
+      "value": "344.952425113131871360",
+      "NFT_id": "6232207",
+      "amount": "8.438736850382917766",
+      "in_effect": "1",
+      "NFT_percentage": "0.003134659012739021"
+     },
+     {
+      "value": "234.66119040611280256",
+      "NFT_id": "6232472",
+      "amount": "5.105846981830774869",
+      "in_effect": "1",
+      "NFT_percentage": "0.002132418159418200"
+     },
+     {
+      "value": "231.6797913362317346432",
+      "NFT_id": "6169796",
+      "amount": "30.4571593708351858",
+      "in_effect": "1",
+      "NFT_percentage": "0.002105325526392329"
+     },
+     {
+      "value": "208.3330379030555482624",
+      "NFT_id": "6232463",
+      "amount": "5.560926593969406634",
+      "in_effect": "1",
+      "NFT_percentage": "0.001893168412136646"
+     },
+     {
+      "value": "194.9841221144652585984",
+      "NFT_id": "6237047",
+      "amount": "15.013944197513320623",
+      "in_effect": "1",
+      "NFT_percentage": "0.001771863860724157"
+     },
+     {
+      "value": "186.813007718581914368",
+      "NFT_id": "6123539",
+      "amount": "11.289968651838692076",
+      "in_effect": "1",
+      "NFT_percentage": "0.001697611136230984"
+     },
+     {
+      "value": "167.142766410633104384",
+      "NFT_id": "6306122",
+      "amount": "6.167768726334869182",
+      "in_effect": "1",
+      "NFT_percentage": "0.001518863301138968"
+     },
+     {
+      "value": "150.3462634897001668608",
+      "NFT_id": "6232518",
+      "amount": "8.207214637836492418",
+      "in_effect": "1",
+      "NFT_percentage": "0.001366229762626137"
+     },
+     {
+      "value": "140.393400207477547264",
+      "NFT_id": "6232520",
+      "amount": "3.747448799718680562",
+      "in_effect": "1",
+      "NFT_percentage": "0.001275785891764970"
+     },
+     {
+      "value": "139.7126034619206224256",
+      "NFT_id": "6232889",
+      "amount": "18.366940876506866806",
+      "in_effect": "1",
+      "NFT_percentage": "0.001269599341101922"
+     },
+     {
+      "value": "114.8107985532404600192",
+      "NFT_id": "6232883",
+      "amount": "2.696585653263506468",
+      "in_effect": "1",
+      "NFT_percentage": "0.001043311130010603"
+     },
+     {
+      "value": "108.7814992047155716352",
+      "NFT_id": "6232242",
+      "amount": "3.557867363265864664",
+      "in_effect": "1",
+      "NFT_percentage": "0.000988521552760474"
+     },
+     {
+      "value": "68.3048987461723417856",
+      "NFT_id": "6232513",
+      "amount": "1.74367055536372851",
+      "in_effect": "1",
+      "NFT_percentage": "0.000620701728357742"
+     },
+     {
+      "value": "65.2807847893154138112",
+      "NFT_id": "6231715",
+      "amount": "1.666471722491856134",
+      "in_effect": "1",
+      "NFT_percentage": "0.000593220935702631"
+     },
+     {
+      "value": "53.2928425369360010368",
+      "NFT_id": "6240910",
+      "amount": "1.847894819644661515",
+      "in_effect": "1",
+      "NFT_percentage": "0.000484283851948859"
+     },
+     {
+      "value": "46.4368736131015806592",
+      "NFT_id": "6232459",
+      "amount": "1.239515575710353459",
+      "in_effect": "1",
+      "NFT_percentage": "0.000421982145355239"
+     },
+     {
+      "value": "42.8708027716448653824",
+      "NFT_id": "6232519",
+      "amount": "1.962333954645561582",
+      "in_effect": "1",
+      "NFT_percentage": "0.000389576470573935"
+     },
+     {
+      "value": "37.9008077010089439360",
+      "NFT_id": "6127957",
+      "amount": "17.401811868504493442",
+      "in_effect": "1",
+      "NFT_percentage": "0.000344413025683446"
+     },
+     {
+      "value": "37.8106495592666561920",
+      "NFT_id": "6233822",
+      "amount": "1.311059799438231345",
+      "in_effect": "1",
+      "NFT_percentage": "0.000343593738700635"
+     },
+     {
+      "value": "33.7320017566922087040",
+      "NFT_id": "6232465",
+      "amount": "0.900390967868957764",
+      "in_effect": "1",
+      "NFT_percentage": "0.000306530163658555"
+     },
+     {
+      "value": "29.8692403072186329088",
+      "NFT_id": "6232461",
+      "amount": "0.797284263878335603",
+      "in_effect": "1",
+      "NFT_percentage": "0.000271428395675094"
+     },
+     {
+      "value": "29.4763067047286611840",
+      "NFT_id": "6232457",
+      "amount": "0.786795889390332031",
+      "in_effect": "1",
+      "NFT_percentage": "0.000267857721086999"
+     },
+     {
+      "value": "29.2862589302170118784",
+      "NFT_id": "6232474",
+      "amount": "0.781723041924351567",
+      "in_effect": "1",
+      "NFT_percentage": "0.000266130714909181"
+     },
+     {
+      "value": "29.1744062775270290432",
+      "NFT_id": "6232510",
+      "amount": "0.77873741661398103",
+      "in_effect": "1",
+      "NFT_percentage": "0.000265114285105162"
+     },
+     {
+      "value": "28.9896431047668761088",
+      "NFT_id": "6135993",
+      "amount": "4.995990726551119105",
+      "in_effect": "1",
+      "NFT_percentage": "0.000263435301272754"
+     },
+     {
+      "value": "28.9576101963292233088",
+      "NFT_id": "6266560",
+      "amount": "1.068570578277522758",
+      "in_effect": "1",
+      "NFT_percentage": "0.000263144211146035"
+     },
+     {
+      "value": "23.279725245635925632",
+      "NFT_id": "6285045",
+      "amount": "0.594279066258738905",
+      "in_effect": "1",
+      "NFT_percentage": "0.000211548014284544"
+     },
+     {
+      "value": "21.6392793246491223168",
+      "NFT_id": "6232203",
+      "amount": "0.916804130596699714",
+      "in_effect": "1",
+      "NFT_percentage": "0.000196640919228042"
+     },
+     {
+      "value": "20.8719832773275955584",
+      "NFT_id": "6218937",
+      "amount": "5.227144224216361613",
+      "in_effect": "1",
+      "NFT_percentage": "0.000189668330270632"
+     },
+     {
+      "value": "16.4557495740137749248",
+      "NFT_id": "6135805",
+      "amount": "2.835935991799146982",
+      "in_effect": "1",
+      "NFT_percentage": "0.000149537037452748"
+     },
+     {
+      "value": "14.6090774793059254656",
+      "NFT_id": "5988233",
+      "amount": "0.233472839594695909",
+      "in_effect": "1",
+      "NFT_percentage": "0.000132755919525106"
+     },
+     {
+      "value": "13.6622152934896616576",
+      "NFT_id": "6145549",
+      "amount": "0.259419245181507166",
+      "in_effect": "1",
+      "NFT_percentage": "0.000124151573335577"
+     },
+     {
+      "value": "7.3343999999999902208",
+      "NFT_id": "5862545",
+      "amount": "0.133929707920949508",
+      "in_effect": "0",
+      "NFT_percentage": "0.000066649315642564"
+     },
+     {
+      "value": "6.9939283514084263424",
+      "NFT_id": "6305352",
+      "amount": "19.562953192221479278",
+      "in_effect": "1",
+      "NFT_percentage": "0.000063555374437513"
+     },
+     {
+      "value": "6.2820223445852413952",
+      "NFT_id": "6225286",
+      "amount": "17.571656857889044715",
+      "in_effect": "1",
+      "NFT_percentage": "0.000057086127033964"
+     },
+     {
+      "value": "4.2860587220211728128",
+      "NFT_id": "6305351",
+      "amount": "11.988679601089659867",
+      "in_effect": "1",
+      "NFT_percentage": "0.000038948363959772"
+     },
+     {
+      "value": "3.1344773817699411456",
+      "NFT_id": "6306202",
+      "amount": "8.767552542812916028",
+      "in_effect": "1",
+      "NFT_percentage": "0.000028483689516806"
+     },
+     {
+      "value": "2.2845670292577875456",
+      "NFT_id": "6305355",
+      "amount": "6.390239592440549808",
+      "in_effect": "1",
+      "NFT_percentage": "0.000020760366088514"
+     },
+     {
+      "value": "1.400288460069108864",
+      "NFT_id": "6306609",
+      "amount": "3.916794142511247036",
+      "in_effect": "1",
+      "NFT_percentage": "0.000012724731070815"
+     },
+     {
+      "value": "0.9446449232267648896",
+      "NFT_id": "6306203",
+      "amount": "2.642298217515109964",
+      "in_effect": "1",
+      "NFT_percentage": "0.000008584197433776"
+     },
+     {
+      "value": "0.7596611441228471936",
+      "NFT_id": "6306201",
+      "amount": "2.124873841670389012",
+      "in_effect": "1",
+      "NFT_percentage": "0.000006903208902710"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xd3923beccb6e1ddb048ed00a0a9bd602d16b7470",
+    "tag": "",
+    "value": "11027.5916056798122825344",
+    "is_contract": 1,
+    "balance": "676.286447766338217909",
+    "percent": "0.100210164935678989",
+    "NFT_list": [
+     {
+      "value": "5714.1886310767188808576",
+      "NFT_id": "6232892",
+      "amount": "176.883157983373410173",
+      "in_effect": "1",
+      "NFT_percentage": "0.051926096437852238"
+     },
+     {
+      "value": "1576.714511388801875840",
+      "NFT_id": "6232174",
+      "amount": "40.249977939941314568",
+      "in_effect": "1",
+      "NFT_percentage": "0.014327953635984330"
+     },
+     {
+      "value": "736.557573239622533248",
+      "NFT_id": "6232449",
+      "amount": "16.026298408192857393",
+      "in_effect": "1",
+      "NFT_percentage": "0.006693261642093235"
+     },
+     {
+      "value": "617.5603293094588166656",
+      "NFT_id": "6283757",
+      "amount": "21.413504685137988854",
+      "in_effect": "1",
+      "NFT_percentage": "0.005611907356630664"
+     },
+     {
+      "value": "514.7010841910509311104",
+      "NFT_id": "6232445",
+      "amount": "13.139161931164053608",
+      "in_effect": "1",
+      "NFT_percentage": "0.004677202637137231"
+     },
+     {
+      "value": "466.0248041467477082368",
+      "NFT_id": "6312222",
+      "amount": "19.74434818240806334",
+      "in_effect": "1",
+      "NFT_percentage": "0.004234870510040453"
+     },
+     {
+      "value": "302.5901638865389431552",
+      "NFT_id": "6232478",
+      "amount": "8.076883562813616714",
+      "in_effect": "1",
+      "NFT_percentage": "0.002749703771707179"
+     },
+     {
+      "value": "261.6199860757782038656",
+      "NFT_id": "6232893",
+      "amount": "23.36128282539360612",
+      "in_effect": "1",
+      "NFT_percentage": "0.002377398700693685"
+     },
+     {
+      "value": "253.6652276989691251584",
+      "NFT_id": "6170266",
+      "amount": "116.468087034496253848",
+      "in_effect": "1",
+      "NFT_percentage": "0.002305112051217753"
+     },
+     {
+      "value": "174.8598622153370080768",
+      "NFT_id": "6232444",
+      "amount": "9.545381357895215819",
+      "in_effect": "1",
+      "NFT_percentage": "0.001588990258235883"
+     },
+     {
+      "value": "174.5032880775495174016",
+      "NFT_id": "6232452",
+      "amount": "4.454676762873152554",
+      "in_effect": "1",
+      "NFT_percentage": "0.001585749990148600"
+     },
+     {
+      "value": "69.2170729377916676352",
+      "NFT_id": "6232451",
+      "amount": "1.847575715934205419",
+      "in_effect": "1",
+      "NFT_percentage": "0.000628990857068780"
+     },
+     {
+      "value": "55.105099300613472256",
+      "NFT_id": "6231712",
+      "amount": "9.49665244572376539",
+      "in_effect": "1",
+      "NFT_percentage": "0.000500752230148536"
+     },
+     {
+      "value": "33.5324067351414336128",
+      "NFT_id": "6232453",
+      "amount": "0.895063280649794365",
+      "in_effect": "1",
+      "NFT_percentage": "0.000304716399534425"
+     },
+     {
+      "value": "29.7763858782081999488",
+      "NFT_id": "6306198",
+      "amount": "83.288534554633488917",
+      "in_effect": "1",
+      "NFT_percentage": "0.000270584606933285"
+     },
+     {
+      "value": "29.6873453099707652736",
+      "NFT_id": "6306194",
+      "amount": "83.039476174118770523",
+      "in_effect": "1",
+      "NFT_percentage": "0.000269775475588192"
+     },
+     {
+      "value": "6.2505147265176859776",
+      "NFT_id": "6306196",
+      "amount": "17.483525835310033471",
+      "in_effect": "1",
+      "NFT_percentage": "0.000056799810337065"
+     },
+     {
+      "value": "6.1987516856559618688",
+      "NFT_id": "6306195",
+      "amount": "17.338737685562825213",
+      "in_effect": "1",
+      "NFT_percentage": "0.000056329428131430"
+     },
+     {
+      "value": "4.8385677993395523456",
+      "NFT_id": "6306197",
+      "amount": "13.53412140071580162",
+      "in_effect": "1",
+      "NFT_percentage": "0.000043969136196025"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x9539b9e9253136f7a7ebdeb32fc51393ebc3a0a8",
+    "tag": "",
+    "value": "10297.194571020417703424",
+    "is_contract": 0,
+    "balance": "64.130751055870017394",
+    "percent": "0.093572885470772955",
+    "NFT_list": [
+     {
+      "value": "10297.194571020417703424",
+      "NFT_id": "6096006",
+      "amount": "64.130751055870017394",
+      "in_effect": "1",
+      "NFT_percentage": "0.093572885470772955"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xd7bcd0db47869b41a44e8c53483a71239e6fae2b",
+    "tag": "",
+    "value": "8214.9044928757585972352",
+    "is_contract": 0,
+    "balance": "254.293013942359957665",
+    "percent": "0.074650654793738320",
+    "NFT_list": [
+     {
+      "value": "8214.9044928757585972352",
+      "NFT_id": "6295865",
+      "amount": "254.293013942359957665",
+      "in_effect": "1",
+      "NFT_percentage": "0.074650654793738320"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x006747433f1141bb26c071ec52a2230cb784fb7b",
+    "tag": "",
+    "value": "4532.6116630253922881664",
+    "is_contract": 1,
+    "balance": "41.957936345970661198",
+    "percent": "0.041188845088098102",
+    "NFT_list": [
+     {
+      "value": "4532.6116630253922881664",
+      "NFT_id": "5986406",
+      "amount": "41.957936345970661198",
+      "in_effect": "1",
+      "NFT_percentage": "0.041188845088098102"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x226b3a4785f3b7712ac4d84c3232ee31f4070d29",
+    "tag": "",
+    "value": "4285.068981842565456384",
+    "is_contract": 1,
+    "balance": "52.344747317212181995",
+    "percent": "0.038939369971774908",
+    "NFT_list": [
+     {
+      "value": "4285.068981842565456384",
+      "NFT_id": "6113606",
+      "amount": "52.344747317212181995",
+      "in_effect": "1",
+      "NFT_percentage": "0.038939369971774908"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x51f6f1db6a65cce079b90fd57e85c642e8150ab6",
+    "tag": "",
+    "value": "4174.3606643412868633344",
+    "is_contract": 1,
+    "balance": "50.992377278346133962",
+    "percent": "0.037933338994817022",
+    "NFT_list": [
+     {
+      "value": "4174.3606643412868633344",
+      "NFT_id": "6113573",
+      "amount": "50.992377278346133962",
+      "in_effect": "1",
+      "NFT_percentage": "0.037933338994817022"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xf1272dcb5172b9cf2b39b223ab394243d608edc8",
+    "tag": "",
+    "value": "3190.8277928422030365568",
+    "is_contract": 1,
+    "balance": "38.977919668691916145",
+    "percent": "0.028995758170566931",
+    "NFT_list": [
+     {
+      "value": "3190.8277928422030365568",
+      "NFT_id": "6116761",
+      "amount": "38.977919668691916145",
+      "in_effect": "1",
+      "NFT_percentage": "0.028995758170566931"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x1e7a47156a68f51f96c6cd34f25f1c2ec4613c48",
+    "tag": "",
+    "value": "2390.5059373333358987264",
+    "is_contract": 1,
+    "balance": "33.81450389606025077",
+    "percent": "0.021723056386719164",
+    "NFT_list": [
+     {
+      "value": "2390.5059373333358987264",
+      "NFT_id": "6315839",
+      "amount": "33.81450389606025077",
+      "in_effect": "1",
+      "NFT_percentage": "0.021723056386719164"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "2365.4788417007067",
+  "owner_balance": "0",
+  "owner_change_balance": "1",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Aave Token",
+  "token_symbol": "AAVE",
+  "total_supply": "30633.82107797922333898",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x1c29e61ba6da00244e6b7f6bb8153b1c8c0de762d562ba65f8369bfb1e9e68b7",
+  "block": 24522168,
+  "deployer": "0x4801eb5a2a6e2d04f019098364878c70a05158f1",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xf10122d428b4bc8a9d050d06a2037259b4c4b83b",
+  "tx_from": "0x4801eb5a2a6e2d04f019098364878c70a05158f1",
+  "tx_to": "0xf10122d428b4bc8a9d050d06a2037259b4c4b83b",
+  "ts": 1735833683
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 1298904.33,
+  "geckoterminal_top_usd": 1297445.7006
+ },
+ "pairs": [
+  {
+   "dex": "aerodrome",
+   "pair": "0x4a79B0168296c0eF7b8F314973B82aD406a29f1B",
+   "liq_usd": 1298904.33,
+   "created": null,
+   "url": "https://dexscreener.com/base/0x4a79b0168296c0ef7b8f314973b82ad406a29f1b",
+   "quote": "WETH"
+  },
+  {
+   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
+   "pair": "0x52C53a3232C84cB17b05349d68c9fd75df549e03",
+   "liq_usd": 329899.48,
+   "created": null,
+   "url": "https://dexscreener.com/base/0x52c53a3232c84cb17b05349d68c9fd75df549e03",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x2e86514CFd61Fb19c5cf2b879d536D273d6E693d",
+   "liq_usd": 303084.71,
+   "created": 1741727983000,
+   "url": "https://dexscreener.com/base/0x2e86514cfd61fb19c5cf2b879d536d273d6e693d",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xC562998555779318B85284b7af71BEBb2ada3461",
+   "liq_usd": 74544.39,
+   "created": 1745721481000,
+   "url": "https://dexscreener.com/base/0xc562998555779318b85284b7af71bebb2ada3461",
+   "quote": "USDC"
+  },
+  {
+   "dex": "pancakeswap",
+   "pair": "0x31F207bccc4604A51FA099071C72cd025cc823E5",
+   "liq_usd": 46807.41,
+   "created": 1747983567000,
+   "url": "https://dexscreener.com/base/0x31f207bccc4604a51fa099071c72cd025cc823e5",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 61,
+ "deployer_contracts": [],
+ "site_ips": [
+  "13.52.188.95",
+  "52.52.192.191"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x63706e401c06ac8513145b7687a14804d17f814b?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x63706e401c06ac8513145b7687a14804d17f814b",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x63706e401c06ac8513145b7687a14804d17f814b",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x63706e401c06ac8513145b7687a14804d17f814b",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x63706e401c06ac8513145b7687a14804d17f814b&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x63706e401c06ac8513145b7687a14804d17f814b/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x63706e401c06ac8513145b7687a14804d17f814b",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x63706e401c06ac8513145b7687a14804d17f814b/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x7d27cdfbfcc878f7e7349e216d44204bfd2afd55?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x7d27cdfbfcc878f7e7349e216d44204bfd2afd55",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xd3923beccb6e1ddb048ed00a0a9bd602d16b7470?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xd3923beccb6e1ddb048ed00a0a9bd602d16b7470",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x006747433f1141bb26c071ec52a2230cb784fb7b?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x006747433f1141bb26c071ec52a2230cb784fb7b",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x226b3a4785f3b7712ac4d84c3232ee31f4070d29?fields=abi,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x226b3a4785f3b7712ac4d84c3232ee31f4070d29",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x51f6f1db6a65cce079b90fd57e85c642e8150ab6?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x51f6f1db6a65cce079b90fd57e85c642e8150ab6",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x4801eb5a2a6e2d04f019098364878c70a05158f1/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=uranus28.win&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/uranus28.win",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "4932 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52924876",
+    "https://base.blockscout.com/address/0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as OptimismMintableERC20. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x63706e401c06ac8513145b7687a14804d17f814b",
+    "https://base.blockscout.com/address/0x63706e401c06ac8513145b7687a14804d17f814b?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52924876"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x63706e401c06ac8513145b7687a14804d17f814b owner() @ 52924876 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x63706e401c06ac8513145b7687a14804d17f814b",
+    "https://base.blockscout.com/address/0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: hidden_owner, owner_change_balance, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x63706e401c06ac8513145b7687a14804d17f814b&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x4801eb5a2a6e2d04f019098364878c70a05158f1 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x4801eb5a2a6e2d04f019098364878c70a05158f1) @ 52924876",
+    "https://base.blockscout.com/address/0x4801eb5a2a6e2d04f019098364878c70a05158f1"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.61% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x63706e401c06ac8513145b7687a14804d17f814b/holders",
+    "https://base.blockscout.com/token/0x63706e401c06ac8513145b7687a14804d17f814b?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $1,298,904 (aerodrome).",
+   "evidence": [
+    "https://dexscreener.com/base/0x4a79b0168296c0ef7b8f314973b82ad406a29f1b",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x4801eb5a2a6e2d04f019098364878c70a05158f1 (CREATE nonce scan 0..60); tokens launched via factories are not counted. Wallet nonce = 61.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x4801eb5a2a6e2d04f019098364878c70a05158f1",
+    "https://base.blockscout.com/tx/0x1c29e61ba6da00244e6b7f6bb8153b1c8c0de762d562ba65f8369bfb1e9e68b7"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x4801eb5a2a6e2d04f019098364878c70a05158f1 on Blockscout: block 3258992 (2023-08-29 11:08 UTC), 1149.7 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x4801eb5a2a6e2d04f019098364878c70a05158f1",
+    "https://base.blockscout.com/tx/0x1c29e61ba6da00244e6b7f6bb8153b1c8c0de762d562ba65f8369bfb1e9e68b7",
+    "https://base.blockscout.com/tx/0xd10605e8e1178586a0dccb5e2e27f44cc04cd4dfdb745753b24aaa68da9e8078",
+    "https://base.blockscout.com/api/v2/addresses/0x4801eb5a2a6e2d04f019098364878c70a05158f1/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "uranus28.win -> 13.52.188.95, 52.52.192.191 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=uranus28.win&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "uranus28.win registered 2025-02-01 (628 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/uranus28.win"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x63706e401c06ac8513145b7687a14804d17f814b",
+    "https://base.blockscout.com/address/0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: hidden_owner, owner_change_balance, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x63706e401c06ac8513145b7687a14804d17f814b"
+   ]
+  }
+ ],
+ "label": "Aave Token",
+ "target": {
+  "chain": "base",
+  "address": "0x63706e401c06ac8513145b7687a14804d17f814b",
+  "name": "Aave Token",
+  "symbol": "AAVE",
+  "created_at": "2026-10-22T02:53:11Z",
+  "dex": "aero-base",
+  "liq_usd": 230022.5463,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x52c53a3232c84cb17b05349d68c9fd75df549e03",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

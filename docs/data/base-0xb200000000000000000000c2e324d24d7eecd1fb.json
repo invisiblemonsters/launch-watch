@@ -1,0 +1,607 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+ "scanned_at_utc": "2026-10-22T03:12:36Z",
+ "block": 52924704,
+ "site": "http://coinbase.com/tokenize",
+ "post": null,
+ "token": {
+  "name": "Apple Inc.",
+  "symbol": "AAPLc",
+  "decimals": 8,
+  "totalSupply": 749895493938
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "29298.366991586152",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.025",
+    "pair": "0xb0b0dd5480874688f210b934c1a5d3f10c2402bfe0c511a293cb77f392113848"
+   },
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "26092.358763510186",
+    "pool_fee": "0.003",
+    "pair": "0x97f35d1e92795327614be000cd18cba1be2c1931"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2149.17809597505497994240",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0x024329617d31660939c2d4a4ab18c148124eb88953228c32d4fd255b741df92a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1000.478415659258",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.05",
+    "pair": "0x4af3b7a1bf6a288aa903b8d294bdd4e649093e5ecac94a95cd7f1865ae4a53da"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "136.291789424208",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.88",
+    "pair": "0xe31912092e6951c5fa7ec6d33dab15cf20d5c8845374cfea5b7410ce72d03c9b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "18.96157920340627187200",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.002",
+    "pair": "0x5600b2a8a21e22b9a74ac0d535289740d8d7b51962141d8e123a88b93dbad822"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "11.42479020751020974080",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.0025",
+    "pair": "0xc2c2ed70b75192076b640094a2c5a1b88c020d9c61d98a608e281019e4fd5c9c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.75712568517258920200",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.05",
+    "pair": "0x6d74617640a468d7094582450f092c05e7afd6b986f4b2af1eb2826d8ed29c30"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.50139374586477231632",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.95",
+    "pair": "0xec6b496faae6fecfb832ad1a96a07fac09270ff630bcaa1fb2762a666f1a9d8c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.472342564155",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0x383e9df6cba05083605374e9cb414e49af22b6da5344c2ee3b0553621c27bb3f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.2975574176719884222",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.88",
+    "pair": "0x9dcdf5f75953fb6e58204a62b57574b04512e368eed52eb3d4de064670d75adb"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.2780381282",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.002",
+    "pair": "0x6f3741139e087324fb023a1d5a1e038a343de15edba4409d6bf9c4b54db443ed"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.231052295396",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.3",
+    "pair": "0xe816eb35174b28a20219d389eaf296b0d8b90cdaac0782d8a7d0a69e6d3abe79"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.199106569092",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.999999",
+    "pair": "0x70110002305c4bdfc3102067f656ae866960571fa280605fe410c3ee8047829c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0715600104178311294",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.74",
+    "pair": "0x9b2fad341638f15951e1fcfc9596f89ebeda1c51636c6d1b3a0ed205a4ad0833"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0629511856",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.77",
+    "pair": "0x3730514f23d0b211d4a8890d67ba2957c428164f3a833dae0a553dd182263a8c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.02765737878033212035",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0x5c604ffe05ac34b28de32ae712af870f4e533477856b87ad26bb3a0003aa4816"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.00791592207408586776",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pair": "0xf0b465bf90091a688ddc3435b84a58f6c8340b20674b4fbfd4296fabf63e070e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.007637106354",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.099",
+    "pair": "0xe5bb4ec4b3e819944cfc5058347020f82ab0af64dfc6623c6b699caac29f0d19"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.007316678052",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.04",
+    "pair": "0x1e16355c8d8f4cc4eb68fd979c0a03bb695fb205416e1b7d0e7a84f5e0fbdf41"
+   }
+  ],
+  "holder_count": "5177",
+  "holders": [
+   {
+    "address": "0xa4d5947eb727a052bae69c593ffc84247ec9864e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2153.82518688",
+    "percent": "0.285844468110014148",
+    "is_locked": 0
+   },
+   {
+    "address": "0x51c72848c68a965f66fa7a88855f9f7784502a7f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "729.94014978",
+    "percent": "0.096873857329273131",
+    "is_locked": 0
+   },
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "553.86828423",
+    "percent": "0.073506515790202461",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa3b1e3f9747065e2073722ff4c9027d3ea4994f0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "399.49270281",
+    "percent": "0.053018592151378084",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc1990afed5d34524bdaba029b0b6a28fc9667541",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "299.28860436",
+    "percent": "0.039720025768943273",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd93b22fa01d5260e0d9c791d70b26128e42d4254",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "245.79165457",
+    "percent": "0.032620189045247895",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf5fcb9cdafce67d50afef298f88e709d2b946ba6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "220.07738758",
+    "percent": "0.029207525373484007",
+    "is_locked": 0
+   },
+   {
+    "address": "0x08fb33543ad633db94282df364ad80feb8d9fc35",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "203.31724537",
+    "percent": "0.026983206536166703",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf8191d98ae98d2f7abdfb63a9b0b812b93c873aa",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "175.7",
+    "percent": "0.023317989478840487",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb3aed72d2ca00b4e15807d24e926f80c0210a0fd",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "170.78087032",
+    "percent": "0.022665148191855330",
+    "is_locked": 0
+   }
+  ],
+  "is_in_dex": "1",
+  "is_open_source": "1",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x039d037000593a65f45193e96bd2e73c7fdf043e",
+    "tag": "",
+    "value": "29298.366991586152",
+    "is_contract": 0,
+    "balance": "4213.64391653",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "29298.366991586152",
+      "NFT_id": "3108532",
+      "amount": "4213.64391653",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "4213.64391653",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Apple Inc.",
+  "token_symbol": "AAPLc",
+  "total_supply": "7534.95493938",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": null,
+  "block": null,
+  "deployer": null,
+  "source": null
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 573425.24,
+  "geckoterminal_top_usd": 570746.2826
+ },
+ "pairs": [
+  {
+   "dex": "aerodrome",
+   "pair": "0xA3b1E3f9747065e2073722Ff4c9027d3eA4994F0",
+   "liq_usd": 573425.24,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xa3b1e3f9747065e2073722ff4c9027d3ea4994f0",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x851f65bcdf6485f15047d4dea1cf8cb60ad1a815bbed7d2e8373a32b954045e4",
+   "liq_usd": 301018.98,
+   "created": 1787838429000,
+   "url": "https://dexscreener.com/base/0x851f65bcdf6485f15047d4dea1cf8cb60ad1a815bbed7d2e8373a32b954045e4",
+   "quote": "AAPLc"
+  },
+  {
+   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
+   "pair": "0xF5FCB9CDAFcE67d50AfEf298F88E709d2B946BA6",
+   "liq_usd": 268869.05,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xf5fcb9cdafce67d50afef298f88e709d2b946ba6",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x031551c83d7827e3c919ae1202e68397b4702327ff1e7cd7e88075ea68ec873e",
+   "liq_usd": 30490.62,
+   "created": 1790353183000,
+   "url": "https://dexscreener.com/base/0x031551c83d7827e3c919ae1202e68397b4702327ff1e7cd7e88075ea68ec873e",
+   "quote": "AAPLc"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x97F35d1E92795327614BE000cd18cba1Be2c1931",
+   "liq_usd": 29899.45,
+   "created": 1787066251000,
+   "url": "https://dexscreener.com/base/0x97f35d1e92795327614be000cd18cba1be2c1931",
+   "quote": "USDC"
+  }
+ ],
+ "site_ips": [
+  "104.18.35.15",
+  "172.64.152.241"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000c2e324d24d7eecd1fb?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000c2e324d24d7eecd1fb",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xb200000000000000000000c2e324d24d7eecd1fb",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000c2e324d24d7eecd1fb",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000c2e324d24d7eecd1fb&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xb200000000000000000000c2e324d24d7eecd1fb/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xb200000000000000000000c2e324d24d7eecd1fb",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xb200000000000000000000c2e324d24d7eecd1fb/pools",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=coinbase.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/coinbase.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52924704",
+    "https://base.blockscout.com/address/0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000c2e324d24d7eecd1fb",
+    "https://base.blockscout.com/address/0xb200000000000000000000c2e324d24d7eecd1fb?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52924704"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb200000000000000000000c2e324d24d7eecd1fb owner() @ 52924704 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 52924704"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "flag",
+   "points": 35,
+   "detail": "honeypot.is simulation: honeypot (execution reverted: STF).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000c2e324d24d7eecd1fb&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.99% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xb200000000000000000000c2e324d24d7eecd1fb/holders",
+    "https://base.blockscout.com/token/0xb200000000000000000000c2e324d24d7eecd1fb?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $573,425 (aerodrome).",
+   "evidence": [
+    "https://dexscreener.com/base/0xa3b1e3f9747065e2073722ff4c9027d3ea4994f0",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Deployer/launcher not identified (unverified non-token contract, no Sourcify deployment, no mint log).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "coinbase.com -> 104.18.35.15, 172.64.152.241 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=coinbase.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "coinbase.com registered 2011-07-02 (5590 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/coinbase.com"
+   ]
+  }
+ ],
+ "score": 68,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 11,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "flag",
+   "points": 35,
+   "detail": "honeypot.is simulation: honeypot (execution reverted: STF).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000c2e324d24d7eecd1fb&chainID=8453"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000c2e324d24d7eecd1fb",
+    "https://base.blockscout.com/address/0xb200000000000000000000c2e324d24d7eecd1fb?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000c2e324d24d7eecd1fb"
+   ]
+  }
+ ],
+ "label": "Apple Inc.",
+ "target": {
+  "chain": "base",
+  "address": "0xb200000000000000000000c2e324d24d7eecd1fb",
+  "name": "Apple Inc.",
+  "symbol": "AAPL",
+  "created_at": "2026-10-22T02:54:19Z",
+  "dex": "aero-base",
+  "liq_usd": 276615.6624,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xf5fcb9cdafce67d50afef298f88e709d2b946ba6",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

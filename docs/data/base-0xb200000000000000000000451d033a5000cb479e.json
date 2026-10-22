@@ -1,0 +1,525 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xb200000000000000000000451d033a5000cb479e",
+ "scanned_at_utc": "2026-10-22T03:07:35Z",
+ "block": 52924554,
+ "site": "https://www.coinbase.com/campaigns/wrapped-assets",
+ "post": null,
+ "token": {
+  "name": "Coinbase Wrapped Hyperliquid",
+  "symbol": "cbHYPE",
+  "decimals": 18,
+  "totalSupply": 44134835216715458630328
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "25086.160553176032",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.01",
+    "pair": "0x1a32b8afc1a99b750b79d2908ad41e41b5d1cea1f9fef5d0575e271934b4c944"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "51.58540286514148679702",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.009",
+    "pair": "0x835325c393870cbeb7437c0bf371a74e405b01b955e8a22bd65f402cac2dc8d1"
+   },
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "20.713581792468",
+    "pool_fee": "0.01",
+    "pair": "0x951978526f02738bcfb88927ea701e6d55e0c84e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.815311645381",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.6",
+    "pair": "0x089905dd1c1b3bd330cf4e960e4d44289581315796caad14f770fa9b49b809a2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.22284122258078433148",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.88",
+    "pair": "0x047736e6d85d8ecfb83cade21b7b2c50226ed0bb8307a4c875517e1a720d72b3"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.077462931903",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.81",
+    "pair": "0x72a60bfcfcdf04cb8f2a98000850e87323b55782d8715bf669ee2f2ebd5e2b6a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.028217689725",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.88",
+    "pair": "0xbf9b4aef0d7f673addd1d17594e62c4b3228f459c341daa4f7970f3e451ab12c"
+   }
+  ],
+  "holder_count": "1056",
+  "holders": [
+   {
+    "address": "0xbbbbbbbbbb9cc5e90e3b3af64bdaf62c37eeffcb",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "19921.449071416961270495",
+    "percent": "0.451376989935423795",
+    "is_locked": 0
+   },
+   {
+    "address": "0x754cda6434d12e2dd0ff22b9a89e49ffa8747e5f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "6683.373238594648435291",
+    "percent": "0.151430796235609671",
+    "is_locked": 0
+   },
+   {
+    "address": "0x982663b77d98170266eb969811ead30eb95961e6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "5127.628391747587269065",
+    "percent": "0.116180979640444401",
+    "is_locked": 0
+   },
+   {
+    "address": "0x40ebc1ac8d4fedd2e144b75fe9c0420be82750c6",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4036.834146885942301853",
+    "percent": "0.091465939026708933",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8b12ca0e3f55da41b11be7381d673efb96e61a8e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1583.584212497837738869",
+    "percent": "0.035880596465851924",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7913005b548839da13765020ddb9bf74a151b327",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "1329.427",
+    "percent": "0.030121943210439310",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4b5c71082d027d16d2a146465d66f9eec11634f6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "943.51371897017544784",
+    "percent": "0.021377982138989218",
+    "is_locked": 0
+   },
+   {
+    "address": "0xbf2f1213f47e76f1c1d9b7a536f2cb8b347d59b4",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "545.34780606997984255",
+    "percent": "0.012356402904693227",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4446adc0b8136ffc55ddb7a488ba5509ace2a5ef",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "379.857425671367711155",
+    "percent": "0.008606748474445463",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd80f5c0c76818cc52f0056d51713facc12311bc2",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "377.028777109567422592",
+    "percent": "0.008542657410144197",
+    "is_locked": 0
+   }
+  ],
+  "is_in_dex": "1",
+  "is_open_source": "1",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x3014ab2aea1b63f97d795744097951009af20089",
+    "tag": "",
+    "value": "24711.067466868652",
+    "is_contract": 1,
+    "balance": "0.002762373833603187",
+    "percent": "0.992792295678449755",
+    "NFT_list": [
+     {
+      "value": "24711.067466868652",
+      "NFT_id": "3022867",
+      "amount": "0.002762373833603187",
+      "in_effect": "1",
+      "NFT_percentage": "0.992792295678449755"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x75e55252a9b593a38d51025ea18673460297ab51",
+    "tag": "",
+    "value": "179.403152649722",
+    "is_contract": 0,
+    "balance": "0.000295082510947266",
+    "percent": "0.007207704321550245",
+    "NFT_list": [
+     {
+      "value": "179.403152649722",
+      "NFT_id": "3155242",
+      "amount": "0.000295082510947266",
+      "in_effect": "1",
+      "NFT_percentage": "0.007207704321550245"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.003057456344550453",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Coinbase Wrapped Hyperliquid",
+  "token_symbol": "cbHYPE",
+  "total_supply": "44134.835216715458630328",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": null,
+  "block": null,
+  "deployer": null,
+  "source": null
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 54717.77,
+  "geckoterminal_top_usd": 251908.247
+ },
+ "pairs": [
+  {
+   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
+   "pair": "0xd80F5C0c76818cC52F0056d51713faCC12311BC2",
+   "liq_usd": 54717.77,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xd80f5c0c76818cc52f0056d51713facc12311bc2",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x1a32b8afc1a99b750b79d2908ad41e41b5d1cea1f9fef5d0575e271934b4c944",
+   "liq_usd": 49858.17,
+   "created": 1788850395000,
+   "url": "https://dexscreener.com/base/0x1a32b8afc1a99b750b79d2908ad41e41b5d1cea1f9fef5d0575e271934b4c944",
+   "quote": "USDC"
+  },
+  {
+   "dex": "aerodrome",
+   "pair": "0xD5Eaea9da564217EA101D1E369fDA168A3025686",
+   "liq_usd": 24092.85,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xd5eaea9da564217ea101d1e369fda168a3025686",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x93056aafecdc1d2ea4aa7027d5fc7b76cae1db227f77dca0dd30c6673c8acde0",
+   "liq_usd": 261.1,
+   "created": 1791321191000,
+   "url": "https://dexscreener.com/base/0x93056aafecdc1d2ea4aa7027d5fc7b76cae1db227f77dca0dd30c6673c8acde0",
+   "quote": "cbZEC"
+  },
+  {
+   "dex": "aerodrome",
+   "pair": "0x42ab8faa9d92F842f84012e7A9E8ef91cb3FEF2a",
+   "liq_usd": 130.05,
+   "created": null,
+   "url": "https://dexscreener.com/base/0x42ab8faa9d92f842f84012e7a9e8ef91cb3fef2a",
+   "quote": "cbBTC"
+  }
+ ],
+ "site_ips": [
+  "104.18.35.15",
+  "172.64.152.241"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000451d033a5000cb479e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000451d033a5000cb479e",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xb200000000000000000000451d033a5000cb479e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000451d033a5000cb479e",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000451d033a5000cb479e&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xb200000000000000000000451d033a5000cb479e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xb200000000000000000000451d033a5000cb479e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xb200000000000000000000451d033a5000cb479e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.coinbase.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/coinbase.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52924554",
+    "https://base.blockscout.com/address/0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000451d033a5000cb479e",
+    "https://base.blockscout.com/address/0xb200000000000000000000451d033a5000cb479e?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52924554"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb200000000000000000000451d033a5000cb479e owner() @ 52924554 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 52924554"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "flag",
+   "points": 35,
+   "detail": "honeypot.is simulation: honeypot (execution reverted: \"revert: STF\").",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000451d033a5000cb479e&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 6.40% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xb200000000000000000000451d033a5000cb479e/holders",
+    "https://base.blockscout.com/token/0xb200000000000000000000451d033a5000cb479e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $54,718 (0x9CB220581b91b0C83223012FE69688b92aD07a76).",
+   "evidence": [
+    "https://dexscreener.com/base/0xd80f5c0c76818cc52f0056d51713facc12311bc2",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Deployer/launcher not identified (unverified non-token contract, no Sourcify deployment, no mint log).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.coinbase.com -> 104.18.35.15, 172.64.152.241 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.coinbase.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "coinbase.com registered 2011-07-02 (5590 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/coinbase.com"
+   ]
+  }
+ ],
+ "score": 68,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 11,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "flag",
+   "points": 35,
+   "detail": "honeypot.is simulation: honeypot (execution reverted: \"revert: STF\").",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xb200000000000000000000451d033a5000cb479e&chainID=8453"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xb200000000000000000000451d033a5000cb479e",
+    "https://base.blockscout.com/address/0xb200000000000000000000451d033a5000cb479e?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xb200000000000000000000451d033a5000cb479e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xb200000000000000000000451d033a5000cb479e"
+   ]
+  }
+ ],
+ "label": "Coinbase Wrapped Hyperliquid",
+ "target": {
+  "chain": "base",
+  "address": "0xb200000000000000000000451d033a5000cb479e",
+  "name": "Coinbase Wrapped Hyperliquid",
+  "symbol": "cbHYPE",
+  "created_at": "2026-10-22T02:51:35Z",
+  "dex": "aero-base",
+  "liq_usd": 664196.4662,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xd80f5c0c76818cc52f0056d51713facc12311bc2",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

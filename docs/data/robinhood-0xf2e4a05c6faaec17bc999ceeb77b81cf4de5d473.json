@@ -1,0 +1,412 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+ "scanned_at_utc": "2026-10-21T04:06:58Z",
+ "block": 93990379,
+ "site": "https://orbio.bot/",
+ "post": null,
+ "token": {
+  "name": "Orbio Bot",
+  "symbol": "ORBIBOT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.02444109999999266767",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0xf51c76e80c289f486a746655272bdd451ed19ddf27999000d3b36d03ef07aab9"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x6147798bdcec8998f19617bd5b1df7fb479b5517",
+    "tag": "",
+    "value": "0.02444109999999266767",
+    "is_contract": 0,
+    "balance": "3.144703195119722062",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.02444109999999266767",
+      "NFT_id": "3933276",
+      "amount": "3.144703195119722062",
+      "in_effect": "0",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "3.1447031951197224",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Orbio Bot",
+  "token_symbol": "ORBIBOT",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x70de33689f4b15f1ee7dab16e213f04286609308a3f52c04a196ec51d516fd77",
+  "block": 93959756,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x779dda42ca2c5de2aaf98c68a2211f1443cf8960",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792552385
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 13928.5851
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x85cc34d574acf5736792b6ded74f653300140d68",
+   "liq_usd": 13928.5851,
+   "created": "2026-10-21T03:13:05Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x85cc34d574acf5736792b6ded74f653300140d68",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.1",
+  "216.150.16.129"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=orbio.bot&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/orbio.bot",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93990379",
+    "https://robinhoodchain.blockscout.com/address/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93990379"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473 owner() @ 93990379 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 93990379"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x779dda42ca2c5de2aaf98c68a2211f1443cf8960 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x779dda42ca2c5de2aaf98c68a2211f1443cf8960) @ 93990379",
+    "https://robinhoodchain.blockscout.com/address/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 5.19% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473/holders",
+    "https://robinhoodchain.blockscout.com/token/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $13,929 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x85cc34d574acf5736792b6ded74f653300140d68",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x779dda42ca2c5de2aaf98c68a2211f1443cf8960 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960",
+    "https://robinhoodchain.blockscout.com/tx/0x70de33689f4b15f1ee7dab16e213f04286609308a3f52c04a196ec51d516fd77",
+    "eth_getTransactionCount(0x779dda42ca2c5de2aaf98c68a2211f1443cf8960) @ 93990379 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x779dda42ca2c5de2aaf98c68a2211f1443cf8960 (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960",
+    "https://robinhoodchain.blockscout.com/tx/0x70de33689f4b15f1ee7dab16e213f04286609308a3f52c04a196ec51d516fd77"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x779dda42ca2c5de2aaf98c68a2211f1443cf8960 on Blockscout: block 93665243 (2026-10-20 18:40 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960",
+    "https://robinhoodchain.blockscout.com/tx/0x70de33689f4b15f1ee7dab16e213f04286609308a3f52c04a196ec51d516fd77",
+    "https://robinhoodchain.blockscout.com/tx/0x57b211b2a8a34880346d552a28c3cfe1079311a5d18cb162ae5f2e6aca84b145",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "orbio.bot -> 216.150.1.1, 216.150.16.129 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=orbio.bot&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "orbio.bot registered 2026-10-20 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/orbio.bot"
+   ]
+  }
+ ],
+ "score": 48,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $13,929 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x85cc34d574acf5736792b6ded74f653300140d68",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473/pools"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x779dda42ca2c5de2aaf98c68a2211f1443cf8960 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x779dda42ca2c5de2aaf98c68a2211f1443cf8960",
+    "https://robinhoodchain.blockscout.com/tx/0x70de33689f4b15f1ee7dab16e213f04286609308a3f52c04a196ec51d516fd77",
+    "eth_getTransactionCount(0x779dda42ca2c5de2aaf98c68a2211f1443cf8960) @ 93990379 = 4"
+   ]
+  }
+ ],
+ "label": "Orbio Bot",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xf2e4a05c6faaec17bc999ceeb77b81cf4de5d473",
+  "name": "Orbio Bot",
+  "symbol": "ORBIBOT",
+  "created_at": "2026-10-21T03:13:05Z",
+  "dex": "pons-v2",
+  "liq_usd": 13928.5851,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x85cc34d574acf5736792b6ded74f653300140d68",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://orbio.bot/",
+  "x_profile": "https://x.com/GetOrbioBot",
+  "post": null
+ }
+}

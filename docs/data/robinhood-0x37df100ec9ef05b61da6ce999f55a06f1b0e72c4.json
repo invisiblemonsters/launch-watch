@@ -1,0 +1,397 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+ "scanned_at_utc": "2026-10-20T23:48:33Z",
+ "block": 93842333,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Aura Final Boss",
+  "symbol": "Kimchi",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x01f2A2a3c6F28595408576B0413d3fA370b7336C",
+  "creator_balance": "499924508.032675706609116419",
+  "creator_percent": "0.499925",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "holders": [
+   {
+    "address": "0x01f2A2a3c6F28595408576B0413d3fA370b7336C",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "499924508.032675706609116419",
+    "percent": "0.499925",
+    "is_locked": 0
+   },
+   {
+    "address": "0xF51f39D872aF557AE03271056aeB65cC4a05DC7D",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "268641822.463151792092304532",
+    "percent": "0.268642",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4cCFdBD7290E627472135D222DB9530AaCC8aAde",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "85159405.216862997405444064",
+    "percent": "0.085159",
+    "is_locked": 0
+   },
+   {
+    "address": "0xeDD2442274AE29836677b96273a1c1EA3792C773",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "73021746.300528896345830252",
+    "percent": "0.073022",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "43490820.811079948268524911",
+    "percent": "0.043491",
+    "is_locked": 0
+   },
+   {
+    "address": "0x888ea2a57a351eCfC0d6819Eaa2eA896A8ff528B",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "29761697.175700659278779822",
+    "percent": "0.029762",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Aura Final Boss",
+  "token_symbol": "Kimchi",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xcc60f57c75e45125495c036f85803688270540b0b5fc27121a703efad8e4f897",
+  "block": 93830565,
+  "deployer": "0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+  "tx_from": "0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+  "tx_to": null,
+  "ts": 1792538877
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 2445.56,
+  "geckoterminal_top_usd": 1293252.1969
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x5b9714caad96825a85e1c2a79b2860ced76ffdbd967f4ab133a8d6327723fa74",
+   "liq_usd": 2445.56,
+   "created": 1792538877000,
+   "url": "https://dexscreener.com/robinhood/0x5b9714caad96825a85e1c2a79b2860ced76ffdbd967f4ab133a8d6327723fa74",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 1535,
+ "deployer_contracts_blockscout_page1": [
+  "0xa4dbb3c405593f6f64f96a3d1287499eb146a8a1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x01f2a2a3c6f28595408576b0413d3fa370b7336c/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1923 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 93842333",
+    "https://robinhoodchain.blockscout.com/address/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify as Token. Sourcify: exact_match; Blockscout: not verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+    "https://robinhoodchain.blockscout.com/address/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93842333"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4 owner() @ 93842333 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 93842333",
+    "https://repo.sourcify.dev/4663/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x01f2a2a3c6f28595408576b0413d3fa370b7336c holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x01f2a2a3c6f28595408576b0413d3fa370b7336c) @ 93842333",
+    "https://robinhoodchain.blockscout.com/address/0x01f2a2a3c6f28595408576b0413d3fa370b7336c"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.00% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4/holders",
+    "https://robinhoodchain.blockscout.com/token/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $2,446, GeckoTerminal top pool $1,293,252. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5b9714caad96825a85e1c2a79b2860ced76ffdbd967f4ab133a8d6327723fa74",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x5b9714caad\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5b9714caad96825a85e1c2a79b2860ced76ffdbd967f4ab133a8d6327723fa74"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x01f2a2a3c6f28595408576b0413d3fa370b7336c has sent 1535 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+    "https://robinhoodchain.blockscout.com/tx/0xcc60f57c75e45125495c036f85803688270540b0b5fc27121a703efad8e4f897",
+    "eth_getTransactionCount = 1535"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x01f2a2a3c6f28595408576b0413d3fa370b7336c on Blockscout: block 93533227 (2026-10-20 14:51 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+    "https://robinhoodchain.blockscout.com/tx/0xcc60f57c75e45125495c036f85803688270540b0b5fc27121a703efad8e4f897",
+    "https://robinhoodchain.blockscout.com/tx/0xb2aa4d9148259342cebb8992b8a4741f222135cfc469edec7c94c3b1fb941864",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x01f2a2a3c6f28595408576b0413d3fa370b7336c/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x01f2a2a3c6f28595408576b0413d3fa370b7336c has sent 1535 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+    "https://robinhoodchain.blockscout.com/tx/0xcc60f57c75e45125495c036f85803688270540b0b5fc27121a703efad8e4f897",
+    "eth_getTransactionCount = 1535"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x01f2a2a3c6f28595408576b0413d3fa370b7336c on Blockscout: block 93533227 (2026-10-20 14:51 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x01f2a2a3c6f28595408576b0413d3fa370b7336c",
+    "https://robinhoodchain.blockscout.com/tx/0xcc60f57c75e45125495c036f85803688270540b0b5fc27121a703efad8e4f897",
+    "https://robinhoodchain.blockscout.com/tx/0xb2aa4d9148259342cebb8992b8a4741f222135cfc469edec7c94c3b1fb941864",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x01f2a2a3c6f28595408576b0413d3fa370b7336c/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "Aura Final Boss",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x37df100ec9ef05b61da6ce999f55a06f1b0e72c4",
+  "name": "Aura Final Boss",
+  "symbol": "Kimchi",
+  "created_at": "2026-10-20T23:27:57Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 1292903.1367,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x5b9714caad96825a85e1c2a79b2860ced76ffdbd967f4ab133a8d6327723fa74",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

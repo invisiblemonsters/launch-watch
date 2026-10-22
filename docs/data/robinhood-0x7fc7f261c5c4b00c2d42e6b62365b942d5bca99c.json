@@ -1,0 +1,444 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+ "scanned_at_utc": "2026-10-22T03:01:10Z",
+ "block": 94786172,
+ "site": "https://www.tryvessel.network/",
+ "post": null,
+ "token": {
+  "name": "Vessel",
+  "symbol": "VESSEL",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.57359243837283589424",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.870369",
+    "pair": "0x874b505ffcc188625cf1f3fb455a6170abdbce702180fd07609e568a5e9458a0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.5110930",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x566369322cecca81b663d67488f684f11aa6c4c1ef83cfc1fe3e47e901b7451a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.97860799999999755348",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.836798",
+    "pair": "0x4a6755e2323d67a3d56475e1ab8e2252909bc7a5273d9492e54ea0a02c33f7d7"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "3",
+  "lp_holders": [
+   {
+    "address": "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "tag": "",
+    "value": "2.97912740399999510696",
+    "is_contract": 0,
+    "balance": "18.933502579789601473",
+    "percent": "0.833650578619558924",
+    "NFT_list": [
+     {
+      "value": "2.97912740399999510696",
+      "NFT_id": "3955732",
+      "amount": "18.933502579789601473",
+      "in_effect": "1",
+      "NFT_percentage": "0.833650578619558924"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x1af0a8f2516044ed01d595cdeb3a69e2470d654c",
+    "tag": "",
+    "value": "0.3024127844028815196",
+    "is_contract": 0,
+    "balance": "1.921949771589347231",
+    "percent": "0.084624307225302714",
+    "NFT_list": [
+     {
+      "value": "0.3024127844028815196",
+      "NFT_id": "3955755",
+      "amount": "1.921949771589347231",
+      "in_effect": "1",
+      "NFT_percentage": "0.084624307225302714"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x9fb7c7e375ce6d1f51d6a8ca85034c21819535f4",
+    "tag": "",
+    "value": "0.29205224996995926768",
+    "is_contract": 0,
+    "balance": "1.856104583112227432",
+    "percent": "0.081725114155138363",
+    "NFT_list": [
+     {
+      "value": "0.29205224996995926768",
+      "NFT_id": "3955812",
+      "amount": "1.856104583112227432",
+      "in_effect": "1",
+      "NFT_percentage": "0.081725114155138363"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "22.711556934491174",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Vessel",
+  "token_symbol": "VESSEL",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xc034245eef395490c55de5685a1f9272efff45c14343d4efaf8c9f969414b655",
+  "block": 94717423,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792630847
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 14289.6802
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0xad90a377c6122ca77c9322c21dc79ef112966ec6",
+   "liq_usd": 14289.6802,
+   "created": "2026-10-22T01:00:47Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0xad90a377c6122ca77c9322c21dc79ef112966ec6",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 14,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.1",
+  "216.150.1.129"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.tryvessel.network&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/tryvessel.network",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 94786172",
+    "https://robinhoodchain.blockscout.com/address/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 94786172"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c owner() @ 94786172 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 94786172",
+    "https://robinhoodchain.blockscout.com/address/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd holds 0.82% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd) @ 94786172",
+    "https://robinhoodchain.blockscout.com/address/0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.00% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c/holders",
+    "https://robinhoodchain.blockscout.com/token/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $14,290 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xad90a377c6122ca77c9322c21dc79ef112966ec6",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd (CREATE nonce scan 0..13); tokens launched via factories are not counted. Wallet nonce = 14.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd",
+    "https://robinhoodchain.blockscout.com/tx/0xc034245eef395490c55de5685a1f9272efff45c14343d4efaf8c9f969414b655"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd on Blockscout: block 70520278 (2026-09-23 12:40 UTC), 28.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd",
+    "https://robinhoodchain.blockscout.com/tx/0xc034245eef395490c55de5685a1f9272efff45c14343d4efaf8c9f969414b655",
+    "https://robinhoodchain.blockscout.com/tx/0xde81ff26b7c479468533fa33878700ccb91d54241943bbe6e48aea5dcf0c630a",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x89e830f5706fd2ac8df5657fa370c14dbe0e35dd/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.tryvessel.network -> 216.150.1.1, 216.150.1.129 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.tryvessel.network&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tryvessel.network registered 2026-10-21 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tryvessel.network"
+   ]
+  }
+ ],
+ "score": 30,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $14,290 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xad90a377c6122ca77c9322c21dc79ef112966ec6",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c/pools"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tryvessel.network registered 2026-10-21 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tryvessel.network"
+   ]
+  }
+ ],
+ "label": "Vessel",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+  "site": "https://www.tryvessel.network/",
+  "x_profile": "https://x.com/VesselNetwork",
+  "pool_url": "https://dexscreener.com/robinhood/0x7fc7f261c5c4b00c2d42e6b62365b942d5bca99c",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

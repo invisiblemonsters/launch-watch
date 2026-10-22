@@ -1,0 +1,453 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+ "scanned_at_utc": "2026-10-22T03:01:37Z",
+ "block": 52924375,
+ "site": "https://pangeadog.com/",
+ "post": null,
+ "token": {
+  "name": "Pangea Dog",
+  "symbol": "PDOG",
+  "decimals": 9,
+  "totalSupply": 821708935111732000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PangeaOFT"
+ },
+ "verification": "verified",
+ "owner": "0xefbbfad16726df16c3ec95aaac08a5d0810dde72",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xc5d22a7d5b203164bfa6479d72de9297cff19bf5",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "16",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "758613254.912182248",
+    "percent": "0.875198629508945225",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1c40fdd87106481d4724d96a1a7381e565cae111",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "35995607.223399056",
+    "percent": "0.041527492310832341",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf8bebdbbe1027b86377cf67252f89b0824cdc619",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "23814403.667378901",
+    "percent": "0.027474254262371859",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc0eb5965e76c6ab0ca0aab148608cc7aaa157e5f",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6650577.509527641",
+    "percent": "0.007672653073344204",
+    "is_locked": 0
+   },
+   {
+    "address": "0x627a2c170c4ff4de98edd8558cdc171c6e515226",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "5070884.282249426",
+    "percent": "0.005850189072608412",
+    "is_locked": 0
+   },
+   {
+    "address": "0xec614182458587f280504848eb5a83cd0fbbfa60",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2390210.357599363",
+    "percent": "0.002757543208826755",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe8e219cccff046b8e6666f9803414f442e333940",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "1269143.692002678",
+    "percent": "0.001464188521223832",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcb0cfe325f15c0b56f8ecc625c20af0081ed8a98",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "872080.820417131",
+    "percent": "0.001006104143195419",
+    "is_locked": 0
+   },
+   {
+    "address": "0x03541e2633118725e97cd4fbd9a8c49f3744ec16",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "8286.307649",
+    "percent": "0.000009559765863745",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1111110f0f73c0b2ef09ec012eae758b3e03a902",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1285.333745445",
+    "percent": "0.000001482866698137",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0xefbbfad16726df16c3ec95aaac08a5d0810dde72",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Pangea Dog",
+  "token_symbol": "PDOG",
+  "total_supply": "866789811.288694",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x77d8f34d1405d09dd3fc363fd18cf9d00b63940c86d8144ac06af41eeaa55c58",
+  "block": 52908449,
+  "deployer": "0xc5d22a7d5b203164bfa6479d72de9297cff19bf5",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x6c289f0ae543e4cb5825b0dbef535fe67cf9b51b",
+  "tx_from": "0xc5d22a7d5b203164bfa6479d72de9297cff19bf5",
+  "tx_to": "0xba4bee425f268f7dc0f7e5457d14320d5a64cd06",
+  "ts": 1792606245
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 5186.09,
+  "geckoterminal_top_usd": 3235.7518
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62",
+   "liq_usd": 5186.09,
+   "created": 1792606245000,
+   "url": "https://dexscreener.com/base/0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 239,
+ "deployer_contracts": [],
+ "site_ips": [
+  "34.111.179.208"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x86a1234d820904cc4110c2e5ee95d2c8115196ea?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x86a1234d820904cc4110c2e5ee95d2c8115196ea&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x86a1234d820904cc4110c2e5ee95d2c8115196ea/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x86a1234d820904cc4110c2e5ee95d2c8115196ea/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xc5d22a7d5b203164bfa6479d72de9297cff19bf5/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=pangeadog.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/pangeadog.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "12900 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52924375",
+    "https://base.blockscout.com/address/0x86a1234d820904cc4110c2e5ee95d2c8115196ea"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as PangeaOFT. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+    "https://base.blockscout.com/address/0x86a1234d820904cc4110c2e5ee95d2c8115196ea?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52924375"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0xefbbfad16726df16c3ec95aaac08a5d0810dde72, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0x86a1234d820904cc4110c2e5ee95d2c8115196ea owner() @ 52924375",
+    "https://base.blockscout.com/address/0xefbbfad16726df16c3ec95aaac08a5d0810dde72"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52924375",
+    "https://repo.sourcify.dev/8453/0x86a1234d820904cc4110c2e5ee95d2c8115196ea"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x86a1234d820904cc4110c2e5ee95d2c8115196ea"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x86a1234d820904cc4110c2e5ee95d2c8115196ea&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xc5d22a7d5b203164bfa6479d72de9297cff19bf5 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc5d22a7d5b203164bfa6479d72de9297cff19bf5) @ 52924375",
+    "https://base.blockscout.com/address/0xc5d22a7d5b203164bfa6479d72de9297cff19bf5"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 4.38% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x86a1234d820904cc4110c2e5ee95d2c8115196ea/holders",
+    "https://base.blockscout.com/token/0x86a1234d820904cc4110c2e5ee95d2c8115196ea?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,186 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x86a1234d820904cc4110c2e5ee95d2c8115196ea"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xd78b57ba6f\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xc5d22a7d5b203164bfa6479d72de9297cff19bf5 (CREATE nonce scan 0..238); tokens launched via factories are not counted. Wallet nonce = 239.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc5d22a7d5b203164bfa6479d72de9297cff19bf5",
+    "https://base.blockscout.com/tx/0x77d8f34d1405d09dd3fc363fd18cf9d00b63940c86d8144ac06af41eeaa55c58"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xc5d22a7d5b203164bfa6479d72de9297cff19bf5 on Blockscout: block 52576955 (2026-10-14 02:00 UTC), 8.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc5d22a7d5b203164bfa6479d72de9297cff19bf5",
+    "https://base.blockscout.com/tx/0x77d8f34d1405d09dd3fc363fd18cf9d00b63940c86d8144ac06af41eeaa55c58",
+    "https://base.blockscout.com/tx/0x7d8d54139fc88449b64b1e8a07abe466cbde4ed6b6c6a74740c576a9b28f7f8f",
+    "https://base.blockscout.com/api/v2/addresses/0xc5d22a7d5b203164bfa6479d72de9297cff19bf5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "pangeadog.com -> 34.111.179.208; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=pangeadog.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "pangeadog.com registered 2026-10-22 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/pangeadog.com"
+   ]
+  }
+ ],
+ "score": 24,
+ "band": "LOW",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,186 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x86a1234d820904cc4110c2e5ee95d2c8115196ea"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "pangeadog.com registered 2026-10-22 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/pangeadog.com"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xd78b57ba6f\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd78b57ba6f92367269c9060bb65e1a6cf951325cc5a0f9574effd477dbf05f62"
+   ]
+  }
+ ],
+ "label": "Pangea Dog",
+ "target": {
+  "chain": "base",
+  "address": "0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+  "site": "https://pangeadog.com/",
+  "x_profile": "https://x.com/pangea_dog",
+  "pool_url": "https://dexscreener.com/base/0x86a1234d820904cc4110c2e5ee95d2c8115196ea",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

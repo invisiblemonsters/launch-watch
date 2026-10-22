@@ -1,0 +1,390 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xd94aae485a01908a919f3effe54d9d1ef190817e",
+ "scanned_at_utc": "2026-10-21T15:08:04Z",
+ "block": 52902968,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Axis Robotics",
+  "symbol": "AXIS",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "MintBurnTeamToken"
+ },
+ "verification": "verified",
+ "owner": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "creator_balance": "250000001.046781119710070275",
+  "creator_percent": "0.250000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "0.49606572377167251435",
+    "pool_fee": "0.003",
+    "pair": "0xb3ba3e805b2525fb73f3fa0a8e50e902922c0ca2"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "tag": "",
+    "value": "0.49367335858031413887",
+    "is_contract": 0,
+    "balance": "8209556.819882762876860604",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.49367335858031413887",
+      "NFT_id": "6315724",
+      "amount": "8209556.819882762876860604",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "8209556.819882764",
+  "owner_address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "owner_balance": "1000000000",
+  "owner_change_balance": "0",
+  "owner_percent": "1.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Axis Robotics",
+  "token_symbol": "AXIS",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x97b8b726da43a72851354551692e3e4a37e91a0744c52dcb878fbfdd368cc344",
+  "block": 52900074,
+  "deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_from": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_to": null,
+  "ts": 1792589495
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 221928753.84,
+  "geckoterminal_top_usd": 222718221.9416
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xb3BA3E805B2525FB73F3fa0A8E50e902922C0CA2",
+   "liq_usd": 221928753.84,
+   "created": 1792589919000,
+   "url": "https://dexscreener.com/base/0xb3ba3e805b2525fb73f3fa0a8e50e902922c0ca2",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1143,
+ "deployer_contracts_blockscout_page1": [
+  "0x6d089aa390aca211e5451b4a342bd5c65c597329",
+  "0x73687b42da555ae65f144a8e30a652c95911f2db",
+  "0xc38d78224f1ae8abded6b28bf31e8cf85764fff4",
+  "0xf39d7b27259b0ea6afa6fe3ca7b1c879c271d887"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xd94aae485a01908a919f3effe54d9d1ef190817e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd94aae485a01908a919f3effe54d9d1ef190817e",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xd94aae485a01908a919f3effe54d9d1ef190817e&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xd94aae485a01908a919f3effe54d9d1ef190817e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xd94aae485a01908a919f3effe54d9d1ef190817e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5150 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52902968",
+    "https://base.blockscout.com/address/0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MintBurnTeamToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+    "https://base.blockscout.com/address/0xd94aae485a01908a919f3effe54d9d1ef190817e?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52902968"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0xd94aae485a01908a919f3effe54d9d1ef190817e owner() @ 52902968",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+    "https://base.blockscout.com/address/0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xd94aae485a01908a919f3effe54d9d1ef190817e&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 52902968",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xd94aae485a01908a919f3effe54d9d1ef190817e/holders",
+    "https://base.blockscout.com/token/0xd94aae485a01908a919f3effe54d9d1ef190817e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $221,928,754 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xb3ba3e805b2525fb73f3fa0a8e50e902922c0ca2",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 has sent 1143 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0x97b8b726da43a72851354551692e3e4a37e91a0744c52dcb878fbfdd368cc344",
+    "eth_getTransactionCount = 1143"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 on Blockscout: block 51812886 (2026-09-26 09:31 UTC), 25.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0x97b8b726da43a72851354551692e3e4a37e91a0744c52dcb878fbfdd368cc344",
+    "https://base.blockscout.com/tx/0xa2935b455d9dc559fc1790b866f41102e86b7e18faa14f422eb3ba7ace54ed37",
+    "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 61,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 13,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xd94aae485a01908a919f3effe54d9d1ef190817e",
+    "https://base.blockscout.com/address/0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd94aae485a01908a919f3effe54d9d1ef190817e"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 52902968",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  }
+ ],
+ "label": "Axis Robotics",
+ "target": {
+  "chain": "base",
+  "address": "0xd94aae485a01908a919f3effe54d9d1ef190817e",
+  "name": "Axis Robotics",
+  "symbol": "AXIS",
+  "created_at": "2026-10-21T13:38:39Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 222718221.9416,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xb3ba3e805b2525fb73f3fa0a8e50e902922c0ca2",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

@@ -1,0 +1,511 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
+ "scanned_at_utc": "2026-10-15T19:02:55Z",
+ "block": 52650814,
+ "site": "https://formion.ai/",
+ "post": "https://x.com/formionai/status/2110388952259518692",
+ "token": {
+  "name": "Formion",
+  "symbol": "FOM",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "FOM"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "9678.97681968540496764129",
+    "pool_fee": "0.01",
+    "pair": "0xe8d56e701214e7139a83f2b5a67b332bc636d879"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "33",
+  "holders": [
+   {
+    "address": "0x92a62946236e9df3991612cce46b9d92368adf0b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "260000000",
+    "percent": "0.260000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x255bf74c4d0f5a518aadb0e9437569a4bc9a63f9",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "245600000",
+    "percent": "0.245600000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa5cf80429f50b9f557aa8b6b1181e38dcf151686",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "150000000",
+    "percent": "0.150000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdcb5f4eb0798d45ed2da12cc1f0fa64e8fedf76a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "100067463.046896708012510249",
+    "percent": "0.100067463046896708",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcebc4853ff181e7a5bc450a77d86ed2d50d7cb01",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "100000000",
+    "percent": "0.100000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1b17f39b0dd60df8bd2b5ee5e9136004087e61a7",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "53856000",
+    "percent": "0.053856000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc5dc2d440a781e5bef70f3ef51c19578b397c7c2",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "50000000",
+    "percent": "0.050000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe8d56e701214e7139a83f2b5a67b332bc636d879",
+    "tag": "UniswapV3",
+    "is_contract": 1,
+    "balance": "30206615.974516979113993685",
+    "percent": "0.030206615974516979",
+    "is_locked": 0
+   },
+   {
+    "address": "0x588cf3afdfad557168d15d377757c83856e6ff12",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "7781037.206661129258808196",
+    "percent": "0.007781037206661129",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa8864206c8ec8f4375d3ba111f7ffd57d697cf84",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "842265.318536140814826426",
+    "percent": "0.000842265318536140",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x231278edd38b00b07fbd52120cef685b9baebcc1",
+    "tag": "UNCX Locker",
+    "value": "9642.56078462719210934310",
+    "is_contract": 1,
+    "balance": "10899.678894352805657794",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "9642.56078462719210934310",
+      "NFT_id": "6264975",
+      "amount": "10899.678894352805657794",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 1,
+    "locked_detail": [
+     {
+      "value": "9642.56078462719210934310",
+      "NFT_id": "6264975",
+      "amount": "10899.678894352805657794",
+      "end_time": "",
+      "opt_time": "",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ]
+   }
+  ],
+  "lp_total_supply": "10899.678894352803",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Formion",
+  "token_symbol": "FOM",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xc7df791e9a90023e02049d20b030f0a18fe65f9bc03de973a00da46afeb03dfa",
+  "block": 52598504,
+  "deployer": "0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+  "tx_from": "0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+  "tx_to": null,
+  "ts": 1791986355
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 19367.15,
+  "geckoterminal_top_usd": 19357.733
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xe8D56e701214E7139A83f2b5A67B332bc636D879",
+   "liq_usd": 19367.15,
+   "created": 1791989663000,
+   "url": "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [
+  "0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1",
+  "0xb9966c3620194267d5795d1e5d64bf334e425660",
+  "0x1b17f39b0dd60df8bd2b5ee5e9136004087e61a7",
+  "0xa5cf80429f50b9f557aa8b6b1181e38dcf151686",
+  "0xcebc4853ff181e7a5bc450a77d86ed2d50d7cb01",
+  "0xc5dc2d440a781e5bef70f3ef51c19578b397c7c2",
+  "0x255bf74c4d0f5a518aadb0e9437569a4bc9a63f9",
+  "0x92a62946236e9df3991612cce46b9d92368adf0b"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x1b17f39b0dd60df8bd2b5ee5e9136004087e61a7",
+  "0x255bf74c4d0f5a518aadb0e9437569a4bc9a63f9",
+  "0x92a62946236e9df3991612cce46b9d92368adf0b",
+  "0xa5cf80429f50b9f557aa8b6b1181e38dcf151686",
+  "0xb9966c3620194267d5795d1e5d64bf334e425660",
+  "0xc5dc2d440a781e5bef70f3ef51c19578b397c7c2",
+  "0xcebc4853ff181e7a5bc450a77d86ed2d50d7cb01",
+  "0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
+ ],
+ "site_ips": [
+  "104.26.14.166",
+  "104.26.15.166",
+  "172.67.72.33"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=formion.ai&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/formion.ai",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3784 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52650814",
+    "https://base.blockscout.com/address/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as FOM. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
+    "https://base.blockscout.com/address/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52650814"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1 owner() @ 52650814 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52650814",
+    "https://repo.sourcify.dev/8453/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b) @ 52650814",
+    "https://base.blockscout.com/address/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.78% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1/holders",
+    "https://base.blockscout.com/token/0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $19,367 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus LP holders: 100.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "8 live contract(s) created directly by 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+    "https://base.blockscout.com/tx/0xc7df791e9a90023e02049d20b030f0a18fe65f9bc03de973a00da46afeb03dfa",
+    "https://base.blockscout.com/address/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1",
+    "https://base.blockscout.com/address/0xb9966c3620194267d5795d1e5d64bf334e425660",
+    "https://base.blockscout.com/address/0x1b17f39b0dd60df8bd2b5ee5e9136004087e61a7"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b on Blockscout: block 52037168 (2026-10-01 14:08 UTC), 14.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b",
+    "https://base.blockscout.com/tx/0xc7df791e9a90023e02049d20b030f0a18fe65f9bc03de973a00da46afeb03dfa",
+    "https://base.blockscout.com/tx/0x75a0d7df161594c79ebc11f99a2303de499019d5fb6912d933c912821f3b4657",
+    "https://base.blockscout.com/api/v2/addresses/0x27c353bb4b45e7da4ee9c09cf27ab9627105aa2b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "formion.ai -> 104.26.14.166, 104.26.15.166, 172.67.72.33 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=formion.ai&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "formion.ai registered 2024-12-24 (660 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/formion.ai"
+   ]
+  },
+  {
+   "id": "social.x_age",
+   "group": "social",
+   "title": "Launch X account age",
+   "status": "pass",
+   "points": 0,
+   "detail": "X account created 2024-05-08 (890.1 days before scan).",
+   "evidence": [
+    "https://x.com/formionai/status/2110388952259518692"
+   ]
+  }
+ ],
+ "score": 10,
+ "band": "LOW",
+ "coverage": {
+  "run": 16,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $19,367 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0xe8d56e701214e7139a83f2b5a67b332bc636d879",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xdf1202b33255dd266bd5704e909ce8a72ba1e4d1"
+   ]
+  }
+ ],
+ "label": "Formion (FOM)",
+ "target": {
+  "chain": "base",
+  "address": "0xDF1202B33255Dd266bD5704e909Ce8a72BA1E4d1",
+  "label": "Formion (FOM)",
+  "post": "https://x.com/formionai/status/2110388952259518692",
+  "site": "https://formion.ai/",
+  "x_created": "2024-05-08T15:37:10Z",
+  "note": "The post's 'CA: 0xDF1202B3\u2026' was resolved on Base by bytecode presence."
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:52:12Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
+ }
+}

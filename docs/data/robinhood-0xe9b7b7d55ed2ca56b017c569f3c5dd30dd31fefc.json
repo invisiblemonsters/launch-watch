@@ -1,0 +1,376 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+ "scanned_at_utc": "2026-10-23T15:46:52Z",
+ "block": 96054693,
+ "site": "https://www.noumen.xyz/",
+ "post": null,
+ "token": {
+  "name": "Noumen",
+  "symbol": "NOUMEN",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Noumen",
+  "token_symbol": "NOUMEN",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021",
+  "block": 96016502,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792766464
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 10257.0738
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0xb48244b82e213d0d1578907615cdd42c3e3d069c",
+   "liq_usd": 10257.0738,
+   "created": "2026-10-23T14:41:04Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0xb48244b82e213d0d1578907615cdd42c3e3d069c",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 2,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.1",
+  "64.29.17.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1218a2889f0ae09007169f4b2d97e55602129b2b/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.noumen.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/noumen.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 96054693",
+    "https://robinhoodchain.blockscout.com/address/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 96054693"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc owner() @ 96054693 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 96054693",
+    "https://robinhoodchain.blockscout.com/address/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x1218a2889f0ae09007169f4b2d97e55602129b2b holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x1218a2889f0ae09007169f4b2d97e55602129b2b) @ 96054693",
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.11% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc/holders",
+    "https://robinhoodchain.blockscout.com/token/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $10,257 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xb48244b82e213d0d1578907615cdd42c3e3d069c",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0xb48244b82e213d0d1578907615cdd42c3e3d069c (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb48244b82e213d0d1578907615cdd42c3e3d069c"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x1218a2889f0ae09007169f4b2d97e55602129b2b has sent only 2 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+    "https://robinhoodchain.blockscout.com/tx/0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021",
+    "eth_getTransactionCount(0x1218a2889f0ae09007169f4b2d97e55602129b2b) @ 96054693 = 2"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x1218a2889f0ae09007169f4b2d97e55602129b2b (CREATE nonce scan 0..1); tokens launched via factories are not counted. Wallet nonce = 2.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+    "https://robinhoodchain.blockscout.com/tx/0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x1218a2889f0ae09007169f4b2d97e55602129b2b on Blockscout: block 96016502 (2026-10-23 14:41 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+    "https://robinhoodchain.blockscout.com/tx/0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1218a2889f0ae09007169f4b2d97e55602129b2b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.noumen.xyz -> 216.198.79.1, 64.29.17.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.noumen.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "noumen.xyz registered 2026-10-06 (17 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/noumen.xyz"
+   ]
+  }
+ ],
+ "score": 30,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $10,257 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xb48244b82e213d0d1578907615cdd42c3e3d069c",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc/pools"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x1218a2889f0ae09007169f4b2d97e55602129b2b has sent only 2 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+    "https://robinhoodchain.blockscout.com/tx/0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021",
+    "eth_getTransactionCount(0x1218a2889f0ae09007169f4b2d97e55602129b2b) @ 96054693 = 2"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x1218a2889f0ae09007169f4b2d97e55602129b2b on Blockscout: block 96016502 (2026-10-23 14:41 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1218a2889f0ae09007169f4b2d97e55602129b2b",
+    "https://robinhoodchain.blockscout.com/tx/0x5f80c430606de46202a8821e34df593281dbb65a3c3edd609486828be8343021",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1218a2889f0ae09007169f4b2d97e55602129b2b/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Noumen",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+  "site": "https://www.noumen.xyz/",
+  "x_profile": "https://x.com/NoumenLabs",
+  "pool_url": "https://dexscreener.com/robinhood/0xe9b7b7d55ed2ca56b017c569f3c5dd30dd31fefc",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

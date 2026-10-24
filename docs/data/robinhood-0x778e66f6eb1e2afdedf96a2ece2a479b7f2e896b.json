@@ -1,0 +1,256 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+ "scanned_at_utc": "2026-10-15T19:05:18Z",
+ "block": 89460973,
+ "site": "https://sealslab.xyz",
+ "post": "https://x.com/sealslab/status/2110425401541685338",
+ "token": {},
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "SlabVault"
+ },
+ "verification": "verified",
+ "owner": "0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+ "creation": {
+  "tx": "0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
+  "block": 88211646,
+  "deployer": "0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+  "tx_from": "0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+  "tx_to": null,
+  "ts": 1791965311
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 14,
+ "deployer_contracts": [
+  "0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
+ ],
+ "site_ips": [
+  "187.127.98.242"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1ecef14ddd33ce14114af557d2b108438fe44efc/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=sealslab.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/sealslab.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "23161 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89460973",
+    "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as SlabVault. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+    "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89460973"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x1ecef14ddd33ce14114af557d2b108438fe44efc, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 89460973",
+    "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): withdraw(uint256) 0x2e1a7d4d [runtime bytecode], withdrawInfra(address) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+    "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x1ecef14ddd33ce14114af557d2b108438fe44efc (CREATE nonce scan 0..13); tokens launched via factories are not counted. Wallet nonce = 14.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+    "https://robinhoodchain.blockscout.com/tx/0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
+    "https://robinhoodchain.blockscout.com/address/0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 1.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+    "https://robinhoodchain.blockscout.com/tx/0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
+    "https://robinhoodchain.blockscout.com/tx/0x57382a7986508c54794d7c1025a9c9604170c52218fbf92225338d7deb67e3c5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1ecef14ddd33ce14114af557d2b108438fe44efc/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "flag",
+   "points": 25,
+   "detail": "At scan time sealslab.xyz resolved to 187.127.98.242, a single server (Hostinger, AS47583). 6 other project sites on the Launch Watch hosting watchlist resolved to the same IP: Sluicebox, Dripyard, Pawnhood, Hoptrail, Swardbow, Markup Machine. Shared hosting is common; this is an infrastructure overlap, not evidence of common ownership or wrongdoing.",
+   "evidence": [
+    "https://dns.google/resolve?name=sealslab.xyz&type=A",
+    "https://ipinfo.io/187.127.98.242"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "sealslab.xyz registered 2026-10-13 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/sealslab.xyz"
+   ]
+  },
+  {
+   "id": "social.x_age",
+   "group": "social",
+   "title": "Launch X account age",
+   "status": "flag",
+   "points": 4,
+   "detail": "X account created 2026-10-14 (1.5 days before scan).",
+   "evidence": [
+    "https://x.com/sealslab/status/2110425401541685338"
+   ]
+  }
+ ],
+ "score": 53,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 10,
+  "unknown": 0
+ },
+ "top_reasons": [
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "flag",
+   "points": 25,
+   "detail": "At scan time sealslab.xyz resolved to 187.127.98.242, a single server (Hostinger, AS47583). 6 other project sites on the Launch Watch hosting watchlist resolved to the same IP: Sluicebox, Dripyard, Pawnhood, Hoptrail, Swardbow, Markup Machine. Shared hosting is common; this is an infrastructure overlap, not evidence of common ownership or wrongdoing.",
+   "evidence": [
+    "https://dns.google/resolve?name=sealslab.xyz&type=A",
+    "https://ipinfo.io/187.127.98.242"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x1ecef14ddd33ce14114af557d2b108438fe44efc, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b owner() @ 89460973",
+    "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x1ecef14ddd33ce14114af557d2b108438fe44efc on Blockscout: block 88210005 (2026-10-14 08:05 UTC), 1.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1ecef14ddd33ce14114af557d2b108438fe44efc",
+    "https://robinhoodchain.blockscout.com/tx/0x126156fee9f42f9cc57ebc143ae4849f69b667644d421ae35d47eb82d955d151",
+    "https://robinhoodchain.blockscout.com/tx/0x57382a7986508c54794d7c1025a9c9604170c52218fbf92225338d7deb67e3c5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1ecef14ddd33ce14114af557d2b108438fe44efc/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Sealslab SlabVault (vault)",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x778e66f6eb1e2afdedf96a2ece2a479b7f2e896b",
+  "label": "Sealslab SlabVault (vault)",
+  "post": "https://x.com/sealslab/status/2110425401541685338",
+  "site": "https://sealslab.xyz",
+  "x_created": "2026-10-14T07:30:10Z"
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T02:50:18Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
+ }
+}

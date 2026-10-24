@@ -1,0 +1,425 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+ "scanned_at_utc": "2026-10-15T20:56:35Z",
+ "block": 89527118,
+ "site": "https://www.glitchferret.shop/",
+ "post": null,
+ "token": {
+  "name": "GlitchFerret",
+  "symbol": "GLFRT",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "Token"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x9ade63E31b4A242432D295C60C3d4B57a171AF19",
+  "creator_balance": "0.000000000000027422",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "15822.93574113862361528144",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.003",
+    "pair": "0xb0873832dc0cfc85cb9019eb437c70dc23a71f59209cacd2a0d9cd1f0eb6ecd9"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+    "tag": "",
+    "value": "57056.23363006401448994680",
+    "is_contract": 0,
+    "balance": "1005514.978423698583474573",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "57056.23363006401448994680",
+      "NFT_id": "3841612",
+      "amount": "1005514.978423698583474573",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "1005514.9784236986",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "GlitchFerret",
+  "token_symbol": "GLFRT",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x2e10720f8b49c24ccdaf0d4cdc1022fdfb63474c71a1fae852d720394e73ae67",
+  "block": 89483197,
+  "deployer": "0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+  "source": "Blockscout address creator",
+  "tx_from": "0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+  "tx_to": null,
+  "ts": 1792093351
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 203143.61,
+  "geckoterminal_top_usd": 97893.1339
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xb0873832dc0cfc85cb9019eb437c70dc23a71f59209cacd2a0d9cd1f0eb6ecd9",
+   "liq_usd": 203143.61,
+   "created": 1792095293000,
+   "url": "https://dexscreener.com/robinhood/0xb0873832dc0cfc85cb9019eb437c70dc23a71f59209cacd2a0d9cd1f0eb6ecd9",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xbc4bb9cf5b1fc439ce9484256211d2a9df22731e95472fd6c630227ed60f15d6",
+   "liq_usd": 5.24,
+   "created": 1792097364000,
+   "url": "https://dexscreener.com/robinhood/0xbc4bb9cf5b1fc439ce9484256211d2a9df22731e95472fd6c630227ed60f15d6",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x49e9c54f3dee4ab052001e9c1d00bdb47a553cc5c4becb46abc07ba5c9591541",
+   "liq_usd": 0.1,
+   "created": 1792095281000,
+   "url": "https://dexscreener.com/robinhood/0x49e9c54f3dee4ab052001e9c1d00bdb47a553cc5c4becb46abc07ba5c9591541",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 12,
+ "deployer_contracts": [
+  "0x6d52c234f940f351a1439fd5f1c70d3b05ca3d0a",
+  "0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x6d52c234f940f351a1439fd5f1c70d3b05ca3d0a",
+  "0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+ ],
+ "site_ips": [
+  "104.21.76.193",
+  "172.67.199.117"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9ade63e31b4a242432d295c60c3d4b57a171af19/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.glitchferret.shop&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/glitchferret.shop",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1764 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89527118",
+    "https://robinhoodchain.blockscout.com/address/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as Token. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89527118"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x6ff4b3065c59dee75404c59af4ded1a74a88f50e owner() @ 89527118 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 89527118",
+    "https://robinhoodchain.blockscout.com/address/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x9ade63e31b4a242432d295c60c3d4b57a171af19 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x9ade63e31b4a242432d295c60c3d4b57a171af19) @ 89527118",
+    "https://robinhoodchain.blockscout.com/address/0x9ade63e31b4a242432d295c60c3d4b57a171af19"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.64% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e/holders",
+    "https://robinhoodchain.blockscout.com/token/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $203,144 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xb0873832dc0cfc85cb9019eb437c70dc23a71f59209cacd2a0d9cd1f0eb6ecd9",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0x9ade63e31b4a242432d295c60c3d4b57a171af19 (CREATE nonce scan 0..11); tokens launched via factories are not counted. Wallet nonce = 12.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+    "https://robinhoodchain.blockscout.com/tx/0x2e10720f8b49c24ccdaf0d4cdc1022fdfb63474c71a1fae852d720394e73ae67",
+    "https://robinhoodchain.blockscout.com/address/0x6d52c234f940f351a1439fd5f1c70d3b05ca3d0a",
+    "https://robinhoodchain.blockscout.com/address/0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9ade63e31b4a242432d295c60c3d4b57a171af19 on Blockscout: block 89482755 (2026-10-15 19:41 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+    "https://robinhoodchain.blockscout.com/tx/0x2e10720f8b49c24ccdaf0d4cdc1022fdfb63474c71a1fae852d720394e73ae67",
+    "https://robinhoodchain.blockscout.com/tx/0x23b4bb0cf4bede359d895cd274bcaaa50f77ba0af67a2b1bbbb6d24bf8abe88a",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9ade63e31b4a242432d295c60c3d4b57a171af19/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.glitchferret.shop -> 104.21.76.193, 172.67.199.117 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.glitchferret.shop&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "glitchferret.shop registered 2026-10-14 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/glitchferret.shop"
+   ]
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x6ff4b3065c59dee75404c59af4ded1a74a88f50e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9ade63e31b4a242432d295c60c3d4b57a171af19 on Blockscout: block 89482755 (2026-10-15 19:41 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x9ade63e31b4a242432d295c60c3d4b57a171af19",
+    "https://robinhoodchain.blockscout.com/tx/0x2e10720f8b49c24ccdaf0d4cdc1022fdfb63474c71a1fae852d720394e73ae67",
+    "https://robinhoodchain.blockscout.com/tx/0x23b4bb0cf4bede359d895cd274bcaaa50f77ba0af67a2b1bbbb6d24bf8abe88a",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x9ade63e31b4a242432d295c60c3d4b57a171af19/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "glitchferret.shop registered 2026-10-14 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/glitchferret.shop"
+   ]
+  }
+ ],
+ "label": "GlitchFerret",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x6ff4b3065c59dee75404c59af4ded1a74a88f50e",
+  "name": "GlitchFerret",
+  "symbol": "GLFRT",
+  "created_at": "2026-10-15T20:49:24Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 6.3883,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xbc4bb9cf5b1fc439ce9484256211d2a9df22731e95472fd6c630227ed60f15d6",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.glitchferret.shop/",
+  "x_profile": "https://x.com/GlitchFerretRh",
+  "post": null
+ }
+}

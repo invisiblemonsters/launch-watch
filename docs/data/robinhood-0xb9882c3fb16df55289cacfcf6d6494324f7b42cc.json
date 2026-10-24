@@ -1,0 +1,397 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+ "scanned_at_utc": "2026-10-22T17:16:20Z",
+ "block": 95277791,
+ "site": "https://fomovault.art/",
+ "post": null,
+ "token": {
+  "name": "fomo vault",
+  "symbol": "FV",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.91798668699999760369",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.870369",
+    "pair": "0x45c38f43a268229abe4811a5fa14d9c9644af14b0476c8e815c5c12f9ea3138b"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "tag": "",
+    "value": "2.91579482699999760549",
+    "is_contract": 0,
+    "balance": "17.96008640028462721",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "2.91579482699999760549",
+      "NFT_id": "3962424",
+      "amount": "17.96008640028462721",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "17.960086400284627",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "fomo vault",
+  "token_symbol": "FV",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xa8d3674daadcead40cb09bdc31a77a4106198cfd5b37f9fae9cab9d10c52ac3c",
+  "block": 95210949,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xd799ab550c2e47ada1a594bb7113cee239803a21",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792682431
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 5944.2263
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x680c92057bf5cd8ac61d17a5e3e38adef34a1ac8",
+   "liq_usd": 5944.2263,
+   "created": "2026-10-22T15:20:31Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x680c92057bf5cd8ac61d17a5e3e38adef34a1ac8",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 25,
+ "deployer_contracts": [
+  "0x47a896ec57eea213138f739d913738421b3b7b64"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x47a896ec57eea213138f739d913738421b3b7b64"
+ ],
+ "site_ips": [
+  "202.155.17.91"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xd799ab550c2e47ada1a594bb7113cee239803a21/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=fomovault.art&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/fomovault.art",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 95277791",
+    "https://robinhoodchain.blockscout.com/address/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 95277791"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb9882c3fb16df55289cacfcf6d6494324f7b42cc owner() @ 95277791 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 95277791"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9882c3fb16df55289cacfcf6d6494324f7b42cc"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xd799ab550c2e47ada1a594bb7113cee239803a21 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xd799ab550c2e47ada1a594bb7113cee239803a21) @ 95277791",
+    "https://robinhoodchain.blockscout.com/address/0xd799ab550c2e47ada1a594bb7113cee239803a21"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.03% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc/holders",
+    "https://robinhoodchain.blockscout.com/token/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,944 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x680c92057bf5cd8ac61d17a5e3e38adef34a1ac8",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9882c3fb16df55289cacfcf6d6494324f7b42cc"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0xd799ab550c2e47ada1a594bb7113cee239803a21 (CREATE nonce scan 0..24); tokens launched via factories are not counted. Wallet nonce = 25.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xd799ab550c2e47ada1a594bb7113cee239803a21",
+    "https://robinhoodchain.blockscout.com/tx/0xa8d3674daadcead40cb09bdc31a77a4106198cfd5b37f9fae9cab9d10c52ac3c",
+    "https://robinhoodchain.blockscout.com/address/0x47a896ec57eea213138f739d913738421b3b7b64"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xd799ab550c2e47ada1a594bb7113cee239803a21 on Blockscout: block 95210949 (2026-10-22 15:20 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xd799ab550c2e47ada1a594bb7113cee239803a21",
+    "https://robinhoodchain.blockscout.com/tx/0xa8d3674daadcead40cb09bdc31a77a4106198cfd5b37f9fae9cab9d10c52ac3c",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xd799ab550c2e47ada1a594bb7113cee239803a21/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "fomovault.art -> 202.155.17.91; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=fomovault.art&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "fomovault.art registered 2026-10-22 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/fomovault.art"
+   ]
+  }
+ ],
+ "score": 40,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9882c3fb16df55289cacfcf6d6494324f7b42cc"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,944 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x680c92057bf5cd8ac61d17a5e3e38adef34a1ac8",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc/pools"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xd799ab550c2e47ada1a594bb7113cee239803a21 on Blockscout: block 95210949 (2026-10-22 15:20 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xd799ab550c2e47ada1a594bb7113cee239803a21",
+    "https://robinhoodchain.blockscout.com/tx/0xa8d3674daadcead40cb09bdc31a77a4106198cfd5b37f9fae9cab9d10c52ac3c",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xd799ab550c2e47ada1a594bb7113cee239803a21/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "fomo vault",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+  "site": "https://fomovault.art/",
+  "x_profile": "https://x.com/fomovault_art",
+  "pool_url": "https://dexscreener.com/robinhood/0xb9882c3fb16df55289cacfcf6d6494324f7b42cc",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

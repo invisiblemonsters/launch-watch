@@ -1,0 +1,371 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+ "scanned_at_utc": "2026-10-23T16:00:19Z",
+ "block": 52990936,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "United Stable Dollar Tranding",
+  "symbol": "USDT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+  "state": "verified",
+  "name": "TokenERC20",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "external_call": "0",
+  "fake_token": {
+   "true_token_address": "0xfde4c96c8593536e31f229ea8f37b2ada2699bb2",
+   "value": 1
+  },
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "United Stable Dollar Tranding",
+  "token_symbol": "USDT",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x995cd0480e55258bc7ec21327a82e4a5b118ab1377e8e36d721d897bde93f55f",
+  "block": 52990103,
+  "deployer": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "source": "Blockscout address creator",
+  "tx_from": "0xcb857fb1f331220ed92e9dd4db51d65a9b719908",
+  "tx_to": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "ts": 1792769553
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "hasRole(DEFAULT_ADMIN_ROLE, 0xcb857fb1f331220ed92e9dd4db51d65a9b719908) = true: an admin role holder exists."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 244860.05,
+  "geckoterminal_top_usd": 244863.0585
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x25DABE65eDd16855AF1f7239d3B8310815Dcf164",
+   "liq_usd": 244860.05,
+   "created": 1792769821000,
+   "url": "https://dexscreener.com/base/0x25dabe65edd16855af1f7239d3b8310815dcf164",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 5318,
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x071b36bce6a1e1693a864b933275fc3775fc7cc9?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xcb857fb1f331220ed92e9dd4db51d65a9b719908/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52990936",
+    "https://base.blockscout.com/address/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation TokenERC20 0x071b36bce6a1e1693a864b933275fc3775fc7cc9, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x071b36bce6a1e1693a864b933275fc3775fc7cc9?tab=contract",
+    "https://base.blockscout.com/address/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x071b36bce6a1e1693a864b933275fc3775fc7cc9; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+    "https://base.blockscout.com/address/0x071b36bce6a1e1693a864b933275fc3775fc7cc9"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c owner() @ 52990936 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mintTo(address,uint256) 0x449a52f8 [implementation bytecode], mintTo(address,uint256) [implementation ABI]. Role check: hasRole(DEFAULT_ADMIN_ROLE, 0xcb857fb1f331220ed92e9dd4db51d65a9b719908) = true: an admin role holder exists.",
+   "evidence": [
+    "selector scan of eth_getCode @ 52990936",
+    "https://base.blockscout.com/address/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xcb857fb1f331220ed92e9dd4db51d65a9b719908 holds 14.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xcb857fb1f331220ed92e9dd4db51d65a9b719908) @ 52990936",
+    "https://base.blockscout.com/address/0xcb857fb1f331220ed92e9dd4db51d65a9b719908"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $244,860 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x25dabe65edd16855af1f7239d3b8310815dcf164",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x25dabe65edd16855af1f7239d3b8310815dcf164 (uniswap) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x25dabe65edd16855af1f7239d3b8310815dcf164"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xcb857fb1f331220ed92e9dd4db51d65a9b719908 has sent 5318 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xcb857fb1f331220ed92e9dd4db51d65a9b719908",
+    "https://base.blockscout.com/tx/0x995cd0480e55258bc7ec21327a82e4a5b118ab1377e8e36d721d897bde93f55f",
+    "eth_getTransactionCount = 5318"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xcb857fb1f331220ed92e9dd4db51d65a9b719908 on Blockscout: block 34663542 (2025-08-25 10:07 UTC), 424.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xcb857fb1f331220ed92e9dd4db51d65a9b719908",
+    "https://base.blockscout.com/tx/0x995cd0480e55258bc7ec21327a82e4a5b118ab1377e8e36d721d897bde93f55f",
+    "https://base.blockscout.com/tx/0xf24f95de899e55817b52fef59bed71a0da6ab0c5ea1287d7635e50d9f79bd364",
+    "https://base.blockscout.com/api/v2/addresses/0xcb857fb1f331220ed92e9dd4db51d65a9b719908/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 47,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 11,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mintTo(address,uint256) 0x449a52f8 [implementation bytecode], mintTo(address,uint256) [implementation ABI]. Role check: hasRole(DEFAULT_ADMIN_ROLE, 0xcb857fb1f331220ed92e9dd4db51d65a9b719908) = true: an admin role holder exists.",
+   "evidence": [
+    "selector scan of eth_getCode @ 52990936",
+    "https://base.blockscout.com/address/0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xcb857fb1f331220ed92e9dd4db51d65a9b719908 holds 14.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xcb857fb1f331220ed92e9dd4db51d65a9b719908) @ 52990936",
+    "https://base.blockscout.com/address/0xcb857fb1f331220ed92e9dd4db51d65a9b719908"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xcb857fb1f331220ed92e9dd4db51d65a9b719908 has sent 5318 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xcb857fb1f331220ed92e9dd4db51d65a9b719908",
+    "https://base.blockscout.com/tx/0x995cd0480e55258bc7ec21327a82e4a5b118ab1377e8e36d721d897bde93f55f",
+    "eth_getTransactionCount = 5318"
+   ]
+  }
+ ],
+ "label": "United Stable Dollar Tranding",
+ "target": {
+  "chain": "base",
+  "address": "0x46ba32d0e135e7dfe7995b2ca04929923ca9d52c",
+  "name": "United Stable Dollar Tranding",
+  "symbol": "USDT",
+  "created_at": "2026-10-23T15:37:01Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 244934.457,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x25dabe65edd16855af1f7239d3b8310815dcf164",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

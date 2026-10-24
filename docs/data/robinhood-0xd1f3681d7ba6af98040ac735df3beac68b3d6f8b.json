@@ -1,0 +1,383 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+ "scanned_at_utc": "2026-10-22T17:51:30Z",
+ "block": 95298149,
+ "site": "https://www.trymycelium.app/",
+ "post": null,
+ "token": {
+  "name": "Mycelium",
+  "symbol": "MYCEL",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Mycelium",
+  "token_symbol": "MYCEL",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5",
+  "block": 95283388,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+  "tx_to": "0x7ed598bcef8bd9edd8c97a195c6d13f40801ec7e",
+  "ts": 1792689961
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 8376.0692
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x0b817c7188b37ee9032b872787c92c0e6eaff8a9",
+   "liq_usd": 8376.0692,
+   "created": "2026-10-22T17:26:01Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x0b817c7188b37ee9032b872787c92c0e6eaff8a9",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.16.129",
+  "216.150.16.193"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.trymycelium.app&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/trymycelium.app",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 95298149",
+    "https://robinhoodchain.blockscout.com/address/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 95298149"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b owner() @ 95298149 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 95298149"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6) @ 95298149",
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.08% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b/holders",
+    "https://robinhoodchain.blockscout.com/token/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $8,376 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x0b817c7188b37ee9032b872787c92c0e6eaff8a9",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x0b817c7188b37ee9032b872787c92c0e6eaff8a9 (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0b817c7188b37ee9032b872787c92c0e6eaff8a9"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+    "https://robinhoodchain.blockscout.com/tx/0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5",
+    "eth_getTransactionCount(0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6) @ 95298149 = 1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 (CREATE nonce scan 0..0); tokens launched via factories are not counted. Wallet nonce = 1.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+    "https://robinhoodchain.blockscout.com/tx/0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 on Blockscout: block 94645645 (2026-10-21 22:55 UTC), 0.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+    "https://robinhoodchain.blockscout.com/tx/0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5",
+    "https://robinhoodchain.blockscout.com/tx/0xdb2fcf0def817e8e4a662fdc9c50b92721c72f1466932b1ef9aeb2b5fa5431f0",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "www.trymycelium.app -> 216.150.16.129, 216.150.16.193; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.trymycelium.app&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "trymycelium.app registered 2026-10-21 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/trymycelium.app"
+   ]
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $8,376 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x0b817c7188b37ee9032b872787c92c0e6eaff8a9",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b/pools"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+    "https://robinhoodchain.blockscout.com/tx/0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5",
+    "eth_getTransactionCount(0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6) @ 95298149 = 1"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6 on Blockscout: block 94645645 (2026-10-21 22:55 UTC), 0.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6",
+    "https://robinhoodchain.blockscout.com/tx/0x8c601aa7e047098ccdaed0f30543552bf73bfe8747231ae28d50d7ada6d122d5",
+    "https://robinhoodchain.blockscout.com/tx/0xdb2fcf0def817e8e4a662fdc9c50b92721c72f1466932b1ef9aeb2b5fa5431f0",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xab1663fd34e3d14508bc4c5ed4f61f2eafe137d6/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Mycelium",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xd1f3681d7ba6af98040ac735df3beac68b3d6f8b",
+  "name": "Mycelium",
+  "symbol": "MYCEL",
+  "created_at": "2026-10-22T17:26:01Z",
+  "dex": "pons-v2",
+  "liq_usd": 8717.5544,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x0b817c7188b37ee9032b872787c92c0e6eaff8a9",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.trymycelium.app/",
+  "x_profile": "https://x.com/TryMycelium",
+  "post": null
+ }
+}

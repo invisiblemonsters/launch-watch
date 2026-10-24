@@ -4,15 +4,15 @@
  "chain": "base",
  "chain_id": 8453,
  "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
- "scanned_at_utc": "2026-10-22T03:07:25Z",
- "block": 52924549,
+ "scanned_at_utc": "2026-10-22T23:25:51Z",
+ "block": 52961102,
  "site": null,
  "post": null,
  "token": {
   "name": "Aero",
   "symbol": "AERO",
   "decimals": 18,
-  "totalSupply": 2127024068110246542283714062
+  "totalSupply": 2127280772248508551946737490
  },
  "sourcify": {
   "match": "match",
@@ -39,21 +39,36 @@
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "383.62340843383451748628",
+    "liquidity": "4613.53035579533636131938",
     "pool_fee": "0.01",
     "pair": "0x1ad14ecac05d2f2112b143e736c27dd656fbca89"
    },
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "199.948199000259",
-    "pool_fee": "0.01",
-    "pair": "0xcc500cebfe89452a24784202433907cbb1a87367"
+    "liquidity": "3471.994430897913",
+    "pool_fee": "0.003",
+    "pair": "0x229cfa9fe4005952ea99c699ea06732ad7f5eb3d"
+   },
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "99.283371947136",
+    "pool_fee": "0.0004",
+    "pair": "0xdfbb8469c64a660adf8e8c2f491fbf58d36d9536"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "3.527716829198",
+    "liquidity": "47.207043652608",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.003",
+    "pair": "0xedab15181761e726d5c7890a58eae3843a9b54b06a5589101061dcb20d8675ee"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.199650325496",
     "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
     "pool_fee": "0.15",
     "pair": "0x8968cdc1e9eb86435ff049881dd23d9426fb39859051b19b79170d84b4f1d3f0"
@@ -61,54 +76,70 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "1175",
+  "holder_count": "4496",
   "holders": [
    {
     "address": "0x22a2f7340a3fb4c7c389d91ee954766b12476721",
     "tag": "",
     "is_contract": 1,
-    "balance": "1557585858.988361504239120097",
-    "percent": "0.732284215754712707",
+    "balance": "1061896304.358781749273695599",
+    "percent": "0.499182913364212719",
     "is_locked": 0
    },
    {
     "address": "0xbf7977e1521e9a3032bf7243ee4712f311f13915",
     "tag": "",
     "is_contract": 1,
-    "balance": "416973847.177022257533922192",
-    "percent": "0.196036298678628886",
+    "balance": "889767462.736833867835970491",
+    "percent": "0.418267501678383809",
     "is_locked": 0
    },
    {
     "address": "0x6dae95fe833f190640db1176f8c8a2e50c6a66c0",
     "tag": "",
     "is_contract": 1,
-    "balance": "98752585.897682846658024709",
-    "percent": "0.046427591455409414",
+    "balance": "76586882.52302875319564054",
+    "percent": "0.036002444858694205",
     "is_locked": 0
    },
    {
     "address": "0x7269de76188e6597444d0859c4e5c336d3c39ddb",
     "tag": "",
     "is_contract": 1,
-    "balance": "29097105.020700000000000047",
-    "percent": "0.013679727899336960",
+    "balance": "28941560.340700000000000116",
+    "percent": "0.013605031252934416",
     "is_locked": 0
    },
    {
     "address": "0xf634058dc94e6bf8e828e27621320c423bc8b18e",
     "tag": "",
     "is_contract": 1,
-    "balance": "2605458.552307601060370978",
-    "percent": "0.001224931622001992",
+    "balance": "11568156.135138604448127808",
+    "percent": "0.005438031809779717",
+    "is_locked": 0
+   },
+   {
+    "address": "0xbde0c70bdc242577c52dfad53389f82fd149ea5a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3877587.256605840352314189",
+    "percent": "0.001822800678024076",
     "is_locked": 0
    },
    {
     "address": "0x92de3fc2e4e946684c000b186da937d72f42fb2e",
     "tag": "",
     "is_contract": 1,
-    "balance": "2323860.512620930382153137",
-    "percent": "0.001092540974988832",
+    "balance": "2807178.103608233572220779",
+    "percent": "0.001319615991071318",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2751488.73293012304052938",
+    "percent": "0.001293437180405520",
     "is_locked": 0
    },
    {
@@ -116,31 +147,15 @@
     "tag": "",
     "is_contract": 0,
     "balance": "2105069",
-    "percent": "0.000989678220869155",
+    "percent": "0.000989564114630963",
     "is_locked": 0
    },
    {
-    "address": "0x6d7823cd5c3d9dcd63e6a8021b475e0c7c94b291",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "1603194.980418969536761545",
-    "percent": "0.000753726911529934",
-    "is_locked": 0
-   },
-   {
-    "address": "0x966e944dad4ca785eb67358eca79133d7dcd2ae9",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "1185928.324215823203668425",
-    "percent": "0.000557552951465370",
-    "is_locked": 0
-   },
-   {
-    "address": "0xe6a7317df4a9a7540663b99a07d1e019caa8afa4",
+    "address": "0x51e171d2fde9b37bbbb624a53ef54959422388e4",
     "tag": "",
     "is_contract": 1,
-    "balance": "913334.42081037989093015",
-    "percent": "0.000429395513708186",
+    "balance": "2031043.473701150721153864",
+    "percent": "0.000954765728263575",
     "is_locked": 0
    }
   ],
@@ -153,28 +168,103 @@
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
-  "lp_holder_count": "1",
+  "lp_holder_count": "4",
   "lp_holders": [
+   {
+    "address": "0x5ae3a74b00cff56e939147a163fcefff4479d2f2",
+    "tag": "",
+    "value": "3321.44352753413646522258",
+    "is_contract": 0,
+    "balance": "3146.137463433133378774",
+    "percent": "0.902099084060007398",
+    "NFT_list": [
+     {
+      "value": "3306.98500170672120306599",
+      "NFT_id": "6324127",
+      "amount": "287.152401155023197499",
+      "in_effect": "1",
+      "NFT_percentage": "0.898172170115017792"
+     },
+     {
+      "value": "14.45852582741526215659",
+      "NFT_id": "6324659",
+      "amount": "2858.985062278110181275",
+      "in_effect": "1",
+      "NFT_percentage": "0.003926913944989606"
+     },
+     {
+      "value": "0.00",
+      "NFT_id": "6323309",
+      "amount": "0",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   },
    {
     "address": "0x44bfd564126b69490184dfe7b8c438d4ae0f6032",
     "tag": "",
-    "value": "380.5864201768264119936",
+    "value": "356.94715838325521018717",
     "is_contract": 1,
-    "balance": "36.082725155574280058",
-    "percent": "1.000000000000000000",
+    "balance": "49.808566247146154759",
+    "percent": "0.096946313241825097",
     "NFT_list": [
      {
-      "value": "380.5864201768264119936",
+      "value": "356.94715838325521018717",
       "NFT_id": "6322292",
       "amount": "36.082725155574280058",
       "in_effect": "1",
-      "NFT_percentage": "1.000000000000000000"
+      "NFT_percentage": "0.096946313241825097"
+     },
+     {
+      "value": "0.00",
+      "NFT_id": "6323146",
+      "amount": "13.725841091571874701",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xf2134a077c6ac633ec762a41616b871fb4da59c4",
+    "tag": "",
+    "value": "2.21542379446109722416",
+    "is_contract": 1,
+    "balance": "438.071184475109759704",
+    "percent": "0.000601705782206036",
+    "NFT_list": [
+     {
+      "value": "2.21542379446109722416",
+      "NFT_id": "6326702",
+      "amount": "438.071184475109759704",
+      "in_effect": "1",
+      "NFT_percentage": "0.000601705782206036"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x7909dd8ee375aadae7a5bfcfa169feac3c982e98",
+    "tag": "",
+    "value": "1.29933307562144523021",
+    "is_contract": 0,
+    "balance": "256.926183102421819349",
+    "percent": "0.000352896915961469",
+    "NFT_list": [
+     {
+      "value": "1.29933307562144523021",
+      "NFT_id": "6325963",
+      "amount": "256.926183102421819349",
+      "in_effect": "1",
+      "NFT_percentage": "0.000352896915961469"
      }
     ],
     "is_locked": 0
    }
   ],
-  "lp_total_supply": "36.08272515557428",
+  "lp_total_supply": "3890.9433972578113",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
@@ -184,7 +274,7 @@
   "slippage_modifiable": "0",
   "token_name": "Aero",
   "token_symbol": "AERO",
-  "total_supply": "2127023668.512463719659196097",
+  "total_supply": "2127268934.75218641054668964",
   "trading_cooldown": "0",
   "transfer_pausable": "0",
   "transfer_tax": "0"
@@ -203,49 +293,49 @@
   "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 1424082.61,
-  "geckoterminal_top_usd": 1386298.326
+  "dexscreener_top_usd": 2949274.37,
+  "geckoterminal_top_usd": 2948807.7089
  },
  "pairs": [
   {
-   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
-   "pair": "0xD0Acf293547457Fb4fE9eE32CA93e89497626816",
-   "liq_usd": 1424082.61,
-   "created": null,
-   "url": "https://dexscreener.com/base/0xd0acf293547457fb4fe9ee32ca93e89497626816",
-   "quote": "USDC"
-  },
-  {
-   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
-   "pair": "0xe6A7317DF4A9a7540663B99A07d1e019CAa8Afa4",
-   "liq_usd": 958081.36,
-   "created": null,
-   "url": "https://dexscreener.com/base/0xe6a7317df4a9a7540663b99a07d1e019caa8afa4",
-   "quote": "cbBTC"
-  },
-  {
-   "dex": "0x9CB220581b91b0C83223012FE69688b92aD07a76",
+   "dex": "aero",
    "pair": "0xc85D5CB72d1aaD6f152A8decAd228AE4A59Ac9B3",
-   "liq_usd": 422009.9,
+   "liq_usd": 2949274.37,
    "created": null,
    "url": "https://dexscreener.com/base/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3",
    "quote": "WETH"
   },
   {
-   "dex": "uniswap",
-   "pair": "0xe273b0f4fd4b7dab46ac8564f9bb7d06f6a415930e441bd0528440f1f7404b19",
-   "liq_usd": 6733.89,
-   "created": 1792626371000,
-   "url": "https://dexscreener.com/base/0xe273b0f4fd4b7dab46ac8564f9bb7d06f6a415930e441bd0528440f1f7404b19",
+   "dex": "aero",
+   "pair": "0xD0Acf293547457Fb4fE9eE32CA93e89497626816",
+   "liq_usd": 2709576.4,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xd0acf293547457fb4fe9ee32ca93e89497626816",
    "quote": "USDC"
   },
   {
+   "dex": "aero",
+   "pair": "0xe6A7317DF4A9a7540663B99A07d1e019CAa8Afa4",
+   "liq_usd": 1592324.46,
+   "created": null,
+   "url": "https://dexscreener.com/base/0xe6a7317df4a9a7540663b99a07d1e019caa8afa4",
+   "quote": "cbBTC"
+  },
+  {
    "dex": "uniswap",
-   "pair": "0x1ad14eCaC05d2f2112b143E736C27Dd656fBca89",
-   "liq_usd": 775.13,
-   "created": 1792629707000,
-   "url": "https://dexscreener.com/base/0x1ad14ecac05d2f2112b143e736c27dd656fbca89",
-   "quote": "WETH"
+   "pair": "0xD84D4C6cF3DaCfe46847b633553A7eC667328A25",
+   "liq_usd": 878348.15,
+   "created": 1792710629000,
+   "url": "https://dexscreener.com/base/0xd84d4c6cf3dacfe46847b633553a7ec667328a25",
+   "quote": "cbBTC"
+  },
+  {
+   "dex": "aero",
+   "pair": "0x422dF9aa896e883c9CDcBad309C0785b7364A1cF",
+   "liq_usd": 58639.72,
+   "created": null,
+   "url": "https://dexscreener.com/base/0x422df9aa896e883c9cdcbad309c0785b7364a1cf",
+   "quote": "USDC"
   }
  ],
  "launcher_nonce": 527,
@@ -311,7 +401,7 @@
    "points": 0,
    "detail": "3513 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 52924549",
+    "eth_getCode @ block 52961102",
     "https://base.blockscout.com/address/0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee"
    ]
   },
@@ -335,7 +425,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52924549"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 52961102"
    ]
   },
   {
@@ -346,7 +436,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee owner() @ 52924549 -> revert/empty"
+    "eth_call 0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee owner() @ 52961102 -> revert/empty"
    ]
   },
   {
@@ -391,7 +481,7 @@
    "points": 0,
    "detail": "Launch wallet 0xcaf2c1251465c90d91a16b2288d9d6389f836a0e holds 0.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xcaf2c1251465c90d91a16b2288d9d6389f836a0e) @ 52924549",
+    "eth_call balanceOf(0xcaf2c1251465c90d91a16b2288d9d6389f836a0e) @ 52961102",
     "https://base.blockscout.com/address/0xcaf2c1251465c90d91a16b2288d9d6389f836a0e"
    ]
   },
@@ -401,7 +491,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 0.08% of supply.",
+   "detail": "Largest non-contract holder has 0.10% of supply.",
    "evidence": [
     "https://base.blockscout.com/api/v2/tokens/0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee/holders",
     "https://base.blockscout.com/token/0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee?tab=holders"
@@ -413,9 +503,9 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $1,424,083 (0x9CB220581b91b0C83223012FE69688b92aD07a76).",
+   "detail": "Top pool liquidity $2,949,274 (aero).",
    "evidence": [
-    "https://dexscreener.com/base/0xd0acf293547457fb4fe9ee32ca93e89497626816",
+    "https://dexscreener.com/base/0xc85d5cb72d1aad6f152a8decad228ae4a59ac9b3",
     "https://api.dexscreener.com/token-pairs/v1/base/0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee"
    ]
   },
@@ -449,7 +539,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0xcaf2c1251465c90d91a16b2288d9d6389f836a0e on Blockscout: block 52032705 (2026-10-01 11:39 UTC), 20.6 days before scan.",
+   "detail": "Oldest transaction of 0xcaf2c1251465c90d91a16b2288d9d6389f836a0e on Blockscout: block 52032705 (2026-10-01 11:39 UTC), 21.5 days before scan.",
    "evidence": [
     "https://base.blockscout.com/address/0xcaf2c1251465c90d91a16b2288d9d6389f836a0e",
     "https://base.blockscout.com/tx/0x25b98bb03d54fcf9052d03e8273ca1e5c73647991204742a8a6af38974fb860c",
@@ -517,10 +607,10 @@
   "address": "0x3f5bf3edac59d650d8fdf9657a71f2f904a3a4ee",
   "name": "Aero",
   "symbol": "AERO",
-  "created_at": "2026-10-22T02:52:27Z",
-  "dex": "aero-base",
-  "liq_usd": 999051.4463,
-  "pool_url": "https://www.geckoterminal.com/base/pools/0xd0acf293547457fb4fe9ee32ca93e89497626816",
+  "created_at": "2026-10-22T23:10:29Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 877909.5112,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xd84d4c6cf3dacfe46847b633553a7ec667328a25",
   "sources": [
    "geckoterminal:new_pools"
   ],

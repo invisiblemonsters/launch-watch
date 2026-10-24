@@ -1,0 +1,347 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x41039fb9470acdad72fae7b20bb092451fdf9667",
+ "scanned_at_utc": "2026-10-23T15:59:29Z",
+ "block": 52990911,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "National Oil Dividend Fund",
+  "symbol": "NODF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+  "state": "verified",
+  "name": "DopplerERC20V1",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0x4f2c49c54cf28549a222188fc9c5456092035fd7",
+  "creator_balance": "8319056261.653740274890123837",
+  "creator_percent": "0.831906",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "National Oil Dividend Fund",
+  "token_symbol": "NODF",
+  "total_supply": "10000000000"
+ },
+ "creation": {
+  "tx": "0x218b66e7d20fc1590a529fa3598b958afb15c1ed73aa03c4c628154fe1ce832d",
+  "block": 52988834,
+  "deployer": "0xf1542dd2d46394c16372fb00f2c339b53cef2ce5",
+  "source": "Blockscout address creator",
+  "tx_from": "0x4f2c49c54cf28549a222188fc9c5456092035fd7",
+  "tx_to": "0xf45588e8e0b1df9db9ae7e20ece5726ae931357c",
+  "ts": 1792767015
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 498422,
+  "geckoterminal_top_usd": 500423.0481
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xdce6529fcf2597338631ae700bc027e069d3205355e6c0207b7d84d92324ff26",
+   "liq_usd": 498422,
+   "created": 1792767015000,
+   "url": "https://dexscreener.com/base/0xdce6529fcf2597338631ae700bc027e069d3205355e6c0207b7d84d92324ff26",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 952,
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x41039fb9470acdad72fae7b20bb092451fdf9667?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x41039fb9470acdad72fae7b20bb092451fdf9667",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xedf3f3981e98077591c1b909bccff0e572bd50f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x41039fb9470acdad72fae7b20bb092451fdf9667",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x41039fb9470acdad72fae7b20bb092451fdf9667",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x41039fb9470acdad72fae7b20bb092451fdf9667&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x41039fb9470acdad72fae7b20bb092451fdf9667/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x41039fb9470acdad72fae7b20bb092451fdf9667",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x41039fb9470acdad72fae7b20bb092451fdf9667/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x4f2c49c54cf28549a222188fc9c5456092035fd7/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52990911",
+    "https://base.blockscout.com/address/0x41039fb9470acdad72fae7b20bb092451fdf9667"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DopplerERC20V1 0xedf3f3981e98077591c1b909bccff0e572bd50f8, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8?tab=contract",
+    "https://base.blockscout.com/address/0x41039fb9470acdad72fae7b20bb092451fdf9667?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x41039fb9470acdad72fae7b20bb092451fdf9667"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xedf3f3981e98077591c1b909bccff0e572bd50f8; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xedf3f3981e98077591c1b909bccff0e572bd50f8",
+    "https://base.blockscout.com/address/0xedf3f3981e98077591c1b909bccff0e572bd50f8"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0x41039fb9470acdad72fae7b20bb092451fdf9667 owner() @ 52990911",
+    "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52990911"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x41039fb9470acdad72fae7b20bb092451fdf9667"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x41039fb9470acdad72fae7b20bb092451fdf9667&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x4f2c49c54cf28549a222188fc9c5456092035fd7 holds 83.19% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x4f2c49c54cf28549a222188fc9c5456092035fd7) @ 52990911",
+    "https://base.blockscout.com/address/0x4f2c49c54cf28549a222188fc9c5456092035fd7"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x41039fb9470acdad72fae7b20bb092451fdf9667/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $498,422 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xdce6529fcf2597338631ae700bc027e069d3205355e6c0207b7d84d92324ff26",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x41039fb9470acdad72fae7b20bb092451fdf9667"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xdce6529fcf\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xdce6529fcf2597338631ae700bc027e069d3205355e6c0207b7d84d92324ff26"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x4f2c49c54cf28549a222188fc9c5456092035fd7 has sent 952 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x4f2c49c54cf28549a222188fc9c5456092035fd7",
+    "https://base.blockscout.com/tx/0x218b66e7d20fc1590a529fa3598b958afb15c1ed73aa03c4c628154fe1ce832d",
+    "eth_getTransactionCount = 952"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x4f2c49c54cf28549a222188fc9c5456092035fd7 on Blockscout: block 38215449 (2025-11-15 15:24 UTC), 342.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x4f2c49c54cf28549a222188fc9c5456092035fd7",
+    "https://base.blockscout.com/tx/0x218b66e7d20fc1590a529fa3598b958afb15c1ed73aa03c4c628154fe1ce832d",
+    "https://base.blockscout.com/tx/0x480dadb9fa5d1ba8b5155b9c695c431f8ece14f1384a48d63993aedeed9c37db",
+    "https://base.blockscout.com/api/v2/addresses/0x4f2c49c54cf28549a222188fc9c5456092035fd7/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 36,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 9,
+  "unknown": 5
+ },
+ "top_reasons": [
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x4f2c49c54cf28549a222188fc9c5456092035fd7 holds 83.19% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x4f2c49c54cf28549a222188fc9c5456092035fd7) @ 52990911",
+    "https://base.blockscout.com/address/0x4f2c49c54cf28549a222188fc9c5456092035fd7"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x4f2c49c54cf28549a222188fc9c5456092035fd7 has sent 952 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x4f2c49c54cf28549a222188fc9c5456092035fd7",
+    "https://base.blockscout.com/tx/0x218b66e7d20fc1590a529fa3598b958afb15c1ed73aa03c4c628154fe1ce832d",
+    "eth_getTransactionCount = 952"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x41039fb9470acdad72fae7b20bb092451fdf9667/holders"
+   ]
+  }
+ ],
+ "label": "National Oil Dividend Fund",
+ "target": {
+  "chain": "base",
+  "address": "0x41039fb9470acdad72fae7b20bb092451fdf9667",
+  "name": "National Oil Dividend Fund",
+  "symbol": "NODF",
+  "created_at": "2026-10-23T14:50:15Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 499996.2117,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xdce6529fcf2597338631ae700bc027e069d3205355e6c0207b7d84d92324ff26",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

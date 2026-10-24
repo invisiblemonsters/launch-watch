@@ -1,0 +1,427 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+ "scanned_at_utc": "2026-10-22T15:04:19Z",
+ "block": 95201648,
+ "site": "https://noct.trading/",
+ "post": null,
+ "token": {
+  "name": "Noct",
+  "symbol": "NOCT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "9416.2196873351107275390",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.7338980",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0x4fab9bad154a2e63e9fe63c260409062d79cf4c124dd872d0a5b1e717dbf43a3"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+    "tag": "",
+    "value": "7815.48607107702970218925",
+    "is_contract": 1,
+    "balance": "29277.002188455995734644",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "7815.48607107702970218925",
+      "NFT_id": "3961920",
+      "amount": "29277.002188455995734644",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "29277.002188455994",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Noct",
+  "token_symbol": "NOCT",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e",
+  "block": 95167557,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x2ef082d29bbc7440784bca97280f908a97017f4e",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792677907
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 17313.55,
+  "geckoterminal_top_usd": 22066.4945
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d",
+   "liq_usd": 17313.55,
+   "created": 1792678417000,
+   "url": "https://dexscreener.com/robinhood/0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 2,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.150.1.193",
+  "216.150.16.193"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2ef082d29bbc7440784bca97280f908a97017f4e/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=noct.trading&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/noct.trading",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 95201648",
+    "https://robinhoodchain.blockscout.com/address/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 95201648"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xaac9608cb40b2077fefaa661b28c0b70d0e72bad owner() @ 95201648 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 95201648",
+    "https://robinhoodchain.blockscout.com/address/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xaac9608cb40b2077fefaa661b28c0b70d0e72bad"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x2ef082d29bbc7440784bca97280f908a97017f4e holds 1.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x2ef082d29bbc7440784bca97280f908a97017f4e) @ 95201648",
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.46% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad/holders",
+    "https://robinhoodchain.blockscout.com/token/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,314 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+    "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x2ef082d29bbc7440784bca97280f908a97017f4e has sent only 2 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e",
+    "https://robinhoodchain.blockscout.com/tx/0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e",
+    "eth_getTransactionCount(0x2ef082d29bbc7440784bca97280f908a97017f4e) @ 95201648 = 2"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x2ef082d29bbc7440784bca97280f908a97017f4e (CREATE nonce scan 0..1); tokens launched via factories are not counted. Wallet nonce = 2.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e",
+    "https://robinhoodchain.blockscout.com/tx/0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2ef082d29bbc7440784bca97280f908a97017f4e on Blockscout: block 95167557 (2026-10-22 14:05 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e",
+    "https://robinhoodchain.blockscout.com/tx/0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2ef082d29bbc7440784bca97280f908a97017f4e/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "noct.trading -> 216.150.1.193, 216.150.16.193 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=noct.trading&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "noct.trading registered 2026-10-21 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/noct.trading"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,314 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xaac9608cb40b2077fefaa661b28c0b70d0e72bad"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x2ef082d29bbc7440784bca97280f908a97017f4e has sent only 2 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e",
+    "https://robinhoodchain.blockscout.com/tx/0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e",
+    "eth_getTransactionCount(0x2ef082d29bbc7440784bca97280f908a97017f4e) @ 95201648 = 2"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2ef082d29bbc7440784bca97280f908a97017f4e on Blockscout: block 95167557 (2026-10-22 14:05 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x2ef082d29bbc7440784bca97280f908a97017f4e",
+    "https://robinhoodchain.blockscout.com/tx/0x44e8d0424d777d2705bfee8e2f8912e8c1a2123a3c3d57d2bd1489ee2c77455e",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x2ef082d29bbc7440784bca97280f908a97017f4e/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Noct",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xaac9608cb40b2077fefaa661b28c0b70d0e72bad",
+  "name": "Noct",
+  "symbol": "NOCT",
+  "created_at": "2026-10-22T14:13:37Z",
+  "dex": "pons-v2-dex",
+  "liq_usd": 22010.5548,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x74f965d0a4ec599dfde7bd69859bd62f5804e664cd5daeebe9b046e2d1bc913d",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://noct.trading/",
+  "x_profile": "https://x.com/UseNoct",
+  "post": null
+ }
+}

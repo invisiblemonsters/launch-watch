@@ -1,0 +1,482 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+ "scanned_at_utc": "2026-10-16T01:02:42Z",
+ "block": 89672837,
+ "site": "https://shroudshield.xyz/",
+ "post": null,
+ "token": {
+  "name": "Shroud",
+  "symbol": "SHROUD",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "ShroudCoin"
+ },
+ "verification": "verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3bB22E0bd9a5516e3FFBbA23F6b0E31dB2603090",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "5074.90080901190727642302",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.01",
+    "pair": "0xb69c5672efaaf66960f6d7bbb712bb1ff4ce643edc9720edaec972363ec2bd62"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "5.357056285866",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77",
+    "pair": "0x773197006d64dc9e9f36a166a6d193286e4e6a3eb64cf45441048294f1779d49"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.97448796699999755729",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.89369",
+    "pair": "0xeffe12f6bc6f4de5d9b6f43f3c5e7d10968bf70a1809f350c8548ae6b5e0c85b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.587470628624",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0xeb9eab7b33dbecc6177c561f1f6890c3014a7c00c5cd140b6704e3097e07c149"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.97708399999999755729",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.849005",
+    "pair": "0x7f70b94a71bd50cbcbb0141b541fc06ee2d0c97bd2863df333912af6caf816c1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.342981314036",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9604",
+    "pair": "0x11d6834b1e5ea86056fade896cafac90716f7a9f490fcdb15f3552ef5bb9e2bf"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.257234485530",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7004",
+    "pair": "0xae72cc0e05fbdfba8394b691b09e631c8ba9ce2be5ec480bacba8b114b24e141"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+    "tag": "",
+    "value": "308.01681201136149003921",
+    "is_contract": 1,
+    "balance": "45422.6338893289903418",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "308.01681201136149003921",
+      "NFT_id": "3844691",
+      "amount": "45422.6338893289903418",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "45422.633889328994",
+  "owner_address": "0x0000000000000000000000000000000000000000",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Shroud",
+  "token_symbol": "SHROUD",
+  "trading_cooldown": "0",
+  "transfer_pausable": "1",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xa7ff2b4e8c9e40ca75baa7a7f11c16f262ae5dae9e70cdad9ef215dd475fc077",
+  "block": 89637109,
+  "deployer": "0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+  "tx_from": "0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+  "tx_to": null,
+  "ts": 1792108952
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 5709.04,
+  "geckoterminal_top_usd": 11453.1252
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xb69c5672efaaf66960f6d7bbb712bb1ff4ce643edc9720edaec972363ec2bd62",
+   "liq_usd": 5709.04,
+   "created": 1792108953000,
+   "url": "https://dexscreener.com/robinhood/0xb69c5672efaaf66960f6d7bbb712bb1ff4ce643edc9720edaec972363ec2bd62",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x773197006d64dc9e9f36a166a6d193286e4e6a3eb64cf45441048294f1779d49",
+   "liq_usd": 10.57,
+   "created": 1792110113000,
+   "url": "https://dexscreener.com/robinhood/0x773197006d64dc9e9f36a166a6d193286e4e6a3eb64cf45441048294f1779d49",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xeffe12f6bc6f4de5d9b6f43f3c5e7d10968bf70a1809f350c8548ae6b5e0c85b",
+   "liq_usd": 4.61,
+   "created": 1792110355000,
+   "url": "https://dexscreener.com/robinhood/0xeffe12f6bc6f4de5d9b6f43f3c5e7d10968bf70a1809f350c8548ae6b5e0c85b",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xeb9eab7b33dbecc6177c561f1f6890c3014a7c00c5cd140b6704e3097e07c149",
+   "liq_usd": 1.08,
+   "created": 1792109085000,
+   "url": "https://dexscreener.com/robinhood/0xeb9eab7b33dbecc6177c561f1f6890c3014a7c00c5cd140b6704e3097e07c149",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 10,
+ "deployer_contracts": [
+  "0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+ ],
+ "site_ips": [
+  "104.21.54.178",
+  "172.67.168.200"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xc56b6cf328aedffced77ac224f9e633a03c0429f?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc56b6cf328aedffced77ac224f9e633a03c0429f/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xc56b6cf328aedffced77ac224f9e633a03c0429f/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=shroudshield.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/shroudshield.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "7992 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 89672837",
+    "https://robinhoodchain.blockscout.com/address/0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as ShroudCoin. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+    "https://robinhoodchain.blockscout.com/address/0xc56b6cf328aedffced77ac224f9e633a03c0429f?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 89672837"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0xc56b6cf328aedffced77ac224f9e633a03c0429f owner() @ 89672837"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 89672837",
+    "https://repo.sourcify.dev/4663/0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090) @ 89672837",
+    "https://robinhoodchain.blockscout.com/address/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.46% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc56b6cf328aedffced77ac224f9e633a03c0429f/holders",
+    "https://robinhoodchain.blockscout.com/token/0xc56b6cf328aedffced77ac224f9e633a03c0429f?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,709 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xb69c5672efaaf66960f6d7bbb712bb1ff4ce643edc9720edaec972363ec2bd62",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): ShroudCoin 0xc56b6cf328aedffced77ac224f9e633a03c0429f (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+    "https://robinhoodchain.blockscout.com/address/0xc56b6cf328aedffced77ac224f9e633a03c0429f?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090 (CREATE nonce scan 0..9); tokens launched via factories are not counted. Wallet nonce = 10.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+    "https://robinhoodchain.blockscout.com/tx/0xa7ff2b4e8c9e40ca75baa7a7f11c16f262ae5dae9e70cdad9ef215dd475fc077",
+    "https://robinhoodchain.blockscout.com/address/0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090 on Blockscout: block 89401993 (2026-10-15 17:26 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+    "https://robinhoodchain.blockscout.com/tx/0xa7ff2b4e8c9e40ca75baa7a7f11c16f262ae5dae9e70cdad9ef215dd475fc077",
+    "https://robinhoodchain.blockscout.com/tx/0xcdfd5b2e51f28f87a16ff40a99db165929cf535242e799876fa2ce788a58bc53",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "shroudshield.xyz -> 104.21.54.178, 172.67.168.200 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=shroudshield.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "shroudshield.xyz registered 2026-10-14 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/shroudshield.xyz"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,709 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xb69c5672efaaf66960f6d7bbb712bb1ff4ce643edc9720edaec972363ec2bd62",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc56b6cf328aedffced77ac224f9e633a03c0429f"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090 on Blockscout: block 89401993 (2026-10-15 17:26 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090",
+    "https://robinhoodchain.blockscout.com/tx/0xa7ff2b4e8c9e40ca75baa7a7f11c16f262ae5dae9e70cdad9ef215dd475fc077",
+    "https://robinhoodchain.blockscout.com/tx/0xcdfd5b2e51f28f87a16ff40a99db165929cf535242e799876fa2ce788a58bc53",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3bb22e0bd9a5516e3ffbba23f6b0e31db2603090/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "Shroud",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xc56b6cf328aedffced77ac224f9e633a03c0429f",
+  "name": "Shroud",
+  "symbol": "SHROUD",
+  "created_at": "2026-10-16T00:25:55Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 2.4372,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xeffe12f6bc6f4de5d9b6f43f3c5e7d10968bf70a1809f350c8548ae6b5e0c85b",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://shroudshield.xyz/",
+  "post": null
+ }
+}

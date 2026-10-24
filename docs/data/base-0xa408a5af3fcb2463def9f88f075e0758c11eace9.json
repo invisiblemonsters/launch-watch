@@ -1,0 +1,411 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+ "scanned_at_utc": "2026-10-15T19:16:44Z",
+ "block": 52651228,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "STRATEGIC PROTOCOL AMERICAN",
+  "symbol": "SPAR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xe580ebd529991ecd59e21b3468212617797ab5da",
+  "creator_balance": "10000000",
+  "creator_percent": "0.010000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "5",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989662830.758731458887946391",
+    "percent": "0.989662830758731458",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe580ebd529991ecd59e21b3468212617797ab5da",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1635d0679d3786e558906615f05958800861ea99",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "337169.241268541112053607",
+    "percent": "0.000337169241268541",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0469a4bd3724dc86c9542f4694c976da13c450c0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "STRATEGIC PROTOCOL AMERICAN",
+  "token_symbol": "SPAR",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367",
+  "block": 52620610,
+  "deployer": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "source": "Blockscout address creator",
+  "tx_from": "0xe580ebd529991ecd59e21b3468212617797ab5da",
+  "tx_to": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "ts": 1792030567
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 84717.1,
+  "geckoterminal_top_usd": 84137.7555
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
+   "liq_usd": 84717.1,
+   "created": 1792030567000,
+   "url": "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
+   "quote": "ZORA"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xa408a5af3fcb2463def9f88f075e0758c11eace9?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xa408a5af3fcb2463def9f88f075e0758c11eace9&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xe580ebd529991ecd59e21b3468212617797ab5da/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 52651228",
+    "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167 minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode pattern 363d3d373d3d3d363d73..5af43d...",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xa408a5af3fcb2463def9f88f075e0758c11eace9 owner() @ 52651228 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 52651228"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa408a5af3fcb2463def9f88f075e0758c11eace9"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xa408a5af3fcb2463def9f88f075e0758c11eace9&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xe580ebd529991ecd59e21b3468212617797ab5da holds 1.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xe580ebd529991ecd59e21b3468212617797ab5da) @ 52651228",
+    "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xa408a5af3fcb2463def9f88f075e0758c11eace9/holders",
+    "https://base.blockscout.com/token/0xa408a5af3fcb2463def9f88f075e0758c11eace9?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $84,717 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xa408a5af3fcb2463def9f88f075e0758c11eace9"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xcea33ca73c\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xe580ebd529991ecd59e21b3468212617797ab5da (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da",
+    "https://base.blockscout.com/tx/0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.8 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da",
+    "https://base.blockscout.com/tx/0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367",
+    "https://base.blockscout.com/tx/0xeb41eb5105a2e4fedc22bfa86ba7cd333a2a51d552816cbefe9de7ca7c8d7329",
+    "https://base.blockscout.com/api/v2/addresses/0xe580ebd529991ecd59e21b3468212617797ab5da/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 15,
+ "band": "LOW",
+ "coverage": {
+  "run": 11,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xe580ebd529991ecd59e21b3468212617797ab5da on Blockscout: block 52444361 (2026-10-11 00:21 UTC), 4.8 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xe580ebd529991ecd59e21b3468212617797ab5da",
+    "https://base.blockscout.com/tx/0x37fc07171fb1db8d9be20b0b93933b842c97bd77a41dbb914343c961f9f3f367",
+    "https://base.blockscout.com/tx/0xeb41eb5105a2e4fedc22bfa86ba7cd333a2a51d552816cbefe9de7ca7c8d7329",
+    "https://base.blockscout.com/api/v2/addresses/0xe580ebd529991ecd59e21b3468212617797ab5da/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xcea33ca73c\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c"
+   ]
+  }
+ ],
+ "label": "STRATEGIC PROTOCOL AMERICAN",
+ "target": {
+  "chain": "base",
+  "address": "0xa408a5af3fcb2463def9f88f075e0758c11eace9",
+  "name": "STRATEGIC PROTOCOL AMERICAN",
+  "symbol": "SPAR",
+  "created_at": "2026-10-15T02:16:07Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 81004.8169,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xcea33ca73cd264b4b893a227d7befcdf9fb1659ba2f8f1b3f225ba93a43af53c",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ },
+ "rescored_from": {
+  "version": "0.1.0",
+  "scanned_at_utc": "2026-10-15T03:47:11Z",
+  "reason": "v0.2.0 accuracy fixes re-score"
+ }
+}

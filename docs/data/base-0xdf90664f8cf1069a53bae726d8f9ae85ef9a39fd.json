@@ -1,0 +1,446 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+ "scanned_at_utc": "2026-10-24T02:31:36Z",
+ "block": 53009874,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Russian Oil Reserve - ROR",
+  "symbol": "ROR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+  "creator_balance": "10000000",
+  "creator_percent": "0.010000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "18",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989988266.858385966590222271",
+    "percent": "0.989988266858385966",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x92ff90d5c8e1b9bc646db0efaa211f73885362b5",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "3792.430197071190435779",
+    "percent": "0.000003792430197071",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3b07fa1186f5aabd37d8b34d245eda2ef0399080",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "998.866658165613927856",
+    "percent": "0.000000998866658165",
+    "is_locked": 0
+   },
+   {
+    "address": "0x731bad42d88b085b9cf96d738e6fb060e1b6d7c2",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "716.950831102811741956",
+    "percent": "0.000000716950831102",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd9389101688c66bbf7f65f314936534c9affa816",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "691.652924829661709365",
+    "percent": "0.000000691652924829",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9f9fd491535675371c81cf5b6ccc26563a512570",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "640.367545246075076552",
+    "percent": "0.000000640367545246",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd3245379c5836fc1cfb6a38a233200a58421c3ad",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "589.567680986425498759",
+    "percent": "0.000000589567680986",
+    "is_locked": 0
+   },
+   {
+    "address": "0x50b82f476b1d796a73f0a38324155fa39f01f98a",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "576.204310808967417755",
+    "percent": "0.000000576204310808",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7f01d4c0213839aed5bd73123d4eba7b9d94d974",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "563.973027167748333178",
+    "percent": "0.000000563973027167",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Russian Oil Reserve - ROR",
+  "token_symbol": "ROR",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xacab8801c67107edf56d2dff6a9569d86748aa476d304827fbc8c06a878f5261",
+  "block": 53001022,
+  "deployer": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "source": "Blockscout address creator",
+  "tx_from": "0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+  "tx_to": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "ts": 1792791391
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 181252.96,
+  "geckoterminal_top_usd": 179372.6665
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340",
+   "liq_usd": 181252.96,
+   "created": 1792791391000,
+   "url": "https://dexscreener.com/base/0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340",
+   "quote": "USDC"
+  }
+ ],
+ "launcher_nonce": 26,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53009874",
+    "https://base.blockscout.com/address/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd owner() @ 53009874 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53009874"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xa8fcf945ed0dba603c0b28717d06fac3fa16313b holds 1.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xa8fcf945ed0dba603c0b28717d06fac3fa16313b) @ 53009874",
+    "https://base.blockscout.com/address/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.00% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd/holders",
+    "https://base.blockscout.com/token/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $181,253 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x49111e486e\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xa8fcf945ed0dba603c0b28717d06fac3fa16313b (CREATE nonce scan 0..25); tokens launched via factories are not counted. Wallet nonce = 26.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+    "https://base.blockscout.com/tx/0xacab8801c67107edf56d2dff6a9569d86748aa476d304827fbc8c06a878f5261"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xa8fcf945ed0dba603c0b28717d06fac3fa16313b on Blockscout: block 53000850 (2026-10-23 21:30 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+    "https://base.blockscout.com/tx/0xacab8801c67107edf56d2dff6a9569d86748aa476d304827fbc8c06a878f5261",
+    "https://base.blockscout.com/tx/0x286ef6c7139ecec3c3460032b17ffd87eb28a38bbea58684cf04d41e2ce9a897",
+    "https://base.blockscout.com/api/v2/addresses/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 15,
+ "band": "LOW",
+ "coverage": {
+  "run": 11,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xa8fcf945ed0dba603c0b28717d06fac3fa16313b on Blockscout: block 53000850 (2026-10-23 21:30 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b",
+    "https://base.blockscout.com/tx/0xacab8801c67107edf56d2dff6a9569d86748aa476d304827fbc8c06a878f5261",
+    "https://base.blockscout.com/tx/0x286ef6c7139ecec3c3460032b17ffd87eb28a38bbea58684cf04d41e2ce9a897",
+    "https://base.blockscout.com/api/v2/addresses/0xa8fcf945ed0dba603c0b28717d06fac3fa16313b/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x49111e486e\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340"
+   ]
+  }
+ ],
+ "label": "Russian Oil Reserve - ROR",
+ "target": {
+  "chain": "base",
+  "address": "0xdf90664f8cf1069a53bae726d8f9ae85ef9a39fd",
+  "name": "Russian Oil Reserve - ROR",
+  "symbol": "ROR",
+  "created_at": "2026-10-23T21:36:31Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 183526.5774,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x49111e486eb3b9762467f2f53a4812e535b3143e5e0a34da3e1dee8dc30ca340",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

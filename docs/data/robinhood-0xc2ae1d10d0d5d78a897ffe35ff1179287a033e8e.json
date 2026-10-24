@@ -1,0 +1,501 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+ "scanned_at_utc": "2026-10-22T23:24:55Z",
+ "block": 95490063,
+ "site": "https://theonememe.com/",
+ "post": null,
+ "token": {
+  "name": "The One Meme RING",
+  "symbol": "RING",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0xE9D178cBaad7109Acb0DBc629EEA1C1a3B17e5DA",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "7.386719865934",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x7d74c953c4b148ee27e60c71e7a33b8f2581905412367a0a2a917c014daa7d08"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.489208584942",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.65",
+    "pair": "0xc9bf7b730f499fd1c4b1d35df359b3a3c20ec32329c60000aa71842787baad24"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.487307776943",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.75",
+    "pair": "0xceb286e2bd75d90cb8c96a583d3ad79995d8de2ba37b3a26c08117b7c618e648"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.097801121089",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x4e241606738b56303d029dea35bcdd9cc3ee9c9a9300ca9880af021a3c35dc44"
+   }
+  ],
+  "holder_count": "1022",
+  "holders": [
+   {
+    "address": "0xe831dB3a4C19197C36b8b349F8BC4ec2C35fc500",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "846715404.848953142506067229",
+    "percent": "0.846715",
+    "is_locked": 0
+   },
+   {
+    "address": "0x85bdafc62f3Cbf4510Dd5C6C37E7C0cB1079beaD",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "63999670.331107846385943679",
+    "percent": "0.064000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6FC451A8285c28cE0075B2456a8fc6A1eC8b9470",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "33457073.549223014204655909",
+    "percent": "0.033457",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8CDF9a8Aa4fF78a6C74FA82D127DD59de138EBBe",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "7066230.643253784726310586",
+    "percent": "0.007066",
+    "is_locked": 0
+   },
+   {
+    "address": "0x37f02bcfca5F2b02249cc89ED0747d5a6cE4137B",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "5663956.388711832922200014",
+    "percent": "0.005664",
+    "is_locked": 0
+   },
+   {
+    "address": "0x19150eB4BB165ea11DC2A3FaEa45a58acFCbfDF8",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4443745.819788390226346859",
+    "percent": "0.004444",
+    "is_locked": 0
+   },
+   {
+    "address": "0x96980C8B8ACF5770Cbd00d978142700fD35Ce471",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4232619.765875085972663201",
+    "percent": "0.004233",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc2C3045B6F094768e380183fc0Ae4e14fB13ca72",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2395730.320104319231841758",
+    "percent": "0.002396",
+    "is_locked": 0
+   },
+   {
+    "address": "0xfBec0322fDBdE63Fafc3b8E6d9e3f97f6d133919",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2308218.525007085334924556",
+    "percent": "0.002308",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9900FF8d2457b7E828793588bdb5f957507c1f6F",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2262445.475508181378990814",
+    "percent": "0.002262",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x6e8244ba97cbb7d136aafc667e8da302140dbc5b",
+    "tag": "",
+    "value": "6.305232252450",
+    "is_contract": 0,
+    "balance": "0.000433075110216131",
+    "percent": "0.853584300760233617",
+    "NFT_list": [
+     {
+      "value": "6.305232252450",
+      "NFT_id": "3964196",
+      "amount": "0.000433075110216131",
+      "in_effect": "1",
+      "NFT_percentage": "0.853584300760233617"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x8de04c99005a95a173057b5d54c3a4c848bd5513",
+    "tag": "",
+    "value": "1.081539325746",
+    "is_contract": 1,
+    "balance": "0.000074285625446117",
+    "percent": "0.146415699239766383",
+    "NFT_list": [
+     {
+      "value": "1.081539325746",
+      "NFT_id": "3961943",
+      "amount": "0.000074285625446117",
+      "in_effect": "1",
+      "NFT_percentage": "0.146415699239766383"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000507360735662248",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "The One Meme RING",
+  "token_symbol": "RING",
+  "total_supply": "1000000000",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x4ea4525a3cbf8ec75edf932299726fe0b3967d1c419901ad4917e34ea0074f43",
+  "block": 94418164,
+  "deployer": "0xe9d178cbaad7109acb0dbc629eea1c1a3b17e5da",
+  "source": "Blockscout address creator",
+  "tx_from": "0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470",
+  "tx_to": "0x3d69104da2518f4833d71444d6611310f2d685f2",
+  "ts": 1792599752
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 17755.93,
+  "geckoterminal_top_usd": 20365.1291
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x2c52f4ed284cec5f821e8c20a22697d6c5910b9a5cd577f85b3fe4bbe3ea7331",
+   "liq_usd": 17755.93,
+   "created": 1792674601000,
+   "url": "https://dexscreener.com/robinhood/0x2c52f4ed284cec5f821e8c20a22697d6c5910b9a5cd577f85b3fe4bbe3ea7331",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 42,
+ "deployer_contracts": [],
+ "site_ips": [
+  "185.158.133.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=theonememe.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/theonememe.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "6295 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 95490063",
+    "https://robinhoodchain.blockscout.com/address/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+    "https://robinhoodchain.blockscout.com/address/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 95490063"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e owner() @ 95490063 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 95490063"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470 holds 0.65% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470) @ 95490063",
+    "https://robinhoodchain.blockscout.com/address/0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.71% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e/holders",
+    "https://robinhoodchain.blockscout.com/token/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,756 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x2c52f4ed284cec5f821e8c20a22697d6c5910b9a5cd577f85b3fe4bbe3ea7331",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470 (CREATE nonce scan 0..41); tokens launched via factories are not counted. Wallet nonce = 42.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470",
+    "https://robinhoodchain.blockscout.com/tx/0x4ea4525a3cbf8ec75edf932299726fe0b3967d1c419901ad4917e34ea0074f43"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470 on Blockscout: block 94418164 (2026-10-21 16:22 UTC), 1.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470",
+    "https://robinhoodchain.blockscout.com/tx/0x4ea4525a3cbf8ec75edf932299726fe0b3967d1c419901ad4917e34ea0074f43",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x6fc451a8285c28ce0075b2456a8fc6a1ec8b9470/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "theonememe.com -> 185.158.133.1; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=theonememe.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "theonememe.com registered 2026-10-21 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/theonememe.com"
+   ]
+  }
+ ],
+ "score": 54,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+    "https://robinhoodchain.blockscout.com/address/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,756 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x2c52f4ed284cec5f821e8c20a22697d6c5910b9a5cd577f85b3fe4bbe3ea7331",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e"
+   ]
+  }
+ ],
+ "label": "The One Meme RING",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+  "site": "https://theonememe.com/",
+  "x_profile": null,
+  "pool_url": "https://dexscreener.com/robinhood/0xc2ae1d10d0d5d78a897ffe35ff1179287a033e8e",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

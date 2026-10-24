@@ -1,0 +1,457 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+ "scanned_at_utc": "2026-10-23T15:50:20Z",
+ "block": 96056756,
+ "site": "https://www.yumi402.site",
+ "post": null,
+ "token": {
+  "name": "Yumi",
+  "symbol": "YUMI",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "UERC20"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x000000e200088D55C39a11F609E5F667729ad49b",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "31541.70548702092258977804",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.0025",
+    "pair": "0xba5e4b6d480531c798dade2653d50dd91d9028b7bf3e3e85ede3658481f793bb"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.783985659700",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9",
+    "pair": "0x316f4a52959e935a2743e231d332f3d0bdbda9b55930106f8d7c6d5afa03d7d7"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.18973898178526507808",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.88",
+    "pair": "0xa718d18fc29ef541e7dc8c60022f52d398ee319ca124fc6ebb1a6b84cd218ada"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.041174464556",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.29",
+    "pair": "0xa88675a88e1bfdde0459f95d5f23514d9181776249051d695957f8a4a5a48499"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.566067641025",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0x21f195ed3a4f6721a1135b83afbd69a8e7553e17afcc7b2d0ce02e558b0c32a1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.091621808901",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x66b17c6827062fa40079085d5edc9c02c0070db5428312747c1459ba740ab2bd"
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0xeff166aaf189323c58dc27ed1206eb2c37faacdf",
+    "tag": "",
+    "value": "26876.11477824120215046399",
+    "is_contract": 1,
+    "balance": "51274.188046840591947412",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "26876.11477824120215046399",
+      "NFT_id": "3973237",
+      "amount": "51274.188046840591947412",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xfeaa2b0f9a9042e9fdc58864455ec6e68842402c",
+    "tag": "",
+    "value": "0.00",
+    "is_contract": 0,
+    "balance": "122.231941568969937485",
+    "percent": "0.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.00",
+      "NFT_id": "3973985",
+      "amount": "122.231941568969937485",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "51396.419988409565",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Yumi",
+  "token_symbol": "YUMI",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xb23149218fc1b5c90ec5b20ba4194d9617715179d42fede319663b245101867d",
+  "block": 95925106,
+  "deployer": "0x000000e200088d55c39a11f609e5f667729ad49b",
+  "source": "Blockscout address creator",
+  "tx_from": "0x3c23adaaf8b56181c5c4860d99c91a0072a88db5",
+  "tx_to": "0x0000ffffbe8efe702c8703ae3477ff5de3d319c0",
+  "ts": 1792756871
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 67206.66,
+  "geckoterminal_top_usd": 67278.9402
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xba5e4b6d480531c798dade2653d50dd91d9028b7bf3e3e85ede3658481f793bb",
+   "liq_usd": 67206.66,
+   "created": 1792756871000,
+   "url": "https://dexscreener.com/robinhood/0xba5e4b6d480531c798dade2653d50dd91d9028b7bf3e3e85ede3658481f793bb",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xa88675a88e1bfdde0459f95d5f23514d9181776249051d695957f8a4a5a48499",
+   "liq_usd": 1.65,
+   "created": 1792763308000,
+   "url": "https://dexscreener.com/robinhood/0xa88675a88e1bfdde0459f95d5f23514d9181776249051d695957f8a4a5a48499",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x316f4a52959e935a2743e231d332f3d0bdbda9b55930106f8d7c6d5afa03d7d7",
+   "liq_usd": 0.77,
+   "created": 1792757136000,
+   "url": "https://dexscreener.com/robinhood/0x316f4a52959e935a2743e231d332f3d0bdbda9b55930106f8d7c6d5afa03d7d7",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 26,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.1",
+  "64.29.17.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xeff166aaf189323c58dc27ed1206eb2c37faacdf?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xeff166aaf189323c58dc27ed1206eb2c37faacdf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.yumi402.site&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/yumi402.site",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "7154 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 96056756",
+    "https://robinhoodchain.blockscout.com/address/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as UERC20. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 96056756"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x1773e7ce32a89ada9d81aca4f5098012a95b80cf owner() @ 96056756 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 96056756",
+    "https://robinhoodchain.blockscout.com/address/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1773e7ce32a89ada9d81aca4f5098012a95b80cf"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x3c23adaaf8b56181c5c4860d99c91a0072a88db5 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x3c23adaaf8b56181c5c4860d99c91a0072a88db5) @ 96056756",
+    "https://robinhoodchain.blockscout.com/address/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.58% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf/holders",
+    "https://robinhoodchain.blockscout.com/token/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $67,207 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xba5e4b6d480531c798dade2653d50dd91d9028b7bf3e3e85ede3658481f793bb",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1773e7ce32a89ada9d81aca4f5098012a95b80cf"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x3c23adaaf8b56181c5c4860d99c91a0072a88db5 (CREATE nonce scan 0..25); tokens launched via factories are not counted. Wallet nonce = 26.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5",
+    "https://robinhoodchain.blockscout.com/tx/0xb23149218fc1b5c90ec5b20ba4194d9617715179d42fede319663b245101867d"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3c23adaaf8b56181c5c4860d99c91a0072a88db5 on Blockscout: block 95925106 (2026-10-23 12:01 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5",
+    "https://robinhoodchain.blockscout.com/tx/0xb23149218fc1b5c90ec5b20ba4194d9617715179d42fede319663b245101867d",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.yumi402.site -> 216.198.79.1, 64.29.17.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.yumi402.site&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "yumi402.site registered 2026-10-23 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/yumi402.site"
+   ]
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x1773e7ce32a89ada9d81aca4f5098012a95b80cf"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3c23adaaf8b56181c5c4860d99c91a0072a88db5 on Blockscout: block 95925106 (2026-10-23 12:01 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5",
+    "https://robinhoodchain.blockscout.com/tx/0xb23149218fc1b5c90ec5b20ba4194d9617715179d42fede319663b245101867d",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3c23adaaf8b56181c5c4860d99c91a0072a88db5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "yumi402.site registered 2026-10-23 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/yumi402.site"
+   ]
+  }
+ ],
+ "label": "Yumi",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+  "site": "https://www.yumi402.site",
+  "x_profile": "https://x.com/yumi402x",
+  "pool_url": "https://dexscreener.com/robinhood/0x1773e7ce32a89ada9d81aca4f5098012a95b80cf",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

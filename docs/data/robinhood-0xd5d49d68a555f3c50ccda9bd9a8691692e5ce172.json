@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172",
- "scanned_at_utc": "2026-10-21T15:07:40Z",
- "block": 94374489,
+ "scanned_at_utc": "2026-10-23T15:52:19Z",
+ "block": 96057901,
  "site": "https://bustedtoken.net/",
  "post": null,
  "token": {
@@ -37,7 +37,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "17184.34417273397153378604",
+    "liquidity": "22158.33858097883280499588",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0",
     "pair": "0x76c658707f06be6c8527b4bae0730ca84dbb5f1e1c541fb1ae82819b1f63a33f"
@@ -45,7 +45,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "2.728486000000",
+    "liquidity": "2.728450529682",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.89711",
     "pair": "0x67ef93bf836cbaf592938ee00e321a8c087e0f7f3a211217b9db372789fd52ea"
@@ -53,7 +53,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.489881000000",
+    "liquidity": "0.489874631547",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.7",
     "pair": "0x7bacd3e50ee61fe6b4c7bc7f08d683ab5f637baddfb670ef5ee0309092ab19c7"
@@ -61,7 +61,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.46201168360167588900",
+    "liquidity": "0.48928624993256371628",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.5",
     "pair": "0x3ef7e66f2f852daa0db9e7fcd7268993c83b3796cbbb0a82025702a4fe0c86cb"
@@ -69,7 +69,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.20907688029433185024",
+    "liquidity": "0.24389966828654436268",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.79",
     "pair": "0xd4d6e775c7950cb7ef2f3170cddc1d5d99d95a569fbad8d44733ddae3807a903"
@@ -77,14 +77,14 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "294",
+  "holder_count": "332",
   "holders": [
    {
     "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
     "tag": "",
     "is_contract": 1,
-    "balance": "128341099.684767213677466221",
-    "percent": "0.128341",
+    "balance": "101256825.050697481986672005",
+    "percent": "0.101257",
     "is_locked": 0
    },
    {
@@ -96,35 +96,27 @@
     "is_locked": 0
    },
    {
-    "address": "0x077A6140957fe77BA8Fc60792b54d2b295f218b1",
-    "tag": "",
-    "is_contract": 1,
-    "balance": "51965699.864756196096869447",
-    "percent": "0.051966",
-    "is_locked": 0
-   },
-   {
     "address": "0x7F7f1520C10F7e1D4452f67002948e407B475BD2",
     "tag": "",
     "is_contract": 1,
-    "balance": "49918820.420836877959940038",
-    "percent": "0.049919",
+    "balance": "50444695.36656201034769942",
+    "percent": "0.050445",
     "is_locked": 0
    },
    {
-    "address": "0x37472d46F99f98139eaa7b40b9FB2658D0885C77",
+    "address": "0x077A6140957fe77BA8Fc60792b54d2b295f218b1",
     "tag": "",
-    "is_contract": 0,
-    "balance": "43745380.677967244974925897",
-    "percent": "0.043745",
+    "is_contract": 1,
+    "balance": "49965699.864756196096869447",
+    "percent": "0.049966",
     "is_locked": 0
    },
    {
     "address": "0xDc6822D28B597cd76a3BAeB5b84b9883A333412E",
     "tag": "",
     "is_contract": 1,
-    "balance": "40450149.780773569385350346",
-    "percent": "0.040450",
+    "balance": "40504086.19333489735377723",
+    "percent": "0.040504",
     "is_locked": 0
    },
    {
@@ -141,6 +133,14 @@
     "is_contract": 1,
     "balance": "35120264.262672113864779714",
     "percent": "0.035120",
+    "is_locked": 0
+   },
+   {
+    "address": "0x37472d46F99f98139eaa7b40b9FB2658D0885C77",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "33157608.284503118824837949",
+    "percent": "0.033158",
     "is_locked": 0
    },
    {
@@ -169,18 +169,18 @@
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
-  "lp_holder_count": "1",
+  "lp_holder_count": "2",
   "lp_holders": [
    {
     "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
     "tag": "",
-    "value": "16476.90634588832205531453",
+    "value": "21423.62931557743563718693",
     "is_contract": 1,
     "balance": "29277.002188455995622615",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "16476.90634588832205531453",
+      "value": "21423.62931557743563718693",
       "NFT_id": "3770267",
       "amount": "29277.002188455995622615",
       "in_effect": "1",
@@ -188,9 +188,27 @@
      }
     ],
     "is_locked": 0
+   },
+   {
+    "address": "0x985b67bc9368866c7a79f427611baeed6896ecf9",
+    "tag": "",
+    "value": "0.00",
+    "is_contract": 0,
+    "balance": "583.574478448102098779",
+    "percent": "0.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.00",
+      "NFT_id": "3975026",
+      "amount": "583.574478448102098779",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
    }
   ],
-  "lp_total_supply": "29277.002188455994",
+  "lp_total_supply": "29860.576666904097",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
@@ -215,20 +233,28 @@
   "ts": 1791243260
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 33364.85,
-  "geckoterminal_top_usd": 29941.908
+  "dexscreener_top_usd": 43355.71,
+  "geckoterminal_top_usd": 43269.628
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x76c658707f06be6c8527b4bae0730ca84dbb5f1e1c541fb1ae82819b1f63a33f",
-   "liq_usd": 33364.85,
+   "liq_usd": 43355.71,
    "created": 1791921994000,
    "url": "https://dexscreener.com/robinhood/0x76c658707f06be6c8527b4bae0730ca84dbb5f1e1c541fb1ae82819b1f63a33f",
    "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xd4d6e775c7950cb7ef2f3170cddc1d5d99d95a569fbad8d44733ddae3807a903",
+   "liq_usd": 0.48,
+   "created": 1791833597000,
+   "url": "https://dexscreener.com/robinhood/0xd4d6e775c7950cb7ef2f3170cddc1d5d99d95a569fbad8d44733ddae3807a903",
+   "quote": "ETH"
   }
  ],
- "launcher_nonce": 95,
+ "launcher_nonce": 109,
  "deployer_contracts": [],
  "site_ips": [
   "34.67.128.202"
@@ -293,7 +319,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 94374489",
+    "eth_getCode @ block 96057901",
     "https://robinhoodchain.blockscout.com/address/0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172"
    ]
   },
@@ -316,7 +342,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 94374489"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 96057901"
    ]
   },
   {
@@ -327,7 +353,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172 owner() @ 94374489 -> revert/empty"
+    "eth_call 0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172 owner() @ 96057901 -> revert/empty"
    ]
   },
   {
@@ -338,7 +364,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 94374489",
+    "selector scan @ 96057901",
     "https://robinhoodchain.blockscout.com/address/0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172?tab=contract"
    ]
   },
@@ -368,9 +394,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 holds 4.37% of supply.",
+   "detail": "Launch wallet 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 holds 2.84% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x37472d46f99f98139eaa7b40b9fb2658d0885c77) @ 94374489",
+    "eth_call balanceOf(0x37472d46f99f98139eaa7b40b9fb2658d0885c77) @ 96057901",
     "https://robinhoodchain.blockscout.com/address/0x37472d46f99f98139eaa7b40b9fb2658d0885c77"
    ]
   },
@@ -380,7 +406,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 5.20% of supply.",
+   "detail": "Largest non-contract holder has 5.04% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172/holders",
     "https://robinhoodchain.blockscout.com/token/0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172?tab=holders"
@@ -392,7 +418,7 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $33,365 (uniswap).",
+   "detail": "Top pool liquidity $43,356 (uniswap).",
    "evidence": [
     "https://dexscreener.com/robinhood/0x76c658707f06be6c8527b4bae0730ca84dbb5f1e1c541fb1ae82819b1f63a33f",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xd5d49d68a555f3c50ccda9bd9a8691692e5ce172"
@@ -416,7 +442,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 (CREATE nonce scan 0..94); tokens launched via factories are not counted. Wallet nonce = 95.",
+   "detail": "0 live contract(s) created directly by 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 (CREATE nonce scan 0..108); tokens launched via factories are not counted. Wallet nonce = 109.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x37472d46f99f98139eaa7b40b9fb2658d0885c77",
     "https://robinhoodchain.blockscout.com/tx/0x87790cef2536aed019a387b4c027f87e99718c5007b762c84ee583cbd4984e28"
@@ -428,7 +454,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 on Blockscout: block 81177632 (2026-10-05 23:34 UTC), 15.6 days before scan.",
+   "detail": "Oldest transaction of 0x37472d46f99f98139eaa7b40b9fb2658d0885c77 on Blockscout: block 81177632 (2026-10-05 23:34 UTC), 17.7 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x37472d46f99f98139eaa7b40b9fb2658d0885c77",
     "https://robinhoodchain.blockscout.com/tx/0x87790cef2536aed019a387b4c027f87e99718c5007b762c84ee583cbd4984e28",
@@ -452,7 +478,7 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "bustedtoken.net registered 2026-10-12 (10 days ago).",
+   "detail": "bustedtoken.net registered 2026-10-12 (12 days ago).",
    "evidence": [
     "https://rdap.org/domain/bustedtoken.net"
    ]
@@ -471,7 +497,7 @@
    "title": "Domain age",
    "status": "flag",
    "points": 5,
-   "detail": "bustedtoken.net registered 2026-10-12 (10 days ago).",
+   "detail": "bustedtoken.net registered 2026-10-12 (12 days ago).",
    "evidence": [
     "https://rdap.org/domain/bustedtoken.net"
    ]

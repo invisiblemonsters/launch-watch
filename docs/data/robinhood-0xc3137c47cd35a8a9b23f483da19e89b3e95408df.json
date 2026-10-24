@@ -1,0 +1,369 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+ "scanned_at_utc": "2026-10-23T15:43:59Z",
+ "block": 96052969,
+ "site": "https://www.equinox402.com/",
+ "post": null,
+ "token": {
+  "name": "Equinox402",
+  "symbol": "EQUINOX",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Equinox402",
+  "token_symbol": "EQUINOX",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xf5530d3b97b59b64262626e5f11bd3d40b375b342370d8db1f3952e31806ae3e",
+  "block": 96028524,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x3e08b032db5d14c89f4f8e007300bf053ab5047d",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1792767699
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 8819.2765
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0x0866bfe2334389e129f165e602e26da05780d95c",
+   "liq_usd": 8819.2765,
+   "created": "2026-10-23T15:01:39Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0x0866bfe2334389e129f165e602e26da05780d95c",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 7,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.1",
+  "64.29.17.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xc3137c47cd35a8a9b23f483da19e89b3e95408df?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc3137c47cd35a8a9b23f483da19e89b3e95408df/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xc3137c47cd35a8a9b23f483da19e89b3e95408df/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3e08b032db5d14c89f4f8e007300bf053ab5047d/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.equinox402.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/equinox402.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 96052969",
+    "https://robinhoodchain.blockscout.com/address/0xc3137c47cd35a8a9b23f483da19e89b3e95408df"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xc3137c47cd35a8a9b23f483da19e89b3e95408df?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 96052969"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xc3137c47cd35a8a9b23f483da19e89b3e95408df owner() @ 96052969 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 96052969"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xc3137c47cd35a8a9b23f483da19e89b3e95408df"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x3e08b032db5d14c89f4f8e007300bf053ab5047d holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x3e08b032db5d14c89f4f8e007300bf053ab5047d) @ 96052969",
+    "https://robinhoodchain.blockscout.com/address/0x3e08b032db5d14c89f4f8e007300bf053ab5047d"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.57% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xc3137c47cd35a8a9b23f483da19e89b3e95408df/holders",
+    "https://robinhoodchain.blockscout.com/token/0xc3137c47cd35a8a9b23f483da19e89b3e95408df?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $8,819 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x0866bfe2334389e129f165e602e26da05780d95c",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xc3137c47cd35a8a9b23f483da19e89b3e95408df/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x0866bfe2334389e129f165e602e26da05780d95c (pons-v2) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0866bfe2334389e129f165e602e26da05780d95c"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x3e08b032db5d14c89f4f8e007300bf053ab5047d (CREATE nonce scan 0..6); tokens launched via factories are not counted. Wallet nonce = 7.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3e08b032db5d14c89f4f8e007300bf053ab5047d",
+    "https://robinhoodchain.blockscout.com/tx/0xf5530d3b97b59b64262626e5f11bd3d40b375b342370d8db1f3952e31806ae3e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3e08b032db5d14c89f4f8e007300bf053ab5047d on Blockscout: block 96014424 (2026-10-23 14:37 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3e08b032db5d14c89f4f8e007300bf053ab5047d",
+    "https://robinhoodchain.blockscout.com/tx/0xf5530d3b97b59b64262626e5f11bd3d40b375b342370d8db1f3952e31806ae3e",
+    "https://robinhoodchain.blockscout.com/tx/0xd21c154263efea57f6309858cd268163318370546579a7099e2a3bb0bdbfb2fd",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3e08b032db5d14c89f4f8e007300bf053ab5047d/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.equinox402.com -> 216.198.79.1, 64.29.17.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.equinox402.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "equinox402.com registered 2026-09-19 (34 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/equinox402.com"
+   ]
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $8,819 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0x0866bfe2334389e129f165e602e26da05780d95c",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xc3137c47cd35a8a9b23f483da19e89b3e95408df/pools"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x3e08b032db5d14c89f4f8e007300bf053ab5047d on Blockscout: block 96014424 (2026-10-23 14:37 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x3e08b032db5d14c89f4f8e007300bf053ab5047d",
+    "https://robinhoodchain.blockscout.com/tx/0xf5530d3b97b59b64262626e5f11bd3d40b375b342370d8db1f3952e31806ae3e",
+    "https://robinhoodchain.blockscout.com/tx/0xd21c154263efea57f6309858cd268163318370546579a7099e2a3bb0bdbfb2fd",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3e08b032db5d14c89f4f8e007300bf053ab5047d/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 4,
+   "detail": "Not verified itself (Sourcify: no match; Blockscout: not verified), but runtime bytecode matches verified template PonsV2LauncherToken (Pons launchpad token) (0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481): same length, 98.2% identical bytes (differences are constructor immutables).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb2917143b2c85fe31d4535b01eb13cb5e5b6e481?tab=contract",
+    "https://robinhoodchain.blockscout.com/address/0xc3137c47cd35a8a9b23f483da19e89b3e95408df?tab=contract"
+   ]
+  }
+ ],
+ "label": "Equinox402",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xc3137c47cd35a8a9b23f483da19e89b3e95408df",
+  "name": "Equinox402",
+  "symbol": "EQUINOX",
+  "created_at": "2026-10-23T15:01:39Z",
+  "dex": "pons-v2",
+  "liq_usd": 7731.9544,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x0866bfe2334389e129f165e602e26da05780d95c",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.equinox402.com/",
+  "x_profile": "https://x.com/equinox402",
+  "post": null
+ }
+}

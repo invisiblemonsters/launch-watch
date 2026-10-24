@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xfafde84f08abe540fb20940a7741d7b44a478ccd",
- "scanned_at_utc": "2026-10-19T17:06:03Z",
- "block": 92777931,
+ "scanned_at_utc": "2026-10-22T17:16:49Z",
+ "block": 95278077,
  "site": "https://pools.trade/t/0xFAFDe84f08aBe540Fb20940a7741d7B44a478CCD",
  "post": null,
  "token": {
@@ -38,22 +38,30 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "2105.74844861860746510928",
+    "liquidity": "2703.90367887282991934670",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.0025",
     "pair": "0x3c1e3ab27d063693887788eb7aaf8b895ca8c77e6834809281a6b3d379bf26aa"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.2376160",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9",
+    "pair": "0x8a81c82b023c0c31fb1507846b93eb8d85eb5e40f69d641c6d88076938c7a805"
    }
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "42",
+  "holder_count": "65",
   "holders": [
    {
     "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
     "tag": "",
     "is_contract": 1,
-    "balance": "743574379.066482326953132133",
-    "percent": "0.743574",
+    "balance": "692216084.665059663751268094",
+    "percent": "0.692216",
     "is_locked": 0
    },
    {
@@ -81,19 +89,19 @@
     "is_locked": 0
    },
    {
+    "address": "0xb5e6Eb169fB2D058B06DBA186Ef67F4EaEBD5DEA",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "15899545.163674748094687",
+    "percent": "0.015900",
+    "is_locked": 0
+   },
+   {
     "address": "0x4345cC0B44d5ab5bcCed461896F13dD9ec79996b",
     "tag": "",
     "is_contract": 0,
     "balance": "15381371.090133107855777271",
     "percent": "0.015381",
-    "is_locked": 0
-   },
-   {
-    "address": "0x92A8352AFd208147670518ddB367863B2BB35892",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "13429480.680952083515103517",
-    "percent": "0.013429",
     "is_locked": 0
    },
    {
@@ -113,19 +121,19 @@
     "is_locked": 0
    },
    {
+    "address": "0xb5E0Af4d9330e6B2A7066FefBb568e8424718049",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9148241.739803201580844546",
+    "percent": "0.009148",
+    "is_locked": 0
+   },
+   {
     "address": "0x3413fe57617aaDAa1D117081c6c7CF6ddb44183B",
     "tag": "",
     "is_contract": 0,
     "balance": "8662635.572907861096986694",
     "percent": "0.008663",
-    "is_locked": 0
-   },
-   {
-    "address": "0x333E3b1c759094ab6ac9eF6edf62240897df6424",
-    "tag": "",
-    "is_contract": 1,
-    "balance": "8251556.723786774854856772",
-    "percent": "0.008252",
     "is_locked": 0
    }
   ],
@@ -143,13 +151,13 @@
    {
     "address": "0xeff166aaf189323c58dc27ed1206eb2c37faacdf",
     "tag": "",
-    "value": "2193.56237469680629582495",
+    "value": "2731.57026042263032047063",
     "is_contract": 1,
     "balance": "50174.188046840591947412",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "2193.56237469680629582495",
+      "value": "2731.57026042263032047063",
       "NFT_id": "1557437",
       "amount": "50174.188046840591947412",
       "in_effect": "1",
@@ -184,14 +192,14 @@
   "ts": 1788379315
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 10407.5,
-  "geckoterminal_top_usd": 9939.0046
+  "dexscreener_top_usd": 11417.57,
+  "geckoterminal_top_usd": 9899.9917
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x3c1e3ab27d063693887788eb7aaf8b895ca8c77e6834809281a6b3d379bf26aa",
-   "liq_usd": 10407.5,
+   "liq_usd": 11417.57,
    "created": 1788379315000,
    "url": "https://dexscreener.com/robinhood/0x3c1e3ab27d063693887788eb7aaf8b895ca8c77e6834809281a6b3d379bf26aa",
    "quote": "ETH"
@@ -263,7 +271,7 @@
    "points": 0,
    "detail": "7154 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 92777931",
+    "eth_getCode @ block 95278077",
     "https://robinhoodchain.blockscout.com/address/0xfafde84f08abe540fb20940a7741d7b44a478ccd"
    ]
   },
@@ -286,7 +294,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92777931"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 95278077"
    ]
   },
   {
@@ -297,7 +305,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xfafde84f08abe540fb20940a7741d7b44a478ccd owner() @ 92777931 -> revert/empty"
+    "eth_call 0xfafde84f08abe540fb20940a7741d7b44a478ccd owner() @ 95278077 -> revert/empty"
    ]
   },
   {
@@ -308,7 +316,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 92777931",
+    "selector scan @ 95278077",
     "https://robinhoodchain.blockscout.com/address/0xfafde84f08abe540fb20940a7741d7b44a478ccd?tab=contract"
    ]
   },
@@ -340,7 +348,7 @@
    "points": 10,
    "detail": "Launch wallet 0x77c9888245930934daf981fe75299bc00448ff20 holds 5.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x77c9888245930934daf981fe75299bc00448ff20) @ 92777931",
+    "eth_call balanceOf(0x77c9888245930934daf981fe75299bc00448ff20) @ 95278077",
     "https://robinhoodchain.blockscout.com/address/0x77c9888245930934daf981fe75299bc00448ff20"
    ]
   },
@@ -362,7 +370,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $10,408 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $11,418 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x3c1e3ab27d063693887788eb7aaf8b895ca8c77e6834809281a6b3d379bf26aa",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xfafde84f08abe540fb20940a7741d7b44a478ccd"
@@ -389,7 +397,7 @@
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x77c9888245930934daf981fe75299bc00448ff20",
     "https://robinhoodchain.blockscout.com/tx/0x9a19b97a6c9f2fd986fc88bda3ad73cf8a2da920b3466a5bd24dcc7b43bf8812",
-    "eth_getTransactionCount(0x77c9888245930934daf981fe75299bc00448ff20) @ 92777931 = 2"
+    "eth_getTransactionCount(0x77c9888245930934daf981fe75299bc00448ff20) @ 95278077 = 2"
    ]
   },
   {
@@ -410,7 +418,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x77c9888245930934daf981fe75299bc00448ff20 on Blockscout: block 52820528 (2026-09-02 19:27 UTC), 46.9 days before scan.",
+   "detail": "Oldest transaction of 0x77c9888245930934daf981fe75299bc00448ff20 on Blockscout: block 52820528 (2026-09-02 19:27 UTC), 49.9 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x77c9888245930934daf981fe75299bc00448ff20",
     "https://robinhoodchain.blockscout.com/tx/0x9a19b97a6c9f2fd986fc88bda3ad73cf8a2da920b3466a5bd24dcc7b43bf8812",
@@ -435,7 +443,7 @@
    "title": "Domain age",
    "status": "pass",
    "points": 0,
-   "detail": "pools.trade registered 2026-07-17 (95 days ago).",
+   "detail": "pools.trade registered 2026-07-17 (98 days ago).",
    "evidence": [
     "https://rdap.org/domain/pools.trade"
    ]
@@ -467,7 +475,7 @@
    "points": 10,
    "detail": "Launch wallet 0x77c9888245930934daf981fe75299bc00448ff20 holds 5.00% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x77c9888245930934daf981fe75299bc00448ff20) @ 92777931",
+    "eth_call balanceOf(0x77c9888245930934daf981fe75299bc00448ff20) @ 95278077",
     "https://robinhoodchain.blockscout.com/address/0x77c9888245930934daf981fe75299bc00448ff20"
    ]
   },
@@ -477,7 +485,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $10,408 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $11,418 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x3c1e3ab27d063693887788eb7aaf8b895ca8c77e6834809281a6b3d379bf26aa",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xfafde84f08abe540fb20940a7741d7b44a478ccd"
@@ -489,10 +497,10 @@
   "chain": "robinhood",
   "address": "0xfafde84f08abe540fb20940a7741d7b44a478ccd",
   "site": "https://pools.trade/t/0xFAFDe84f08aBe540Fb20940a7741d7B44a478CCD",
-  "x_profile": "https://x.com/santabrh?s=11",
+  "x_profile": "https://x.com/Santabyrobin252",
   "pool_url": "https://dexscreener.com/robinhood/0xfafde84f08abe540fb20940a7741d7b44a478ccd",
   "sources": [
-   "dexscreener:token-profiles"
+   "dexscreener:token-boosts"
   ],
   "post": null
  }

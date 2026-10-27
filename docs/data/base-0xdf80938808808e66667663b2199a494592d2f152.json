@@ -1,0 +1,373 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xdf80938808808e66667663b2199a494592d2f152",
+ "scanned_at_utc": "2026-10-27T18:33:51Z",
+ "block": 53168342,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Remus2",
+  "symbol": "REMUS2",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+  "state": "verified",
+  "name": "TokenERC20",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x39460be003ea11f9f7d2918282022a31c77cc067",
+  "creator_balance": "0",
+  "creator_percent": "0",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Remus2",
+  "token_symbol": "REMUS2",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x81bff799aff194f0a2e411491ecad67494e4d040ccd17e9f82c0e1564a1d75ef",
+  "block": 53167531,
+  "deployer": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "source": "Blockscout address creator",
+  "tx_from": "0x39460be003ea11f9f7d2918282022a31c77cc067",
+  "tx_to": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "ts": 1793124409
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "hasRole(DEFAULT_ADMIN_ROLE, 0x39460be003ea11f9f7d2918282022a31c77cc067) = true: an admin role holder exists."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 438934.68,
+  "geckoterminal_top_usd": 437914.7531
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x61D7DFf27CD647a5E95D3DF4aDd737382a160239",
+   "liq_usd": 438934.68,
+   "created": 1793124807000,
+   "url": "https://dexscreener.com/base/0x61d7dff27cd647a5e95d3df4add737382a160239",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 283,
+ "deployer_contracts": [
+  "0xa04f833ed0315a5410f45651003a0400fa1a1c82",
+  "0x2ea5bb02baf7e8aeec9cd1fc88024f7f1875b1bf"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xdf80938808808e66667663b2199a494592d2f152?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xdf80938808808e66667663b2199a494592d2f152",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x071b36bce6a1e1693a864b933275fc3775fc7cc9?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xdf80938808808e66667663b2199a494592d2f152",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf80938808808e66667663b2199a494592d2f152",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xdf80938808808e66667663b2199a494592d2f152&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xdf80938808808e66667663b2199a494592d2f152/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xdf80938808808e66667663b2199a494592d2f152",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xdf80938808808e66667663b2199a494592d2f152/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x39460be003ea11f9f7d2918282022a31c77cc067/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53168342",
+    "https://base.blockscout.com/address/0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation TokenERC20 0x071b36bce6a1e1693a864b933275fc3775fc7cc9, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x071b36bce6a1e1693a864b933275fc3775fc7cc9?tab=contract",
+    "https://base.blockscout.com/address/0xdf80938808808e66667663b2199a494592d2f152?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x071b36bce6a1e1693a864b933275fc3775fc7cc9; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0x071b36bce6a1e1693a864b933275fc3775fc7cc9",
+    "https://base.blockscout.com/address/0x071b36bce6a1e1693a864b933275fc3775fc7cc9"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xdf80938808808e66667663b2199a494592d2f152 owner() @ 53168342 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mintTo(address,uint256) 0x449a52f8 [implementation bytecode], mintTo(address,uint256) [implementation ABI]. Role check: hasRole(DEFAULT_ADMIN_ROLE, 0x39460be003ea11f9f7d2918282022a31c77cc067) = true: an admin role holder exists.",
+   "evidence": [
+    "selector scan of eth_getCode @ 53168342",
+    "https://base.blockscout.com/address/0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xdf80938808808e66667663b2199a494592d2f152&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x39460be003ea11f9f7d2918282022a31c77cc067 holds 24.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x39460be003ea11f9f7d2918282022a31c77cc067) @ 53168342",
+    "https://base.blockscout.com/address/0x39460be003ea11f9f7d2918282022a31c77cc067"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xdf80938808808e66667663b2199a494592d2f152/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $438,935 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x61d7dff27cd647a5e95d3df4add737382a160239",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x61d7dff27cd647a5e95d3df4add737382a160239 (uniswap) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x61d7dff27cd647a5e95d3df4add737382a160239"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0x39460be003ea11f9f7d2918282022a31c77cc067 (CREATE nonce scan 0..282); tokens launched via factories are not counted. Wallet nonce = 283.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x39460be003ea11f9f7d2918282022a31c77cc067",
+    "https://base.blockscout.com/tx/0x81bff799aff194f0a2e411491ecad67494e4d040ccd17e9f82c0e1564a1d75ef",
+    "https://base.blockscout.com/address/0xa04f833ed0315a5410f45651003a0400fa1a1c82",
+    "https://base.blockscout.com/address/0x2ea5bb02baf7e8aeec9cd1fc88024f7f1875b1bf"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x39460be003ea11f9f7d2918282022a31c77cc067 on Blockscout: block 48068044 (2026-07-01 17:03 UTC), 118.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x39460be003ea11f9f7d2918282022a31c77cc067",
+    "https://base.blockscout.com/tx/0x81bff799aff194f0a2e411491ecad67494e4d040ccd17e9f82c0e1564a1d75ef",
+    "https://base.blockscout.com/tx/0x5bca34701aa3568491323505cefcb3e16fa8ea5296231a9427b7a47005f9df14",
+    "https://base.blockscout.com/api/v2/addresses/0x39460be003ea11f9f7d2918282022a31c77cc067/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 11,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mintTo(address,uint256) 0x449a52f8 [implementation bytecode], mintTo(address,uint256) [implementation ABI]. Role check: hasRole(DEFAULT_ADMIN_ROLE, 0x39460be003ea11f9f7d2918282022a31c77cc067) = true: an admin role holder exists.",
+   "evidence": [
+    "selector scan of eth_getCode @ 53168342",
+    "https://base.blockscout.com/address/0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x39460be003ea11f9f7d2918282022a31c77cc067 holds 24.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x39460be003ea11f9f7d2918282022a31c77cc067) @ 53168342",
+    "https://base.blockscout.com/address/0x39460be003ea11f9f7d2918282022a31c77cc067"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xdf80938808808e66667663b2199a494592d2f152"
+   ]
+  }
+ ],
+ "label": "Remus2",
+ "target": {
+  "chain": "base",
+  "address": "0xdf80938808808e66667663b2199a494592d2f152",
+  "name": "Remus2",
+  "symbol": "REMUS2",
+  "created_at": "2026-10-27T18:13:27Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 437914.7531,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x61d7dff27cd647a5e95d3df4add737382a160239",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

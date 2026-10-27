@@ -1,0 +1,415 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+ "scanned_at_utc": "2026-10-27T18:33:35Z",
+ "block": 53168334,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "one life, its worth an at",
+  "symbol": "worth",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "MintBurnTeamToken"
+ },
+ "verification": "verified",
+ "owner_7702_delegate": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+ "owner": "0x115393361d39841d76c3cf659286856a97b9d906",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x115393361d39841d76c3cf659286856a97b9d906",
+  "creator_balance": "250000000.000000000000000854",
+  "creator_percent": "0.250000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "0.0397196856923814255",
+    "pool_fee": "0.0005",
+    "pair": "0x09f41cdfa70f0819666d6489783f0d01e6f1da77"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "2",
+  "holders": [
+   {
+    "address": "0x09f41cdfa70f0819666d6489783f0d01e6f1da77",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "749999999.999999999999999146",
+    "percent": "0.749999999999999999",
+    "is_locked": 0
+   },
+   {
+    "address": "0x115393361d39841d76c3cf659286856a97b9d906",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "250000000.000000000000000854",
+    "percent": "0.250000000000000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x115393361d39841d76c3cf659286856a97b9d906",
+    "tag": "",
+    "value": "0.0397196856923814255",
+    "is_contract": 1,
+    "balance": "614116.016235051307266891",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.0397196856923814255",
+      "NFT_id": "6375323",
+      "amount": "614116.016235051307266891",
+      "in_effect": "0",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "614116.0162350512",
+  "owner_address": "0x115393361d39841d76c3cf659286856a97b9d906",
+  "owner_balance": "250000012.61266655",
+  "owner_change_balance": "0",
+  "owner_percent": "0.25",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "one life, its worth an at",
+  "token_symbol": "worth",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x1efb7a2344d8b41c148f6c58d7c51e70b64ab5b1783890f8fd2afc6ab928a127",
+  "block": 53166388,
+  "deployer": "0x115393361d39841d76c3cf659286856a97b9d906",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x115393361d39841d76c3cf659286856a97b9d906",
+  "tx_from": "0x115393361d39841d76c3cf659286856a97b9d906",
+  "tx_to": null,
+  "ts": 1793122123
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 1181771.05,
+  "geckoterminal_top_usd": 1179840.0052
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x09F41cdfa70F0819666D6489783F0d01e6f1DA77",
+   "liq_usd": 1181771.05,
+   "created": 1793122409000,
+   "url": "https://dexscreener.com/base/0x09f41cdfa70f0819666d6489783f0d01e6f1da77",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4833,
+ "deployer_contracts_blockscout_page1": [
+  "0x13309247e79a2a878803e046738b1e4a879a3400",
+  "0x160efcfc275d19dc1f3e47aa563f03147d9c18f9",
+  "0x36b891b9b464ef35e4854f80506e97f937204a8f",
+  "0x42de7a6c379d1651c143e602422d1cb020930767",
+  "0x57306cba269e71343a23f2b28a0a3489bcd0971f",
+  "0x609302b4a3c94e0de46a9d44aaed6752e3bad627",
+  "0x93423046fb9552a84adf517b36e6f0776336b92d",
+  "0xb68d72df308f724fa3a188bf31a7ae9bbd4f1c0d",
+  "0xd5f5effc456e4070f3ae4a487e74f9e8ab4187da",
+  "0xe4e5d50c627b708c1f73854d973a2deb9f69b73b",
+  "0xf5c375b4ec260de0bd5c76bcd866d58ae03c9596"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x115393361d39841d76c3cf659286856a97b9d906/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5150 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53168334",
+    "https://base.blockscout.com/address/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MintBurnTeamToken. Sourcify: match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+    "https://base.blockscout.com/address/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53168334"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x115393361d39841d76c3cf659286856a97b9d906, a plain wallet with an EIP-7702 delegation to 0x7702cb554e6bfb442cb743a7df23154544a7176c (code prefix 0xef0100), not a multisig or timelock: one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe owner() @ 53168334",
+    "eth_getCode(0x115393361d39841d76c3cf659286856a97b9d906) = 0xef010077\u2026 (EIP-7702 delegation designator)",
+    "https://base.blockscout.com/address/0x115393361d39841d76c3cf659286856a97b9d906"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+    "https://base.blockscout.com/address/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x115393361d39841d76c3cf659286856a97b9d906 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x115393361d39841d76c3cf659286856a97b9d906) @ 53168334",
+    "https://base.blockscout.com/address/0x115393361d39841d76c3cf659286856a97b9d906"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $1,181,771 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x09f41cdfa70f0819666d6489783f0d01e6f1da77",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x115393361d39841d76c3cf659286856a97b9d906 has sent 4833 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x115393361d39841d76c3cf659286856a97b9d906",
+    "https://base.blockscout.com/tx/0x1efb7a2344d8b41c148f6c58d7c51e70b64ab5b1783890f8fd2afc6ab928a127",
+    "eth_getTransactionCount = 4833"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x115393361d39841d76c3cf659286856a97b9d906 on Blockscout: block 29918068 (2025-05-07 13:44 UTC), 538.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x115393361d39841d76c3cf659286856a97b9d906",
+    "https://base.blockscout.com/tx/0x1efb7a2344d8b41c148f6c58d7c51e70b64ab5b1783890f8fd2afc6ab928a127",
+    "https://base.blockscout.com/tx/0x23b76ea2e89307440e110254b27e378c5fd5f1b3c097233330e8e966300b6097",
+    "https://base.blockscout.com/api/v2/addresses/0x115393361d39841d76c3cf659286856a97b9d906/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 64,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 12,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+    "https://base.blockscout.com/address/0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x115393361d39841d76c3cf659286856a97b9d906 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x115393361d39841d76c3cf659286856a97b9d906) @ 53168334",
+    "https://base.blockscout.com/address/0x115393361d39841d76c3cf659286856a97b9d906"
+   ]
+  }
+ ],
+ "label": "one life, its worth an at",
+ "target": {
+  "chain": "base",
+  "address": "0x24b9a6f5e535529ce6d0f7d035c77a9d153381fe",
+  "name": "one life, its worth an at",
+  "symbol": "worth",
+  "created_at": "2026-10-27T17:38:23Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 1179840.0052,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x09f41cdfa70f0819666d6489783f0d01e6f1da77",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

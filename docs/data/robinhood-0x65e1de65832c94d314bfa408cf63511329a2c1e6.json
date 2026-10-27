@@ -1,0 +1,456 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+ "scanned_at_utc": "2026-10-27T18:31:52Z",
+ "block": 99453902,
+ "site": "https://scopehaven.dev",
+ "post": null,
+ "token": {
+  "name": "Scopehaven",
+  "symbol": "SCOPE",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "ScopehavenToken"
+ },
+ "verification": "verified",
+ "owner": "0x925738e28c03bbd8b975699c22715a210dca38e1",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x925738e28C03bBd8B975699C22715A210DCA38e1",
+  "creator_balance": "60000000",
+  "creator_percent": "0.600000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "4696.5999999999985980649",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0xc50cd597aacaa995e2b1de6b10f39fa4a50551e020ee81caeec8260291343eb2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.008578176416",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x772aa535d93edc090c018df1a7c62061ea5556802fba3787eda0aa275432ca8a"
+   }
+  ],
+  "external_call": "1",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "holders": [
+   {
+    "address": "0x925738e28C03bBd8B975699C22715A210DCA38e1",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "60000000",
+    "percent": "0.600000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x65E1dE65832C94D314BfA408Cf63511329a2C1E6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "40000000",
+    "percent": "0.400000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "1",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e",
+    "tag": "",
+    "value": "6399.6615817422105442756",
+    "is_contract": 1,
+    "balance": "10954.451150103322269139",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "6399.6615817422105442756",
+      "NFT_id": "4033910",
+      "amount": "10954.451150103322269139",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "10954.451150103321",
+  "owner_address": "0x925738e28c03bbd8b975699c22715a210dca38e1",
+  "owner_balance": "2.763E-15",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Scopehaven",
+  "token_symbol": "SCOPE",
+  "total_supply": "100000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x0b068680ca21239c3f90b49b0046029e5ece474d1a81711e3cfbc0140afb64c4",
+  "block": 99419362,
+  "deployer": "0x925738e28c03bbd8b975699c22715a210dca38e1",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x925738e28c03bbd8b975699c22715a210dca38e1",
+  "tx_from": "0x925738e28c03bbd8b975699c22715a210dca38e1",
+  "tx_to": null,
+  "ts": 1793122331
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 17857.07,
+  "geckoterminal_top_usd": 17303.7412
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xc50cd597aacaa995e2b1de6b10f39fa4a50551e020ee81caeec8260291343eb2",
+   "liq_usd": 17857.07,
+   "created": 1793122771000,
+   "url": "https://dexscreener.com/robinhood/0xc50cd597aacaa995e2b1de6b10f39fa4a50551e020ee81caeec8260291343eb2",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x772aa535d93edc090c018df1a7c62061ea5556802fba3787eda0aa275432ca8a",
+   "liq_usd": 1.29,
+   "created": 1793123432000,
+   "url": "https://dexscreener.com/robinhood/0x772aa535d93edc090c018df1a7c62061ea5556802fba3787eda0aa275432ca8a",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 10,
+ "deployer_contracts": [
+  "0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+  "0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e",
+  "0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+ ],
+ "site_ips": [
+  "216.150.1.129",
+  "216.150.16.129"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x65e1de65832c94d314bfa408cf63511329a2c1e6?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x65e1de65832c94d314bfa408cf63511329a2c1e6/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x65e1de65832c94d314bfa408cf63511329a2c1e6/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e?fields=abi,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x925738e28c03bbd8b975699c22715a210dca38e1/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=scopehaven.dev&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/scopehaven.dev",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "7601 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 99453902",
+    "https://robinhoodchain.blockscout.com/address/0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as ScopehavenToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+    "https://robinhoodchain.blockscout.com/address/0x65e1de65832c94d314bfa408cf63511329a2c1e6?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 99453902"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x925738e28c03bbd8b975699c22715a210dca38e1, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x65e1de65832c94d314bfa408cf63511329a2c1e6 owner() @ 99453902",
+    "https://robinhoodchain.blockscout.com/address/0x925738e28c03bbd8b975699c22715a210dca38e1"
+   ]
+  },
+  {
+   "id": "fn.withdraw",
+   "group": "fn",
+   "title": "withdraw/rescue function present",
+   "status": "flag",
+   "points": 5.0,
+   "detail": "Found withdraw/rescue function(s): emergencyWithdrawERC20(address,address,uint256) [verified ABI], emergencyWithdrawERC721(address,uint256,address) [verified ABI], emergencyWithdrawEth(address,uint256) [verified ABI], withdrawReserve(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+    "https://robinhoodchain.blockscout.com/address/0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_blacklisted.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x925738e28c03bbd8b975699c22715a210dca38e1 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x925738e28c03bbd8b975699c22715a210dca38e1) @ 99453902",
+    "https://robinhoodchain.blockscout.com/address/0x925738e28c03bbd8b975699c22715a210dca38e1"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.89% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x65e1de65832c94d314bfa408cf63511329a2c1e6/holders",
+    "https://robinhoodchain.blockscout.com/token/0x65e1de65832c94d314bfa408cf63511329a2c1e6?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,857 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xc50cd597aacaa995e2b1de6b10f39fa4a50551e020ee81caeec8260291343eb2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0x925738e28c03bbd8b975699c22715a210dca38e1 (CREATE nonce scan 0..9); tokens launched via factories are not counted. Wallet nonce = 10.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x925738e28c03bbd8b975699c22715a210dca38e1",
+    "https://robinhoodchain.blockscout.com/tx/0x0b068680ca21239c3f90b49b0046029e5ece474d1a81711e3cfbc0140afb64c4",
+    "https://robinhoodchain.blockscout.com/address/0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+    "https://robinhoodchain.blockscout.com/address/0x31b6f5d01d69093fa1dc31b32c1b5c0397c1622e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x925738e28c03bbd8b975699c22715a210dca38e1 on Blockscout: block 99406731 (2026-10-27 17:10 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x925738e28c03bbd8b975699c22715a210dca38e1",
+    "https://robinhoodchain.blockscout.com/tx/0x0b068680ca21239c3f90b49b0046029e5ece474d1a81711e3cfbc0140afb64c4",
+    "https://robinhoodchain.blockscout.com/tx/0xc0165fb698f735637ef9de942490bae5a6bd27b59eb12e24da5c9abf7fdaba77",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x925738e28c03bbd8b975699c22715a210dca38e1/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "scopehaven.dev -> 216.150.1.129, 216.150.16.129 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=scopehaven.dev&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "scopehaven.dev registered 2026-10-04 (23 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/scopehaven.dev"
+   ]
+  }
+ ],
+ "score": 52,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $17,857 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xc50cd597aacaa995e2b1de6b10f39fa4a50551e020ee81caeec8260291343eb2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65e1de65832c94d314bfa408cf63511329a2c1e6"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x925738e28c03bbd8b975699c22715a210dca38e1, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x65e1de65832c94d314bfa408cf63511329a2c1e6 owner() @ 99453902",
+    "https://robinhoodchain.blockscout.com/address/0x925738e28c03bbd8b975699c22715a210dca38e1"
+   ]
+  }
+ ],
+ "label": "Scopehaven",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x65e1de65832c94d314bfa408cf63511329a2c1e6",
+  "name": "Scopehaven",
+  "symbol": "SCOPE",
+  "created_at": "2026-10-27T17:50:32Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 2.5812,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x772aa535d93edc090c018df1a7c62061ea5556802fba3787eda0aa275432ca8a",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://scopehaven.dev",
+  "x_profile": "https://x.com/Scopehavendev",
+  "post": null
+ }
+}

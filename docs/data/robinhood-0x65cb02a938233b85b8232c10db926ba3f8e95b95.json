@@ -1,0 +1,421 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+ "scanned_at_utc": "2026-10-26T15:00:29Z",
+ "block": 98501050,
+ "site": "https://www.anthropichood.site",
+ "post": null,
+ "token": {
+  "name": "Anthropic",
+  "symbol": "ANT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x96bc8145425bBA643bC4594da3ac672D619E024A",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "48421.87458444460980348490",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.238697605342",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.92",
+    "pair": "0xb4b71d01579e7e9183a00f56c2112a35d9d3e2d48fc1871d5c8a71805bff7c86"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.07714243930",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x1e600eb43ad9d5623bbefcd192e7ef73959e4e6e91858ba6c56b823c3e565066"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Anthropic",
+  "token_symbol": "ANT",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xef7156f75c83d04fe367c9063a954eb1b868340efdddddcc8d7de7106adf4d1e",
+  "block": 98462502,
+  "deployer": "0x96bc8145425bba643bc4594da3ac672d619e024a",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x96bc8145425bba643bc4594da3ac672d619e024a",
+  "tx_from": "0x96bc8145425bba643bc4594da3ac672d619e024a",
+  "tx_to": null,
+  "ts": 1793022922
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 2322.76,
+  "geckoterminal_top_usd": 2346.4111
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193",
+   "liq_usd": 2322.76,
+   "created": 1793022923000,
+   "url": "https://dexscreener.com/robinhood/0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xb4b71d01579e7e9183a00f56c2112a35d9d3e2d48fc1871d5c8a71805bff7c86",
+   "liq_usd": 0.08,
+   "created": 1793024231000,
+   "url": "https://dexscreener.com/robinhood/0xb4b71d01579e7e9183a00f56c2112a35d9d3e2d48fc1871d5c8a71805bff7c86",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x1e600eb43ad9d5623bbefcd192e7ef73959e4e6e91858ba6c56b823c3e565066",
+   "liq_usd": 0.01,
+   "created": 1793024292000,
+   "url": "https://dexscreener.com/robinhood/0x1e600eb43ad9d5623bbefcd192e7ef73959e4e6e91858ba6c56b823c3e565066",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 15,
+ "deployer_contracts": [
+  "0x8bf1c8a5480fbe43b08c762bd6c5fe5c92529347",
+  "0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+  "0x8bf1c8a5480fbe43b08c762bd6c5fe5c92529347"
+ ],
+ "site_ips": [
+  "216.198.79.65",
+  "64.29.17.65"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x65cb02a938233b85b8232c10db926ba3f8e95b95?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x65cb02a938233b85b8232c10db926ba3f8e95b95/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x65cb02a938233b85b8232c10db926ba3f8e95b95/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x96bc8145425bba643bc4594da3ac672d619e024a/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.anthropichood.site&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/anthropichood.site",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1923 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 98501050",
+    "https://robinhoodchain.blockscout.com/address/0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify as Token. Sourcify: exact_match; Blockscout: not verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+    "https://robinhoodchain.blockscout.com/address/0x65cb02a938233b85b8232c10db926ba3f8e95b95?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 98501050"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x65cb02a938233b85b8232c10db926ba3f8e95b95 owner() @ 98501050 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 98501050",
+    "https://repo.sourcify.dev/4663/0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x96bc8145425bba643bc4594da3ac672d619e024a holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x96bc8145425bba643bc4594da3ac672d619e024a) @ 98501050",
+    "https://robinhoodchain.blockscout.com/address/0x96bc8145425bba643bc4594da3ac672d619e024a"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.84% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x65cb02a938233b85b8232c10db926ba3f8e95b95/holders",
+    "https://robinhoodchain.blockscout.com/token/0x65cb02a938233b85b8232c10db926ba3f8e95b95?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $2,323 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x4adc478514\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0x96bc8145425bba643bc4594da3ac672d619e024a (CREATE nonce scan 0..14); tokens launched via factories are not counted. Wallet nonce = 15.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x96bc8145425bba643bc4594da3ac672d619e024a",
+    "https://robinhoodchain.blockscout.com/tx/0xef7156f75c83d04fe367c9063a954eb1b868340efdddddcc8d7de7106adf4d1e",
+    "https://robinhoodchain.blockscout.com/address/0x8bf1c8a5480fbe43b08c762bd6c5fe5c92529347",
+    "https://robinhoodchain.blockscout.com/address/0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x96bc8145425bba643bc4594da3ac672d619e024a on Blockscout: block 92858167 (2026-10-19 19:22 UTC), 6.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x96bc8145425bba643bc4594da3ac672d619e024a",
+    "https://robinhoodchain.blockscout.com/tx/0xef7156f75c83d04fe367c9063a954eb1b868340efdddddcc8d7de7106adf4d1e",
+    "https://robinhoodchain.blockscout.com/tx/0x0d4d332c5a6d8951efe99905a1bcd3d2d21936d5705d158dd78227745bf3342b",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x96bc8145425bba643bc4594da3ac672d619e024a/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.anthropichood.site -> 216.198.79.65, 64.29.17.65 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.anthropichood.site&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "anthropichood.site registered 2026-10-26 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/anthropichood.site"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $2,323 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x4adc4785148880c0666b8da7ecfa85accc781dc757c5c42b6ab46cfe9a0cf193",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x65cb02a938233b85b8232c10db926ba3f8e95b95"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x96bc8145425bba643bc4594da3ac672d619e024a on Blockscout: block 92858167 (2026-10-19 19:22 UTC), 6.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x96bc8145425bba643bc4594da3ac672d619e024a",
+    "https://robinhoodchain.blockscout.com/tx/0xef7156f75c83d04fe367c9063a954eb1b868340efdddddcc8d7de7106adf4d1e",
+    "https://robinhoodchain.blockscout.com/tx/0x0d4d332c5a6d8951efe99905a1bcd3d2d21936d5705d158dd78227745bf3342b",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x96bc8145425bba643bc4594da3ac672d619e024a/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "anthropichood.site registered 2026-10-26 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/anthropichood.site"
+   ]
+  }
+ ],
+ "label": "Anthropic",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x65cb02a938233b85b8232c10db926ba3f8e95b95",
+  "name": "Anthropic",
+  "symbol": "ANT",
+  "created_at": "2026-10-26T14:18:12Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 0.01403836775,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x1e600eb43ad9d5623bbefcd192e7ef73959e4e6e91858ba6c56b823c3e565066",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://www.anthropichood.site",
+  "x_profile": "https://x.com/anthropichood",
+  "post": null
+ }
+}

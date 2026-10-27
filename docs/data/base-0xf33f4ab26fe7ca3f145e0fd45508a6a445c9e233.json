@@ -1,0 +1,465 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+ "scanned_at_utc": "2026-10-24T17:56:02Z",
+ "block": 53037607,
+ "site": "https://udtf.site",
+ "post": null,
+ "token": {
+  "name": "United Dividend Trust Fund",
+  "symbol": "UDTF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "DERC20"
+ },
+ "verification": "verified",
+ "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "1676",
+  "holders": [
+   {
+    "address": "0x2100bbf88e63c130cfadf7f8f88a43242e7806a8",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "20991694.935216978354727928",
+    "percent": "0.020991694935216978",
+    "is_locked": 0
+   },
+   {
+    "address": "0x422d7eaad666baae1da9ae873d4710f6fe3921c6",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4224375dcd13cdd3815fb12e19a4c2a099d43206",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3ecab5d3a3898d00e913b5a062f21e76c54acc13",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3c3d2b8d2a017a4c00cba7fd574130d3cf63deeb",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3aad705c509284702f7c73bc052d7d6c4dfaa0ea",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x39b2ec9a823dd5ee87174ee66c1258e25b49c393",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x374ec0bb1be9a871c7442785fb83792b5705c55d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3590f4064151bb893863946a35cc62f516ffda91",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3061f2e4d5c7784cdc9f26b25088d1e69e415d69",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12258985.147474298643327383",
+    "percent": "0.012258985147474298",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "United Dividend Trust Fund",
+  "token_symbol": "UDTF",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "1",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xc80483768a553d8f6e314c40cee6a1657e163faabdd92fa3222b929f7a0648bc",
+  "block": 52817742,
+  "deployer": "0xf0b5141dd9096254b2ca624dff26024f46087229",
+  "source": "Blockscout address creator",
+  "tx_from": "0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0",
+  "tx_to": "0x0fd96eac07d125241d24ac54416a53eaf1d7e54a",
+  "ts": 1792424831
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 35294.54,
+  "geckoterminal_top_usd": 35146.0774
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x53ec5470f0597824a9a76cf336916153a9ec1b4953827b7d6ec0029d47e3a512",
+   "liq_usd": 35294.54,
+   "created": 1792424831000,
+   "url": "https://dexscreener.com/base/0x53ec5470f0597824a9a76cf336916153a9ec1b4953827b7d6ec0029d47e3a512",
+   "quote": "USDC"
+  }
+ ],
+ "launcher_nonce": 45,
+ "deployer_contracts": [
+  "0x3631ee6836c328fc7730559c21cbb8c7e896aec9",
+  "0x009efaea8553aa7e54be33d1abcb2ad72ae6381e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x009efaea8553aa7e54be33d1abcb2ad72ae6381e",
+  "0x0901ec009b7b000e2d81fa61e76e6987a6d8210a",
+  "0x0fd96eac07d125241d24ac54416a53eaf1d7e54a",
+  "0x3631ee6836c328fc7730559c21cbb8c7e896aec9",
+  "0x4c596b8a9b253c4921c1d6b1c2cd6bcf0e9807de",
+  "0xc049413956a16e7d7a8fb5abf63df9583efda341"
+ ],
+ "site_ips": [
+  "76.76.21.21"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=udtf.site&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/udtf.site",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "10143 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53037607",
+    "https://base.blockscout.com/address/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as DERC20. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+    "https://base.blockscout.com/address/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53037607"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233 owner() @ 53037607",
+    "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53037607",
+    "https://repo.sourcify.dev/8453/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0) @ 53037607",
+    "https://base.blockscout.com/address/0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.94% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233/holders",
+    "https://base.blockscout.com/token/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $35,295 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x53ec5470f0597824a9a76cf336916153a9ec1b4953827b7d6ec0029d47e3a512",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x53ec5470f0\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x53ec5470f0597824a9a76cf336916153a9ec1b4953827b7d6ec0029d47e3a512"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0 (CREATE nonce scan 0..44); tokens launched via factories are not counted. Wallet nonce = 45.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0",
+    "https://base.blockscout.com/tx/0xc80483768a553d8f6e314c40cee6a1657e163faabdd92fa3222b929f7a0648bc",
+    "https://base.blockscout.com/address/0x3631ee6836c328fc7730559c21cbb8c7e896aec9",
+    "https://base.blockscout.com/address/0x009efaea8553aa7e54be33d1abcb2ad72ae6381e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0 on Blockscout: block 52401948 (2026-10-10 00:47 UTC), 14.7 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0",
+    "https://base.blockscout.com/tx/0xc80483768a553d8f6e314c40cee6a1657e163faabdd92fa3222b929f7a0648bc",
+    "https://base.blockscout.com/tx/0x8b0dd6d0b8b91666e8029f0f79e3988b891e386571b18fbea2acd9c67d4cede2",
+    "https://base.blockscout.com/api/v2/addresses/0xa5a3e945a7c8189f43dfc88b5229296b7ea9a5a0/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "udtf.site -> 76.76.21.21 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=udtf.site&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "udtf.site registered 2026-10-22 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/udtf.site"
+   ]
+  }
+ ],
+ "score": 22,
+ "band": "LOW",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "udtf.site registered 2026-10-22 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/udtf.site"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x53ec5470f0\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x53ec5470f0597824a9a76cf336916153a9ec1b4953827b7d6ec0029d47e3a512"
+   ]
+  }
+ ],
+ "label": "United Dividend Trust Fund",
+ "target": {
+  "chain": "base",
+  "address": "0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+  "site": "https://udtf.site",
+  "x_profile": null,
+  "pool_url": "https://dexscreener.com/base/0xf33f4ab26fe7ca3f145e0fd45508a6a445c9e233",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

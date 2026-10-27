@@ -1,0 +1,628 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+ "scanned_at_utc": "2026-10-26T15:11:09Z",
+ "block": 98507357,
+ "site": "https://nlyra.xyz/",
+ "post": null,
+ "token": {
+  "name": "Neron Lyra",
+  "symbol": "NLYRA",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsLauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0xe30647793192d15bfa6e53ae8651368d332fe04c",
+  "creator_balance": "14909106.192861244395503451",
+  "creator_percent": "0.014909",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "31944.09950114207531139790",
+    "pool_fee": "0.01",
+    "pair": "0x483c24d1e36df01b650f1e9beeb2a1c31c005c39"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.62136068798150681600",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.93",
+    "pair": "0xb5339579e26bf59c47dbd730c119ddeb321a2abb3b8b9105a037207f27fbab44"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.518792924820",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0xef5d29e4b67ce44a1a6728d7762f1eec4ec3ba73bc219112cbe24558f8e7525b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.18694539585211607460",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9",
+    "pair": "0x3c77ec8b279e2811d0079d88f2ba0dabd89cc78d0b7949f5ce2b8a3fc895f5db"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "525",
+  "holders": [
+   {
+    "address": "0x5CB0Cb16cA019bcff4E494b32575848E4CdB5aF8",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "539226614.522476362140016504",
+    "percent": "0.539227",
+    "is_locked": 0
+   },
+   {
+    "address": "0x483C24d1e36Df01b650F1E9BEEB2a1c31C005C39",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "90055338.512467674971578238",
+    "percent": "0.090055",
+    "is_locked": 0
+   },
+   {
+    "address": "0x5e63228add4390f77BbcDb364F6A7b42bA7Aa3ef",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "79642530.729654879613684636",
+    "percent": "0.079643",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "33912023.12592380765399707",
+    "percent": "0.033912",
+    "is_locked": 1
+   },
+   {
+    "address": "0xda4bCee76B29EFEc9697Fcf663601c2042043968",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "21684332.309470157913799951",
+    "percent": "0.021684",
+    "is_locked": 0
+   },
+   {
+    "address": "0xBE0b139ABc90723Af76a89D3051f60Ba1B64c8d9",
+    "tag": "PinkLock02",
+    "is_contract": 1,
+    "balance": "15771041.860554131646782641",
+    "percent": "0.015771",
+    "is_locked": 1
+   },
+   {
+    "address": "0x2C97627DF0aCC7624E4b8B37616452EE8df2B426",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "15298747.462546012597732028",
+    "percent": "0.015299",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe30647793192D15BFA6E53aE8651368d332fe04C",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "14909106.192861244395503451",
+    "percent": "0.014909",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdd338f832C998Aca3bC8aD3FFcea53f29991BBc6",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12526615.527730055445625658",
+    "percent": "0.012527",
+    "is_locked": 0
+   },
+   {
+    "address": "0x04427B0cC1B9989b748eb8b11aE576976D481F36",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10000000",
+    "percent": "0.010000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "1",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "4",
+  "lp_holders": [
+   {
+    "address": "0x736d76699c26d0d966744cae304c000d471f7f35",
+    "tag": "",
+    "value": "31912.33361195796190799236",
+    "is_contract": 1,
+    "balance": "36819.258015569838458222",
+    "percent": "0.999834851319842457",
+    "NFT_list": [
+     {
+      "value": "31912.33361195796190799236",
+      "NFT_id": "430660",
+      "amount": "36819.258015569838458222",
+      "in_effect": "1",
+      "NFT_percentage": "0.999834851319842457"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0xaa633e2ed66a90d39a58cf183df01b7ec3d6756a",
+    "tag": "",
+    "value": "3.72998765550695310908",
+    "is_contract": 1,
+    "balance": "34.278482505399601075",
+    "percent": "0.000116863019117198",
+    "NFT_list": [
+     {
+      "value": "2.91846755283351737536",
+      "NFT_id": "777743",
+      "amount": "27.196240274970997865",
+      "in_effect": "0",
+      "NFT_percentage": "0.000091437549107210"
+     },
+     {
+      "value": "0.37245995955635104552",
+      "NFT_id": "836911",
+      "amount": "3.334745392983806212",
+      "in_effect": "0",
+      "NFT_percentage": "0.000011669420757938"
+     },
+     {
+      "value": "0.3417947189317550712",
+      "NFT_id": "848167",
+      "amount": "2.687156606529896404",
+      "in_effect": "0",
+      "NFT_percentage": "0.000010708658167731"
+     },
+     {
+      "value": "0.04685638868100185868",
+      "NFT_id": "740684",
+      "amount": "0.5175462718064693",
+      "in_effect": "0",
+      "NFT_percentage": "0.000001468042136307"
+     },
+     {
+      "value": "0.02866635818287963764",
+      "NFT_id": "740707",
+      "amount": "0.313480236844099822",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000898136260424"
+     },
+     {
+      "value": "0.00874255035054789848",
+      "NFT_id": "742887",
+      "amount": "0.096564726121155046",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000273909975879"
+     },
+     {
+      "value": "0.00710423526572771044",
+      "NFT_id": "740168",
+      "amount": "0.071715520849291709",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000222580463623"
+     },
+     {
+      "value": "0.00288832325720454984",
+      "NFT_id": "740966",
+      "amount": "0.028866816484556491",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000090493108074"
+     },
+     {
+      "value": "0.00243066810578364232",
+      "NFT_id": "740485",
+      "amount": "0.026054206455950702",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000076154464719"
+     },
+     {
+      "value": "0.00053845125300736208",
+      "NFT_id": "740336",
+      "amount": "0.005771631297161208",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000016870039498"
+     },
+     {
+      "value": "0.00003844908917695752",
+      "NFT_id": "736662",
+      "amount": "0.000340821056216316",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000001204635795"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x2f51626d15d3368c7950ea83e1575ec8e0e4c962",
+    "tag": "",
+    "value": "0.78434926337931364370",
+    "is_contract": 0,
+    "balance": "1.088756552511071659",
+    "percent": "0.000024574189361063",
+    "NFT_list": [
+     {
+      "value": "0.78434926337931364370",
+      "NFT_id": "466426",
+      "amount": "1.088756552511071659",
+      "in_effect": "1",
+      "NFT_percentage": "0.000024574189361063"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x277db43abe111744b1fb7c2683c9244268ed24a6",
+    "tag": "",
+    "value": "0.75681338139077888444",
+    "is_contract": 1,
+    "balance": "7.011965276245601094",
+    "percent": "0.000023711471679281",
+    "NFT_list": [
+     {
+      "value": "0.64588553355397934032",
+      "NFT_id": "738521",
+      "amount": "6.018795084292619722",
+      "in_effect": "0",
+      "NFT_percentage": "0.000020236027683309"
+     },
+     {
+      "value": "0.11092784783679954412",
+      "NFT_id": "737167",
+      "amount": "0.993170191952981372",
+      "in_effect": "0",
+      "NFT_percentage": "0.000003475443995972"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "36861.63721990399",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Neron Lyra",
+  "token_symbol": "NLYRA",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x2105d04425300c8e70e3d829eb99c94831a528e36f716c109d593fa28e4befa6",
+  "block": 20797830,
+  "deployer": "0xe30647793192d15bfa6e53ae8651368d332fe04c",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xa5aab3f0c6eeadf30ef1d3eb997108e976351feb",
+  "tx_from": "0xe30647793192d15bfa6e53ae8651368d332fe04c",
+  "tx_to": "0xa5aab3f0c6eeadf30ef1d3eb997108e976351feb",
+  "ts": 1785161898
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 67014.5,
+  "geckoterminal_top_usd": 67481.808
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x483C24d1e36Df01b650F1E9BEEB2a1c31C005C39",
+   "liq_usd": 67014.5,
+   "created": 1785161898000,
+   "url": "https://dexscreener.com/robinhood/0x483c24d1e36df01b650f1e9beeb2a1c31c005c39",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1138,
+ "site_ips": [
+  "167.233.121.187"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x736d76699c26d0d966744cae304c000d471f7f35?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x736d76699c26d0d966744cae304c000d471f7f35",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe30647793192d15bfa6e53ae8651368d332fe04c/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=nlyra.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/nlyra.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5274 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 98507357",
+    "https://robinhoodchain.blockscout.com/address/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as PonsLauncherToken. Sourcify: match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+    "https://robinhoodchain.blockscout.com/address/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 98507357"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb9d3824149ad8ac984153ceec91d5a2405d1fb95 owner() @ 98507357 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 98507357",
+    "https://repo.sourcify.dev/4663/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9d3824149ad8ac984153ceec91d5a2405d1fb95"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xe30647793192d15bfa6e53ae8651368d332fe04c holds 1.49% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xe30647793192d15bfa6e53ae8651368d332fe04c) @ 98507357",
+    "https://robinhoodchain.blockscout.com/address/0xe30647793192d15bfa6e53ae8651368d332fe04c"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.17% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95/holders",
+    "https://robinhoodchain.blockscout.com/token/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $67,014 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x483c24d1e36df01b650f1e9beeb2a1c31c005c39",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): PonsLaunchLocker 0x736d76699c26d0d966744cae304c000d471f7f35 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+    "https://robinhoodchain.blockscout.com/address/0x736d76699c26d0d966744cae304c000d471f7f35?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xe30647793192d15bfa6e53ae8651368d332fe04c has sent 1138 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe30647793192d15bfa6e53ae8651368d332fe04c",
+    "https://robinhoodchain.blockscout.com/tx/0x2105d04425300c8e70e3d829eb99c94831a528e36f716c109d593fa28e4befa6",
+    "eth_getTransactionCount = 1138"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xe30647793192d15bfa6e53ae8651368d332fe04c on Blockscout: block 20797830 (2026-07-27 14:18 UTC), 91.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe30647793192d15bfa6e53ae8651368d332fe04c",
+    "https://robinhoodchain.blockscout.com/tx/0x2105d04425300c8e70e3d829eb99c94831a528e36f716c109d593fa28e4befa6",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xe30647793192d15bfa6e53ae8651368d332fe04c/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "nlyra.xyz -> 167.233.121.187; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=nlyra.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "nlyra.xyz registered 2026-07-27 (91 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/nlyra.xyz"
+   ]
+  }
+ ],
+ "score": 11,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xe30647793192d15bfa6e53ae8651368d332fe04c has sent 1138 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xe30647793192d15bfa6e53ae8651368d332fe04c",
+    "https://robinhoodchain.blockscout.com/tx/0x2105d04425300c8e70e3d829eb99c94831a528e36f716c109d593fa28e4befa6",
+    "eth_getTransactionCount = 1138"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  }
+ ],
+ "label": "Neron Lyra",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+  "site": "https://nlyra.xyz/",
+  "x_profile": "http://x.com/nlyraproject",
+  "pool_url": "https://dexscreener.com/robinhood/0xb9d3824149ad8ac984153ceec91d5a2405d1fb95",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

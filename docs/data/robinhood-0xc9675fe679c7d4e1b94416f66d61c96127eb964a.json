@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xc9675fe679c7d4e1b94416f66d61c96127eb964a",
- "scanned_at_utc": "2026-10-24T04:26:22Z",
- "block": 96489977,
+ "scanned_at_utc": "2026-10-26T15:12:54Z",
+ "block": 98508406,
  "site": "https://gigatenev.com",
  "post": null,
  "token": {
@@ -37,53 +37,39 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "39479.10709191970633835930",
+    "liquidity": "6972.612553998174",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0",
-    "pair": "0xe96c99be1ffcc204714ebce32870ab12b8b362308fa50b9352c03b2486a5d448"
-   },
-   {
-    "liquidity_type": "UniV4",
-    "name": "UniswapV4",
-    "liquidity": "4693.6688780",
-    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.00801",
     "pair": "0x4d83ac497b6dd393fee7e5965321547b1392bfcd79f95d8df5a34df2890a421c"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "903.5197260",
+    "liquidity": "1564.58296084378950565486",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pair": "0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d"
+    "pool_fee": "0.003",
+    "pair": "0xa43d797966a59838148f0087967acef953b2670a11e86fe1aeae304b18415a6e"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "824.800959000000",
+    "liquidity": "813.719124710054",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.034211",
-    "pair": "0x291e5a28d3b8ba1067fedcab24133d5a8890cabf08da75c8c301686a7f12b934"
+    "pool_fee": "0.021",
+    "pair": "0x83ca3a60d92087e91e282fea0a560ef894238dac3b832d2a7169cf51c47ec634"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "332.747829000000",
+    "liquidity": "218.70634467756",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.03351",
-    "pair": "0xa8bf3712c31f4fe77bc8637ed3eba214e969170e91a82f665622b7159b33c095"
+    "pool_fee": "0.03401",
+    "pair": "0x95c762a9d1f29a44edc9e581615a4675d9b24fe96e28e7fa7139847a6916c88c"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "274.6368510",
-    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.04294",
-    "pair": "0xb01476269e34a63c907ca88366483142db3a470022e6a55ae710e32fe46a0905"
-   },
-   {
-    "liquidity_type": "UniV4",
-    "name": "UniswapV4",
-    "liquidity": "140.164616000000",
+    "liquidity": "160.654570309032",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.0005",
     "pair": "0x6fc6c57751c963d56312fb60f460139692df82b9d52c5250b116eefb9151ba37"
@@ -91,15 +77,39 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "99.9999990",
+    "liquidity": "120.007605102034",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.04993",
-    "pair": "0x05c41092731238e64d9630b807efcf90d310b621ce17cc87adf8b6922c192e48"
+    "pool_fee": "0.03425",
+    "pair": "0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "40.15814482945390117690",
+    "liquidity": "94.044261759058",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.04995",
+    "pair": "0xcc584de9d62bde30861aa41fcede8ba23eaab8689158a9c440fa30319305f21b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "45.756006471882",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.034513",
+    "pair": "0xc4526d5942f5d025a170dc1039f86d4dab39b7c6bdba454feb67d349c561a0b7"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "43.951132366880",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.08",
+    "pair": "0x8fa61599632bcdaafcddf1ac197448a78314bbb19dfd5ce3117abca847f5b736"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "29.38053249511401963652",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.08",
     "pair": "0x9bbfb87942ec1655f9792b7024bef99d275403d6d7cec3473b56cdcf0a4ffc0b"
@@ -107,7 +117,14 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "13.97688324648571029470",
+    "liquidity": "17.7584310",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pair": "0x291e5a28d3b8ba1067fedcab24133d5a8890cabf08da75c8c301686a7f12b934"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "13.89145557722516877228",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.9",
     "pair": "0xc2c183579c80eecc6b21132e07904301dd81774d5099aa2f1137e6f3723e6b0e"
@@ -115,7 +132,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "7.475389000000",
+    "liquidity": "10.009969000000",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.034493",
     "pair": "0x7349fcb4c9d212bbd9819a607919a2a8a7e18d70103dcc8f306c8cd6aea612dc"
@@ -135,6 +152,14 @@
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.870369",
     "pair": "0x345da22195d639b68600cf669e4a4dfbdee807cd138d9cba65a17bc0ef90cb0c"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.85162203699999765819",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.86236",
+    "pair": "0x02ce6ded81ef5e8cefffa6e735da516e24bf467ec14f91bb5fabd4068276350c"
    },
    {
     "liquidity_type": "UniV4",
@@ -170,6 +195,14 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
+    "liquidity": "0.4900020",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.79",
+    "pair": "0x11119d9a50021c19eac8469361f5fa34a796cad0f21e78541684cb2baa61cf44"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
     "liquidity": "0.2411999999999927640",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.87",
@@ -197,18 +230,26 @@
     "liquidity": "0.0005990",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pair": "0xdf723c5da0275931e8b62ba4fff17714ac2d4fec1f6b893d22dd6858b004b760"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.00000000000006322887",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.819242",
+    "pair": "0xe99ce89ff990a9f1bc6c9bb59c126e60dab448f7f3bb01003ad144d97d07947e"
    }
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "10078",
+  "holder_count": "11096",
   "holders": [
    {
     "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
     "tag": "",
     "is_contract": 1,
-    "balance": "47805876.575001408817666213",
-    "percent": "0.047806",
+    "balance": "45777574.536425012074815603",
+    "percent": "0.045778",
     "is_locked": 0
    },
    {
@@ -223,8 +264,8 @@
     "address": "0x2C10013678aafCA9d90e914BA02F087bf449446e",
     "tag": "",
     "is_contract": 0,
-    "balance": "10290121.65695417202653075",
-    "percent": "0.010290",
+    "balance": "10911518.275439710008609633",
+    "percent": "0.010912",
     "is_locked": 0
    },
    {
@@ -247,7 +288,7 @@
     "address": "0xeA84A2bDAE1CCD33fae43922381b1AB6a26d6014",
     "tag": "",
     "is_contract": 1,
-    "balance": "7713532.060148739672851992",
+    "balance": "7713532.0601487494327115",
     "percent": "0.007714",
     "is_locked": 0
    },
@@ -293,67 +334,124 @@
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
-  "lp_holder_count": "2",
+  "lp_holder_count": "4",
   "lp_holders": [
    {
-    "address": "0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4",
+    "address": "0x000000431ddc2612c8db1f76a49ba0f78b754443",
     "tag": "",
-    "value": "40202.07587497329965415264",
+    "value": "4999.509999000098",
     "is_contract": 0,
-    "balance": "24466.221612664265246408",
-    "percent": "0.996287796998478454",
+    "balance": "0.237119748719962555",
+    "percent": "0.734119347979497281",
     "NFT_list": [
      {
-      "value": "40202.07587497329965415264",
-      "NFT_id": "3691194",
-      "amount": "24466.221612664265246408",
-      "in_effect": "1",
-      "NFT_percentage": "0.996287796998478454"
+      "value": "4999.509999000098",
+      "NFT_id": "4014839",
+      "amount": "0.237119748719962555",
+      "in_effect": "0",
+      "NFT_percentage": "0.734119347979497281"
      }
     ],
     "is_locked": 0
    },
    {
-    "address": "0xc31bd8a6cfcaacec6f26f7120ddd81f680047195",
+    "address": "0xdcc31ae1eb2c289ca27fdedff300ddb970c95f81",
     "tag": "",
-    "value": "149.79433370566590735882",
+    "value": "1749.828499000098",
     "is_contract": 0,
-    "balance": "400.642429243797882224",
-    "percent": "0.003712203001521546",
+    "balance": "0.082991912051986894",
+    "percent": "0.256941771697388533",
     "NFT_list": [
      {
-      "value": "149.79433370566590735882",
-      "NFT_id": "3971947",
-      "amount": "400.642429243797882224",
+      "value": "1749.828499000098",
+      "NFT_id": "4014840",
+      "amount": "0.082991912051986894",
+      "in_effect": "0",
+      "NFT_percentage": "0.256941771697388533"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x3b62edb21178dcb53729e7fd623ae83d2f87aed4",
+    "tag": "",
+    "value": "55.272770737576",
+    "is_contract": 1,
+    "balance": "0.005062120840842806",
+    "percent": "0.008116157468032846",
+    "NFT_list": [
+     {
+      "value": "55.272770737576",
+      "NFT_id": "4014369",
+      "amount": "0.005062120840842806",
       "in_effect": "1",
-      "NFT_percentage": "0.003712203001521546"
+      "NFT_percentage": "0.008116157468032846"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x1578f35d42ce6a9183412264b993093035195aa0",
+    "tag": "",
+    "value": "5.602918860136",
+    "is_contract": 0,
+    "balance": "0.184053722054581996",
+    "percent": "0.000822722855081340",
+    "NFT_list": [
+     {
+      "value": "5.602918860136",
+      "NFT_id": "4016238",
+      "amount": "0.184053722054581996",
+      "in_effect": "1",
+      "NFT_percentage": "0.000822722855081340"
      },
      {
-      "value": "0.00",
-      "NFT_id": "3704120",
+      "value": "0.000000",
+      "NFT_id": "4016092",
       "amount": "0",
       "in_effect": "0",
       "NFT_percentage": "0.000000000000000000"
      },
      {
-      "value": "0.00",
-      "NFT_id": "3918048",
+      "value": "0.000000",
+      "NFT_id": "4015498",
       "amount": "0",
       "in_effect": "0",
       "NFT_percentage": "0.000000000000000000"
      },
      {
-      "value": "0.00",
-      "NFT_id": "3959711",
+      "value": "0.000000",
+      "NFT_id": "4013725",
+      "amount": "0",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     },
+     {
+      "value": "0.000000",
+      "NFT_id": "4014087",
       "amount": "0",
       "in_effect": "1",
+      "NFT_percentage": "0.000000000000000000"
+     },
+     {
+      "value": "0.000000",
+      "NFT_id": "4014438",
+      "amount": "0",
+      "in_effect": "0",
+      "NFT_percentage": "0.000000000000000000"
+     },
+     {
+      "value": "0.000000",
+      "NFT_id": "4014945",
+      "amount": "0",
+      "in_effect": "0",
       "NFT_percentage": "0.000000000000000000"
      }
     ],
     "is_locked": 0
    }
   ],
-  "lp_total_supply": "24866.864041908066",
+  "lp_total_supply": "0.5092275036673742",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
@@ -379,49 +477,49 @@
   "ts": 1791568846
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 80419.52,
-  "geckoterminal_top_usd": 80339.9113
+  "dexscreener_top_usd": 82558.68,
+  "geckoterminal_top_usd": 82184.8611
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0xe96c99be1ffcc204714ebce32870ab12b8b362308fa50b9352c03b2486a5d448",
-   "liq_usd": 80419.52,
+   "liq_usd": 82558.68,
    "created": 1791568900000,
    "url": "https://dexscreener.com/robinhood/0xe96c99be1ffcc204714ebce32870ab12b8b362308fa50b9352c03b2486a5d448",
    "quote": "ETH"
   },
   {
    "dex": "uniswap",
-   "pair": "0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d",
-   "liq_usd": 13518.7,
-   "created": 1792201749000,
-   "url": "https://dexscreener.com/robinhood/0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d",
-   "quote": "USDG"
-  },
-  {
-   "dex": "uniswap",
    "pair": "0x4d83ac497b6dd393fee7e5965321547b1392bfcd79f95d8df5a34df2890a421c",
-   "liq_usd": 10101.54,
+   "liq_usd": 23245.27,
    "created": 1792598335000,
    "url": "https://dexscreener.com/robinhood/0x4d83ac497b6dd393fee7e5965321547b1392bfcd79f95d8df5a34df2890a421c",
    "quote": "USDG"
   },
   {
    "dex": "uniswap",
+   "pair": "0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d",
+   "liq_usd": 17487.39,
+   "created": 1792201749000,
+   "url": "https://dexscreener.com/robinhood/0xea71ebd7b1e222b3e7cf69c009858e8f9ef7395cea8dcb885074d59fdcbc350d",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
    "pair": "0x8fa61599632bcdaafcddf1ac197448a78314bbb19dfd5ce3117abca847f5b736",
-   "liq_usd": 5323.01,
+   "liq_usd": 7086.03,
    "created": 1792472195000,
    "url": "https://dexscreener.com/robinhood/0x8fa61599632bcdaafcddf1ac197448a78314bbb19dfd5ce3117abca847f5b736",
    "quote": "USDG"
   },
   {
    "dex": "uniswap",
-   "pair": "0x6fc6c57751c963d56312fb60f460139692df82b9d52c5250b116eefb9151ba37",
-   "liq_usd": 2019.3,
-   "created": 1792667379000,
-   "url": "https://dexscreener.com/robinhood/0x6fc6c57751c963d56312fb60f460139692df82b9d52c5250b116eefb9151ba37",
-   "quote": "USDG"
+   "pair": "0xa43d797966a59838148f0087967acef953b2670a11e86fe1aeae304b18415a6e",
+   "liq_usd": 3456.38,
+   "created": 1792841424000,
+   "url": "https://dexscreener.com/robinhood/0xa43d797966a59838148f0087967acef953b2670a11e86fe1aeae304b18415a6e",
+   "quote": "ETH"
   }
  ],
  "launcher_nonce": 10,
@@ -489,7 +587,7 @@
    "points": 0,
    "detail": "1764 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 96489977",
+    "eth_getCode @ block 98508406",
     "https://robinhoodchain.blockscout.com/address/0xc9675fe679c7d4e1b94416f66d61c96127eb964a"
    ]
   },
@@ -513,7 +611,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 96489977"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 98508406"
    ]
   },
   {
@@ -524,7 +622,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xc9675fe679c7d4e1b94416f66d61c96127eb964a owner() @ 96489977 -> revert/empty"
+    "eth_call 0xc9675fe679c7d4e1b94416f66d61c96127eb964a owner() @ 98508406 -> revert/empty"
    ]
   },
   {
@@ -535,7 +633,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 96489977",
+    "selector scan @ 98508406",
     "https://repo.sourcify.dev/4663/0xc9675fe679c7d4e1b94416f66d61c96127eb964a"
    ]
   },
@@ -567,7 +665,7 @@
    "points": 0,
    "detail": "Launch wallet 0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4 holds 0.77% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4) @ 96489977",
+    "eth_call balanceOf(0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4) @ 98508406",
     "https://robinhoodchain.blockscout.com/address/0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4"
    ]
   },
@@ -589,7 +687,7 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $80,420 (uniswap).",
+   "detail": "Top pool liquidity $82,559 (uniswap).",
    "evidence": [
     "https://dexscreener.com/robinhood/0xe96c99be1ffcc204714ebce32870ab12b8b362308fa50b9352c03b2486a5d448",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xc9675fe679c7d4e1b94416f66d61c96127eb964a"
@@ -626,7 +724,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4 on Blockscout: block 84313991 (2026-10-09 16:56 UTC), 14.5 days before scan.",
+   "detail": "Oldest transaction of 0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4 on Blockscout: block 84313991 (2026-10-09 16:56 UTC), 16.9 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x3ce81a320ef0c983f08fb7e7ae9cad672a0976b4",
     "https://robinhoodchain.blockscout.com/tx/0x2691f8e66212c5dc255e1d3f6cead338ee6c1e857fa35743dcf79ae3b5987d36",
@@ -651,7 +749,7 @@
    "title": "Domain age",
    "status": "pass",
    "points": 0,
-   "detail": "gigatenev.com registered 2026-10-09 (14 days ago).",
+   "detail": "gigatenev.com registered 2026-10-09 (17 days ago).",
    "evidence": [
     "https://rdap.org/domain/gigatenev.com"
    ]

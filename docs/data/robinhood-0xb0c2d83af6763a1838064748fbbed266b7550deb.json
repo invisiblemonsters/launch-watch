@@ -1,0 +1,457 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xb0c2d83af6763a1838064748fbbed266b7550deb",
+ "scanned_at_utc": "2026-10-26T15:10:12Z",
+ "block": 98506793,
+ "site": "https://milliondollarhomepage.live/",
+ "post": null,
+ "token": {
+  "name": "Million Dollar Homepage",
+  "symbol": "1M",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2413.54646180066644837850",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0x1be90dd4a5aa41b4f2ebd1a4e9e149434ee67ea19c2fa184794d998d51b8953b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.7475200",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x59ed6f05ea239862d3ed4a02760e46b9908866e23b903da84b502bcfd6dca351"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4866880",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0xf9e157a40bcdb7ae473762fda0e6e0ec9c65b8984c23e91cac715b282e73d7b1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.1669080",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.91",
+    "pair": "0xa773e93e71f6667b952c829bcf95d05a47acc015936e7f9eea9d8f3d7d401d59"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.15999923288293172270",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.79",
+    "pair": "0x3d2691bca1da0748d06d2b08a972f8da665f6b781e5575455259579fe5a3b33e"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+    "tag": "",
+    "value": "2413.5464618006664483785",
+    "is_contract": 1,
+    "balance": "29277.002188455995474736",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "2413.5464618006664483785",
+      "NFT_id": "4013546",
+      "amount": "29277.002188455995474736",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "29277.002188455994",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Million Dollar Homepage",
+  "token_symbol": "1M",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x4ac24021207200cfa1e725019889bd5f1dd388449000e1d6e8c6a388b421f459",
+  "block": 98307438,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x00d18375e3a1b0359f7b3ad48f797709b4419e89",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1793006751
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 4730.08,
+  "geckoterminal_top_usd": 0.9287
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x1be90dd4a5aa41b4f2ebd1a4e9e149434ee67ea19c2fa184794d998d51b8953b",
+   "liq_usd": 4730.08,
+   "created": 1793014935000,
+   "url": "https://dexscreener.com/robinhood/0x1be90dd4a5aa41b4f2ebd1a4e9e149434ee67ea19c2fa184794d998d51b8953b",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x92d47154dd3469d4f3a3d69199a3b733c41066395ab6daf0e0e0d70feabe97be",
+   "liq_usd": 1.72,
+   "created": 1793018560000,
+   "url": "https://dexscreener.com/robinhood/0x92d47154dd3469d4f3a3d69199a3b733c41066395ab6daf0e0e0d70feabe97be",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xf9e157a40bcdb7ae473762fda0e6e0ec9c65b8984c23e91cac715b282e73d7b1",
+   "liq_usd": 0.97,
+   "created": 1793016836000,
+   "url": "https://dexscreener.com/robinhood/0xf9e157a40bcdb7ae473762fda0e6e0ec9c65b8984c23e91cac715b282e73d7b1",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x3d2691bca1da0748d06d2b08a972f8da665f6b781e5575455259579fe5a3b33e",
+   "liq_usd": 0.32,
+   "created": 1793012256000,
+   "url": "https://dexscreener.com/robinhood/0x3d2691bca1da0748d06d2b08a972f8da665f6b781e5575455259579fe5a3b33e",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 13,
+ "deployer_contracts": [],
+ "site_ips": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xb0c2d83af6763a1838064748fbbed266b7550deb?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xb0c2d83af6763a1838064748fbbed266b7550deb",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb0c2d83af6763a1838064748fbbed266b7550deb",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb0c2d83af6763a1838064748fbbed266b7550deb",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb0c2d83af6763a1838064748fbbed266b7550deb/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb0c2d83af6763a1838064748fbbed266b7550deb",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xb0c2d83af6763a1838064748fbbed266b7550deb/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x00d18375e3a1b0359f7b3ad48f797709b4419e89/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=milliondollarhomepage.live&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/milliondollarhomepage.live",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 98506793",
+    "https://robinhoodchain.blockscout.com/address/0xb0c2d83af6763a1838064748fbbed266b7550deb"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb0c2d83af6763a1838064748fbbed266b7550deb?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 98506793"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xb0c2d83af6763a1838064748fbbed266b7550deb owner() @ 98506793 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 98506793",
+    "https://robinhoodchain.blockscout.com/address/0xb0c2d83af6763a1838064748fbbed266b7550deb?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb0c2d83af6763a1838064748fbbed266b7550deb"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x00d18375e3a1b0359f7b3ad48f797709b4419e89 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x00d18375e3a1b0359f7b3ad48f797709b4419e89) @ 98506793",
+    "https://robinhoodchain.blockscout.com/address/0x00d18375e3a1b0359f7b3ad48f797709b4419e89"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.43% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xb0c2d83af6763a1838064748fbbed266b7550deb/holders",
+    "https://robinhoodchain.blockscout.com/token/0xb0c2d83af6763a1838064748fbbed266b7550deb?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,730 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x1be90dd4a5aa41b4f2ebd1a4e9e149434ee67ea19c2fa184794d998d51b8953b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb0c2d83af6763a1838064748fbbed266b7550deb"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xb0c2d83af6763a1838064748fbbed266b7550deb",
+    "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x00d18375e3a1b0359f7b3ad48f797709b4419e89 (CREATE nonce scan 0..12); tokens launched via factories are not counted. Wallet nonce = 13.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x00d18375e3a1b0359f7b3ad48f797709b4419e89",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac24021207200cfa1e725019889bd5f1dd388449000e1d6e8c6a388b421f459"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x00d18375e3a1b0359f7b3ad48f797709b4419e89 on Blockscout: block 98282821 (2026-10-26 08:43 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x00d18375e3a1b0359f7b3ad48f797709b4419e89",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac24021207200cfa1e725019889bd5f1dd388449000e1d6e8c6a388b421f459",
+    "https://robinhoodchain.blockscout.com/tx/0x3cd75e64fb7b787b1d318ff56a1cf1406f68b0bfe9054cbe330b86e9385694fa",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x00d18375e3a1b0359f7b3ad48f797709b4419e89/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "milliondollarhomepage.live: no A record via Google DoH (NXDOMAIN/empty).",
+   "evidence": [
+    "https://dns.google/resolve?name=milliondollarhomepage.live&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "milliondollarhomepage.live registered 2026-10-25 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/milliondollarhomepage.live"
+   ]
+  }
+ ],
+ "score": 32,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $4,730 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x1be90dd4a5aa41b4f2ebd1a4e9e149434ee67ea19c2fa184794d998d51b8953b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xb0c2d83af6763a1838064748fbbed266b7550deb"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x00d18375e3a1b0359f7b3ad48f797709b4419e89 on Blockscout: block 98282821 (2026-10-26 08:43 UTC), 0.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x00d18375e3a1b0359f7b3ad48f797709b4419e89",
+    "https://robinhoodchain.blockscout.com/tx/0x4ac24021207200cfa1e725019889bd5f1dd388449000e1d6e8c6a388b421f459",
+    "https://robinhoodchain.blockscout.com/tx/0x3cd75e64fb7b787b1d318ff56a1cf1406f68b0bfe9054cbe330b86e9385694fa",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x00d18375e3a1b0359f7b3ad48f797709b4419e89/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "milliondollarhomepage.live registered 2026-10-25 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/milliondollarhomepage.live"
+   ]
+  }
+ ],
+ "label": "Million Dollar Homepage",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xb0c2d83af6763a1838064748fbbed266b7550deb",
+  "site": "https://milliondollarhomepage.live/",
+  "x_profile": "https://x.com/1Mdollarhome",
+  "pool_url": "https://dexscreener.com/robinhood/0xb0c2d83af6763a1838064748fbbed266b7550deb",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

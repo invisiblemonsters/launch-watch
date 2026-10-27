@@ -1,0 +1,364 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+ "scanned_at_utc": "2026-10-27T15:21:36Z",
+ "block": 53162574,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Institutional Oil Fund/IOF",
+  "symbol": "IFO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xd064ebe29148cb5a179659142ae30b4a3812af11",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Institutional Oil Fund/IOF",
+  "token_symbol": "IFO",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x93d3162a0b24041c5166daa5b19896df5b67e0da7df4f1700d3783079b99dd09",
+  "block": 53160076,
+  "deployer": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "source": "Blockscout address creator",
+  "tx_from": "0xd064ebe29148cb5a179659142ae30b4a3812af11",
+  "tx_to": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "ts": 1793109499
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 209447.79,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xf5a4a7ec61a0a1a487bb55a473099ff94b678f77540aa296fada9da9c2c973cb",
+   "liq_usd": 209447.79,
+   "created": 1793109499000,
+   "url": "https://dexscreener.com/base/0xf5a4a7ec61a0a1a487bb55a473099ff94b678f77540aa296fada9da9c2c973cb",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 33,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xfdd86927d588f01fcd39b941a82eb8014a012eab?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xfdd86927d588f01fcd39b941a82eb8014a012eab&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xfdd86927d588f01fcd39b941a82eb8014a012eab/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xfdd86927d588f01fcd39b941a82eb8014a012eab/pools",
+   "err": "The read operation timed out",
+   "attempt": 1
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xd064ebe29148cb5a179659142ae30b4a3812af11/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53162574",
+    "https://base.blockscout.com/address/0xfdd86927d588f01fcd39b941a82eb8014a012eab"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xfdd86927d588f01fcd39b941a82eb8014a012eab?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xfdd86927d588f01fcd39b941a82eb8014a012eab"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xfdd86927d588f01fcd39b941a82eb8014a012eab owner() @ 53162574 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53162574"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xfdd86927d588f01fcd39b941a82eb8014a012eab"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xfdd86927d588f01fcd39b941a82eb8014a012eab&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xd064ebe29148cb5a179659142ae30b4a3812af11 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xd064ebe29148cb5a179659142ae30b4a3812af11) @ 53162574",
+    "https://base.blockscout.com/address/0xd064ebe29148cb5a179659142ae30b4a3812af11"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xfdd86927d588f01fcd39b941a82eb8014a012eab/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $209,448 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xf5a4a7ec61a0a1a487bb55a473099ff94b678f77540aa296fada9da9c2c973cb",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xfdd86927d588f01fcd39b941a82eb8014a012eab"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xf5a4a7ec61\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xf5a4a7ec61a0a1a487bb55a473099ff94b678f77540aa296fada9da9c2c973cb"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xd064ebe29148cb5a179659142ae30b4a3812af11 (CREATE nonce scan 0..32); tokens launched via factories are not counted. Wallet nonce = 33.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xd064ebe29148cb5a179659142ae30b4a3812af11",
+    "https://base.blockscout.com/tx/0x93d3162a0b24041c5166daa5b19896df5b67e0da7df4f1700d3783079b99dd09"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xd064ebe29148cb5a179659142ae30b4a3812af11 on Blockscout: block 53159859 (2026-10-27 13:51 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xd064ebe29148cb5a179659142ae30b4a3812af11",
+    "https://base.blockscout.com/tx/0x93d3162a0b24041c5166daa5b19896df5b67e0da7df4f1700d3783079b99dd09",
+    "https://base.blockscout.com/tx/0xca2114de677bcf3d00bfb8b1b6e1b64185a608f8f313253dea9a0628c7188cf0",
+    "https://base.blockscout.com/api/v2/addresses/0xd064ebe29148cb5a179659142ae30b4a3812af11/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 18,
+ "band": "LOW",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xd064ebe29148cb5a179659142ae30b4a3812af11 on Blockscout: block 53159859 (2026-10-27 13:51 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xd064ebe29148cb5a179659142ae30b4a3812af11",
+    "https://base.blockscout.com/tx/0x93d3162a0b24041c5166daa5b19896df5b67e0da7df4f1700d3783079b99dd09",
+    "https://base.blockscout.com/tx/0xca2114de677bcf3d00bfb8b1b6e1b64185a608f8f313253dea9a0628c7188cf0",
+    "https://base.blockscout.com/api/v2/addresses/0xd064ebe29148cb5a179659142ae30b4a3812af11/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xfdd86927d588f01fcd39b941a82eb8014a012eab/holders"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "Institutional Oil Fund/IOF",
+ "target": {
+  "chain": "base",
+  "address": "0xfdd86927d588f01fcd39b941a82eb8014a012eab",
+  "name": "Institutional Oil Fund/IOF",
+  "symbol": "IFO",
+  "created_at": "2026-10-27T13:58:19Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 211181.7343,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xf5a4a7ec61a0a1a487bb55a473099ff94b678f77540aa296fada9da9c2c973cb",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

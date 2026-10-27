@@ -1,0 +1,467 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+ "scanned_at_utc": "2026-10-27T21:23:39Z",
+ "block": 99552410,
+ "site": "https://sentro.trade/",
+ "post": null,
+ "token": {
+  "name": "Sentro",
+  "symbol": "SENTRO",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "7701.21880457559379856946",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0x41a8ed249e7a638d6042c2e715a0375dc03fc41ced9af68b64168483690c8af2"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.85413049899999765613",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.86236",
+    "pair": "0xd6b403822cf9479cb0e650ce9165d1d1f3f3cdc17a6e9d9a819389c29ddfffe5"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.94854424340556330920",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.819242",
+    "pair": "0x3c18f1887ea35c90930790149b7c67a1872d687ea958dfc0a9d921ae610747e1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.441119157824",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77",
+    "pair": "0xee1506c629c3685eab9c8af5c5967fd189c3d414aefc98251545e3c8b44bfa5e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.176074228704",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.92",
+    "pair": "0xa4d749d70c4847112f7ec8708da21c8c943372f94d9e57b7a66c0ac3eafb4aa0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.10211404828409765613",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.79",
+    "pair": "0x77dcdbebc6c60a8065fb790ea8c8e6d69adaca64d531efd7647aaff18674ea58"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.098809579824",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x80d895f27bac797e8930333865f92eaa11766023a9adbf68c020ae2e6de58ff5"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+    "tag": "",
+    "value": "9504.48566420982835581753",
+    "is_contract": 1,
+    "balance": "29277.002188455996335121",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "9504.48566420982835581753",
+      "NFT_id": "4031047",
+      "amount": "29277.002188455996335121",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "29277.002188455994",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Sentro",
+  "token_symbol": "SENTRO",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xfc2f178d8042bc42f953f757489a07eb4fe2853c1c62c4dc644c81981dcae41e",
+  "block": 99214891,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x475ec06e8685e506504167aa5aeea1a8178a0f10",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1793101179
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 18625.54,
+  "geckoterminal_top_usd": 18706.2681
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x41a8ed249e7a638d6042c2e715a0375dc03fc41ced9af68b64168483690c8af2",
+   "liq_usd": 18625.54,
+   "created": 1793109045000,
+   "url": "https://dexscreener.com/robinhood/0x41a8ed249e7a638d6042c2e715a0375dc03fc41ced9af68b64168483690c8af2",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x3c18f1887ea35c90930790149b7c67a1872d687ea958dfc0a9d921ae610747e1",
+   "liq_usd": 4.02,
+   "created": 1793101275000,
+   "url": "https://dexscreener.com/robinhood/0x3c18f1887ea35c90930790149b7c67a1872d687ea958dfc0a9d921ae610747e1",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x77dcdbebc6c60a8065fb790ea8c8e6d69adaca64d531efd7647aaff18674ea58",
+   "liq_usd": 0.2,
+   "created": 1793102014000,
+   "url": "https://dexscreener.com/robinhood/0x77dcdbebc6c60a8065fb790ea8c8e6d69adaca64d531efd7647aaff18674ea58",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 11,
+ "deployer_contracts": [],
+ "site_ips": [
+  "66.241.125.134"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x0bd8190edff57bb502eb2facd61fe7e991da08d6?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x0bd8190edff57bb502eb2facd61fe7e991da08d6/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x0bd8190edff57bb502eb2facd61fe7e991da08d6/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x267444d099b10fb5ed7c3cc7b7c767adca574952",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x475ec06e8685e506504167aa5aeea1a8178a0f10/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=sentro.trade&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/sentro.trade",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 99552410",
+    "https://robinhoodchain.blockscout.com/address/0x0bd8190edff57bb502eb2facd61fe7e991da08d6"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0bd8190edff57bb502eb2facd61fe7e991da08d6?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 99552410"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x0bd8190edff57bb502eb2facd61fe7e991da08d6 owner() @ 99552410 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 99552410",
+    "https://robinhoodchain.blockscout.com/address/0x0bd8190edff57bb502eb2facd61fe7e991da08d6?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0bd8190edff57bb502eb2facd61fe7e991da08d6"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x475ec06e8685e506504167aa5aeea1a8178a0f10 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x475ec06e8685e506504167aa5aeea1a8178a0f10) @ 99552410",
+    "https://robinhoodchain.blockscout.com/address/0x475ec06e8685e506504167aa5aeea1a8178a0f10"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 4.11% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x0bd8190edff57bb502eb2facd61fe7e991da08d6/holders",
+    "https://robinhoodchain.blockscout.com/token/0x0bd8190edff57bb502eb2facd61fe7e991da08d6?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $18,626 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x41a8ed249e7a638d6042c2e715a0375dc03fc41ced9af68b64168483690c8af2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0bd8190edff57bb502eb2facd61fe7e991da08d6"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "info",
+   "points": 0,
+   "detail": "GoPlus reports 0.0% locked, but the LP position is held by verified locker contract(s): RobinFunFiV2LaunchLocker 0x267444d099b10fb5ed7c3cc7b7c767adca574952 (100.0%, verified on Sourcify/Blockscout). Not scored as unlocked. GoPlus may not recognise custom lockers, so its lock reading is not used as fact here. Launch Watch does not analyse the locker's unlock terms or owner powers.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+    "https://robinhoodchain.blockscout.com/address/0x267444d099b10fb5ed7c3cc7b7c767adca574952?tab=contract"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x475ec06e8685e506504167aa5aeea1a8178a0f10 (CREATE nonce scan 0..10); tokens launched via factories are not counted. Wallet nonce = 11.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x475ec06e8685e506504167aa5aeea1a8178a0f10",
+    "https://robinhoodchain.blockscout.com/tx/0xfc2f178d8042bc42f953f757489a07eb4fe2853c1c62c4dc644c81981dcae41e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x475ec06e8685e506504167aa5aeea1a8178a0f10 on Blockscout: block 99183999 (2026-10-27 10:46 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x475ec06e8685e506504167aa5aeea1a8178a0f10",
+    "https://robinhoodchain.blockscout.com/tx/0xfc2f178d8042bc42f953f757489a07eb4fe2853c1c62c4dc644c81981dcae41e",
+    "https://robinhoodchain.blockscout.com/tx/0xfbc5c5635d5569ea5b73aef30eaa33a39c93340340378ed21bcfac4c85c06236",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x475ec06e8685e506504167aa5aeea1a8178a0f10/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "sentro.trade -> 66.241.125.134; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=sentro.trade&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "sentro.trade registered 2026-10-25 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/sentro.trade"
+   ]
+  }
+ ],
+ "score": 24,
+ "band": "LOW",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $18,626 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x41a8ed249e7a638d6042c2e715a0375dc03fc41ced9af68b64168483690c8af2",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x0bd8190edff57bb502eb2facd61fe7e991da08d6"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x475ec06e8685e506504167aa5aeea1a8178a0f10 on Blockscout: block 99183999 (2026-10-27 10:46 UTC), 0.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x475ec06e8685e506504167aa5aeea1a8178a0f10",
+    "https://robinhoodchain.blockscout.com/tx/0xfc2f178d8042bc42f953f757489a07eb4fe2853c1c62c4dc644c81981dcae41e",
+    "https://robinhoodchain.blockscout.com/tx/0xfbc5c5635d5569ea5b73aef30eaa33a39c93340340378ed21bcfac4c85c06236",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x475ec06e8685e506504167aa5aeea1a8178a0f10/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "sentro.trade registered 2026-10-25 (2 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/sentro.trade"
+   ]
+  }
+ ],
+ "label": "Sentro",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+  "site": "https://sentro.trade/",
+  "x_profile": "https://x.com/SentroTrade",
+  "pool_url": "https://dexscreener.com/robinhood/0x0bd8190edff57bb502eb2facd61fe7e991da08d6",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

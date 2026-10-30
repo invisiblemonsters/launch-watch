@@ -1,0 +1,359 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x435dafb37f44173a9a6850c7a46ca282384edc53",
+ "scanned_at_utc": "2026-10-27T21:25:16Z",
+ "block": 53173484,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Official Eisenkot",
+  "symbol": "EISENKOT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "MintBurnTeamToken"
+ },
+ "verification": "verified",
+ "owner": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "owner_balance": "1000000000",
+  "owner_change_balance": "0",
+  "owner_percent": "1.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Official Eisenkot",
+  "token_symbol": "EISENKOT",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x26345c03f728b51553e80db4500c461509cb007efbeabb17722f84e3e0a46a89",
+  "block": 53172697,
+  "deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_from": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_to": null,
+  "ts": 1793134741
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 1800372.41,
+  "geckoterminal_top_usd": 1798910.5733
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xC48045793194e8F91C0FeaA7FA527F94B761871e",
+   "liq_usd": 1800372.41,
+   "created": 1793134883000,
+   "url": "https://dexscreener.com/base/0xc48045793194e8f91c0feaa7fa527f94b761871e",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1386,
+ "deployer_contracts_blockscout_page1": [
+  "0x6d089aa390aca211e5451b4a342bd5c65c597329",
+  "0x73687b42da555ae65f144a8e30a652c95911f2db",
+  "0xc38d78224f1ae8abded6b28bf31e8cf85764fff4",
+  "0xf39d7b27259b0ea6afa6fe3ca7b1c879c271d887"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x435dafb37f44173a9a6850c7a46ca282384edc53?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x435dafb37f44173a9a6850c7a46ca282384edc53",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x435dafb37f44173a9a6850c7a46ca282384edc53&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x435dafb37f44173a9a6850c7a46ca282384edc53/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x435dafb37f44173a9a6850c7a46ca282384edc53/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5150 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53173484",
+    "https://base.blockscout.com/address/0x435dafb37f44173a9a6850c7a46ca282384edc53"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MintBurnTeamToken. Sourcify: match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+    "https://base.blockscout.com/address/0x435dafb37f44173a9a6850c7a46ca282384edc53?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53173484"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x435dafb37f44173a9a6850c7a46ca282384edc53 owner() @ 53173484",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+    "https://base.blockscout.com/address/0x435dafb37f44173a9a6850c7a46ca282384edc53"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x435dafb37f44173a9a6850c7a46ca282384edc53"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x435dafb37f44173a9a6850c7a46ca282384edc53&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 30.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 53173484",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "info",
+   "points": 0,
+   "detail": "All indexed top holders are contracts (pool/curve/vault).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x435dafb37f44173a9a6850c7a46ca282384edc53/holders",
+    "https://base.blockscout.com/token/0x435dafb37f44173a9a6850c7a46ca282384edc53?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $1,800,372 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xc48045793194e8f91c0feaa7fa527f94b761871e",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x435dafb37f44173a9a6850c7a46ca282384edc53"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0xc48045793194e8f91c0feaa7fa527f94b761871e (uniswap) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc48045793194e8f91c0feaa7fa527f94b761871e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 has sent 1386 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0x26345c03f728b51553e80db4500c461509cb007efbeabb17722f84e3e0a46a89",
+    "eth_getTransactionCount = 1386"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 on Blockscout: block 51812886 (2026-09-26 09:31 UTC), 31.5 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0x26345c03f728b51553e80db4500c461509cb007efbeabb17722f84e3e0a46a89",
+    "https://base.blockscout.com/tx/0xa2935b455d9dc559fc1790b866f41102e86b7e18faa14f422eb3ba7ace54ed37",
+    "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 52,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 12,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x435dafb37f44173a9a6850c7a46ca282384edc53",
+    "https://base.blockscout.com/address/0x435dafb37f44173a9a6850c7a46ca282384edc53"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 30.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 53173484",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 has sent 1386 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0x26345c03f728b51553e80db4500c461509cb007efbeabb17722f84e3e0a46a89",
+    "eth_getTransactionCount = 1386"
+   ]
+  }
+ ],
+ "label": "Official Eisenkot",
+ "target": {
+  "chain": "base",
+  "address": "0x435dafb37f44173a9a6850c7a46ca282384edc53",
+  "name": "Official Eisenkot",
+  "symbol": "EISENKOT",
+  "created_at": "2026-10-27T21:01:23Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 1801602.5745,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xc48045793194e8f91c0feaa7fa527f94b761871e",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

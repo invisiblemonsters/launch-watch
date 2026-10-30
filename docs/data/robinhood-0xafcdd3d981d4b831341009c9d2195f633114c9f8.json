@@ -1,0 +1,536 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+ "scanned_at_utc": "2026-10-29T16:20:59Z",
+ "block": 101037547,
+ "site": "https://www.chloehood.site",
+ "post": null,
+ "token": {
+  "name": "Chloe",
+  "symbol": "CHLOE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "UERC20"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x000000e200088D55C39a11F609E5F667729ad49b",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "261.35613024399701942280",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.0025",
+    "pair": "0x2a2515371d06435efd5c210c7934b6c9cc9ef99f7e5ec6dd742f67ce7861c04e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.29416575348",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.88089",
+    "pair": "0x721a04b244a4b4cedbbd811ea72479b38b7ea014f0e4835733166d5f97c5c5e6"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.15730754736",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0xc93be6bae6f84c581f5d3a777e2b4c09e975cb550f5df71b8b778bf9ea21e961"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.05654664798",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x4cd02a1e4f64dce75233c75993ed855fc26464b373176767b3c5ae17869ec8b0"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "46",
+  "holders": [
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "982182186.334903604204550747",
+    "percent": "0.982182",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC32F831a63Dc26c3E386cD3D93dFF4EDbE24a8dE",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10382533.592825645579401087",
+    "percent": "0.010383",
+    "is_locked": 0
+   },
+   {
+    "address": "0x483D233Dbc23B1cE2085385be6618a685ED1D7FB",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2828091.139285397471957109",
+    "percent": "0.002828",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf9526Dd3361fe0ba6b7a99533ed471D3E808E99a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1221491.136093934159001365",
+    "percent": "0.001221",
+    "is_locked": 0
+   },
+   {
+    "address": "0xeFA1C7F708684a8115F942b2A084278df337F4B2",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "673683.203476358379656155",
+    "percent": "0.000674",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7bED6b952D0A040783E8B5a2B44437D0b2f25957",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "627481.067440358232406877",
+    "percent": "0.000627",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9404fD37CC2fAB4a99A8bc76Cf87aEc1F88C81BE",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "543621.798368559059421571",
+    "percent": "0.000544",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1787BC93CA7d50eb659355E5D51854E9C9e9deEc",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "448803.503909465150504951",
+    "percent": "0.000449",
+    "is_locked": 0
+   },
+   {
+    "address": "0x779A838C9c51f1F76E837120D4E8e7649dac6953",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "382859.235978534368233003",
+    "percent": "0.000383",
+    "is_locked": 0
+   },
+   {
+    "address": "0xBB1642fc936B8dDfd45D54481E0A934836B58d21",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "147896.729730729081068041",
+    "percent": "0.000148",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "324",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xeff166aaf189323c58dc27ed1206eb2c37faacdf",
+    "tag": "",
+    "value": "246.43884781674793963608",
+    "is_contract": 1,
+    "balance": "51274.188046840591947412",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "246.43884781674793963608",
+      "NFT_id": "4074489",
+      "amount": "51274.188046840591947412",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "51274.18804684059",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Chloe",
+  "token_symbol": "CHLOE",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xa674f7198538054b81322cd1567f5ed28f17f06c09add583cb2408914d51a3c1",
+  "block": 100932400,
+  "deployer": "0x000000e200088d55c39a11f609e5f667729ad49b",
+  "source": "Blockscout address creator",
+  "tx_from": "0x5bff76e8c64b3be03ad79210d0a759bc8c275055",
+  "tx_to": "0x0000ffffbe8efe702c8703ae3477ff5de3d319c0",
+  "ts": 1793279989
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 6568.85,
+  "geckoterminal_top_usd": 0.2364
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x2a2515371d06435efd5c210c7934b6c9cc9ef99f7e5ec6dd742f67ce7861c04e",
+   "liq_usd": 6568.85,
+   "created": 1793279989000,
+   "url": "https://dexscreener.com/robinhood/0x2a2515371d06435efd5c210c7934b6c9cc9ef99f7e5ec6dd742f67ce7861c04e",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x721a04b244a4b4cedbbd811ea72479b38b7ea014f0e4835733166d5f97c5c5e6",
+   "liq_usd": 0.58,
+   "created": 1793281028000,
+   "url": "https://dexscreener.com/robinhood/0x721a04b244a4b4cedbbd811ea72479b38b7ea014f0e4835733166d5f97c5c5e6",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xc93be6bae6f84c581f5d3a777e2b4c09e975cb550f5df71b8b778bf9ea21e961",
+   "liq_usd": 0.31,
+   "created": 1793281741000,
+   "url": "https://dexscreener.com/robinhood/0xc93be6bae6f84c581f5d3a777e2b4c09e975cb550f5df71b8b778bf9ea21e961",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x4cd02a1e4f64dce75233c75993ed855fc26464b373176767b3c5ae17869ec8b0",
+   "liq_usd": 0.11,
+   "created": 1793282086000,
+   "url": "https://dexscreener.com/robinhood/0x4cd02a1e4f64dce75233c75993ed855fc26464b373176767b3c5ae17869ec8b0",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 14,
+ "deployer_contracts": [],
+ "site_ips": [
+  "216.198.79.65",
+  "64.29.17.65"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xafcdd3d981d4b831341009c9d2195f633114c9f8?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0xafcdd3d981d4b831341009c9d2195f633114c9f8/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xafcdd3d981d4b831341009c9d2195f633114c9f8/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0xeff166aaf189323c58dc27ed1206eb2c37faacdf?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xeff166aaf189323c58dc27ed1206eb2c37faacdf",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5bff76e8c64b3be03ad79210d0a759bc8c275055/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.chloehood.site&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/chloehood.site",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "7154 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 101037547",
+    "https://robinhoodchain.blockscout.com/address/0xafcdd3d981d4b831341009c9d2195f633114c9f8"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as UERC20. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xafcdd3d981d4b831341009c9d2195f633114c9f8?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 101037547"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xafcdd3d981d4b831341009c9d2195f633114c9f8 owner() @ 101037547 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 101037547",
+    "https://robinhoodchain.blockscout.com/address/0xafcdd3d981d4b831341009c9d2195f633114c9f8?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xafcdd3d981d4b831341009c9d2195f633114c9f8"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x5bff76e8c64b3be03ad79210d0a759bc8c275055 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x5bff76e8c64b3be03ad79210d0a759bc8c275055) @ 101037547",
+    "https://robinhoodchain.blockscout.com/address/0x5bff76e8c64b3be03ad79210d0a759bc8c275055"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 0.07% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0xafcdd3d981d4b831341009c9d2195f633114c9f8/holders",
+    "https://robinhoodchain.blockscout.com/token/0xafcdd3d981d4b831341009c9d2195f633114c9f8?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $6,569, GeckoTerminal top pool $0. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x2a2515371d06435efd5c210c7934b6c9cc9ef99f7e5ec6dd742f67ce7861c04e",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xafcdd3d981d4b831341009c9d2195f633114c9f8/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xafcdd3d981d4b831341009c9d2195f633114c9f8"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x5bff76e8c64b3be03ad79210d0a759bc8c275055 (CREATE nonce scan 0..13); tokens launched via factories are not counted. Wallet nonce = 14.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5bff76e8c64b3be03ad79210d0a759bc8c275055",
+    "https://robinhoodchain.blockscout.com/tx/0xa674f7198538054b81322cd1567f5ed28f17f06c09add583cb2408914d51a3c1"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x5bff76e8c64b3be03ad79210d0a759bc8c275055 on Blockscout: block 100926301 (2026-10-29 13:09 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5bff76e8c64b3be03ad79210d0a759bc8c275055",
+    "https://robinhoodchain.blockscout.com/tx/0xa674f7198538054b81322cd1567f5ed28f17f06c09add583cb2408914d51a3c1",
+    "https://robinhoodchain.blockscout.com/tx/0x6e220e890f1e15462313a51d21e97a7b27bd327a0d627f44bb2df9c4e218e309",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5bff76e8c64b3be03ad79210d0a759bc8c275055/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.chloehood.site -> 216.198.79.65, 64.29.17.65 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.chloehood.site&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "chloehood.site registered 2026-10-29 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/chloehood.site"
+   ]
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0xafcdd3d981d4b831341009c9d2195f633114c9f8"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x5bff76e8c64b3be03ad79210d0a759bc8c275055 on Blockscout: block 100926301 (2026-10-29 13:09 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5bff76e8c64b3be03ad79210d0a759bc8c275055",
+    "https://robinhoodchain.blockscout.com/tx/0xa674f7198538054b81322cd1567f5ed28f17f06c09add583cb2408914d51a3c1",
+    "https://robinhoodchain.blockscout.com/tx/0x6e220e890f1e15462313a51d21e97a7b27bd327a0d627f44bb2df9c4e218e309",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5bff76e8c64b3be03ad79210d0a759bc8c275055/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "chloehood.site registered 2026-10-29 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/chloehood.site"
+   ]
+  }
+ ],
+ "label": "Chloe",
+ "target": {
+  "chain": "robinhood",
+  "address": "0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+  "site": "https://www.chloehood.site",
+  "x_profile": "https://x.com/CHLOEONHOOD",
+  "pool_url": "https://dexscreener.com/robinhood/0xafcdd3d981d4b831341009c9d2195f633114c9f8",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

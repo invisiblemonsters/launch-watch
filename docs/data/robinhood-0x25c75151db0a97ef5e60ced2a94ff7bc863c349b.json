@@ -1,0 +1,418 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+ "scanned_at_utc": "2026-10-29T19:06:35Z",
+ "block": 101133118,
+ "site": "https://mythora.tech/",
+ "post": null,
+ "token": {
+  "name": "Mythora Privacy",
+  "symbol": "MYTHORA",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": "0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x752b4C42156b840A3a7B17A2f161176bbAE875c7",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "9998.659999000134",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0",
+    "pair": "0xc0b9f90fbdfe3607d1314d8a23133fbb68677137c7a7aaa0cb546033a9974a0e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.107504592454",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.81",
+    "pair": "0xf5a8f9e8bf08428e39beef4ade9899bed4422c58da0611f0fe9c839c20499c8d"
+   }
+  ],
+  "holder_count": "0",
+  "holders": [
+   {
+    "address": "0x752b4C42156b840A3a7B17A2f161176bbAE875c7",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "1000000000",
+    "percent": "1.000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+    "tag": "",
+    "value": "22928.295965584954",
+    "is_contract": 0,
+    "balance": "3.14642654451045464",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "22928.295965584954",
+      "NFT_id": "4082308",
+      "amount": "3.14642654451045464",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "3.1464265445104544",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Mythora Privacy",
+  "token_symbol": "MYTHORA",
+  "total_supply": "1000000000",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x449c9fd0409f78e44f32fb517a4da85d4aca97217a99d0b2fe25c8e0ed506634",
+  "block": 101100067,
+  "deployer": "0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+  "source": "Blockscout address creator",
+  "tx_from": "0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+  "tx_to": null,
+  "ts": 1793297365
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 45594.68,
+  "geckoterminal_top_usd": 45613.8674
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xc0b9f90fbdfe3607d1314d8a23133fbb68677137c7a7aaa0cb546033a9974a0e",
+   "liq_usd": 45594.68,
+   "created": 1793298533000,
+   "url": "https://dexscreener.com/robinhood/0xc0b9f90fbdfe3607d1314d8a23133fbb68677137c7a7aaa0cb546033a9974a0e",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xf5a8f9e8bf08428e39beef4ade9899bed4422c58da0611f0fe9c839c20499c8d",
+   "liq_usd": 0.25,
+   "created": 1793298704000,
+   "url": "https://dexscreener.com/robinhood/0xf5a8f9e8bf08428e39beef4ade9899bed4422c58da0611f0fe9c839c20499c8d",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 9,
+ "deployer_contracts": [
+  "0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+ ],
+ "site_ips": [
+  "76.76.21.21"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x752b4c42156b840a3a7b17a2f161176bbae875c7/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=mythora.tech&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/mythora.tech",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "8663 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 101133118",
+    "https://robinhoodchain.blockscout.com/address/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+    "https://robinhoodchain.blockscout.com/address/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 101133118"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x752b4c42156b840a3a7b17a2f161176bbae875c7, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x25c75151db0a97ef5e60ced2a94ff7bc863c349b owner() @ 101133118",
+    "https://robinhoodchain.blockscout.com/address/0x752b4c42156b840a3a7b17a2f161176bbae875c7"
+   ]
+  },
+  {
+   "id": "fn.trading_switch",
+   "group": "fn",
+   "title": "trading on/off switch function present",
+   "status": "flag",
+   "points": 6.0,
+   "detail": "Found trading on/off switch function(s): openTrading() 0xc9567bf9 [runtime bytecode]. Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan of eth_getCode @ 101133118",
+    "https://robinhoodchain.blockscout.com/address/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x752b4c42156b840a3a7b17a2f161176bbae875c7 holds 1.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x752b4c42156b840a3a7b17a2f161176bbae875c7) @ 101133118",
+    "https://robinhoodchain.blockscout.com/address/0x752b4c42156b840a3a7b17a2f161176bbae875c7"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.93% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b/holders",
+    "https://robinhoodchain.blockscout.com/token/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $45,595 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xc0b9f90fbdfe3607d1314d8a23133fbb68677137c7a7aaa0cb546033a9974a0e",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x752b4c42156b840a3a7b17a2f161176bbae875c7 (CREATE nonce scan 0..8); tokens launched via factories are not counted. Wallet nonce = 9.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+    "https://robinhoodchain.blockscout.com/tx/0x449c9fd0409f78e44f32fb517a4da85d4aca97217a99d0b2fe25c8e0ed506634",
+    "https://robinhoodchain.blockscout.com/address/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x752b4c42156b840a3a7b17a2f161176bbae875c7 on Blockscout: block 100464272 (2026-10-28 23:43 UTC), 0.8 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x752b4c42156b840a3a7b17a2f161176bbae875c7",
+    "https://robinhoodchain.blockscout.com/tx/0x449c9fd0409f78e44f32fb517a4da85d4aca97217a99d0b2fe25c8e0ed506634",
+    "https://robinhoodchain.blockscout.com/tx/0x25717243e44203b73c54229f2b6e0d419655860c4724ce06a535ffe9b482aa7a",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x752b4c42156b840a3a7b17a2f161176bbae875c7/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "mythora.tech -> 76.76.21.21 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=mythora.tech&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "mythora.tech registered 2026-10-28 (1 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/mythora.tech"
+   ]
+  }
+ ],
+ "score": 58,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+    "https://robinhoodchain.blockscout.com/address/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x25c75151db0a97ef5e60ced2a94ff7bc863c349b"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x752b4c42156b840a3a7b17a2f161176bbae875c7, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x25c75151db0a97ef5e60ced2a94ff7bc863c349b owner() @ 101133118",
+    "https://robinhoodchain.blockscout.com/address/0x752b4c42156b840a3a7b17a2f161176bbae875c7"
+   ]
+  }
+ ],
+ "label": "Mythora Privacy",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x25c75151db0a97ef5e60ced2a94ff7bc863c349b",
+  "name": "Mythora Privacy",
+  "symbol": "MYTHORA",
+  "created_at": "2026-10-29T18:28:53Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 45613.8674,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xc0b9f90fbdfe3607d1314d8a23133fbb68677137c7a7aaa0cb546033a9974a0e",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://mythora.tech/",
+  "x_profile": "https://x.com/mythoraprivacy",
+  "post": null
+ }
+}

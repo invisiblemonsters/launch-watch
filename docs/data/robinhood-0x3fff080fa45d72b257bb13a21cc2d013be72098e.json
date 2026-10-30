@@ -1,0 +1,327 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+ "scanned_at_utc": "2026-10-29T18:14:46Z",
+ "block": 101103258,
+ "site": "https://www.tetravault.xyz/sentinel/",
+ "post": null,
+ "token": {
+  "name": "Sentinel",
+  "symbol": "SNTL",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "SntlToken"
+ },
+ "verification": "verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0x008c44b8020c6B3A6D8D58f3533a4a5e4F067D18",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "0",
+  "is_open_source": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Sentinel",
+  "token_symbol": "SNTL"
+ },
+ "creation": {
+  "tx": "0x7685395b9ac9856b496a3fa4cb6a6e7e3862b055bb92b181502ae1fa948f752d",
+  "block": 101082349,
+  "deployer": "0x0d459f23f801c1833b393877d3835f4992d310ac",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x008c44b8020c6b3a6d8d58f3533a4a5e4f067d18",
+  "tx_from": "0x0d459f23f801c1833b393877d3835f4992d310ac",
+  "tx_to": null,
+  "ts": 1793295526
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [],
+ "launcher_nonce": 3292,
+ "deployer_contracts_blockscout_page1": [
+  "0xb59601f82cd21ab2cd90092128e6d82d6f2289d7"
+ ],
+ "site_ips": [
+  "216.150.1.65",
+  "216.150.16.129"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x3fff080fa45d72b257bb13a21cc2d013be72098e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x3fff080fa45d72b257bb13a21cc2d013be72098e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x3fff080fa45d72b257bb13a21cc2d013be72098e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0d459f23f801c1833b393877d3835f4992d310ac/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.tetravault.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/tetravault.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3828 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 101103258",
+    "https://robinhoodchain.blockscout.com/address/0x3fff080fa45d72b257bb13a21cc2d013be72098e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as SntlToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+    "https://robinhoodchain.blockscout.com/address/0x3fff080fa45d72b257bb13a21cc2d013be72098e?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 101103258"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0x3fff080fa45d72b257bb13a21cc2d013be72098e owner() @ 101103258"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 101103258",
+    "https://repo.sourcify.dev/4663/0x3fff080fa45d72b257bb13a21cc2d013be72098e"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x3fff080fa45d72b257bb13a21cc2d013be72098e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x0d459f23f801c1833b393877d3835f4992d310ac holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x0d459f23f801c1833b393877d3835f4992d310ac) @ 101103258",
+    "https://robinhoodchain.blockscout.com/address/0x0d459f23f801c1833b393877d3835f4992d310ac"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.23% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x3fff080fa45d72b257bb13a21cc2d013be72098e/holders",
+    "https://robinhoodchain.blockscout.com/token/0x3fff080fa45d72b257bb13a21cc2d013be72098e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 6,
+   "detail": "Neither DexScreener nor GeckoTerminal lists a pool for this token.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x3fff080fa45d72b257bb13a21cc2d013be72098e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x0d459f23f801c1833b393877d3835f4992d310ac has sent 3292 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0d459f23f801c1833b393877d3835f4992d310ac",
+    "https://robinhoodchain.blockscout.com/tx/0x7685395b9ac9856b496a3fa4cb6a6e7e3862b055bb92b181502ae1fa948f752d",
+    "eth_getTransactionCount = 3292"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x0d459f23f801c1833b393877d3835f4992d310ac on Blockscout: block 19785920 (2026-07-26 10:06 UTC), 95.3 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0d459f23f801c1833b393877d3835f4992d310ac",
+    "https://robinhoodchain.blockscout.com/tx/0x7685395b9ac9856b496a3fa4cb6a6e7e3862b055bb92b181502ae1fa948f752d",
+    "https://robinhoodchain.blockscout.com/tx/0xc537251f598aa327b897b0dd0cce8a17cbcabd3e98f1de8a965f08999c05dd43",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x0d459f23f801c1833b393877d3835f4992d310ac/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "www.tetravault.xyz -> 216.150.1.65, 216.150.16.129 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.tetravault.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tetravault.xyz registered 2026-10-19 (10 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tetravault.xyz"
+   ]
+  }
+ ],
+ "score": 25,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 12,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x0d459f23f801c1833b393877d3835f4992d310ac has sent 3292 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x0d459f23f801c1833b393877d3835f4992d310ac",
+    "https://robinhoodchain.blockscout.com/tx/0x7685395b9ac9856b496a3fa4cb6a6e7e3862b055bb92b181502ae1fa948f752d",
+    "eth_getTransactionCount = 3292"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 6,
+   "detail": "Neither DexScreener nor GeckoTerminal lists a pool for this token.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x3fff080fa45d72b257bb13a21cc2d013be72098e"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "tetravault.xyz registered 2026-10-19 (10 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/tetravault.xyz"
+   ]
+  }
+ ],
+ "label": "Sentinel",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+  "site": "https://www.tetravault.xyz/sentinel/",
+  "x_profile": "https://x.com/Tetravaultxyz/status/2115852462380757353",
+  "pool_url": "https://dexscreener.com/robinhood/0x3fff080fa45d72b257bb13a21cc2d013be72098e",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

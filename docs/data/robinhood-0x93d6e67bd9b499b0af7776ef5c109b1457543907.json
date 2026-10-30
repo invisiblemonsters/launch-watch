@@ -1,0 +1,499 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+ "scanned_at_utc": "2026-10-29T17:04:52Z",
+ "block": 101062858,
+ "site": "https://pairex.world",
+ "post": null,
+ "token": {
+  "name": "Pairex",
+  "symbol": "PAIREX",
+  "decimals": 9,
+  "totalSupply": 1000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x22e914d009338D937242545dc2fAe2B4fCb0d79e",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "9680.16422355",
+    "pair": "0x23d1bb903b8afa0a82a1bb589afb6d19ec36ffeb"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.304216446720",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.95",
+    "pair": "0xd3c429981fafa248990abf67dd3cb567dc05040e1b4ad939c2b6a0460fff602b"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.07549286874476573184",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.95",
+    "pair": "0xb56000812554596b41aa9012c9baf03c93344f3dcbf577df7d0f310ccf3b5986"
+   }
+  ],
+  "holder_count": "9718",
+  "holders": [
+   {
+    "address": "0x42468aE5Ccb714191910D7519CfFB98BC95dFf5D",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "136414496.056417433",
+    "percent": "0.136414",
+    "is_locked": 0
+   },
+   {
+    "address": "0xFe93A86Ac9D0f724F83d3d8aC93717e30Fae4f50",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "111000000",
+    "percent": "0.111000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdD2485e31A72AAFc66A39c02ba749Ea1CFAa5c09",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "32897723.000042192",
+    "percent": "0.032898",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd6ccD007Cc579A6b057261EF0EB3Fc453ab4A70F",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "17749091.008364816",
+    "percent": "0.017749",
+    "is_locked": 0
+   },
+   {
+    "address": "0xBD58656058f839BF52956632B2B75D389dB43E7F",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "12465816.309414112",
+    "percent": "0.012466",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb160c2EAB9086bc2e1A06F2d2839b472c97f70e5",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9123046.262146282",
+    "percent": "0.009123",
+    "is_locked": 0
+   },
+   {
+    "address": "0xaFa368A3D537f580B446E6A5415e62a278292572",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9028980.214228703",
+    "percent": "0.009029",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "5513055.899267429",
+    "percent": "0.005513",
+    "is_locked": 0
+   },
+   {
+    "address": "0xA631f7CBfA1ffe02100B77ef2D5dd4AaBF0C9c30",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "4351495.343460033",
+    "percent": "0.004351",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2be87aD70Cf11EA294d7c42044b5b8277A3E4874",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3016949.816751596",
+    "percent": "0.003017",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "value": "9680.164223550489360614",
+    "is_contract": 0,
+    "balance": "0.999999999999999",
+    "percent": "1.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   },
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "",
+    "value": "0.000000000009680164",
+    "is_contract": 0,
+    "balance": "0.000000000000001000",
+    "percent": "0.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   }
+  ],
+  "lp_total_supply": "1",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Pairex",
+  "token_symbol": "PAIREX",
+  "total_supply": "1000000000",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x1185d2da0a3910402c81bf4413be943e3f20fc57c0fac92294a03cb39a774b19",
+  "block": 60910742,
+  "deployer": "0x22e914d009338d937242545dc2fae2b4fcb0d79e",
+  "source": "Blockscout address creator",
+  "tx_from": "0x22e914d009338d937242545dc2fae2b4fcb0d79e",
+  "tx_to": null,
+  "ts": 1789196302
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 280484.57,
+  "geckoterminal_top_usd": 2018773.0415
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xa30eaaf7db93a0666f29a305d63ad4b9bae8dc8b147f6e3be8eec32ca8551957",
+   "liq_usd": 280484.57,
+   "created": 1793292508000,
+   "url": "https://dexscreener.com/robinhood/0xa30eaaf7db93a0666f29a305d63ad4b9bae8dc8b147f6e3be8eec32ca8551957",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x23D1bB903B8aFA0A82A1bB589aFB6D19eC36FfeB",
+   "liq_usd": 19308.14,
+   "created": 1789196302000,
+   "url": "https://dexscreener.com/robinhood/0x23d1bb903b8afa0a82a1bb589afb6d19ec36ffeb",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 62,
+ "deployer_contracts": [
+  "0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+ ],
+ "site_ips": [
+  "216.150.1.1"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x93d6e67bd9b499b0af7776ef5c109b1457543907?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x93d6e67bd9b499b0af7776ef5c109b1457543907/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x93d6e67bd9b499b0af7776ef5c109b1457543907/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x22e914d009338d937242545dc2fae2b4fcb0d79e/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=pairex.world&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/pairex.world",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "6984 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 101062858",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 101062858"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0x93d6e67bd9b499b0af7776ef5c109b1457543907 owner() @ 101062858"
+   ]
+  },
+  {
+   "id": "fn.trading_switch",
+   "group": "fn",
+   "title": "trading on/off switch function present",
+   "status": "flag",
+   "points": 3.0,
+   "detail": "Found trading on/off switch function(s): enableTrading() 0x8a8c523c [runtime bytecode]. Owner is renounced, so points are halved (functions may still be callable by other roles). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "selector scan of eth_getCode @ 101062858",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x22e914d009338d937242545dc2fae2b4fcb0d79e holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x22e914d009338d937242545dc2fae2b4fcb0d79e) @ 101062858",
+    "https://robinhoodchain.blockscout.com/address/0x22e914d009338d937242545dc2fae2b4fcb0d79e"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0x42468ae5ccb714191910d7519cffb98bc95dff5d has 13.6% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x93d6e67bd9b499b0af7776ef5c109b1457543907/holders",
+    "https://robinhoodchain.blockscout.com/token/0x93d6e67bd9b499b0af7776ef5c109b1457543907?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $280,485, GeckoTerminal top pool $2,018,773. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xa30eaaf7db93a0666f29a305d63ad4b9bae8dc8b147f6e3be8eec32ca8551957",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x93d6e67bd9b499b0af7776ef5c109b1457543907/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus LP holders: 100.0% locked or burned.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x22e914d009338d937242545dc2fae2b4fcb0d79e (CREATE nonce scan 0..61); tokens launched via factories are not counted. Wallet nonce = 62.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x22e914d009338d937242545dc2fae2b4fcb0d79e",
+    "https://robinhoodchain.blockscout.com/tx/0x1185d2da0a3910402c81bf4413be943e3f20fc57c0fac92294a03cb39a774b19",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x22e914d009338d937242545dc2fae2b4fcb0d79e on Blockscout: block 60910742 (2026-09-12 06:58 UTC), 47.4 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x22e914d009338d937242545dc2fae2b4fcb0d79e",
+    "https://robinhoodchain.blockscout.com/tx/0x1185d2da0a3910402c81bf4413be943e3f20fc57c0fac92294a03cb39a774b19",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x22e914d009338d937242545dc2fae2b4fcb0d79e/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "pairex.world -> 216.150.1.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=pairex.world&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "pairex.world registered 2026-09-12 (47 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/pairex.world"
+   ]
+  }
+ ],
+ "score": 37,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 12,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/4663/0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907?tab=contract",
+    "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "flag",
+   "points": 10,
+   "detail": "Largest non-contract holder 0x42468ae5ccb714191910d7519cffb98bc95dff5d has 13.6% of supply (contracts such as pools/vaults excluded).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x93d6e67bd9b499b0af7776ef5c109b1457543907/holders",
+    "https://robinhoodchain.blockscout.com/token/0x93d6e67bd9b499b0af7776ef5c109b1457543907?tab=holders"
+   ]
+  },
+  {
+   "id": "fn.trading_switch",
+   "group": "fn",
+   "title": "trading on/off switch function present",
+   "status": "flag",
+   "points": 3.0,
+   "detail": "Found trading on/off switch function(s): enableTrading() 0x8a8c523c [runtime bytecode]. Owner is renounced, so points are halved (functions may still be callable by other roles). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "selector scan of eth_getCode @ 101062858",
+    "https://robinhoodchain.blockscout.com/address/0x93d6e67bd9b499b0af7776ef5c109b1457543907"
+   ]
+  }
+ ],
+ "label": "Pairex",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x93d6e67bd9b499b0af7776ef5c109b1457543907",
+  "name": "Pairex",
+  "symbol": "PAIREX",
+  "created_at": "2026-10-29T16:48:28Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 282950.1259,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xa30eaaf7db93a0666f29a305d63ad4b9bae8dc8b147f6e3be8eec32ca8551957",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

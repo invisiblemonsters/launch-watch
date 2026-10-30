@@ -1,0 +1,369 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+ "scanned_at_utc": "2026-10-29T16:59:57Z",
+ "block": 53251925,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Cambria",
+  "symbol": "RSGP",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "MintBurnTeamToken"
+ },
+ "verification": "verified",
+ "owner": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "creator_balance": "1000000000",
+  "creator_percent": "1.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "0.66973016513638721424",
+    "pool_fee": "0.003",
+    "pair": "0x7e23551c2d252e854ae8b55e738cecc34032c33f"
+   }
+  ],
+  "holder_count": "0",
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "tag": "",
+    "value": "0.66973016513638721424",
+    "is_contract": 0,
+    "balance": "786168.78820946318888227",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.66973016513638721424",
+      "NFT_id": "6408908",
+      "amount": "786168.78820946318888227",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "786168.7882094631",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Cambria",
+  "token_symbol": "RSGP",
+  "total_supply": "1000000000",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xb41117935a4254a94e228fbd8a2579c37961b7db2c7d53345e79b75394161913",
+  "block": 53250875,
+  "deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_from": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+  "tx_to": null,
+  "ts": 1793291097
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 1941093.1,
+  "geckoterminal_top_usd": 1939584.5884
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x7E23551c2D252E854Ae8b55e738CeCC34032c33f",
+   "liq_usd": 1941093.1,
+   "created": 1793291265000,
+   "url": "https://dexscreener.com/base/0x7e23551c2d252e854ae8b55e738cecc34032c33f",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1417,
+ "deployer_contracts_blockscout_page1": [
+  "0x6d089aa390aca211e5451b4a342bd5c65c597329",
+  "0x73687b42da555ae65f144a8e30a652c95911f2db",
+  "0xc38d78224f1ae8abded6b28bf31e8cf85764fff4",
+  "0xf39d7b27259b0ea6afa6fe3ca7b1c879c271d887"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5150 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53251925",
+    "https://base.blockscout.com/address/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MintBurnTeamToken. Sourcify: match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+    "https://base.blockscout.com/address/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53251925"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303, a plain wallet (no code): one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079 owner() @ 53251925",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+    "https://base.blockscout.com/address/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 53251925",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $1,941,093 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x7e23551c2d252e854ae8b55e738cecc34032c33f",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 has sent 1417 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0xb41117935a4254a94e228fbd8a2579c37961b7db2c7d53345e79b75394161913",
+    "eth_getTransactionCount = 1417"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 on Blockscout: block 51812886 (2026-09-26 09:31 UTC), 33.3 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303",
+    "https://base.blockscout.com/tx/0xb41117935a4254a94e228fbd8a2579c37961b7db2c7d53345e79b75394161913",
+    "https://base.blockscout.com/tx/0xa2935b455d9dc559fc1790b866f41102e86b7e18faa14f422eb3ba7ace54ed37",
+    "https://base.blockscout.com/api/v2/addresses/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 59,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 11,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+    "https://base.blockscout.com/address/0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303 holds 25.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303) @ 53251925",
+    "https://base.blockscout.com/address/0xc7b5cfe1e8dbdcf51ee0a2a78352175e46db2303"
+   ]
+  }
+ ],
+ "label": "Cambria",
+ "target": {
+  "chain": "base",
+  "address": "0xa2784f04d4f00e1cfe8686fa1cfb9847e2d86079",
+  "name": "Cambria",
+  "symbol": "RSGP",
+  "created_at": "2026-10-29T16:27:45Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 1939584.5884,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x7e23551c2d252e854ae8b55e738cecc34032c33f",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

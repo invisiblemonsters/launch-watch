@@ -1,0 +1,392 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+ "scanned_at_utc": "2026-10-31T05:10:26Z",
+ "block": 53317040,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "The Reading test 6",
+  "symbol": "TTHE6",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c",
+  "state": "verified",
+  "name": "Memecoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x36d6193506b3b310d865c90e6a89504f0459ff94",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "2",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "99999674687.306635569999231448",
+    "percent": "0.999996746873066355",
+    "is_locked": 0
+   },
+   {
+    "address": "0x588c683ecc450f8b2aadb13d7f63792b840425dc",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "325312.693364430000768552",
+    "percent": "0.000003253126933644",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "launchpad_token": {
+   "is_launchpad_token": "1",
+   "launchpad_name": "Flaunch"
+  },
+  "owner_address": "0x0000000000000000000000000000000000000000",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "The Reading test 6",
+  "token_symbol": "TTHE6",
+  "total_supply": "100000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x3afa297f6a16c6e13a786dfc2573116a2a029a7f89b702e8f8deb8be18d193cb",
+  "block": 53305806,
+  "deployer": "0x475a09618bfd00fa4cb03b8504e95b62075e6f7d",
+  "source": "Blockscout address creator",
+  "tx_from": "0x36d6193506b3b310d865c90e6a89504f0459ff94",
+  "tx_to": "0x588c683ecc450f8b2aadb13d7f63792b840425dc",
+  "ts": 1793400959
+ },
+ "role_check": {
+  "downgraded": false,
+  "note": "No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked."
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 10076.08,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca",
+   "liq_usd": 10076.08,
+   "created": 1793400959000,
+   "url": "https://dexscreener.com/base/0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 255,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0/pools",
+   "status": 429
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x36d6193506b3b310d865c90e6a89504f0459ff94/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53317040",
+    "https://base.blockscout.com/address/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation Memecoin 0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c?tab=contract",
+    "https://base.blockscout.com/address/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c",
+    "https://base.blockscout.com/address/0xf1eeeeeeecd95e9eb2df58484ceed175acbd945c"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0 owner() @ 53317040 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [implementation bytecode], mint(address,uint256) [implementation ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "selector scan of eth_getCode @ 53317040",
+    "https://base.blockscout.com/address/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x36d6193506b3b310d865c90e6a89504f0459ff94 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x36d6193506b3b310d865c90e6a89504f0459ff94) @ 53317040",
+    "https://base.blockscout.com/address/0x36d6193506b3b310d865c90e6a89504f0459ff94"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $10,076 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x3e253666f9\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x36d6193506b3b310d865c90e6a89504f0459ff94 (CREATE nonce scan 0..254); tokens launched via factories are not counted. Wallet nonce = 255.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x36d6193506b3b310d865c90e6a89504f0459ff94",
+    "https://base.blockscout.com/tx/0x3afa297f6a16c6e13a786dfc2573116a2a029a7f89b702e8f8deb8be18d193cb"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x36d6193506b3b310d865c90e6a89504f0459ff94 on Blockscout: block 35923722 (2025-09-23 14:13 UTC), 402.6 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x36d6193506b3b310d865c90e6a89504f0459ff94",
+    "https://base.blockscout.com/tx/0x3afa297f6a16c6e13a786dfc2573116a2a029a7f89b702e8f8deb8be18d193cb",
+    "https://base.blockscout.com/tx/0x7f47c1aca40f33c89c2a479dccd31e0fe40bc56492dddf1bd6933e7cc6dd715a",
+    "https://base.blockscout.com/api/v2/addresses/0x36d6193506b3b310d865c90e6a89504f0459ff94/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 34,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [implementation bytecode], mint(address,uint256) [implementation ABI]. Role check: No OpenZeppelin AccessControl hasRole() answered, so role holders could not be checked.",
+   "evidence": [
+    "selector scan of eth_getCode @ 53317040",
+    "https://base.blockscout.com/address/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $10,076 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0/holders"
+   ]
+  }
+ ],
+ "label": "The Reading test 6",
+ "target": {
+  "chain": "base",
+  "address": "0xf62a844bf86ee88ed759ca6a3689693a1b46fdb0",
+  "name": "The Reading test 6",
+  "symbol": "TTHE6",
+  "created_at": "2026-10-30T22:55:59Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 10073.6883,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x3e253666f93ed5f18b550490342ae5b59106762f87e6f96a316d95f14f60eaca",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

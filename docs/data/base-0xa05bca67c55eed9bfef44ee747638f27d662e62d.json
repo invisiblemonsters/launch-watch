@@ -1,0 +1,483 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+ "scanned_at_utc": "2026-10-30T22:26:11Z",
+ "block": 53304912,
+ "site": "https://catfood4basecats.xyz",
+ "post": null,
+ "token": {
+  "name": "Catfood4Basecat",
+  "symbol": "CATFOOD",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "exact_match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "StonkToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0xa08ba1ea162af8a4a1fb29e0467d310754715a9f",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "61.796249061424",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.65",
+    "pair": "0x3d931505ad6dde427a850653b01bdd32e539d1ff447222b6144dd0d3f4f43e9f"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "102",
+  "holders": [
+   {
+    "address": "0x0114ff7e4df746ec54636daf6ae4e44e7dfa2d89",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "303322093.536524606979435242",
+    "percent": "0.303322093536524606",
+    "is_locked": 0
+   },
+   {
+    "address": "0xeceeb963786e96d32d7fe305109fe56fcf50108a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "57332489.177501770909428421",
+    "percent": "0.057332489177501770",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0540b83d50382ffffba92176e2612fbf80a453da",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "32944540.393273259133618555",
+    "percent": "0.032944540393273259",
+    "is_locked": 0
+   },
+   {
+    "address": "0x017a6df2b54fb5f4e9e73abd43e4cb07dbb1dd8e",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "30000000.107",
+    "percent": "0.030000000107000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4745c95d10e8ef5f0eada01dfa8a22650b55fba3",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "29052336.0043",
+    "percent": "0.029052336004300000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3c0a43d79212eeaadd6b897f538224293cf9be5a",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "26065844.06281790110437026",
+    "percent": "0.026065844062817901",
+    "is_locked": 0
+   },
+   {
+    "address": "0x25bcb35e4bc0f1b287045ebff5af8446f090f94e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "25981610.005339562286155662",
+    "percent": "0.025981610005339562",
+    "is_locked": 0
+   },
+   {
+    "address": "0xb1a5d2a04c014263b517d6e34b36ac64e9080c18",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "24999608.39862783384253137",
+    "percent": "0.024999608398627833",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe759e2127a302314adc83d863e3137ada1004fda",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "22057918.981071612177673917",
+    "percent": "0.022057918981071612",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf4143f9af108e60adbd93ed4c4c31dbfadeb989c",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "22016138",
+    "percent": "0.022016138000000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x02f4a6d26445b773a90a180b8e46fb8d305130b5",
+    "tag": "",
+    "value": "61.796249061424",
+    "is_contract": 1,
+    "balance": "0.01693533537043328",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "61.796249061424",
+      "NFT_id": "3163063",
+      "amount": "0.01693533537043328",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.01693533537043328",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "Catfood4Basecat",
+  "token_symbol": "CATFOOD",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x24a8eef319ef3851baeecc40072df62e56f7914db6c3c2ef500f14be002b1fe1",
+  "block": 52476614,
+  "deployer": "0xa08ba1ea162af8a4a1fb29e0467d310754715a9f",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xd58a240995405941cdba41cd35d7920f2b212b4a",
+  "tx_from": "0xa08ba1ea162af8a4a1fb29e0467d310754715a9f",
+  "tx_to": "0xd58a240995405941cdba41cd35d7920f2b212b4a",
+  "ts": 1791742575
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 12589.14,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [
+  {
+   "dex": "aerodrome",
+   "pair": "0x0114fF7E4dF746EC54636dAf6aE4e44E7dfA2d89",
+   "liq_usd": 12589.14,
+   "created": null,
+   "url": "https://dexscreener.com/base/0x0114ff7e4df746ec54636daf6ae4e44e7dfa2d89",
+   "quote": "Basecat"
+  }
+ ],
+ "launcher_nonce": 59,
+ "deployer_contracts": [],
+ "site_ips": [
+  "160.153.0.92"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xa05bca67c55eed9bfef44ee747638f27d662e62d?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xa05bca67c55eed9bfef44ee747638f27d662e62d&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xa05bca67c55eed9bfef44ee747638f27d662e62d/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xa05bca67c55eed9bfef44ee747638f27d662e62d/pools",
+   "status": 429
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa08ba1ea162af8a4a1fb29e0467d310754715a9f/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=catfood4basecats.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/catfood4basecats.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "2407 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53304912",
+    "https://base.blockscout.com/address/0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as StonkToken. Sourcify: exact_match; Blockscout: verified.",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+    "https://base.blockscout.com/address/0xa05bca67c55eed9bfef44ee747638f27d662e62d?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53304912"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xa05bca67c55eed9bfef44ee747638f27d662e62d owner() @ 53304912 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53304912",
+    "https://repo.sourcify.dev/8453/0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xa05bca67c55eed9bfef44ee747638f27d662e62d&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xa08ba1ea162af8a4a1fb29e0467d310754715a9f holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xa08ba1ea162af8a4a1fb29e0467d310754715a9f) @ 53304912",
+    "https://base.blockscout.com/address/0xa08ba1ea162af8a4a1fb29e0467d310754715a9f"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.34% of supply.",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xa05bca67c55eed9bfef44ee747638f27d662e62d/holders",
+    "https://base.blockscout.com/token/0xa05bca67c55eed9bfef44ee747638f27d662e62d?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $12,589 (aerodrome) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0x0114ff7e4df746ec54636daf6ae4e44e7dfa2d89",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xa08ba1ea162af8a4a1fb29e0467d310754715a9f (CREATE nonce scan 0..58); tokens launched via factories are not counted. Wallet nonce = 59.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa08ba1ea162af8a4a1fb29e0467d310754715a9f",
+    "https://base.blockscout.com/tx/0x24a8eef319ef3851baeecc40072df62e56f7914db6c3c2ef500f14be002b1fe1"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xa08ba1ea162af8a4a1fb29e0467d310754715a9f on Blockscout: block 52434286 (2026-10-10 18:45 UTC), 20.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xa08ba1ea162af8a4a1fb29e0467d310754715a9f",
+    "https://base.blockscout.com/tx/0x24a8eef319ef3851baeecc40072df62e56f7914db6c3c2ef500f14be002b1fe1",
+    "https://base.blockscout.com/tx/0xee0428bb6f6fd045211a46ea9ef5b989c1a3265e3b36ce3f355357b30dca1f76",
+    "https://base.blockscout.com/api/v2/addresses/0xa08ba1ea162af8a4a1fb29e0467d310754715a9f/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "catfood4basecats.xyz -> 160.153.0.92; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=catfood4basecats.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "catfood4basecats.xyz registered 2026-10-13 (18 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/catfood4basecats.xyz"
+   ]
+  }
+ ],
+ "score": 25,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $12,589 (aerodrome) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0x0114ff7e4df746ec54636daf6ae4e44e7dfa2d89",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xa05bca67c55eed9bfef44ee747638f27d662e62d"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xa05bca67c55eed9bfef44ee747638f27d662e62d&chainID=8453"
+   ]
+  }
+ ],
+ "label": "Catfood4Basecat",
+ "target": {
+  "chain": "base",
+  "address": "0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+  "site": "https://catfood4basecats.xyz",
+  "x_profile": "https://x.com/Catfood4Basecat",
+  "pool_url": "https://dexscreener.com/base/0xa05bca67c55eed9bfef44ee747638f27d662e62d",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
+  "post": null
+ }
+}

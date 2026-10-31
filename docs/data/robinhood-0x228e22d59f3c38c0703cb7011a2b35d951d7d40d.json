@@ -1,0 +1,425 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+ "scanned_at_utc": "2026-10-31T07:14:01Z",
+ "block": 102375938,
+ "site": "https://nockr.app/",
+ "post": null,
+ "token": {
+  "name": "Nockr",
+  "symbol": "NOCK",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "9",
+  "holders": [
+   {
+    "address": "0x4a7bb04b0B6EBC706D448D0BCf49cbADb52f6dbB",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "930314292.531443614474034831",
+    "percent": "0.930314",
+    "is_locked": 0
+   },
+   {
+    "address": "0xEC9C25BD1db76BD8DDcAaeBb101ea8e6B1B532Ab",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "34939946.104554875211606268",
+    "percent": "0.034940",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0bEf522e493236A650217208528f70Ab0dcB65B5",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "14550605.714891344759595438",
+    "percent": "0.014551",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14229133.049728619627402083",
+    "percent": "0.014229",
+    "is_locked": 1
+   },
+   {
+    "address": "0x337ADF8223970A1e6Aba9241216Bb1e45b5E4938",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "3129662.552776994055136382",
+    "percent": "0.003130",
+    "is_locked": 0
+   },
+   {
+    "address": "0x258a2a97d0dd363c5756FA0FB557B325E6C75836",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2764839.574783434282190031",
+    "percent": "0.002765",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdB1A2f3dCe95D1FA0c9a62d58d06CD4dfF966eE4",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "71520.471821107636746769",
+    "percent": "0.000072",
+    "is_locked": 0
+   },
+   {
+    "address": "0x05adD6c5c13B2f982e479CCf30C6D7E828E8E898",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000009953288197",
+    "percent": "0.000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xE8852602f84e04e284286d8Db01a41Edd0CCEFb0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Nockr",
+  "token_symbol": "NOCK",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x29adc254205fe75c5eb899e19f01e92c16316d8b623934dd24e2b4c43f873cca",
+  "block": 101840947,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1793375086
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [],
+ "launcher_nonce": 22,
+ "deployer_contracts": [
+  "0x7b1da6d104c42018c6ade655ccffb8b36e99c734",
+  "0x80abcd4f502f60ac32e216141492b3036d72b1a3"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x7b1da6d104c42018c6ade655ccffb8b36e99c734",
+  "0x80abcd4f502f60ac32e216141492b3036d72b1a3"
+ ],
+ "site_ips": [
+  "147.93.159.47"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d/pools",
+   "status": 429
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=nockr.app&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/nockr.app",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 102375938",
+    "https://robinhoodchain.blockscout.com/address/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 102375938"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x228e22d59f3c38c0703cb7011a2b35d951d7d40d owner() @ 102375938 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 102375938",
+    "https://robinhoodchain.blockscout.com/address/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x228e22d59f3c38c0703cb7011a2b35d951d7d40d"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5) @ 102375938",
+    "https://robinhoodchain.blockscout.com/address/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.49% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d/holders",
+    "https://robinhoodchain.blockscout.com/token/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 6,
+   "detail": "Neither DexScreener nor GeckoTerminal lists a pool for this token.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "2 live contract(s) created directly by 0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5 (CREATE nonce scan 0..21); tokens launched via factories are not counted. Wallet nonce = 22.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5",
+    "https://robinhoodchain.blockscout.com/tx/0x29adc254205fe75c5eb899e19f01e92c16316d8b623934dd24e2b4c43f873cca",
+    "https://robinhoodchain.blockscout.com/address/0x7b1da6d104c42018c6ade655ccffb8b36e99c734",
+    "https://robinhoodchain.blockscout.com/address/0x80abcd4f502f60ac32e216141492b3036d72b1a3"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5 on Blockscout: block 101118259 (2026-10-29 18:40 UTC), 1.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5",
+    "https://robinhoodchain.blockscout.com/tx/0x29adc254205fe75c5eb899e19f01e92c16316d8b623934dd24e2b4c43f873cca",
+    "https://robinhoodchain.blockscout.com/tx/0xde460ace5db0069bbac7f11bb8d17a474427fc50d7496b4ae61308e666505abf",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "nockr.app -> 147.93.159.47; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=nockr.app&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "nockr.app registered 2026-10-26 (5 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/nockr.app"
+   ]
+  }
+ ],
+ "score": 20,
+ "band": "LOW",
+ "coverage": {
+  "run": 13,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5 on Blockscout: block 101118259 (2026-10-29 18:40 UTC), 1.5 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5",
+    "https://robinhoodchain.blockscout.com/tx/0x29adc254205fe75c5eb899e19f01e92c16316d8b623934dd24e2b4c43f873cca",
+    "https://robinhoodchain.blockscout.com/tx/0xde460ace5db0069bbac7f11bb8d17a474427fc50d7496b4ae61308e666505abf",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xb07cd14b7c93e734dcb465ba9017cf2c0b3c38d5/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 6,
+   "detail": "Neither DexScreener nor GeckoTerminal lists a pool for this token.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "nockr.app registered 2026-10-26 (5 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/nockr.app"
+   ]
+  }
+ ],
+ "label": "Nockr",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+  "site": "https://nockr.app/",
+  "x_profile": "https://x.com/Nockrapp",
+  "pool_url": "https://dexscreener.com/robinhood/0x228e22d59f3c38c0703cb7011a2b35d951d7d40d",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

@@ -1,0 +1,362 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x69cae18362abedab4bdbe03390313562f5cd14f2",
+ "scanned_at_utc": "2026-10-30T16:18:45Z",
+ "block": 53293889,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Kinesis Silver",
+  "symbol": "KAG",
+  "decimals": 18,
+  "totalSupply": 3500000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "MintBurnTeamToken"
+ },
+ "verification": "verified",
+ "owner_7702_delegate": "0x7702cb554e6bfb442cb743a7df23154544a7176c",
+ "owner": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+  "creator_balance": "3500000",
+  "creator_percent": "1.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "honeypot_with_same_creator": "2",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+  "owner_balance": "3500000",
+  "owner_change_balance": "0",
+  "owner_percent": "1.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Kinesis Silver",
+  "token_symbol": "KAG",
+  "total_supply": "3500000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0xacc18be147f96da6d8c5ee03942d17bcd966b6053ad6238e8c1b66342116a1e9",
+  "block": 53293066,
+  "deployer": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+  "tx_from": "0x146cc769f885f4dadb7e74e7d8771526a838d557",
+  "tx_to": null,
+  "ts": 1793375479
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 0,
+  "geckoterminal_top_usd": 110644864.0491
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x43C07351CA7889d1046ABc734c091d7f274733A1",
+   "liq_usd": null,
+   "created": 1793375819000,
+   "url": "https://dexscreener.com/base/0x43c07351ca7889d1046abc734c091d7f274733a1",
+   "quote": "VIRTUAL"
+  }
+ ],
+ "launcher_nonce": 4708,
+ "deployer_contracts_blockscout_page1": [
+  "0x13970dba95f564222714f821048f185fedaeceb8",
+  "0x1550fd1ed86d3d39b0811c7fff9f8d1ab448de1d",
+  "0x5b71f1868e1fea555cf97985f6e943f80fad280a",
+  "0xb9e4793793890533c894fe2b1c12985be420394e"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x69cae18362abedab4bdbe03390313562f5cd14f2?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x69cae18362abedab4bdbe03390313562f5cd14f2",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x69cae18362abedab4bdbe03390313562f5cd14f2&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x69cae18362abedab4bdbe03390313562f5cd14f2/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x69cae18362abedab4bdbe03390313562f5cd14f2/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x146cc769f885f4dadb7e74e7d8771526a838d557/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5150 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53293889",
+    "https://base.blockscout.com/address/0x69cae18362abedab4bdbe03390313562f5cd14f2"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as MintBurnTeamToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+    "https://base.blockscout.com/address/0x69cae18362abedab4bdbe03390313562f5cd14f2?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53293889"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 8,
+   "detail": "owner() = 0x146cc769f885f4dadb7e74e7d8771526a838d557, a plain wallet with an EIP-7702 delegation to 0x7702cb554e6bfb442cb743a7df23154544a7176c (code prefix 0xef0100), not a multisig or timelock: one key controls owner-only functions.",
+   "evidence": [
+    "eth_call 0x69cae18362abedab4bdbe03390313562f5cd14f2 owner() @ 53293889",
+    "eth_getCode(0x146cc769f885f4dadb7e74e7d8771526a838d557) = 0xef010077\u2026 (EIP-7702 delegation designator)",
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557"
+   ]
+  },
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+    "https://base.blockscout.com/address/0x69cae18362abedab4bdbe03390313562f5cd14f2"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x69cae18362abedab4bdbe03390313562f5cd14f2"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x69cae18362abedab4bdbe03390313562f5cd14f2&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x146cc769f885f4dadb7e74e7d8771526a838d557 holds 28.59% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x146cc769f885f4dadb7e74e7d8771526a838d557) @ 53293889",
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x69cae18362abedab4bdbe03390313562f5cd14f2/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Sources disagree: DexScreener top pool $0, GeckoTerminal top pool $110,644,864. Not scored until they agree.",
+   "evidence": [
+    "https://dexscreener.com/base/0x43c07351ca7889d1046abc734c091d7f274733a1",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+    "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x69cae18362abedab4bdbe03390313562f5cd14f2/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool 0x43c07351ca7889d1046abc734c091d7f274733a1 (uniswap) is not an ERC-20 LP pair (bonding curve / concentrated liquidity); lock status not readable from free sources.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x43c07351ca7889d1046abc734c091d7f274733a1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x146cc769f885f4dadb7e74e7d8771526a838d557 has sent 4708 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557",
+    "https://base.blockscout.com/tx/0xacc18be147f96da6d8c5ee03942d17bcd966b6053ad6238e8c1b66342116a1e9",
+    "eth_getTransactionCount = 4708"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x146cc769f885f4dadb7e74e7d8771526a838d557 on Blockscout: block 12790440 (2024-04-06 02:23 UTC), 937.6 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557",
+    "https://base.blockscout.com/tx/0xacc18be147f96da6d8c5ee03942d17bcd966b6053ad6238e8c1b66342116a1e9",
+    "https://base.blockscout.com/tx/0xaaf8268058091cc5eacea82ab0395217814f2dc73431beecc8e381cf1213810b",
+    "https://base.blockscout.com/api/v2/addresses/0x146cc769f885f4dadb7e74e7d8771526a838d557/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 58,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "fn.mint",
+   "group": "fn",
+   "title": "mint function present",
+   "status": "flag",
+   "points": 12.0,
+   "detail": "Found mint function(s): mint(address,uint256) 0x40c10f19 [runtime bytecode], mint(address,uint256) [verified ABI].",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0x69cae18362abedab4bdbe03390313562f5cd14f2",
+    "https://base.blockscout.com/address/0x69cae18362abedab4bdbe03390313562f5cd14f2"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x146cc769f885f4dadb7e74e7d8771526a838d557 holds 28.59% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x146cc769f885f4dadb7e74e7d8771526a838d557) @ 53293889",
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x146cc769f885f4dadb7e74e7d8771526a838d557 has sent 4708 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x146cc769f885f4dadb7e74e7d8771526a838d557",
+    "https://base.blockscout.com/tx/0xacc18be147f96da6d8c5ee03942d17bcd966b6053ad6238e8c1b66342116a1e9",
+    "eth_getTransactionCount = 4708"
+   ]
+  }
+ ],
+ "label": "Kinesis Silver",
+ "target": {
+  "chain": "base",
+  "address": "0x69cae18362abedab4bdbe03390313562f5cd14f2",
+  "name": "Kinesis Silver",
+  "symbol": "KAG",
+  "created_at": "2026-10-30T15:59:15Z",
+  "dex": "uniswap-v3-base",
+  "liq_usd": 110644864.0491,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x43c07351ca7889d1046abc734c091d7f274733a1",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

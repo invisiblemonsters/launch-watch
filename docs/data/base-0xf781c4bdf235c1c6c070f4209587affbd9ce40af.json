@@ -1,0 +1,580 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+ "scanned_at_utc": "2026-10-30T22:25:21Z",
+ "block": 53304887,
+ "site": "https://grail.xyz/trade/gluka",
+ "post": null,
+ "token": {
+  "name": "LUKA",
+  "symbol": "gLUKA",
+  "decimals": 18,
+  "totalSupply": 30000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0x70a4447591121ad503a910eee5c9344bb68c1539",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "2916.884950797669",
+    "pool_fee": "0.003",
+    "pair": "0xd08148e57584c4cd6a926e5a093e4a6b096889d3"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "94.024263497491",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.2",
+    "pair": "0xc8a2aa38d9d21d76bb4c27a36865682fcbc24f2e772a9f14759920957ceb9c52"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "6.71954999999999776015",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.77",
+    "pair": "0xe66e435e08882b0c1d4169dfe985f243a22d69c9b309f467c30a98b3cac4ee17"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.69575249999999776015",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.843955",
+    "pair": "0xb9458b74b5f43660d29ae857a5f6452e5f4569316c96f99a6e6e46df0cde0696"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "3.38733237687176780895",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.85248",
+    "pair": "0x0a967ca7255026512105d8a31e933acad8fda3023341ed05c4fc27d407cf05e3"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.474854749770",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.12",
+    "pair": "0x07853aa4b5ba39d17a5083161b5596ebd1e30746d6a8e83521cdef862e462760"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "2.213386428932",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.1",
+    "pair": "0x2368dcb7a9da0d321aeec10463d3a05bbc3ab3e848402c75f14d1c2011968626"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.876271581787",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.45",
+    "pair": "0xdadebe203485456c89f1eef1968108bb5c80624ddc59ee7d40101777a9d54d52"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.615354097302",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.8",
+    "pair": "0x6c42461f8ccfb9f06b5c449b555f87e64ef191e28f702f443f623e2c3beae7c0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.745497521457",
+    "pool_manager": "0x498581fF718922c3f8e6A244956aF099B2652b2b",
+    "pool_fee": "0.7",
+    "pair": "0x44768d000f4cd934534d7cb54c7304d78186dcb850e531599b66ed6d6d198174"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "56",
+  "holders": [
+   {
+    "address": "0xd08148e57584c4cd6a926e5a093e4a6b096889d3",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "15119.859803283537527745",
+    "percent": "0.503995326776117917",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8479e229eafda1ce741e281f9dbcab175d46f164",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "4048.354468650323144747",
+    "percent": "0.134945148955010771",
+    "is_locked": 0
+   },
+   {
+    "address": "0x60cf63654c363f444567579f69764a2b2a3d8195",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "2555.625199574088304934",
+    "percent": "0.085187506652469610",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf4efc353b73df5c4a12775f9e1bc218bdf97ad89",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "1762.89538384263259658",
+    "percent": "0.058763179461421086",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2801ff0c34ca2a509631df6a9d7365b86e0782aa",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1194.137729429056810353",
+    "percent": "0.039804590980968560",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4a36f75dacbc1c70dbd962fd70d16439c5f5be8c",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "710.071306563881628305",
+    "percent": "0.023669043552129387",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc4070303921e905db8f481be1ad606bb0dc18fb9",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "692.010243034130176288",
+    "percent": "0.023067008101137672",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6da3b5d44b1432608ebcb11f17546292f5a52757",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "556.159263431331010194",
+    "percent": "0.018538642114377700",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdf2968383a3872e5036cd73fb411d0dabb224253",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "550.67110396123096143",
+    "percent": "0.018355703465374365",
+    "is_locked": 0
+   },
+   {
+    "address": "0x08cecca8d1d032aa3722f78ed81ed83db4634fab",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "526.352878340802587443",
+    "percent": "0.017545095944693419",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x8479e229eafda1ce741e281f9dbcab175d46f164",
+    "tag": "",
+    "value": "3560.799646317154",
+    "is_contract": 1,
+    "balance": "0.012252555558771169",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "3560.799646317154",
+      "NFT_id": "6432888",
+      "amount": "0.012252555558771169",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.012252555558771168",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "LUKA",
+  "token_symbol": "gLUKA",
+  "total_supply": "30000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x87ce66f6ce79269c67f63d69c3866abc1550a53495d28059d39caca05e38734c",
+  "block": 53299752,
+  "deployer": "0x94df02cc6338e6b38f60a655ea893ea0c1c2961f",
+  "source": "Blockscout address creator",
+  "tx_from": "0x70a4447591121ad503a910eee5c9344bb68c1539",
+  "tx_to": "0x77b28fe2ec3b124a7baef3bfa292c51965d90af7",
+  "ts": 1793388851
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 6487.06,
+  "geckoterminal_top_usd": 6496.2734
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xD08148e57584C4CD6a926E5a093e4a6b096889D3",
+   "liq_usd": 6487.06,
+   "created": 1793388851000,
+   "url": "https://dexscreener.com/base/0xd08148e57584c4cd6a926e5a093e4a6b096889d3",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xc8a2aa38d9d21d76bb4c27a36865682fcbc24f2e772a9f14759920957ceb9c52",
+   "liq_usd": 259.25,
+   "created": 1793395573000,
+   "url": "https://dexscreener.com/base/0xc8a2aa38d9d21d76bb4c27a36865682fcbc24f2e772a9f14759920957ceb9c52",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x07853aa4b5ba39d17a5083161b5596ebd1e30746d6a8e83521cdef862e462760",
+   "liq_usd": 5.45,
+   "created": 1793393701000,
+   "url": "https://dexscreener.com/base/0x07853aa4b5ba39d17a5083161b5596ebd1e30746d6a8e83521cdef862e462760",
+   "quote": "USDC"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x2368dcb7a9da0d321aeec10463d3a05bbc3ab3e848402c75f14d1c2011968626",
+   "liq_usd": 4.72,
+   "created": 1793396309000,
+   "url": "https://dexscreener.com/base/0x2368dcb7a9da0d321aeec10463d3a05bbc3ab3e848402c75f14d1c2011968626",
+   "quote": "USDC"
+  }
+ ],
+ "launcher_nonce": 1974,
+ "site_ips": [
+  "104.21.85.159",
+  "172.67.207.85"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xf781c4bdf235c1c6c070f4209587affbd9ce40af?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xf781c4bdf235c1c6c070f4209587affbd9ce40af&chainID=8453",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xf781c4bdf235c1c6c070f4209587affbd9ce40af/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xf781c4bdf235c1c6c070f4209587affbd9ce40af/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x70a4447591121ad503a910eee5c9344bb68c1539/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=grail.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/grail.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "82 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53304887",
+    "https://base.blockscout.com/address/0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+    "https://base.blockscout.com/address/0xf781c4bdf235c1c6c070f4209587affbd9ce40af?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "flag",
+   "points": 15,
+   "detail": "EIP-1967 proxy: implementation None, beacon 0xba9962ede0a8b6e83d843590bcb488f0ef95662d, admin slot None. Logic can be swapped by whoever controls upgrades.",
+   "evidence": [
+    "eth_getStorageAt(0xf781c4bdf235c1c6c070f4209587affbd9ce40af, 0x360894a1..) @ 53304887",
+    "https://base.blockscout.com/address/0xba9962ede0a8b6e83d843590bcb488f0ef95662d"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xf781c4bdf235c1c6c070f4209587affbd9ce40af owner() @ 53304887 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 53304887"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "pass",
+   "points": 0,
+   "detail": "honeypot.is simulated sell OK; buy tax 0%, sell tax 0%.",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xf781c4bdf235c1c6c070f4209587affbd9ce40af&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x70a4447591121ad503a910eee5c9344bb68c1539 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x70a4447591121ad503a910eee5c9344bb68c1539) @ 53304887",
+    "https://base.blockscout.com/address/0x70a4447591121ad503a910eee5c9344bb68c1539"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xf781c4bdf235c1c6c070f4209587affbd9ce40af/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $6,487 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd08148e57584c4cd6a926e5a093e4a6b096889d3",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0x70a4447591121ad503a910eee5c9344bb68c1539 has sent 1974 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x70a4447591121ad503a910eee5c9344bb68c1539",
+    "https://base.blockscout.com/tx/0x87ce66f6ce79269c67f63d69c3866abc1550a53495d28059d39caca05e38734c",
+    "eth_getTransactionCount = 1974"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0x70a4447591121ad503a910eee5c9344bb68c1539 on Blockscout: block 52242990 (2026-10-06 08:28 UTC), 24.6 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x70a4447591121ad503a910eee5c9344bb68c1539",
+    "https://base.blockscout.com/tx/0x87ce66f6ce79269c67f63d69c3866abc1550a53495d28059d39caca05e38734c",
+    "https://base.blockscout.com/tx/0xff3150e846314295eb0394d88949babd5fd98fa06c55e9393c0f8c7e98585877",
+    "https://base.blockscout.com/api/v2/addresses/0x70a4447591121ad503a910eee5c9344bb68c1539/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "grail.xyz -> 104.21.85.159, 172.67.207.85 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=grail.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "grail.xyz registered 2020-05-29 (2345 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/grail.xyz"
+   ]
+  }
+ ],
+ "score": 63,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "flag",
+   "points": 15,
+   "detail": "EIP-1967 proxy: implementation None, beacon 0xba9962ede0a8b6e83d843590bcb488f0ef95662d, admin slot None. Logic can be swapped by whoever controls upgrades.",
+   "evidence": [
+    "eth_getStorageAt(0xf781c4bdf235c1c6c070f4209587affbd9ce40af, 0x360894a1..) @ 53304887",
+    "https://base.blockscout.com/address/0xba9962ede0a8b6e83d843590bcb488f0ef95662d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+    "https://base.blockscout.com/address/0xf781c4bdf235c1c6c070f4209587affbd9ce40af?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xf781c4bdf235c1c6c070f4209587affbd9ce40af"
+   ]
+  }
+ ],
+ "label": "LUKA",
+ "target": {
+  "chain": "base",
+  "address": "0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+  "site": "https://grail.xyz/trade/gluka",
+  "x_profile": "https://x.com/GrailCo",
+  "pool_url": "https://dexscreener.com/base/0xf781c4bdf235c1c6c070f4209587affbd9ce40af",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

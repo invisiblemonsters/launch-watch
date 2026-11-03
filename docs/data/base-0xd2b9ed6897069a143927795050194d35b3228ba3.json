@@ -1,0 +1,311 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xd2b9ed6897069a143927795050194d35b3228ba3",
+ "scanned_at_utc": "2026-10-31T17:23:31Z",
+ "block": 53339032,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Paddy",
+  "symbol": "0xPD33",
+  "decimals": 18,
+  "totalSupply": 100000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0xdb7b520bb5c3a2c5d4871198081911359f93be87",
+  "state": "verified",
+  "name": "DopplerERC20V1",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0xaf061c2dad091055e541c2ec20fa3937e1ea8198",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "holder_count": "1",
+  "holders": [
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "Null Address",
+    "is_contract": 0,
+    "balance": "0.000000000000051472",
+    "percent": "0.000000000000000000",
+    "is_locked": 1
+   }
+  ],
+  "honeypot_with_same_creator": "50",
+  "is_in_dex": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Paddy",
+  "token_symbol": "0xPD33",
+  "total_supply": "100000000000"
+ },
+ "creation": {
+  "tx": "0x37bf84d88bbb6710dc39dfde6a858f325c0d9674d5df30eacb0b5319a94ba841",
+  "block": 53338430,
+  "deployer": "0x89c261c05b5f9b6bcba07c199b8dee7cfad45292",
+  "source": "Blockscout address creator",
+  "tx_from": null,
+  "tx_to": "0x0000000071727de22e5e9d8baf0edac6f37da032",
+  "ts": 1793466207,
+  "note": "creation tx went through an ERC-4337 EntryPoint; tx.from is a bundler, so the creator/smart account is used"
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xd2b9ed6897069a143927795050194d35b3228ba3?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xd2b9ed6897069a143927795050194d35b3228ba3",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xdb7b520bb5c3a2c5d4871198081911359f93be87?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xdb7b520bb5c3a2c5d4871198081911359f93be87",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xd2b9ed6897069a143927795050194d35b3228ba3",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd2b9ed6897069a143927795050194d35b3228ba3",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xd2b9ed6897069a143927795050194d35b3228ba3&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xd2b9ed6897069a143927795050194d35b3228ba3/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xd2b9ed6897069a143927795050194d35b3228ba3",
+   "status": 429
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xd2b9ed6897069a143927795050194d35b3228ba3/pools",
+   "status": 429
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53339032",
+    "https://base.blockscout.com/address/0xd2b9ed6897069a143927795050194d35b3228ba3"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DopplerERC20V1 0xdb7b520bb5c3a2c5d4871198081911359f93be87, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xdb7b520bb5c3a2c5d4871198081911359f93be87?tab=contract",
+    "https://base.blockscout.com/address/0xd2b9ed6897069a143927795050194d35b3228ba3?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xd2b9ed6897069a143927795050194d35b3228ba3"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0xdb7b520bb5c3a2c5d4871198081911359f93be87; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0xdb7b520bb5c3a2c5d4871198081911359f93be87",
+    "https://base.blockscout.com/address/0xdb7b520bb5c3a2c5d4871198081911359f93be87"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0xd2b9ed6897069a143927795050194d35b3228ba3 owner() @ 53339032",
+    "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53339032"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xd2b9ed6897069a143927795050194d35b3228ba3"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xd2b9ed6897069a143927795050194d35b3228ba3&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x89c261c05b5f9b6bcba07c199b8dee7cfad45292 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x89c261c05b5f9b6bcba07c199b8dee7cfad45292) @ 53339032",
+    "https://base.blockscout.com/address/0x89c261c05b5f9b6bcba07c199b8dee7cfad45292"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xd2b9ed6897069a143927795050194d35b3228ba3/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "DexScreener request failed: HTTP 429.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/base/0xd2b9ed6897069a143927795050194d35b3228ba3"
+   ]
+  },
+  {
+   "id": "deployer.type",
+   "group": "deployer",
+   "title": "Deployer",
+   "status": "info",
+   "points": 0,
+   "detail": "deployer 0x89c261c05b5f9b6bcba07c199b8dee7cfad45292 is a contract (factory); wallet history not applicable.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x89c261c05b5f9b6bcba07c199b8dee7cfad45292",
+    "https://base.blockscout.com/tx/0x37bf84d88bbb6710dc39dfde6a858f325c0d9674d5df30eacb0b5319a94ba841"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 18,
+ "band": "LOW",
+ "coverage": {
+  "run": 7,
+  "unknown": 5
+ },
+ "top_reasons": [
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xd2b9ed6897069a143927795050194d35b3228ba3/holders"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "DexScreener request failed: HTTP 429.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/base/0xd2b9ed6897069a143927795050194d35b3228ba3"
+   ]
+  }
+ ],
+ "label": "Paddy",
+ "target": {
+  "chain": "base",
+  "address": "0xd2b9ed6897069a143927795050194d35b3228ba3",
+  "name": "Paddy",
+  "symbol": "0xPD33",
+  "created_at": "2026-10-31T17:03:27Z",
+  "dex": "bankr",
+  "liq_usd": 8711.2766,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x843ce16701e9b7852f9de2d86d46caa402f33a7c3bd12540d64cd08ed8a822ce",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

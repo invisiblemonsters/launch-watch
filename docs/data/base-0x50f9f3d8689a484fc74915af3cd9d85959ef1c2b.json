@@ -1,0 +1,439 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+ "scanned_at_utc": "2026-11-03T17:12:13Z",
+ "block": 53468293,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "United States Power Reserve \ud83c\uddfa\ud83c\uddf8",
+  "symbol": "USPR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0x2797146f557462f7d3b89c30ad748b08f70abc6d",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "10",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989972780.847022094532513376",
+    "percent": "0.989972780847022094",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd768c9242f5b9ab6bfbb011fa595fb108779c1bd",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe4a4e60ecfca9b82224c968d5042bac710a6cb90",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18139.426061082495511534",
+    "percent": "0.000018139426061082",
+    "is_locked": 0
+   },
+   {
+    "address": "0x65c8e263c91c88cda314db3aa2bc5a30baff1363",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "8854.643495026535219999",
+    "percent": "0.000008854643495026",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7f8aa4069add2d34e3655b8b9cba8c929e4a2f05",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "89.006940989022505672",
+    "percent": "0.000000089006940989",
+    "is_locked": 0
+   },
+   {
+    "address": "0x529ef17056011bfc6be1386fc716a31ff1d26193",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "45.360375197171802266",
+    "percent": "0.000000045360375197",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa8a57dc6adfaed37349cb8a20b3dc83f37e9643b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "45.358826909381311271",
+    "percent": "0.000000045358826909",
+    "is_locked": 0
+   },
+   {
+    "address": "0xdfa48b2bc7ea87a7060687c757ec9bb96428ef35",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "45.357278700861135854",
+    "percent": "0.000000045357278700",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0469a4bd3724dc86c9542f4694c976da13c450c0",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000027",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8f10b468b06c6fd214b65f87778827f7d113f996",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "0.000000000000000001",
+    "percent": "0.000000000000000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "United States Power Reserve \ud83c\uddfa\ud83c\uddf8",
+  "token_symbol": "USPR",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": null,
+  "block": null,
+  "deployer": "0x2797146f557462f7d3b89c30ad748b08f70abc6d",
+  "source": "GoPlus creator_address"
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 223189.98,
+  "geckoterminal_top_usd": 224622.9911
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xf053551bbb1f4649adbe5e655262f31eb04ff93e439ebbf40ca3cc9f03671d24",
+   "liq_usd": 223189.98,
+   "created": 1793692751000,
+   "url": "https://dexscreener.com/base/0xf053551bbb1f4649adbe5e655262f31eb04ff93e439ebbf40ca3cc9f03671d24",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 17,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x2797146f557462f7d3b89c30ad748b08f70abc6d/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53468293",
+    "https://base.blockscout.com/address/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b owner() @ 53468293 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53468293"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x2797146f557462f7d3b89c30ad748b08f70abc6d holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x2797146f557462f7d3b89c30ad748b08f70abc6d) @ 53468293",
+    "https://base.blockscout.com/address/0x2797146f557462f7d3b89c30ad748b08f70abc6d"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $223,190 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xf053551bbb1f4649adbe5e655262f31eb04ff93e439ebbf40ca3cc9f03671d24",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xf053551bbb\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xf053551bbb1f4649adbe5e655262f31eb04ff93e439ebbf40ca3cc9f03671d24"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x2797146f557462f7d3b89c30ad748b08f70abc6d (CREATE nonce scan 0..16); tokens launched via factories are not counted. Wallet nonce = 17.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x2797146f557462f7d3b89c30ad748b08f70abc6d"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2797146f557462f7d3b89c30ad748b08f70abc6d on Blockscout: block 53375254 (2026-11-01 13:30 UTC), 2.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x2797146f557462f7d3b89c30ad748b08f70abc6d",
+    "https://base.blockscout.com/tx/0xcbe83078442cbdcd191b856c2dfd7e161d65e9fbc03d0e91c7ffe434502195a6",
+    "https://base.blockscout.com/api/v2/addresses/0x2797146f557462f7d3b89c30ad748b08f70abc6d/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 18,
+ "band": "LOW",
+ "coverage": {
+  "run": 10,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x2797146f557462f7d3b89c30ad748b08f70abc6d on Blockscout: block 53375254 (2026-11-01 13:30 UTC), 2.2 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x2797146f557462f7d3b89c30ad748b08f70abc6d",
+    "https://base.blockscout.com/tx/0xcbe83078442cbdcd191b856c2dfd7e161d65e9fbc03d0e91c7ffe434502195a6",
+    "https://base.blockscout.com/api/v2/addresses/0x2797146f557462f7d3b89c30ad748b08f70abc6d/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b/holders"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "United States Power Reserve \ud83c\uddfa\ud83c\uddf8",
+ "target": {
+  "chain": "base",
+  "address": "0x50f9f3d8689a484fc74915af3cd9d85959ef1c2b",
+  "name": "United States Power Reserve \ud83c\uddfa\ud83c\uddf8",
+  "symbol": "USPR",
+  "created_at": "2026-11-03T07:59:11Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 284543.5034,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xf053551bbb1f4649adbe5e655262f31eb04ff93e439ebbf40ca3cc9f03671d24",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

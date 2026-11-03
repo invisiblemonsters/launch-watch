@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd",
- "scanned_at_utc": "2026-10-22T02:25:20Z",
- "block": 94765604,
+ "scanned_at_utc": "2026-10-31T19:52:51Z",
+ "block": 102810234,
  "site": "https://owocat.xyz/",
  "post": null,
  "token": {
@@ -16,7 +16,7 @@
  },
  "sourcify": {
   "match": null,
-  "err": "HTTP 404"
+  "err": "ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>"
  },
  "blockscout": {
   "status": "verified",
@@ -37,7 +37,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "11324.08736196167916590400",
+    "liquidity": "5498.31826120722420039369",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0",
     "pair": "0x383947b7d40a42354119700a2f4097debd50e61bb7c868fc5f9ff5c7aafa0c79"
@@ -45,7 +45,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "4.624522000000",
+    "liquidity": "1.528950000000",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.51049",
     "pair": "0xea9c862fca3fc77d50832889b92654b6af2d2a85189a8fbb3a840826a5fa1b6a"
@@ -53,7 +53,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "2.320194533626667420754000",
+    "liquidity": "1.370718633736816405809675",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.5258",
     "pair": "0x99c321895f31b64d9f524e10b42db3fc2af6e96cc22ab0b2736e294aa5288f2d"
@@ -69,7 +69,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.48864408004257021600",
+    "liquidity": "0.31363599336275472365",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.7",
     "pair": "0x7b648c5970088828d8c0435cc22093deb5e4b3558e38fceec9f1247648daa673"
@@ -77,7 +77,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.27449925841218300800",
+    "liquidity": "0.24996172979167878136",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.79",
     "pair": "0xa1589f05fd140942414f95bdb5812bfda0ba5ca52f1b405d1ec03ec655b7a30b"
@@ -85,15 +85,7 @@
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "0.269842000000",
-    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
-    "pool_fee": "0.9",
-    "pair": "0x2249d9f4286016ca59fbb1e3a32f9e7e846bc9641c1b428616e37b6a153f4c5b"
-   },
-   {
-    "liquidity_type": "UniV4",
-    "name": "UniswapV4",
-    "liquidity": "0.128201000000",
+    "liquidity": "0.073852000000",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.48",
     "pair": "0x6b9aee72490ce80ef97c96349c318edc5675c9c5e8d93e922263606fda51965e"
@@ -101,14 +93,14 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "299",
+  "holder_count": "266",
   "holders": [
    {
     "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
     "tag": "",
     "is_contract": 1,
-    "balance": "184565217.593564678622517755",
-    "percent": "0.184565",
+    "balance": "355590949.570909651278773152",
+    "percent": "0.355591",
     "is_locked": 0
    },
    {
@@ -120,67 +112,67 @@
     "is_locked": 0
    },
    {
-    "address": "0x066F3AEA6bccBA949A0039194872B6EAE67E4EE7",
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "48965224.375608280949011845",
+    "percent": "0.048965",
+    "is_locked": 1
+   },
+   {
+    "address": "0xC1E074180FC4F5A073cA9fD285A38EC1Bb758bF8",
     "tag": "",
     "is_contract": 1,
-    "balance": "61320520.814654188145784949",
-    "percent": "0.061321",
+    "balance": "32228532.113093116672037513",
+    "percent": "0.032229",
     "is_locked": 0
    },
    {
-    "address": "0x18a4486C2E8a27B726F8af24e2e77858D454e556",
+    "address": "0x23B4f19c506660ED738960f70bE221604c619d9E",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "31173812.661873488165183553",
+    "percent": "0.031174",
+    "is_locked": 0
+   },
+   {
+    "address": "0x066F3AEA6bccBA949A0039194872B6EAE67E4EE7",
     "tag": "",
     "is_contract": 1,
-    "balance": "43965224.375608280949011845",
-    "percent": "0.043965",
+    "balance": "30000000",
+    "percent": "0.030000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0Af489aEc22cEB2E3162a7F655450A82F1DA4C91",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "29000000",
+    "percent": "0.029000",
     "is_locked": 0
    },
    {
     "address": "0xc56CbE2014e80ee6824431CC5749F4a58B43a29d",
     "tag": "",
     "is_contract": 0,
-    "balance": "43408380.911112777340329584",
-    "percent": "0.043408",
+    "balance": "27408380.911112777340329584",
+    "percent": "0.027408",
     "is_locked": 0
    },
    {
-    "address": "0xd5ddBe25D1c12F91E9Fb8A62558A94f967529B2e",
+    "address": "0xdD97D62ccc13ECcEAAD5b68DFf9Cd69Ac7a8d60d",
     "tag": "",
     "is_contract": 0,
-    "balance": "34250000",
-    "percent": "0.034250",
+    "balance": "26800000.0000000048635779",
+    "percent": "0.026800",
     "is_locked": 0
    },
    {
-    "address": "0x38025126A9C9a6d5DFdC0254942175f7eF195D1e",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "32938144.329896907216494845",
-    "percent": "0.032938",
-    "is_locked": 0
-   },
-   {
-    "address": "0x88345261b3b4aab2Cb1E33091E1b130946f8916a",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "30625666.096845799407662183",
-    "percent": "0.030626",
-    "is_locked": 0
-   },
-   {
-    "address": "0xC1E074180FC4F5A073cA9fD285A38EC1Bb758bF8",
+    "address": "0x77D48bE91f49f0942799092b460F6D90cF33a747",
     "tag": "",
     "is_contract": 1,
-    "balance": "28645950.175943648026420599",
-    "percent": "0.028646",
-    "is_locked": 0
-   },
-   {
-    "address": "0x22efFd6C0edEb49f13B015909b4b180a795167be",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "23869339.058262487315068641",
-    "percent": "0.023869",
+    "balance": "26043589.282441662146960283",
+    "percent": "0.026044",
     "is_locked": 0
    }
   ],
@@ -198,13 +190,13 @@
    {
     "address": "0x267444d099b10fb5ed7c3cc7b7c767adca574952",
     "tag": "",
-    "value": "11711.5564085103283228640",
+    "value": "5118.43678409519566084870",
     "is_contract": 1,
     "balance": "29277.002188455995855636",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "11711.5564085103283228640",
+      "value": "5118.43678409519566084870",
       "NFT_id": "3861066",
       "amount": "29277.002188455995855636",
       "in_effect": "1",
@@ -239,28 +231,29 @@
   "ts": 1792020202
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 23660.91,
-  "geckoterminal_top_usd": 20882.862
+  "dexscreener_top_usd": 10216.97,
+  "geckoterminal_top_usd": null
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x383947b7d40a42354119700a2f4097debd50e61bb7c868fc5f9ff5c7aafa0c79",
-   "liq_usd": 23660.91,
+   "liq_usd": 10216.97,
    "created": 1792187689000,
    "url": "https://dexscreener.com/robinhood/0x383947b7d40a42354119700a2f4097debd50e61bb7c868fc5f9ff5c7aafa0c79",
    "quote": "ETH"
   }
  ],
- "launcher_nonce": 669,
+ "launcher_nonce": 693,
  "site_ips": [
-  "191.96.144.104",
-  "195.35.60.25"
+  "145.223.124.216",
+  "88.223.87.228"
  ],
  "http_log": [
   {
    "url": "https://sourcify.dev/server/v2/contract/4663/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd?fields=abi,deployment,proxyResolution,compilation",
-   "status": 404
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
   },
   {
    "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd",
@@ -284,7 +277,7 @@
   },
   {
    "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd/pools",
-   "status": 200
+   "status": 429
   },
   {
    "url": "https://sourcify.dev/server/v2/contract/4663/0x267444d099b10fb5ed7c3cc7b7c767adca574952?fields=abi,compilation",
@@ -317,7 +310,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 94765604",
+    "eth_getCode @ block 102810234",
     "https://robinhoodchain.blockscout.com/address/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd"
    ]
   },
@@ -327,7 +320,7 @@
    "title": "Source verified",
    "status": "pass",
    "points": 0,
-   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: not checked (ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>); Blockscout: verified.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd?tab=contract"
    ]
@@ -340,7 +333,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 94765604"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 102810234"
    ]
   },
   {
@@ -351,7 +344,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd owner() @ 94765604 -> revert/empty"
+    "eth_call 0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd owner() @ 102810234 -> revert/empty"
    ]
   },
   {
@@ -362,7 +355,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 94765604",
+    "selector scan @ 102810234",
     "https://robinhoodchain.blockscout.com/address/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd?tab=contract"
    ]
   },
@@ -392,9 +385,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x18a4486c2e8a27b726f8af24e2e77858d454e556 holds 4.40% of supply.",
+   "detail": "Launch wallet 0x18a4486c2e8a27b726f8af24e2e77858d454e556 holds 0.11% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x18a4486c2e8a27b726f8af24e2e77858d454e556) @ 94765604",
+    "eth_call balanceOf(0x18a4486c2e8a27b726f8af24e2e77858d454e556) @ 102810234",
     "https://robinhoodchain.blockscout.com/address/0x18a4486c2e8a27b726f8af24e2e77858d454e556"
    ]
   },
@@ -404,7 +397,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 6.13% of supply.",
+   "detail": "Largest non-contract holder has 3.22% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd/holders",
     "https://robinhoodchain.blockscout.com/token/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd?tab=holders"
@@ -416,7 +409,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $23,661 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $10,217 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x383947b7d40a42354119700a2f4097debd50e61bb7c868fc5f9ff5c7aafa0c79",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd"
@@ -440,11 +433,11 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x18a4486c2e8a27b726f8af24e2e77858d454e556 has sent 669 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x18a4486c2e8a27b726f8af24e2e77858d454e556 has sent 693 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x18a4486c2e8a27b726f8af24e2e77858d454e556",
     "https://robinhoodchain.blockscout.com/tx/0xf5f28ed8b57f22ff76f50de9658db17614900d0185a05c9aa4c3c6650d2ce66e",
-    "eth_getTransactionCount = 669"
+    "eth_getTransactionCount = 693"
    ]
   },
   {
@@ -453,7 +446,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x18a4486c2e8a27b726f8af24e2e77858d454e556 on Blockscout: block 4668128 (2026-07-08 21:09 UTC), 105.2 days before scan.",
+   "detail": "Oldest transaction of 0x18a4486c2e8a27b726f8af24e2e77858d454e556 on Blockscout: block 4668128 (2026-07-08 21:09 UTC), 114.9 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x18a4486c2e8a27b726f8af24e2e77858d454e556",
     "https://robinhoodchain.blockscout.com/tx/0xf5f28ed8b57f22ff76f50de9658db17614900d0185a05c9aa4c3c6650d2ce66e",
@@ -467,7 +460,7 @@
    "title": "Site hosting overlap",
    "status": "pass",
    "points": 0,
-   "detail": "owocat.xyz -> 191.96.144.104, 195.35.60.25; no watchlist match.",
+   "detail": "owocat.xyz -> 145.223.124.216, 88.223.87.228; no watchlist match.",
    "evidence": [
     "https://dns.google/resolve?name=owocat.xyz&type=A"
    ]
@@ -476,16 +469,16 @@
    "id": "host.domain_age",
    "group": "host",
    "title": "Domain age",
-   "status": "flag",
-   "points": 5,
-   "detail": "owocat.xyz registered 2026-10-15 (6 days ago).",
+   "status": "pass",
+   "points": 0,
+   "detail": "owocat.xyz registered 2026-10-15 (16 days ago).",
    "evidence": [
     "https://rdap.org/domain/owocat.xyz"
    ]
   }
  ],
- "score": 26,
- "band": "MODERATE",
+ "score": 21,
+ "band": "LOW",
  "coverage": {
   "run": 14,
   "unknown": 1
@@ -497,7 +490,7 @@
    "title": "DEX liquidity",
    "status": "flag",
    "points": 10,
-   "detail": "Top pool liquidity $23,661 (uniswap) - under $25k.",
+   "detail": "Top pool liquidity $10,217 (uniswap) - under $25k.",
    "evidence": [
     "https://dexscreener.com/robinhood/0x383947b7d40a42354119700a2f4097debd50e61bb7c868fc5f9ff5c7aafa0c79",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0xa01ff10774cfe53c3fbc1d7d124c42e19f6afcbd"
@@ -509,23 +502,21 @@
    "title": "Contracts deployed by this wallet",
    "status": "flag",
    "points": 8,
-   "detail": "0x18a4486c2e8a27b726f8af24e2e77858d454e556 has sent 669 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "detail": "0x18a4486c2e8a27b726f8af24e2e77858d454e556 has sent 693 transactions (>400; nonce scan skipped). High-volume wallet.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x18a4486c2e8a27b726f8af24e2e77858d454e556",
     "https://robinhoodchain.blockscout.com/tx/0xf5f28ed8b57f22ff76f50de9658db17614900d0185a05c9aa4c3c6650d2ce66e",
-    "eth_getTransactionCount = 669"
+    "eth_getTransactionCount = 693"
    ]
   },
   {
-   "id": "host.domain_age",
-   "group": "host",
-   "title": "Domain age",
-   "status": "flag",
-   "points": 5,
-   "detail": "owocat.xyz registered 2026-10-15 (6 days ago).",
-   "evidence": [
-    "https://rdap.org/domain/owocat.xyz"
-   ]
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
   }
  ],
  "label": "OWO",

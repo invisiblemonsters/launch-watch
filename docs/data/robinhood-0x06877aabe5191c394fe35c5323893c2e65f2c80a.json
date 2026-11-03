@@ -1,0 +1,633 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+ "scanned_at_utc": "2026-11-02T17:10:50Z",
+ "block": 104382141,
+ "site": "https://teraworld.xyz/",
+ "post": null,
+ "token": {
+  "name": "TERA",
+  "symbol": "TERA",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "HoodToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0xe3F42CcbEBA5a110C8Fdb90E7D9b143C1287e0c9",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "14.57420092951537005850",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0x7d61f407262b6b78bf1e3f9bb85ece5fa4420a8805a5f1635614a25c19e70dd1"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "6.486506324355",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.15",
+    "pair": "0x4b37427a3680dc6a3c735064d71d777e6690628fe94fdc7875ba4210fb5813db"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.544129837705",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0x874a25ec0fcde73f05f062870b0210f553f7216698c0ef1f68f2321c0f473fbb"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.715605913987",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.601",
+    "pair": "0x22ef3f054b785c9978389b30da863ece2d92a6d8e8446690778c74443218b8a0"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.494087588575",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.931",
+    "pair": "0x8cd9bf2426548884171bde41ed72cb4dd6b9382ab2ce458c57cdc39121393c76"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.178954725142",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.858",
+    "pair": "0x00074c1e2e28f091ef56bbed90000574208f48e827a419bbb2467945b439cbc3"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "110",
+  "holders": [
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "612726889.556958463906272446",
+    "percent": "0.612727",
+    "is_locked": 0
+   },
+   {
+    "address": "0x780217eA8EA50f60458526ef0613D260e9C47771",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "50383987.447469857584644562",
+    "percent": "0.050384",
+    "is_locked": 0
+   },
+   {
+    "address": "0xbE895b3b2f08dc4a806076Ff03974447CacbD9F5",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "14508736.447116950178206793",
+    "percent": "0.014509",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC40dCAD571ee3F4Cb423fE5cf80bc897FFe3909f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "11474879.518164692884002392",
+    "percent": "0.011475",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6CB507E2b1D90c2bb1c8fab06489d463c469A10e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "10999999.697463826543359654",
+    "percent": "0.011000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x134243f9B2Ff24C63F1f0E5fc56f5b8cB1b538Cf",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9878874.12870249981245578",
+    "percent": "0.009879",
+    "is_locked": 0
+   },
+   {
+    "address": "0x02022aB78cB92c5e65f5cEE3Bb62A973BbA29129",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9781855.210412115158979838",
+    "percent": "0.009782",
+    "is_locked": 0
+   },
+   {
+    "address": "0xB57008f3dc253E3183b70e11afec3E8eC607a5AB",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9736354.416358214393979727",
+    "percent": "0.009736",
+    "is_locked": 0
+   },
+   {
+    "address": "0x82Ed48530668121cC6cdD47Bdf6856899e00702a",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9140699.347949819582786222",
+    "percent": "0.009141",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4a3859Ed0D9F534868D723FcF329F514629B4390",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9089596.1654378563571026",
+    "percent": "0.009090",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "4",
+  "lp_holders": [
+   {
+    "address": "0x76f415ebd1bd85cf0ae098f9f00713d634a64c68",
+    "tag": "",
+    "value": "14.5108877459708302098",
+    "is_contract": 0,
+    "balance": "175.753654261598966991",
+    "percent": "0.807523154208193568",
+    "NFT_list": [
+     {
+      "value": "14.5108877459708302098",
+      "NFT_id": "4142259",
+      "amount": "175.753654261598966991",
+      "in_effect": "1",
+      "NFT_percentage": "0.807523154208193568"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x25aa5598a14c2ace4406309365601ca9bca1fe51",
+    "tag": "",
+    "value": "2.87768183618769762726",
+    "is_contract": 0,
+    "balance": "34.854042520771968413",
+    "percent": "0.160141457493608749",
+    "NFT_list": [
+     {
+      "value": "2.87768183618769762726",
+      "NFT_id": "4142375",
+      "amount": "34.854042520771968413",
+      "in_effect": "1",
+      "NFT_percentage": "0.160141457493608749"
+     },
+     {
+      "value": "0.00",
+      "NFT_id": "4142370",
+      "amount": "0",
+      "in_effect": "1",
+      "NFT_percentage": "0.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x2613e9211dfff992a7699c5b8629644f65502fb9",
+    "tag": "",
+    "value": "0.37625675508319328898",
+    "is_contract": 0,
+    "balance": "4.557164303393119655",
+    "percent": "0.020938487498208697",
+    "NFT_list": [
+     {
+      "value": "0.37625675508319328898",
+      "NFT_id": "4143240",
+      "amount": "4.557164303393119655",
+      "in_effect": "1",
+      "NFT_percentage": "0.020938487498208697"
+     }
+    ],
+    "is_locked": 0
+   },
+   {
+    "address": "0x3ce1033c078964756ea13dded10a2aed24d46b11",
+    "tag": "",
+    "value": "0.20479802628416978565",
+    "is_contract": 0,
+    "balance": "2.480482389163300205",
+    "percent": "0.011396900799988985",
+    "NFT_list": [
+     {
+      "value": "0.20479802628416978565",
+      "NFT_id": "4142459",
+      "amount": "2.480482389163300205",
+      "in_effect": "1",
+      "NFT_percentage": "0.011396900799988985"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "217.64534347492736",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "TERA",
+  "token_symbol": "TERA",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x2dbe88eeed2a940d266206451d93e475340b8c73976810f3ee5f3f6c4ed84944",
+  "block": 104235041,
+  "deployer": "0x780217ea8ea50f60458526ef0613d260e9c47771",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xe3f42ccbeba5a110c8fdb90e7d9b143c1287e0c9",
+  "tx_from": "0x780217ea8ea50f60458526ef0613d260e9c47771",
+  "tx_to": "0xe3f42ccbeba5a110c8fdb90e7d9b143c1287e0c9",
+  "ts": 1793624516
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 5331.06,
+  "geckoterminal_top_usd": 5344.0952
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x5cfabcc0098ea25ff1a36af695ce050cf5dd61dcf2543a028cda29f74ea75e67",
+   "liq_usd": 5331.06,
+   "created": 1793624516000,
+   "url": "https://dexscreener.com/robinhood/0x5cfabcc0098ea25ff1a36af695ce050cf5dd61dcf2543a028cda29f74ea75e67",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x7d61f407262b6b78bf1e3f9bb85ece5fa4420a8805a5f1635614a25c19e70dd1",
+   "liq_usd": 40.73,
+   "created": 1793628754000,
+   "url": "https://dexscreener.com/robinhood/0x7d61f407262b6b78bf1e3f9bb85ece5fa4420a8805a5f1635614a25c19e70dd1",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x4b37427a3680dc6a3c735064d71d777e6690628fe94fdc7875ba4210fb5813db",
+   "liq_usd": 14.51,
+   "created": 1793635283000,
+   "url": "https://dexscreener.com/robinhood/0x4b37427a3680dc6a3c735064d71d777e6690628fe94fdc7875ba4210fb5813db",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x874a25ec0fcde73f05f062870b0210f553f7216698c0ef1f68f2321c0f473fbb",
+   "liq_usd": 2.64,
+   "created": 1793626680000,
+   "url": "https://dexscreener.com/robinhood/0x874a25ec0fcde73f05f062870b0210f553f7216698c0ef1f68f2321c0f473fbb",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x22ef3f054b785c9978389b30da863ece2d92a6d8e8446690778c74443218b8a0",
+   "liq_usd": 2.11,
+   "created": 1793634122000,
+   "url": "https://dexscreener.com/robinhood/0x22ef3f054b785c9978389b30da863ece2d92a6d8e8446690778c74443218b8a0",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 3,
+ "deployer_contracts": [],
+ "site_ips": [
+  "104.21.7.3",
+  "172.67.135.139"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x06877aabe5191c394fe35c5323893c2e65f2c80a?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x06877aabe5191c394fe35c5323893c2e65f2c80a/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x06877aabe5191c394fe35c5323893c2e65f2c80a/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x780217ea8ea50f60458526ef0613d260e9c47771/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=teraworld.xyz&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/teraworld.xyz",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "2863 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 104382141",
+    "https://robinhoodchain.blockscout.com/address/0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as HoodToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/4663/0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+    "https://robinhoodchain.blockscout.com/address/0x06877aabe5191c394fe35c5323893c2e65f2c80a?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 104382141"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x06877aabe5191c394fe35c5323893c2e65f2c80a owner() @ 104382141 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 104382141",
+    "https://repo.sourcify.dev/4663/0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x780217ea8ea50f60458526ef0613d260e9c47771 holds 3.82% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x780217ea8ea50f60458526ef0613d260e9c47771) @ 104382141",
+    "https://robinhoodchain.blockscout.com/address/0x780217ea8ea50f60458526ef0613d260e9c47771"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.82% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x06877aabe5191c394fe35c5323893c2e65f2c80a/holders",
+    "https://robinhoodchain.blockscout.com/token/0x06877aabe5191c394fe35c5323893c2e65f2c80a?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,331 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5cfabcc0098ea25ff1a36af695ce050cf5dd61dcf2543a028cda29f74ea75e67",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x780217ea8ea50f60458526ef0613d260e9c47771 has sent only 3 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x780217ea8ea50f60458526ef0613d260e9c47771",
+    "https://robinhoodchain.blockscout.com/tx/0x2dbe88eeed2a940d266206451d93e475340b8c73976810f3ee5f3f6c4ed84944",
+    "eth_getTransactionCount(0x780217ea8ea50f60458526ef0613d260e9c47771) @ 104382141 = 3"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x780217ea8ea50f60458526ef0613d260e9c47771 (CREATE nonce scan 0..2); tokens launched via factories are not counted. Wallet nonce = 3.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x780217ea8ea50f60458526ef0613d260e9c47771",
+    "https://robinhoodchain.blockscout.com/tx/0x2dbe88eeed2a940d266206451d93e475340b8c73976810f3ee5f3f6c4ed84944"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x780217ea8ea50f60458526ef0613d260e9c47771 on Blockscout: block 104214133 (2026-11-02 12:26 UTC), 0.2 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x780217ea8ea50f60458526ef0613d260e9c47771",
+    "https://robinhoodchain.blockscout.com/tx/0x2dbe88eeed2a940d266206451d93e475340b8c73976810f3ee5f3f6c4ed84944",
+    "https://robinhoodchain.blockscout.com/tx/0xe976f6051944d5585be61a839a02c4c37932ec007ccb920b1dd0b8c440fdd93d",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x780217ea8ea50f60458526ef0613d260e9c47771/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "teraworld.xyz -> 104.21.7.3, 172.67.135.139 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=teraworld.xyz&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "teraworld.xyz registered 2026-07-31 (94 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/teraworld.xyz"
+   ]
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $5,331 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5cfabcc0098ea25ff1a36af695ce050cf5dd61dcf2543a028cda29f74ea75e67",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x06877aabe5191c394fe35c5323893c2e65f2c80a"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0x780217ea8ea50f60458526ef0613d260e9c47771 has sent only 3 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x780217ea8ea50f60458526ef0613d260e9c47771",
+    "https://robinhoodchain.blockscout.com/tx/0x2dbe88eeed2a940d266206451d93e475340b8c73976810f3ee5f3f6c4ed84944",
+    "eth_getTransactionCount(0x780217ea8ea50f60458526ef0613d260e9c47771) @ 104382141 = 3"
+   ]
+  }
+ ],
+ "label": "TERA",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x06877aabe5191c394fe35c5323893c2e65f2c80a",
+  "name": "TERA",
+  "symbol": "TERA",
+  "created_at": "2026-11-02T16:23:46Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 3.4035,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x6b1c9d6aaac72c56bcd2877614fcd9600651b7cc7be5923d5abe027bf463bc07",
+  "sources": [
+   "dexscreener:token-boosts",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://teraworld.xyz/",
+  "x_profile": "https://x.com/Tera_Map",
+  "post": null
+ }
+}

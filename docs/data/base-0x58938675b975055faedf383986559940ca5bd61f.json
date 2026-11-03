@@ -1,0 +1,366 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x58938675b975055faedf383986559940ca5bd61f",
+ "scanned_at_utc": "2026-10-31T17:18:45Z",
+ "block": 53338894,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "American Dividend Oil Fund (ADOF)",
+  "symbol": "ADOF",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "American Dividend Oil Fund (ADOF)",
+  "token_symbol": "ADOF",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x5eefb1e940eb9ed9ae301a6347ae070ebac12cb368aed5a9be246950669c575b",
+  "block": 53338206,
+  "deployer": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "source": "Blockscout address creator",
+  "tx_from": "0xee87ac766a861bba8276d3e9c18fef8c4e325861",
+  "tx_to": "0x777777751622c0d3258f214f9df38e35bf45baf3",
+  "ts": 1793465759
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 0,
+  "geckoterminal_top_usd": null
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x7a00ecf4dfbffd5ab293d5ef26ee1564c036f6007642cb2425a61995aa2ee06e",
+   "liq_usd": null,
+   "created": 1793465759000,
+   "url": "https://dexscreener.com/base/0x7a00ecf4dfbffd5ab293d5ef26ee1564c036f6007642cb2425a61995aa2ee06e",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 9,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x58938675b975055faedf383986559940ca5bd61f?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x58938675b975055faedf383986559940ca5bd61f",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200,
+   "attempt": 2
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x58938675b975055faedf383986559940ca5bd61f",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x58938675b975055faedf383986559940ca5bd61f",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x58938675b975055faedf383986559940ca5bd61f&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x58938675b975055faedf383986559940ca5bd61f/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x58938675b975055faedf383986559940ca5bd61f",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x58938675b975055faedf383986559940ca5bd61f/pools",
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xee87ac766a861bba8276d3e9c18fef8c4e325861/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53338894",
+    "https://base.blockscout.com/address/0x58938675b975055faedf383986559940ca5bd61f"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0x58938675b975055faedf383986559940ca5bd61f?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x58938675b975055faedf383986559940ca5bd61f"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x58938675b975055faedf383986559940ca5bd61f owner() @ 53338894 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53338894"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x58938675b975055faedf383986559940ca5bd61f"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x58938675b975055faedf383986559940ca5bd61f&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xee87ac766a861bba8276d3e9c18fef8c4e325861 holds 1.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xee87ac766a861bba8276d3e9c18fef8c4e325861) @ 53338894",
+    "https://base.blockscout.com/address/0xee87ac766a861bba8276d3e9c18fef8c4e325861"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x58938675b975055faedf383986559940ca5bd61f/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Top pool uniswap has no liquidity figure on DexScreener.",
+   "evidence": [
+    "https://dexscreener.com/base/0x7a00ecf4dfbffd5ab293d5ef26ee1564c036f6007642cb2425a61995aa2ee06e",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x58938675b975055faedf383986559940ca5bd61f"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x7a00ecf4df\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x7a00ecf4dfbffd5ab293d5ef26ee1564c036f6007642cb2425a61995aa2ee06e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xee87ac766a861bba8276d3e9c18fef8c4e325861 (CREATE nonce scan 0..8); tokens launched via factories are not counted. Wallet nonce = 9.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xee87ac766a861bba8276d3e9c18fef8c4e325861",
+    "https://base.blockscout.com/tx/0x5eefb1e940eb9ed9ae301a6347ae070ebac12cb368aed5a9be246950669c575b"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xee87ac766a861bba8276d3e9c18fef8c4e325861 on Blockscout: block 53163973 (2026-10-27 16:08 UTC), 4.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xee87ac766a861bba8276d3e9c18fef8c4e325861",
+    "https://base.blockscout.com/tx/0x5eefb1e940eb9ed9ae301a6347ae070ebac12cb368aed5a9be246950669c575b",
+    "https://base.blockscout.com/tx/0x7997786c0c76336bb6eef2a854756b7a46edd603360603423c428c7a26ae3404",
+    "https://base.blockscout.com/api/v2/addresses/0xee87ac766a861bba8276d3e9c18fef8c4e325861/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 21,
+ "band": "LOW",
+ "coverage": {
+  "run": 9,
+  "unknown": 5
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xee87ac766a861bba8276d3e9c18fef8c4e325861 on Blockscout: block 53163973 (2026-10-27 16:08 UTC), 4.0 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xee87ac766a861bba8276d3e9c18fef8c4e325861",
+    "https://base.blockscout.com/tx/0x5eefb1e940eb9ed9ae301a6347ae070ebac12cb368aed5a9be246950669c575b",
+    "https://base.blockscout.com/tx/0x7997786c0c76336bb6eef2a854756b7a46edd603360603423c428c7a26ae3404",
+    "https://base.blockscout.com/api/v2/addresses/0xee87ac766a861bba8276d3e9c18fef8c4e325861/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x58938675b975055faedf383986559940ca5bd61f/holders"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "American Dividend Oil Fund (ADOF)",
+ "target": {
+  "chain": "base",
+  "address": "0x58938675b975055faedf383986559940ca5bd61f",
+  "name": "American Dividend Oil Fund (ADOF)",
+  "symbol": "ADOF",
+  "created_at": "2026-10-31T16:55:59Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 95234.3049,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x7a00ecf4dfbffd5ab293d5ef26ee1564c036f6007642cb2425a61995aa2ee06e",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

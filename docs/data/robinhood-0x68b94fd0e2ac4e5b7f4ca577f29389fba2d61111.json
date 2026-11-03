@@ -1,0 +1,521 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+ "scanned_at_utc": "2026-11-03T01:01:37Z",
+ "block": 104659382,
+ "site": "https://torchbutt.com",
+ "post": null,
+ "token": {
+  "name": "Torchbutt",
+  "symbol": "TORCHBUTT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "TorchToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0.03",
+  "cannot_buy": "0",
+  "creator_address": "0x410481547D8b44301c015a055c5b67C12B368331",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "4.772962838490",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0xfa40048efdb2c2f02ad7f7ac40fe0c97a79498448789ff75817f64f13ca8f877"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.484653322545",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.75",
+    "pair": "0xee136a15b5c7cbc8f318b70b9057f7e052fa1f7d59e286dff849b8d0b634c535"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.475283056365",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.82",
+    "pair": "0xbaaa0c913549f14971f8feaecba2fc159e54984cb3256dbb1026bab7be2588a5"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.353260634690",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.79",
+    "pair": "0x98b8e1a4faded3a2eda64270e3dfdad70bd210968c6e816356756ce854e83d60"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.132008573895",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x8bb8b020fc97083c646ad4db3d63e8fc28ed9f2593596f6f5909f5fab5b3091f"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.094029789399",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.6",
+    "pair": "0x91cc16afa2d0a9f4c50a607e8fa9f9ad0ef17663bbb8d577c4b3128bb954b4d7"
+   }
+  ],
+  "holder_count": "75",
+  "holders": [
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "634265686.666676483881838229",
+    "percent": "0.634266",
+    "is_locked": 0
+   },
+   {
+    "address": "0x72E29a949d1C41E19CD2169E385401Bf675680Eb",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "91031922.374400429437876141",
+    "percent": "0.091032",
+    "is_locked": 0
+   },
+   {
+    "address": "0x64D03160c75928d07474972dA8405fD6d7d38A5E",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "20339806.893882500895372309",
+    "percent": "0.020340",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd3ffe28c558298A755D59e74308B1a7672b08877",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "18668459.981016351664456917",
+    "percent": "0.018668",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcd147584a2d65c4801e747832c97D93DdFDDA5E0",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "17339341.496626346496739271",
+    "percent": "0.017339",
+    "is_locked": 0
+   },
+   {
+    "address": "0x59E386E1aB1633c287dFe9bc930B16B3023115b6",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "12642528.82665514835301729",
+    "percent": "0.012643",
+    "is_locked": 0
+   },
+   {
+    "address": "0x65bb7FBEF2C642aD7F635f2F124827E068D2246F",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "12202140.887297161533990271",
+    "percent": "0.012202",
+    "is_locked": 0
+   },
+   {
+    "address": "0x000000000000000000000000000000000000dEaD",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "11852753.60640714613175181",
+    "percent": "0.011853",
+    "is_locked": 1
+   },
+   {
+    "address": "0x4F81A1A6ca7023c92c463dE02cDaf09F456B5558",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "11223283.828398265049263425",
+    "percent": "0.011223",
+    "is_locked": 0
+   },
+   {
+    "address": "0xE8eafD010D3B0cEF74a0E96986d091C39C366521",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "9499687.412207406106359622",
+    "percent": "0.009500",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "is_open_source": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x6a0df5b0e43045fa349f6e7bdffb3f4b5bf64b78",
+    "tag": "",
+    "value": "0.07903553385",
+    "is_contract": 0,
+    "balance": "0.000012014529361709",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "0.07903553385",
+      "NFT_id": "4150900",
+      "amount": "0.000012014529361709",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "0.000012014529361709",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "Torchbutt",
+  "token_symbol": "TORCHBUTT",
+  "total_supply": "1000000000",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xd0600a329cd25323d6c88d1a6b97c555ff43b0931a6d89968af79bfb45deac8d",
+  "block": 104588643,
+  "deployer": "0x410481547d8b44301c015a055c5b67c12b368331",
+  "source": "Blockscout address creator",
+  "tx_from": "0x72e29a949d1c41e19cd2169e385401bf675680eb",
+  "tx_to": "0x7891ea889899928afe637e4cca8106188427776a",
+  "ts": 1793660452
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 9783.82,
+  "geckoterminal_top_usd": 9823.0777
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xf93c476e48f69f425a0f0c6054c86fcaed0be24b9298020b8433c08eb326810b",
+   "liq_usd": 9783.82,
+   "created": 1793660452000,
+   "url": "https://dexscreener.com/robinhood/0xf93c476e48f69f425a0f0c6054c86fcaed0be24b9298020b8433c08eb326810b",
+   "quote": "ETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xee136a15b5c7cbc8f318b70b9057f7e052fa1f7d59e286dff849b8d0b634c535",
+   "liq_usd": 0.85,
+   "created": 1793661644000,
+   "url": "https://dexscreener.com/robinhood/0xee136a15b5c7cbc8f318b70b9057f7e052fa1f7d59e286dff849b8d0b634c535",
+   "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0xfa40048efdb2c2f02ad7f7ac40fe0c97a79498448789ff75817f64f13ca8f877",
+   "liq_usd": 0.15,
+   "created": 1793662405000,
+   "url": "https://dexscreener.com/robinhood/0xfa40048efdb2c2f02ad7f7ac40fe0c97a79498448789ff75817f64f13ca8f877",
+   "quote": "USDG"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [],
+ "site_ips": [
+  "76.76.21.21"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x72e29a949d1c41e19cd2169e385401bf675680eb/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=torchbutt.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/torchbutt.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "5915 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 104659382",
+    "https://robinhoodchain.blockscout.com/address/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as TorchToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 104659382"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111 owner() @ 104659382 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 104659382",
+    "https://robinhoodchain.blockscout.com/address/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x72e29a949d1c41e19cd2169e385401bf675680eb holds 9.10% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x72e29a949d1c41e19cd2169e385401bf675680eb) @ 104659382",
+    "https://robinhoodchain.blockscout.com/address/0x72e29a949d1c41e19cd2169e385401bf675680eb"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 9.10% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111/holders",
+    "https://robinhoodchain.blockscout.com/token/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $9,784 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xf93c476e48f69f425a0f0c6054c86fcaed0be24b9298020b8433c08eb326810b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x72e29a949d1c41e19cd2169e385401bf675680eb (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x72e29a949d1c41e19cd2169e385401bf675680eb",
+    "https://robinhoodchain.blockscout.com/tx/0xd0600a329cd25323d6c88d1a6b97c555ff43b0931a6d89968af79bfb45deac8d"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x72e29a949d1c41e19cd2169e385401bf675680eb on Blockscout: block 104582463 (2026-11-02 22:50 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x72e29a949d1c41e19cd2169e385401bf675680eb",
+    "https://robinhoodchain.blockscout.com/tx/0xd0600a329cd25323d6c88d1a6b97c555ff43b0931a6d89968af79bfb45deac8d",
+    "https://robinhoodchain.blockscout.com/tx/0xccab6d2c8ce94767712c8b4c3fe2af81f6482bae8f110e3b4c41a99d6a8d8867",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x72e29a949d1c41e19cd2169e385401bf675680eb/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "torchbutt.com -> 76.76.21.21 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=torchbutt.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "torchbutt.com registered 2026-11-02 (0 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/torchbutt.com"
+   ]
+  }
+ ],
+ "score": 49,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0x72e29a949d1c41e19cd2169e385401bf675680eb holds 9.10% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x72e29a949d1c41e19cd2169e385401bf675680eb) @ 104659382",
+    "https://robinhoodchain.blockscout.com/address/0x72e29a949d1c41e19cd2169e385401bf675680eb"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $9,784 (uniswap) - under $25k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0xf93c476e48f69f425a0f0c6054c86fcaed0be24b9298020b8433c08eb326810b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111"
+   ]
+  }
+ ],
+ "label": "Torchbutt",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x68b94fd0e2ac4e5b7f4ca577f29389fba2d61111",
+  "name": "Torchbutt",
+  "symbol": "TORCHBUTT",
+  "created_at": "2026-11-02T23:33:25Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 0.2254,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xfa40048efdb2c2f02ad7f7ac40fe0c97a79498448789ff75817f64f13ca8f877",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://torchbutt.com",
+  "x_profile": "https://x.com/TorchButt",
+  "post": null
+ }
+}

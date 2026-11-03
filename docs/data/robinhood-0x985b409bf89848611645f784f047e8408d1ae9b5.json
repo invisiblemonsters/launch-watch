@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x985b409bf89848611645f784f047e8408d1ae9b5",
- "scanned_at_utc": "2026-10-20T00:32:41Z",
- "block": 93039189,
+ "scanned_at_utc": "2026-11-03T10:10:09Z",
+ "block": 104977101,
  "site": "https://americafirst.one",
  "post": null,
  "token": {
@@ -27,35 +27,207 @@
  "owner": null,
  "goplus": {
   "anti_whale_modifiable": "0",
-  "buy_tax": "",
-  "cannot_buy": "0",
+  "buy_tax": "0",
   "can_take_back_ownership": "0",
+  "cannot_buy": "0",
   "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
   "creator_balance": "0",
   "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.92898885846096535304",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.1",
+    "pair": "0x21a5d3666daa97cddebd7a665fbc1ebca4edcc02d34179aec6384212c0e09339"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.90201999999999774495",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.836798",
+    "pair": "0x6e122708f24e9d0fe6aefdb19d64770941e118d5799eff0af5fa8be42022767d"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.631632136425",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.33011",
+    "pair": "0x7b5fb75456cfa239019f3a7568a58e03cca2e9404f621a09e297fcf79d1312bf"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.4984020",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.77",
+    "pair": "0x2e031cf84f1e79a9d509fbb753ddeab25ed2c0da5ca70fcf5f481533611d8837"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.48001907839055004660",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.870369",
+    "pair": "0x26b8694896cf1ab46d1f8b5cfaae4c589883e7c553788637b41a67a3c2bfa30e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.3534350",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.5",
+    "pair": "0x10475fba4a65fb1d083df9538ae10d200dead059ee8acda2e167708c719a36d4"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.22550499999999323485",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.87",
+    "pair": "0xb8e09955c4898a80b8c84b8234ea5643419968a5569ac788640ffb2f669366d9"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.0311430",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.7",
+    "pair": "0x261f468897037756bcecb4b5970d64b5ffa3343363f919bef874584bd84f7433"
+   }
+  ],
   "external_call": "0",
   "hidden_owner": "0",
+  "holder_count": "355",
+  "holders": [
+   {
+    "address": "0x267444D099b10fB5Ed7c3Cc7B7c767AdcA574952",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "81632653.061224489754271069",
+    "percent": "0.081633",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8366a39CC670B4001A1121B8F6A443A643e40951",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "69166435.904736762071704209",
+    "percent": "0.069166",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc5793F498d8552EF26fbEa5E47f25871F165627f",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "42758114.642351362218410247",
+    "percent": "0.042758",
+    "is_locked": 0
+   },
+   {
+    "address": "0x1BB5444E7c60A77AEd6bE4450AD2Fb0E7C74849a",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "30026513.584795826462696298",
+    "percent": "0.030027",
+    "is_locked": 0
+   },
+   {
+    "address": "0x31250faAB054AE7b646B9e8F8d1DC90bcEBAb5E3",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "30000000",
+    "percent": "0.030000",
+    "is_locked": 0
+   },
+   {
+    "address": "0xE7548EA2bcd5Bf3E6eC2A71d54a9e1F220EC0CCd",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "23023306.641629371758918909",
+    "percent": "0.023023",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0FEA20661F72eBE7776f18640c741Ea9B6Acf6Cf",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "20075000",
+    "percent": "0.020075",
+    "is_locked": 0
+   },
+   {
+    "address": "0xD72E7A4A2c65DEE2139320Db554c8D011036Dd99",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "17400000",
+    "percent": "0.017400",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf363D79468FAd4e753E33403fFEd7f281a9F7f81",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "13543542.804163836834635927",
+    "percent": "0.013544",
+    "is_locked": 0
+   },
+   {
+    "address": "0xc758dCF0BcA4448199bdD17a318918A973184763",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "13543374.551516405322211367",
+    "percent": "0.013543",
+    "is_locked": 0
+   }
+  ],
   "honeypot_with_same_creator": "0",
   "is_anti_whale": "0",
   "is_blacklisted": "0",
   "is_honeypot": "0",
-  "is_in_dex": "0",
+  "is_in_dex": "1",
   "is_mintable": "0",
   "is_open_source": "1",
   "is_proxy": "0",
   "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x1d365536922c53b3add68b297f0ab46e5a5beeb3",
+    "tag": "",
+    "value": "1.34960973051427133470",
+    "is_contract": 0,
+    "balance": "1.288165428250343147",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "1.34960973051427133470",
+      "NFT_id": "3910860",
+      "amount": "1.288165428250343147",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "1.2881654282503432",
   "owner_balance": "0",
   "owner_change_balance": "0",
   "owner_percent": "0",
   "personal_slippage_modifiable": "0",
   "selfdestruct": "0",
-  "sell_tax": "",
+  "sell_tax": "0",
   "slippage_modifiable": "0",
   "token_name": "America First",
   "token_symbol": "AMERICA",
+  "total_supply": "1000000000",
   "trading_cooldown": "0",
   "transfer_pausable": "0",
-  "transfer_tax": ""
+  "transfer_tax": "0"
  },
  "creation": {
   "tx": "0x8ee2a44c967e76ebc03d589a7e9f3d2edcb1e4954c2b1ec6093fb5d74b8d7dea",
@@ -67,52 +239,20 @@
   "ts": 1792454415
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 100295.11,
-  "geckoterminal_top_usd": 2885.5698
+  "dexscreener_top_usd": 56000.19,
+  "geckoterminal_top_usd": 56142.6162
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e",
-   "liq_usd": 100295.11,
+   "liq_usd": 56000.19,
    "created": 1792454415000,
    "url": "https://dexscreener.com/robinhood/0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e",
    "quote": "ETH"
-  },
-  {
-   "dex": "uniswap",
-   "pair": "0xf60aaae40451633cc17aabbf441e7eea15e9b575c86fffd5ac431e524c1b2a04",
-   "liq_usd": 1140.26,
-   "created": 1792455009000,
-   "url": "https://dexscreener.com/robinhood/0xf60aaae40451633cc17aabbf441e7eea15e9b575c86fffd5ac431e524c1b2a04",
-   "quote": "USDG"
-  },
-  {
-   "dex": "uniswap",
-   "pair": "0x85807ae964d60631a7b6770848de451df069179ef5f357460c442a60f2bda9c6",
-   "liq_usd": 1016.33,
-   "created": 1792455009000,
-   "url": "https://dexscreener.com/robinhood/0x85807ae964d60631a7b6770848de451df069179ef5f357460c442a60f2bda9c6",
-   "quote": "USDG"
-  },
-  {
-   "dex": "uniswap",
-   "pair": "0xb9040254deb3f9fc67275fb26ace7d2e6da8e173675d6f0a0b1a45c0acd1f289",
-   "liq_usd": 149.51,
-   "created": 1792456129000,
-   "url": "https://dexscreener.com/robinhood/0xb9040254deb3f9fc67275fb26ace7d2e6da8e173675d6f0a0b1a45c0acd1f289",
-   "quote": "USDG"
-  },
-  {
-   "dex": "uniswap",
-   "pair": "0x0cd3b61af766e03573c451bd56bc4f644edffe6afa68094324f9184d39af6cec",
-   "liq_usd": 9.99,
-   "created": 1792456131000,
-   "url": "https://dexscreener.com/robinhood/0x0cd3b61af766e03573c451bd56bc4f644edffe6afa68094324f9184d39af6cec",
-   "quote": "USDG"
   }
  ],
- "launcher_nonce": 193,
+ "launcher_nonce": 212,
  "deployer_contracts": [],
  "site_ips": [
   "104.21.66.28",
@@ -170,7 +310,7 @@
    "points": 0,
    "detail": "3248 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 93039189",
+    "eth_getCode @ block 104977101",
     "https://robinhoodchain.blockscout.com/address/0x985b409bf89848611645f784f047e8408d1ae9b5"
    ]
   },
@@ -193,7 +333,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 93039189"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 104977101"
    ]
   },
   {
@@ -204,7 +344,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x985b409bf89848611645f784f047e8408d1ae9b5 owner() @ 93039189 -> revert/empty"
+    "eth_call 0x985b409bf89848611645f784f047e8408d1ae9b5 owner() @ 104977101 -> revert/empty"
    ]
   },
   {
@@ -215,7 +355,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 93039189",
+    "selector scan @ 104977101",
     "https://robinhoodchain.blockscout.com/address/0x985b409bf89848611645f784f047e8408d1ae9b5?tab=contract"
    ]
   },
@@ -245,9 +385,9 @@
    "title": "Launcher wallet supply share",
    "status": "pass",
    "points": 0,
-   "detail": "Launch wallet 0x4040e50314b0867455f65b29438118ee5eb3a2d4 holds 0.33% of supply.",
+   "detail": "Launch wallet 0x4040e50314b0867455f65b29438118ee5eb3a2d4 holds 0.40% of supply.",
    "evidence": [
-    "eth_call balanceOf(0x4040e50314b0867455f65b29438118ee5eb3a2d4) @ 93039189",
+    "eth_call balanceOf(0x4040e50314b0867455f65b29438118ee5eb3a2d4) @ 104977101",
     "https://robinhoodchain.blockscout.com/address/0x4040e50314b0867455f65b29438118ee5eb3a2d4"
    ]
   },
@@ -257,7 +397,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 1.73% of supply.",
+   "detail": "Largest non-contract holder has 3.00% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0x985b409bf89848611645f784f047e8408d1ae9b5/holders",
     "https://robinhoodchain.blockscout.com/token/0x985b409bf89848611645f784f047e8408d1ae9b5?tab=holders"
@@ -267,24 +407,23 @@
    "id": "liq.pool",
    "group": "liq",
    "title": "DEX liquidity",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Sources disagree: DexScreener top pool $100,295, GeckoTerminal top pool $2,886. Not scored until they agree.",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $56,000 (uniswap).",
    "evidence": [
     "https://dexscreener.com/robinhood/0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e",
-    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x985b409bf89848611645f784f047e8408d1ae9b5",
-    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x985b409bf89848611645f784f047e8408d1ae9b5/pools"
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x985b409bf89848611645f784f047e8408d1ae9b5"
    ]
   },
   {
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Pool is uniswap (v4 pool id 0x780580482b\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "https://dexscreener.com/robinhood/0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e"
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x985b409bf89848611645f784f047e8408d1ae9b5"
    ]
   },
   {
@@ -293,7 +432,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0x4040e50314b0867455f65b29438118ee5eb3a2d4 (CREATE nonce scan 0..192); tokens launched via factories are not counted. Wallet nonce = 193.",
+   "detail": "0 live contract(s) created directly by 0x4040e50314b0867455f65b29438118ee5eb3a2d4 (CREATE nonce scan 0..211); tokens launched via factories are not counted. Wallet nonce = 212.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x4040e50314b0867455f65b29438118ee5eb3a2d4",
     "https://robinhoodchain.blockscout.com/tx/0x8ee2a44c967e76ebc03d589a7e9f3d2edcb1e4954c2b1ec6093fb5d74b8d7dea"
@@ -305,7 +444,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0x4040e50314b0867455f65b29438118ee5eb3a2d4 on Blockscout: block 60056333 (2026-09-11 06:48 UTC), 38.7 days before scan.",
+   "detail": "Oldest transaction of 0x4040e50314b0867455f65b29438118ee5eb3a2d4 on Blockscout: block 60056333 (2026-09-11 06:48 UTC), 53.1 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0x4040e50314b0867455f65b29438118ee5eb3a2d4",
     "https://robinhoodchain.blockscout.com/tx/0x8ee2a44c967e76ebc03d589a7e9f3d2edcb1e4954c2b1ec6093fb5d74b8d7dea",
@@ -328,73 +467,52 @@
    "id": "host.domain_age",
    "group": "host",
    "title": "Domain age",
-   "status": "flag",
-   "points": 5,
-   "detail": "americafirst.one registered 2026-10-09 (10 days ago).",
+   "status": "pass",
+   "points": 0,
+   "detail": "americafirst.one registered 2026-10-09 (25 days ago).",
    "evidence": [
     "https://rdap.org/domain/americafirst.one"
    ]
   }
  ],
- "score": 14,
+ "score": 15,
  "band": "LOW",
  "coverage": {
-  "run": 12,
-  "unknown": 3
+  "run": 14,
+  "unknown": 1
  },
  "top_reasons": [
-  {
-   "id": "host.domain_age",
-   "group": "host",
-   "title": "Domain age",
-   "status": "flag",
-   "points": 5,
-   "detail": "americafirst.one registered 2026-10-09 (10 days ago).",
-   "evidence": [
-    "https://rdap.org/domain/americafirst.one"
-   ]
-  },
   {
    "id": "liq.lock",
    "group": "liq",
    "title": "LP lock / burn",
-   "status": "unknown",
-   "points": 3,
-   "detail": "Pool is uniswap (v4 pool id 0x780580482b\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
    "evidence": [
-    "https://dexscreener.com/robinhood/0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e"
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x985b409bf89848611645f784f047e8408d1ae9b5"
    ]
   },
   {
-   "id": "liq.pool",
-   "group": "liq",
-   "title": "DEX liquidity",
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
    "status": "unknown",
    "points": 3,
-   "detail": "Sources disagree: DexScreener top pool $100,295, GeckoTerminal top pool $2,886. Not scored until they agree.",
-   "evidence": [
-    "https://dexscreener.com/robinhood/0x780580482be0d4c77f5bb5d9a6bef8c79db8b3ecd27d38983f0fdbee0d55721e",
-    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x985b409bf89848611645f784f047e8408d1ae9b5",
-    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x985b409bf89848611645f784f047e8408d1ae9b5/pools"
-   ]
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
   }
  ],
  "label": "America First",
  "target": {
   "chain": "robinhood",
   "address": "0x985b409bf89848611645f784f047e8408d1ae9b5",
-  "name": "America First",
-  "symbol": "AMERICA",
-  "created_at": "2026-10-20T00:10:09Z",
-  "dex": "uniswap-v4-robinhood",
-  "liq_usd": 981.2663,
-  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0xf60aaae40451633cc17aabbf441e7eea15e9b575c86fffd5ac431e524c1b2a04",
-  "sources": [
-   "dexscreener:token-profiles",
-   "geckoterminal:new_pools"
-  ],
   "site": "https://americafirst.one",
   "x_profile": "https://x.com/americafirstone",
+  "pool_url": "https://dexscreener.com/robinhood/0x985b409bf89848611645f784f047e8408d1ae9b5",
+  "sources": [
+   "dexscreener:token-boosts"
+  ],
   "post": null
  }
 }

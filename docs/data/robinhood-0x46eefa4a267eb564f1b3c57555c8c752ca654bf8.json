@@ -1,0 +1,406 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+ "scanned_at_utc": "2026-11-02T17:11:06Z",
+ "block": 104382292,
+ "site": "https://www.tv-osaka.co.jp/ip4/mamesuke_wannyan/",
+ "post": null,
+ "token": {
+  "name": "MAMESUKE",
+  "symbol": "MAMESUKE",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "Token"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "buy_tax": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "creator_address": "0xCd62442A876E54F6C0B62De2aC0e4063AB04aa16",
+  "creator_balance": "0.000000000000011661",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "24541.35437547122391230922",
+    "pool_fee": "0.0001",
+    "pair": "0x5b90594333d5bab5a7a98afde9e330da3368068e"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.10775206820",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.8",
+    "pair": "0x0b5c1bfdb1bf42d7a73d01528bd5a8d6fe2c15d660587f8d6aed4edaff403a37"
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "1",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "tag": "",
+    "value": "26267.1388116017137201023",
+    "is_contract": 0,
+    "balance": "77461.716712797723483369",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "26267.1388116017137201023",
+      "NFT_id": "1529698",
+      "amount": "77461.716712797723483369",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "77461.71671279772",
+  "owner_address": "",
+  "sell_tax": "0",
+  "token_name": "MAMESUKE",
+  "token_symbol": "MAMESUKE",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+  "block": 104337097,
+  "deployer": "0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+  "source": "Blockscout address creator",
+  "tx_from": "0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+  "tx_to": null,
+  "ts": 1793634875
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 61652.49,
+  "geckoterminal_top_usd": 62208.6857
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x5B90594333d5bab5A7a98AfDE9e330dA3368068E",
+   "liq_usd": 61652.49,
+   "created": 1793634900000,
+   "url": "https://dexscreener.com/robinhood/0x5b90594333d5bab5a7a98afde9e330da3368068e",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 3,
+ "deployer_contracts": [
+  "0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+ ],
+ "site_ips": [
+  "35.76.53.10",
+  "54.92.105.36"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=www.tv-osaka.co.jp&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/co.jp",
+   "status": 404
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1764 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 104382292",
+    "https://robinhoodchain.blockscout.com/address/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as Token. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 104382292"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x46eefa4a267eb564f1b3c57555c8c752ca654bf8 owner() @ 104382292 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 104382292",
+    "https://robinhoodchain.blockscout.com/address/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16) @ 104382292",
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.18% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8/holders",
+    "https://robinhoodchain.blockscout.com/token/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $61,652 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x5b90594333d5bab5a7a98afde9e330da3368068e",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 has sent only 3 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "https://robinhoodchain.blockscout.com/tx/0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+    "eth_getTransactionCount(0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16) @ 104382292 = 3"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 (CREATE nonce scan 0..2); tokens launched via factories are not counted. Wallet nonce = 3.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "https://robinhoodchain.blockscout.com/tx/0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+    "https://robinhoodchain.blockscout.com/address/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 on Blockscout: block 104336986 (2026-11-02 15:54 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "https://robinhoodchain.blockscout.com/tx/0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+    "https://robinhoodchain.blockscout.com/tx/0x56aa3bece90fc438b941eae177ac63db6bd24863b448e84ab82fc0a38651e411",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "pass",
+   "points": 0,
+   "detail": "www.tv-osaka.co.jp -> 35.76.53.10, 54.92.105.36; no watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=www.tv-osaka.co.jp&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "unknown",
+   "points": 3,
+   "detail": "RDAP gave no registration date for co.jp (HTTP 404).",
+   "evidence": [
+    "https://rdap.org/domain/co.jp"
+   ]
+  }
+ ],
+ "score": 35,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 13,
+  "unknown": 3
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x46eefa4a267eb564f1b3c57555c8c752ca654bf8"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 has sent only 3 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "https://robinhoodchain.blockscout.com/tx/0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+    "eth_getTransactionCount(0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16) @ 104382292 = 3"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16 on Blockscout: block 104336986 (2026-11-02 15:54 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16",
+    "https://robinhoodchain.blockscout.com/tx/0x0c6ac03c1909b9fd9504dabfeab577f6bc1ad0d5686c0d81580a1e7bb05225ad",
+    "https://robinhoodchain.blockscout.com/tx/0x56aa3bece90fc438b941eae177ac63db6bd24863b448e84ab82fc0a38651e411",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcd62442a876e54f6c0b62de2ac0e4063ab04aa16/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "MAMESUKE",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+  "site": "https://www.tv-osaka.co.jp/ip4/mamesuke_wannyan/",
+  "x_profile": "https://x.com/WhaleInsider/status/2117266298648305752",
+  "pool_url": "https://dexscreener.com/robinhood/0x46eefa4a267eb564f1b3c57555c8c752ca654bf8",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

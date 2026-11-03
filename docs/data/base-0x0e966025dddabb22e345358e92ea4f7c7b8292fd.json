@@ -1,0 +1,356 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+ "scanned_at_utc": "2026-11-03T00:07:53Z",
+ "block": 53437563,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Paece Coin",
+  "symbol": "PEACE",
+  "decimals": 18,
+  "totalSupply": 2000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5",
+  "state": "verified",
+  "name": "DropERC20",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "creator_address": "0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+  "creator_balance": "500000000.000000000000001081",
+  "creator_percent": "0.250000",
+  "holder_count": "1",
+  "holders": [
+   {
+    "address": "0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2000000000",
+    "percent": "1.000000000000000000",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_in_dex": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "Paece Coin",
+  "token_symbol": "PEACE",
+  "total_supply": "2000000000"
+ },
+ "creation": {
+  "tx": "0xc3caed089c7799084cc47cbe516bbe5ca6ebe12cb931972e6d673a63a3d09fcf",
+  "block": 53417875,
+  "deployer": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "source": "Blockscout address creator",
+  "tx_from": "0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+  "tx_to": "0x25548ba29a0071f30e4bdcd98ea72f79341b07a1",
+  "ts": 1793625097
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 675748.55,
+  "geckoterminal_top_usd": 674967.3001
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0xd835c688cdc55cad7639d7eed33411bbe2d45b7959a033377e0335e7c45fe12f",
+   "liq_usd": 675748.55,
+   "created": 1793663457000,
+   "url": "https://dexscreener.com/base/0xd835c688cdc55cad7639d7eed33411bbe2d45b7959a033377e0335e7c45fe12f",
+   "quote": "ETH"
+  }
+ ],
+ "launcher_nonce": 5861,
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x0e966025dddabb22e345358e92ea4f7c7b8292fd?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x0e966025dddabb22e345358e92ea4f7c7b8292fd&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x0e966025dddabb22e345358e92ea4f7c7b8292fd/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x0e966025dddabb22e345358e92ea4f7c7b8292fd/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xb930613b2fccb79c9f0e71e47028f8d612d9569e/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "44 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53437563",
+    "https://base.blockscout.com/address/0x0e966025dddabb22e345358e92ea4f7c7b8292fd"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation DropERC20 0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5?tab=contract",
+    "https://base.blockscout.com/address/0x0e966025dddabb22e345358e92ea4f7c7b8292fd?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0x0e966025dddabb22e345358e92ea4f7c7b8292fd"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (44 bytes) delegating to 0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5",
+    "https://base.blockscout.com/address/0x3de12ec4085edb23c512f28409ff5ef7c9dd15c5"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x0e966025dddabb22e345358e92ea4f7c7b8292fd owner() @ 53437563 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53437563"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x0e966025dddabb22e345358e92ea4f7c7b8292fd"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x0e966025dddabb22e345358e92ea4f7c7b8292fd&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xb930613b2fccb79c9f0e71e47028f8d612d9569e holds 24.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xb930613b2fccb79c9f0e71e47028f8d612d9569e) @ 53437563",
+    "https://base.blockscout.com/address/0xb930613b2fccb79c9f0e71e47028f8d612d9569e"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x0e966025dddabb22e345358e92ea4f7c7b8292fd/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $675,749 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0xd835c688cdc55cad7639d7eed33411bbe2d45b7959a033377e0335e7c45fe12f",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x0e966025dddabb22e345358e92ea4f7c7b8292fd"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0xd835c688cd\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0xd835c688cdc55cad7639d7eed33411bbe2d45b7959a033377e0335e7c45fe12f"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xb930613b2fccb79c9f0e71e47028f8d612d9569e has sent 5861 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+    "https://base.blockscout.com/tx/0xc3caed089c7799084cc47cbe516bbe5ca6ebe12cb931972e6d673a63a3d09fcf",
+    "eth_getTransactionCount = 5861"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "pass",
+   "points": 0,
+   "detail": "Oldest transaction of 0xb930613b2fccb79c9f0e71e47028f8d612d9569e on Blockscout: block 46096810 (2026-05-17 01:56 UTC), 169.9 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+    "https://base.blockscout.com/tx/0xc3caed089c7799084cc47cbe516bbe5ca6ebe12cb931972e6d673a63a3d09fcf",
+    "https://base.blockscout.com/tx/0xdcc19a77852e82d52083d10455e570af56508653c28ab8da5d305944abc95cb2",
+    "https://base.blockscout.com/api/v2/addresses/0xb930613b2fccb79c9f0e71e47028f8d612d9569e/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 33,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 9,
+  "unknown": 5
+ },
+ "top_reasons": [
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "flag",
+   "points": 10,
+   "detail": "Launch wallet 0xb930613b2fccb79c9f0e71e47028f8d612d9569e holds 24.99% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xb930613b2fccb79c9f0e71e47028f8d612d9569e) @ 53437563",
+    "https://base.blockscout.com/address/0xb930613b2fccb79c9f0e71e47028f8d612d9569e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "flag",
+   "points": 8,
+   "detail": "0xb930613b2fccb79c9f0e71e47028f8d612d9569e has sent 5861 transactions (>400; nonce scan skipped). High-volume wallet.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xb930613b2fccb79c9f0e71e47028f8d612d9569e",
+    "https://base.blockscout.com/tx/0xc3caed089c7799084cc47cbe516bbe5ca6ebe12cb931972e6d673a63a3d09fcf",
+    "eth_getTransactionCount = 5861"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x0e966025dddabb22e345358e92ea4f7c7b8292fd/holders"
+   ]
+  }
+ ],
+ "label": "Paece Coin",
+ "target": {
+  "chain": "base",
+  "address": "0x0e966025dddabb22e345358e92ea4f7c7b8292fd",
+  "name": "Paece Coin",
+  "symbol": "PEACE",
+  "created_at": "2026-11-02T23:50:57Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 674967.3001,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0xd835c688cdc55cad7639d7eed33411bbe2d45b7959a033377e0335e7c45fe12f",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

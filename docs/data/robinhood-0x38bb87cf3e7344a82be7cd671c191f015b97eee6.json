@@ -4,8 +4,8 @@
  "chain": "robinhood",
  "chain_id": 4663,
  "address": "0x38bb87cf3e7344a82be7cd671c191f015b97eee6",
- "scanned_at_utc": "2026-10-19T17:07:22Z",
- "block": 92778702,
+ "scanned_at_utc": "2026-10-31T20:00:54Z",
+ "block": 102814840,
  "site": "https://Santahood.com",
  "post": null,
  "token": {
@@ -39,20 +39,20 @@
    {
     "liquidity_type": "UniV3",
     "name": "UniswapV3",
-    "liquidity": "31946.138037014108157954580000000000",
+    "liquidity": "36824.916340773923590417840000000000",
     "pool_fee": "0.01",
     "pair": "0x3f281ad0b210f92ea5c1565fb6fb14c0936803ea"
    },
    {
     "liquidity_type": "UniV2",
     "name": "UniswapV2",
-    "liquidity": "11.52684500",
+    "liquidity": "13.57382200",
     "pair": "0x874421282652de4854ea77e2bf8b7b6fd43d8dac"
    },
    {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
-    "liquidity": "3.32439902044477683328",
+    "liquidity": "3.11086345986701664512",
     "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
     "pool_fee": "0.95",
     "pair": "0xe0c941a20d41e8591c230f51e9a2ecd71547929b10d2dc74f7ee0c8684fc7024"
@@ -74,6 +74,13 @@
     "pair": "0x04ff13311ce95f61278fcb98e19bbd710ab47f1dd2d8668815ad2b25bd2bac17"
    },
    {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "0.12922778424021545702",
+    "pool_fee": "0.0005",
+    "pair": "0x79128b2d580aaf2718e7635b93db0c919e984fad"
+   },
+   {
     "liquidity_type": "UniV4",
     "name": "UniswapV4",
     "liquidity": "0.075549000000",
@@ -84,38 +91,30 @@
   ],
   "external_call": "0",
   "hidden_owner": "0",
-  "holder_count": "2622",
+  "holder_count": "2673",
   "holders": [
    {
     "address": "0x000000000000000000000000000000000000dEaD",
     "tag": "",
     "is_contract": 0,
-    "balance": "161082177.05822602056871856",
-    "percent": "0.161082",
+    "balance": "162918983.219769090114732911",
+    "percent": "0.162919",
     "is_locked": 1
    },
    {
     "address": "0x3f281AD0B210F92eA5c1565fB6fB14C0936803eA",
     "tag": "",
     "is_contract": 1,
-    "balance": "89396584.984978111185369906",
-    "percent": "0.089397",
+    "balance": "77009807.392884666784363158",
+    "percent": "0.077010",
     "is_locked": 0
    },
    {
     "address": "0x2568dB3570323e2fE8816D40B738a770ad195733",
     "tag": "",
     "is_contract": 1,
-    "balance": "23532135.636575363137056922",
-    "percent": "0.023532",
-    "is_locked": 0
-   },
-   {
-    "address": "0xDB3DED7731C781224EC292E2163D9554c094fD7c",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "19428737.726857319081757326",
-    "percent": "0.019429",
+    "balance": "21000135.636575363137056922",
+    "percent": "0.021000",
     "is_locked": 0
    },
    {
@@ -135,14 +134,6 @@
     "is_locked": 0
    },
    {
-    "address": "0xC6487f5bA50c466B388A325B925CF9D83503678A",
-    "tag": "",
-    "is_contract": 0,
-    "balance": "17013626.731028680911479959",
-    "percent": "0.017014",
-    "is_locked": 0
-   },
-   {
     "address": "0x7d0365798AFa25B4Eb7982f97e458436c91Ea43E",
     "tag": "",
     "is_contract": 1,
@@ -159,11 +150,27 @@
     "is_locked": 0
    },
    {
-    "address": "0xdBbF4E469ed6E62bb17A9778deac316Adf1fa116",
+    "address": "0x17b22A4eA8712fC1C0e1ECD80CCB054Bcd0f8576",
     "tag": "",
     "is_contract": 0,
-    "balance": "14527625.224261256583032821",
-    "percent": "0.014528",
+    "balance": "16047763.751275175502252089",
+    "percent": "0.016048",
+    "is_locked": 0
+   },
+   {
+    "address": "0xDB3DED7731C781224EC292E2163D9554c094fD7c",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "15840300.911351617461008239",
+    "percent": "0.015840",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC6487f5bA50c466B388A325B925CF9D83503678A",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "15589126.731028680911479959",
+    "percent": "0.015589",
     "is_locked": 0
    }
   ],
@@ -181,13 +188,13 @@
    {
     "address": "0x7f03effbd7ceb22a3f80dd468f67ef27826acd85",
     "tag": "",
-    "value": "31814.53076661730204551635",
+    "value": "37101.85078037686429884136",
     "is_contract": 1,
     "balance": "36819.258015569838458222",
     "percent": "1.000000000000000000",
     "NFT_list": [
      {
-      "value": "31814.53076661730204551635",
+      "value": "37101.85078037686429884136",
       "NFT_id": "3578",
       "amount": "36819.258015569838458222",
       "in_effect": "1",
@@ -222,14 +229,14 @@
   "ts": 1783026432
  },
  "liquidity_sources": {
-  "dexscreener_top_usd": 67538.31,
-  "geckoterminal_top_usd": 67931.1823
+  "dexscreener_top_usd": 77802.25,
+  "geckoterminal_top_usd": null
  },
  "pairs": [
   {
    "dex": "uniswap",
    "pair": "0x3f281AD0B210F92eA5c1565fB6fB14C0936803eA",
-   "liq_usd": 67538.31,
+   "liq_usd": 77802.25,
    "created": 1783026432000,
    "url": "https://dexscreener.com/robinhood/0x3f281ad0b210f92ea5c1565fb6fb14c0936803ea",
    "quote": "WETH"
@@ -237,17 +244,23 @@
   {
    "dex": "uniswap",
    "pair": "0x874421282652De4854EA77e2bF8b7b6FD43d8dAC",
-   "liq_usd": 23.05,
+   "liq_usd": 27.14,
    "created": 1789956611000,
    "url": "https://dexscreener.com/robinhood/0x874421282652de4854ea77e2bf8b7b6fd43d8dac",
    "quote": "USDG"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x79128b2D580AAf2718E7635b93Db0C919e984Fad",
+   "liq_usd": 0.26,
+   "created": 1792439475000,
+   "url": "https://dexscreener.com/robinhood/0x79128b2d580aaf2718e7635b93db0c919e984fad",
+   "quote": "WETH"
   }
  ],
- "launcher_nonce": 111,
+ "launcher_nonce": 116,
  "deployer_contracts": [],
- "site_ips": [
-  "216.198.79.1"
- ],
+ "site_ips": [],
  "http_log": [
   {
    "url": "https://sourcify.dev/server/v2/contract/4663/0x38bb87cf3e7344a82be7cd671c191f015b97eee6?fields=abi,deployment,proxyResolution,compilation",
@@ -275,7 +288,7 @@
   },
   {
    "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x38bb87cf3e7344a82be7cd671c191f015b97eee6/pools",
-   "status": 200
+   "status": 429
   },
   {
    "url": "https://sourcify.dev/server/v2/contract/4663/0x7f03effbd7ceb22a3f80dd468f67ef27826acd85?fields=abi,compilation",
@@ -291,11 +304,13 @@
   },
   {
    "url": "https://dns.google/resolve?name=santahood.com&type=A",
-   "status": 200
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
   },
   {
    "url": "https://rdap.org/domain/santahood.com",
-   "status": 200
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
   }
  ],
  "rpc_pin_fallbacks_to_latest": 0,
@@ -308,7 +323,7 @@
    "points": 0,
    "detail": "4830 bytes of runtime code.",
    "evidence": [
-    "eth_getCode @ block 92778702",
+    "eth_getCode @ block 102814840",
     "https://robinhoodchain.blockscout.com/address/0x38bb87cf3e7344a82be7cd671c191f015b97eee6"
    ]
   },
@@ -331,7 +346,7 @@
    "points": 0,
    "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
    "evidence": [
-    "eth_getStorageAt slots 1967 impl/admin/beacon @ 92778702"
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 102814840"
    ]
   },
   {
@@ -342,7 +357,7 @@
    "points": 0,
    "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
    "evidence": [
-    "eth_call 0x38bb87cf3e7344a82be7cd671c191f015b97eee6 owner() @ 92778702 -> revert/empty"
+    "eth_call 0x38bb87cf3e7344a82be7cd671c191f015b97eee6 owner() @ 102814840 -> revert/empty"
    ]
   },
   {
@@ -353,7 +368,7 @@
    "points": 0,
    "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
    "evidence": [
-    "selector scan @ 92778702",
+    "selector scan @ 102814840",
     "https://robinhoodchain.blockscout.com/address/0x38bb87cf3e7344a82be7cd671c191f015b97eee6?tab=contract"
    ]
   },
@@ -385,7 +400,7 @@
    "points": 0,
    "detail": "Launch wallet 0xd0c888a492cc302e7e371ce8d60537dbf3476216 holds 0.01% of supply.",
    "evidence": [
-    "eth_call balanceOf(0xd0c888a492cc302e7e371ce8d60537dbf3476216) @ 92778702",
+    "eth_call balanceOf(0xd0c888a492cc302e7e371ce8d60537dbf3476216) @ 102814840",
     "https://robinhoodchain.blockscout.com/address/0xd0c888a492cc302e7e371ce8d60537dbf3476216"
    ]
   },
@@ -395,7 +410,7 @@
    "title": "Holder concentration",
    "status": "pass",
    "points": 0,
-   "detail": "Largest non-contract holder has 2.35% of supply.",
+   "detail": "Largest non-contract holder has 2.10% of supply.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/api/v2/tokens/0x38bb87cf3e7344a82be7cd671c191f015b97eee6/holders",
     "https://robinhoodchain.blockscout.com/token/0x38bb87cf3e7344a82be7cd671c191f015b97eee6?tab=holders"
@@ -407,7 +422,7 @@
    "title": "DEX liquidity",
    "status": "pass",
    "points": 0,
-   "detail": "Top pool liquidity $67,538 (uniswap).",
+   "detail": "Top pool liquidity $77,802 (uniswap).",
    "evidence": [
     "https://dexscreener.com/robinhood/0x3f281ad0b210f92ea5c1565fb6fb14c0936803ea",
     "https://api.dexscreener.com/token-pairs/v1/robinhood/0x38bb87cf3e7344a82be7cd671c191f015b97eee6"
@@ -431,7 +446,7 @@
    "title": "Contracts deployed by this wallet",
    "status": "info",
    "points": 0,
-   "detail": "0 live contract(s) created directly by 0xd0c888a492cc302e7e371ce8d60537dbf3476216 (CREATE nonce scan 0..110); tokens launched via factories are not counted. Wallet nonce = 111.",
+   "detail": "0 live contract(s) created directly by 0xd0c888a492cc302e7e371ce8d60537dbf3476216 (CREATE nonce scan 0..115); tokens launched via factories are not counted. Wallet nonce = 116.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xd0c888a492cc302e7e371ce8d60537dbf3476216",
     "https://robinhoodchain.blockscout.com/tx/0x5e39ae924089e310c31015b6c96fe050892311b6ebc5786d571876b2750b9332"
@@ -443,7 +458,7 @@
    "title": "Deployer wallet age",
    "status": "pass",
    "points": 0,
-   "detail": "Oldest transaction of 0xd0c888a492cc302e7e371ce8d60537dbf3476216 on Blockscout: block 1454263 (2026-07-02 19:07 UTC), 108.9 days before scan.",
+   "detail": "Oldest transaction of 0xd0c888a492cc302e7e371ce8d60537dbf3476216 on Blockscout: block 1454263 (2026-07-02 19:07 UTC), 121.0 days before scan.",
    "evidence": [
     "https://robinhoodchain.blockscout.com/address/0xd0c888a492cc302e7e371ce8d60537dbf3476216",
     "https://robinhoodchain.blockscout.com/tx/0x5e39ae924089e310c31015b6c96fe050892311b6ebc5786d571876b2750b9332",
@@ -455,9 +470,9 @@
    "id": "host.ip",
    "group": "host",
    "title": "Site hosting overlap",
-   "status": "info",
-   "points": 0,
-   "detail": "santahood.com -> 216.198.79.1 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "status": "unknown",
+   "points": 3,
+   "detail": "santahood.com: no A record via Google DoH (ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>).",
    "evidence": [
     "https://dns.google/resolve?name=santahood.com&type=A"
    ]
@@ -466,21 +481,43 @@
    "id": "host.domain_age",
    "group": "host",
    "title": "Domain age",
-   "status": "pass",
-   "points": 0,
-   "detail": "santahood.com registered 2026-07-02 (109 days ago).",
+   "status": "unknown",
+   "points": 3,
+   "detail": "RDAP gave no registration date for santahood.com (ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>).",
    "evidence": [
     "https://rdap.org/domain/santahood.com"
    ]
   }
  ],
- "score": 3,
+ "score": 9,
  "band": "LOW",
  "coverage": {
-  "run": 14,
-  "unknown": 1
+  "run": 12,
+  "unknown": 3
  },
  "top_reasons": [
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "unknown",
+   "points": 3,
+   "detail": "RDAP gave no registration date for santahood.com (ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>).",
+   "evidence": [
+    "https://rdap.org/domain/santahood.com"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "santahood.com: no A record via Google DoH (ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>).",
+   "evidence": [
+    "https://dns.google/resolve?name=santahood.com&type=A"
+   ]
+  },
   {
    "id": "trade.sim",
    "group": "trade",

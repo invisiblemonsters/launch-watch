@@ -1,0 +1,495 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x5031600a85a0176d440f2662bca3190e025f1a2f",
+ "scanned_at_utc": "2026-11-03T00:07:17Z",
+ "block": 104627581,
+ "site": "https://catbattlegrounds.com",
+ "post": null,
+ "token": {
+  "name": "cat meme battlegrounds",
+  "symbol": "CMBG",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "name": "PonsV2LauncherToken"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "creator_address": "0x3711ceA4feaDE896C913C68F01Eda97Cb06D1A42",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "dex": [
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "1.98709196399999774476",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.85563",
+    "pair": "0x6a1aaab1f6e6ccf5d029827ba0ed45f658b0fbb1bdd923d0c6455793930dd7ba"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.90209599999999774476",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.812848",
+    "pair": "0x8c61c2029790a31379154755d14eae37f3f8e231c542dba20ffea835aba34ecf"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.495295902972",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.9",
+    "pair": "0xc8646ada8b7c276c08ff00de5e0527edfa4031edd45f7c50848d0e9b769623ee"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "64",
+  "holders": [
+   {
+    "address": "0xfDf571E23C031873A17a0D05aE1711BB28cA7eee",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "522721866.518966526616394407",
+    "percent": "0.522722",
+    "is_locked": 0
+   },
+   {
+    "address": "0x435Aed696E16D4605b59BdC431Bf7028894388F2",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "35101351.118911285805301292",
+    "percent": "0.035101",
+    "is_locked": 0
+   },
+   {
+    "address": "0x7c565E4E5d97773Eb2bc6d7256F55A73E2fb8BF2",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "31709315.841439668478146024",
+    "percent": "0.031709",
+    "is_locked": 0
+   },
+   {
+    "address": "0xFFffdb07930FF585aAb8c5401f4285978345D696",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "31650042.991987125678410019",
+    "percent": "0.031650",
+    "is_locked": 0
+   },
+   {
+    "address": "0x74B9646F486a1f3Dc1c2450C832760E9f33aE924",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "31318632.307956567043161839",
+    "percent": "0.031319",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3834A7E824E53a66C12DdaE2d70763dB6d18a567",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "30757707.480431546733814255",
+    "percent": "0.030758",
+    "is_locked": 0
+   },
+   {
+    "address": "0x4314Be0E2816f033a2c1215e3B2e94f05Da6fFbB",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "25612817.420303723032396416",
+    "percent": "0.025613",
+    "is_locked": 0
+   },
+   {
+    "address": "0x991F1E35248a88aFa687c5bd3bd69DECdbF16991",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "22406512.378254214847773881",
+    "percent": "0.022407",
+    "is_locked": 0
+   },
+   {
+    "address": "0xd7bCd9f977a4D3Ad0Aa949Df9cF37BC0B72f593f",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "21258270.152999600621750445",
+    "percent": "0.021258",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9E23B43943a915aB8D0Da10F76461Ae0681d6F93",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "19182566.942148489493764761",
+    "percent": "0.019183",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0x511a69dab088f1885260882e12b0354fed3fac0c",
+    "tag": "",
+    "value": "1.98204326099999775049",
+    "is_contract": 0,
+    "balance": "12.629000260115504364",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "1.98204326099999775049",
+      "NFT_id": "4148574",
+      "amount": "12.629000260115504364",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "12.629000260115504",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "cat meme battlegrounds",
+  "token_symbol": "CMBG",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x34a6f988a1f40435ec37365d1b05f18265159505de5e25f0b3fbd49b5f2082ae",
+  "block": 104278241,
+  "deployer": "0x3711cea4feade896c913c68f01eda97cb06d1a42",
+  "source": "Blockscout address creator",
+  "tx_from": "0x435aed696e16d4605b59bdc431bf7028894388f2",
+  "tx_to": "0xe33e9e479df8802cb0866d5d05258bec4cf62948",
+  "ts": 1793628912
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": 9797.2832
+ },
+ "pairs": [
+  {
+   "dex": "pons-v2",
+   "pair": "0xfdf571e23c031873a17a0d05ae1711bb28ca7eee",
+   "liq_usd": 9797.2832,
+   "created": "2026-11-02T14:15:12Z",
+   "url": "https://www.geckoterminal.com/robinhood/pools/0xfdf571e23c031873a17a0d05ae1711bb28ca7eee",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 19,
+ "deployer_contracts": [],
+ "site_ips": [
+  "104.21.44.189",
+  "172.67.202.227"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x5031600a85a0176d440f2662bca3190e025f1a2f?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x5031600a85a0176d440f2662bca3190e025f1a2f",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x5031600a85a0176d440f2662bca3190e025f1a2f",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5031600a85a0176d440f2662bca3190e025f1a2f",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x5031600a85a0176d440f2662bca3190e025f1a2f/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x5031600a85a0176d440f2662bca3190e025f1a2f",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x5031600a85a0176d440f2662bca3190e025f1a2f/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x435aed696e16d4605b59bdc431bf7028894388f2/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=catbattlegrounds.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/catbattlegrounds.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3248 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 104627581",
+    "https://robinhoodchain.blockscout.com/address/0x5031600a85a0176d440f2662bca3190e025f1a2f"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as PonsV2LauncherToken. Sourcify: no match; Blockscout: verified.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x5031600a85a0176d440f2662bca3190e025f1a2f?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 104627581"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x5031600a85a0176d440f2662bca3190e025f1a2f owner() @ 104627581 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 104627581",
+    "https://robinhoodchain.blockscout.com/address/0x5031600a85a0176d440f2662bca3190e025f1a2f?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5031600a85a0176d440f2662bca3190e025f1a2f"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x435aed696e16d4605b59bdc431bf7028894388f2 holds 3.51% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x435aed696e16d4605b59bdc431bf7028894388f2) @ 104627581",
+    "https://robinhoodchain.blockscout.com/address/0x435aed696e16d4605b59bdc431bf7028894388f2"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 3.51% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x5031600a85a0176d440f2662bca3190e025f1a2f/holders",
+    "https://robinhoodchain.blockscout.com/token/0x5031600a85a0176d440f2662bca3190e025f1a2f?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $9,797 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xfdf571e23c031873a17a0d05ae1711bb28ca7eee",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x5031600a85a0176d440f2662bca3190e025f1a2f/pools"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5031600a85a0176d440f2662bca3190e025f1a2f"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0x435aed696e16d4605b59bdc431bf7028894388f2 (CREATE nonce scan 0..18); tokens launched via factories are not counted. Wallet nonce = 19.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x435aed696e16d4605b59bdc431bf7028894388f2",
+    "https://robinhoodchain.blockscout.com/tx/0x34a6f988a1f40435ec37365d1b05f18265159505de5e25f0b3fbd49b5f2082ae"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x435aed696e16d4605b59bdc431bf7028894388f2 on Blockscout: block 100816442 (2026-10-29 09:58 UTC), 4.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x435aed696e16d4605b59bdc431bf7028894388f2",
+    "https://robinhoodchain.blockscout.com/tx/0x34a6f988a1f40435ec37365d1b05f18265159505de5e25f0b3fbd49b5f2082ae",
+    "https://robinhoodchain.blockscout.com/tx/0x7f8bd8ce4290773fa0de63859136f01ea42e58ba313d94a3d45565ef5c54c3b1",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x435aed696e16d4605b59bdc431bf7028894388f2/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "catbattlegrounds.com -> 104.21.44.189, 172.67.202.227 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=catbattlegrounds.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "flag",
+   "points": 5,
+   "detail": "catbattlegrounds.com registered 2026-10-24 (9 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/catbattlegrounds.com"
+   ]
+  }
+ ],
+ "score": 36,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 14,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x5031600a85a0176d440f2662bca3190e025f1a2f"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 10,
+   "detail": "Top pool liquidity $9,797 (pons-v2) - under $25k.",
+   "evidence": [
+    "https://www.geckoterminal.com/robinhood/pools/0xfdf571e23c031873a17a0d05ae1711bb28ca7eee",
+    "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x5031600a85a0176d440f2662bca3190e025f1a2f/pools"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x435aed696e16d4605b59bdc431bf7028894388f2 on Blockscout: block 100816442 (2026-10-29 09:58 UTC), 4.6 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x435aed696e16d4605b59bdc431bf7028894388f2",
+    "https://robinhoodchain.blockscout.com/tx/0x34a6f988a1f40435ec37365d1b05f18265159505de5e25f0b3fbd49b5f2082ae",
+    "https://robinhoodchain.blockscout.com/tx/0x7f8bd8ce4290773fa0de63859136f01ea42e58ba313d94a3d45565ef5c54c3b1",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x435aed696e16d4605b59bdc431bf7028894388f2/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "cat meme battlegrounds",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x5031600a85a0176d440f2662bca3190e025f1a2f",
+  "site": "https://catbattlegrounds.com",
+  "x_profile": "https://x.com/Cmbg_RH",
+  "pool_url": "https://dexscreener.com/robinhood/0x5031600a85a0176d440f2662bca3190e025f1a2f",
+  "sources": [
+   "dexscreener:token-profiles"
+  ],
+  "post": null
+ }
+}

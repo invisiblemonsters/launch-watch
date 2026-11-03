@@ -1,0 +1,323 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+ "scanned_at_utc": "2026-10-31T17:22:59Z",
+ "block": 53339016,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "OnBeat",
+  "symbol": "BEAT",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": "match",
+  "err": null
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "OnBeatToken"
+ },
+ "verification": "verified",
+ "owner": "0x0000000000000000000000000000000000000000",
+ "goplus": {
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "holder_count": "0",
+  "is_in_dex": "0",
+  "is_open_source": "0",
+  "owner_address": "",
+  "sell_tax": "",
+  "token_name": "OnBeat",
+  "token_symbol": "BEAT",
+  "total_supply": "1000000000"
+ },
+ "creation": {
+  "tx": "0x3df23a3b58c07fe7e2acab9b246b20b78bbb526fc4f0ce75a2dfdf18a79daf8d",
+  "block": 53338617,
+  "deployer": "0x9a74dfb7927f462d4f0135bf34064b567e7906af",
+  "source": "Sourcify deployment",
+  "factory_or_deployer": "0xef6990f348a622d0d3ea7b00074f70bd814f4d15",
+  "tx_from": "0x9a74dfb7927f462d4f0135bf34064b567e7906af",
+  "tx_to": "0x4b49996989bbc849ca5d1f2c21508d5ed960af6a",
+  "ts": 1793466581
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": null,
+  "geckoterminal_top_usd": null
+ },
+ "launcher_nonce": 121,
+ "deployer_contracts": [
+  "0xaa9b59a8e99ca34a3c264da1f6c269e2c65917ad",
+  "0x1af8d03023f31c65c23f7a15b7021131b3d6df24",
+  "0xa8a2c6a0aed8e131a2881f639eccb8e5a73c84b7",
+  "0x3cd227ddaed00ff8ad7a80e1b5b207735bd3d868",
+  "0x4b49996989bbc849ca5d1f2c21508d5ed960af6a",
+  "0x2e6dc0c8f8afdec8221365a7018317ceef1a9434",
+  "0x7da41550cf1db7e546660a1386e4acc990b119ae"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x069d98bfbd3c4983551dc6321ffb134659b2b154",
+  "0x353d1dab5eacacb754005007804c06c4a2396b4f",
+  "0x4b49996989bbc849ca5d1f2c21508d5ed960af6a",
+  "0xaa9b59a8e99ca34a3c264da1f6c269e2c65917ad",
+  "0xf49d7e3089284e7fce83b9eb3d5b77c2e5269f30"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8?fields=abi,deployment,proxyResolution,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+   "err": "<urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>",
+   "attempt": 1
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8/pools",
+   "status": 429
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x9a74dfb7927f462d4f0135bf34064b567e7906af/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "11505 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53339016",
+    "https://base.blockscout.com/address/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Sourcify and Blockscout as OnBeatToken. Sourcify: match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://repo.sourcify.dev/8453/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+    "https://base.blockscout.com/address/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone, Sourcify proxyResolution isProxy=false.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53339016"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "pass",
+   "points": 0,
+   "detail": "owner() = 0x0000000000000000000000000000000000000000 (renounced).",
+   "evidence": [
+    "eth_call 0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8 owner() @ 53339016"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53339016",
+    "https://repo.sourcify.dev/8453/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "unknown",
+   "points": 3,
+   "detail": "GoPlus has no (or partial) data for this token yet.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x9a74dfb7927f462d4f0135bf34064b567e7906af holds 0.01% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x9a74dfb7927f462d4f0135bf34064b567e7906af) @ 53339016",
+    "https://base.blockscout.com/address/0x9a74dfb7927f462d4f0135bf34064b567e7906af"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "unknown",
+   "points": 3,
+   "detail": "DexScreener request failed: ERR <urlopen error [SSL: UNEXPECTED_EOF_WHILE_READING] EOF occurred in violation of protocol (_ssl.c:1029)>.",
+   "evidence": [
+    "https://api.dexscreener.com/token-pairs/v1/base/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "7 live contract(s) created directly by 0x9a74dfb7927f462d4f0135bf34064b567e7906af (CREATE nonce scan 0..120); tokens launched via factories are not counted. Wallet nonce = 121.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x9a74dfb7927f462d4f0135bf34064b567e7906af",
+    "https://base.blockscout.com/tx/0x3df23a3b58c07fe7e2acab9b246b20b78bbb526fc4f0ce75a2dfdf18a79daf8d",
+    "https://base.blockscout.com/address/0xaa9b59a8e99ca34a3c264da1f6c269e2c65917ad",
+    "https://base.blockscout.com/address/0x1af8d03023f31c65c23f7a15b7021131b3d6df24",
+    "https://base.blockscout.com/address/0xa8a2c6a0aed8e131a2881f639eccb8e5a73c84b7"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9a74dfb7927f462d4f0135bf34064b567e7906af on Blockscout: block 53333424 (2026-10-31 14:16 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x9a74dfb7927f462d4f0135bf34064b567e7906af",
+    "https://base.blockscout.com/tx/0x3df23a3b58c07fe7e2acab9b246b20b78bbb526fc4f0ce75a2dfdf18a79daf8d",
+    "https://base.blockscout.com/tx/0x688f2f538c1f4bdb3712b347640544f9341084545bd517ab9be6943187be59e9",
+    "https://base.blockscout.com/api/v2/addresses/0x9a74dfb7927f462d4f0135bf34064b567e7906af/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 21,
+ "band": "LOW",
+ "coverage": {
+  "run": 8,
+  "unknown": 5
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x9a74dfb7927f462d4f0135bf34064b567e7906af on Blockscout: block 53333424 (2026-10-31 14:16 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0x9a74dfb7927f462d4f0135bf34064b567e7906af",
+    "https://base.blockscout.com/tx/0x3df23a3b58c07fe7e2acab9b246b20b78bbb526fc4f0ce75a2dfdf18a79daf8d",
+    "https://base.blockscout.com/tx/0x688f2f538c1f4bdb3712b347640544f9341084545bd517ab9be6943187be59e9",
+    "https://base.blockscout.com/api/v2/addresses/0x9a74dfb7927f462d4f0135bf34064b567e7906af/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8/holders"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "label": "OnBeat",
+ "target": {
+  "chain": "base",
+  "address": "0xbea72b17b0a590d4e2a0f3449f1ee7c539834eb8",
+  "name": "OnBeat",
+  "symbol": "BEAT",
+  "created_at": "2026-10-31T17:09:41Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 10309.4169,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x8311bb3bcd88dc04780381200f68b6a3bfacdc79038e9e64930f315748371c7c",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

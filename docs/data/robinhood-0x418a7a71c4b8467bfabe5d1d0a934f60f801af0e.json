@@ -1,0 +1,469 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+ "scanned_at_utc": "2026-11-04T01:20:41Z",
+ "block": 105511434,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "US PRESIDENT 2028",
+  "symbol": "PRESIDENT",
+  "decimals": 18,
+  "totalSupply": 6700000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "ANTHROPIC"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "dex": [
+   {
+    "liquidity_type": "UniV2",
+    "name": "UniswapV2",
+    "liquidity": "0.00184946",
+    "pair": "0x0d7b093c4e0bd5e53e3172b1b0041d87a136c33b"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "14",
+  "holders": [
+   {
+    "address": "0xF69cD0fE7280773BB9B7c93AB68420D07290AFa9",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "2736955906.694380250729193027",
+    "percent": "0.408501",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0d7b093C4e0bd5e53E3172b1b0041D87A136c33B",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1778959250.858752363239467378",
+    "percent": "0.265516",
+    "is_locked": 0
+   },
+   {
+    "address": "0xC1E071855C54c095381f99eE183c2DB651E5Cec9",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "483201498.83902913407275213",
+    "percent": "0.072120",
+    "is_locked": 0
+   },
+   {
+    "address": "0xF80a16f452B48427518Cc50FC8782cfD3abCFfCc",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "197389457.670308181920503797",
+    "percent": "0.029461",
+    "is_locked": 0
+   },
+   {
+    "address": "0x10845CD6E984CAc06E8f30b1edFA0C6A3F339813",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "187354008.472793830204215545",
+    "percent": "0.027963",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcc5D9FfAA95544D18402Be911164CFcEB4C9a14A",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "171432982.467577431356882745",
+    "percent": "0.025587",
+    "is_locked": 0
+   },
+   {
+    "address": "0xaf88fd90a5F88488208B2d96b18B4E020a3a2436",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "169377354.049798097794312444",
+    "percent": "0.025280",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0AC9E6537427216e082E9fF7eCe5B1b1F50c978F",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "166014500.280938915583435081",
+    "percent": "0.024778",
+    "is_locked": 0
+   },
+   {
+    "address": "0xf187D00CdF7A41A410B42CDbEE61b052c23b2cA8",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "163568374.503757041795460986",
+    "percent": "0.024413",
+    "is_locked": 0
+   },
+   {
+    "address": "0xF9Fe7197dE09dCF8a95Bd1429D0bF13eF23fF445",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "161329465.604007348384001026",
+    "percent": "0.024079",
+    "is_locked": 0
+   }
+  ],
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "2",
+  "lp_holders": [
+   {
+    "address": "0x2aC03e14Cfe755426DaAEe0a4994184Ce81482F8",
+    "tag": "",
+    "value": "0.001849456130532588",
+    "is_contract": 1,
+    "balance": "37.977251997955512465",
+    "percent": "1.000000",
+    "NFT_list": null,
+    "is_locked": 0
+   },
+   {
+    "address": "0x0000000000000000000000000000000000000000",
+    "tag": "",
+    "value": "0.000000000000000000",
+    "is_contract": 0,
+    "balance": "0.000000000000001000",
+    "percent": "0.000000",
+    "NFT_list": null,
+    "is_locked": 1
+   }
+  ],
+  "lp_total_supply": "37.97725199795551",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "US PRESIDENT 2028",
+  "token_symbol": "PRESIDENT",
+  "total_supply": "6700000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0xb320764a3283f9703ed1c349f05c8b4548b8963b794191ab9617d93669e7778a",
+  "block": 105454608,
+  "deployer": "0x886a73a5c420b54bfc055df6cbd9686bf171202e",
+  "source": "Blockscout address creator",
+  "tx_from": "0x886a73a5c420b54bfc055df6cbd9686bf171202e",
+  "tx_to": null,
+  "ts": 1793749346
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 0,
+  "geckoterminal_top_usd": 0.00368535626017897
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x0d7b093C4e0bd5e53E3172b1b0041D87A136c33B",
+   "liq_usd": 0,
+   "created": 1793749492000,
+   "url": "https://dexscreener.com/robinhood/0x0d7b093c4e0bd5e53e3172b1b0041d87a136c33b",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 8,
+ "deployer_contracts": [
+  "0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x2ac03e14cfe755426daaee0a4994184ce81482f8?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x2ac03e14cfe755426daaee0a4994184ce81482f8",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x886a73a5c420b54bfc055df6cbd9686bf171202e/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "3553 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 105511434",
+    "https://robinhoodchain.blockscout.com/address/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as ANTHROPIC. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 105511434"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e owner() @ 105511434 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 105511434",
+    "https://robinhoodchain.blockscout.com/address/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0x886a73a5c420b54bfc055df6cbd9686bf171202e holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0x886a73a5c420b54bfc055df6cbd9686bf171202e) @ 105511434",
+    "https://robinhoodchain.blockscout.com/address/0x886a73a5c420b54bfc055df6cbd9686bf171202e"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 2.95% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e/holders",
+    "https://robinhoodchain.blockscout.com/token/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $0 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x0d7b093c4e0bd5e53e3172b1b0041d87a136c33b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0x886a73a5c420b54bfc055df6cbd9686bf171202e (CREATE nonce scan 0..7); tokens launched via factories are not counted. Wallet nonce = 8.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x886a73a5c420b54bfc055df6cbd9686bf171202e",
+    "https://robinhoodchain.blockscout.com/tx/0xb320764a3283f9703ed1c349f05c8b4548b8963b794191ab9617d93669e7778a",
+    "https://robinhoodchain.blockscout.com/address/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x886a73a5c420b54bfc055df6cbd9686bf171202e on Blockscout: block 105454488 (2026-11-03 23:42 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x886a73a5c420b54bfc055df6cbd9686bf171202e",
+    "https://robinhoodchain.blockscout.com/tx/0xb320764a3283f9703ed1c349f05c8b4548b8963b794191ab9617d93669e7778a",
+    "https://robinhoodchain.blockscout.com/tx/0x66ed0234bdc85f98c24838183a755745e89335c65621665296c6edc6276b336b",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x886a73a5c420b54bfc055df6cbd9686bf171202e/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 39,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 12,
+  "unknown": 2
+ },
+ "top_reasons": [
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "flag",
+   "points": 15,
+   "detail": "Top pool liquidity $0 (uniswap) - under $5k.",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x0d7b093c4e0bd5e53e3172b1b0041d87a136c33b",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0x886a73a5c420b54bfc055df6cbd9686bf171202e on Blockscout: block 105454488 (2026-11-03 23:42 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x886a73a5c420b54bfc055df6cbd9686bf171202e",
+    "https://robinhoodchain.blockscout.com/tx/0xb320764a3283f9703ed1c349f05c8b4548b8963b794191ab9617d93669e7778a",
+    "https://robinhoodchain.blockscout.com/tx/0x66ed0234bdc85f98c24838183a755745e89335c65621665296c6edc6276b336b",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0x886a73a5c420b54bfc055df6cbd9686bf171202e/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "US PRESIDENT 2028",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x418a7a71c4b8467bfabe5d1d0a934f60f801af0e",
+  "name": "US PRESIDENT 2028",
+  "symbol": "PRESIDENT",
+  "created_at": "2026-11-03T23:44:52Z",
+  "dex": "uniswap-v2-robinhood",
+  "liq_usd": 242224.4513,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x0d7b093c4e0bd5e53e3172b1b0041d87a136c33b",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

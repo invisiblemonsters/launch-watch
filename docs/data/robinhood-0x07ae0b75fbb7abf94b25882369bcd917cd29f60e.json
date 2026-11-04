@@ -1,0 +1,433 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "robinhood",
+ "chain_id": 4663,
+ "address": "0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+ "scanned_at_utc": "2026-11-04T00:40:51Z",
+ "block": 105487850,
+ "site": "https://x.com/KobeissiLetter/status/2117728009134506332",
+ "post": null,
+ "token": {
+  "name": "A Meme Dog",
+  "symbol": "AMD",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "verified",
+  "err": null,
+  "partial": true,
+  "name": "Token"
+ },
+ "verification": "verified",
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "0",
+  "can_take_back_ownership": "0",
+  "cannot_buy": "0",
+  "cannot_sell_all": "0",
+  "dex": [
+   {
+    "liquidity_type": "UniV3",
+    "name": "UniswapV3",
+    "liquidity": "10794.88118758954244183881",
+    "pool_fee": "0.0005",
+    "pair": "0x23fab89b5b6e292c20dbf2cba100b9e92820279a"
+   },
+   {
+    "liquidity_type": "UniV4",
+    "name": "UniswapV4",
+    "liquidity": "0.64896237603936984152",
+    "pool_manager": "0x8366a39cc670b4001a1121b8f6a443a643e40951",
+    "pool_fee": "0.2",
+    "pair": "0x1b8d1b7699dd85f2db135a00e8aecca1e9a9a0b015222687a44f56b30b980ad2"
+   }
+  ],
+  "external_call": "0",
+  "hidden_owner": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "1",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "lp_holder_count": "1",
+  "lp_holders": [
+   {
+    "address": "0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "tag": "",
+    "value": "18554.08839416306556321558",
+    "is_contract": 0,
+    "balance": "63243.602467729776767115",
+    "percent": "1.000000000000000000",
+    "NFT_list": [
+     {
+      "value": "18554.08839416306556321558",
+      "NFT_id": "1536915",
+      "amount": "63243.602467729776767115",
+      "in_effect": "1",
+      "NFT_percentage": "1.000000000000000000"
+     }
+    ],
+    "is_locked": 0
+   }
+  ],
+  "lp_total_supply": "63243.60246772978",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "0",
+  "slippage_modifiable": "0",
+  "token_name": "A Meme Dog",
+  "token_symbol": "AMD",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": "0"
+ },
+ "creation": {
+  "tx": "0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+  "block": 105452411,
+  "deployer": "0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+  "source": "Blockscout address creator",
+  "tx_from": "0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+  "tx_to": null,
+  "ts": 1793749120
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 50834.77,
+  "geckoterminal_top_usd": 46141.8588
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x23Fab89b5b6e292C20DBf2cBa100B9e92820279a",
+   "liq_usd": 50834.77,
+   "created": 1793749140000,
+   "url": "https://dexscreener.com/robinhood/0x23fab89b5b6e292c20dbf2cba100b9e92820279a",
+   "quote": "WETH"
+  },
+  {
+   "dex": "uniswap",
+   "pair": "0x1b8d1b7699dd85f2db135a00e8aecca1e9a9a0b015222687a44f56b30b980ad2",
+   "liq_usd": 1.01,
+   "created": 1793750836000,
+   "url": "https://dexscreener.com/robinhood/0x1b8d1b7699dd85f2db135a00e8aecca1e9a9a0b015222687a44f56b30b980ad2",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 4,
+ "deployer_contracts": [
+  "0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+ ],
+ "deployer_contracts_blockscout_page1": [
+  "0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+ ],
+ "site_ips": [
+  "162.159.140.229"
+ ],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/4663/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/smart-contracts/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/tokens/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e/holders",
+   "status": 200
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/robinhood/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/robinhood/tokens/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e/pools",
+   "status": 200
+  },
+  {
+   "url": "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984/transactions?sort=block_number&order=asc",
+   "status": 200
+  },
+  {
+   "url": "https://dns.google/resolve?name=x.com&type=A",
+   "status": 200
+  },
+  {
+   "url": "https://rdap.org/domain/x.com",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "1764 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 105487850",
+    "https://robinhoodchain.blockscout.com/address/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "Verified on Blockscout as Token. Sourcify: no match; Blockscout: verified (partial match).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e?tab=contract"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 105487850"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0x07ae0b75fbb7abf94b25882369bcd917cd29f60e owner() @ 105487850 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in verified ABI, runtime bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 105487850",
+    "https://robinhoodchain.blockscout.com/address/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e?tab=contract"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No free sell-simulation service supports Robinhood Chain (honeypot.is chain list).",
+   "evidence": []
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984) @ 105487850",
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "pass",
+   "points": 0,
+   "detail": "Largest non-contract holder has 1.89% of supply.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/api/v2/tokens/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e/holders",
+    "https://robinhoodchain.blockscout.com/token/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e?tab=holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $50,835 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/robinhood/0x23fab89b5b6e292c20dbf2cba100b9e92820279a",
+    "https://api.dexscreener.com/token-pairs/v1/robinhood/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "https://robinhoodchain.blockscout.com/tx/0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+    "eth_getTransactionCount(0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984) @ 105487850 = 4"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "1 live contract(s) created directly by 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 (CREATE nonce scan 0..3); tokens launched via factories are not counted. Wallet nonce = 4.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "https://robinhoodchain.blockscout.com/tx/0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+    "https://robinhoodchain.blockscout.com/address/0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 on Blockscout: block 105452195 (2026-11-03 23:38 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "https://robinhoodchain.blockscout.com/tx/0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+    "https://robinhoodchain.blockscout.com/tx/0x90e1b0c8e4e2877ad544da99b5bf6c37a27d8d3b604342a07c3925f3c9d88ea5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "info",
+   "points": 0,
+   "detail": "x.com -> 162.159.140.229 (shared CDN/PaaS range; IP overlap not meaningful). No watchlist match.",
+   "evidence": [
+    "https://dns.google/resolve?name=x.com&type=A"
+   ]
+  },
+  {
+   "id": "host.domain_age",
+   "group": "host",
+   "title": "Domain age",
+   "status": "pass",
+   "points": 0,
+   "detail": "x.com registered 1993-04-02 (12269 days ago).",
+   "evidence": [
+    "https://rdap.org/domain/x.com"
+   ]
+  }
+ ],
+ "score": 29,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 15,
+  "unknown": 1
+ },
+ "top_reasons": [
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "flag",
+   "points": 12,
+   "detail": "GoPlus LP holders: 0.0% locked or burned; no verified locker contract holds the rest.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/4663?contract_addresses=0x07ae0b75fbb7abf94b25882369bcd917cd29f60e"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 has sent only 4 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "https://robinhoodchain.blockscout.com/tx/0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+    "eth_getTransactionCount(0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984) @ 105487850 = 4"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984 on Blockscout: block 105452195 (2026-11-03 23:38 UTC), 0.0 days before scan.",
+   "evidence": [
+    "https://robinhoodchain.blockscout.com/address/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984",
+    "https://robinhoodchain.blockscout.com/tx/0x214cadff453c4e424f56d231d932736f64a7a32f52c867a3534fa53429621ea5",
+    "https://robinhoodchain.blockscout.com/tx/0x90e1b0c8e4e2877ad544da99b5bf6c37a27d8d3b604342a07c3925f3c9d88ea5",
+    "https://robinhoodchain.blockscout.com/api/v2/addresses/0xcfcf3a0ac3aa331ab419a2b3c9c7fd1dd35b9984/transactions?sort=block_number&order=asc"
+   ]
+  }
+ ],
+ "label": "A Meme Dog",
+ "target": {
+  "chain": "robinhood",
+  "address": "0x07ae0b75fbb7abf94b25882369bcd917cd29f60e",
+  "name": "A Meme Dog",
+  "symbol": "AMD",
+  "created_at": "2026-11-04T00:07:16Z",
+  "dex": "uniswap-v4-robinhood",
+  "liq_usd": 0.9061,
+  "pool_url": "https://www.geckoterminal.com/robinhood/pools/0x1b8d1b7699dd85f2db135a00e8aecca1e9a9a0b015222687a44f56b30b980ad2",
+  "sources": [
+   "dexscreener:token-profiles",
+   "geckoterminal:new_pools"
+  ],
+  "site": "https://x.com/KobeissiLetter/status/2117728009134506332",
+  "x_profile": "https://x.com/jimcramer/status/2117728399267639668",
+  "post": null
+ }
+}

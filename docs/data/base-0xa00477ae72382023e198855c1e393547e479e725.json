@@ -1,0 +1,454 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0xa00477ae72382023e198855c1e393547e479e725",
+ "scanned_at_utc": "2026-11-03T22:14:27Z",
+ "block": 53477360,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "Trump Oil Reserve\ud83d\udd25",
+  "symbol": "TOR",
+  "decimals": 18,
+  "totalSupply": 1000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "verified",
+ "verification_clone_of": {
+  "address": "0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+  "state": "verified",
+  "name": "ContentCoin",
+  "verified_on": [
+   "Sourcify",
+   "Blockscout"
+  ]
+ },
+ "owner": null,
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xeffaef2142ab9646427feecdcb035d35a29428e6",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "11",
+  "holders": [
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "989953890.226860571174154673",
+    "percent": "0.989953890226860571",
+    "is_locked": 0
+   },
+   {
+    "address": "0xcaeb3ce3143852f703b04f8229ec056170931a13",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "10000000",
+    "percent": "0.010000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x6c71fe45b89b0257b76c406b3fcb333b43f56dce",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "45183.289981050115401204",
+    "percent": "0.000045183289981050",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2dc442ba1f176eb787da6e2343bfc770997ae088",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "139.307841931460002771",
+    "percent": "0.000000139307841931",
+    "is_locked": 0
+   },
+   {
+    "address": "0xa65cfb929ecaad2e2d5924dba9d00221222056cc",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "139.02421965190213797",
+    "percent": "0.000000139024219651",
+    "is_locked": 0
+   },
+   {
+    "address": "0xe4044c24e6c967dd29685a04b7dd0c427c4efbfc",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "138.240631781133207068",
+    "percent": "0.000000138240631781",
+    "is_locked": 0
+   },
+   {
+    "address": "0x2af306cb076203ffcb090633862e3e850484a8ef",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "135.205377559589826541",
+    "percent": "0.000000135205377559",
+    "is_locked": 0
+   },
+   {
+    "address": "0x5d0cd71b95515b2a86c0d93ba1f51cbda6bba2ef",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "133.769245800399706074",
+    "percent": "0.000000133769245800",
+    "is_locked": 0
+   },
+   {
+    "address": "0x95d8ffc87754dba473bdeb9bc8dd97b68bd60652",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "126.064603217352608998",
+    "percent": "0.000000126064603217",
+    "is_locked": 0
+   },
+   {
+    "address": "0x0b55d05072ed0735ca8967b22569a7fc9e0d552d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "114.871238436872954655",
+    "percent": "0.000000114871238436",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "0",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "Trump Oil Reserve\ud83d\udd25",
+  "token_symbol": "TOR",
+  "total_supply": "1000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "0",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": null,
+  "block": null,
+  "deployer": "0xeffaef2142ab9646427feecdcb035d35a29428e6",
+  "source": "GoPlus creator_address"
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 2408780.71,
+  "geckoterminal_top_usd": 2440162.9708
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x6892634fec777f2480fa2b0af616434d50f9e1ca2332ec721f7db5dc964d76c1",
+   "liq_usd": 2408780.71,
+   "created": 1793738133000,
+   "url": "https://dexscreener.com/base/0x6892634fec777f2480fa2b0af616434d50f9e1ca2332ec721f7db5dc964d76c1",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 5,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0xa00477ae72382023e198855c1e393547e479e725?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0xa00477ae72382023e198855c1e393547e479e725",
+   "status": 200
+  },
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?fields=abi,compilation",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xa00477ae72382023e198855c1e393547e479e725",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa00477ae72382023e198855c1e393547e479e725",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0xa00477ae72382023e198855c1e393547e479e725&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0xa00477ae72382023e198855c1e393547e479e725/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0xa00477ae72382023e198855c1e393547e479e725",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0xa00477ae72382023e198855c1e393547e479e725/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xeffaef2142ab9646427feecdcb035d35a29428e6/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "45 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53477360",
+    "https://base.blockscout.com/address/0xa00477ae72382023e198855c1e393547e479e725"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "pass",
+   "points": 0,
+   "detail": "EIP-1167 clone with no logic of its own; every call runs implementation ContentCoin 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13, which is verified on Sourcify and Blockscout. The clone itself: Sourcify no match; Blockscout not verified (Blockscout lists the clone as verified via its implementation).",
+   "evidence": [
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13?tab=contract",
+    "https://base.blockscout.com/address/0xa00477ae72382023e198855c1e393547e479e725?tab=contract",
+    "https://base.blockscout.com/api/v2/addresses/0xa00477ae72382023e198855c1e393547e479e725"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "info",
+   "points": 0,
+   "detail": "EIP-1167-style minimal proxy (clone) of 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13; clones are NOT upgradeable.",
+   "evidence": [
+    "bytecode is a minimal-proxy pattern (45 bytes) delegating to 0x5dbd43785954d43c1643a0caf2ecef9e0056ff13",
+    "https://base.blockscout.com/address/0x5dbd43785954d43c1643a0caf2ecef9e0056ff13"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "info",
+   "points": 0,
+   "detail": "No owner()/getOwner() function answered (no Ownable-style owner). Role-based admin may still exist.",
+   "evidence": [
+    "eth_call 0xa00477ae72382023e198855c1e393547e479e725 owner() @ 53477360 -> revert/empty"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in implementation ABI, runtime bytecode, implementation bytecode (exact-signature list of 64 + ABI name patterns).",
+   "evidence": [
+    "selector scan @ 53477360"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "pass",
+   "points": 0,
+   "detail": "GoPlus: no honeypot/mint/pause/blacklist/hidden-owner flags.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0xa00477ae72382023e198855c1e393547e479e725"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0xa00477ae72382023e198855c1e393547e479e725&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xeffaef2142ab9646427feecdcb035d35a29428e6 holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xeffaef2142ab9646427feecdcb035d35a29428e6) @ 53477360",
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xa00477ae72382023e198855c1e393547e479e725/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $2,408,781 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x6892634fec777f2480fa2b0af616434d50f9e1ca2332ec721f7db5dc964d76c1",
+    "https://api.dexscreener.com/token-pairs/v1/base/0xa00477ae72382023e198855c1e393547e479e725"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x6892634fec\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x6892634fec777f2480fa2b0af616434d50f9e1ca2332ec721f7db5dc964d76c1"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "deployer 0xeffaef2142ab9646427feecdcb035d35a29428e6 has sent only 5 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6",
+    "eth_getTransactionCount(0xeffaef2142ab9646427feecdcb035d35a29428e6) @ 53477360 = 5"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xeffaef2142ab9646427feecdcb035d35a29428e6 (CREATE nonce scan 0..4); tokens launched via factories are not counted. Wallet nonce = 5.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "First outgoing tx from 0xeffaef2142ab9646427feecdcb035d35a29428e6 in block 53474393 (2026-11-03 20:35 UTC), 0.1 days ago.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6",
+    "https://base.blockscout.com/block/53474393",
+    "archive eth_getTransactionCount binary search"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 26,
+ "band": "MODERATE",
+ "coverage": {
+  "run": 11,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "deployer 0xeffaef2142ab9646427feecdcb035d35a29428e6 has sent only 5 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6",
+    "eth_getTransactionCount(0xeffaef2142ab9646427feecdcb035d35a29428e6) @ 53477360 = 5"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "First outgoing tx from 0xeffaef2142ab9646427feecdcb035d35a29428e6 in block 53474393 (2026-11-03 20:35 UTC), 0.1 days ago.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xeffaef2142ab9646427feecdcb035d35a29428e6",
+    "https://base.blockscout.com/block/53474393",
+    "archive eth_getTransactionCount binary search"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0xa00477ae72382023e198855c1e393547e479e725/holders"
+   ]
+  }
+ ],
+ "label": "Trump Oil Reserve\ud83d\udd25",
+ "target": {
+  "chain": "base",
+  "address": "0xa00477ae72382023e198855c1e393547e479e725",
+  "name": "Trump Oil Reserve\ud83d\udd25",
+  "symbol": "TOR",
+  "created_at": "2026-11-03T20:35:33Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 2434853.5963,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x6892634fec777f2480fa2b0af616434d50f9e1ca2332ec721f7db5dc964d76c1",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}

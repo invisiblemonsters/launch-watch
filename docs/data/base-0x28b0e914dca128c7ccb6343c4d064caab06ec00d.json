@@ -1,0 +1,444 @@
+{
+ "tool": "Metatron Launch Watch",
+ "version": "0.2.0",
+ "chain": "base",
+ "chain_id": 8453,
+ "address": "0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+ "scanned_at_utc": "2026-11-04T01:20:33Z",
+ "block": 53482943,
+ "site": null,
+ "post": null,
+ "token": {
+  "name": "NAFF",
+  "symbol": "NAFF",
+  "decimals": 18,
+  "totalSupply": 10000000000000000000000000000
+ },
+ "sourcify": {
+  "match": null,
+  "err": "HTTP 404"
+ },
+ "blockscout": {
+  "status": "not verified",
+  "err": null
+ },
+ "verification": "not_verified",
+ "owner": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+ "goplus": {
+  "anti_whale_modifiable": "0",
+  "buy_tax": "",
+  "cannot_buy": "0",
+  "can_take_back_ownership": "0",
+  "creator_address": "0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+  "creator_balance": "0",
+  "creator_percent": "0.000000",
+  "external_call": "0",
+  "hidden_owner": "0",
+  "holder_count": "158",
+  "holders": [
+   {
+    "address": "0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "8000000000",
+    "percent": "0.800000000000000000",
+    "is_locked": 0
+   },
+   {
+    "address": "0x498581ff718922c3f8e6a244956af099b2652b2b",
+    "tag": "",
+    "is_contract": 1,
+    "balance": "1499630017.453029512912325512",
+    "percent": "0.149963001745302951",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9c89e60f783678ff331432c449f5d57850dab95d",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6378908.103156753161040554",
+    "percent": "0.000637890810315675",
+    "is_locked": 0
+   },
+   {
+    "address": "0x8bc18653f0e5085a5d456282029fc81983e864f7",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6358012.748660827673744824",
+    "percent": "0.000635801274866082",
+    "is_locked": 0
+   },
+   {
+    "address": "0x3792da02bb08f428810d09874c59176ec345329c",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6355402.436683798212870342",
+    "percent": "0.000635540243668379",
+    "is_locked": 0
+   },
+   {
+    "address": "0xff1ce2a55f18d6abdb915b5215a62c2e5aee8dbd",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6283895.318928818745269387",
+    "percent": "0.000628389531892881",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9986341a7c008f3bebde36b0e3d11d451bf13d32",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6256294.162974662401589213",
+    "percent": "0.000625629416297466",
+    "is_locked": 0
+   },
+   {
+    "address": "0x87421d86b73e1cd4032d8ed9cc252663aa6505c9",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6225497.625117590683390276",
+    "percent": "0.000622549762511759",
+    "is_locked": 0
+   },
+   {
+    "address": "0x9177b18f7d180be448614cff6422b183aa7a0eef",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6093104.659031406795884534",
+    "percent": "0.000609310465903140",
+    "is_locked": 0
+   },
+   {
+    "address": "0x45625603b5e24f2a8786a128985ab4bb3e8bc8f8",
+    "tag": "",
+    "is_contract": 0,
+    "balance": "6076767.706485515514894242",
+    "percent": "0.000607676770648551",
+    "is_locked": 0
+   }
+  ],
+  "honeypot_with_same_creator": "0",
+  "is_anti_whale": "0",
+  "is_blacklisted": "0",
+  "is_honeypot": "0",
+  "is_in_dex": "0",
+  "is_mintable": "1",
+  "is_open_source": "1",
+  "is_proxy": "0",
+  "is_whitelisted": "0",
+  "owner_address": "0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12",
+  "owner_balance": "0",
+  "owner_change_balance": "0",
+  "owner_percent": "0.0",
+  "personal_slippage_modifiable": "0",
+  "selfdestruct": "0",
+  "sell_tax": "",
+  "slippage_modifiable": "0",
+  "token_name": "NAFF",
+  "token_symbol": "NAFF",
+  "total_supply": "10000000000",
+  "trading_cooldown": "0",
+  "transfer_pausable": "1",
+  "transfer_tax": ""
+ },
+ "creation": {
+  "tx": "0x6d3eb91dc676945ee4d7fa0c74211354af4b652323829abc4f2676c8689b922f",
+  "block": 53479775,
+  "deployer": "0xf0b5141dd9096254b2ca624dff26024f46087229",
+  "source": "Blockscout address creator",
+  "tx_from": "0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+  "tx_to": "0x47102c3b94f30499c64be46b217d659c336c2996",
+  "ts": 1793748897
+ },
+ "liquidity_sources": {
+  "dexscreener_top_usd": 29417788.38,
+  "geckoterminal_top_usd": 29386497.5546
+ },
+ "pairs": [
+  {
+   "dex": "uniswap",
+   "pair": "0x7fc6932de688c5172e2f8f6355b7dc8b50c149cc9b7f8beaaa940db3542a02fd",
+   "liq_usd": 29417788.38,
+   "created": 1793748897000,
+   "url": "https://dexscreener.com/base/0x7fc6932de688c5172e2f8f6355b7dc8b50c149cc9b7f8beaaa940db3542a02fd",
+   "quote": "WETH"
+  }
+ ],
+ "launcher_nonce": 1,
+ "deployer_contracts": [],
+ "http_log": [
+  {
+   "url": "https://sourcify.dev/server/v2/contract/8453/0x28b0e914dca128c7ccb6343c4d064caab06ec00d?fields=abi,deployment,proxyResolution,compilation",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/smart-contracts/0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+   "status": 200
+  },
+  {
+   "url": "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+   "status": 200
+  },
+  {
+   "url": "https://api.honeypot.is/v2/IsHoneypot?address=0x28b0e914dca128c7ccb6343c4d064caab06ec00d&chainID=8453",
+   "status": 404
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/tokens/0x28b0e914dca128c7ccb6343c4d064caab06ec00d/holders",
+   "status": 404
+  },
+  {
+   "url": "https://api.dexscreener.com/token-pairs/v1/base/0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+   "status": 200
+  },
+  {
+   "url": "https://api.geckoterminal.com/api/v2/networks/base/tokens/0x28b0e914dca128c7ccb6343c4d064caab06ec00d/pools",
+   "status": 200
+  },
+  {
+   "url": "https://base.blockscout.com/api/v2/addresses/0xce9c3272ceba8df7e93b392a4534e49c877ceeec/transactions?sort=block_number&order=asc",
+   "status": 200
+  }
+ ],
+ "rpc_pin_fallbacks_to_latest": 0,
+ "checks": [
+  {
+   "id": "code.exists",
+   "group": "code",
+   "title": "Contract code present",
+   "status": "info",
+   "points": 0,
+   "detail": "10143 bytes of runtime code.",
+   "evidence": [
+    "eth_getCode @ block 53482943",
+    "https://base.blockscout.com/address/0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  },
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+    "https://base.blockscout.com/address/0x28b0e914dca128c7ccb6343c4d064caab06ec00d?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  },
+  {
+   "id": "proxy.type",
+   "group": "proxy",
+   "title": "Proxy / upgradeability",
+   "status": "pass",
+   "points": 0,
+   "detail": "No EIP-1967 impl/beacon slot set, not an EIP-1167 clone.",
+   "evidence": [
+    "eth_getStorageAt slots 1967 impl/admin/beacon @ 53482943"
+   ]
+  },
+  {
+   "id": "owner.owner",
+   "group": "owner",
+   "title": "Owner / admin",
+   "status": "flag",
+   "points": 3,
+   "detail": "owner() = 0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12, a contract (multisig/timelock/factory - not further classified).",
+   "evidence": [
+    "eth_call 0x28b0e914dca128c7ccb6343c4d064caab06ec00d owner() @ 53482943",
+    "https://base.blockscout.com/address/0x660eaaedebc968f8f3694354fa8ec0b4c5ba8d12"
+   ]
+  },
+  {
+   "id": "fn.scan",
+   "group": "fn",
+   "title": "Privileged functions",
+   "status": "pass",
+   "points": 0,
+   "detail": "No mint/pause/blacklist/fee-setter/withdraw/upgrade selectors found in runtime bytecode (exact-signature list of 64 + ABI name patterns). Note: bytecode-only scan matches exact common signatures; renamed functions can be missed.",
+   "evidence": [
+    "selector scan @ 53482943"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  },
+  {
+   "id": "trade.sim",
+   "group": "trade",
+   "title": "Buy/sell simulation",
+   "status": "unknown",
+   "points": 3,
+   "detail": "honeypot.is could not simulate (HTTP 404).",
+   "evidence": [
+    "https://api.honeypot.is/v2/IsHoneypot?address=0x28b0e914dca128c7ccb6343c4d064caab06ec00d&chainID=8453"
+   ]
+  },
+  {
+   "id": "holders.launcher",
+   "group": "holders",
+   "title": "Launcher wallet supply share",
+   "status": "pass",
+   "points": 0,
+   "detail": "Launch wallet 0xce9c3272ceba8df7e93b392a4534e49c877ceeec holds 0.00% of supply.",
+   "evidence": [
+    "eth_call balanceOf(0xce9c3272ceba8df7e93b392a4534e49c877ceeec) @ 53482943",
+    "https://base.blockscout.com/address/0xce9c3272ceba8df7e93b392a4534e49c877ceeec"
+   ]
+  },
+  {
+   "id": "holders.concentration",
+   "group": "holders",
+   "title": "Holder concentration",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Blockscout holders unavailable (HTTP 404).",
+   "evidence": [
+    "https://base.blockscout.com/api/v2/tokens/0x28b0e914dca128c7ccb6343c4d064caab06ec00d/holders"
+   ]
+  },
+  {
+   "id": "liq.pool",
+   "group": "liq",
+   "title": "DEX liquidity",
+   "status": "pass",
+   "points": 0,
+   "detail": "Top pool liquidity $29,417,788 (uniswap).",
+   "evidence": [
+    "https://dexscreener.com/base/0x7fc6932de688c5172e2f8f6355b7dc8b50c149cc9b7f8beaaa940db3542a02fd",
+    "https://api.dexscreener.com/token-pairs/v1/base/0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  },
+  {
+   "id": "liq.lock",
+   "group": "liq",
+   "title": "LP lock / burn",
+   "status": "unknown",
+   "points": 3,
+   "detail": "Pool is uniswap (v4 pool id 0x7fc6932de6\u2026): liquidity sits in position NFTs; lock status not readable from free sources.",
+   "evidence": [
+    "https://dexscreener.com/base/0x7fc6932de688c5172e2f8f6355b7dc8b50c149cc9b7f8beaaa940db3542a02fd"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xce9c3272ceba8df7e93b392a4534e49c877ceeec has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+    "https://base.blockscout.com/tx/0x6d3eb91dc676945ee4d7fa0c74211354af4b652323829abc4f2676c8689b922f",
+    "eth_getTransactionCount(0xce9c3272ceba8df7e93b392a4534e49c877ceeec) @ 53482943 = 1"
+   ]
+  },
+  {
+   "id": "deployer.contracts",
+   "group": "deployer",
+   "title": "Contracts deployed by this wallet",
+   "status": "info",
+   "points": 0,
+   "detail": "0 live contract(s) created directly by 0xce9c3272ceba8df7e93b392a4534e49c877ceeec (CREATE nonce scan 0..0); tokens launched via factories are not counted. Wallet nonce = 1.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+    "https://base.blockscout.com/tx/0x6d3eb91dc676945ee4d7fa0c74211354af4b652323829abc4f2676c8689b922f"
+   ]
+  },
+  {
+   "id": "deployer.age",
+   "group": "deployer",
+   "title": "Deployer wallet age",
+   "status": "flag",
+   "points": 6,
+   "detail": "Oldest transaction of 0xce9c3272ceba8df7e93b392a4534e49c877ceeec on Blockscout: block 53479775 (2026-11-03 23:34 UTC), 0.1 days before scan.",
+   "evidence": [
+    "https://base.blockscout.com/address/0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+    "https://base.blockscout.com/tx/0x6d3eb91dc676945ee4d7fa0c74211354af4b652323829abc4f2676c8689b922f",
+    "https://base.blockscout.com/api/v2/addresses/0xce9c3272ceba8df7e93b392a4534e49c877ceeec/transactions?sort=block_number&order=asc"
+   ]
+  },
+  {
+   "id": "host.ip",
+   "group": "host",
+   "title": "Site hosting overlap",
+   "status": "unknown",
+   "points": 3,
+   "detail": "No project website known (none passed, none on DexScreener).",
+   "evidence": []
+  }
+ ],
+ "score": 52,
+ "band": "ELEVATED",
+ "coverage": {
+  "run": 11,
+  "unknown": 4
+ },
+ "top_reasons": [
+  {
+   "id": "verify.source",
+   "group": "verify",
+   "title": "Source verified",
+   "status": "flag",
+   "points": 15,
+   "detail": "Not verified on Sourcify (no match) and not verified on Blockscout (both lookups answered).",
+   "evidence": [
+    "https://sourcify.dev/server/v2/contract/8453/0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+    "https://base.blockscout.com/address/0x28b0e914dca128c7ccb6343c4d064caab06ec00d?tab=contract",
+    "https://base.blockscout.com/api/v2/smart-contracts/0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  },
+  {
+   "id": "deployer.fresh",
+   "group": "deployer",
+   "title": "Deployer wallet history",
+   "status": "flag",
+   "points": 8,
+   "detail": "launch-tx sender 0xce9c3272ceba8df7e93b392a4534e49c877ceeec has sent only 1 transaction(s) in total (fresh wallet).",
+   "evidence": [
+    "https://base.blockscout.com/address/0xce9c3272ceba8df7e93b392a4534e49c877ceeec",
+    "https://base.blockscout.com/tx/0x6d3eb91dc676945ee4d7fa0c74211354af4b652323829abc4f2676c8689b922f",
+    "eth_getTransactionCount(0xce9c3272ceba8df7e93b392a4534e49c877ceeec) @ 53482943 = 1"
+   ]
+  },
+  {
+   "id": "trade.goplus",
+   "group": "trade",
+   "title": "GoPlus token security",
+   "status": "flag",
+   "points": 8,
+   "detail": "GoPlus flags: transfer_pausable, is_mintable.",
+   "evidence": [
+    "https://api.gopluslabs.io/api/v1/token_security/8453?contract_addresses=0x28b0e914dca128c7ccb6343c4d064caab06ec00d"
+   ]
+  }
+ ],
+ "label": "NAFF",
+ "target": {
+  "chain": "base",
+  "address": "0x28b0e914dca128c7ccb6343c4d064caab06ec00d",
+  "name": "NAFF",
+  "symbol": "NAFF",
+  "created_at": "2026-11-03T23:34:57Z",
+  "dex": "uniswap-v4-base",
+  "liq_usd": 29391409.3504,
+  "pool_url": "https://www.geckoterminal.com/base/pools/0x7fc6932de688c5172e2f8f6355b7dc8b50c149cc9b7f8beaaa940db3542a02fd",
+  "sources": [
+   "geckoterminal:new_pools"
+  ],
+  "post": null
+ }
+}
